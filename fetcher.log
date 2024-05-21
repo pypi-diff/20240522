@@ -1877,3 +1877,72 @@
 [2024-05-22 01:35:48] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.9-py3-none-any.whl.zip]
 [2024-05-22 01:35:48] INFO root fetch - main [MainThread]: End processing [epyk]: success
 [2024-05-22 01:35:48] INFO root fetch - main [MainThread]: Store serial: [23315134]
+[2024-05-22 01:37:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315134]
+[2024-05-22 01:37:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 01:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: formant
+[2024-05-22 01:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: greenery
+[2024-05-22 01:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cs.app.playon
+[2024-05-22 01:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brainchain
+[2024-05-22 01:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: logyca-postgres
+[2024-05-22 01:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ts-tokenizer
+[2024-05-22 01:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: beta9
+[2024-05-22 01:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: awsecr
+[2024-05-22 01:37:58] INFO root fetch - processPackages [beta9]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-22 01:37:58] INFO root fetch - processPackages [logyca-postgres]: New version: [0.1.0] Old Version: [0.0.1rc1]
+[2024-05-22 01:37:58] INFO root fetch - processPackages [brainchain]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-05-22 01:37:58] INFO root fetch - processPackages [beta9]: Downloading https://files.pythonhosted.org/packages/ef/cc/70806f6e01d8b8e311af6e2e9d3a1336489db4b9009f10e521e2128084e7/beta9-0.1.7.tar.gz
+[2024-05-22 01:37:58] INFO root fetch - processPackages [greenery]: New version: [4.2.1] Old Version: [4.2.0]
+[2024-05-22 01:37:58] WARNING root fetch - processPackages [ts-tokenizer]: Skipping, unable to determine old version
+[2024-05-22 01:37:58] INFO root fetch - main [MainThread]: End processing [ts-tokenizer] error
+[2024-05-22 01:37:58] INFO root fetch - processPackages [brainchain]: Downloading https://files.pythonhosted.org/packages/f5/7a/12041c3a72a43e0952cd511d26578da09f651189be377ef8dfceea39a991/brainchain-0.6.6.tar.gz
+[2024-05-22 01:37:58] INFO root fetch - processPackages [cs.app.playon]: New version: [20240522] Old Version: [20240316]
+[2024-05-22 01:37:58] INFO root fetch - processPackages [formant]: New version: [1.99.25] Old Version: [1.99.10]
+[2024-05-22 01:37:58] INFO root fetch - processPackages [awsecr]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-22 01:37:58] INFO root fetch - processPackages [logyca-postgres]: Downloading https://files.pythonhosted.org/packages/9a/33/989ffb8aceda6304ff2f6972fae2671ea1339e55c3a30acbbd314ec0fd48/logyca_postgres-0.0.1rc1.tar.gz
+[2024-05-22 01:37:58] INFO root fetch - processPackages [greenery]: Downloading https://files.pythonhosted.org/packages/89/b0/84d6193bb782f4a67bcfe9679de306eeb3d7ca56c4c4b34a52d54f82a98d/greenery-4.2.0.tar.gz
+[2024-05-22 01:37:58] INFO root fetch - processPackages [brainchain]: Downloading https://files.pythonhosted.org/packages/32/c9/802b770e66cf99a89d751d28b9942ce4161c48566a5d53b911ee8792ddc3/brainchain-0.6.7.tar.gz
+[2024-05-22 01:37:58] INFO root fetch - processPackages [cs.app.playon]: Downloading https://files.pythonhosted.org/packages/10/54/7ccc6f0584b3257ada575e9dc9e7382582cde29e72e032a67cb1a7ccaae3/cs.app.playon-20240316.tar.gz
+[2024-05-22 01:37:58] INFO root fetch - processPackages [beta9]: Downloading https://files.pythonhosted.org/packages/11/67/b604fdb1907c1ee8dda9654212239b97efe74c015aa742cfe9806173d4d3/beta9-0.1.8.tar.gz
+[2024-05-22 01:37:58] INFO root fetch - processPackages [formant]: Downloading https://files.pythonhosted.org/packages/b4/ae/48e0e0cc421f59b739a0933ff541c564d705ba0f03ab53b6ad242e88d6dd/formant-1.99.10.tar.gz
+[2024-05-22 01:37:58] INFO root fetch - processPackages [awsecr]: Downloading https://files.pythonhosted.org/packages/d0/06/88be602b1e2851ed6ac975cdf5f7283c2159d4de63e4e71ce5624da57c46/awsecr-0.5.1.tar.gz
+[2024-05-22 01:37:59] INFO root fetch - processPackages [brainchain]: executing diffoscope
+[2024-05-22 01:37:59] INFO root fetch - processPackages [brainchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainchain-0.6.6.tar.gz tmp/brainchain-0.6.7.tar.gz --markdown 20240522/b/brainchain/0.6.6-0.6.7/README.md --exclude *.pyd
+[2024-05-22 01:37:59] INFO root fetch - processPackages [beta9]: executing diffoscope
+[2024-05-22 01:37:59] INFO root fetch - processPackages [beta9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beta9-0.1.7.tar.gz tmp/beta9-0.1.8.tar.gz --markdown 20240522/b/beta9/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-22 01:37:59] INFO root fetch - processPackages [logyca-postgres]: Downloading https://files.pythonhosted.org/packages/fe/f5/fd8822e3b4ac14c26284ee93e72b1c5d252cbaefa15fd2b374149d766278/logyca_postgres-0.1.0.tar.gz
+[2024-05-22 01:37:59] INFO root fetch - processPackages [greenery]: Downloading https://files.pythonhosted.org/packages/15/2a/dcd4c31e52a61af6e5e5c59085ac567c09f437aa5c95494742e99b0c71cb/greenery-4.2.1.tar.gz
+[2024-05-22 01:37:59] INFO root fetch - processPackages [cs.app.playon]: Downloading https://files.pythonhosted.org/packages/08/41/42249b816aedc061cdd211ff8ae2c47e1097e3f8e324c479064735cea86b/cs.app.playon-20240522.tar.gz
+[2024-05-22 01:37:59] INFO root fetch - processPackages [logyca-postgres]: executing diffoscope
+[2024-05-22 01:37:59] INFO root fetch - processPackages [logyca-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logyca_postgres-0.0.1rc1.tar.gz tmp/logyca_postgres-0.1.0.tar.gz --markdown 20240522/l/logyca-postgres/0.0.1rc1-0.1.0/README.md --exclude *.pyd
+[2024-05-22 01:37:59] INFO root fetch - processPackages [awsecr]: Downloading https://files.pythonhosted.org/packages/c9/9e/1d018e1b15db3d41f6ee3375d3a180ddef253921a98e60348c542ca74c1e/awsecr-0.5.2.tar.gz
+[2024-05-22 01:37:59] INFO root fetch - processPackages [formant]: Downloading https://files.pythonhosted.org/packages/0f/87/d41a560174ff1aede53afa1480b906376d1d5d3f7263147c18f90dda6c0f/formant-1.99.25.tar.gz
+[2024-05-22 01:37:59] INFO root fetch - processPackages [cs.app.playon]: executing diffoscope
+[2024-05-22 01:37:59] INFO root fetch - processPackages [cs.app.playon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.app.playon-20240316.tar.gz tmp/cs.app.playon-20240522.tar.gz --markdown 20240522/c/cs.app.playon/20240316-20240522/README.md --exclude *.pyd
+[2024-05-22 01:37:59] INFO root fetch - processPackages [greenery]: executing diffoscope
+[2024-05-22 01:37:59] INFO root fetch - processPackages [greenery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/greenery-4.2.0.tar.gz tmp/greenery-4.2.1.tar.gz --markdown 20240522/g/greenery/4.2.0-4.2.1/README.md --exclude *.pyd
+[2024-05-22 01:37:59] INFO root fetch - processPackages [awsecr]: executing diffoscope
+[2024-05-22 01:37:59] INFO root fetch - processPackages [awsecr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsecr-0.5.1.tar.gz tmp/awsecr-0.5.2.tar.gz --markdown 20240522/a/awsecr/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-22 01:37:59] INFO root fetch - processPackages [formant]: executing diffoscope
+[2024-05-22 01:37:59] INFO root fetch - processPackages [formant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formant-1.99.10.tar.gz tmp/formant-1.99.25.tar.gz --markdown 20240522/f/formant/1.99.10-1.99.25/README.md --exclude *.pyd
+[2024-05-22 01:37:59] INFO root fetch - processPackages [brainchain]: Remove: archive file [/home/abi/fetcher/tmp/brainchain-0.6.6.tar.gz]
+[2024-05-22 01:37:59] INFO root fetch - processPackages [brainchain]: Remove: archive file [/home/abi/fetcher/tmp/brainchain-0.6.7.tar.gz]
+[2024-05-22 01:37:59] INFO root fetch - main [MainThread]: End processing [brainchain]: success
+[2024-05-22 01:37:59] INFO root fetch - processPackages [logyca-postgres]: Remove: archive file [/home/abi/fetcher/tmp/logyca_postgres-0.0.1rc1.tar.gz]
+[2024-05-22 01:37:59] INFO root fetch - processPackages [logyca-postgres]: Remove: archive file [/home/abi/fetcher/tmp/logyca_postgres-0.1.0.tar.gz]
+[2024-05-22 01:37:59] INFO root fetch - main [MainThread]: End processing [logyca-postgres]: success
+[2024-05-22 01:38:00] INFO root fetch - processPackages [beta9]: Remove: archive file [/home/abi/fetcher/tmp/beta9-0.1.7.tar.gz]
+[2024-05-22 01:38:00] INFO root fetch - processPackages [beta9]: Remove: archive file [/home/abi/fetcher/tmp/beta9-0.1.8.tar.gz]
+[2024-05-22 01:38:00] INFO root fetch - main [MainThread]: End processing [beta9]: success
+[2024-05-22 01:38:00] INFO root fetch - processPackages [awsecr]: Remove: archive file [/home/abi/fetcher/tmp/awsecr-0.5.1.tar.gz]
+[2024-05-22 01:38:00] INFO root fetch - processPackages [awsecr]: Remove: archive file [/home/abi/fetcher/tmp/awsecr-0.5.2.tar.gz]
+[2024-05-22 01:38:00] INFO root fetch - main [MainThread]: End processing [awsecr]: success
+[2024-05-22 01:38:00] INFO root fetch - processPackages [cs.app.playon]: Remove: archive file [/home/abi/fetcher/tmp/cs.app.playon-20240316.tar.gz]
+[2024-05-22 01:38:00] INFO root fetch - processPackages [cs.app.playon]: Remove: archive file [/home/abi/fetcher/tmp/cs.app.playon-20240522.tar.gz]
+[2024-05-22 01:38:00] INFO root fetch - main [MainThread]: End processing [cs.app.playon]: success
+[2024-05-22 01:38:00] INFO root fetch - processPackages [greenery]: Remove: archive file [/home/abi/fetcher/tmp/greenery-4.2.0.tar.gz]
+[2024-05-22 01:38:00] INFO root fetch - processPackages [greenery]: Remove: archive file [/home/abi/fetcher/tmp/greenery-4.2.1.tar.gz]
+[2024-05-22 01:38:00] INFO root fetch - main [MainThread]: End processing [greenery]: success
+[2024-05-22 01:38:00] INFO root fetch - processPackages [formant]: Remove: archive file [/home/abi/fetcher/tmp/formant-1.99.10.tar.gz]
+[2024-05-22 01:38:00] INFO root fetch - processPackages [formant]: Remove: archive file [/home/abi/fetcher/tmp/formant-1.99.25.tar.gz]
+[2024-05-22 01:38:00] INFO root fetch - main [MainThread]: End processing [formant]: success
+[2024-05-22 01:38:00] INFO root fetch - main [MainThread]: Store serial: [23315175]

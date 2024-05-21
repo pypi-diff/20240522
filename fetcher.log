@@ -1689,3 +1689,42 @@
 [2024-05-22 01:27:02] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.9.1.tar.gz]
 [2024-05-22 01:27:02] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
 [2024-05-22 01:27:02] INFO root fetch - main [MainThread]: Store serial: [23315071]
+[2024-05-22 01:29:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315071]
+[2024-05-22 01:29:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 01:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cs.fs
+[2024-05-22 01:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geo-roughness-tool
+[2024-05-22 01:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openinference-instrumentation-dspy
+[2024-05-22 01:29:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: galileo-core
+[2024-05-22 01:29:10] INFO root fetch - processPackages [geo-roughness-tool]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-22 01:29:10] INFO root fetch - processPackages [galileo-core]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-22 01:29:11] INFO root fetch - processPackages [cs.fs]: New version: [20240522] Old Version: [20240422]
+[2024-05-22 01:29:11] INFO root fetch - processPackages [galileo-core]: Downloading https://files.pythonhosted.org/packages/6f/f0/5826385abd4248ad65f773e78c48ef383421e75e5cd4f97c46e0072ad4dd/galileo_core-0.9.2.tar.gz
+[2024-05-22 01:29:11] INFO root fetch - processPackages [openinference-instrumentation-dspy]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 01:29:11] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/d3/55/b8a31e9326f85d1f219acbf29f46b419cf242b9d2545485c27d2fce6656f/geo_roughness_tool-0.1.1.tar.gz
+[2024-05-22 01:29:11] INFO root fetch - processPackages [galileo-core]: Downloading https://files.pythonhosted.org/packages/f0/c7/e023c318f23c58eb11b4ed5e1d891b23890a3438a17d3d1648dbecbc855d/galileo_core-0.9.3.tar.gz
+[2024-05-22 01:29:11] INFO root fetch - processPackages [cs.fs]: Downloading https://files.pythonhosted.org/packages/f1/31/ac4ac4d2e63fb11dfa5836e062ec60e30350d1d9af056a1a430259e4d8bf/cs.fs-20240422.tar.gz
+[2024-05-22 01:29:11] INFO root fetch - processPackages [openinference-instrumentation-dspy]: Downloading https://files.pythonhosted.org/packages/21/8c/8951b1b11a8327ba0cc293cb66db84750c9ba5b3bbe185fd5e5f247da1d9/openinference_instrumentation_dspy-0.1.8.tar.gz
+[2024-05-22 01:29:11] INFO root fetch - processPackages [galileo-core]: executing diffoscope
+[2024-05-22 01:29:11] INFO root fetch - processPackages [galileo-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galileo_core-0.9.2.tar.gz tmp/galileo_core-0.9.3.tar.gz --markdown 20240522/g/galileo-core/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-22 01:29:11] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/e5/54/84a527d6edd30c48c984cc2d2a6b62a2fdeede97c7170bddc56ed3370146/geo_roughness_tool-0.1.2.tar.gz
+[2024-05-22 01:29:11] INFO root fetch - processPackages [cs.fs]: Downloading https://files.pythonhosted.org/packages/d3/7b/b7baad6f023fffbeb2a2a18e6babfa8d36dab825e1fb3da67588ba2b29a1/cs.fs-20240522.tar.gz
+[2024-05-22 01:29:11] INFO root fetch - processPackages [geo-roughness-tool]: executing diffoscope
+[2024-05-22 01:29:11] INFO root fetch - processPackages [geo-roughness-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_roughness_tool-0.1.1.tar.gz tmp/geo_roughness_tool-0.1.2.tar.gz --markdown 20240522/g/geo-roughness-tool/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-22 01:29:11] INFO root fetch - processPackages [openinference-instrumentation-dspy]: Downloading https://files.pythonhosted.org/packages/a9/f4/7d67788e7bc23893277efc86b33a2c1091f36957064f899797b045e033e0/openinference_instrumentation_dspy-0.1.9.tar.gz
+[2024-05-22 01:29:11] INFO root fetch - processPackages [cs.fs]: executing diffoscope
+[2024-05-22 01:29:11] INFO root fetch - processPackages [cs.fs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.fs-20240422.tar.gz tmp/cs.fs-20240522.tar.gz --markdown 20240522/c/cs.fs/20240422-20240522/README.md --exclude *.pyd
+[2024-05-22 01:29:11] INFO root fetch - processPackages [openinference-instrumentation-dspy]: executing diffoscope
+[2024-05-22 01:29:11] INFO root fetch - processPackages [openinference-instrumentation-dspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openinference_instrumentation_dspy-0.1.8.tar.gz tmp/openinference_instrumentation_dspy-0.1.9.tar.gz --markdown 20240522/o/openinference-instrumentation-dspy/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 01:29:11] INFO root fetch - processPackages [galileo-core]: Remove: archive file [/home/abi/fetcher/tmp/galileo_core-0.9.2.tar.gz]
+[2024-05-22 01:29:11] INFO root fetch - processPackages [galileo-core]: Remove: archive file [/home/abi/fetcher/tmp/galileo_core-0.9.3.tar.gz]
+[2024-05-22 01:29:11] INFO root fetch - main [MainThread]: End processing [galileo-core]: success
+[2024-05-22 01:29:12] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.1.1.tar.gz]
+[2024-05-22 01:29:12] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.1.2.tar.gz]
+[2024-05-22 01:29:12] INFO root fetch - main [MainThread]: End processing [geo-roughness-tool]: success
+[2024-05-22 01:29:12] INFO root fetch - processPackages [cs.fs]: Remove: archive file [/home/abi/fetcher/tmp/cs.fs-20240422.tar.gz]
+[2024-05-22 01:29:12] INFO root fetch - processPackages [cs.fs]: Remove: archive file [/home/abi/fetcher/tmp/cs.fs-20240522.tar.gz]
+[2024-05-22 01:29:12] INFO root fetch - main [MainThread]: End processing [cs.fs]: success
+[2024-05-22 01:29:12] INFO root fetch - processPackages [openinference-instrumentation-dspy]: Remove: archive file [/home/abi/fetcher/tmp/openinference_instrumentation_dspy-0.1.8.tar.gz]
+[2024-05-22 01:29:12] INFO root fetch - processPackages [openinference-instrumentation-dspy]: Remove: archive file [/home/abi/fetcher/tmp/openinference_instrumentation_dspy-0.1.9.tar.gz]
+[2024-05-22 01:29:12] INFO root fetch - main [MainThread]: End processing [openinference-instrumentation-dspy]: success
+[2024-05-22 01:29:12] INFO root fetch - main [MainThread]: Store serial: [23315084]

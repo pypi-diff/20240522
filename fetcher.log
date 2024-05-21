@@ -1815,3 +1815,65 @@
 [2024-05-22 01:33:36] INFO root fetch - processPackages [arize-phoenix-evals]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix_evals-0.9.2.tar.gz]
 [2024-05-22 01:33:36] INFO root fetch - main [MainThread]: End processing [arize-phoenix-evals]: success
 [2024-05-22 01:33:36] INFO root fetch - main [MainThread]: Store serial: [23315111]
+[2024-05-22 01:35:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315111]
+[2024-05-22 01:35:45] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 01:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: messagev
+[2024-05-22 01:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ddx-python
+[2024-05-22 01:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: epyk
+[2024-05-22 01:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ddx-python
+[2024-05-22 01:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ddx-python
+[2024-05-22 01:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jzpypi
+[2024-05-22 01:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pih-doc
+[2024-05-22 01:35:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nimble
+[2024-05-22 01:35:45] INFO root fetch - processPackages [pih-doc]: New version: [0.17.2] Old Version: [0.17]
+[2024-05-22 01:35:45] INFO root fetch - processPackages [epyk]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-22 01:35:45] INFO root fetch - processPackages [messagev]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-22 01:35:45] INFO root fetch - processPackages [ddx-python]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-22 01:35:45] INFO root fetch - processPackages [ddx-python]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-22 01:35:45] INFO root fetch - processPackages [ddx-python]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-22 01:35:45] ERROR root fetch - processPackages [jzpypi]: Unable to get metadata: No such project 'jzpypi'
+[2024-05-22 01:35:45] INFO root fetch - main [MainThread]: End processing [jzpypi] error
+[2024-05-22 01:35:45] INFO root fetch - processPackages [nimble]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-22 01:35:45] INFO root fetch - processPackages [epyk]: Downloading https://files.pythonhosted.org/packages/2b/b7/d8534d999b9d58a4412b4db34fefcdfbe6c581e844864d76492fdcb43548/epyk-1.9.8-py3-none-any.whl
+[2024-05-22 01:35:45] INFO root fetch - processPackages [pih-doc]: Downloading https://files.pythonhosted.org/packages/51/4b/02a1f75c71c70d1346edd24d9c48c4b94a7bc53178c0c38bfc662b354c40/pih-doc-0.17.tar.gz
+[2024-05-22 01:35:45] INFO root fetch - processPackages [messagev]: Downloading https://files.pythonhosted.org/packages/54/61/27e488f66351097e7075e1e2c540760402993a07ed5b47aa8aa65cf44316/messagev-0.0.7.tar.gz
+[2024-05-22 01:35:45] INFO root fetch - processPackages [ddx-python]: Downloading https://files.pythonhosted.org/packages/03/8f/bb9af3ddf3ef291dc36ebf882cc65441276387b07debac57e23f68266edf/ddx_python-0.1.5-cp38-abi3-manylinux_2_24_x86_64.whl
+[2024-05-22 01:35:45] INFO root fetch - processPackages [ddx-python]: Downloading https://files.pythonhosted.org/packages/03/8f/bb9af3ddf3ef291dc36ebf882cc65441276387b07debac57e23f68266edf/ddx_python-0.1.5-cp38-abi3-manylinux_2_24_x86_64.whl
+[2024-05-22 01:35:45] INFO root fetch - processPackages [ddx-python]: Downloading https://files.pythonhosted.org/packages/03/8f/bb9af3ddf3ef291dc36ebf882cc65441276387b07debac57e23f68266edf/ddx_python-0.1.5-cp38-abi3-manylinux_2_24_x86_64.whl
+[2024-05-22 01:35:45] INFO root fetch - processPackages [nimble]: Downloading https://files.pythonhosted.org/packages/5a/f4/c6d18238d87b3bab0404a070ec439cecefdbf91b0c69fb84d8a38fa4cde5/nimble-0.5.0.tar.gz
+[2024-05-22 01:35:45] INFO root fetch - processPackages [epyk]: Downloading https://files.pythonhosted.org/packages/16/be/cd2f93881ffe92a847a9cfff5f05b11b2f5cd93f2b1c552a7982a06aab4e/epyk-1.9.9-py3-none-any.whl
+[2024-05-22 01:35:46] INFO root fetch - processPackages [pih-doc]: Downloading https://files.pythonhosted.org/packages/11/a9/4065cab6e234b48fd3c10c133f79f807d4961f2f79cd6329d8fe36099c33/pih-doc-0.17.2.tar.gz
+[2024-05-22 01:35:46] INFO root fetch - processPackages [messagev]: Downloading https://files.pythonhosted.org/packages/20/f3/692ca6221f16dd623c2ac30e42afae9ea3563ecec5657ad9399a1c39ff2f/messagev-0.0.8.tar.gz
+[2024-05-22 01:35:46] INFO root fetch - processPackages [pih-doc]: executing diffoscope
+[2024-05-22 01:35:46] INFO root fetch - processPackages [pih-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-doc-0.17.tar.gz tmp/pih-doc-0.17.2.tar.gz --markdown 20240522/p/pih-doc/0.17-0.17.2/README.md --exclude *.pyd
+[2024-05-22 01:35:46] INFO root fetch - processPackages [ddx-python]: Downloading https://files.pythonhosted.org/packages/8d/74/e3ce9b19286b8e3908caff2eee1c9834c09707bc7b996fa72ed0d9be055f/ddx_python-0.1.6-cp38-abi3-manylinux_2_24_x86_64.whl
+[2024-05-22 01:35:46] INFO root fetch - processPackages [epyk]: executing diffoscope
+[2024-05-22 01:35:46] INFO root fetch - processPackages [messagev]: executing diffoscope
+[2024-05-22 01:35:46] INFO root fetch - processPackages [messagev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/messagev-0.0.7.tar.gz tmp/messagev-0.0.8.tar.gz --markdown 20240522/m/messagev/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-22 01:35:46] INFO root fetch - processPackages [epyk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epyk-1.9.8-py3-none-any.whl.zip tmp/epyk-1.9.9-py3-none-any.whl.zip --markdown 20240522/e/epyk/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-22 01:35:46] INFO root fetch - processPackages [ddx-python]: Downloading https://files.pythonhosted.org/packages/8d/74/e3ce9b19286b8e3908caff2eee1c9834c09707bc7b996fa72ed0d9be055f/ddx_python-0.1.6-cp38-abi3-manylinux_2_24_x86_64.whl
+[2024-05-22 01:35:46] INFO root fetch - processPackages [ddx-python]: Downloading https://files.pythonhosted.org/packages/8d/74/e3ce9b19286b8e3908caff2eee1c9834c09707bc7b996fa72ed0d9be055f/ddx_python-0.1.6-cp38-abi3-manylinux_2_24_x86_64.whl
+[2024-05-22 01:35:46] INFO root fetch - processPackages [ddx-python]: executing diffoscope
+[2024-05-22 01:35:46] INFO root fetch - processPackages [ddx-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddx_python-0.1.5-cp38-abi3-manylinux_2_24_x86_64.whl.zip tmp/ddx_python-0.1.6-cp38-abi3-manylinux_2_24_x86_64.whl.zip --markdown 20240522/d/ddx-python/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-22 01:35:46] INFO root fetch - processPackages [ddx-python]: executing diffoscope
+[2024-05-22 01:35:46] INFO root fetch - processPackages [ddx-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddx_python-0.1.5-cp38-abi3-manylinux_2_24_x86_64.whl.zip tmp/ddx_python-0.1.6-cp38-abi3-manylinux_2_24_x86_64.whl.zip --markdown 20240522/d/ddx-python/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-22 01:35:46] INFO root fetch - processPackages [ddx-python]: executing diffoscope
+[2024-05-22 01:35:46] INFO root fetch - processPackages [ddx-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddx_python-0.1.5-cp38-abi3-manylinux_2_24_x86_64.whl.zip tmp/ddx_python-0.1.6-cp38-abi3-manylinux_2_24_x86_64.whl.zip --markdown 20240522/d/ddx-python/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-22 01:35:46] INFO root fetch - processPackages [nimble]: Downloading https://files.pythonhosted.org/packages/17/45/02df2c9a928d5fc3175f7ebc9d8f76dd12396a61f1ebaa723bfc220f6705/nimble-0.5.1-cp310-cp310-win_amd64.whl
+[2024-05-22 01:35:46] INFO root fetch - processPackages [pih-doc]: Remove: archive file [/home/abi/fetcher/tmp/pih-doc-0.17.tar.gz]
+[2024-05-22 01:35:46] INFO root fetch - processPackages [pih-doc]: Remove: archive file [/home/abi/fetcher/tmp/pih-doc-0.17.2.tar.gz]
+[2024-05-22 01:35:46] INFO root fetch - main [MainThread]: End processing [pih-doc]: success
+[2024-05-22 01:35:46] INFO root fetch - processPackages [messagev]: Remove: archive file [/home/abi/fetcher/tmp/messagev-0.0.7.tar.gz]
+[2024-05-22 01:35:46] INFO root fetch - processPackages [messagev]: Remove: archive file [/home/abi/fetcher/tmp/messagev-0.0.8.tar.gz]
+[2024-05-22 01:35:46] INFO root fetch - main [MainThread]: End processing [messagev]: success
+[2024-05-22 01:35:47] WARNING root fetch - processPackages [nimble]: Skipping package: exceeds size limit 12583451>=10485760
+[2024-05-22 01:35:47] INFO root fetch - main [MainThread]: End processing [nimble] error
+[2024-05-22 01:35:48] INFO root fetch - processPackages [ddx-python]: Remove: archive file [/home/abi/fetcher/tmp/ddx_python-0.1.5-cp38-abi3-manylinux_2_24_x86_64.whl.zip]
+[2024-05-22 01:35:48] INFO root fetch - processPackages [ddx-python]: Remove: archive file [/home/abi/fetcher/tmp/ddx_python-0.1.6-cp38-abi3-manylinux_2_24_x86_64.whl.zip]
+[2024-05-22 01:35:48] INFO root fetch - main [MainThread]: End processing [ddx-python]: success
+[2024-05-22 01:35:48] INFO root fetch - main [MainThread]: End processing [ddx-python]: success
+[2024-05-22 01:35:48] INFO root fetch - main [MainThread]: End processing [ddx-python]: success
+[2024-05-22 01:35:48] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.8-py3-none-any.whl.zip]
+[2024-05-22 01:35:48] INFO root fetch - processPackages [epyk]: Remove: archive file [/home/abi/fetcher/tmp/epyk-1.9.9-py3-none-any.whl.zip]
+[2024-05-22 01:35:48] INFO root fetch - main [MainThread]: End processing [epyk]: success
+[2024-05-22 01:35:48] INFO root fetch - main [MainThread]: Store serial: [23315134]

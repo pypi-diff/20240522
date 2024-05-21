@@ -522,3 +522,24 @@
 [2024-05-22 00:25:20] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.9.4.tar.gz]
 [2024-05-22 00:25:20] INFO root fetch - main [MainThread]: End processing [tecton]: success
 [2024-05-22 00:25:20] INFO root fetch - main [MainThread]: Store serial: [23314523]
+[2024-05-22 00:27:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314523]
+[2024-05-22 00:27:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 00:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyperbee
+[2024-05-22 00:27:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msigen
+[2024-05-22 00:27:29] INFO root fetch - processPackages [msigen]: New version: [0.2.2rc1] Old Version: [0.2.1]
+[2024-05-22 00:27:29] INFO root fetch - processPackages [hyperbee]: New version: [0.0.2.1] Old Version: [0.0.2.0]
+[2024-05-22 00:27:29] INFO root fetch - processPackages [msigen]: Downloading https://files.pythonhosted.org/packages/93/05/1617749a99d14bcb81a3a7def6c22e232dfc3c134cdb42c2c55525518670/msigen-0.2.1.tar.gz
+[2024-05-22 00:27:29] INFO root fetch - processPackages [hyperbee]: Downloading https://files.pythonhosted.org/packages/22/f6/b29800228e3554f29a7cf6e1af9e73776b51424e07dc863cf1de4de2d82c/hyperbee-0.0.2.0.tar.gz
+[2024-05-22 00:27:29] INFO root fetch - processPackages [hyperbee]: Downloading https://files.pythonhosted.org/packages/cc/8f/0313745f8514c2471b89c9abd81c14bf5460a12fc5b94bf3729a351a9e2a/hyperbee-0.0.2.1.tar.gz
+[2024-05-22 00:27:29] INFO root fetch - processPackages [hyperbee]: executing diffoscope
+[2024-05-22 00:27:29] INFO root fetch - processPackages [hyperbee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperbee-0.0.2.0.tar.gz tmp/hyperbee-0.0.2.1.tar.gz --markdown 20240522/h/hyperbee/0.0.2.0-0.0.2.1/README.md --exclude *.pyd
+[2024-05-22 00:27:29] INFO root fetch - processPackages [msigen]: Downloading https://files.pythonhosted.org/packages/da/46/283cc46140a8996b7434203053b2947e0f088dc69015498b0537b668d23e/msigen-0.2.2rc1.tar.gz
+[2024-05-22 00:27:30] INFO root fetch - processPackages [msigen]: executing diffoscope
+[2024-05-22 00:27:30] INFO root fetch - processPackages [msigen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msigen-0.2.1.tar.gz tmp/msigen-0.2.2rc1.tar.gz --markdown 20240522/m/msigen/0.2.1-0.2.2rc1/README.md --exclude *.pyd
+[2024-05-22 00:27:30] INFO root fetch - processPackages [hyperbee]: Remove: archive file [/home/abi/fetcher/tmp/hyperbee-0.0.2.0.tar.gz]
+[2024-05-22 00:27:30] INFO root fetch - processPackages [hyperbee]: Remove: archive file [/home/abi/fetcher/tmp/hyperbee-0.0.2.1.tar.gz]
+[2024-05-22 00:27:30] INFO root fetch - main [MainThread]: End processing [hyperbee]: success
+[2024-05-22 00:27:31] INFO root fetch - processPackages [msigen]: Remove: archive file [/home/abi/fetcher/tmp/msigen-0.2.1.tar.gz]
+[2024-05-22 00:27:31] INFO root fetch - processPackages [msigen]: Remove: archive file [/home/abi/fetcher/tmp/msigen-0.2.2rc1.tar.gz]
+[2024-05-22 00:27:31] INFO root fetch - main [MainThread]: End processing [msigen]: success
+[2024-05-22 00:27:31] INFO root fetch - main [MainThread]: Store serial: [23314560]

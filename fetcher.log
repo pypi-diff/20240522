@@ -720,3 +720,32 @@
 [2024-05-22 00:36:13] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
 [2024-05-22 00:36:13] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
 [2024-05-22 00:36:13] INFO root fetch - main [MainThread]: Store serial: [23314628]
+[2024-05-22 00:38:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314628]
+[2024-05-22 00:38:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 00:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cch-algorithms
+[2024-05-22 00:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pythonbible
+[2024-05-22 00:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liminal-sdk-python
+[2024-05-22 00:38:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OZI
+[2024-05-22 00:38:22] INFO root fetch - processPackages [liminal-sdk-python]: New version: [2024.5.0b1] Old Version: [2024.5.0b0]
+[2024-05-22 00:38:22] WARNING root fetch - processPackages [cch-algorithms]: Skipping, unable to determine old version
+[2024-05-22 00:38:22] INFO root fetch - main [MainThread]: End processing [cch-algorithms] error
+[2024-05-22 00:38:22] INFO root fetch - processPackages [pythonbible]: New version: [0.9.1] Old Version: [0.9]
+[2024-05-22 00:38:22] INFO root fetch - processPackages [OZI]: New version: [1.9.0] Old Version: [1.8.5]
+[2024-05-22 00:38:22] INFO root fetch - processPackages [liminal-sdk-python]: Downloading https://files.pythonhosted.org/packages/e0/ec/28b9f1203ccdf39c7d1cbbfab70142dcf76580c6fed7c1fd075bf1970134/liminal_sdk_python-2024.5.0b0.tar.gz
+[2024-05-22 00:38:22] INFO root fetch - processPackages [pythonbible]: Downloading https://files.pythonhosted.org/packages/9d/fd/29ca981f6b5a098a525905fba6c6537e24cfc09f81753f7c526fd3b9d6d5/pythonbible-0.9.tar.gz
+[2024-05-22 00:38:22] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/fb/25/c625d1d7b2a77a305e80da7b828b3df3e5466eee71e3fd76fd9282190b7d/OZI-1.8.5.tar.gz
+[2024-05-22 00:38:22] INFO root fetch - processPackages [liminal-sdk-python]: Downloading https://files.pythonhosted.org/packages/f0/24/4f2b9acae262419c78cce969a75df042ad83c7d6c7fe68c822bd4cf6f073/liminal_sdk_python-2024.5.0b1.tar.gz
+[2024-05-22 00:38:22] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/78/b4/12fd776edd24dc1ba7132f4060f78e504b04a7f0c5955721e3926705ec72/OZI-1.9.0.tar.gz
+[2024-05-22 00:38:23] INFO root fetch - processPackages [liminal-sdk-python]: executing diffoscope
+[2024-05-22 00:38:23] INFO root fetch - processPackages [liminal-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liminal_sdk_python-2024.5.0b0.tar.gz tmp/liminal_sdk_python-2024.5.0b1.tar.gz --markdown 20240522/l/liminal-sdk-python/2024.5.0b0-2024.5.0b1/README.md --exclude *.pyd
+[2024-05-22 00:38:23] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-05-22 00:38:23] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-1.8.5.tar.gz tmp/OZI-1.9.0.tar.gz --markdown 20240522/O/OZI/1.8.5-1.9.0/README.md --exclude *.pyd
+[2024-05-22 00:38:23] INFO root fetch - processPackages [liminal-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/liminal_sdk_python-2024.5.0b0.tar.gz]
+[2024-05-22 00:38:23] INFO root fetch - processPackages [liminal-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/liminal_sdk_python-2024.5.0b1.tar.gz]
+[2024-05-22 00:38:23] INFO root fetch - main [MainThread]: End processing [liminal-sdk-python]: success
+[2024-05-22 00:38:24] WARNING root fetch - processPackages [pythonbible]: Skipping package: exceeds size limit 19656452>=10485760
+[2024-05-22 00:38:24] INFO root fetch - main [MainThread]: End processing [pythonbible] error
+[2024-05-22 00:38:24] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.8.5.tar.gz]
+[2024-05-22 00:38:24] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.9.0.tar.gz]
+[2024-05-22 00:38:24] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-05-22 00:38:24] INFO root fetch - main [MainThread]: Store serial: [23314643]

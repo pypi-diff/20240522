@@ -1946,3 +1946,42 @@
 [2024-05-22 01:38:00] INFO root fetch - processPackages [formant]: Remove: archive file [/home/abi/fetcher/tmp/formant-1.99.25.tar.gz]
 [2024-05-22 01:38:00] INFO root fetch - main [MainThread]: End processing [formant]: success
 [2024-05-22 01:38:00] INFO root fetch - main [MainThread]: Store serial: [23315175]
+[2024-05-22 01:40:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315175]
+[2024-05-22 01:40:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 01:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: humanloop
+[2024-05-22 01:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-repo-client
+[2024-05-22 01:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ddx-python
+[2024-05-22 01:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: heaserver-people
+[2024-05-22 01:40:08] INFO root fetch - processPackages [ddx-python]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-22 01:40:08] INFO root fetch - processPackages [heaserver-people]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-05-22 01:40:08] INFO root fetch - processPackages [humanloop]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-22 01:40:09] INFO root fetch - processPackages [ddx-python]: Downloading https://files.pythonhosted.org/packages/03/8f/bb9af3ddf3ef291dc36ebf882cc65441276387b07debac57e23f68266edf/ddx_python-0.1.5-cp38-abi3-manylinux_2_24_x86_64.whl
+[2024-05-22 01:40:09] INFO root fetch - processPackages [heaserver-people]: Downloading https://files.pythonhosted.org/packages/a8/a1/c48e2cb28d4693e40363c4fb04b39f444d837f30455f0c9596401451fad0/heaserver_people-1.2.0.tar.gz
+[2024-05-22 01:40:09] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/f3/0f/6563d7ec6757564521491230927d66f8f32f7eede6f247c15caa702aeddd/humanloop-0.7.8.tar.gz
+[2024-05-22 01:40:09] INFO root fetch - processPackages [data-repo-client]: New version: [2.69.0] Old Version: [2.68.0]
+[2024-05-22 01:40:09] INFO root fetch - processPackages [heaserver-people]: Downloading https://files.pythonhosted.org/packages/71/32/222ef4f452e9b4506a98e776654b72b27780210b4dbf1a441e05dac01aab/heaserver_people-1.3.0.tar.gz
+[2024-05-22 01:40:09] INFO root fetch - processPackages [ddx-python]: Downloading https://files.pythonhosted.org/packages/8d/74/e3ce9b19286b8e3908caff2eee1c9834c09707bc7b996fa72ed0d9be055f/ddx_python-0.1.6-cp38-abi3-manylinux_2_24_x86_64.whl
+[2024-05-22 01:40:09] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/c5/8f/bca0d042a0a8f0e28983e439d51a43e110a51ce3ae37db3aa8e91d32ebfe/data-repo-client-2.68.0.tar.gz
+[2024-05-22 01:40:09] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/42/49/2e50db62f54004990b08a1ec75901635bb6ce90d3f84155b1af3de5c750f/humanloop-0.7.9.tar.gz
+[2024-05-22 01:40:09] INFO root fetch - processPackages [heaserver-people]: executing diffoscope
+[2024-05-22 01:40:09] INFO root fetch - processPackages [heaserver-people]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver_people-1.2.0.tar.gz tmp/heaserver_people-1.3.0.tar.gz --markdown 20240522/h/heaserver-people/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-05-22 01:40:09] INFO root fetch - processPackages [ddx-python]: executing diffoscope
+[2024-05-22 01:40:09] INFO root fetch - processPackages [ddx-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddx_python-0.1.5-cp38-abi3-manylinux_2_24_x86_64.whl.zip tmp/ddx_python-0.1.6-cp38-abi3-manylinux_2_24_x86_64.whl.zip --markdown 20240522/d/ddx-python/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-22 01:40:09] INFO root fetch - processPackages [humanloop]: executing diffoscope
+[2024-05-22 01:40:09] INFO root fetch - processPackages [humanloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humanloop-0.7.8.tar.gz tmp/humanloop-0.7.9.tar.gz --markdown 20240522/h/humanloop/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-22 01:40:09] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/6f/ae/de6f13479a60cd20a024a3c015047b36116bb661fab356bc345c08294368/data-repo-client-2.69.0.tar.gz
+[2024-05-22 01:40:09] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2024-05-22 01:40:09] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-2.68.0.tar.gz tmp/data-repo-client-2.69.0.tar.gz --markdown 20240522/d/data-repo-client/2.68.0-2.69.0/README.md --exclude *.pyd
+[2024-05-22 01:40:10] INFO root fetch - processPackages [heaserver-people]: Remove: archive file [/home/abi/fetcher/tmp/heaserver_people-1.2.0.tar.gz]
+[2024-05-22 01:40:10] INFO root fetch - processPackages [heaserver-people]: Remove: archive file [/home/abi/fetcher/tmp/heaserver_people-1.3.0.tar.gz]
+[2024-05-22 01:40:10] INFO root fetch - main [MainThread]: End processing [heaserver-people]: success
+[2024-05-22 01:40:11] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.68.0.tar.gz]
+[2024-05-22 01:40:11] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-2.69.0.tar.gz]
+[2024-05-22 01:40:11] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2024-05-22 01:40:11] INFO root fetch - processPackages [ddx-python]: Remove: archive file [/home/abi/fetcher/tmp/ddx_python-0.1.5-cp38-abi3-manylinux_2_24_x86_64.whl.zip]
+[2024-05-22 01:40:11] INFO root fetch - processPackages [ddx-python]: Remove: archive file [/home/abi/fetcher/tmp/ddx_python-0.1.6-cp38-abi3-manylinux_2_24_x86_64.whl.zip]
+[2024-05-22 01:40:11] INFO root fetch - main [MainThread]: End processing [ddx-python]: success
+[2024-05-22 01:40:13] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.8.tar.gz]
+[2024-05-22 01:40:13] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.9.tar.gz]
+[2024-05-22 01:40:13] INFO root fetch - main [MainThread]: End processing [humanloop]: success
+[2024-05-22 01:40:13] INFO root fetch - main [MainThread]: Store serial: [23315187]

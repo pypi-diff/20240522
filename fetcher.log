@@ -112,3 +112,33 @@
 [2024-05-22 00:04:07] INFO root fetch - processPackages [changedetection.io]: Remove: archive file [/home/abi/fetcher/tmp/changedetection.io-0.45.9-py3-none-any.whl.zip]
 [2024-05-22 00:04:07] INFO root fetch - main [MainThread]: End processing [changedetection.io]: success
 [2024-05-22 00:04:07] INFO root fetch - main [MainThread]: Store serial: [23314290]
+[2024-05-22 00:06:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314290]
+[2024-05-22 00:06:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 00:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uploadthing.py
+[2024-05-22 00:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stim
+[2024-05-22 00:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: talus
+[2024-05-22 00:06:16] INFO root fetch - processPackages [uploadthing.py]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-22 00:06:16] INFO root fetch - processPackages [stim]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-22 00:06:16] INFO root fetch - processPackages [talus]: New version: [1.0.0rc7] Old Version: [1.0.0rc6]
+[2024-05-22 00:06:16] INFO root fetch - processPackages [uploadthing.py]: Downloading https://files.pythonhosted.org/packages/f3/2c/e35e67efad630d5cad4882042b1c2d8a34188701eeae1f7ab080ab342fa0/uploadthing_py-0.2.2.tar.gz
+[2024-05-22 00:06:16] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/a7/d7/36196ad48b77efebe7d5d4e198ad0a9cac4f5acb5e0a8a7035133184a641/stim-1.8.0.tar.gz
+[2024-05-22 00:06:16] INFO root fetch - processPackages [talus]: Downloading https://files.pythonhosted.org/packages/2b/1f/91edae968b66cd1cce58d7f47d2783c922dffed1edbbee149bac9c408757/talus-1.0.0rc6.tar.gz
+[2024-05-22 00:06:16] INFO root fetch - processPackages [uploadthing.py]: Downloading https://files.pythonhosted.org/packages/3c/58/ba3d31d9a791759a972d1e38f28664557772e090dce57cda1a68c97b8f6e/uploadthing_py-0.2.3.tar.gz
+[2024-05-22 00:06:16] INFO root fetch - processPackages [talus]: Downloading https://files.pythonhosted.org/packages/2e/ce/d53d5b56a84c3c958468e72c89c9c6a3755bdcffbdae95771b13e847645e/talus-1.0.0rc7.tar.gz
+[2024-05-22 00:06:16] INFO root fetch - processPackages [uploadthing.py]: executing diffoscope
+[2024-05-22 00:06:16] INFO root fetch - processPackages [uploadthing.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uploadthing_py-0.2.2.tar.gz tmp/uploadthing_py-0.2.3.tar.gz --markdown 20240522/u/uploadthing.py/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-22 00:06:17] INFO root fetch - processPackages [stim]: Downloading https://files.pythonhosted.org/packages/d4/c3/eba3f24b52d2c1ed2e7fd5490f31c7cafa4a0a82b9282b1ffee94eee8a4c/stim-1.9.0.tar.gz
+[2024-05-22 00:06:17] INFO root fetch - processPackages [talus]: executing diffoscope
+[2024-05-22 00:06:17] INFO root fetch - processPackages [talus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talus-1.0.0rc6.tar.gz tmp/talus-1.0.0rc7.tar.gz --markdown 20240522/t/talus/1.0.0rc6-1.0.0rc7/README.md --exclude *.pyd
+[2024-05-22 00:06:17] INFO root fetch - processPackages [uploadthing.py]: Remove: archive file [/home/abi/fetcher/tmp/uploadthing_py-0.2.2.tar.gz]
+[2024-05-22 00:06:17] INFO root fetch - processPackages [uploadthing.py]: Remove: archive file [/home/abi/fetcher/tmp/uploadthing_py-0.2.3.tar.gz]
+[2024-05-22 00:06:17] INFO root fetch - main [MainThread]: End processing [uploadthing.py]: success
+[2024-05-22 00:06:17] INFO root fetch - processPackages [talus]: Remove: archive file [/home/abi/fetcher/tmp/talus-1.0.0rc6.tar.gz]
+[2024-05-22 00:06:17] INFO root fetch - processPackages [talus]: Remove: archive file [/home/abi/fetcher/tmp/talus-1.0.0rc7.tar.gz]
+[2024-05-22 00:06:17] INFO root fetch - main [MainThread]: End processing [talus]: success
+[2024-05-22 00:06:19] INFO root fetch - processPackages [stim]: executing diffoscope
+[2024-05-22 00:06:19] INFO root fetch - processPackages [stim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stim-1.8.0.tar.gz tmp/stim-1.9.0.tar.gz --markdown 20240522/s/stim/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-22 00:06:20] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.8.0.tar.gz]
+[2024-05-22 00:06:20] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.0.tar.gz]
+[2024-05-22 00:06:20] INFO root fetch - main [MainThread]: End processing [stim]: success
+[2024-05-22 00:06:20] INFO root fetch - main [MainThread]: Store serial: [23314317]

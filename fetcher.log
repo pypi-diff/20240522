@@ -1070,3 +1070,54 @@
 [2024-05-22 00:49:55] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.46.tar.gz]
 [2024-05-22 00:49:55] INFO root fetch - main [MainThread]: End processing [langflow-base]: success
 [2024-05-22 00:49:55] INFO root fetch - main [MainThread]: Store serial: [23314757]
+[2024-05-22 00:52:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314757]
+[2024-05-22 00:52:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 00:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2024-05-22 00:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MobileInventoryCLI
+[2024-05-22 00:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geo-roughness-tool
+[2024-05-22 00:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: heaobject
+[2024-05-22 00:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EAACommander
+[2024-05-22 00:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: owega
+[2024-05-22 00:52:07] INFO root fetch - processPackages [geo-roughness-tool]: New version: [0.1.1] Old Version: [0.0.1]
+[2024-05-22 00:52:07] WARNING root fetch - processPackages [EAACommander]: Skipping, unable to determine old version
+[2024-05-22 00:52:07] INFO root fetch - main [MainThread]: End processing [EAACommander] error
+[2024-05-22 00:52:07] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.99] Old Version: [0.4.98]
+[2024-05-22 00:52:07] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/34/2d/1e50d7f512e3d39590afb4a6c37340af98e5c4eadc77d9de653aab0cb49f/MobileInventoryCLI-0.4.98.tar.gz
+[2024-05-22 00:52:07] INFO root fetch - processPackages [heaobject]: New version: [1.6.0] Old Version: [1.5.1]
+[2024-05-22 00:52:07] INFO root fetch - processPackages [owega]: New version: [5.8.4] Old Version: [5.8.3]
+[2024-05-22 00:52:07] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240521224759] Old Version: [3.4.1.dev20240521150040]
+[2024-05-22 00:52:07] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/6c/9c/c9679c1ab93d70badff7444f224f6058a7b3a9fba2f6368f53da8cea7944/geo_roughness_tool-0.0.1.tar.gz
+[2024-05-22 00:52:07] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c1/e6/5e9a3902eb42a81b288dd532d179555f1a82e873649fa21c47ef03c2bd2a/localstack_core-3.4.1.dev20240521150040.tar.gz
+[2024-05-22 00:52:07] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/a6/f0/98acd10807dcc5be4493173baa14b62a4ead5b0d460e8fd23f33c0742b5d/heaobject-1.5.1.tar.gz
+[2024-05-22 00:52:07] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/44/8c/14cdf7fc3f0b69cae35ba7ee2852fb70e3cab687142869ee3deb104ffc71/MobileInventoryCLI-0.4.99.tar.gz
+[2024-05-22 00:52:07] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/64/84/c89449f1b425b1cedf8a045e5e74dd3455237b298e2a31cd32fe9d4b4825/owega-5.8.3.tar.gz
+[2024-05-22 00:52:08] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/d3/55/b8a31e9326f85d1f219acbf29f46b419cf242b9d2545485c27d2fce6656f/geo_roughness_tool-0.1.1.tar.gz
+[2024-05-22 00:52:08] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-05-22 00:52:08] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.98.tar.gz tmp/MobileInventoryCLI-0.4.99.tar.gz --markdown 20240522/M/MobileInventoryCLI/0.4.98-0.4.99/README.md --exclude *.pyd
+[2024-05-22 00:52:08] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/cc/8c/2b601e8c173554420931a9c17b43f9f77cc98d61cf1b0d455b1a4d1b75bc/heaobject-1.6.0.tar.gz
+[2024-05-22 00:52:08] INFO root fetch - processPackages [geo-roughness-tool]: executing diffoscope
+[2024-05-22 00:52:08] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/46/93/c9df17ae798ccf70e7464da16018f9c627a3a2a111b505030e20787855b5/localstack_core-3.4.1.dev20240521224759.tar.gz
+[2024-05-22 00:52:08] INFO root fetch - processPackages [geo-roughness-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_roughness_tool-0.0.1.tar.gz tmp/geo_roughness_tool-0.1.1.tar.gz --markdown 20240522/g/geo-roughness-tool/0.0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-22 00:52:08] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/07/8f/d9e498dff5e489048092d80a8381a1c715589204cd9a6dc488328f1591e2/owega-5.8.4.tar.gz
+[2024-05-22 00:52:08] INFO root fetch - processPackages [heaobject]: executing diffoscope
+[2024-05-22 00:52:08] INFO root fetch - processPackages [heaobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaobject-1.5.1.tar.gz tmp/heaobject-1.6.0.tar.gz --markdown 20240522/h/heaobject/1.5.1-1.6.0/README.md --exclude *.pyd
+[2024-05-22 00:52:08] INFO root fetch - processPackages [owega]: executing diffoscope
+[2024-05-22 00:52:08] INFO root fetch - processPackages [owega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owega-5.8.3.tar.gz tmp/owega-5.8.4.tar.gz --markdown 20240522/o/owega/5.8.3-5.8.4/README.md --exclude *.pyd
+[2024-05-22 00:52:08] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-22 00:52:08] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240521150040.tar.gz tmp/localstack_core-3.4.1.dev20240521224759.tar.gz --markdown 20240522/l/localstack-core/3.4.1.dev20240521150040-3.4.1.dev20240521224759/README.md --exclude *.pyd
+[2024-05-22 00:52:08] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.0.1.tar.gz]
+[2024-05-22 00:52:08] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.1.1.tar.gz]
+[2024-05-22 00:52:08] INFO root fetch - main [MainThread]: End processing [geo-roughness-tool]: success
+[2024-05-22 00:52:08] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.98.tar.gz]
+[2024-05-22 00:52:08] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.99.tar.gz]
+[2024-05-22 00:52:08] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-05-22 00:52:09] INFO root fetch - processPackages [heaobject]: Remove: archive file [/home/abi/fetcher/tmp/heaobject-1.5.1.tar.gz]
+[2024-05-22 00:52:09] INFO root fetch - processPackages [heaobject]: Remove: archive file [/home/abi/fetcher/tmp/heaobject-1.6.0.tar.gz]
+[2024-05-22 00:52:09] INFO root fetch - main [MainThread]: End processing [heaobject]: success
+[2024-05-22 00:52:09] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.8.3.tar.gz]
+[2024-05-22 00:52:09] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.8.4.tar.gz]
+[2024-05-22 00:52:09] INFO root fetch - main [MainThread]: End processing [owega]: success
+[2024-05-22 00:52:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240521150040.tar.gz]
+[2024-05-22 00:52:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240521224759.tar.gz]
+[2024-05-22 00:52:12] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-22 00:52:12] INFO root fetch - main [MainThread]: Store serial: [23314776]

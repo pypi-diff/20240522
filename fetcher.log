@@ -1985,3 +1985,39 @@
 [2024-05-22 01:40:13] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.9.tar.gz]
 [2024-05-22 01:40:13] INFO root fetch - main [MainThread]: End processing [humanloop]: success
 [2024-05-22 01:40:13] INFO root fetch - main [MainThread]: Store serial: [23315187]
+[2024-05-22 01:42:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315187]
+[2024-05-22 01:42:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 01:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beam-client
+[2024-05-22 01:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jzpypi
+[2024-05-22 01:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flashkit
+[2024-05-22 01:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: positional-vectorizer
+[2024-05-22 01:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chainlite
+[2024-05-22 01:42:22] WARNING root fetch - processPackages [chainlite]: Skipping, unable to determine old version
+[2024-05-22 01:42:22] INFO root fetch - main [MainThread]: End processing [chainlite] error
+[2024-05-22 01:42:22] WARNING root fetch - processPackages [flashkit]: Skipping, unable to determine old version
+[2024-05-22 01:42:22] INFO root fetch - main [MainThread]: End processing [flashkit] error
+[2024-05-22 01:42:22] INFO root fetch - processPackages [positional-vectorizer]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-22 01:42:22] INFO root fetch - processPackages [jzpypi]: New version: [50.37.49] Old Version: [50.37.48]
+[2024-05-22 01:42:22] INFO root fetch - processPackages [beam-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-22 01:42:22] INFO root fetch - processPackages [beam-client]: Downloading https://files.pythonhosted.org/packages/ac/ee/27de4b2569a707f2361330414b50f795635cafa3adaf9743f08393a1b368/beam_client-0.2.8.tar.gz
+[2024-05-22 01:42:22] INFO root fetch - processPackages [positional-vectorizer]: Downloading https://files.pythonhosted.org/packages/64/0f/d1e144903208c8e2a9b70e2c51b3e1d3769fc3b640269c0b320255cd9adc/positional_vectorizer-0.0.7.tar.gz
+[2024-05-22 01:42:22] INFO root fetch - processPackages [jzpypi]: Downloading https://files.pythonhosted.org/packages/67/4d/74117bd7b438559aaf3dbc3f831905617904f44db850342120740777ec01/jzpypi-50.37.48.tar.gz
+[2024-05-22 01:42:22] INFO root fetch - processPackages [beam-client]: Downloading https://files.pythonhosted.org/packages/30/15/606a85353776a9e1c941977e724bfc92806b27223b9e341df4fc22e5bbdf/beam_client-0.2.9.tar.gz
+[2024-05-22 01:42:22] INFO root fetch - processPackages [beam-client]: executing diffoscope
+[2024-05-22 01:42:22] INFO root fetch - processPackages [beam-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam_client-0.2.8.tar.gz tmp/beam_client-0.2.9.tar.gz --markdown 20240522/b/beam-client/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-22 01:42:22] INFO root fetch - processPackages [jzpypi]: Downloading https://files.pythonhosted.org/packages/95/50/92ee314811e150cc1e1acaea47184c241314fbad24d03b5ded9deea9055a/jzpypi-50.37.49.tar.gz
+[2024-05-22 01:42:23] INFO root fetch - processPackages [positional-vectorizer]: Downloading https://files.pythonhosted.org/packages/3b/70/131f25eebc618decca060d0e47130c8a8856384ad7a5b41b091394375e77/positional_vectorizer-0.0.9.tar.gz
+[2024-05-22 01:42:23] INFO root fetch - processPackages [jzpypi]: executing diffoscope
+[2024-05-22 01:42:23] INFO root fetch - processPackages [jzpypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jzpypi-50.37.48.tar.gz tmp/jzpypi-50.37.49.tar.gz --markdown 20240522/j/jzpypi/50.37.48-50.37.49/README.md --exclude *.pyd
+[2024-05-22 01:42:23] INFO root fetch - processPackages [positional-vectorizer]: executing diffoscope
+[2024-05-22 01:42:23] INFO root fetch - processPackages [positional-vectorizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/positional_vectorizer-0.0.7.tar.gz tmp/positional_vectorizer-0.0.9.tar.gz --markdown 20240522/p/positional-vectorizer/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-22 01:42:23] INFO root fetch - processPackages [beam-client]: Remove: archive file [/home/abi/fetcher/tmp/beam_client-0.2.8.tar.gz]
+[2024-05-22 01:42:23] INFO root fetch - processPackages [beam-client]: Remove: archive file [/home/abi/fetcher/tmp/beam_client-0.2.9.tar.gz]
+[2024-05-22 01:42:23] INFO root fetch - main [MainThread]: End processing [beam-client]: success
+[2024-05-22 01:42:23] INFO root fetch - processPackages [jzpypi]: Remove: archive file [/home/abi/fetcher/tmp/jzpypi-50.37.48.tar.gz]
+[2024-05-22 01:42:23] INFO root fetch - processPackages [jzpypi]: Remove: archive file [/home/abi/fetcher/tmp/jzpypi-50.37.49.tar.gz]
+[2024-05-22 01:42:23] INFO root fetch - main [MainThread]: End processing [jzpypi]: success
+[2024-05-22 01:42:23] INFO root fetch - processPackages [positional-vectorizer]: Remove: archive file [/home/abi/fetcher/tmp/positional_vectorizer-0.0.7.tar.gz]
+[2024-05-22 01:42:23] INFO root fetch - processPackages [positional-vectorizer]: Remove: archive file [/home/abi/fetcher/tmp/positional_vectorizer-0.0.9.tar.gz]
+[2024-05-22 01:42:23] INFO root fetch - main [MainThread]: End processing [positional-vectorizer]: success
+[2024-05-22 01:42:23] INFO root fetch - main [MainThread]: Store serial: [23315223]

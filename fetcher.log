@@ -1563,3 +1563,39 @@
 [2024-05-22 01:18:17] INFO root fetch - processPackages [starkcore]: Remove: archive file [/home/abi/fetcher/tmp/starkcore-0.3.0.tar.gz]
 [2024-05-22 01:18:17] INFO root fetch - main [MainThread]: End processing [starkcore]: success
 [2024-05-22 01:18:17] INFO root fetch - main [MainThread]: Store serial: [23315005]
+[2024-05-22 01:20:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315005]
+[2024-05-22 01:20:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 01:20:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: thirdai
+[2024-05-22 01:20:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chainlite
+[2024-05-22 01:20:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkrhistoryparser
+[2024-05-22 01:20:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openpipe
+[2024-05-22 01:20:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heaserver-people
+[2024-05-22 01:20:26] WARNING root fetch - processPackages [pkrhistoryparser]: Skipping, unable to determine old version
+[2024-05-22 01:20:26] INFO root fetch - main [MainThread]: End processing [pkrhistoryparser] error
+[2024-05-22 01:20:26] WARNING root fetch - processPackages [chainlite]: Skipping, unable to determine old version
+[2024-05-22 01:20:26] INFO root fetch - main [MainThread]: End processing [chainlite] error
+[2024-05-22 01:20:26] INFO root fetch - processPackages [heaserver-people]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-05-22 01:20:26] INFO root fetch - processPackages [openpipe]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-05-22 01:20:26] INFO root fetch - processPackages [thirdai]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-05-22 01:20:26] INFO root fetch - processPackages [openpipe]: Downloading https://files.pythonhosted.org/packages/aa/ac/3377b8683a6b74eeaae21b3dc176941cf8377013fa9c77bcdc422781de0d/openpipe-4.8.0.tar.gz
+[2024-05-22 01:20:26] INFO root fetch - processPackages [heaserver-people]: Downloading https://files.pythonhosted.org/packages/a8/a1/c48e2cb28d4693e40363c4fb04b39f444d837f30455f0c9596401451fad0/heaserver_people-1.2.0.tar.gz
+[2024-05-22 01:20:26] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/44/f2/03f976f29eb5ad14ed0a909f12e552f157a003c14452257c0b72ae6f2cc7/thirdai-0.8.3-cp39-cp39-win_amd64.whl
+[2024-05-22 01:20:26] INFO root fetch - processPackages [heaserver-people]: Downloading https://files.pythonhosted.org/packages/71/32/222ef4f452e9b4506a98e776654b72b27780210b4dbf1a441e05dac01aab/heaserver_people-1.3.0.tar.gz
+[2024-05-22 01:20:26] INFO root fetch - processPackages [heaserver-people]: executing diffoscope
+[2024-05-22 01:20:26] INFO root fetch - processPackages [heaserver-people]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver_people-1.2.0.tar.gz tmp/heaserver_people-1.3.0.tar.gz --markdown 20240522/h/heaserver-people/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-05-22 01:20:26] INFO root fetch - processPackages [openpipe]: Downloading https://files.pythonhosted.org/packages/a6/f9/1cf2e6961686bb28966da0f0ea8f4e552560793512d68590908bd7306379/openpipe-4.9.0.tar.gz
+[2024-05-22 01:20:26] INFO root fetch - processPackages [openpipe]: executing diffoscope
+[2024-05-22 01:20:26] INFO root fetch - processPackages [openpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpipe-4.8.0.tar.gz tmp/openpipe-4.9.0.tar.gz --markdown 20240522/o/openpipe/4.8.0-4.9.0/README.md --exclude *.pyd
+[2024-05-22 01:20:27] INFO root fetch - processPackages [heaserver-people]: Remove: archive file [/home/abi/fetcher/tmp/heaserver_people-1.2.0.tar.gz]
+[2024-05-22 01:20:27] INFO root fetch - processPackages [heaserver-people]: Remove: archive file [/home/abi/fetcher/tmp/heaserver_people-1.3.0.tar.gz]
+[2024-05-22 01:20:27] INFO root fetch - main [MainThread]: End processing [heaserver-people]: success
+[2024-05-22 01:20:27] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/90/61/204e9f4f03b068d2202e6302ee8dad47f3bdf49018c2db91dbd26124066b/thirdai-0.8.4-cp39-cp39-win_amd64.whl
+[2024-05-22 01:20:27] INFO root fetch - processPackages [openpipe]: Remove: archive file [/home/abi/fetcher/tmp/openpipe-4.8.0.tar.gz]
+[2024-05-22 01:20:27] INFO root fetch - processPackages [openpipe]: Remove: archive file [/home/abi/fetcher/tmp/openpipe-4.9.0.tar.gz]
+[2024-05-22 01:20:27] INFO root fetch - main [MainThread]: End processing [openpipe]: success
+[2024-05-22 01:20:28] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2024-05-22 01:20:28] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.8.3-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.8.4-cp39-cp39-win_amd64.whl.zip --markdown 20240522/t/thirdai/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-05-22 01:20:29] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.8.3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 01:20:29] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.8.4-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 01:20:29] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2024-05-22 01:20:29] INFO root fetch - main [MainThread]: Store serial: [23315038]

@@ -37,3 +37,78 @@
 [2024-05-22 00:01:56] INFO root fetch - processPackages [databento-dbn]: Remove: archive file [/home/abi/fetcher/tmp/databento_dbn-0.9.0-cp39-none-win_amd64.whl.zip]
 [2024-05-22 00:01:56] INFO root fetch - main [MainThread]: End processing [databento-dbn]: success
 [2024-05-22 00:01:56] INFO root fetch - main [MainThread]: Store serial: [23314256]
+[2024-05-22 00:03:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314256]
+[2024-05-22 00:04:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 00:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mppsolar
+[2024-05-22 00:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sideko-py
+[2024-05-22 00:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: module_sdstate
+[2024-05-22 00:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-project-manager
+[2024-05-22 00:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: changedetection.io
+[2024-05-22 00:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: epure
+[2024-05-22 00:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fasta-manager
+[2024-05-22 00:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: batchstats
+[2024-05-22 00:04:04] INFO root fetch - processPackages [module_sdstate]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-22 00:04:05] INFO root fetch - processPackages [mppsolar]: New version: [0.9.12] Old Version: [0.9.1]
+[2024-05-22 00:04:05] INFO root fetch - processPackages [epure]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-22 00:04:05] INFO root fetch - processPackages [python-project-manager]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-22 00:04:05] INFO root fetch - processPackages [module_sdstate]: Downloading https://files.pythonhosted.org/packages/19/cf/6374c9b8af4b3a1905592e3c8595366fd4967c7ed65a20e90d1786bf2dff/module_sdstate-0.1.3.tar.gz
+[2024-05-22 00:04:05] INFO root fetch - processPackages [fasta-manager]: New version: [1.3] Old Version: [1.2]
+[2024-05-22 00:04:05] INFO root fetch - processPackages [mppsolar]: Downloading https://files.pythonhosted.org/packages/6b/31/e960cd826fccc8ffb069d4605d995c555846f8fce9f86e5e121ccedcad86/mppsolar-0.9.1.tar.gz
+[2024-05-22 00:04:05] INFO root fetch - processPackages [sideko-py]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-05-22 00:04:05] INFO root fetch - processPackages [changedetection.io]: New version: [0.45.9] Old Version: [0.45.8.1]
+[2024-05-22 00:04:05] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/6e/c0/2ff88bb86937ad17b19fa19f21079eb6d36d0ac0df7c9cf1e0af8a3125cc/epure-0.3.8.tar.gz
+[2024-05-22 00:04:05] INFO root fetch - processPackages [python-project-manager]: Downloading https://files.pythonhosted.org/packages/ed/ea/a12ece5e3595e985296b68500bd7e4f3e6abf0315235599aef47793d1cba/python-project-manager-1.0.0.tar.gz
+[2024-05-22 00:04:05] INFO root fetch - processPackages [batchstats]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-22 00:04:05] INFO root fetch - processPackages [fasta-manager]: Downloading https://files.pythonhosted.org/packages/2b/a8/393b6d00d1265bd06ab39a55b16e5ed2802f49dd5ca8bb35da38712976b2/fasta-manager-1.2.tar.gz
+[2024-05-22 00:04:05] INFO root fetch - processPackages [sideko-py]: Downloading https://files.pythonhosted.org/packages/a4/0c/fe19e98f2a623ca5a10c2064ca33956d4cd360280f974666189586b46476/sideko_py-0.4.1.tar.gz
+[2024-05-22 00:04:05] INFO root fetch - processPackages [batchstats]: Downloading https://files.pythonhosted.org/packages/e3/41/b2421f27a9e5e3632d2223465b608645c7dcfc234f37e8a7ab306753d717/batchstats-0.3.2.tar.gz
+[2024-05-22 00:04:05] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/ba/87/f79d99beb6727d805fb8ccaee51415615d9cab9ff8e06eb3704130b1d9e5/epure-0.3.9.tar.gz
+[2024-05-22 00:04:05] INFO root fetch - processPackages [python-project-manager]: Downloading https://files.pythonhosted.org/packages/49/36/f86bec238f38e2f0ce389dda991ca92cb71db2cf3ea0aa9895995868e292/python_project_manager-1.1.0.tar.gz
+[2024-05-22 00:04:05] INFO root fetch - processPackages [changedetection.io]: Downloading https://files.pythonhosted.org/packages/8d/b5/2e48942a3cd1710a18ac803faddf793104a103662fb464b300ef73c25af3/changedetection.io-0.45.8.1-py3-none-any.whl
+[2024-05-22 00:04:05] INFO root fetch - processPackages [module_sdstate]: Downloading https://files.pythonhosted.org/packages/d2/05/6c7876f15f7c85c1449bf80ed31831195e3e298d4f3e6f891de8ca131335/module_sdstate-0.1.4.tar.gz
+[2024-05-22 00:04:05] INFO root fetch - processPackages [mppsolar]: Downloading https://files.pythonhosted.org/packages/fd/87/29296f7b83112ba52d957ad9bd045e73b688905ea29ddda5f44e092a22bc/mppsolar-0.9.12.tar.gz
+[2024-05-22 00:04:05] INFO root fetch - processPackages [python-project-manager]: executing diffoscope
+[2024-05-22 00:04:05] INFO root fetch - processPackages [python-project-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-project-manager-1.0.0.tar.gz tmp/python_project_manager-1.1.0.tar.gz --markdown 20240522/p/python-project-manager/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-22 00:04:05] INFO root fetch - processPackages [epure]: executing diffoscope
+[2024-05-22 00:04:05] INFO root fetch - processPackages [epure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epure-0.3.8.tar.gz tmp/epure-0.3.9.tar.gz --markdown 20240522/e/epure/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-22 00:04:05] INFO root fetch - processPackages [module_sdstate]: executing diffoscope
+[2024-05-22 00:04:05] INFO root fetch - processPackages [module_sdstate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/module_sdstate-0.1.3.tar.gz tmp/module_sdstate-0.1.4.tar.gz --markdown 20240522/m/module_sdstate/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-22 00:04:05] INFO root fetch - processPackages [mppsolar]: executing diffoscope
+[2024-05-22 00:04:05] INFO root fetch - processPackages [mppsolar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mppsolar-0.9.1.tar.gz tmp/mppsolar-0.9.12.tar.gz --markdown 20240522/m/mppsolar/0.9.1-0.9.12/README.md --exclude *.pyd
+[2024-05-22 00:04:05] INFO root fetch - processPackages [sideko-py]: Downloading https://files.pythonhosted.org/packages/43/2e/a79ac447818858b5e12341fb7f822c7036fdfbee7e46535f071cd6cdbaa2/sideko_py-0.5.0.tar.gz
+[2024-05-22 00:04:05] INFO root fetch - processPackages [fasta-manager]: Downloading https://files.pythonhosted.org/packages/71/67/2a37602ef9d852ae8fc19df2fa2ca79328dbab9176f4868d87da57922f3c/fasta_manager-1.3.tar.gz
+[2024-05-22 00:04:05] INFO root fetch - processPackages [batchstats]: Downloading https://files.pythonhosted.org/packages/df/35/df6c55df37adde654e4ba51a6dc0cb8297e4a60099abccbcbfe7f8ad7236/batchstats-0.3.3.tar.gz
+[2024-05-22 00:04:05] INFO root fetch - processPackages [sideko-py]: executing diffoscope
+[2024-05-22 00:04:05] INFO root fetch - processPackages [sideko-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sideko_py-0.4.1.tar.gz tmp/sideko_py-0.5.0.tar.gz --markdown 20240522/s/sideko-py/0.4.1-0.5.0/README.md --exclude *.pyd
+[2024-05-22 00:04:06] INFO root fetch - processPackages [fasta-manager]: executing diffoscope
+[2024-05-22 00:04:06] INFO root fetch - processPackages [fasta-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasta-manager-1.2.tar.gz tmp/fasta_manager-1.3.tar.gz --markdown 20240522/f/fasta-manager/1.2-1.3/README.md --exclude *.pyd
+[2024-05-22 00:04:06] INFO root fetch - processPackages [changedetection.io]: Downloading https://files.pythonhosted.org/packages/1c/ce/8c2a4cabb98fabeb569b4704217bbbd13cb61a6b68c9d307073b0bc33c5e/changedetection.io-0.45.9-py3-none-any.whl
+[2024-05-22 00:04:06] INFO root fetch - processPackages [batchstats]: executing diffoscope
+[2024-05-22 00:04:06] INFO root fetch - processPackages [batchstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batchstats-0.3.2.tar.gz tmp/batchstats-0.3.3.tar.gz --markdown 20240522/b/batchstats/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-22 00:04:06] INFO root fetch - processPackages [changedetection.io]: executing diffoscope
+[2024-05-22 00:04:06] INFO root fetch - processPackages [changedetection.io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/changedetection.io-0.45.8.1-py3-none-any.whl.zip tmp/changedetection.io-0.45.9-py3-none-any.whl.zip --markdown 20240522/c/changedetection.io/0.45.8.1-0.45.9/README.md --exclude *.pyd
+[2024-05-22 00:04:06] INFO root fetch - processPackages [python-project-manager]: Remove: archive file [/home/abi/fetcher/tmp/python-project-manager-1.0.0.tar.gz]
+[2024-05-22 00:04:06] INFO root fetch - processPackages [python-project-manager]: Remove: archive file [/home/abi/fetcher/tmp/python_project_manager-1.1.0.tar.gz]
+[2024-05-22 00:04:06] INFO root fetch - main [MainThread]: End processing [python-project-manager]: success
+[2024-05-22 00:04:06] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.3.8.tar.gz]
+[2024-05-22 00:04:06] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.3.9.tar.gz]
+[2024-05-22 00:04:06] INFO root fetch - main [MainThread]: End processing [epure]: success
+[2024-05-22 00:04:06] INFO root fetch - processPackages [module_sdstate]: Remove: archive file [/home/abi/fetcher/tmp/module_sdstate-0.1.3.tar.gz]
+[2024-05-22 00:04:06] INFO root fetch - processPackages [module_sdstate]: Remove: archive file [/home/abi/fetcher/tmp/module_sdstate-0.1.4.tar.gz]
+[2024-05-22 00:04:06] INFO root fetch - main [MainThread]: End processing [module_sdstate]: success
+[2024-05-22 00:04:06] INFO root fetch - processPackages [mppsolar]: Remove: archive file [/home/abi/fetcher/tmp/mppsolar-0.9.1.tar.gz]
+[2024-05-22 00:04:06] INFO root fetch - processPackages [mppsolar]: Remove: archive file [/home/abi/fetcher/tmp/mppsolar-0.9.12.tar.gz]
+[2024-05-22 00:04:06] INFO root fetch - main [MainThread]: End processing [mppsolar]: success
+[2024-05-22 00:04:06] INFO root fetch - processPackages [batchstats]: Remove: archive file [/home/abi/fetcher/tmp/batchstats-0.3.2.tar.gz]
+[2024-05-22 00:04:06] INFO root fetch - processPackages [batchstats]: Remove: archive file [/home/abi/fetcher/tmp/batchstats-0.3.3.tar.gz]
+[2024-05-22 00:04:06] INFO root fetch - main [MainThread]: End processing [batchstats]: success
+[2024-05-22 00:04:06] INFO root fetch - processPackages [fasta-manager]: Remove: archive file [/home/abi/fetcher/tmp/fasta-manager-1.2.tar.gz]
+[2024-05-22 00:04:06] INFO root fetch - processPackages [fasta-manager]: Remove: archive file [/home/abi/fetcher/tmp/fasta_manager-1.3.tar.gz]
+[2024-05-22 00:04:06] INFO root fetch - main [MainThread]: End processing [fasta-manager]: success
+[2024-05-22 00:04:06] INFO root fetch - processPackages [sideko-py]: Remove: archive file [/home/abi/fetcher/tmp/sideko_py-0.4.1.tar.gz]
+[2024-05-22 00:04:06] INFO root fetch - processPackages [sideko-py]: Remove: archive file [/home/abi/fetcher/tmp/sideko_py-0.5.0.tar.gz]
+[2024-05-22 00:04:06] INFO root fetch - main [MainThread]: End processing [sideko-py]: success
+[2024-05-22 00:04:07] INFO root fetch - processPackages [changedetection.io]: Remove: archive file [/home/abi/fetcher/tmp/changedetection.io-0.45.8.1-py3-none-any.whl.zip]
+[2024-05-22 00:04:07] INFO root fetch - processPackages [changedetection.io]: Remove: archive file [/home/abi/fetcher/tmp/changedetection.io-0.45.9-py3-none-any.whl.zip]
+[2024-05-22 00:04:07] INFO root fetch - main [MainThread]: End processing [changedetection.io]: success
+[2024-05-22 00:04:07] INFO root fetch - main [MainThread]: Store serial: [23314290]

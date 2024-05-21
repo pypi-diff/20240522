@@ -1320,3 +1320,60 @@
 [2024-05-22 01:05:16] INFO root fetch - processPackages [emmet-core]: Remove: archive file [/home/abi/fetcher/tmp/emmet-core-0.9.3.tar.gz]
 [2024-05-22 01:05:16] INFO root fetch - main [MainThread]: End processing [emmet-core]: success
 [2024-05-22 01:05:16] INFO root fetch - main [MainThread]: Store serial: [23314915]
+[2024-05-22 01:07:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314915]
+[2024-05-22 01:07:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 01:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: emmet-builders
+[2024-05-22 01:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt
+[2024-05-22 01:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flwr-nightly
+[2024-05-22 01:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: emmet-api
+[2024-05-22 01:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uploadthing.py
+[2024-05-22 01:07:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unstructured-inference
+[2024-05-22 01:07:24] INFO root fetch - processPackages [flwr-nightly]: New version: [1.9.0.dev20240520] Old Version: [1.9.0.dev20240519]
+[2024-05-22 01:07:24] INFO root fetch - processPackages [uploadthing.py]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-22 01:07:24] INFO root fetch - processPackages [unstructured-inference]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-22 01:07:24] INFO root fetch - processPackages [emmet-api]: New version: [0.83.6rc3] Old Version: [0.83.6rc2]
+[2024-05-22 01:07:24] INFO root fetch - processPackages [tmnt]: New version: [0.7.52b20240521] Old Version: [0.7.52b20240520]
+[2024-05-22 01:07:24] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/db/ec/f641890c54a5366530e5b4c7ac4f6c8fa50fcdcb383969c8b0d60319c264/flwr_nightly-1.9.0.dev20240519.tar.gz
+[2024-05-22 01:07:24] INFO root fetch - processPackages [emmet-builders]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-22 01:07:24] INFO root fetch - processPackages [uploadthing.py]: Downloading https://files.pythonhosted.org/packages/06/9f/98550e1c2e0676a7eb88dc6afe27233293ba320bdfc13abb1cd72a2d57b4/uploadthing_py-0.3.0.tar.gz
+[2024-05-22 01:07:24] INFO root fetch - processPackages [unstructured-inference]: Downloading https://files.pythonhosted.org/packages/a5/de/236a90cd7a70ce149d52403b92cbeee81f73494434e6fc9a8503fa7055ef/unstructured_inference-0.7.8.tar.gz
+[2024-05-22 01:07:25] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/b3/9f/ec08c5daefc1dab5587b18b933f8845a69362d5e4f4cd605e3028250efa8/emmet-builders-0.9.2.tar.gz
+[2024-05-22 01:07:25] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/2d/ec/fd2df81c407c0be5efb9748f24edf24be6ad02063f2fced6bb730f7471b9/tmnt-0.7.52b20240520.tar.gz
+[2024-05-22 01:07:25] INFO root fetch - processPackages [emmet-api]: Downloading https://files.pythonhosted.org/packages/1b/a6/922c71887bbb8aa9fcaea40073f38864e79d1f66d97d30a4f0f80d0f8d12/emmet-api-0.83.6rc2.tar.gz
+[2024-05-22 01:07:25] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/a3/67/92da40659ca2110db4ffce9ca5d3215e9648e81024c07713317d092f8952/flwr_nightly-1.9.0.dev20240520.tar.gz
+[2024-05-22 01:07:25] INFO root fetch - processPackages [uploadthing.py]: Downloading https://files.pythonhosted.org/packages/38/9c/752f667010bef49254f422ca9da8f0c986fb2380d2aee1f5ddb368028bec/uploadthing_py-0.3.1.tar.gz
+[2024-05-22 01:07:25] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-05-22 01:07:25] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.9.0.dev20240519.tar.gz tmp/flwr_nightly-1.9.0.dev20240520.tar.gz --markdown 20240522/f/flwr-nightly/1.9.0.dev20240519-1.9.0.dev20240520/README.md --exclude *.pyd
+[2024-05-22 01:07:25] INFO root fetch - processPackages [uploadthing.py]: executing diffoscope
+[2024-05-22 01:07:25] INFO root fetch - processPackages [uploadthing.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uploadthing_py-0.3.0.tar.gz tmp/uploadthing_py-0.3.1.tar.gz --markdown 20240522/u/uploadthing.py/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-22 01:07:25] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/e7/57/3774ae6f92501b347c6496ad5706815c1e122e72d229938f2513380876ed/tmnt-0.7.52b20240521.tar.gz
+[2024-05-22 01:07:25] INFO root fetch - processPackages [emmet-api]: Downloading https://files.pythonhosted.org/packages/b7/31/0c6be370ae4be658507dba1f82421c710ac1af1bc9ec2c0d08ac2b5546f9/emmet-api-0.83.6rc3.tar.gz
+[2024-05-22 01:07:25] INFO root fetch - processPackages [unstructured-inference]: Downloading https://files.pythonhosted.org/packages/33/77/3df1a5cf753f74575c4abbd6064e39624ead060b1f27dd8fbd58c7cba561/unstructured_inference-0.7.9.tar.gz
+[2024-05-22 01:07:25] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-05-22 01:07:25] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.52b20240520.tar.gz tmp/tmnt-0.7.52b20240521.tar.gz --markdown 20240522/t/tmnt/0.7.52b20240520-0.7.52b20240521/README.md --exclude *.pyd
+[2024-05-22 01:07:25] INFO root fetch - processPackages [emmet-api]: executing diffoscope
+[2024-05-22 01:07:25] INFO root fetch - processPackages [emmet-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-api-0.83.6rc2.tar.gz tmp/emmet-api-0.83.6rc3.tar.gz --markdown 20240522/e/emmet-api/0.83.6rc2-0.83.6rc3/README.md --exclude *.pyd
+[2024-05-22 01:07:25] INFO root fetch - processPackages [unstructured-inference]: executing diffoscope
+[2024-05-22 01:07:25] INFO root fetch - processPackages [unstructured-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured_inference-0.7.8.tar.gz tmp/unstructured_inference-0.7.9.tar.gz --markdown 20240522/u/unstructured-inference/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-22 01:07:26] INFO root fetch - processPackages [uploadthing.py]: Remove: archive file [/home/abi/fetcher/tmp/uploadthing_py-0.3.0.tar.gz]
+[2024-05-22 01:07:26] INFO root fetch - processPackages [uploadthing.py]: Remove: archive file [/home/abi/fetcher/tmp/uploadthing_py-0.3.1.tar.gz]
+[2024-05-22 01:07:26] INFO root fetch - main [MainThread]: End processing [uploadthing.py]: success
+[2024-05-22 01:07:26] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240520.tar.gz]
+[2024-05-22 01:07:26] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.52b20240521.tar.gz]
+[2024-05-22 01:07:26] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-05-22 01:07:26] INFO root fetch - processPackages [unstructured-inference]: Remove: archive file [/home/abi/fetcher/tmp/unstructured_inference-0.7.8.tar.gz]
+[2024-05-22 01:07:26] INFO root fetch - processPackages [unstructured-inference]: Remove: archive file [/home/abi/fetcher/tmp/unstructured_inference-0.7.9.tar.gz]
+[2024-05-22 01:07:26] INFO root fetch - main [MainThread]: End processing [unstructured-inference]: success
+[2024-05-22 01:07:26] INFO root fetch - processPackages [emmet-builders]: Downloading https://files.pythonhosted.org/packages/d3/8a/c73672eb055bc5323b006090ad1112b6027d2d5cbbe46b35eaa33b3924be/emmet-builders-0.9.3.tar.gz
+[2024-05-22 01:07:26] INFO root fetch - processPackages [emmet-builders]: executing diffoscope
+[2024-05-22 01:07:26] INFO root fetch - processPackages [emmet-builders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-builders-0.9.2.tar.gz tmp/emmet-builders-0.9.3.tar.gz --markdown 20240522/e/emmet-builders/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-22 01:07:26] INFO root fetch - processPackages [emmet-api]: Remove: archive file [/home/abi/fetcher/tmp/emmet-api-0.83.6rc2.tar.gz]
+[2024-05-22 01:07:26] INFO root fetch - processPackages [emmet-api]: Remove: archive file [/home/abi/fetcher/tmp/emmet-api-0.83.6rc3.tar.gz]
+[2024-05-22 01:07:26] INFO root fetch - main [MainThread]: End processing [emmet-api]: success
+[2024-05-22 01:07:26] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240519.tar.gz]
+[2024-05-22 01:07:26] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.9.0.dev20240520.tar.gz]
+[2024-05-22 01:07:26] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-05-22 01:07:27] INFO root fetch - processPackages [emmet-builders]: Remove: archive file [/home/abi/fetcher/tmp/emmet-builders-0.9.2.tar.gz]
+[2024-05-22 01:07:27] INFO root fetch - processPackages [emmet-builders]: Remove: archive file [/home/abi/fetcher/tmp/emmet-builders-0.9.3.tar.gz]
+[2024-05-22 01:07:27] INFO root fetch - main [MainThread]: End processing [emmet-builders]: success
+[2024-05-22 01:07:27] INFO root fetch - main [MainThread]: Store serial: [23314954]

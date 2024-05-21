@@ -198,3 +198,42 @@
 [2024-05-22 00:08:31] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
 [2024-05-22 00:08:31] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
 [2024-05-22 00:08:31] INFO root fetch - main [MainThread]: Store serial: [23314348]
+[2024-05-22 00:10:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314348]
+[2024-05-22 00:10:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 00:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: burr
+[2024-05-22 00:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seaplane
+[2024-05-22 00:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tcrutils
+[2024-05-22 00:10:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: appsurifyci
+[2024-05-22 00:10:40] INFO root fetch - processPackages [tcrutils]: New version: [12.0.168] Old Version: [12.0.167]
+[2024-05-22 00:10:40] INFO root fetch - processPackages [tcrutils]: Downloading https://files.pythonhosted.org/packages/ff/22/b595c5af656c5984468302a5ea342209813a2a2242939cd0b281a86de4e5/tcrutils-12.0.167.tar.gz
+[2024-05-22 00:10:40] INFO root fetch - processPackages [burr]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-22 00:10:40] INFO root fetch - processPackages [appsurifyci]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 00:10:40] INFO root fetch - processPackages [seaplane]: New version: [0.6a9] Old Version: [0.6a8]
+[2024-05-22 00:10:40] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/be/78/e633e7cea242e900964a292a85e443de25712046c3092cb90e623f5df51f/appsurifyci-0.1.8.tar.gz
+[2024-05-22 00:10:40] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/87/83/f7356070de16e070dbc68373d02f5b3677c417c21359630b2007a8b027df/burr-0.8.1.tar.gz
+[2024-05-22 00:10:40] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/04/dc/2ce684388fd09571ac42495b70c05571bfe81f9789cc84e483e1368b8c5c/seaplane-0.6a8.tar.gz
+[2024-05-22 00:10:41] INFO root fetch - processPackages [tcrutils]: Downloading https://files.pythonhosted.org/packages/5f/5c/654bdf5444789855f296aecb6ba4491591a6634513dc0399fc12058e65d2/tcrutils-12.0.168.tar.gz
+[2024-05-22 00:10:41] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/d1/1a/83fd0a2a85db4bcfae5c7da196564233f55a65456f7d620ff4d1899e8f0c/appsurifyci-0.1.9.tar.gz
+[2024-05-22 00:10:41] INFO root fetch - processPackages [tcrutils]: executing diffoscope
+[2024-05-22 00:10:41] INFO root fetch - processPackages [tcrutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcrutils-12.0.167.tar.gz tmp/tcrutils-12.0.168.tar.gz --markdown 20240522/t/tcrutils/12.0.167-12.0.168/README.md --exclude *.pyd
+[2024-05-22 00:10:41] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f1/5a/1fe41b722a3a104c44fe09fec599272ee8aef30de93b169fde92a324d98d/seaplane-0.6a9.tar.gz
+[2024-05-22 00:10:41] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2024-05-22 00:10:41] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.6a8.tar.gz tmp/seaplane-0.6a9.tar.gz --markdown 20240522/s/seaplane/0.6a8-0.6a9/README.md --exclude *.pyd
+[2024-05-22 00:10:41] INFO root fetch - processPackages [appsurifyci]: executing diffoscope
+[2024-05-22 00:10:41] INFO root fetch - processPackages [appsurifyci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appsurifyci-0.1.8.tar.gz tmp/appsurifyci-0.1.9.tar.gz --markdown 20240522/a/appsurifyci/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 00:10:41] INFO root fetch - processPackages [burr]: Downloading https://files.pythonhosted.org/packages/65/38/00b44d54c37f35813232167f5745ca37eac9ad13574e81e1f4e685acf5d5/burr-0.9.0.tar.gz
+[2024-05-22 00:10:41] INFO root fetch - processPackages [burr]: executing diffoscope
+[2024-05-22 00:10:41] INFO root fetch - processPackages [burr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/burr-0.8.1.tar.gz tmp/burr-0.9.0.tar.gz --markdown 20240522/b/burr/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-22 00:10:42] INFO root fetch - processPackages [tcrutils]: Remove: archive file [/home/abi/fetcher/tmp/tcrutils-12.0.167.tar.gz]
+[2024-05-22 00:10:42] INFO root fetch - processPackages [tcrutils]: Remove: archive file [/home/abi/fetcher/tmp/tcrutils-12.0.168.tar.gz]
+[2024-05-22 00:10:42] INFO root fetch - main [MainThread]: End processing [tcrutils]: success
+[2024-05-22 00:10:42] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.6a8.tar.gz]
+[2024-05-22 00:10:42] INFO root fetch - processPackages [appsurifyci]: Remove: archive file [/home/abi/fetcher/tmp/appsurifyci-0.1.8.tar.gz]
+[2024-05-22 00:10:42] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.6a9.tar.gz]
+[2024-05-22 00:10:42] INFO root fetch - processPackages [appsurifyci]: Remove: archive file [/home/abi/fetcher/tmp/appsurifyci-0.1.9.tar.gz]
+[2024-05-22 00:10:42] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2024-05-22 00:10:42] INFO root fetch - main [MainThread]: End processing [appsurifyci]: success
+[2024-05-22 00:11:18] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.8.1.tar.gz]
+[2024-05-22 00:11:18] INFO root fetch - processPackages [burr]: Remove: archive file [/home/abi/fetcher/tmp/burr-0.9.0.tar.gz]
+[2024-05-22 00:11:18] INFO root fetch - main [MainThread]: End processing [burr]: success
+[2024-05-22 00:11:18] INFO root fetch - main [MainThread]: Store serial: [23314359]

@@ -1225,3 +1225,33 @@
 [2024-05-22 00:58:46] INFO root fetch - processPackages [tiledbsoma]: Remove: archive file [/home/abi/fetcher/tmp/tiledbsoma-1.9.5.tar.gz]
 [2024-05-22 00:58:46] INFO root fetch - main [MainThread]: End processing [tiledbsoma]: success
 [2024-05-22 00:58:46] INFO root fetch - main [MainThread]: Store serial: [23314811]
+[2024-05-22 01:00:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314811]
+[2024-05-22 01:00:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 01:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai-api-with-easy-tools-and-web-browsing
+[2024-05-22 01:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DreamCreator
+[2024-05-22 01:00:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: osint-comp
+[2024-05-22 01:00:54] INFO root fetch - processPackages [osint-comp]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-22 01:00:54] INFO root fetch - processPackages [DreamCreator]: New version: [0.0.3] Old Version: [0.0.24]
+[2024-05-22 01:00:54] INFO root fetch - processPackages [osint-comp]: Downloading https://files.pythonhosted.org/packages/c9/89/1f44c1cb810d72060bfff95a3a8d59789f5f1ef01d17dedc793a726bae0a/osint_comp-0.2.1.tar.gz
+[2024-05-22 01:00:54] INFO root fetch - processPackages [openai-api-with-easy-tools-and-web-browsing]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-22 01:00:54] INFO root fetch - processPackages [DreamCreator]: Downloading https://files.pythonhosted.org/packages/be/ae/911b8bd89d64470ed03c3a31431db451a4b5d2f665de797df7464ca894c8/DreamCreator-0.0.24.tar.gz
+[2024-05-22 01:00:55] INFO root fetch - processPackages [openai-api-with-easy-tools-and-web-browsing]: Downloading https://files.pythonhosted.org/packages/52/ef/c938f486d9503ce03df289aa27075c7f0163a87ba30c5ce0d44424ab70db/openai_api_with_easy_tools_and_web_browsing-1.0.6.tar.gz
+[2024-05-22 01:00:55] INFO root fetch - processPackages [osint-comp]: Downloading https://files.pythonhosted.org/packages/0d/44/2581d80efc70d571c707957bd20f5af9ccd9a1871361abb3717548f16472/osint_comp-0.2.2.tar.gz
+[2024-05-22 01:00:55] INFO root fetch - processPackages [DreamCreator]: Downloading https://files.pythonhosted.org/packages/ce/5b/787c1affed15428a245198f913e10c9c9549e15cba1ac2612165fbc490b9/DreamCreator-0.0.3.tar.gz
+[2024-05-22 01:00:55] INFO root fetch - processPackages [osint-comp]: executing diffoscope
+[2024-05-22 01:00:55] INFO root fetch - processPackages [osint-comp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osint_comp-0.2.1.tar.gz tmp/osint_comp-0.2.2.tar.gz --markdown 20240522/o/osint-comp/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-22 01:00:55] INFO root fetch - processPackages [DreamCreator]: executing diffoscope
+[2024-05-22 01:00:55] INFO root fetch - processPackages [DreamCreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DreamCreator-0.0.24.tar.gz tmp/DreamCreator-0.0.3.tar.gz --markdown 20240522/D/DreamCreator/0.0.24-0.0.3/README.md --exclude *.pyd
+[2024-05-22 01:00:55] INFO root fetch - processPackages [openai-api-with-easy-tools-and-web-browsing]: Downloading https://files.pythonhosted.org/packages/15/e9/31aacd6eba2cd152e1826ed22b9890824756eec9132acb4153455c4997f2/openai_api_with_easy_tools_and_web_browsing-1.0.7.tar.gz
+[2024-05-22 01:00:55] INFO root fetch - processPackages [openai-api-with-easy-tools-and-web-browsing]: executing diffoscope
+[2024-05-22 01:00:55] INFO root fetch - processPackages [openai-api-with-easy-tools-and-web-browsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_api_with_easy_tools_and_web_browsing-1.0.6.tar.gz tmp/openai_api_with_easy_tools_and_web_browsing-1.0.7.tar.gz --markdown 20240522/o/openai-api-with-easy-tools-and-web-browsing/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-22 01:00:55] INFO root fetch - processPackages [osint-comp]: Remove: archive file [/home/abi/fetcher/tmp/osint_comp-0.2.1.tar.gz]
+[2024-05-22 01:00:55] INFO root fetch - processPackages [osint-comp]: Remove: archive file [/home/abi/fetcher/tmp/osint_comp-0.2.2.tar.gz]
+[2024-05-22 01:00:55] INFO root fetch - main [MainThread]: End processing [osint-comp]: success
+[2024-05-22 01:00:56] INFO root fetch - processPackages [openai-api-with-easy-tools-and-web-browsing]: Remove: archive file [/home/abi/fetcher/tmp/openai_api_with_easy_tools_and_web_browsing-1.0.6.tar.gz]
+[2024-05-22 01:00:56] INFO root fetch - processPackages [openai-api-with-easy-tools-and-web-browsing]: Remove: archive file [/home/abi/fetcher/tmp/openai_api_with_easy_tools_and_web_browsing-1.0.7.tar.gz]
+[2024-05-22 01:00:56] INFO root fetch - main [MainThread]: End processing [openai-api-with-easy-tools-and-web-browsing]: success
+[2024-05-22 01:00:56] INFO root fetch - processPackages [DreamCreator]: Remove: archive file [/home/abi/fetcher/tmp/DreamCreator-0.0.24.tar.gz]
+[2024-05-22 01:00:56] INFO root fetch - processPackages [DreamCreator]: Remove: archive file [/home/abi/fetcher/tmp/DreamCreator-0.0.3.tar.gz]
+[2024-05-22 01:00:56] INFO root fetch - main [MainThread]: End processing [DreamCreator]: success
+[2024-05-22 01:00:56] INFO root fetch - main [MainThread]: Store serial: [23314829]

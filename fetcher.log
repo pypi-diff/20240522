@@ -402,3 +402,54 @@
 [2024-05-22 00:18:33] INFO root fetch - processPackages [yoctopuce]: Remove: archive file [/home/abi/fetcher/tmp/yoctopuce-2.0.61039.tar.gz]
 [2024-05-22 00:18:33] INFO root fetch - main [MainThread]: End processing [yoctopuce]: success
 [2024-05-22 00:18:33] INFO root fetch - main [MainThread]: Store serial: [23314444]
+[2024-05-22 00:20:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314444]
+[2024-05-22 00:20:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 00:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: timechart
+[2024-05-22 00:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fasta-manager
+[2024-05-22 00:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plush-fabric
+[2024-05-22 00:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: midea-local
+[2024-05-22 00:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fast-deep-rnn
+[2024-05-22 00:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydicomsorter
+[2024-05-22 00:20:51] INFO root fetch - processPackages [fasta-manager]: New version: [1.3.1] Old Version: [1.3]
+[2024-05-22 00:20:51] INFO root fetch - processPackages [pydicomsorter]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-22 00:20:51] WARNING root fetch - processPackages [fast-deep-rnn]: Skipping, unable to determine old version
+[2024-05-22 00:20:51] INFO root fetch - main [MainThread]: End processing [fast-deep-rnn] error
+[2024-05-22 00:20:51] INFO root fetch - processPackages [plush-fabric]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-22 00:20:51] INFO root fetch - processPackages [timechart]: New version: [1.5.3] Old Version: [1.5.1]
+[2024-05-22 00:20:51] INFO root fetch - processPackages [fasta-manager]: Downloading https://files.pythonhosted.org/packages/71/67/2a37602ef9d852ae8fc19df2fa2ca79328dbab9176f4868d87da57922f3c/fasta_manager-1.3.tar.gz
+[2024-05-22 00:20:51] INFO root fetch - processPackages [midea-local]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-22 00:20:51] INFO root fetch - processPackages [pydicomsorter]: Downloading https://files.pythonhosted.org/packages/c6/20/33c3930981faad73e60211e6222e46b4c0e040b55fdef7f8af1e0d370514/pydicomsorter-0.5.0.tar.gz
+[2024-05-22 00:20:51] INFO root fetch - processPackages [plush-fabric]: Downloading https://files.pythonhosted.org/packages/5e/a9/313f8e8f2b5d6931ab2fa270b0832345ae99341a9ac98bc9630dc8ed8f5a/plush_fabric-1.0.1.tar.gz
+[2024-05-22 00:20:51] INFO root fetch - processPackages [timechart]: Downloading https://files.pythonhosted.org/packages/8e/5b/23d05f6c189999210927c975c3efbe2a9370fc876723f8927e0d75340e48/timechart-1.5.1.tar.gz
+[2024-05-22 00:20:51] INFO root fetch - processPackages [midea-local]: Downloading https://files.pythonhosted.org/packages/ed/63/7657d5cbd11e06ae693b2327a9bcacd53d178cb4490a54516018c330cc9a/midea_local-1.0.0.tar.gz
+[2024-05-22 00:20:51] INFO root fetch - processPackages [fasta-manager]: Downloading https://files.pythonhosted.org/packages/00/fe/01a96c9ea6126a51ba60f6a178397129fc4a2be08a9fac5a59b254bab06f/fasta_manager-1.3.1.tar.gz
+[2024-05-22 00:20:51] INFO root fetch - processPackages [pydicomsorter]: Downloading https://files.pythonhosted.org/packages/cb/5f/7b1d301319e196f82515954711565c3d133fca1a89f477aa489a82460b8c/pydicomsorter-0.5.1.tar.gz
+[2024-05-22 00:20:52] INFO root fetch - processPackages [fasta-manager]: executing diffoscope
+[2024-05-22 00:20:52] INFO root fetch - processPackages [fasta-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fasta_manager-1.3.tar.gz tmp/fasta_manager-1.3.1.tar.gz --markdown 20240522/f/fasta-manager/1.3-1.3.1/README.md --exclude *.pyd
+[2024-05-22 00:20:52] INFO root fetch - processPackages [plush-fabric]: Downloading https://files.pythonhosted.org/packages/85/47/c98cfe144c0c30a7d1ce75b646e937b1c9d1c83ea8eceb7800310403f194/plush_fabric-1.0.2.tar.gz
+[2024-05-22 00:20:52] INFO root fetch - processPackages [pydicomsorter]: executing diffoscope
+[2024-05-22 00:20:52] INFO root fetch - processPackages [pydicomsorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydicomsorter-0.5.0.tar.gz tmp/pydicomsorter-0.5.1.tar.gz --markdown 20240522/p/pydicomsorter/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-22 00:20:52] INFO root fetch - processPackages [plush-fabric]: executing diffoscope
+[2024-05-22 00:20:52] INFO root fetch - processPackages [plush-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plush_fabric-1.0.1.tar.gz tmp/plush_fabric-1.0.2.tar.gz --markdown 20240522/p/plush-fabric/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-22 00:20:52] INFO root fetch - processPackages [timechart]: Downloading https://files.pythonhosted.org/packages/9c/b5/9c71f5404c1e762f99e53663cfe41d720afdc05bd03d8c0b3b0379eeef90/timechart-1.5.3.tar.gz
+[2024-05-22 00:20:52] INFO root fetch - processPackages [midea-local]: Downloading https://files.pythonhosted.org/packages/ce/21/4fc8ac029c0c38f4c8fdc4cc083a5a8ffcd825e39383939cada0d8f3a85b/midea_local-1.0.1.tar.gz
+[2024-05-22 00:20:52] INFO root fetch - processPackages [midea-local]: executing diffoscope
+[2024-05-22 00:20:52] INFO root fetch - processPackages [midea-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midea_local-1.0.0.tar.gz tmp/midea_local-1.0.1.tar.gz --markdown 20240522/m/midea-local/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-22 00:20:52] INFO root fetch - processPackages [timechart]: executing diffoscope
+[2024-05-22 00:20:52] INFO root fetch - processPackages [timechart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timechart-1.5.1.tar.gz tmp/timechart-1.5.3.tar.gz --markdown 20240522/t/timechart/1.5.1-1.5.3/README.md --exclude *.pyd
+[2024-05-22 00:20:52] INFO root fetch - processPackages [fasta-manager]: Remove: archive file [/home/abi/fetcher/tmp/fasta_manager-1.3.tar.gz]
+[2024-05-22 00:20:52] INFO root fetch - processPackages [fasta-manager]: Remove: archive file [/home/abi/fetcher/tmp/fasta_manager-1.3.1.tar.gz]
+[2024-05-22 00:20:52] INFO root fetch - main [MainThread]: End processing [fasta-manager]: success
+[2024-05-22 00:20:52] INFO root fetch - processPackages [pydicomsorter]: Remove: archive file [/home/abi/fetcher/tmp/pydicomsorter-0.5.0.tar.gz]
+[2024-05-22 00:20:52] INFO root fetch - processPackages [pydicomsorter]: Remove: archive file [/home/abi/fetcher/tmp/pydicomsorter-0.5.1.tar.gz]
+[2024-05-22 00:20:52] INFO root fetch - main [MainThread]: End processing [pydicomsorter]: success
+[2024-05-22 00:20:52] INFO root fetch - processPackages [plush-fabric]: Remove: archive file [/home/abi/fetcher/tmp/plush_fabric-1.0.1.tar.gz]
+[2024-05-22 00:20:52] INFO root fetch - processPackages [plush-fabric]: Remove: archive file [/home/abi/fetcher/tmp/plush_fabric-1.0.2.tar.gz]
+[2024-05-22 00:20:52] INFO root fetch - main [MainThread]: End processing [plush-fabric]: success
+[2024-05-22 00:20:52] INFO root fetch - processPackages [midea-local]: Remove: archive file [/home/abi/fetcher/tmp/midea_local-1.0.0.tar.gz]
+[2024-05-22 00:20:52] INFO root fetch - processPackages [midea-local]: Remove: archive file [/home/abi/fetcher/tmp/midea_local-1.0.1.tar.gz]
+[2024-05-22 00:20:52] INFO root fetch - main [MainThread]: End processing [midea-local]: success
+[2024-05-22 00:20:53] INFO root fetch - processPackages [timechart]: Remove: archive file [/home/abi/fetcher/tmp/timechart-1.5.1.tar.gz]
+[2024-05-22 00:20:53] INFO root fetch - processPackages [timechart]: Remove: archive file [/home/abi/fetcher/tmp/timechart-1.5.3.tar.gz]
+[2024-05-22 00:20:53] INFO root fetch - main [MainThread]: End processing [timechart]: success
+[2024-05-22 00:20:53] INFO root fetch - main [MainThread]: Store serial: [23314466]

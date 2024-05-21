@@ -1,0 +1,39 @@
+[2024-05-22 00:01:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314216]
+[2024-05-22 00:01:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 00:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trame-tauri
+[2024-05-22 00:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spacetower-fds-sdk
+[2024-05-22 00:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databento-dbn
+[2024-05-22 00:01:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-project-manager
+[2024-05-22 00:01:54] INFO root fetch - processPackages [spacetower-fds-sdk]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-22 00:01:54] INFO root fetch - processPackages [spacetower-fds-sdk]: Downloading https://files.pythonhosted.org/packages/2a/04/9a8bc8bef9a5d5c0a81c6e2bca176749e5a8d6f55273470ac13f2825e12a/spacetower_fds_sdk-1.0.3.tar.gz
+[2024-05-22 00:01:54] INFO root fetch - processPackages [python-project-manager]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-22 00:01:54] INFO root fetch - processPackages [trame-tauri]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-22 00:01:54] INFO root fetch - processPackages [databento-dbn]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-22 00:01:54] INFO root fetch - processPackages [python-project-manager]: Downloading https://files.pythonhosted.org/packages/ed/ea/a12ece5e3595e985296b68500bd7e4f3e6abf0315235599aef47793d1cba/python-project-manager-1.0.0.tar.gz
+[2024-05-22 00:01:54] INFO root fetch - processPackages [trame-tauri]: Downloading https://files.pythonhosted.org/packages/f2/d6/419e4df6b410e6952d599c7a6a5beedcddb8c9bdcd1b2f4b476669790cab/trame-tauri-0.4.0.tar.gz
+[2024-05-22 00:01:54] INFO root fetch - processPackages [spacetower-fds-sdk]: Downloading https://files.pythonhosted.org/packages/f5/6c/15d3b25a235942199f3c05a49c139609d364c81da045e5b9ae2c12a3ebb1/spacetower_fds_sdk-1.0.4.tar.gz
+[2024-05-22 00:01:54] INFO root fetch - processPackages [spacetower-fds-sdk]: executing diffoscope
+[2024-05-22 00:01:54] INFO root fetch - processPackages [spacetower-fds-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacetower_fds_sdk-1.0.3.tar.gz tmp/spacetower_fds_sdk-1.0.4.tar.gz --markdown 20240522/s/spacetower-fds-sdk/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-22 00:01:54] INFO root fetch - processPackages [databento-dbn]: Downloading https://files.pythonhosted.org/packages/50/68/9c1a8d1d120c175bc011599d0839c99306a37234922b12bd2c6de5d43c0c/databento_dbn-0.8.3-cp39-none-win_amd64.whl
+[2024-05-22 00:01:54] INFO root fetch - processPackages [trame-tauri]: Downloading https://files.pythonhosted.org/packages/31/28/4fb5beb88e5de659c1d29a8ee2736fc568d17ae8802c67295d05d93baac6/trame-tauri-0.5.0.tar.gz
+[2024-05-22 00:01:54] INFO root fetch - processPackages [python-project-manager]: Downloading https://files.pythonhosted.org/packages/49/36/f86bec238f38e2f0ce389dda991ca92cb71db2cf3ea0aa9895995868e292/python_project_manager-1.1.0.tar.gz
+[2024-05-22 00:01:55] INFO root fetch - processPackages [trame-tauri]: executing diffoscope
+[2024-05-22 00:01:55] INFO root fetch - processPackages [trame-tauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trame-tauri-0.4.0.tar.gz tmp/trame-tauri-0.5.0.tar.gz --markdown 20240522/t/trame-tauri/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-22 00:01:55] INFO root fetch - processPackages [python-project-manager]: executing diffoscope
+[2024-05-22 00:01:55] INFO root fetch - processPackages [python-project-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-project-manager-1.0.0.tar.gz tmp/python_project_manager-1.1.0.tar.gz --markdown 20240522/p/python-project-manager/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-22 00:01:55] INFO root fetch - processPackages [databento-dbn]: Downloading https://files.pythonhosted.org/packages/bf/08/c386a5e07e971713118bbe8a51b7f28c6311c743903b05733203f43462cd/databento_dbn-0.9.0-cp39-none-win_amd64.whl
+[2024-05-22 00:01:55] INFO root fetch - processPackages [spacetower-fds-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spacetower_fds_sdk-1.0.3.tar.gz]
+[2024-05-22 00:01:55] INFO root fetch - processPackages [spacetower-fds-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spacetower_fds_sdk-1.0.4.tar.gz]
+[2024-05-22 00:01:55] INFO root fetch - main [MainThread]: End processing [spacetower-fds-sdk]: success
+[2024-05-22 00:01:55] INFO root fetch - processPackages [databento-dbn]: executing diffoscope
+[2024-05-22 00:01:55] INFO root fetch - processPackages [databento-dbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databento_dbn-0.8.3-cp39-none-win_amd64.whl.zip tmp/databento_dbn-0.9.0-cp39-none-win_amd64.whl.zip --markdown 20240522/d/databento-dbn/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-22 00:01:55] INFO root fetch - processPackages [python-project-manager]: Remove: archive file [/home/abi/fetcher/tmp/python-project-manager-1.0.0.tar.gz]
+[2024-05-22 00:01:55] INFO root fetch - processPackages [python-project-manager]: Remove: archive file [/home/abi/fetcher/tmp/python_project_manager-1.1.0.tar.gz]
+[2024-05-22 00:01:55] INFO root fetch - main [MainThread]: End processing [python-project-manager]: success
+[2024-05-22 00:01:55] INFO root fetch - processPackages [trame-tauri]: Remove: archive file [/home/abi/fetcher/tmp/trame-tauri-0.4.0.tar.gz]
+[2024-05-22 00:01:55] INFO root fetch - processPackages [trame-tauri]: Remove: archive file [/home/abi/fetcher/tmp/trame-tauri-0.5.0.tar.gz]
+[2024-05-22 00:01:55] INFO root fetch - main [MainThread]: End processing [trame-tauri]: success
+[2024-05-22 00:01:56] INFO root fetch - processPackages [databento-dbn]: Remove: archive file [/home/abi/fetcher/tmp/databento_dbn-0.8.3-cp39-none-win_amd64.whl.zip]
+[2024-05-22 00:01:56] INFO root fetch - processPackages [databento-dbn]: Remove: archive file [/home/abi/fetcher/tmp/databento_dbn-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-05-22 00:01:56] INFO root fetch - main [MainThread]: End processing [databento-dbn]: success
+[2024-05-22 00:01:56] INFO root fetch - main [MainThread]: Store serial: [23314256]

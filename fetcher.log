@@ -1434,3 +1434,33 @@
 [2024-05-22 01:09:38] INFO root fetch - processPackages [wwpdb.utils.db]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb_utils_db-0.31.1.tar.gz]
 [2024-05-22 01:09:38] INFO root fetch - main [MainThread]: End processing [wwpdb.utils.db]: success
 [2024-05-22 01:09:38] INFO root fetch - main [MainThread]: Store serial: [23314969]
+[2024-05-22 01:11:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314969]
+[2024-05-22 01:11:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 01:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wwpdb.utils.db
+[2024-05-22 01:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uploadthing.py
+[2024-05-22 01:11:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlakeyset
+[2024-05-22 01:11:46] INFO root fetch - processPackages [uploadthing.py]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-22 01:11:46] INFO root fetch - processPackages [wwpdb.utils.db]: New version: [0.31.1] Old Version: [0.31]
+[2024-05-22 01:11:46] INFO root fetch - processPackages [uploadthing.py]: Downloading https://files.pythonhosted.org/packages/06/9f/98550e1c2e0676a7eb88dc6afe27233293ba320bdfc13abb1cd72a2d57b4/uploadthing_py-0.3.0.tar.gz
+[2024-05-22 01:11:46] INFO root fetch - processPackages [wwpdb.utils.db]: Downloading https://files.pythonhosted.org/packages/ba/37/667f348c6886edfc5b968de4d6c7f5f0f67f0a869f546ac6bc45b6845ee5/wwpdb.utils.db-0.31.tar.gz
+[2024-05-22 01:11:46] INFO root fetch - processPackages [sqlakeyset]: New version: [2.0.1716332987] Old Version: [2.0.1708907391]
+[2024-05-22 01:11:46] INFO root fetch - processPackages [sqlakeyset]: Downloading https://files.pythonhosted.org/packages/14/0d/8b8187ce1011d3e035ff1327e065a376d30e1d30e9ca35488a89ab53c2d0/sqlakeyset-2.0.1708907391.tar.gz
+[2024-05-22 01:11:46] INFO root fetch - processPackages [uploadthing.py]: Downloading https://files.pythonhosted.org/packages/38/9c/752f667010bef49254f422ca9da8f0c986fb2380d2aee1f5ddb368028bec/uploadthing_py-0.3.1.tar.gz
+[2024-05-22 01:11:46] INFO root fetch - processPackages [wwpdb.utils.db]: Downloading https://files.pythonhosted.org/packages/cd/7b/5bb94d7bb8ec834878d60c76e387495b92127597ebf0312786edd65be5f9/wwpdb_utils_db-0.31.1.tar.gz
+[2024-05-22 01:11:47] INFO root fetch - processPackages [uploadthing.py]: executing diffoscope
+[2024-05-22 01:11:47] INFO root fetch - processPackages [uploadthing.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uploadthing_py-0.3.0.tar.gz tmp/uploadthing_py-0.3.1.tar.gz --markdown 20240522/u/uploadthing.py/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-22 01:11:47] INFO root fetch - processPackages [wwpdb.utils.db]: executing diffoscope
+[2024-05-22 01:11:47] INFO root fetch - processPackages [wwpdb.utils.db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.utils.db-0.31.tar.gz tmp/wwpdb_utils_db-0.31.1.tar.gz --markdown 20240522/w/wwpdb.utils.db/0.31-0.31.1/README.md --exclude *.pyd
+[2024-05-22 01:11:47] INFO root fetch - processPackages [sqlakeyset]: Downloading https://files.pythonhosted.org/packages/3b/04/610d93e7871f8fa34fd3fafb1f1d35bc53763a037e51188a62ba743921a9/sqlakeyset-2.0.1716332987.tar.gz
+[2024-05-22 01:11:47] INFO root fetch - processPackages [sqlakeyset]: executing diffoscope
+[2024-05-22 01:11:47] INFO root fetch - processPackages [sqlakeyset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlakeyset-2.0.1708907391.tar.gz tmp/sqlakeyset-2.0.1716332987.tar.gz --markdown 20240522/s/sqlakeyset/2.0.1708907391-2.0.1716332987/README.md --exclude *.pyd
+[2024-05-22 01:11:47] INFO root fetch - processPackages [uploadthing.py]: Remove: archive file [/home/abi/fetcher/tmp/uploadthing_py-0.3.0.tar.gz]
+[2024-05-22 01:11:47] INFO root fetch - processPackages [uploadthing.py]: Remove: archive file [/home/abi/fetcher/tmp/uploadthing_py-0.3.1.tar.gz]
+[2024-05-22 01:11:47] INFO root fetch - main [MainThread]: End processing [uploadthing.py]: success
+[2024-05-22 01:11:47] INFO root fetch - processPackages [sqlakeyset]: Remove: archive file [/home/abi/fetcher/tmp/sqlakeyset-2.0.1708907391.tar.gz]
+[2024-05-22 01:11:47] INFO root fetch - processPackages [sqlakeyset]: Remove: archive file [/home/abi/fetcher/tmp/sqlakeyset-2.0.1716332987.tar.gz]
+[2024-05-22 01:11:47] INFO root fetch - main [MainThread]: End processing [sqlakeyset]: success
+[2024-05-22 01:11:47] INFO root fetch - processPackages [wwpdb.utils.db]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.utils.db-0.31.tar.gz]
+[2024-05-22 01:11:47] INFO root fetch - processPackages [wwpdb.utils.db]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb_utils_db-0.31.1.tar.gz]
+[2024-05-22 01:11:47] INFO root fetch - main [MainThread]: End processing [wwpdb.utils.db]: success
+[2024-05-22 01:11:47] INFO root fetch - main [MainThread]: Store serial: [23314977]

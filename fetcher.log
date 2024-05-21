@@ -600,3 +600,66 @@
 [2024-05-22 00:29:41] INFO root fetch - processPackages [neon-diana-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-diana-utils-1.0.1a9.tar.gz]
 [2024-05-22 00:29:41] INFO root fetch - main [MainThread]: End processing [neon-diana-utils]: success
 [2024-05-22 00:29:41] INFO root fetch - main [MainThread]: Store serial: [23314579]
+[2024-05-22 00:31:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314579]
+[2024-05-22 00:31:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 00:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-redux
+[2024-05-22 00:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: st-cookies-manager
+[2024-05-22 00:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EAACommander
+[2024-05-22 00:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-organization-python
+[2024-05-22 00:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybrid-api-id-python
+[2024-05-22 00:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cybrid-api-bank-python
+[2024-05-22 00:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: contact-profile-local
+[2024-05-22 00:31:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: snowflake-snowpark-python
+[2024-05-22 00:31:50] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-22 00:31:50] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-22 00:31:50] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-22 00:31:50] WARNING root fetch - processPackages [EAACommander]: Skipping, unable to determine old version
+[2024-05-22 00:31:50] INFO root fetch - main [MainThread]: End processing [EAACommander] error
+[2024-05-22 00:31:50] INFO root fetch - processPackages [contact-profile-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 00:31:50] INFO root fetch - processPackages [python-redux]: New version: [0.9.9a0] Old Version: [0.9.9]
+[2024-05-22 00:31:50] WARNING root fetch - processPackages [st-cookies-manager]: Skipping, unable to determine old version
+[2024-05-22 00:31:50] INFO root fetch - main [MainThread]: End processing [st-cookies-manager] error
+[2024-05-22 00:31:50] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-05-22 00:31:50] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-05-22 00:31:50] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-05-22 00:31:50] INFO root fetch - processPackages [snowflake-snowpark-python]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-22 00:31:50] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-05-22 00:31:50] INFO root fetch - processPackages [contact-profile-local]: Downloading https://files.pythonhosted.org/packages/25/4a/9c68dad06d1a31f725b72a9ffc13addd416fc1a79227150e4cf02bed13fd/contact_profile_local-0.0.8.tar.gz
+[2024-05-22 00:31:50] INFO root fetch - processPackages [python-redux]: Downloading https://files.pythonhosted.org/packages/25/f6/7f30f318faa9b9b4ed3d5b4517bc78ba60a0a3853efcecbfb8f1093f06f8/python_redux-0.9.9.tar.gz
+[2024-05-22 00:31:50] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-05-22 00:31:50] INFO root fetch - processPackages [snowflake-snowpark-python]: Downloading https://files.pythonhosted.org/packages/9b/ff/199129c3662944ef2ffa0d4ae8a078fa77029cad5a1a259d8d986f888aaf/snowflake-snowpark-python-1.8.0.tar.gz
+[2024-05-22 00:31:50] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-05-22 00:31:50] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-05-22 00:31:50] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240522/c/cybrid-api-organization-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-22 00:31:51] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-05-22 00:31:51] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240522/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-22 00:31:51] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-05-22 00:31:51] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240522/c/cybrid-api-bank-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-22 00:31:51] INFO root fetch - processPackages [python-redux]: Downloading https://files.pythonhosted.org/packages/78/88/2425c5253a8005201b5b26b38481ea8784a32bea175f334a08082da43388/python_redux-0.9.9a0.tar.gz
+[2024-05-22 00:31:51] INFO root fetch - processPackages [contact-profile-local]: Downloading https://files.pythonhosted.org/packages/8f/de/661db7b84762d21a0fe82f0b63a31a7df9b884479bcaa52c125b53e4caa3/contact_profile_local-0.0.9.tar.gz
+[2024-05-22 00:31:51] INFO root fetch - processPackages [python-redux]: executing diffoscope
+[2024-05-22 00:31:51] INFO root fetch - processPackages [python-redux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_redux-0.9.9.tar.gz tmp/python_redux-0.9.9a0.tar.gz --markdown 20240522/p/python-redux/0.9.9-0.9.9a0/README.md --exclude *.pyd
+[2024-05-22 00:31:51] INFO root fetch - processPackages [contact-profile-local]: executing diffoscope
+[2024-05-22 00:31:51] INFO root fetch - processPackages [contact-profile-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_profile_local-0.0.8.tar.gz tmp/contact_profile_local-0.0.9.tar.gz --markdown 20240522/c/contact-profile-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 00:31:51] INFO root fetch - processPackages [snowflake-snowpark-python]: Downloading https://files.pythonhosted.org/packages/c7/6f/a2d15d5ac98590aac8c34cc7a8889ad99bc2744520dc8bbe433903f91293/snowflake-snowpark-python-1.9.0.tar.gz
+[2024-05-22 00:31:51] INFO root fetch - processPackages [snowflake-snowpark-python]: executing diffoscope
+[2024-05-22 00:31:51] INFO root fetch - processPackages [snowflake-snowpark-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-snowpark-python-1.8.0.tar.gz tmp/snowflake-snowpark-python-1.9.0.tar.gz --markdown 20240522/s/snowflake-snowpark-python/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-22 00:31:51] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-05-22 00:31:51] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-05-22 00:31:51] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-05-22 00:31:52] INFO root fetch - processPackages [python-redux]: Remove: archive file [/home/abi/fetcher/tmp/python_redux-0.9.9.tar.gz]
+[2024-05-22 00:31:52] INFO root fetch - processPackages [python-redux]: Remove: archive file [/home/abi/fetcher/tmp/python_redux-0.9.9a0.tar.gz]
+[2024-05-22 00:31:52] INFO root fetch - main [MainThread]: End processing [python-redux]: success
+[2024-05-22 00:31:52] INFO root fetch - processPackages [contact-profile-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_profile_local-0.0.8.tar.gz]
+[2024-05-22 00:31:52] INFO root fetch - processPackages [contact-profile-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_profile_local-0.0.9.tar.gz]
+[2024-05-22 00:31:52] INFO root fetch - main [MainThread]: End processing [contact-profile-local]: success
+[2024-05-22 00:31:52] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-05-22 00:31:52] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-05-22 00:31:52] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-05-22 00:31:52] INFO root fetch - processPackages [snowflake-snowpark-python]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-snowpark-python-1.8.0.tar.gz]
+[2024-05-22 00:31:52] INFO root fetch - processPackages [snowflake-snowpark-python]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-snowpark-python-1.9.0.tar.gz]
+[2024-05-22 00:31:52] INFO root fetch - main [MainThread]: End processing [snowflake-snowpark-python]: success
+[2024-05-22 00:31:53] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-05-22 00:31:53] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-05-22 00:31:53] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-05-22 00:31:53] INFO root fetch - main [MainThread]: Store serial: [23314606]

@@ -345,3 +345,60 @@
 [2024-05-22 00:15:42] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.9.tar.gz]
 [2024-05-22 00:15:42] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
 [2024-05-22 00:15:42] INFO root fetch - main [MainThread]: Store serial: [23314416]
+[2024-05-22 00:17:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314416]
+[2024-05-22 00:17:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 00:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osint-comp
+[2024-05-22 00:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yoctopuce
+[2024-05-22 00:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zou
+[2024-05-22 00:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datalad-next
+[2024-05-22 00:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datakart
+[2024-05-22 00:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rtd-cli
+[2024-05-22 00:17:51] INFO root fetch - processPackages [datakart]: New version: [1.6.6] Old Version: [1.6.5]
+[2024-05-22 00:17:51] INFO root fetch - processPackages [rtd-cli]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-22 00:17:51] INFO root fetch - processPackages [osint-comp]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-22 00:17:51] INFO root fetch - processPackages [datakart]: Downloading https://files.pythonhosted.org/packages/31/61/67bf5a3715f3fc4e5fa7088462459c5682b3fb03ef39c94ba467ecead3c0/datakart-1.6.5.tar.gz
+[2024-05-22 00:17:51] INFO root fetch - processPackages [datalad-next]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-22 00:17:51] INFO root fetch - processPackages [rtd-cli]: Downloading https://files.pythonhosted.org/packages/f5/0f/b8a0b1146aebc205acc2744acab7c589462f0f5e744c894731d1b746e622/rtd-cli-0.0.2.tar.gz
+[2024-05-22 00:17:51] INFO root fetch - processPackages [yoctopuce]: New version: [2.0.61039] Old Version: [2.0.60664]
+[2024-05-22 00:17:51] INFO root fetch - processPackages [zou]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-22 00:17:51] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/3d/26/8a5c822e737ac50a4f66516c5b80f6cb5a2ce0b5258e3c904aa5abae876c/zou-0.9.8-py2.py3-none-any.whl
+[2024-05-22 00:17:51] INFO root fetch - processPackages [osint-comp]: Downloading https://files.pythonhosted.org/packages/0f/6d/680782e7e24904043053f19e1ec6863760d1c47744fb36d9165f72a53a5c/osint-comp-0.1.0.tar.gz
+[2024-05-22 00:17:51] INFO root fetch - processPackages [datalad-next]: Downloading https://files.pythonhosted.org/packages/9d/be/381d648d367ce66fa85283effe8037f404b0433ecbf4ad04bb021c34a8fc/datalad_next-1.4.0.tar.gz
+[2024-05-22 00:17:51] INFO root fetch - processPackages [yoctopuce]: Downloading https://files.pythonhosted.org/packages/b6/fc/f65dc147a58ec4718da3dfeaad331295a2e0bebc2099d96ec4adcd123a7c/yoctopuce-2.0.60664.tar.gz
+[2024-05-22 00:17:51] INFO root fetch - processPackages [rtd-cli]: Downloading https://files.pythonhosted.org/packages/a7/32/a36bfc75126282df6b989d94fb1b21f2f99173b8b73c5e07904baec1a2ee/rtd-cli-0.0.3.tar.gz
+[2024-05-22 00:17:51] INFO root fetch - processPackages [datakart]: Downloading https://files.pythonhosted.org/packages/71/05/7693ef3d97b26fe24383cea19712b31074a6c4067e356d3de32a57c1af64/datakart-1.6.6.tar.gz
+[2024-05-22 00:17:51] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/b4/cb/e536d9ca1d2e8c1820b5431cb69768c10b0f438a73bf846d3e2d008f896a/zou-0.9.9-py2.py3-none-any.whl
+[2024-05-22 00:17:51] INFO root fetch - processPackages [rtd-cli]: executing diffoscope
+[2024-05-22 00:17:51] INFO root fetch - processPackages [rtd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtd-cli-0.0.2.tar.gz tmp/rtd-cli-0.0.3.tar.gz --markdown 20240522/r/rtd-cli/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-22 00:17:51] INFO root fetch - processPackages [osint-comp]: Downloading https://files.pythonhosted.org/packages/46/ee/a75d5c5720bc36da2fc28ebdc1c874ac2169fd7d95bb78a4167276f98e85/osint_comp-0.2.0.tar.gz
+[2024-05-22 00:17:51] INFO root fetch - processPackages [datakart]: executing diffoscope
+[2024-05-22 00:17:51] INFO root fetch - processPackages [datakart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datakart-1.6.5.tar.gz tmp/datakart-1.6.6.tar.gz --markdown 20240522/d/datakart/1.6.5-1.6.6/README.md --exclude *.pyd
+[2024-05-22 00:17:51] INFO root fetch - processPackages [zou]: executing diffoscope
+[2024-05-22 00:17:51] INFO root fetch - processPackages [zou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zou-0.9.8-py2.py3-none-any.whl.zip tmp/zou-0.9.9-py2.py3-none-any.whl.zip --markdown 20240522/z/zou/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-22 00:17:51] INFO root fetch - processPackages [datalad-next]: Downloading https://files.pythonhosted.org/packages/8d/70/8a3c77167d9c44262988d67f06714b7b8faebf5120874d49a87df079664b/datalad_next-1.4.1.tar.gz
+[2024-05-22 00:17:51] INFO root fetch - processPackages [osint-comp]: executing diffoscope
+[2024-05-22 00:17:51] INFO root fetch - processPackages [osint-comp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osint-comp-0.1.0.tar.gz tmp/osint_comp-0.2.0.tar.gz --markdown 20240522/o/osint-comp/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-22 00:17:51] INFO root fetch - processPackages [datalad-next]: executing diffoscope
+[2024-05-22 00:17:51] INFO root fetch - processPackages [datalad-next]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datalad_next-1.4.0.tar.gz tmp/datalad_next-1.4.1.tar.gz --markdown 20240522/d/datalad-next/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-22 00:17:52] INFO root fetch - processPackages [rtd-cli]: Remove: archive file [/home/abi/fetcher/tmp/rtd-cli-0.0.2.tar.gz]
+[2024-05-22 00:17:52] INFO root fetch - processPackages [rtd-cli]: Remove: archive file [/home/abi/fetcher/tmp/rtd-cli-0.0.3.tar.gz]
+[2024-05-22 00:17:52] INFO root fetch - main [MainThread]: End processing [rtd-cli]: success
+[2024-05-22 00:17:52] INFO root fetch - processPackages [osint-comp]: Remove: archive file [/home/abi/fetcher/tmp/osint-comp-0.1.0.tar.gz]
+[2024-05-22 00:17:52] INFO root fetch - processPackages [osint-comp]: Remove: archive file [/home/abi/fetcher/tmp/osint_comp-0.2.0.tar.gz]
+[2024-05-22 00:17:52] INFO root fetch - main [MainThread]: End processing [osint-comp]: success
+[2024-05-22 00:17:52] INFO root fetch - processPackages [datakart]: Remove: archive file [/home/abi/fetcher/tmp/datakart-1.6.5.tar.gz]
+[2024-05-22 00:17:52] INFO root fetch - processPackages [datakart]: Remove: archive file [/home/abi/fetcher/tmp/datakart-1.6.6.tar.gz]
+[2024-05-22 00:17:52] INFO root fetch - main [MainThread]: End processing [datakart]: success
+[2024-05-22 00:17:52] INFO root fetch - processPackages [yoctopuce]: Downloading https://files.pythonhosted.org/packages/39/f6/47a1171216fd9931c1bbdc6ce7d1b0b75e20f8c5de91b8d9b9e303c8e183/yoctopuce-2.0.61039.tar.gz
+[2024-05-22 00:17:52] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.8-py2.py3-none-any.whl.zip]
+[2024-05-22 00:17:52] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.9-py2.py3-none-any.whl.zip]
+[2024-05-22 00:17:52] INFO root fetch - main [MainThread]: End processing [zou]: success
+[2024-05-22 00:17:53] INFO root fetch - processPackages [yoctopuce]: executing diffoscope
+[2024-05-22 00:17:53] INFO root fetch - processPackages [yoctopuce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoctopuce-2.0.60664.tar.gz tmp/yoctopuce-2.0.61039.tar.gz --markdown 20240522/y/yoctopuce/2.0.60664-2.0.61039/README.md --exclude *.pyd
+[2024-05-22 00:17:53] INFO root fetch - processPackages [datalad-next]: Remove: archive file [/home/abi/fetcher/tmp/datalad_next-1.4.0.tar.gz]
+[2024-05-22 00:17:53] INFO root fetch - processPackages [datalad-next]: Remove: archive file [/home/abi/fetcher/tmp/datalad_next-1.4.1.tar.gz]
+[2024-05-22 00:17:53] INFO root fetch - main [MainThread]: End processing [datalad-next]: success
+[2024-05-22 00:18:33] INFO root fetch - processPackages [yoctopuce]: Remove: archive file [/home/abi/fetcher/tmp/yoctopuce-2.0.60664.tar.gz]
+[2024-05-22 00:18:33] INFO root fetch - processPackages [yoctopuce]: Remove: archive file [/home/abi/fetcher/tmp/yoctopuce-2.0.61039.tar.gz]
+[2024-05-22 00:18:33] INFO root fetch - main [MainThread]: End processing [yoctopuce]: success
+[2024-05-22 00:18:33] INFO root fetch - main [MainThread]: Store serial: [23314444]

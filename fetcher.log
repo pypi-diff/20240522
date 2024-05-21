@@ -2116,3 +2116,35 @@
 [2024-05-22 01:48:57] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.6.dev2.tar.gz]
 [2024-05-22 01:48:57] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-05-22 01:48:57] INFO root fetch - main [MainThread]: Store serial: [23315263]
+[2024-05-22 01:51:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315263]
+[2024-05-22 01:51:06] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 01:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-clockify
+[2024-05-22 01:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: owega
+[2024-05-22 01:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index-llms-unify
+[2024-05-22 01:51:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: midea-local
+[2024-05-22 01:51:06] INFO root fetch - processPackages [airbyte-source-clockify]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-22 01:51:06] INFO root fetch - processPackages [midea-local]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-22 01:51:06] INFO root fetch - processPackages [owega]: New version: [5.8.4] Old Version: [5.8.3]
+[2024-05-22 01:51:06] WARNING root fetch - processPackages [llama-index-llms-unify]: Skipping, unable to determine old version
+[2024-05-22 01:51:06] INFO root fetch - main [MainThread]: End processing [llama-index-llms-unify] error
+[2024-05-22 01:51:06] INFO root fetch - processPackages [midea-local]: Downloading https://files.pythonhosted.org/packages/ed/63/7657d5cbd11e06ae693b2327a9bcacd53d178cb4490a54516018c330cc9a/midea_local-1.0.0.tar.gz
+[2024-05-22 01:51:06] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/64/84/c89449f1b425b1cedf8a045e5e74dd3455237b298e2a31cd32fe9d4b4825/owega-5.8.3.tar.gz
+[2024-05-22 01:51:06] INFO root fetch - processPackages [airbyte-source-clockify]: Downloading https://files.pythonhosted.org/packages/74/51/ced22ec79fbbd3950c1af647e892ab5f0f796d112e4aac9e820fd24d417a/airbyte_source_clockify-0.3.4.tar.gz
+[2024-05-22 01:51:06] INFO root fetch - processPackages [midea-local]: Downloading https://files.pythonhosted.org/packages/ce/21/4fc8ac029c0c38f4c8fdc4cc083a5a8ffcd825e39383939cada0d8f3a85b/midea_local-1.0.1.tar.gz
+[2024-05-22 01:51:06] INFO root fetch - processPackages [owega]: Downloading https://files.pythonhosted.org/packages/07/8f/d9e498dff5e489048092d80a8381a1c715589204cd9a6dc488328f1591e2/owega-5.8.4.tar.gz
+[2024-05-22 01:51:06] INFO root fetch - processPackages [airbyte-source-clockify]: executing diffoscope
+[2024-05-22 01:51:06] INFO root fetch - processPackages [airbyte-source-clockify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_clockify-0.3.3.tar.gz tmp/airbyte_source_clockify-0.3.4.tar.gz --markdown 20240522/a/airbyte-source-clockify/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-22 01:51:06] INFO root fetch - processPackages [midea-local]: executing diffoscope
+[2024-05-22 01:51:06] INFO root fetch - processPackages [midea-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/midea_local-1.0.0.tar.gz tmp/midea_local-1.0.1.tar.gz --markdown 20240522/m/midea-local/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-22 01:51:06] INFO root fetch - processPackages [owega]: executing diffoscope
+[2024-05-22 01:51:06] INFO root fetch - processPackages [owega]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owega-5.8.3.tar.gz tmp/owega-5.8.4.tar.gz --markdown 20240522/o/owega/5.8.3-5.8.4/README.md --exclude *.pyd
+[2024-05-22 01:51:07] INFO root fetch - processPackages [airbyte-source-clockify]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_clockify-0.3.3.tar.gz]
+[2024-05-22 01:51:07] INFO root fetch - processPackages [airbyte-source-clockify]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_clockify-0.3.4.tar.gz]
+[2024-05-22 01:51:07] INFO root fetch - main [MainThread]: End processing [airbyte-source-clockify]: success
+[2024-05-22 01:51:07] INFO root fetch - processPackages [midea-local]: Remove: archive file [/home/abi/fetcher/tmp/midea_local-1.0.0.tar.gz]
+[2024-05-22 01:51:07] INFO root fetch - processPackages [midea-local]: Remove: archive file [/home/abi/fetcher/tmp/midea_local-1.0.1.tar.gz]
+[2024-05-22 01:51:07] INFO root fetch - main [MainThread]: End processing [midea-local]: success
+[2024-05-22 01:51:07] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.8.3.tar.gz]
+[2024-05-22 01:51:07] INFO root fetch - processPackages [owega]: Remove: archive file [/home/abi/fetcher/tmp/owega-5.8.4.tar.gz]
+[2024-05-22 01:51:07] INFO root fetch - main [MainThread]: End processing [owega]: success
+[2024-05-22 01:51:07] INFO root fetch - main [MainThread]: Store serial: [23315278]

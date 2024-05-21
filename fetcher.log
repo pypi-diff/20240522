@@ -483,3 +483,42 @@
 [2024-05-22 00:23:04] INFO root fetch - processPackages [toil]: Remove: archive file [/home/abi/fetcher/tmp/toil-7.0.0.tar.gz]
 [2024-05-22 00:23:04] INFO root fetch - main [MainThread]: End processing [toil]: success
 [2024-05-22 00:23:04] INFO root fetch - main [MainThread]: Store serial: [23314475]
+[2024-05-22 00:25:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314475]
+[2024-05-22 00:25:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 00:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tecton
+[2024-05-22 00:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libdaw
+[2024-05-22 00:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdr
+[2024-05-22 00:25:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tomtoolkit
+[2024-05-22 00:25:17] INFO root fetch - processPackages [pdr]: New version: [1.1.0] Old Version: [1.0.7]
+[2024-05-22 00:25:17] INFO root fetch - processPackages [libdaw]: New version: [0.2.1] Old Version: [0.0.1]
+[2024-05-22 00:25:17] INFO root fetch - processPackages [tomtoolkit]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-22 00:25:17] INFO root fetch - processPackages [tecton]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-22 00:25:17] INFO root fetch - processPackages [tomtoolkit]: Downloading https://files.pythonhosted.org/packages/2e/18/d0f42d8924abcb6ee5a727ed833a1e2b25892c0e27ca84d362e7025c6066/tomtoolkit-2.9.1.tar.gz
+[2024-05-22 00:25:17] INFO root fetch - processPackages [pdr]: Downloading https://files.pythonhosted.org/packages/ee/3c/266051ba7b34c242e9c18d659073f48e7a891fe06a707e6f62340fd6c3a8/pdr-1.0.7.tar.gz
+[2024-05-22 00:25:17] INFO root fetch - processPackages [libdaw]: Downloading https://files.pythonhosted.org/packages/bf/ad/3a060d0696140ab2325656c5ed14531531812d2743650765365e84b070b6/libdaw-0.0.1.tar.gz
+[2024-05-22 00:25:17] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/21/98/9ba672621a8b5071c917511dfbcf3f111a52a8121bb30442ad60e8c26cee/tecton-0.9.3.tar.gz
+[2024-05-22 00:25:17] INFO root fetch - processPackages [pdr]: Downloading https://files.pythonhosted.org/packages/7d/12/70cd0a70e640edd82a49286a07d67fabda8ba8eaeca2896b6ad43cee8bac/pdr-1.1.0.tar.gz
+[2024-05-22 00:25:17] INFO root fetch - processPackages [libdaw]: Downloading https://files.pythonhosted.org/packages/14/97/16dcd53fcf1623a4d930aac6d217abc284f450ee7be3dfbddb2f8badc369/libdaw-0.2.1-pp39-pypy39_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl
+[2024-05-22 00:25:18] INFO root fetch - processPackages [tomtoolkit]: Downloading https://files.pythonhosted.org/packages/b4/d6/06d7b659b2225273b399ed75420195b3c428a784f7b84284c6348f096284/tomtoolkit-2.9.2.tar.gz
+[2024-05-22 00:25:18] INFO root fetch - processPackages [pdr]: executing diffoscope
+[2024-05-22 00:25:18] INFO root fetch - processPackages [pdr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdr-1.0.7.tar.gz tmp/pdr-1.1.0.tar.gz --markdown 20240522/p/pdr/1.0.7-1.1.0/README.md --exclude *.pyd
+[2024-05-22 00:25:18] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/0b/20/77c4be99ac7a1238b797b1f94f726c7668c89c9a38d97ecf5964c2bb9952/tecton-0.9.4.tar.gz
+[2024-05-22 00:25:18] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2024-05-22 00:25:18] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.9.3.tar.gz tmp/tecton-0.9.4.tar.gz --markdown 20240522/t/tecton/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-22 00:25:18] INFO root fetch - processPackages [tomtoolkit]: executing diffoscope
+[2024-05-22 00:25:18] INFO root fetch - processPackages [tomtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomtoolkit-2.9.1.tar.gz tmp/tomtoolkit-2.9.2.tar.gz --markdown 20240522/t/tomtoolkit/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-22 00:25:18] INFO root fetch - processPackages [libdaw]: executing diffoscope
+[2024-05-22 00:25:18] INFO root fetch - processPackages [libdaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libdaw-0.0.1.tar.gz tmp/libdaw-0.2.1-pp39-pypy39_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip --markdown 20240522/l/libdaw/0.0.1-0.2.1/README.md --exclude *.pyd
+[2024-05-22 00:25:18] INFO root fetch - processPackages [pdr]: Remove: archive file [/home/abi/fetcher/tmp/pdr-1.0.7.tar.gz]
+[2024-05-22 00:25:18] INFO root fetch - processPackages [pdr]: Remove: archive file [/home/abi/fetcher/tmp/pdr-1.1.0.tar.gz]
+[2024-05-22 00:25:18] INFO root fetch - main [MainThread]: End processing [pdr]: success
+[2024-05-22 00:25:19] INFO root fetch - processPackages [libdaw]: Remove: archive file [/home/abi/fetcher/tmp/libdaw-0.0.1.tar.gz]
+[2024-05-22 00:25:19] INFO root fetch - processPackages [libdaw]: Remove: archive file [/home/abi/fetcher/tmp/libdaw-0.2.1-pp39-pypy39_pp73-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
+[2024-05-22 00:25:19] INFO root fetch - main [MainThread]: End processing [libdaw]: success
+[2024-05-22 00:25:20] INFO root fetch - processPackages [tomtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/tomtoolkit-2.9.1.tar.gz]
+[2024-05-22 00:25:20] INFO root fetch - processPackages [tomtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/tomtoolkit-2.9.2.tar.gz]
+[2024-05-22 00:25:20] INFO root fetch - main [MainThread]: End processing [tomtoolkit]: success
+[2024-05-22 00:25:20] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.9.3.tar.gz]
+[2024-05-22 00:25:20] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.9.4.tar.gz]
+[2024-05-22 00:25:20] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2024-05-22 00:25:20] INFO root fetch - main [MainThread]: Store serial: [23314523]

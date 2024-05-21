@@ -1186,3 +1186,42 @@
 [2024-05-22 00:56:35] INFO root fetch - processPackages [unstructured]: Remove: archive file [/home/abi/fetcher/tmp/unstructured-0.9.3.tar.gz]
 [2024-05-22 00:56:35] INFO root fetch - main [MainThread]: End processing [unstructured]: success
 [2024-05-22 00:56:35] INFO root fetch - main [MainThread]: Store serial: [23314799]
+[2024-05-22 00:58:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314799]
+[2024-05-22 00:58:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 00:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: appmesh
+[2024-05-22 00:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osint-comp
+[2024-05-22 00:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aind-data-schema
+[2024-05-22 00:58:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tiledbsoma
+[2024-05-22 00:58:44] INFO root fetch - processPackages [osint-comp]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-22 00:58:44] INFO root fetch - processPackages [appmesh]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-22 00:58:44] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/7f/3c/1c0330b4fe353f6cab04533d6f80f8b8d8e1636d4129c5311f8aa5c39d99/appmesh-1.1.0-py3-none-any.whl
+[2024-05-22 00:58:44] INFO root fetch - processPackages [tiledbsoma]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-05-22 00:58:44] INFO root fetch - processPackages [osint-comp]: Downloading https://files.pythonhosted.org/packages/46/ee/a75d5c5720bc36da2fc28ebdc1c874ac2169fd7d95bb78a4167276f98e85/osint_comp-0.2.0.tar.gz
+[2024-05-22 00:58:44] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-22 00:58:44] INFO root fetch - processPackages [osint-comp]: Downloading https://files.pythonhosted.org/packages/c9/89/1f44c1cb810d72060bfff95a3a8d59789f5f1ef01d17dedc793a726bae0a/osint_comp-0.2.1.tar.gz
+[2024-05-22 00:58:44] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2024-05-22 00:58:44] INFO root fetch - processPackages [tiledbsoma]: Downloading https://files.pythonhosted.org/packages/04/99/8a2d462c33cadcd101c03422705516b1aabd8f5b4f019339af484152fe53/tiledbsoma-1.9.4.tar.gz
+[2024-05-22 00:58:44] INFO root fetch - processPackages [appmesh]: Downloading https://files.pythonhosted.org/packages/ae/90/fb6f213a11265343c9f4693624151ab5f9992b8c75c257db7319e3f91a8d/appmesh-1.1.1-py3-none-any.whl
+[2024-05-22 00:58:44] INFO root fetch - processPackages [osint-comp]: executing diffoscope
+[2024-05-22 00:58:44] INFO root fetch - processPackages [osint-comp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osint_comp-0.2.0.tar.gz tmp/osint_comp-0.2.1.tar.gz --markdown 20240522/o/osint-comp/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-22 00:58:44] INFO root fetch - processPackages [appmesh]: executing diffoscope
+[2024-05-22 00:58:44] INFO root fetch - processPackages [appmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appmesh-1.1.0-py3-none-any.whl.zip tmp/appmesh-1.1.1-py3-none-any.whl.zip --markdown 20240522/a/appmesh/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-22 00:58:45] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2024-05-22 00:58:45] INFO root fetch - processPackages [tiledbsoma]: Downloading https://files.pythonhosted.org/packages/44/01/18bae328a1bd22c4d9c0d527701a186234e8691d557d57748b6a592bd4c3/tiledbsoma-1.9.5.tar.gz
+[2024-05-22 00:58:45] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2024-05-22 00:58:45] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20240522/a/aind-data-schema/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-22 00:58:45] INFO root fetch - processPackages [tiledbsoma]: executing diffoscope
+[2024-05-22 00:58:45] INFO root fetch - processPackages [tiledbsoma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledbsoma-1.9.4.tar.gz tmp/tiledbsoma-1.9.5.tar.gz --markdown 20240522/t/tiledbsoma/1.9.4-1.9.5/README.md --exclude *.pyd
+[2024-05-22 00:58:45] INFO root fetch - processPackages [osint-comp]: Remove: archive file [/home/abi/fetcher/tmp/osint_comp-0.2.0.tar.gz]
+[2024-05-22 00:58:45] INFO root fetch - processPackages [osint-comp]: Remove: archive file [/home/abi/fetcher/tmp/osint_comp-0.2.1.tar.gz]
+[2024-05-22 00:58:45] INFO root fetch - main [MainThread]: End processing [osint-comp]: success
+[2024-05-22 00:58:45] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-1.1.0-py3-none-any.whl.zip]
+[2024-05-22 00:58:45] INFO root fetch - processPackages [appmesh]: Remove: archive file [/home/abi/fetcher/tmp/appmesh-1.1.1-py3-none-any.whl.zip]
+[2024-05-22 00:58:45] INFO root fetch - main [MainThread]: End processing [appmesh]: success
+[2024-05-22 00:58:45] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.5.tar.gz]
+[2024-05-22 00:58:45] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
+[2024-05-22 00:58:45] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2024-05-22 00:58:46] INFO root fetch - processPackages [tiledbsoma]: Remove: archive file [/home/abi/fetcher/tmp/tiledbsoma-1.9.4.tar.gz]
+[2024-05-22 00:58:46] INFO root fetch - processPackages [tiledbsoma]: Remove: archive file [/home/abi/fetcher/tmp/tiledbsoma-1.9.5.tar.gz]
+[2024-05-22 00:58:46] INFO root fetch - main [MainThread]: End processing [tiledbsoma]: success
+[2024-05-22 00:58:46] INFO root fetch - main [MainThread]: Store serial: [23314811]

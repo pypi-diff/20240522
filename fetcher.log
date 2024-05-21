@@ -1599,3 +1599,33 @@
 [2024-05-22 01:20:29] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.8.4-cp39-cp39-win_amd64.whl.zip]
 [2024-05-22 01:20:29] INFO root fetch - main [MainThread]: End processing [thirdai]: success
 [2024-05-22 01:20:29] INFO root fetch - main [MainThread]: Store serial: [23315038]
+[2024-05-22 01:22:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315038]
+[2024-05-22 01:22:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 01:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygeoprocessing
+[2024-05-22 01:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: procedure-data-tool
+[2024-05-22 01:22:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moval
+[2024-05-22 01:22:37] INFO root fetch - processPackages [moval]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-22 01:22:37] INFO root fetch - processPackages [procedure-data-tool]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-22 01:22:37] INFO root fetch - processPackages [pygeoprocessing]: New version: [2.4.4] Old Version: [2.4.3]
+[2024-05-22 01:22:37] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/8a/aa/b16fe864612aedce9b33655b5aa4b6529ca2716bc8af23353d0c5850bae7/moval-0.3.8.tar.gz
+[2024-05-22 01:22:37] INFO root fetch - processPackages [procedure-data-tool]: Downloading https://files.pythonhosted.org/packages/54/82/fdbc036ff4a1a7edcc42006e0f2d2bc2382b895a243e87ae0b604672e404/procedure_data_tool-0.0.6.tar.gz
+[2024-05-22 01:22:37] INFO root fetch - processPackages [pygeoprocessing]: Downloading https://files.pythonhosted.org/packages/72/b7/6077d55e3c73bd260cb8ea44490ac47a6b35aec9e185e6706ab1e2334c10/pygeoprocessing-2.4.3.tar.gz
+[2024-05-22 01:22:38] INFO root fetch - processPackages [procedure-data-tool]: Downloading https://files.pythonhosted.org/packages/7d/db/04f5a56408193d63443f515abe62a4aee54a13f9cc7ac36cbe00d5039c48/procedure_data_tool-0.0.7.tar.gz
+[2024-05-22 01:22:38] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/b4/3b/6db51dc55940cdbf87faccdbbdb0feff90bf5743a5ba796f48046c862b4b/moval-0.3.9.tar.gz
+[2024-05-22 01:22:38] INFO root fetch - processPackages [pygeoprocessing]: Downloading https://files.pythonhosted.org/packages/c0/5c/e3dd959d0961bb82cfb89f0f692306d332e44141b0054215042c59681412/pygeoprocessing-2.4.4.tar.gz
+[2024-05-22 01:22:38] INFO root fetch - processPackages [procedure-data-tool]: executing diffoscope
+[2024-05-22 01:22:38] INFO root fetch - processPackages [procedure-data-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procedure_data_tool-0.0.6.tar.gz tmp/procedure_data_tool-0.0.7.tar.gz --markdown 20240522/p/procedure-data-tool/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-22 01:22:38] INFO root fetch - processPackages [moval]: executing diffoscope
+[2024-05-22 01:22:38] INFO root fetch - processPackages [moval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moval-0.3.8.tar.gz tmp/moval-0.3.9.tar.gz --markdown 20240522/m/moval/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-22 01:22:38] INFO root fetch - processPackages [pygeoprocessing]: executing diffoscope
+[2024-05-22 01:22:38] INFO root fetch - processPackages [pygeoprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeoprocessing-2.4.3.tar.gz tmp/pygeoprocessing-2.4.4.tar.gz --markdown 20240522/p/pygeoprocessing/2.4.3-2.4.4/README.md --exclude *.pyd
+[2024-05-22 01:22:38] INFO root fetch - processPackages [procedure-data-tool]: Remove: archive file [/home/abi/fetcher/tmp/procedure_data_tool-0.0.6.tar.gz]
+[2024-05-22 01:22:38] INFO root fetch - processPackages [procedure-data-tool]: Remove: archive file [/home/abi/fetcher/tmp/procedure_data_tool-0.0.7.tar.gz]
+[2024-05-22 01:22:38] INFO root fetch - main [MainThread]: End processing [procedure-data-tool]: success
+[2024-05-22 01:22:39] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.3.8.tar.gz]
+[2024-05-22 01:22:39] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.3.9.tar.gz]
+[2024-05-22 01:22:39] INFO root fetch - main [MainThread]: End processing [moval]: success
+[2024-05-22 01:22:39] INFO root fetch - processPackages [pygeoprocessing]: Remove: archive file [/home/abi/fetcher/tmp/pygeoprocessing-2.4.3.tar.gz]
+[2024-05-22 01:22:39] INFO root fetch - processPackages [pygeoprocessing]: Remove: archive file [/home/abi/fetcher/tmp/pygeoprocessing-2.4.4.tar.gz]
+[2024-05-22 01:22:39] INFO root fetch - main [MainThread]: End processing [pygeoprocessing]: success
+[2024-05-22 01:22:39] INFO root fetch - main [MainThread]: Store serial: [23315056]

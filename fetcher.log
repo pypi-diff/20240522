@@ -453,3 +453,33 @@
 [2024-05-22 00:20:53] INFO root fetch - processPackages [timechart]: Remove: archive file [/home/abi/fetcher/tmp/timechart-1.5.3.tar.gz]
 [2024-05-22 00:20:53] INFO root fetch - main [MainThread]: End processing [timechart]: success
 [2024-05-22 00:20:53] INFO root fetch - main [MainThread]: Store serial: [23314466]
+[2024-05-22 00:22:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314466]
+[2024-05-22 00:23:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: weba
+[2024-05-22 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datakart
+[2024-05-22 00:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: toil
+[2024-05-22 00:23:01] INFO root fetch - processPackages [datakart]: New version: [1.6.7] Old Version: [1.6.6]
+[2024-05-22 00:23:01] INFO root fetch - processPackages [weba]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 00:23:01] INFO root fetch - processPackages [datakart]: Downloading https://files.pythonhosted.org/packages/71/05/7693ef3d97b26fe24383cea19712b31074a6c4067e356d3de32a57c1af64/datakart-1.6.6.tar.gz
+[2024-05-22 00:23:01] INFO root fetch - processPackages [weba]: Downloading https://files.pythonhosted.org/packages/ae/24/e1aa2777a04f5f4f0dd14e494fd6eef05934d7c4f4da63844760afa3afb4/weba-0.0.8.tar.gz
+[2024-05-22 00:23:01] INFO root fetch - processPackages [toil]: New version: [7.0.0] Old Version: [6.1.0a1]
+[2024-05-22 00:23:01] INFO root fetch - processPackages [weba]: Downloading https://files.pythonhosted.org/packages/1d/f8/07d2de1cb43b86bc39abfea5527c766888ce0adb2b79600ff4a1a84b1720/weba-0.0.9.tar.gz
+[2024-05-22 00:23:01] INFO root fetch - processPackages [toil]: Downloading https://files.pythonhosted.org/packages/63/a4/8f817411c253fddc83a2f22995fdbf00310abcdb93f6a3fb78cae0908dde/toil-6.1.0a1-py3-none-any.whl
+[2024-05-22 00:23:02] INFO root fetch - processPackages [weba]: executing diffoscope
+[2024-05-22 00:23:02] INFO root fetch - processPackages [weba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weba-0.0.8.tar.gz tmp/weba-0.0.9.tar.gz --markdown 20240522/w/weba/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 00:23:02] INFO root fetch - processPackages [datakart]: Downloading https://files.pythonhosted.org/packages/e6/4a/e8589aaf4c62226da27c8c296163c4891b2313817ed7e9a256dc3d4f6503/datakart-1.6.7.tar.gz
+[2024-05-22 00:23:02] INFO root fetch - processPackages [datakart]: executing diffoscope
+[2024-05-22 00:23:02] INFO root fetch - processPackages [datakart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datakart-1.6.6.tar.gz tmp/datakart-1.6.7.tar.gz --markdown 20240522/d/datakart/1.6.6-1.6.7/README.md --exclude *.pyd
+[2024-05-22 00:23:02] INFO root fetch - processPackages [toil]: Downloading https://files.pythonhosted.org/packages/bd/9e/c708d668f8750592abd3341c8035a26b7a5b01a4d359e85c726ae5325744/toil-7.0.0.tar.gz
+[2024-05-22 00:23:02] INFO root fetch - processPackages [toil]: executing diffoscope
+[2024-05-22 00:23:02] INFO root fetch - processPackages [toil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toil-6.1.0a1-py3-none-any.whl.zip tmp/toil-7.0.0.tar.gz --markdown 20240522/t/toil/6.1.0a1-7.0.0/README.md --exclude *.pyd
+[2024-05-22 00:23:02] INFO root fetch - processPackages [weba]: Remove: archive file [/home/abi/fetcher/tmp/weba-0.0.8.tar.gz]
+[2024-05-22 00:23:02] INFO root fetch - processPackages [weba]: Remove: archive file [/home/abi/fetcher/tmp/weba-0.0.9.tar.gz]
+[2024-05-22 00:23:02] INFO root fetch - main [MainThread]: End processing [weba]: success
+[2024-05-22 00:23:02] INFO root fetch - processPackages [datakart]: Remove: archive file [/home/abi/fetcher/tmp/datakart-1.6.6.tar.gz]
+[2024-05-22 00:23:02] INFO root fetch - processPackages [datakart]: Remove: archive file [/home/abi/fetcher/tmp/datakart-1.6.7.tar.gz]
+[2024-05-22 00:23:02] INFO root fetch - main [MainThread]: End processing [datakart]: success
+[2024-05-22 00:23:04] INFO root fetch - processPackages [toil]: Remove: archive file [/home/abi/fetcher/tmp/toil-6.1.0a1-py3-none-any.whl.zip]
+[2024-05-22 00:23:04] INFO root fetch - processPackages [toil]: Remove: archive file [/home/abi/fetcher/tmp/toil-7.0.0.tar.gz]
+[2024-05-22 00:23:04] INFO root fetch - main [MainThread]: End processing [toil]: success
+[2024-05-22 00:23:04] INFO root fetch - main [MainThread]: Store serial: [23314475]

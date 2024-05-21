@@ -2169,3 +2169,60 @@
 [2024-05-22 01:53:18] INFO root fetch - processPackages [django_herobiz_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_herobiz_dental-2.1.0.tar.gz]
 [2024-05-22 01:53:18] INFO root fetch - main [MainThread]: End processing [django_herobiz_dental]: success
 [2024-05-22 01:53:18] INFO root fetch - main [MainThread]: Store serial: [23315283]
+[2024-05-22 01:55:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315283]
+[2024-05-22 01:55:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 01:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antimatter-api
+[2024-05-22 01:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geo-roughness-tool
+[2024-05-22 01:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hklpy2
+[2024-05-22 01:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-id-python
+[2024-05-22 01:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybrid-api-organization-python
+[2024-05-22 01:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multidim-indexing
+[2024-05-22 01:55:27] INFO root fetch - processPackages [multidim-indexing]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-22 01:55:27] INFO root fetch - processPackages [antimatter-api]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-05-22 01:55:27] INFO root fetch - processPackages [geo-roughness-tool]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-22 01:55:27] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-22 01:55:27] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-05-22 01:55:27] INFO root fetch - processPackages [hklpy2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 01:55:27] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/e5/54/84a527d6edd30c48c984cc2d2a6b62a2fdeede97c7170bddc56ed3370146/geo_roughness_tool-0.1.2.tar.gz
+[2024-05-22 01:55:27] INFO root fetch - processPackages [antimatter-api]: Downloading https://files.pythonhosted.org/packages/ad/64/d72b3cfccd352394357d38d534488823a010009c85318d9ad3b21c37becf/antimatter_api-1.0.7.tar.gz
+[2024-05-22 01:55:27] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-05-22 01:55:27] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-05-22 01:55:27] INFO root fetch - processPackages [multidim-indexing]: Downloading https://files.pythonhosted.org/packages/4b/00/8362004d4f54a9343bbf062e528129fd661248cd50e4441ab58739a4081e/multidim_indexing-0.9.2.tar.gz
+[2024-05-22 01:55:27] INFO root fetch - processPackages [hklpy2]: Downloading https://files.pythonhosted.org/packages/82/8d/5c9570a4a75253dcdf327c259c5c6c07c03b52cb1d033e98aaaa64a7124e/hklpy2-0.0.8.tar.gz
+[2024-05-22 01:55:27] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-05-22 01:55:27] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-05-22 01:55:27] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/f9/f8/33b83e39c783f3aad98bf168b92ea149563bf4d327ec0cd519f42b3013e3/geo_roughness_tool-0.2.0.tar.gz
+[2024-05-22 01:55:27] INFO root fetch - processPackages [antimatter-api]: Downloading https://files.pythonhosted.org/packages/9c/e1/e08307712586325195cfb5a7d1d379f7eca786d2e6f7fad8387d003c7837/antimatter_api-1.0.9.tar.gz
+[2024-05-22 01:55:27] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-05-22 01:55:27] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240522/c/cybrid-api-id-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-22 01:55:27] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-05-22 01:55:27] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240522/c/cybrid-api-organization-python/0.98.2-0.99.0/README.md --exclude *.pyd
+[2024-05-22 01:55:27] INFO root fetch - processPackages [multidim-indexing]: Downloading https://files.pythonhosted.org/packages/93/fd/c5433b1f48308c0a20f8923f52916cb970458a511659c446496081e02f7c/multidim_indexing-0.9.3.tar.gz
+[2024-05-22 01:55:27] INFO root fetch - processPackages [geo-roughness-tool]: executing diffoscope
+[2024-05-22 01:55:27] INFO root fetch - processPackages [geo-roughness-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_roughness_tool-0.1.2.tar.gz tmp/geo_roughness_tool-0.2.0.tar.gz --markdown 20240522/g/geo-roughness-tool/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-22 01:55:27] INFO root fetch - processPackages [antimatter-api]: executing diffoscope
+[2024-05-22 01:55:27] INFO root fetch - processPackages [antimatter-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antimatter_api-1.0.7.tar.gz tmp/antimatter_api-1.0.9.tar.gz --markdown 20240522/a/antimatter-api/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-05-22 01:55:27] INFO root fetch - processPackages [hklpy2]: Downloading https://files.pythonhosted.org/packages/53/9b/f66f707afd80d550e6ae3a7275571b4ee8983e8dcdfdd13fc56f085c695d/hklpy2-0.0.9.tar.gz
+[2024-05-22 01:55:27] INFO root fetch - processPackages [multidim-indexing]: executing diffoscope
+[2024-05-22 01:55:27] INFO root fetch - processPackages [multidim-indexing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multidim_indexing-0.9.2.tar.gz tmp/multidim_indexing-0.9.3.tar.gz --markdown 20240522/m/multidim-indexing/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-22 01:55:27] INFO root fetch - processPackages [hklpy2]: executing diffoscope
+[2024-05-22 01:55:27] INFO root fetch - processPackages [hklpy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hklpy2-0.0.8.tar.gz tmp/hklpy2-0.0.9.tar.gz --markdown 20240522/h/hklpy2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 01:55:28] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.1.2.tar.gz]
+[2024-05-22 01:55:28] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.2.0.tar.gz]
+[2024-05-22 01:55:28] INFO root fetch - main [MainThread]: End processing [geo-roughness-tool]: success
+[2024-05-22 01:55:28] INFO root fetch - processPackages [multidim-indexing]: Remove: archive file [/home/abi/fetcher/tmp/multidim_indexing-0.9.2.tar.gz]
+[2024-05-22 01:55:28] INFO root fetch - processPackages [multidim-indexing]: Remove: archive file [/home/abi/fetcher/tmp/multidim_indexing-0.9.3.tar.gz]
+[2024-05-22 01:55:28] INFO root fetch - main [MainThread]: End processing [multidim-indexing]: success
+[2024-05-22 01:55:28] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-05-22 01:55:28] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-05-22 01:55:28] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-05-22 01:55:28] INFO root fetch - processPackages [hklpy2]: Remove: archive file [/home/abi/fetcher/tmp/hklpy2-0.0.8.tar.gz]
+[2024-05-22 01:55:28] INFO root fetch - processPackages [hklpy2]: Remove: archive file [/home/abi/fetcher/tmp/hklpy2-0.0.9.tar.gz]
+[2024-05-22 01:55:28] INFO root fetch - main [MainThread]: End processing [hklpy2]: success
+[2024-05-22 01:55:28] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-05-22 01:55:28] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-05-22 01:55:28] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-05-22 01:55:30] INFO root fetch - processPackages [antimatter-api]: Remove: archive file [/home/abi/fetcher/tmp/antimatter_api-1.0.7.tar.gz]
+[2024-05-22 01:55:30] INFO root fetch - processPackages [antimatter-api]: Remove: archive file [/home/abi/fetcher/tmp/antimatter_api-1.0.9.tar.gz]
+[2024-05-22 01:55:30] INFO root fetch - main [MainThread]: End processing [antimatter-api]: success
+[2024-05-22 01:55:30] INFO root fetch - main [MainThread]: Store serial: [23315300]

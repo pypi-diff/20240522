@@ -1728,3 +1728,33 @@
 [2024-05-22 01:29:12] INFO root fetch - processPackages [openinference-instrumentation-dspy]: Remove: archive file [/home/abi/fetcher/tmp/openinference_instrumentation_dspy-0.1.9.tar.gz]
 [2024-05-22 01:29:12] INFO root fetch - main [MainThread]: End processing [openinference-instrumentation-dspy]: success
 [2024-05-22 01:29:12] INFO root fetch - main [MainThread]: Store serial: [23315084]
+[2024-05-22 01:31:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315084]
+[2024-05-22 01:31:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 01:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: humanloop
+[2024-05-22 01:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openinference-instrumentation-mistralai
+[2024-05-22 01:31:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantconnect-stubs
+[2024-05-22 01:31:21] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2024-05-22 01:31:21] INFO root fetch - processPackages [openinference-instrumentation-mistralai]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-22 01:31:21] INFO root fetch - processPackages [humanloop]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-22 01:31:21] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2024-05-22 01:31:21] INFO root fetch - processPackages [openinference-instrumentation-mistralai]: Downloading https://files.pythonhosted.org/packages/a3/0d/b9a418ad259ee30c432ac766ae30e8415a27e36d7d21cbaf3c38ba0f4321/openinference_instrumentation_mistralai-0.0.6.tar.gz
+[2024-05-22 01:31:21] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/f3/0f/6563d7ec6757564521491230927d66f8f32f7eede6f247c15caa702aeddd/humanloop-0.7.8.tar.gz
+[2024-05-22 01:31:21] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2024-05-22 01:31:21] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2024-05-22 01:31:21] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20240522/q/quantconnect-stubs/9997-9998/README.md --exclude *.pyd
+[2024-05-22 01:31:21] INFO root fetch - processPackages [openinference-instrumentation-mistralai]: Downloading https://files.pythonhosted.org/packages/8d/7c/51b00e359069d717b6cff7b2e3ec5d33ea6ac0c403b0fb8221e222647a1d/openinference_instrumentation_mistralai-0.0.7.tar.gz
+[2024-05-22 01:31:21] INFO root fetch - processPackages [humanloop]: Downloading https://files.pythonhosted.org/packages/42/49/2e50db62f54004990b08a1ec75901635bb6ce90d3f84155b1af3de5c750f/humanloop-0.7.9.tar.gz
+[2024-05-22 01:31:22] INFO root fetch - processPackages [openinference-instrumentation-mistralai]: executing diffoscope
+[2024-05-22 01:31:22] INFO root fetch - processPackages [openinference-instrumentation-mistralai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openinference_instrumentation_mistralai-0.0.6.tar.gz tmp/openinference_instrumentation_mistralai-0.0.7.tar.gz --markdown 20240522/o/openinference-instrumentation-mistralai/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-22 01:31:22] INFO root fetch - processPackages [humanloop]: executing diffoscope
+[2024-05-22 01:31:22] INFO root fetch - processPackages [humanloop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/humanloop-0.7.8.tar.gz tmp/humanloop-0.7.9.tar.gz --markdown 20240522/h/humanloop/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-22 01:31:22] INFO root fetch - processPackages [openinference-instrumentation-mistralai]: Remove: archive file [/home/abi/fetcher/tmp/openinference_instrumentation_mistralai-0.0.6.tar.gz]
+[2024-05-22 01:31:22] INFO root fetch - processPackages [openinference-instrumentation-mistralai]: Remove: archive file [/home/abi/fetcher/tmp/openinference_instrumentation_mistralai-0.0.7.tar.gz]
+[2024-05-22 01:31:22] INFO root fetch - main [MainThread]: End processing [openinference-instrumentation-mistralai]: success
+[2024-05-22 01:31:24] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2024-05-22 01:31:24] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2024-05-22 01:31:24] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2024-05-22 01:31:26] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.8.tar.gz]
+[2024-05-22 01:31:26] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.9.tar.gz]
+[2024-05-22 01:31:26] INFO root fetch - main [MainThread]: End processing [humanloop]: success
+[2024-05-22 01:31:26] INFO root fetch - main [MainThread]: Store serial: [23315093]

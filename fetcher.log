@@ -811,3 +811,86 @@
 [2024-05-22 00:40:36] INFO root fetch - processPackages [nlu]: Remove: archive file [/home/abi/fetcher/tmp/nlu-5.3.2.tar.gz]
 [2024-05-22 00:40:36] INFO root fetch - main [MainThread]: End processing [nlu]: success
 [2024-05-22 00:40:36] INFO root fetch - main [MainThread]: Store serial: [23314665]
+[2024-05-22 00:42:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314665]
+[2024-05-22 00:42:45] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-22 00:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flash-amr-tools
+[2024-05-22 00:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: microprobe-all
+[2024-05-22 00:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: microprobe-core
+[2024-05-22 00:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: microprobe-doc
+[2024-05-22 00:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: microprobe-target-power
+[2024-05-22 00:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: microprobe-target-riscv
+[2024-05-22 00:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: freegenius
+[2024-05-22 00:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-flask-swagger-ui
+[2024-05-22 00:42:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: contact-person-profile-csv-imp-local
+[2024-05-22 00:42:45] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 00:42:45] INFO root fetch - processPackages [freegenius]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-22 00:42:45] INFO root fetch - processPackages [microprobe-all]: New version: [0.5.20240521183246] Old Version: [0.5.20231026142401]
+[2024-05-22 00:42:45] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Downloading https://files.pythonhosted.org/packages/38/8e/697a7a19f7efccb43ada97483628a3b05cd2c0ecf731e43238d4c94beb46/contact_person_profile_csv_imp_local-0.0.8.tar.gz
+[2024-05-22 00:42:45] INFO root fetch - processPackages [flash-amr-tools]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-22 00:42:45] INFO root fetch - processPackages [microprobe-target-power]: New version: [0.5.20240521183246] Old Version: [0.5.20231026142401]
+[2024-05-22 00:42:45] INFO root fetch - processPackages [aws-flask-swagger-ui]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-05-22 00:42:45] INFO root fetch - processPackages [microprobe-target-riscv]: New version: [0.5.20240521183246] Old Version: [0.5.20231026142401]
+[2024-05-22 00:42:45] INFO root fetch - processPackages [microprobe-doc]: New version: [0.5.20240521183246] Old Version: [0.5.20231026142401]
+[2024-05-22 00:42:45] INFO root fetch - processPackages [microprobe-core]: New version: [0.5.20240521183246] Old Version: [0.5.20231026142401]
+[2024-05-22 00:42:45] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/d5/ca/411a282eb501daf2e794cd1fb0f3e90fdbc6bf2302cf9c34892282b27dbc/freegenius-0.2.8.tar.gz
+[2024-05-22 00:42:46] INFO root fetch - processPackages [microprobe-target-riscv]: Downloading https://files.pythonhosted.org/packages/ef/da/f48e64ade8572240735a59147b9511e34627ab2807e1e50587751d37cff0/microprobe_target_riscv-0.5.20231026142401-py2.py3-none-any.whl
+[2024-05-22 00:42:46] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Downloading https://files.pythonhosted.org/packages/2c/27/f654a86e934199e979e23917591a3a16a0877f5bfff9aa07956945918b8b/contact_person_profile_csv_imp_local-0.0.9.tar.gz
+[2024-05-22 00:42:46] INFO root fetch - processPackages [microprobe-all]: Downloading https://files.pythonhosted.org/packages/7a/87/0848b0ead759c2817dffb7b5efd62713e7264eec0ff8d2ba2528ba23f065/microprobe_all-0.5.20231026142401-py2.py3-none-any.whl
+[2024-05-22 00:42:46] INFO root fetch - processPackages [microprobe-target-power]: Downloading https://files.pythonhosted.org/packages/ba/3a/e2d4ded269270e6423076eba50d54347d0652b3e1b1136a3e07165592028/microprobe_target_power-0.5.20231026142401-py2.py3-none-any.whl
+[2024-05-22 00:42:46] INFO root fetch - processPackages [flash-amr-tools]: Downloading https://files.pythonhosted.org/packages/79/23/077b7214b5c16800bd7b29a1a06e41cade199560e8000c5391026fd45bbc/flash_amr_tools-1.1.1.tar.gz
+[2024-05-22 00:42:46] INFO root fetch - processPackages [microprobe-core]: Downloading https://files.pythonhosted.org/packages/8d/1d/6d8f6d0e794b88ee8af9fb676a6bbda3ebd97ec6e2a6f7fe1c41a89cec9f/microprobe_core-0.5.20231026142401-py2.py3-none-any.whl
+[2024-05-22 00:42:46] INFO root fetch - processPackages [aws-flask-swagger-ui]: Downloading https://files.pythonhosted.org/packages/66/fd/bd65b23776cea111664cc22177865105b49de40eaa74085fa65d1a0a6491/aws-flask-swagger-ui-1.1.6.tar.gz
+[2024-05-22 00:42:46] INFO root fetch - processPackages [microprobe-doc]: Downloading https://files.pythonhosted.org/packages/49/c6/c9c1be7e89774054c81270616385aafba427ed91aca55d06214d3ef49306/microprobe_doc-0.5.20231026142401-py2.py3-none-any.whl
+[2024-05-22 00:42:46] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/85/e0/79c8d3b405fbb09c8afb4fc4cba33e77303a57f60e90bbef2e19a2c5a73a/freegenius-0.2.9.tar.gz
+[2024-05-22 00:42:46] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: executing diffoscope
+[2024-05-22 00:42:46] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_person_profile_csv_imp_local-0.0.8.tar.gz tmp/contact_person_profile_csv_imp_local-0.0.9.tar.gz --markdown 20240522/c/contact-person-profile-csv-imp-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 00:42:46] INFO root fetch - processPackages [microprobe-target-riscv]: Downloading https://files.pythonhosted.org/packages/98/af/ac23d3a52d0d34e3cd545c664f02fa3275ab98bb68cf2027e3f0b783fc31/microprobe_target_riscv-0.5.20240521183246-py2.py3-none-any.whl
+[2024-05-22 00:42:46] INFO root fetch - processPackages [flash-amr-tools]: Downloading https://files.pythonhosted.org/packages/15/18/f8940eac171375efe32897cdc22fcc1e0029a5121e902b2eb3364ab5e26b/flash_amr_tools-1.1.2.tar.gz
+[2024-05-22 00:42:46] INFO root fetch - processPackages [microprobe-all]: Downloading https://files.pythonhosted.org/packages/94/fa/1b7c6cfba4f33553591c9bb4033b7c29a6b151378f05be077e9a8791d014/microprobe_all-0.5.20240521183246-py2.py3-none-any.whl
+[2024-05-22 00:42:46] INFO root fetch - processPackages [microprobe-target-power]: Downloading https://files.pythonhosted.org/packages/f9/91/27d995611bdcb3a079f2b744ad5fb9d48d773e61783d39674bbb78505c9c/microprobe_target_power-0.5.20240521183246-py2.py3-none-any.whl
+[2024-05-22 00:42:46] INFO root fetch - processPackages [microprobe-target-riscv]: executing diffoscope
+[2024-05-22 00:42:46] INFO root fetch - processPackages [microprobe-target-riscv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_target_riscv-0.5.20231026142401-py2.py3-none-any.whl.zip tmp/microprobe_target_riscv-0.5.20240521183246-py2.py3-none-any.whl.zip --markdown 20240522/m/microprobe-target-riscv/0.5.20231026142401-0.5.20240521183246/README.md --exclude *.pyd
+[2024-05-22 00:42:46] INFO root fetch - processPackages [flash-amr-tools]: executing diffoscope
+[2024-05-22 00:42:46] INFO root fetch - processPackages [flash-amr-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flash_amr_tools-1.1.1.tar.gz tmp/flash_amr_tools-1.1.2.tar.gz --markdown 20240522/f/flash-amr-tools/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-22 00:42:46] INFO root fetch - processPackages [microprobe-core]: Downloading https://files.pythonhosted.org/packages/3b/8f/d8e134a0174f0acec9814177b4a2fa522d6f4423875faf71bd0f148cdd7f/microprobe_core-0.5.20240521183246-py2.py3-none-any.whl
+[2024-05-22 00:42:46] INFO root fetch - processPackages [microprobe-all]: executing diffoscope
+[2024-05-22 00:42:46] INFO root fetch - processPackages [microprobe-all]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_all-0.5.20231026142401-py2.py3-none-any.whl.zip tmp/microprobe_all-0.5.20240521183246-py2.py3-none-any.whl.zip --markdown 20240522/m/microprobe-all/0.5.20231026142401-0.5.20240521183246/README.md --exclude *.pyd
+[2024-05-22 00:42:46] INFO root fetch - processPackages [microprobe-target-power]: executing diffoscope
+[2024-05-22 00:42:46] INFO root fetch - processPackages [microprobe-target-power]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_target_power-0.5.20231026142401-py2.py3-none-any.whl.zip tmp/microprobe_target_power-0.5.20240521183246-py2.py3-none-any.whl.zip --markdown 20240522/m/microprobe-target-power/0.5.20231026142401-0.5.20240521183246/README.md --exclude *.pyd
+[2024-05-22 00:42:46] INFO root fetch - processPackages [microprobe-core]: executing diffoscope
+[2024-05-22 00:42:46] INFO root fetch - processPackages [microprobe-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_core-0.5.20231026142401-py2.py3-none-any.whl.zip tmp/microprobe_core-0.5.20240521183246-py2.py3-none-any.whl.zip --markdown 20240522/m/microprobe-core/0.5.20231026142401-0.5.20240521183246/README.md --exclude *.pyd
+[2024-05-22 00:42:46] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_person_profile_csv_imp_local-0.0.8.tar.gz]
+[2024-05-22 00:42:46] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_person_profile_csv_imp_local-0.0.9.tar.gz]
+[2024-05-22 00:42:46] INFO root fetch - main [MainThread]: End processing [contact-person-profile-csv-imp-local]: success
+[2024-05-22 00:42:47] INFO root fetch - processPackages [microprobe-doc]: Downloading https://files.pythonhosted.org/packages/60/17/24425dc27a2229d567c9cc7d218a4c15b9394a53504c0153b42c1d2d4cf1/microprobe_doc-0.5.20240521183246-py2.py3-none-any.whl
+[2024-05-22 00:42:47] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-05-22 00:42:47] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.2.8.tar.gz tmp/freegenius-0.2.9.tar.gz --markdown 20240522/f/freegenius/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-22 00:42:47] INFO root fetch - processPackages [aws-flask-swagger-ui]: Downloading https://files.pythonhosted.org/packages/10/49/3bd810e198d123332ffad71c93f268a7d20c7e5dcd23d21ab949ff103fe6/aws_flask_swagger_ui-1.1.7.tar.gz
+[2024-05-22 00:42:47] INFO root fetch - processPackages [flash-amr-tools]: Remove: archive file [/home/abi/fetcher/tmp/flash_amr_tools-1.1.1.tar.gz]
+[2024-05-22 00:42:47] INFO root fetch - processPackages [flash-amr-tools]: Remove: archive file [/home/abi/fetcher/tmp/flash_amr_tools-1.1.2.tar.gz]
+[2024-05-22 00:42:47] INFO root fetch - main [MainThread]: End processing [flash-amr-tools]: success
+[2024-05-22 00:42:47] INFO root fetch - processPackages [microprobe-doc]: executing diffoscope
+[2024-05-22 00:42:47] INFO root fetch - processPackages [microprobe-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microprobe_doc-0.5.20231026142401-py2.py3-none-any.whl.zip tmp/microprobe_doc-0.5.20240521183246-py2.py3-none-any.whl.zip --markdown 20240522/m/microprobe-doc/0.5.20231026142401-0.5.20240521183246/README.md --exclude *.pyd
+[2024-05-22 00:42:47] INFO root fetch - processPackages [aws-flask-swagger-ui]: executing diffoscope
+[2024-05-22 00:42:47] INFO root fetch - processPackages [aws-flask-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-flask-swagger-ui-1.1.6.tar.gz tmp/aws_flask_swagger_ui-1.1.7.tar.gz --markdown 20240522/a/aws-flask-swagger-ui/1.1.6-1.1.7/README.md --exclude *.pyd
+[2024-05-22 00:42:47] INFO root fetch - processPackages [microprobe-target-riscv]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_target_riscv-0.5.20231026142401-py2.py3-none-any.whl.zip]
+[2024-05-22 00:42:47] INFO root fetch - processPackages [microprobe-target-riscv]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_target_riscv-0.5.20240521183246-py2.py3-none-any.whl.zip]
+[2024-05-22 00:42:47] INFO root fetch - main [MainThread]: End processing [microprobe-target-riscv]: success
+[2024-05-22 00:42:47] INFO root fetch - processPackages [microprobe-all]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_all-0.5.20231026142401-py2.py3-none-any.whl.zip]
+[2024-05-22 00:42:47] INFO root fetch - processPackages [microprobe-all]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_all-0.5.20240521183246-py2.py3-none-any.whl.zip]
+[2024-05-22 00:42:48] INFO root fetch - main [MainThread]: End processing [microprobe-all]: success
+[2024-05-22 00:42:48] INFO root fetch - processPackages [microprobe-core]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_core-0.5.20231026142401-py2.py3-none-any.whl.zip]
+[2024-05-22 00:42:48] INFO root fetch - processPackages [microprobe-core]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_core-0.5.20240521183246-py2.py3-none-any.whl.zip]
+[2024-05-22 00:42:48] INFO root fetch - main [MainThread]: End processing [microprobe-core]: success
+[2024-05-22 00:42:48] INFO root fetch - processPackages [microprobe-target-power]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_target_power-0.5.20231026142401-py2.py3-none-any.whl.zip]
+[2024-05-22 00:42:48] INFO root fetch - processPackages [microprobe-target-power]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_target_power-0.5.20240521183246-py2.py3-none-any.whl.zip]
+[2024-05-22 00:42:48] INFO root fetch - main [MainThread]: End processing [microprobe-target-power]: success
+[2024-05-22 00:42:48] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.8.tar.gz]
+[2024-05-22 00:42:48] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.9.tar.gz]
+[2024-05-22 00:42:48] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-05-22 00:42:59] INFO root fetch - processPackages [microprobe-doc]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_doc-0.5.20231026142401-py2.py3-none-any.whl.zip]
+[2024-05-22 00:42:59] INFO root fetch - processPackages [microprobe-doc]: Remove: archive file [/home/abi/fetcher/tmp/microprobe_doc-0.5.20240521183246-py2.py3-none-any.whl.zip]
+[2024-05-22 00:42:59] INFO root fetch - main [MainThread]: End processing [microprobe-doc]: success
+[2024-05-22 00:45:47] ERROR root fetch - processPackages [aws-flask-swagger-ui]: Timeout during execution of pkgdiff
+[2024-05-22 00:45:47] INFO root fetch - main [MainThread]: End processing [aws-flask-swagger-ui] error
+[2024-05-22 00:45:47] INFO root fetch - main [MainThread]: Store serial: [23314687]

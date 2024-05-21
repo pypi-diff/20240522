@@ -1758,3 +1758,60 @@
 [2024-05-22 01:31:26] INFO root fetch - processPackages [humanloop]: Remove: archive file [/home/abi/fetcher/tmp/humanloop-0.7.9.tar.gz]
 [2024-05-22 01:31:26] INFO root fetch - main [MainThread]: End processing [humanloop]: success
 [2024-05-22 01:31:26] INFO root fetch - main [MainThread]: Store serial: [23315093]
+[2024-05-22 01:33:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315093]
+[2024-05-22 01:33:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 01:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih
+[2024-05-22 01:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openinference-instrumentation-openai
+[2024-05-22 01:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cs.resources
+[2024-05-22 01:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brainchain
+[2024-05-22 01:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arize-phoenix-evals
+[2024-05-22 01:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pih-doc
+[2024-05-22 01:33:35] INFO root fetch - processPackages [pih-doc]: New version: [0.17] Old Version: [0.16]
+[2024-05-22 01:33:35] INFO root fetch - processPackages [pih]: New version: [0.37.3] Old Version: [0.37.2]
+[2024-05-22 01:33:35] INFO root fetch - processPackages [openinference-instrumentation-openai]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-22 01:33:35] INFO root fetch - processPackages [pih-doc]: Downloading https://files.pythonhosted.org/packages/88/d8/3540ccefe11e2abbcb518236c76f2272e69b5aeb9f7c70582b34fe8dd95a/pih-doc-0.16.tar.gz
+[2024-05-22 01:33:35] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/e0/4a/ff449c90c1eab6557102032eee50f4ffdf0454a97704f118f6675f50edad/pih-0.37.2.tar.gz
+[2024-05-22 01:33:35] INFO root fetch - processPackages [cs.resources]: New version: [20240522] Old Version: [20240519]
+[2024-05-22 01:33:35] INFO root fetch - processPackages [arize-phoenix-evals]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-22 01:33:35] INFO root fetch - processPackages [brainchain]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-05-22 01:33:35] INFO root fetch - processPackages [cs.resources]: Downloading https://files.pythonhosted.org/packages/69/1d/d341f3b42245b00a4b7c3ca3d402f041bed47d78474a687c7f6c258a684c/cs.resources-20240519.tar.gz
+[2024-05-22 01:33:35] INFO root fetch - processPackages [openinference-instrumentation-openai]: Downloading https://files.pythonhosted.org/packages/72/a6/c580d616e5c0ca6a76497771e3581df674cab5eeff77f6077ed68a92fd2a/openinference_instrumentation_openai-0.1.5.tar.gz
+[2024-05-22 01:33:35] INFO root fetch - processPackages [brainchain]: Downloading https://files.pythonhosted.org/packages/f5/7a/12041c3a72a43e0952cd511d26578da09f651189be377ef8dfceea39a991/brainchain-0.6.6.tar.gz
+[2024-05-22 01:33:35] INFO root fetch - processPackages [arize-phoenix-evals]: Downloading https://files.pythonhosted.org/packages/b5/75/de50884aa5819e782771b9e9e48d90c88b83b525f887402bc668b64b0c22/arize_phoenix_evals-0.9.1.tar.gz
+[2024-05-22 01:33:35] INFO root fetch - processPackages [pih-doc]: Downloading https://files.pythonhosted.org/packages/51/4b/02a1f75c71c70d1346edd24d9c48c4b94a7bc53178c0c38bfc662b354c40/pih-doc-0.17.tar.gz
+[2024-05-22 01:33:35] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/06/1a/6a1470a9f67067edcff4b1fcbb5b98fcdfb84392e0e2512a9e3c6f9550ba/pih-0.37.3.tar.gz
+[2024-05-22 01:33:35] INFO root fetch - processPackages [pih-doc]: executing diffoscope
+[2024-05-22 01:33:35] INFO root fetch - processPackages [pih-doc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-doc-0.16.tar.gz tmp/pih-doc-0.17.tar.gz --markdown 20240522/p/pih-doc/0.16-0.17/README.md --exclude *.pyd
+[2024-05-22 01:33:35] INFO root fetch - processPackages [cs.resources]: Downloading https://files.pythonhosted.org/packages/7b/9a/fdea76ec1397d3980f127c1e784a2bb56d379674e2e852119496bb74c4c5/cs.resources-20240522.tar.gz
+[2024-05-22 01:33:35] INFO root fetch - processPackages [pih]: executing diffoscope
+[2024-05-22 01:33:35] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-0.37.2.tar.gz tmp/pih-0.37.3.tar.gz --markdown 20240522/p/pih/0.37.2-0.37.3/README.md --exclude *.pyd
+[2024-05-22 01:33:35] INFO root fetch - processPackages [openinference-instrumentation-openai]: Downloading https://files.pythonhosted.org/packages/31/7d/1d50a19e049b030fad5cda3dfc17781b931bb253af960a15e4994f142904/openinference_instrumentation_openai-0.1.6.tar.gz
+[2024-05-22 01:33:35] INFO root fetch - processPackages [brainchain]: Downloading https://files.pythonhosted.org/packages/32/c9/802b770e66cf99a89d751d28b9942ce4161c48566a5d53b911ee8792ddc3/brainchain-0.6.7.tar.gz
+[2024-05-22 01:33:35] INFO root fetch - processPackages [cs.resources]: executing diffoscope
+[2024-05-22 01:33:35] INFO root fetch - processPackages [cs.resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs.resources-20240519.tar.gz tmp/cs.resources-20240522.tar.gz --markdown 20240522/c/cs.resources/20240519-20240522/README.md --exclude *.pyd
+[2024-05-22 01:33:35] INFO root fetch - processPackages [arize-phoenix-evals]: Downloading https://files.pythonhosted.org/packages/af/d1/b129d8e8acef104692a341da3c4918c84ae4d5242baab6e00e6e4336a28c/arize_phoenix_evals-0.9.2.tar.gz
+[2024-05-22 01:33:36] INFO root fetch - processPackages [openinference-instrumentation-openai]: executing diffoscope
+[2024-05-22 01:33:36] INFO root fetch - processPackages [openinference-instrumentation-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openinference_instrumentation_openai-0.1.5.tar.gz tmp/openinference_instrumentation_openai-0.1.6.tar.gz --markdown 20240522/o/openinference-instrumentation-openai/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-22 01:33:36] INFO root fetch - processPackages [brainchain]: executing diffoscope
+[2024-05-22 01:33:36] INFO root fetch - processPackages [brainchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brainchain-0.6.6.tar.gz tmp/brainchain-0.6.7.tar.gz --markdown 20240522/b/brainchain/0.6.6-0.6.7/README.md --exclude *.pyd
+[2024-05-22 01:33:36] INFO root fetch - processPackages [arize-phoenix-evals]: executing diffoscope
+[2024-05-22 01:33:36] INFO root fetch - processPackages [arize-phoenix-evals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arize_phoenix_evals-0.9.1.tar.gz tmp/arize_phoenix_evals-0.9.2.tar.gz --markdown 20240522/a/arize-phoenix-evals/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-22 01:33:36] INFO root fetch - processPackages [pih-doc]: Remove: archive file [/home/abi/fetcher/tmp/pih-doc-0.16.tar.gz]
+[2024-05-22 01:33:36] INFO root fetch - processPackages [pih-doc]: Remove: archive file [/home/abi/fetcher/tmp/pih-doc-0.17.tar.gz]
+[2024-05-22 01:33:36] INFO root fetch - main [MainThread]: End processing [pih-doc]: success
+[2024-05-22 01:33:36] INFO root fetch - processPackages [openinference-instrumentation-openai]: Remove: archive file [/home/abi/fetcher/tmp/openinference_instrumentation_openai-0.1.5.tar.gz]
+[2024-05-22 01:33:36] INFO root fetch - processPackages [openinference-instrumentation-openai]: Remove: archive file [/home/abi/fetcher/tmp/openinference_instrumentation_openai-0.1.6.tar.gz]
+[2024-05-22 01:33:36] INFO root fetch - main [MainThread]: End processing [openinference-instrumentation-openai]: success
+[2024-05-22 01:33:36] INFO root fetch - processPackages [cs.resources]: Remove: archive file [/home/abi/fetcher/tmp/cs.resources-20240519.tar.gz]
+[2024-05-22 01:33:36] INFO root fetch - processPackages [cs.resources]: Remove: archive file [/home/abi/fetcher/tmp/cs.resources-20240522.tar.gz]
+[2024-05-22 01:33:36] INFO root fetch - main [MainThread]: End processing [cs.resources]: success
+[2024-05-22 01:33:36] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.37.2.tar.gz]
+[2024-05-22 01:33:36] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-0.37.3.tar.gz]
+[2024-05-22 01:33:36] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2024-05-22 01:33:36] INFO root fetch - processPackages [brainchain]: Remove: archive file [/home/abi/fetcher/tmp/brainchain-0.6.6.tar.gz]
+[2024-05-22 01:33:36] INFO root fetch - processPackages [brainchain]: Remove: archive file [/home/abi/fetcher/tmp/brainchain-0.6.7.tar.gz]
+[2024-05-22 01:33:36] INFO root fetch - main [MainThread]: End processing [brainchain]: success
+[2024-05-22 01:33:36] INFO root fetch - processPackages [arize-phoenix-evals]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix_evals-0.9.1.tar.gz]
+[2024-05-22 01:33:36] INFO root fetch - processPackages [arize-phoenix-evals]: Remove: archive file [/home/abi/fetcher/tmp/arize_phoenix_evals-0.9.2.tar.gz]
+[2024-05-22 01:33:36] INFO root fetch - main [MainThread]: End processing [arize-phoenix-evals]: success
+[2024-05-22 01:33:36] INFO root fetch - main [MainThread]: Store serial: [23315111]

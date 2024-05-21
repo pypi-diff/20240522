@@ -2021,3 +2021,54 @@
 [2024-05-22 01:42:23] INFO root fetch - processPackages [positional-vectorizer]: Remove: archive file [/home/abi/fetcher/tmp/positional_vectorizer-0.0.9.tar.gz]
 [2024-05-22 01:42:23] INFO root fetch - main [MainThread]: End processing [positional-vectorizer]: success
 [2024-05-22 01:42:23] INFO root fetch - main [MainThread]: Store serial: [23315223]
+[2024-05-22 01:44:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315223]
+[2024-05-22 01:44:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 01:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nomad-media-pip
+[2024-05-22 01:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langflow
+[2024-05-22 01:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qtile
+[2024-05-22 01:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EAACommander
+[2024-05-22 01:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sophisticate
+[2024-05-22 01:44:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chalkpy
+[2024-05-22 01:44:31] INFO root fetch - processPackages [EAACommander]: New version: [0.3] Old Version: [0.2]
+[2024-05-22 01:44:32] INFO root fetch - processPackages [nomad-media-pip]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-22 01:44:32] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-22 01:44:32] INFO root fetch - processPackages [EAACommander]: Downloading https://files.pythonhosted.org/packages/ff/4d/269f4db12e1e5af3cc71a2aeea0c3e01266043169097e9fee985ba9bc346/EAACommander-0.2.tar.gz
+[2024-05-22 01:44:32] WARNING root fetch - processPackages [sophisticate]: Skipping, unable to determine old version
+[2024-05-22 01:44:32] INFO root fetch - main [MainThread]: End processing [sophisticate] error
+[2024-05-22 01:44:32] INFO root fetch - processPackages [qtile]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-22 01:44:32] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/89/17/9542f18838ecc3189b9eaaec4a7ccfe38f999660bb42c8092050b37835fd/nomad_media_pip-0.0.98.tar.gz
+[2024-05-22 01:44:32] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2024-05-22 01:44:32] INFO root fetch - processPackages [langflow]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2024-05-22 01:44:32] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/2b/93/9572cd6061f7b751abb490b170eb8add5795cf245ede93c0b7d20b885a13/nomad_media_pip-0.0.99.tar.gz
+[2024-05-22 01:44:32] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2024-05-22 01:44:32] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/f1/f1/24fc8fab9078fe9a44249227b1e8c735ca2edcb3d35df1eb8fe21940eda2/langflow-1.0.0a8.tar.gz
+[2024-05-22 01:44:32] INFO root fetch - processPackages [qtile]: Downloading https://files.pythonhosted.org/packages/46/c9/a8b600a7e50ff68445ed4e60b694e25fb98b86bce85117c54793b0751717/qtile-0.9.0.tar.gz
+[2024-05-22 01:44:32] INFO root fetch - processPackages [EAACommander]: Downloading https://files.pythonhosted.org/packages/9d/9a/5164bff66894af2ea07a6bc149a19803787e51f92f73b25c7e007a28e27a/EAACommander-0.3.tar.gz
+[2024-05-22 01:44:32] INFO root fetch - processPackages [nomad-media-pip]: executing diffoscope
+[2024-05-22 01:44:32] INFO root fetch - processPackages [nomad-media-pip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomad_media_pip-0.0.98.tar.gz tmp/nomad_media_pip-0.0.99.tar.gz --markdown 20240522/n/nomad-media-pip/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-22 01:44:32] INFO root fetch - processPackages [EAACommander]: executing diffoscope
+[2024-05-22 01:44:32] INFO root fetch - processPackages [EAACommander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EAACommander-0.2.tar.gz tmp/EAACommander-0.3.tar.gz --markdown 20240522/E/EAACommander/0.2-0.3/README.md --exclude *.pyd
+[2024-05-22 01:44:32] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2024-05-22 01:44:32] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20240522/c/chalkpy/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-22 01:44:32] INFO root fetch - processPackages [qtile]: Downloading https://files.pythonhosted.org/packages/a9/b2/3739b2468ab0a208b4f4879787cd21d63c96f02e72786d4dfa261ec53c12/qtile-0.9.1.tar.gz
+[2024-05-22 01:44:32] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b0/40/f603fd33ef5b1456a6be83efd05ca28a5af58e3ed1070e760b30edb9080e/langflow-1.0.0a9.tar.gz
+[2024-05-22 01:44:33] INFO root fetch - processPackages [qtile]: executing diffoscope
+[2024-05-22 01:44:33] INFO root fetch - processPackages [qtile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtile-0.9.0.tar.gz tmp/qtile-0.9.1.tar.gz --markdown 20240522/q/qtile/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-22 01:44:33] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2024-05-22 01:44:33] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-1.0.0a8.tar.gz tmp/langflow-1.0.0a9.tar.gz --markdown 20240522/l/langflow/1.0.0a8-1.0.0a9/README.md --exclude *.pyd
+[2024-05-22 01:44:33] INFO root fetch - processPackages [EAACommander]: Remove: archive file [/home/abi/fetcher/tmp/EAACommander-0.2.tar.gz]
+[2024-05-22 01:44:33] INFO root fetch - processPackages [EAACommander]: Remove: archive file [/home/abi/fetcher/tmp/EAACommander-0.3.tar.gz]
+[2024-05-22 01:44:33] INFO root fetch - main [MainThread]: End processing [EAACommander]: success
+[2024-05-22 01:44:33] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a8.tar.gz]
+[2024-05-22 01:44:33] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a9.tar.gz]
+[2024-05-22 01:44:33] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2024-05-22 01:44:34] INFO root fetch - processPackages [qtile]: Remove: archive file [/home/abi/fetcher/tmp/qtile-0.9.0.tar.gz]
+[2024-05-22 01:44:34] INFO root fetch - processPackages [qtile]: Remove: archive file [/home/abi/fetcher/tmp/qtile-0.9.1.tar.gz]
+[2024-05-22 01:44:34] INFO root fetch - main [MainThread]: End processing [qtile]: success
+[2024-05-22 01:44:34] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2024-05-22 01:44:34] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2024-05-22 01:44:34] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2024-05-22 01:44:35] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.98.tar.gz]
+[2024-05-22 01:44:35] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.99.tar.gz]
+[2024-05-22 01:44:35] INFO root fetch - main [MainThread]: End processing [nomad-media-pip]: success
+[2024-05-22 01:44:35] INFO root fetch - main [MainThread]: Store serial: [23315248]

@@ -1,0 +1,148 @@
+# Comparing `tmp/EAACommander-0.2.tar.gz` & `tmp/EAACommander-0.3.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "EAACommander-0.2.tar", last modified: Tue May 21 22:50:25 2024, max compression
++gzip compressed data, was "EAACommander-0.3.tar", last modified: Tue May 21 23:17:27 2024, max compression
+```
+
+## Comparing `EAACommander-0.2.tar` & `EAACommander-0.3.tar`
+
+### file list
+
+```diff
+@@ -1,19 +1,19 @@
+-drwxr-xr-x   0 marko      (501) staff       (20)        0 2024-05-21 22:50:25.434202 EAACommander-0.2/
+-drwxr-xr-x   0 marko      (501) staff       (20)        0 2024-05-21 22:50:25.433235 EAACommander-0.2/EAACommander/
+--rw-r--r--   0 marko      (501) staff       (20)        0 2024-05-21 19:12:54.000000 EAACommander-0.2/EAACommander/__init__.py
+--rw-r--r--   0 marko      (501) staff       (20)     2351 2024-05-21 22:48:47.000000 EAACommander-0.2/EAACommander/cli_client.py
+--rw-r--r--   0 marko      (501) staff       (20)     5800 2024-05-21 19:12:54.000000 EAACommander-0.2/EAACommander/settings.py
+-drwxr-xr-x   0 marko      (501) staff       (20)        0 2024-05-21 22:50:25.433848 EAACommander-0.2/EAACommander.egg-info/
+--rw-r--r--   0 marko      (501) staff       (20)      540 2024-05-21 22:50:25.000000 EAACommander-0.2/EAACommander.egg-info/PKG-INFO
+--rw-r--r--   0 marko      (501) staff       (20)      339 2024-05-21 22:50:25.000000 EAACommander-0.2/EAACommander.egg-info/SOURCES.txt
+--rw-r--r--   0 marko      (501) staff       (20)        1 2024-05-21 22:50:25.000000 EAACommander-0.2/EAACommander.egg-info/dependency_links.txt
+--rw-r--r--   0 marko      (501) staff       (20)       62 2024-05-21 22:50:25.000000 EAACommander-0.2/EAACommander.egg-info/entry_points.txt
+--rw-r--r--   0 marko      (501) staff       (20)        4 2024-05-21 22:50:25.000000 EAACommander-0.2/EAACommander.egg-info/requires.txt
+--rw-r--r--   0 marko      (501) staff       (20)       19 2024-05-21 22:50:25.000000 EAACommander-0.2/EAACommander.egg-info/top_level.txt
+--rw-r--r--   0 marko      (501) staff       (20)       12 2024-05-21 19:12:54.000000 EAACommander-0.2/LICENSE
+--rw-r--r--   0 marko      (501) staff       (20)      540 2024-05-21 22:50:25.434086 EAACommander-0.2/PKG-INFO
+--rw-r--r--   0 marko      (501) staff       (20)       67 2024-05-21 19:12:54.000000 EAACommander-0.2/README.md
+--rw-r--r--   0 marko      (501) staff       (20)       38 2024-05-21 22:50:25.434238 EAACommander-0.2/setup.cfg
+--rw-r--r--   0 marko      (501) staff       (20)      800 2024-05-21 22:48:10.000000 EAACommander-0.2/setup.py
+-drwxr-xr-x   0 marko      (501) staff       (20)        0 2024-05-21 22:50:25.433958 EAACommander-0.2/tests/
+--rw-r--r--   0 marko      (501) staff       (20)        0 2024-05-21 19:12:54.000000 EAACommander-0.2/tests/__init__.py
++drwxr-xr-x   0 marko      (501) staff       (20)        0 2024-05-21 23:17:27.995757 EAACommander-0.3/
++drwxr-xr-x   0 marko      (501) staff       (20)        0 2024-05-21 23:17:27.994779 EAACommander-0.3/EAACommander/
++-rw-r--r--   0 marko      (501) staff       (20)        0 2024-05-21 19:12:54.000000 EAACommander-0.3/EAACommander/__init__.py
++-rw-r--r--   0 marko      (501) staff       (20)     2399 2024-05-21 23:07:34.000000 EAACommander-0.3/EAACommander/cli_client.py
++-rw-r--r--   0 marko      (501) staff       (20)     5800 2024-05-21 19:12:54.000000 EAACommander-0.3/EAACommander/settings.py
++drwxr-xr-x   0 marko      (501) staff       (20)        0 2024-05-21 23:17:27.995412 EAACommander-0.3/EAACommander.egg-info/
++-rw-r--r--   0 marko      (501) staff       (20)      540 2024-05-21 23:17:27.000000 EAACommander-0.3/EAACommander.egg-info/PKG-INFO
++-rw-r--r--   0 marko      (501) staff       (20)      339 2024-05-21 23:17:27.000000 EAACommander-0.3/EAACommander.egg-info/SOURCES.txt
++-rw-r--r--   0 marko      (501) staff       (20)        1 2024-05-21 23:17:27.000000 EAACommander-0.3/EAACommander.egg-info/dependency_links.txt
++-rw-r--r--   0 marko      (501) staff       (20)       74 2024-05-21 23:17:27.000000 EAACommander-0.3/EAACommander.egg-info/entry_points.txt
++-rw-r--r--   0 marko      (501) staff       (20)        4 2024-05-21 23:17:27.000000 EAACommander-0.3/EAACommander.egg-info/requires.txt
++-rw-r--r--   0 marko      (501) staff       (20)       19 2024-05-21 23:17:27.000000 EAACommander-0.3/EAACommander.egg-info/top_level.txt
++-rw-r--r--   0 marko      (501) staff       (20)       12 2024-05-21 19:12:54.000000 EAACommander-0.3/LICENSE
++-rw-r--r--   0 marko      (501) staff       (20)      540 2024-05-21 23:17:27.995648 EAACommander-0.3/PKG-INFO
++-rw-r--r--   0 marko      (501) staff       (20)       67 2024-05-21 19:12:54.000000 EAACommander-0.3/README.md
++-rw-r--r--   0 marko      (501) staff       (20)       38 2024-05-21 23:17:27.995794 EAACommander-0.3/setup.cfg
++-rw-r--r--   0 marko      (501) staff       (20)      812 2024-05-21 23:13:40.000000 EAACommander-0.3/setup.py
++drwxr-xr-x   0 marko      (501) staff       (20)        0 2024-05-21 23:17:27.995524 EAACommander-0.3/tests/
++-rw-r--r--   0 marko      (501) staff       (20)        0 2024-05-21 19:12:54.000000 EAACommander-0.3/tests/__init__.py
+```
+
+### Comparing `EAACommander-0.2/EAACommander/cli_client.py` & `EAACommander-0.3/EAACommander/cli_client.py`
+
+ * *Files 3% similar despite different names*
+
+```diff
+@@ -74,9 +74,12 @@
+         elif choice == ord('3'):
+             live_stacking_mode(stdscr)
+         elif choice == ord('4'):
+             settings(stdscr)
+         else:
+             display_message(stdscr, "Invalid choice")
+ 
+-if __name__ == "__main__":
++def main_entry_point():
+     curses.wrapper(main)
++
++if __name__ == "__main__":
++    main_entry_point()
+```
+
+### Comparing `EAACommander-0.2/EAACommander/settings.py` & `EAACommander-0.3/EAACommander/settings.py`
+
+ * *Files identical despite different names*
+
+### Comparing `EAACommander-0.2/EAACommander.egg-info/PKG-INFO` & `EAACommander-0.3/EAACommander.egg-info/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: EAACommander
+-Version: 0.2
++Version: 0.3
+ Summary: A tool for Electronically Assisted Astronomy (EAA) enthusiasts
+ Home-page: https://github.com/MarkoZnidar/EAACommander/
+ Author: Marko Žnidar
+ Author-email: marko.znidar@gmail.com
+ Classifier: Programming Language :: Python :: 3
+ Classifier: License :: OSI Approved :: MIT License
+ Classifier: Operating System :: OS Independent
+```
+
+### Comparing `EAACommander-0.2/PKG-INFO` & `EAACommander-0.3/PKG-INFO`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ Metadata-Version: 2.1
+ Name: EAACommander
+-Version: 0.2
++Version: 0.3
+ Summary: A tool for Electronically Assisted Astronomy (EAA) enthusiasts
+ Home-page: https://github.com/MarkoZnidar/EAACommander/
+ Author: Marko Žnidar
+ Author-email: marko.znidar@gmail.com
+ Classifier: Programming Language :: Python :: 3
+ Classifier: License :: OSI Approved :: MIT License
+ Classifier: Operating System :: OS Independent
+```
+
+### Comparing `EAACommander-0.2/setup.py` & `EAACommander-0.3/setup.py`
+
+ * *Files 4% similar despite different names*
+
+```diff
+@@ -1,19 +1,19 @@
+ from setuptools import setup, find_packages
+ 
+ setup(
+     name='EAACommander',
+-    version='0.2',
++    version='0.3',
+     packages=find_packages(),
+     install_requires=[
+         'art',
+     ],
+     entry_points={
+         'console_scripts': [
+-            'eaacommander=EAACommander.cli_client:main',
++            'eaacommander=EAACommander.cli_client:main_entry_point',
+         ],
+     },
+     author='Marko Žnidar',
+     author_email='marko.znidar@gmail.com',
+     description='A tool for Electronically Assisted Astronomy (EAA) enthusiasts',
+     long_description=open('README.md').read(),
+     long_description_content_type='text/markdown',
+```
+

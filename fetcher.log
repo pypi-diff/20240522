@@ -142,3 +142,59 @@
 [2024-05-22 00:06:20] INFO root fetch - processPackages [stim]: Remove: archive file [/home/abi/fetcher/tmp/stim-1.9.0.tar.gz]
 [2024-05-22 00:06:20] INFO root fetch - main [MainThread]: End processing [stim]: success
 [2024-05-22 00:06:20] INFO root fetch - main [MainThread]: Store serial: [23314317]
+[2024-05-22 00:08:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314317]
+[2024-05-22 00:08:29] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 00:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tcrutils
+[2024-05-22 00:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-pulumiservice
+[2024-05-22 00:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ttpnav
+[2024-05-22 00:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stimcirq
+[2024-05-22 00:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sinter
+[2024-05-22 00:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: definite-sdk
+[2024-05-22 00:08:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netgen-mesher
+[2024-05-22 00:08:29] INFO root fetch - processPackages [pulumi-pulumiservice]: New version: [0.9.1a1689804796] Old Version: [0.9.0]
+[2024-05-22 00:08:29] INFO root fetch - processPackages [tcrutils]: New version: [12.0.167] Old Version: [12.0.166]
+[2024-05-22 00:08:29] INFO root fetch - processPackages [stimcirq]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2024-05-22 00:08:29] INFO root fetch - processPackages [pulumi-pulumiservice]: Downloading https://files.pythonhosted.org/packages/7f/2a/9f172c6f432bb1aedfdc2e6f674950d4011b0a5dfb418490d7becd77c215/pulumi_pulumiservice-0.9.0.tar.gz
+[2024-05-22 00:08:29] WARNING root fetch - processPackages [ttpnav]: Skipping, unable to determine old version
+[2024-05-22 00:08:29] INFO root fetch - main [MainThread]: End processing [ttpnav] error
+[2024-05-22 00:08:29] INFO root fetch - processPackages [definite-sdk]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-22 00:08:29] INFO root fetch - processPackages [tcrutils]: Downloading https://files.pythonhosted.org/packages/4b/43/03ee24f20528c33bed5a69bfee370684ad212f15248d91d7f742a4993e29/tcrutils-12.0.166.tar.gz
+[2024-05-22 00:08:29] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2403.post4.dev0] Old Version: [6.2.2403.post3.dev0]
+[2024-05-22 00:08:29] INFO root fetch - processPackages [sinter]: New version: [1.9.dev1657429876] Old Version: [1.9.dev1656756326]
+[2024-05-22 00:08:30] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/ec/fe/38fc995ba6685f64103f3cd62faa49cd869af074b36e401597d9d2b0278d/stimcirq-1.9.dev1656756326.tar.gz
+[2024-05-22 00:08:30] INFO root fetch - processPackages [tcrutils]: Downloading https://files.pythonhosted.org/packages/ff/22/b595c5af656c5984468302a5ea342209813a2a2242939cd0b281a86de4e5/tcrutils-12.0.167.tar.gz
+[2024-05-22 00:08:30] INFO root fetch - processPackages [pulumi-pulumiservice]: Downloading https://files.pythonhosted.org/packages/0d/88/d9123d1fbed34a277c17acb768dc334c7d111b33c5820b8a76ce41794601/pulumi_pulumiservice-0.9.1a1689804796.tar.gz
+[2024-05-22 00:08:30] INFO root fetch - processPackages [definite-sdk]: Downloading https://files.pythonhosted.org/packages/05/c3/0ced787318e4d6c60eb1e9b0e665147d7708ae9519837a16f875d1a28c5e/definite_sdk-0.1.3.tar.gz
+[2024-05-22 00:08:30] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/df/c6/cb2622852c76647e7b6ad9a7a7e10f4e2cac9ecdfd523ac68df0bfc130af/sinter-1.9.dev1656756326.tar.gz
+[2024-05-22 00:08:30] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/0f/a6/ab4b882d62d5e3b942e4fcc5ccf32030212e46b61d371981d5666c480efa/netgen_mesher-6.2.2403.post3.dev0-cp39-cp39-win_amd64.whl
+[2024-05-22 00:08:30] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 20430648>=10485760
+[2024-05-22 00:08:30] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2024-05-22 00:08:30] INFO root fetch - processPackages [tcrutils]: executing diffoscope
+[2024-05-22 00:08:30] INFO root fetch - processPackages [tcrutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcrutils-12.0.166.tar.gz tmp/tcrutils-12.0.167.tar.gz --markdown 20240522/t/tcrutils/12.0.166-12.0.167/README.md --exclude *.pyd
+[2024-05-22 00:08:30] INFO root fetch - processPackages [pulumi-pulumiservice]: executing diffoscope
+[2024-05-22 00:08:30] INFO root fetch - processPackages [pulumi-pulumiservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pulumiservice-0.9.0.tar.gz tmp/pulumi_pulumiservice-0.9.1a1689804796.tar.gz --markdown 20240522/p/pulumi-pulumiservice/0.9.0-0.9.1a1689804796/README.md --exclude *.pyd
+[2024-05-22 00:08:30] INFO root fetch - processPackages [definite-sdk]: Downloading https://files.pythonhosted.org/packages/5c/b0/f9d527e625dcf3737c1757c79979b8299902372f6c7c64a1e504d7e0ed44/definite_sdk-0.1.4.tar.gz
+[2024-05-22 00:08:30] INFO root fetch - processPackages [sinter]: Downloading https://files.pythonhosted.org/packages/fd/5e/bd22cf7318b95a6cb630aede242c37ca8e376f51d3c73522d4d3fafd60c3/sinter-1.9.dev1657429876.tar.gz
+[2024-05-22 00:08:30] INFO root fetch - processPackages [definite-sdk]: executing diffoscope
+[2024-05-22 00:08:30] INFO root fetch - processPackages [definite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/definite_sdk-0.1.3.tar.gz tmp/definite_sdk-0.1.4.tar.gz --markdown 20240522/d/definite-sdk/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-22 00:08:30] INFO root fetch - processPackages [sinter]: executing diffoscope
+[2024-05-22 00:08:30] INFO root fetch - processPackages [sinter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sinter-1.9.dev1656756326.tar.gz tmp/sinter-1.9.dev1657429876.tar.gz --markdown 20240522/s/sinter/1.9.dev1656756326-1.9.dev1657429876/README.md --exclude *.pyd
+[2024-05-22 00:08:31] INFO root fetch - processPackages [pulumi-pulumiservice]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pulumiservice-0.9.0.tar.gz]
+[2024-05-22 00:08:31] INFO root fetch - processPackages [pulumi-pulumiservice]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pulumiservice-0.9.1a1689804796.tar.gz]
+[2024-05-22 00:08:31] INFO root fetch - main [MainThread]: End processing [pulumi-pulumiservice]: success
+[2024-05-22 00:08:31] INFO root fetch - processPackages [tcrutils]: Remove: archive file [/home/abi/fetcher/tmp/tcrutils-12.0.166.tar.gz]
+[2024-05-22 00:08:31] INFO root fetch - processPackages [tcrutils]: Remove: archive file [/home/abi/fetcher/tmp/tcrutils-12.0.167.tar.gz]
+[2024-05-22 00:08:31] INFO root fetch - main [MainThread]: End processing [tcrutils]: success
+[2024-05-22 00:08:31] INFO root fetch - processPackages [definite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/definite_sdk-0.1.3.tar.gz]
+[2024-05-22 00:08:31] INFO root fetch - processPackages [definite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/definite_sdk-0.1.4.tar.gz]
+[2024-05-22 00:08:31] INFO root fetch - main [MainThread]: End processing [definite-sdk]: success
+[2024-05-22 00:08:31] INFO root fetch - processPackages [stimcirq]: Downloading https://files.pythonhosted.org/packages/a2/fe/5fa281db7d139ef59a3c4c47c96940bf9f3fab0d0017ea452412c0cfc8d3/stimcirq-1.9.dev1657429876.tar.gz
+[2024-05-22 00:08:31] INFO root fetch - processPackages [stimcirq]: executing diffoscope
+[2024-05-22 00:08:31] INFO root fetch - processPackages [stimcirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimcirq-1.9.dev1656756326.tar.gz tmp/stimcirq-1.9.dev1657429876.tar.gz --markdown 20240522/s/stimcirq/1.9.dev1656756326-1.9.dev1657429876/README.md --exclude *.pyd
+[2024-05-22 00:08:31] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1656756326.tar.gz]
+[2024-05-22 00:08:31] INFO root fetch - processPackages [sinter]: Remove: archive file [/home/abi/fetcher/tmp/sinter-1.9.dev1657429876.tar.gz]
+[2024-05-22 00:08:31] INFO root fetch - main [MainThread]: End processing [sinter]: success
+[2024-05-22 00:08:31] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1656756326.tar.gz]
+[2024-05-22 00:08:31] INFO root fetch - processPackages [stimcirq]: Remove: archive file [/home/abi/fetcher/tmp/stimcirq-1.9.dev1657429876.tar.gz]
+[2024-05-22 00:08:31] INFO root fetch - main [MainThread]: End processing [stimcirq]: success
+[2024-05-22 00:08:31] INFO root fetch - main [MainThread]: Store serial: [23314348]

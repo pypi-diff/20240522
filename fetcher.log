@@ -1121,3 +1121,38 @@
 [2024-05-22 00:52:12] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240521224759.tar.gz]
 [2024-05-22 00:52:12] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-22 00:52:12] INFO root fetch - main [MainThread]: Store serial: [23314776]
+[2024-05-22 00:54:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314776]
+[2024-05-22 00:54:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 00:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-master
+[2024-05-22 00:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eva-shell
+[2024-05-22 00:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: featureform-enterprise
+[2024-05-22 00:54:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hermes-cai
+[2024-05-22 00:54:22] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240521.19.5.317828] Old Version: [20240521.18.8.396624]
+[2024-05-22 00:54:22] INFO root fetch - processPackages [hermes-cai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 00:54:22] INFO root fetch - processPackages [eva-shell]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-22 00:54:22] INFO root fetch - processPackages [featureform-enterprise]: New version: [0.13.9] Old Version: [0.13.8rc1]
+[2024-05-22 00:54:22] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/4f/6a/f95d92511671448f953eea5c8103c246fe1d66dd04931c97af5bcb47358d/certora-cli-alpha-master-20240521.18.8.396624.tar.gz
+[2024-05-22 00:54:22] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14534485>=10485760
+[2024-05-22 00:54:22] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-22 00:54:22] INFO root fetch - processPackages [eva-shell]: Downloading https://files.pythonhosted.org/packages/0f/00/955d31c6f8ea07b74b16e88dfc99ecb847017590abb0eede2e1296ae114d/eva-shell-0.2.8.tar.gz
+[2024-05-22 00:54:22] INFO root fetch - processPackages [hermes-cai]: Downloading https://files.pythonhosted.org/packages/c9/49/97474e8e674b4a25212e52f4667f6ed8090477ad6f09cc4879d99ad76b98/hermes_cai-0.0.8.tar.gz
+[2024-05-22 00:54:22] INFO root fetch - processPackages [featureform-enterprise]: Downloading https://files.pythonhosted.org/packages/43/8a/c03938ad0cd2893595e362dd5b194983490daa635f4356551848cb92943d/featureform_enterprise-0.13.8rc1.tar.gz
+[2024-05-22 00:54:22] INFO root fetch - processPackages [hermes-cai]: Downloading https://files.pythonhosted.org/packages/c7/2e/0f088ef52872faa4a462253525bc0bf9426cf9d1003e4f90cbfa2ab55af8/hermes_cai-0.0.9.tar.gz
+[2024-05-22 00:54:22] INFO root fetch - processPackages [eva-shell]: Downloading https://files.pythonhosted.org/packages/f3/a3/4bba45b044742c2c426c1fc97e77b5c50cc9c096c2f4958a1dbeac0d4cdd/eva-shell-0.2.9.tar.gz
+[2024-05-22 00:54:22] INFO root fetch - processPackages [hermes-cai]: executing diffoscope
+[2024-05-22 00:54:22] INFO root fetch - processPackages [hermes-cai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermes_cai-0.0.8.tar.gz tmp/hermes_cai-0.0.9.tar.gz --markdown 20240522/h/hermes-cai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 00:54:22] INFO root fetch - processPackages [eva-shell]: executing diffoscope
+[2024-05-22 00:54:22] INFO root fetch - processPackages [eva-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eva-shell-0.2.8.tar.gz tmp/eva-shell-0.2.9.tar.gz --markdown 20240522/e/eva-shell/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-22 00:54:23] INFO root fetch - processPackages [featureform-enterprise]: Downloading https://files.pythonhosted.org/packages/39/bb/57d83cef3f3872f1518035317d856894f036fe954bac5b805677e753fe76/featureform_enterprise-0.13.9.tar.gz
+[2024-05-22 00:54:23] INFO root fetch - processPackages [featureform-enterprise]: executing diffoscope
+[2024-05-22 00:54:23] INFO root fetch - processPackages [featureform-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featureform_enterprise-0.13.8rc1.tar.gz tmp/featureform_enterprise-0.13.9.tar.gz --markdown 20240522/f/featureform-enterprise/0.13.8rc1-0.13.9/README.md --exclude *.pyd
+[2024-05-22 00:54:23] INFO root fetch - processPackages [eva-shell]: Remove: archive file [/home/abi/fetcher/tmp/eva-shell-0.2.8.tar.gz]
+[2024-05-22 00:54:23] INFO root fetch - processPackages [eva-shell]: Remove: archive file [/home/abi/fetcher/tmp/eva-shell-0.2.9.tar.gz]
+[2024-05-22 00:54:23] INFO root fetch - main [MainThread]: End processing [eva-shell]: success
+[2024-05-22 00:54:23] INFO root fetch - processPackages [hermes-cai]: Remove: archive file [/home/abi/fetcher/tmp/hermes_cai-0.0.8.tar.gz]
+[2024-05-22 00:54:23] INFO root fetch - processPackages [hermes-cai]: Remove: archive file [/home/abi/fetcher/tmp/hermes_cai-0.0.9.tar.gz]
+[2024-05-22 00:54:23] INFO root fetch - main [MainThread]: End processing [hermes-cai]: success
+[2024-05-22 00:54:25] INFO root fetch - processPackages [featureform-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/featureform_enterprise-0.13.8rc1.tar.gz]
+[2024-05-22 00:54:25] INFO root fetch - processPackages [featureform-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/featureform_enterprise-0.13.9.tar.gz]
+[2024-05-22 00:54:25] INFO root fetch - main [MainThread]: End processing [featureform-enterprise]: success
+[2024-05-22 00:54:25] INFO root fetch - main [MainThread]: Store serial: [23314789]

@@ -681,3 +681,42 @@
 [2024-05-22 00:34:03] INFO root fetch - processPackages [nora-lib]: Remove: archive file [/home/abi/fetcher/tmp/nora_lib-0.0.6.dev1.tar.gz]
 [2024-05-22 00:34:03] INFO root fetch - main [MainThread]: End processing [nora-lib]: success
 [2024-05-22 00:34:03] INFO root fetch - main [MainThread]: Store serial: [23314618]
+[2024-05-22 00:36:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314618]
+[2024-05-22 00:36:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 00:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metaflow-measure
+[2024-05-22 00:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: djangoldp-energiepartagee
+[2024-05-22 00:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geodesic-api
+[2024-05-22 00:36:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: musictoolbox
+[2024-05-22 00:36:12] INFO root fetch - processPackages [musictoolbox]: New version: [0.0.81] Old Version: [0.0.76]
+[2024-05-22 00:36:12] INFO root fetch - processPackages [metaflow-measure]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-22 00:36:12] INFO root fetch - processPackages [geodesic-api]: New version: [0.9.0] Old Version: [0.8.7]
+[2024-05-22 00:36:12] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-22 00:36:12] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/8f/be/55927dc3a0c5a56cfaee18bcf15d0303bf773302a1b499fd0c406fb5abcf/djangoldp_energiepartagee-2.0.8.tar.gz
+[2024-05-22 00:36:12] INFO root fetch - processPackages [musictoolbox]: Downloading https://files.pythonhosted.org/packages/ea/4b/df111d057a18c5e967dce377632d95e29be7097bc54f6a93881b329c6113/musictoolbox-0.0.76.tar.gz
+[2024-05-22 00:36:12] INFO root fetch - processPackages [metaflow-measure]: Downloading https://files.pythonhosted.org/packages/a1/1b/a4430b36f20d83c6a3d2b84c6754bfa66036f040f1adccdf2524364661a8/metaflow_measure-0.0.2.tar.gz
+[2024-05-22 00:36:12] INFO root fetch - processPackages [geodesic-api]: Downloading https://files.pythonhosted.org/packages/6a/a8/14dfb83cda43cbac659279db5f70de1b36c3e82ad69a56b069a6770e1bc8/geodesic_api-0.8.7-py3-none-any.whl
+[2024-05-22 00:36:12] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/f8/1a/601ffcfc692611b9fa43d0ff1fc56868c633b69bcf918abc8b4c2405c6cf/djangoldp_energiepartagee-2.0.9.tar.gz
+[2024-05-22 00:36:12] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-05-22 00:36:12] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-2.0.8.tar.gz tmp/djangoldp_energiepartagee-2.0.9.tar.gz --markdown 20240522/d/djangoldp-energiepartagee/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-22 00:36:12] INFO root fetch - processPackages [metaflow-measure]: Downloading https://files.pythonhosted.org/packages/1e/35/e9be55549659eeff8b724ae861ea76b7352268449ba67f39ef3e98fe7428/metaflow_measure-0.0.3.tar.gz
+[2024-05-22 00:36:13] INFO root fetch - processPackages [musictoolbox]: Downloading https://files.pythonhosted.org/packages/6c/f3/eab2a17358ff5024140b52a1733d08a58d992f38b297e73cc36580311908/musictoolbox-0.0.81.tar.gz
+[2024-05-22 00:36:13] INFO root fetch - processPackages [metaflow-measure]: executing diffoscope
+[2024-05-22 00:36:13] INFO root fetch - processPackages [metaflow-measure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaflow_measure-0.0.2.tar.gz tmp/metaflow_measure-0.0.3.tar.gz --markdown 20240522/m/metaflow-measure/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-22 00:36:13] INFO root fetch - processPackages [geodesic-api]: Downloading https://files.pythonhosted.org/packages/b5/87/6f6437e716fb0cb26a0c09ae9e51e19882b0f84a7d7d8e55aaeca7125838/geodesic_api-0.9.0-py3-none-any.whl
+[2024-05-22 00:36:13] INFO root fetch - processPackages [musictoolbox]: executing diffoscope
+[2024-05-22 00:36:13] INFO root fetch - processPackages [musictoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musictoolbox-0.0.76.tar.gz tmp/musictoolbox-0.0.81.tar.gz --markdown 20240522/m/musictoolbox/0.0.76-0.0.81/README.md --exclude *.pyd
+[2024-05-22 00:36:13] INFO root fetch - processPackages [geodesic-api]: executing diffoscope
+[2024-05-22 00:36:13] INFO root fetch - processPackages [geodesic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geodesic_api-0.8.7-py3-none-any.whl.zip tmp/geodesic_api-0.9.0-py3-none-any.whl.zip --markdown 20240522/g/geodesic-api/0.8.7-0.9.0/README.md --exclude *.pyd
+[2024-05-22 00:36:13] INFO root fetch - processPackages [metaflow-measure]: Remove: archive file [/home/abi/fetcher/tmp/metaflow_measure-0.0.2.tar.gz]
+[2024-05-22 00:36:13] INFO root fetch - processPackages [metaflow-measure]: Remove: archive file [/home/abi/fetcher/tmp/metaflow_measure-0.0.3.tar.gz]
+[2024-05-22 00:36:13] INFO root fetch - main [MainThread]: End processing [metaflow-measure]: success
+[2024-05-22 00:36:13] INFO root fetch - processPackages [musictoolbox]: Remove: archive file [/home/abi/fetcher/tmp/musictoolbox-0.0.76.tar.gz]
+[2024-05-22 00:36:13] INFO root fetch - processPackages [musictoolbox]: Remove: archive file [/home/abi/fetcher/tmp/musictoolbox-0.0.81.tar.gz]
+[2024-05-22 00:36:13] INFO root fetch - main [MainThread]: End processing [musictoolbox]: success
+[2024-05-22 00:36:13] INFO root fetch - processPackages [geodesic-api]: Remove: archive file [/home/abi/fetcher/tmp/geodesic_api-0.8.7-py3-none-any.whl.zip]
+[2024-05-22 00:36:13] INFO root fetch - processPackages [geodesic-api]: Remove: archive file [/home/abi/fetcher/tmp/geodesic_api-0.9.0-py3-none-any.whl.zip]
+[2024-05-22 00:36:13] INFO root fetch - main [MainThread]: End processing [geodesic-api]: success
+[2024-05-22 00:36:13] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.8.tar.gz]
+[2024-05-22 00:36:13] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-2.0.9.tar.gz]
+[2024-05-22 00:36:13] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-05-22 00:36:13] INFO root fetch - main [MainThread]: Store serial: [23314628]

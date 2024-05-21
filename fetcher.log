@@ -1650,3 +1650,42 @@
 [2024-05-22 01:24:49] INFO root fetch - processPackages [dbt]: Remove: archive file [/home/abi/fetcher/tmp/dbt-1.0.0rc1.tar.gz]
 [2024-05-22 01:24:49] INFO root fetch - main [MainThread]: End processing [dbt]: success
 [2024-05-22 01:24:49] INFO root fetch - main [MainThread]: Store serial: [23315060]
+[2024-05-22 01:26:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315060]
+[2024-05-22 01:26:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 01:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes
+[2024-05-22 01:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openinference-instrumentation-llama-index
+[2024-05-22 01:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jenkins-jobs
+[2024-05-22 01:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: osu
+[2024-05-22 01:26:58] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [4.9.1] Old Version: [4.9.0a1709600505]
+[2024-05-22 01:26:58] INFO root fetch - processPackages [openinference-instrumentation-llama-index]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-05-22 01:26:58] INFO root fetch - processPackages [osu]: New version: [1.4.8] Old Version: [1.4.7]
+[2024-05-22 01:26:58] INFO root fetch - processPackages [jenkins-jobs]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-22 01:26:58] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/f5/70/02e4a8984b201b842988e123d98828a8b1023a0fe6f592c98fdebdca7506/pulumi_kubernetes-4.9.0a1709600505.tar.gz
+[2024-05-22 01:26:58] INFO root fetch - processPackages [openinference-instrumentation-llama-index]: Downloading https://files.pythonhosted.org/packages/46/80/28c06f6e6b865cc29137d1dc0c31c024d666fbdd11b34986dce6c4459de5/openinference_instrumentation_llama_index-1.4.0.tar.gz
+[2024-05-22 01:26:58] INFO root fetch - processPackages [osu]: Downloading https://files.pythonhosted.org/packages/4c/22/9d784736b9f7c687f1b73f4573ccfb3870617023514538db8337536ae857/osu-1.4.7.tar.gz
+[2024-05-22 01:26:58] INFO root fetch - processPackages [jenkins-jobs]: Downloading https://files.pythonhosted.org/packages/db/0d/8ac1423f3db32c6ac0b81f7500476b18e6ee2fbf63555ffe702b1d0e4bd8/jenkins_jobs-0.1.2.tar.gz
+[2024-05-22 01:26:58] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/ae/8c/e58bd57f74c8cbc29a99be666c50a014e5a311981c62ce715186a4c80d41/pulumi_kubernetes-4.9.1.tar.gz
+[2024-05-22 01:26:58] INFO root fetch - processPackages [openinference-instrumentation-llama-index]: Downloading https://files.pythonhosted.org/packages/9f/7a/f1103195227a9bb898e4eda2538bb708b22a20f563724433b657d774d374/openinference_instrumentation_llama_index-1.4.1.tar.gz
+[2024-05-22 01:26:59] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2024-05-22 01:26:59] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-4.9.0a1709600505.tar.gz tmp/pulumi_kubernetes-4.9.1.tar.gz --markdown 20240522/p/pulumi-kubernetes/4.9.0a1709600505-4.9.1/README.md --exclude *.pyd
+[2024-05-22 01:26:59] INFO root fetch - processPackages [jenkins-jobs]: Downloading https://files.pythonhosted.org/packages/80/83/0efb9d4198b50914abd569386714d0f286b23b5efc93b91e9a9cdb606596/jenkins_jobs-0.1.3.tar.gz
+[2024-05-22 01:26:59] INFO root fetch - processPackages [openinference-instrumentation-llama-index]: executing diffoscope
+[2024-05-22 01:26:59] INFO root fetch - processPackages [openinference-instrumentation-llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openinference_instrumentation_llama_index-1.4.0.tar.gz tmp/openinference_instrumentation_llama_index-1.4.1.tar.gz --markdown 20240522/o/openinference-instrumentation-llama-index/1.4.0-1.4.1/README.md --exclude *.pyd
+[2024-05-22 01:26:59] INFO root fetch - processPackages [osu]: Downloading https://files.pythonhosted.org/packages/e1/f8/d594adabc77d0e74062b237278f04f358365e9241f4c09adc4bf4cc3aeec/osu-1.4.8.tar.gz
+[2024-05-22 01:26:59] INFO root fetch - processPackages [jenkins-jobs]: executing diffoscope
+[2024-05-22 01:26:59] INFO root fetch - processPackages [jenkins-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jenkins_jobs-0.1.2.tar.gz tmp/jenkins_jobs-0.1.3.tar.gz --markdown 20240522/j/jenkins-jobs/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-22 01:26:59] INFO root fetch - processPackages [osu]: executing diffoscope
+[2024-05-22 01:26:59] INFO root fetch - processPackages [osu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osu-1.4.7.tar.gz tmp/osu-1.4.8.tar.gz --markdown 20240522/o/osu/1.4.7-1.4.8/README.md --exclude *.pyd
+[2024-05-22 01:26:59] INFO root fetch - processPackages [openinference-instrumentation-llama-index]: Remove: archive file [/home/abi/fetcher/tmp/openinference_instrumentation_llama_index-1.4.0.tar.gz]
+[2024-05-22 01:26:59] INFO root fetch - processPackages [openinference-instrumentation-llama-index]: Remove: archive file [/home/abi/fetcher/tmp/openinference_instrumentation_llama_index-1.4.1.tar.gz]
+[2024-05-22 01:26:59] INFO root fetch - main [MainThread]: End processing [openinference-instrumentation-llama-index]: success
+[2024-05-22 01:26:59] INFO root fetch - processPackages [jenkins-jobs]: Remove: archive file [/home/abi/fetcher/tmp/jenkins_jobs-0.1.2.tar.gz]
+[2024-05-22 01:26:59] INFO root fetch - processPackages [jenkins-jobs]: Remove: archive file [/home/abi/fetcher/tmp/jenkins_jobs-0.1.3.tar.gz]
+[2024-05-22 01:26:59] INFO root fetch - main [MainThread]: End processing [jenkins-jobs]: success
+[2024-05-22 01:26:59] INFO root fetch - processPackages [osu]: Remove: archive file [/home/abi/fetcher/tmp/osu-1.4.7.tar.gz]
+[2024-05-22 01:26:59] INFO root fetch - processPackages [osu]: Remove: archive file [/home/abi/fetcher/tmp/osu-1.4.8.tar.gz]
+[2024-05-22 01:26:59] INFO root fetch - main [MainThread]: End processing [osu]: success
+[2024-05-22 01:27:02] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.9.0a1709600505.tar.gz]
+[2024-05-22 01:27:02] INFO root fetch - processPackages [pulumi-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes-4.9.1.tar.gz]
+[2024-05-22 01:27:02] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2024-05-22 01:27:02] INFO root fetch - main [MainThread]: Store serial: [23315071]

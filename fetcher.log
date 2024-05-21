@@ -1533,3 +1533,33 @@
 [2024-05-22 01:16:08] INFO root fetch - processPackages [openinference-instrumentation-langchain]: Remove: archive file [/home/abi/fetcher/tmp/openinference_instrumentation_langchain-0.1.9.tar.gz]
 [2024-05-22 01:16:08] INFO root fetch - main [MainThread]: End processing [openinference-instrumentation-langchain]: success
 [2024-05-22 01:16:08] INFO root fetch - main [MainThread]: Store serial: [23314997]
+[2024-05-22 01:18:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314997]
+[2024-05-22 01:18:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 01:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contact-person-profile-csv-imp-local
+[2024-05-22 01:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starkcore
+[2024-05-22 01:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EAACommander
+[2024-05-22 01:18:16] INFO root fetch - processPackages [EAACommander]: New version: [0.2] Old Version: [0.1]
+[2024-05-22 01:18:16] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 01:18:16] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Downloading https://files.pythonhosted.org/packages/38/8e/697a7a19f7efccb43ada97483628a3b05cd2c0ecf731e43238d4c94beb46/contact_person_profile_csv_imp_local-0.0.8.tar.gz
+[2024-05-22 01:18:16] INFO root fetch - processPackages [starkcore]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-22 01:18:16] INFO root fetch - processPackages [EAACommander]: Downloading https://files.pythonhosted.org/packages/07/9b/9c19b4a9a4f2a14402fd8739bed83db685b370738508a94d038d67067862/EAACommander-0.1.tar.gz
+[2024-05-22 01:18:16] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Downloading https://files.pythonhosted.org/packages/2c/27/f654a86e934199e979e23917591a3a16a0877f5bfff9aa07956945918b8b/contact_person_profile_csv_imp_local-0.0.9.tar.gz
+[2024-05-22 01:18:16] INFO root fetch - processPackages [starkcore]: Downloading https://files.pythonhosted.org/packages/15/7d/16df3f3c36113819dfd354e0680d4958fa0f9d04d7d6f043facac3f40ec9/starkcore-0.2.1.tar.gz
+[2024-05-22 01:18:16] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: executing diffoscope
+[2024-05-22 01:18:16] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_person_profile_csv_imp_local-0.0.8.tar.gz tmp/contact_person_profile_csv_imp_local-0.0.9.tar.gz --markdown 20240522/c/contact-person-profile-csv-imp-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 01:18:16] INFO root fetch - processPackages [EAACommander]: Downloading https://files.pythonhosted.org/packages/ff/4d/269f4db12e1e5af3cc71a2aeea0c3e01266043169097e9fee985ba9bc346/EAACommander-0.2.tar.gz
+[2024-05-22 01:18:16] INFO root fetch - processPackages [starkcore]: Downloading https://files.pythonhosted.org/packages/ba/51/137bd3b578165d78ec71b64c4619ac5fa10ae8432b9efdf68496567e8b28/starkcore-0.3.0.tar.gz
+[2024-05-22 01:18:16] INFO root fetch - processPackages [EAACommander]: executing diffoscope
+[2024-05-22 01:18:16] INFO root fetch - processPackages [EAACommander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EAACommander-0.1.tar.gz tmp/EAACommander-0.2.tar.gz --markdown 20240522/E/EAACommander/0.1-0.2/README.md --exclude *.pyd
+[2024-05-22 01:18:17] INFO root fetch - processPackages [starkcore]: executing diffoscope
+[2024-05-22 01:18:17] INFO root fetch - processPackages [starkcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starkcore-0.2.1.tar.gz tmp/starkcore-0.3.0.tar.gz --markdown 20240522/s/starkcore/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-22 01:18:17] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_person_profile_csv_imp_local-0.0.8.tar.gz]
+[2024-05-22 01:18:17] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_person_profile_csv_imp_local-0.0.9.tar.gz]
+[2024-05-22 01:18:17] INFO root fetch - main [MainThread]: End processing [contact-person-profile-csv-imp-local]: success
+[2024-05-22 01:18:17] INFO root fetch - processPackages [EAACommander]: Remove: archive file [/home/abi/fetcher/tmp/EAACommander-0.1.tar.gz]
+[2024-05-22 01:18:17] INFO root fetch - processPackages [EAACommander]: Remove: archive file [/home/abi/fetcher/tmp/EAACommander-0.2.tar.gz]
+[2024-05-22 01:18:17] INFO root fetch - main [MainThread]: End processing [EAACommander]: success
+[2024-05-22 01:18:17] INFO root fetch - processPackages [starkcore]: Remove: archive file [/home/abi/fetcher/tmp/starkcore-0.2.1.tar.gz]
+[2024-05-22 01:18:17] INFO root fetch - processPackages [starkcore]: Remove: archive file [/home/abi/fetcher/tmp/starkcore-0.3.0.tar.gz]
+[2024-05-22 01:18:17] INFO root fetch - main [MainThread]: End processing [starkcore]: success
+[2024-05-22 01:18:17] INFO root fetch - main [MainThread]: Store serial: [23315005]

@@ -2087,3 +2087,32 @@
 [2024-05-22 01:46:47] INFO root fetch - processPackages [antimatter-api]: Remove: archive file [/home/abi/fetcher/tmp/antimatter_api-1.0.7.tar.gz]
 [2024-05-22 01:46:47] INFO root fetch - main [MainThread]: End processing [antimatter-api]: success
 [2024-05-22 01:46:47] INFO root fetch - main [MainThread]: Store serial: [23315254]
+[2024-05-22 01:48:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315254]
+[2024-05-22 01:48:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 01:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmauri
+[2024-05-22 01:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sophisticate
+[2024-05-22 01:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-allspice
+[2024-05-22 01:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-source-clockify
+[2024-05-22 01:48:56] WARNING root fetch - processPackages [sophisticate]: Skipping, unable to determine old version
+[2024-05-22 01:48:56] INFO root fetch - main [MainThread]: End processing [sophisticate] error
+[2024-05-22 01:48:56] INFO root fetch - processPackages [swarmauri]: New version: [0.2.6.dev2] Old Version: [0.2.6.dev1]
+[2024-05-22 01:48:56] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/9e/91/aeebe0a934ccc9260c48ad1c760bff9ee4c3df3f25dc0d1a5764821742fd/swarmauri-0.2.6.dev1.tar.gz
+[2024-05-22 01:48:56] INFO root fetch - processPackages [py-allspice]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-05-22 01:48:56] INFO root fetch - processPackages [airbyte-source-clockify]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-22 01:48:56] INFO root fetch - processPackages [py-allspice]: Downloading https://files.pythonhosted.org/packages/53/58/4f285284c54da2da8927bef331f6dfd523ef7c4e1652e5cfa699df8dc9a2/py_allspice-3.0.0.tar.gz
+[2024-05-22 01:48:56] INFO root fetch - processPackages [airbyte-source-clockify]: Downloading https://files.pythonhosted.org/packages/1c/21/2ba712eb5217004e125625f082819fbf231696893baa1d353a66fbfbf673/airbyte_source_clockify-0.3.3.tar.gz
+[2024-05-22 01:48:56] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/28/6c/1bf09ec0348f732cc709ed20979761d4d8377af43f8f1c8817bfca58d230/swarmauri-0.2.6.dev2.tar.gz
+[2024-05-22 01:48:56] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-22 01:48:56] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.2.6.dev1.tar.gz tmp/swarmauri-0.2.6.dev2.tar.gz --markdown 20240522/s/swarmauri/0.2.6.dev1-0.2.6.dev2/README.md --exclude *.pyd
+[2024-05-22 01:48:56] ERROR root fetch - processPackages [airbyte-source-clockify]: Unable to fetch info: No such project/version 'airbyte-source-clockify' 0.3.4
+[2024-05-22 01:48:56] INFO root fetch - main [MainThread]: End processing [airbyte-source-clockify] error
+[2024-05-22 01:48:56] INFO root fetch - processPackages [py-allspice]: Downloading https://files.pythonhosted.org/packages/ca/76/2385eb59beb92220a6fab670fb9d1dd01d71024598b122c011a18cca5437/py_allspice-3.1.0.tar.gz
+[2024-05-22 01:48:56] INFO root fetch - processPackages [py-allspice]: executing diffoscope
+[2024-05-22 01:48:56] INFO root fetch - processPackages [py-allspice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_allspice-3.0.0.tar.gz tmp/py_allspice-3.1.0.tar.gz --markdown 20240522/p/py-allspice/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-05-22 01:48:57] INFO root fetch - processPackages [py-allspice]: Remove: archive file [/home/abi/fetcher/tmp/py_allspice-3.0.0.tar.gz]
+[2024-05-22 01:48:57] INFO root fetch - processPackages [py-allspice]: Remove: archive file [/home/abi/fetcher/tmp/py_allspice-3.1.0.tar.gz]
+[2024-05-22 01:48:57] INFO root fetch - main [MainThread]: End processing [py-allspice]: success
+[2024-05-22 01:48:57] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.6.dev1.tar.gz]
+[2024-05-22 01:48:57] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.6.dev2.tar.gz]
+[2024-05-22 01:48:57] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-22 01:48:57] INFO root fetch - main [MainThread]: Store serial: [23315263]

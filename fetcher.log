@@ -1629,3 +1629,24 @@
 [2024-05-22 01:22:39] INFO root fetch - processPackages [pygeoprocessing]: Remove: archive file [/home/abi/fetcher/tmp/pygeoprocessing-2.4.4.tar.gz]
 [2024-05-22 01:22:39] INFO root fetch - main [MainThread]: End processing [pygeoprocessing]: success
 [2024-05-22 01:22:39] INFO root fetch - main [MainThread]: Store serial: [23315056]
+[2024-05-22 01:24:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315056]
+[2024-05-22 01:24:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 01:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt
+[2024-05-22 01:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cowayaio
+[2024-05-22 01:24:48] INFO root fetch - processPackages [cowayaio]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 01:24:48] INFO root fetch - processPackages [dbt]: New version: [1.0.0rc1] Old Version: [1.0.0.37.9]
+[2024-05-22 01:24:48] INFO root fetch - processPackages [cowayaio]: Downloading https://files.pythonhosted.org/packages/05/95/03af1d7b18e04ee1d7857b157b3e3a0ba2953dcbfa70516a54afb168be83/cowayaio-0.1.8.tar.gz
+[2024-05-22 01:24:48] INFO root fetch - processPackages [dbt]: Downloading https://files.pythonhosted.org/packages/7a/9a/ee37c9c7ad5d9d9f1f9c8af7be75d5118de1b95cabb1f73bd760f825c1cd/dbt-1.0.0.37.9.tar.gz
+[2024-05-22 01:24:49] INFO root fetch - processPackages [cowayaio]: Downloading https://files.pythonhosted.org/packages/40/c4/4129be66801cf4c03fe32e9842360bf5c48f4e903898f0fc0595f80ebf0e/cowayaio-0.1.9.tar.gz
+[2024-05-22 01:24:49] INFO root fetch - processPackages [dbt]: Downloading https://files.pythonhosted.org/packages/7a/99/05944c00ffe021ceeae59e411a5b5f4521e582e35af5de3f57a6fec4eb05/dbt-1.0.0rc1.tar.gz
+[2024-05-22 01:24:49] INFO root fetch - processPackages [cowayaio]: executing diffoscope
+[2024-05-22 01:24:49] INFO root fetch - processPackages [cowayaio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cowayaio-0.1.8.tar.gz tmp/cowayaio-0.1.9.tar.gz --markdown 20240522/c/cowayaio/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 01:24:49] INFO root fetch - processPackages [dbt]: executing diffoscope
+[2024-05-22 01:24:49] INFO root fetch - processPackages [dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-1.0.0.37.9.tar.gz tmp/dbt-1.0.0rc1.tar.gz --markdown 20240522/d/dbt/1.0.0.37.9-1.0.0rc1/README.md --exclude *.pyd
+[2024-05-22 01:24:49] INFO root fetch - processPackages [cowayaio]: Remove: archive file [/home/abi/fetcher/tmp/cowayaio-0.1.8.tar.gz]
+[2024-05-22 01:24:49] INFO root fetch - processPackages [cowayaio]: Remove: archive file [/home/abi/fetcher/tmp/cowayaio-0.1.9.tar.gz]
+[2024-05-22 01:24:49] INFO root fetch - main [MainThread]: End processing [cowayaio]: success
+[2024-05-22 01:24:49] INFO root fetch - processPackages [dbt]: Remove: archive file [/home/abi/fetcher/tmp/dbt-1.0.0.37.9.tar.gz]
+[2024-05-22 01:24:49] INFO root fetch - processPackages [dbt]: Remove: archive file [/home/abi/fetcher/tmp/dbt-1.0.0rc1.tar.gz]
+[2024-05-22 01:24:49] INFO root fetch - main [MainThread]: End processing [dbt]: success
+[2024-05-22 01:24:49] INFO root fetch - main [MainThread]: Store serial: [23315060]

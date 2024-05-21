@@ -663,3 +663,21 @@
 [2024-05-22 00:31:53] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
 [2024-05-22 00:31:53] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2024-05-22 00:31:53] INFO root fetch - main [MainThread]: Store serial: [23314606]
+[2024-05-22 00:33:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314606]
+[2024-05-22 00:34:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 00:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openiziai
+[2024-05-22 00:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: st-cookies-manager
+[2024-05-22 00:34:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nora-lib
+[2024-05-22 00:34:02] WARNING root fetch - processPackages [st-cookies-manager]: Skipping, unable to determine old version
+[2024-05-22 00:34:02] INFO root fetch - main [MainThread]: End processing [st-cookies-manager] error
+[2024-05-22 00:34:02] INFO root fetch - processPackages [nora-lib]: New version: [0.0.6.dev1] Old Version: [0.0.6.dev0]
+[2024-05-22 00:34:02] INFO root fetch - processPackages [nora-lib]: Downloading https://files.pythonhosted.org/packages/4d/a4/b56844294fecc369c28502849e34e7c8524d54a34a3ca013002af29f9834/nora_lib-0.0.6.dev0.tar.gz
+[2024-05-22 00:34:02] ERROR root fetch - processPackages [openiziai]: Unable to get metadata: No such project 'openiziai'
+[2024-05-22 00:34:02] INFO root fetch - main [MainThread]: End processing [openiziai] error
+[2024-05-22 00:34:02] INFO root fetch - processPackages [nora-lib]: Downloading https://files.pythonhosted.org/packages/36/d0/4281d59773012b2ba0e96782fa750b875247f989de3a47a90d342b6b0f9c/nora_lib-0.0.6.dev1.tar.gz
+[2024-05-22 00:34:03] INFO root fetch - processPackages [nora-lib]: executing diffoscope
+[2024-05-22 00:34:03] INFO root fetch - processPackages [nora-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nora_lib-0.0.6.dev0.tar.gz tmp/nora_lib-0.0.6.dev1.tar.gz --markdown 20240522/n/nora-lib/0.0.6.dev0-0.0.6.dev1/README.md --exclude *.pyd
+[2024-05-22 00:34:03] INFO root fetch - processPackages [nora-lib]: Remove: archive file [/home/abi/fetcher/tmp/nora_lib-0.0.6.dev0.tar.gz]
+[2024-05-22 00:34:03] INFO root fetch - processPackages [nora-lib]: Remove: archive file [/home/abi/fetcher/tmp/nora_lib-0.0.6.dev1.tar.gz]
+[2024-05-22 00:34:03] INFO root fetch - main [MainThread]: End processing [nora-lib]: success
+[2024-05-22 00:34:03] INFO root fetch - main [MainThread]: Store serial: [23314618]

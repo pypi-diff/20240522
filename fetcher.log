@@ -1299,3 +1299,24 @@
 [2024-05-22 01:03:06] INFO root fetch - processPackages [musictoolbox]: Remove: archive file [/home/abi/fetcher/tmp/musictoolbox-0.0.83.tar.gz]
 [2024-05-22 01:03:06] INFO root fetch - main [MainThread]: End processing [musictoolbox]: success
 [2024-05-22 01:03:06] INFO root fetch - main [MainThread]: Store serial: [23314867]
+[2024-05-22 01:05:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314867]
+[2024-05-22 01:05:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 01:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reflex-local-auth
+[2024-05-22 01:05:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emmet-core
+[2024-05-22 01:05:14] INFO root fetch - processPackages [reflex-local-auth]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-05-22 01:05:14] INFO root fetch - processPackages [emmet-core]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-22 01:05:14] INFO root fetch - processPackages [reflex-local-auth]: Downloading https://files.pythonhosted.org/packages/0a/99/9992b3b6d65f94a8244e6ff1e3cb2bc2eaf6859384f6d53172359b263656/reflex-local-auth-0.1.2.tar.gz
+[2024-05-22 01:05:14] INFO root fetch - processPackages [emmet-core]: Downloading https://files.pythonhosted.org/packages/79/85/be17b500afc3d15c1ca6b73b0cf8b7564ecc06d89b27d59ca86581efa254/emmet-core-0.9.2.tar.gz
+[2024-05-22 01:05:15] INFO root fetch - processPackages [reflex-local-auth]: Downloading https://files.pythonhosted.org/packages/cf/f9/af92be71a022849a10b475041adf28b406e75b7681cb8830104c1b3ed2a5/reflex_local_auth-0.2.0.tar.gz
+[2024-05-22 01:05:15] INFO root fetch - processPackages [emmet-core]: Downloading https://files.pythonhosted.org/packages/a8/71/fb3a5816288c941fd4a8039c02a612bdb6b1e002843cb9c029f1a4210aaa/emmet-core-0.9.3.tar.gz
+[2024-05-22 01:05:15] INFO root fetch - processPackages [reflex-local-auth]: executing diffoscope
+[2024-05-22 01:05:15] INFO root fetch - processPackages [reflex-local-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-local-auth-0.1.2.tar.gz tmp/reflex_local_auth-0.2.0.tar.gz --markdown 20240522/r/reflex-local-auth/0.1.2-0.2.0/README.md --exclude *.pyd
+[2024-05-22 01:05:15] INFO root fetch - processPackages [emmet-core]: executing diffoscope
+[2024-05-22 01:05:15] INFO root fetch - processPackages [emmet-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emmet-core-0.9.2.tar.gz tmp/emmet-core-0.9.3.tar.gz --markdown 20240522/e/emmet-core/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-22 01:05:15] INFO root fetch - processPackages [reflex-local-auth]: Remove: archive file [/home/abi/fetcher/tmp/reflex-local-auth-0.1.2.tar.gz]
+[2024-05-22 01:05:15] INFO root fetch - processPackages [reflex-local-auth]: Remove: archive file [/home/abi/fetcher/tmp/reflex_local_auth-0.2.0.tar.gz]
+[2024-05-22 01:05:15] INFO root fetch - main [MainThread]: End processing [reflex-local-auth]: success
+[2024-05-22 01:05:16] INFO root fetch - processPackages [emmet-core]: Remove: archive file [/home/abi/fetcher/tmp/emmet-core-0.9.2.tar.gz]
+[2024-05-22 01:05:16] INFO root fetch - processPackages [emmet-core]: Remove: archive file [/home/abi/fetcher/tmp/emmet-core-0.9.3.tar.gz]
+[2024-05-22 01:05:16] INFO root fetch - main [MainThread]: End processing [emmet-core]: success
+[2024-05-22 01:05:16] INFO root fetch - main [MainThread]: Store serial: [23314915]

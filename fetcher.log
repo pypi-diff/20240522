@@ -749,3 +749,65 @@
 [2024-05-22 00:38:24] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-1.9.0.tar.gz]
 [2024-05-22 00:38:24] INFO root fetch - main [MainThread]: End processing [OZI]: success
 [2024-05-22 00:38:24] INFO root fetch - main [MainThread]: Store serial: [23314643]
+[2024-05-22 00:40:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23314643]
+[2024-05-22 00:40:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 00:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: musictoolbox
+[2024-05-22 00:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyautd3
+[2024-05-22 00:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rbfly
+[2024-05-22 00:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nlu
+[2024-05-22 00:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: structifyai
+[2024-05-22 00:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autotiling
+[2024-05-22 00:40:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: geocif
+[2024-05-22 00:40:33] INFO root fetch - processPackages [geocif]: New version: [0.1.28] Old Version: [0.1.27]
+[2024-05-22 00:40:33] INFO root fetch - processPackages [structifyai]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2024-05-22 00:40:33] INFO root fetch - processPackages [musictoolbox]: New version: [0.0.81] Old Version: [0.0.76]
+[2024-05-22 00:40:33] INFO root fetch - processPackages [geocif]: Downloading https://files.pythonhosted.org/packages/93/89/b039892aafedad019c5cc655f98ef0dac28beae52e58f3ebbe18e8e3ffe2/geocif-0.1.27.tar.gz
+[2024-05-22 00:40:33] INFO root fetch - processPackages [autotiling]: New version: [1.9.3] Old Version: [1.9.1]
+[2024-05-22 00:40:33] INFO root fetch - processPackages [pyautd3]: New version: [9.0.1] Old Version: [9.0.0]
+[2024-05-22 00:40:33] INFO root fetch - processPackages [rbfly]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-05-22 00:40:33] INFO root fetch - processPackages [structifyai]: Downloading https://files.pythonhosted.org/packages/e7/0e/0f95626e193b36f0490342fe7667772e7d3d399e68446bff231a2d1f3d00/structifyai-0.1.0a8.tar.gz
+[2024-05-22 00:40:33] INFO root fetch - processPackages [nlu]: New version: [5.3.2] Old Version: [5.3.1rc3]
+[2024-05-22 00:40:33] INFO root fetch - processPackages [musictoolbox]: Downloading https://files.pythonhosted.org/packages/ea/4b/df111d057a18c5e967dce377632d95e29be7097bc54f6a93881b329c6113/musictoolbox-0.0.76.tar.gz
+[2024-05-22 00:40:33] INFO root fetch - processPackages [structifyai]: Downloading https://files.pythonhosted.org/packages/a4/3a/73b2f2ba84e7b27b41e8f8451363d1509d0052ce1abb6498cd4285c92105/structifyai-0.1.0a9.tar.gz
+[2024-05-22 00:40:33] INFO root fetch - processPackages [geocif]: Downloading https://files.pythonhosted.org/packages/5a/40/8c5f6c27310cf720235a700544fe74fb0c89443e573b8c8b984d737d8a9f/geocif-0.1.28.tar.gz
+[2024-05-22 00:40:33] INFO root fetch - processPackages [rbfly]: Downloading https://files.pythonhosted.org/packages/6a/84/ec09546d182eda2dd9eec09df6b64f354634c40d01381f76fbb119161ac3/rbfly-0.8.3.tar.gz
+[2024-05-22 00:40:33] INFO root fetch - processPackages [autotiling]: Downloading https://files.pythonhosted.org/packages/8d/aa/c5db3ef5172bd2bb924fa9269cac53cbd2e04b5157ea0a1c97123d8f7744/autotiling-1.9.1.tar.gz
+[2024-05-22 00:40:33] INFO root fetch - processPackages [musictoolbox]: Downloading https://files.pythonhosted.org/packages/6c/f3/eab2a17358ff5024140b52a1733d08a58d992f38b297e73cc36580311908/musictoolbox-0.0.81.tar.gz
+[2024-05-22 00:40:33] INFO root fetch - processPackages [nlu]: Downloading https://files.pythonhosted.org/packages/98/ad/2224def90c79e93f170570fed9047feafc067477599bfc271836c299b975/nlu-5.3.1rc3.tar.gz
+[2024-05-22 00:40:33] INFO root fetch - processPackages [pyautd3]: Downloading https://files.pythonhosted.org/packages/e8/71/a7e782b3fd39d71bc7d9f5c5bc4c935f52b63b87e0680f3ec000d5ae1545/pyautd3-9.0.0.tar.gz
+[2024-05-22 00:40:33] WARNING root fetch - processPackages [pyautd3]: Skipping package: exceeds size limit 25360257>=10485760
+[2024-05-22 00:40:33] INFO root fetch - main [MainThread]: End processing [pyautd3] error
+[2024-05-22 00:40:33] INFO root fetch - processPackages [structifyai]: executing diffoscope
+[2024-05-22 00:40:33] INFO root fetch - processPackages [structifyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structifyai-0.1.0a8.tar.gz tmp/structifyai-0.1.0a9.tar.gz --markdown 20240522/s/structifyai/0.1.0a8-0.1.0a9/README.md --exclude *.pyd
+[2024-05-22 00:40:33] INFO root fetch - processPackages [geocif]: executing diffoscope
+[2024-05-22 00:40:33] INFO root fetch - processPackages [geocif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geocif-0.1.27.tar.gz tmp/geocif-0.1.28.tar.gz --markdown 20240522/g/geocif/0.1.27-0.1.28/README.md --exclude *.pyd
+[2024-05-22 00:40:33] INFO root fetch - processPackages [musictoolbox]: executing diffoscope
+[2024-05-22 00:40:33] INFO root fetch - processPackages [musictoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musictoolbox-0.0.76.tar.gz tmp/musictoolbox-0.0.81.tar.gz --markdown 20240522/m/musictoolbox/0.0.76-0.0.81/README.md --exclude *.pyd
+[2024-05-22 00:40:33] INFO root fetch - processPackages [autotiling]: Downloading https://files.pythonhosted.org/packages/06/3b/a03faee157a0b07c4cae7aaefada03739b2792fab86be41ff73ad88be1ce/autotiling-1.9.3.tar.gz
+[2024-05-22 00:40:34] INFO root fetch - processPackages [rbfly]: Downloading https://files.pythonhosted.org/packages/a1/6f/f99ea6d9ad20e820be4aa5d6e4dc134841ed5479233dbd3eead06a4e3a89/rbfly-0.8.4.tar.gz
+[2024-05-22 00:40:34] INFO root fetch - processPackages [autotiling]: executing diffoscope
+[2024-05-22 00:40:34] INFO root fetch - processPackages [autotiling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotiling-1.9.1.tar.gz tmp/autotiling-1.9.3.tar.gz --markdown 20240522/a/autotiling/1.9.1-1.9.3/README.md --exclude *.pyd
+[2024-05-22 00:40:34] INFO root fetch - processPackages [nlu]: Downloading https://files.pythonhosted.org/packages/a5/c9/2e3ae5e51c6511efeaa37768ad2c5ae23f9f23f9c6eadf989887300554ec/nlu-5.3.2.tar.gz
+[2024-05-22 00:40:34] INFO root fetch - processPackages [rbfly]: executing diffoscope
+[2024-05-22 00:40:34] INFO root fetch - processPackages [rbfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbfly-0.8.3.tar.gz tmp/rbfly-0.8.4.tar.gz --markdown 20240522/r/rbfly/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-05-22 00:40:34] INFO root fetch - processPackages [nlu]: executing diffoscope
+[2024-05-22 00:40:34] INFO root fetch - processPackages [nlu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nlu-5.3.1rc3.tar.gz tmp/nlu-5.3.2.tar.gz --markdown 20240522/n/nlu/5.3.1rc3-5.3.2/README.md --exclude *.pyd
+[2024-05-22 00:40:34] INFO root fetch - processPackages [geocif]: Remove: archive file [/home/abi/fetcher/tmp/geocif-0.1.27.tar.gz]
+[2024-05-22 00:40:34] INFO root fetch - processPackages [geocif]: Remove: archive file [/home/abi/fetcher/tmp/geocif-0.1.28.tar.gz]
+[2024-05-22 00:40:34] INFO root fetch - main [MainThread]: End processing [geocif]: success
+[2024-05-22 00:40:34] INFO root fetch - processPackages [musictoolbox]: Remove: archive file [/home/abi/fetcher/tmp/musictoolbox-0.0.76.tar.gz]
+[2024-05-22 00:40:34] INFO root fetch - processPackages [musictoolbox]: Remove: archive file [/home/abi/fetcher/tmp/musictoolbox-0.0.81.tar.gz]
+[2024-05-22 00:40:34] INFO root fetch - main [MainThread]: End processing [musictoolbox]: success
+[2024-05-22 00:40:34] INFO root fetch - processPackages [autotiling]: Remove: archive file [/home/abi/fetcher/tmp/autotiling-1.9.1.tar.gz]
+[2024-05-22 00:40:34] INFO root fetch - processPackages [autotiling]: Remove: archive file [/home/abi/fetcher/tmp/autotiling-1.9.3.tar.gz]
+[2024-05-22 00:40:34] INFO root fetch - main [MainThread]: End processing [autotiling]: success
+[2024-05-22 00:40:34] INFO root fetch - processPackages [structifyai]: Remove: archive file [/home/abi/fetcher/tmp/structifyai-0.1.0a8.tar.gz]
+[2024-05-22 00:40:34] INFO root fetch - processPackages [structifyai]: Remove: archive file [/home/abi/fetcher/tmp/structifyai-0.1.0a9.tar.gz]
+[2024-05-22 00:40:34] INFO root fetch - main [MainThread]: End processing [structifyai]: success
+[2024-05-22 00:40:35] INFO root fetch - processPackages [rbfly]: Remove: archive file [/home/abi/fetcher/tmp/rbfly-0.8.3.tar.gz]
+[2024-05-22 00:40:35] INFO root fetch - processPackages [rbfly]: Remove: archive file [/home/abi/fetcher/tmp/rbfly-0.8.4.tar.gz]
+[2024-05-22 00:40:35] INFO root fetch - main [MainThread]: End processing [rbfly]: success
+[2024-05-22 00:40:36] INFO root fetch - processPackages [nlu]: Remove: archive file [/home/abi/fetcher/tmp/nlu-5.3.1rc3.tar.gz]
+[2024-05-22 00:40:36] INFO root fetch - processPackages [nlu]: Remove: archive file [/home/abi/fetcher/tmp/nlu-5.3.2.tar.gz]
+[2024-05-22 00:40:36] INFO root fetch - main [MainThread]: End processing [nlu]: success
+[2024-05-22 00:40:36] INFO root fetch - main [MainThread]: Store serial: [23314665]

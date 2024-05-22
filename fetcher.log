@@ -12480,3 +12480,38 @@
 [2024-05-22 07:54:03] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.6.6.tar.gz]
 [2024-05-22 07:54:03] INFO root fetch - main [MainThread]: End processing [smartpredict]: success
 [2024-05-22 07:54:03] INFO root fetch - main [MainThread]: Store serial: [23319347]
+[2024-05-22 07:56:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319347]
+[2024-05-22 07:56:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 07:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: loopquest
+[2024-05-22 07:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atopile
+[2024-05-22 07:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: liveramp-automation
+[2024-05-22 07:56:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: elements
+[2024-05-22 07:56:14] INFO root fetch - processPackages [elements]: New version: [3.6.1] Old Version: [3.6.0]
+[2024-05-22 07:56:14] INFO root fetch - processPackages [liveramp-automation]: New version: [1.4.4] Old Version: [1.4.3]
+[2024-05-22 07:56:14] INFO root fetch - processPackages [elements]: Downloading https://files.pythonhosted.org/packages/c8/b8/87c36e5c963301dca12835299a3b3e60b4746758a0e1972e4611f7655d68/elements-3.6.0.tar.gz
+[2024-05-22 07:56:14] INFO root fetch - processPackages [loopquest]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-05-22 07:56:14] INFO root fetch - processPackages [atopile]: New version: [0.3.0.dev0] Old Version: [0.2.9]
+[2024-05-22 07:56:14] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/9f/be/b703cb29504120880459d98452283aea16086b67ee417a92dda9e2392c05/liveramp_automation-1.4.3.tar.gz
+[2024-05-22 07:56:14] INFO root fetch - processPackages [atopile]: Downloading https://files.pythonhosted.org/packages/b9/4b/f9ec536fd464d0e26a65a2027efe19630c4f5dbd38d7329e74df46ff0a91/atopile-0.2.9.tar.gz
+[2024-05-22 07:56:14] INFO root fetch - processPackages [loopquest]: Downloading https://files.pythonhosted.org/packages/ce/ca/54522995f55a923f463e55476065ec41e585f7b9dd5deed99afd91d575d7/loopquest-0.2.7.tar.gz
+[2024-05-22 07:56:14] INFO root fetch - processPackages [elements]: Downloading https://files.pythonhosted.org/packages/23/d9/af21834a725eff8e9981de3d3085c998d92f244d2f1335382bf6ecbfbf55/elements-3.6.1.tar.gz
+[2024-05-22 07:56:14] WARNING root fetch - processPackages [atopile]: Skipping package: exceeds size limit 25663075>=10485760
+[2024-05-22 07:56:14] INFO root fetch - main [MainThread]: End processing [atopile] error
+[2024-05-22 07:56:14] INFO root fetch - processPackages [elements]: executing diffoscope
+[2024-05-22 07:56:14] INFO root fetch - processPackages [elements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elements-3.6.0.tar.gz tmp/elements-3.6.1.tar.gz --markdown 20240522/e/elements/3.6.0-3.6.1/README.md --exclude *.pyd
+[2024-05-22 07:56:14] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/12/8a/ef4f4c3932e69591335a568db0d56a327e51d1bebd0c0791b41c75b7d18a/liveramp_automation-1.4.4.tar.gz
+[2024-05-22 07:56:14] INFO root fetch - processPackages [loopquest]: Downloading https://files.pythonhosted.org/packages/c8/4a/0d5277f189651425b4dbab337e95e60a8331965faa292d5edd400ff84ca1/loopquest-0.2.8.tar.gz
+[2024-05-22 07:56:15] INFO root fetch - processPackages [liveramp-automation]: executing diffoscope
+[2024-05-22 07:56:15] INFO root fetch - processPackages [liveramp-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation-1.4.3.tar.gz tmp/liveramp_automation-1.4.4.tar.gz --markdown 20240522/l/liveramp-automation/1.4.3-1.4.4/README.md --exclude *.pyd
+[2024-05-22 07:56:15] INFO root fetch - processPackages [loopquest]: executing diffoscope
+[2024-05-22 07:56:15] INFO root fetch - processPackages [loopquest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loopquest-0.2.7.tar.gz tmp/loopquest-0.2.8.tar.gz --markdown 20240522/l/loopquest/0.2.7-0.2.8/README.md --exclude *.pyd
+[2024-05-22 07:56:15] INFO root fetch - processPackages [elements]: Remove: archive file [/home/abi/fetcher/tmp/elements-3.6.0.tar.gz]
+[2024-05-22 07:56:15] INFO root fetch - processPackages [elements]: Remove: archive file [/home/abi/fetcher/tmp/elements-3.6.1.tar.gz]
+[2024-05-22 07:56:15] INFO root fetch - main [MainThread]: End processing [elements]: success
+[2024-05-22 07:56:15] INFO root fetch - processPackages [loopquest]: Remove: archive file [/home/abi/fetcher/tmp/loopquest-0.2.7.tar.gz]
+[2024-05-22 07:56:15] INFO root fetch - processPackages [loopquest]: Remove: archive file [/home/abi/fetcher/tmp/loopquest-0.2.8.tar.gz]
+[2024-05-22 07:56:15] INFO root fetch - main [MainThread]: End processing [loopquest]: success
+[2024-05-22 07:56:15] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-1.4.3.tar.gz]
+[2024-05-22 07:56:15] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-1.4.4.tar.gz]
+[2024-05-22 07:56:15] INFO root fetch - main [MainThread]: End processing [liveramp-automation]: success
+[2024-05-22 07:56:15] INFO root fetch - main [MainThread]: Store serial: [23319359]

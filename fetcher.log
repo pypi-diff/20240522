@@ -7813,3 +7813,33 @@
 [2024-05-22 03:46:06] INFO root fetch - processPackages [python-version-manager]: Remove: archive file [/home/abi/fetcher/tmp/python_version_manager-2024.5.tar.gz]
 [2024-05-22 03:46:06] INFO root fetch - main [MainThread]: End processing [python-version-manager]: success
 [2024-05-22 03:46:06] INFO root fetch - main [MainThread]: Store serial: [23317311]
+[2024-05-22 03:48:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317311]
+[2024-05-22 03:48:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 03:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyodide-build
+[2024-05-22 03:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyodide-py
+[2024-05-22 03:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: saritasa-invocations
+[2024-05-22 03:48:14] INFO root fetch - processPackages [pyodide-build]: New version: [0.26.0a5] Old Version: [0.26.0a4]
+[2024-05-22 03:48:14] INFO root fetch - processPackages [pyodide-py]: New version: [0.26.0a5] Old Version: [0.26.0a4]
+[2024-05-22 03:48:15] INFO root fetch - processPackages [saritasa-invocations]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-22 03:48:15] INFO root fetch - processPackages [pyodide-build]: Downloading https://files.pythonhosted.org/packages/b8/28/1133b6bba6b899e3dba1e77c661ca169dd920e35c59b0aa47c8f4c6caff9/pyodide-build-0.26.0a4.tar.gz
+[2024-05-22 03:48:15] INFO root fetch - processPackages [pyodide-py]: Downloading https://files.pythonhosted.org/packages/18/be/c7c7c37b050b0dbdd324ff996dbecb0f8de76130e046f8271f42d78c17db/pyodide-py-0.26.0a4.tar.gz
+[2024-05-22 03:48:15] INFO root fetch - processPackages [saritasa-invocations]: Downloading https://files.pythonhosted.org/packages/e9/d0/6f8bec921c567fb64ae14e08af33d17f9e9108b47a112d8b22f80296bb58/saritasa_invocations-1.1.0.tar.gz
+[2024-05-22 03:48:15] INFO root fetch - processPackages [pyodide-py]: Downloading https://files.pythonhosted.org/packages/d6/34/c64a3d64ed43c09b65f261fe62e9d2fc7fcd9962410b4de457b44074609b/pyodide_py-0.26.0a5.tar.gz
+[2024-05-22 03:48:15] INFO root fetch - processPackages [pyodide-build]: Downloading https://files.pythonhosted.org/packages/05/9d/30abfd1316b95f2a2f2dae51f142b456b7b22eee7f2d27f8b8d22f90e8de/pyodide_build-0.26.0a5.tar.gz
+[2024-05-22 03:48:15] INFO root fetch - processPackages [pyodide-py]: executing diffoscope
+[2024-05-22 03:48:15] INFO root fetch - processPackages [pyodide-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodide-py-0.26.0a4.tar.gz tmp/pyodide_py-0.26.0a5.tar.gz --markdown 20240522/p/pyodide-py/0.26.0a4-0.26.0a5/README.md --exclude *.pyd
+[2024-05-22 03:48:15] INFO root fetch - processPackages [pyodide-build]: executing diffoscope
+[2024-05-22 03:48:15] INFO root fetch - processPackages [pyodide-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyodide-build-0.26.0a4.tar.gz tmp/pyodide_build-0.26.0a5.tar.gz --markdown 20240522/p/pyodide-build/0.26.0a4-0.26.0a5/README.md --exclude *.pyd
+[2024-05-22 03:48:15] INFO root fetch - processPackages [saritasa-invocations]: Downloading https://files.pythonhosted.org/packages/94/f6/87b37e8184365dd8285b24b654814f0362a8c745d2cd6c6e63bbd49348e4/saritasa_invocations-1.1.1.tar.gz
+[2024-05-22 03:48:15] INFO root fetch - processPackages [saritasa-invocations]: executing diffoscope
+[2024-05-22 03:48:15] INFO root fetch - processPackages [saritasa-invocations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saritasa_invocations-1.1.0.tar.gz tmp/saritasa_invocations-1.1.1.tar.gz --markdown 20240522/s/saritasa-invocations/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-22 03:48:16] INFO root fetch - processPackages [pyodide-py]: Remove: archive file [/home/abi/fetcher/tmp/pyodide-py-0.26.0a4.tar.gz]
+[2024-05-22 03:48:16] INFO root fetch - processPackages [pyodide-py]: Remove: archive file [/home/abi/fetcher/tmp/pyodide_py-0.26.0a5.tar.gz]
+[2024-05-22 03:48:16] INFO root fetch - main [MainThread]: End processing [pyodide-py]: success
+[2024-05-22 03:48:16] INFO root fetch - processPackages [pyodide-build]: Remove: archive file [/home/abi/fetcher/tmp/pyodide-build-0.26.0a4.tar.gz]
+[2024-05-22 03:48:16] INFO root fetch - processPackages [pyodide-build]: Remove: archive file [/home/abi/fetcher/tmp/pyodide_build-0.26.0a5.tar.gz]
+[2024-05-22 03:48:16] INFO root fetch - main [MainThread]: End processing [pyodide-build]: success
+[2024-05-22 03:48:16] INFO root fetch - processPackages [saritasa-invocations]: Remove: archive file [/home/abi/fetcher/tmp/saritasa_invocations-1.1.0.tar.gz]
+[2024-05-22 03:48:16] INFO root fetch - processPackages [saritasa-invocations]: Remove: archive file [/home/abi/fetcher/tmp/saritasa_invocations-1.1.1.tar.gz]
+[2024-05-22 03:48:16] INFO root fetch - main [MainThread]: End processing [saritasa-invocations]: success
+[2024-05-22 03:48:16] INFO root fetch - main [MainThread]: Store serial: [23317321]

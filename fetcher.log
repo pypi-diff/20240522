@@ -21852,3 +21852,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 13:48:47] INFO root fetch - processPackages [docusign-esign]: Remove: archive file [/home/abi/fetcher/tmp/docusign-esign-4.0.0rc1.tar.gz]
 [2024-05-22 13:48:47] INFO root fetch - main [MainThread]: End processing [docusign-esign]: success
 [2024-05-22 13:48:47] INFO root fetch - main [MainThread]: Store serial: [23323396]
+[2024-05-22 13:50:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323396]
+[2024-05-22 13:50:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 13:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beaker-kernel
+[2024-05-22 13:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polarmints
+[2024-05-22 13:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: netbox-device-support-plugin
+[2024-05-22 13:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Aruna-Python-API
+[2024-05-22 13:50:59] INFO root fetch - processPackages [Aruna-Python-API]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2024-05-22 13:50:59] INFO root fetch - processPackages [netbox-device-support-plugin]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-22 13:50:59] INFO root fetch - processPackages [Aruna-Python-API]: Downloading https://files.pythonhosted.org/packages/f0/06/cc4c0492ce8a371e2e7a16d1ff8f01332b78b5621b7a187403ededd72f4b/Aruna-Python-API-2.0.0b8.tar.gz
+[2024-05-22 13:50:59] INFO root fetch - processPackages [beaker-kernel]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-05-22 13:50:59] INFO root fetch - processPackages [netbox-device-support-plugin]: Downloading https://files.pythonhosted.org/packages/e1/01/0d131066075737281f608ea009283c0962197b383af82d6b134ca30e9cae/netbox_device_support_plugin-1.0.1.tar.gz
+[2024-05-22 13:50:59] INFO root fetch - processPackages [polarmints]: New version: [0.1.9] Old Version: [0.1.8rc0]
+[2024-05-22 13:50:59] INFO root fetch - processPackages [Aruna-Python-API]: Downloading https://files.pythonhosted.org/packages/f1/c1/f2f3a4c5a9b1b0748c6b0b0b2538777a60c0b6d12c2dc2a24d9230c8a1d1/Aruna-Python-API-2.0.0b9.tar.gz
+[2024-05-22 13:50:59] INFO root fetch - processPackages [netbox-device-support-plugin]: Downloading https://files.pythonhosted.org/packages/34/97/5b9f15713c36074d053eb8ceb03c5cf95b651b2e7a386a99b60dbf6b87bf/netbox_device_support_plugin-1.0.2.tar.gz
+[2024-05-22 13:50:59] INFO root fetch - processPackages [beaker-kernel]: Downloading https://files.pythonhosted.org/packages/d8/fe/e138438fea6ef6e6e1b37496c7c92210e466ab4cec539f2e1159d2f4f0e0/beaker_kernel-1.5.2.tar.gz
+[2024-05-22 13:50:59] INFO root fetch - processPackages [polarmints]: Downloading https://files.pythonhosted.org/packages/a3/75/ab0d055eb2a559452c254d4127e273975a4de0b11b8c8480888f93029e00/polarmints-0.1.8rc0.tar.gz
+[2024-05-22 13:50:59] INFO root fetch - processPackages [netbox-device-support-plugin]: executing diffoscope
+[2024-05-22 13:50:59] INFO root fetch - processPackages [netbox-device-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_device_support_plugin-1.0.1.tar.gz tmp/netbox_device_support_plugin-1.0.2.tar.gz --markdown 20240522/n/netbox-device-support-plugin/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-22 13:50:59] INFO root fetch - processPackages [Aruna-Python-API]: executing diffoscope
+[2024-05-22 13:50:59] INFO root fetch - processPackages [Aruna-Python-API]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Aruna-Python-API-2.0.0b8.tar.gz tmp/Aruna-Python-API-2.0.0b9.tar.gz --markdown 20240522/A/Aruna-Python-API/2.0.0b8-2.0.0b9/README.md --exclude *.pyd
+[2024-05-22 13:50:59] INFO root fetch - processPackages [polarmints]: Downloading https://files.pythonhosted.org/packages/5a/d2/449df655d22ba9e6a43a351279766abe770cbc011dc48cd6266ea488d88b/polarmints-0.1.9.tar.gz
+[2024-05-22 13:51:00] INFO root fetch - processPackages [polarmints]: executing diffoscope
+[2024-05-22 13:51:00] INFO root fetch - processPackages [polarmints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polarmints-0.1.8rc0.tar.gz tmp/polarmints-0.1.9.tar.gz --markdown 20240522/p/polarmints/0.1.8rc0-0.1.9/README.md --exclude *.pyd
+[2024-05-22 13:51:00] INFO root fetch - processPackages [netbox-device-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_device_support_plugin-1.0.1.tar.gz]
+[2024-05-22 13:51:00] INFO root fetch - processPackages [netbox-device-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_device_support_plugin-1.0.2.tar.gz]
+[2024-05-22 13:51:00] INFO root fetch - main [MainThread]: End processing [netbox-device-support-plugin]: success
+[2024-05-22 13:51:00] INFO root fetch - processPackages [beaker-kernel]: Downloading https://files.pythonhosted.org/packages/0c/c7/a39c1c437dfd43a6cc32b0c937a790db4a4aac2f9051f7660c7a987d6452/beaker_kernel-1.5.3.tar.gz
+[2024-05-22 13:51:00] INFO root fetch - processPackages [polarmints]: Remove: archive file [/home/abi/fetcher/tmp/polarmints-0.1.8rc0.tar.gz]
+[2024-05-22 13:51:00] INFO root fetch - processPackages [polarmints]: Remove: archive file [/home/abi/fetcher/tmp/polarmints-0.1.9.tar.gz]
+[2024-05-22 13:51:00] INFO root fetch - main [MainThread]: End processing [polarmints]: success
+[2024-05-22 13:51:00] INFO root fetch - processPackages [Aruna-Python-API]: Remove: archive file [/home/abi/fetcher/tmp/Aruna-Python-API-2.0.0b8.tar.gz]
+[2024-05-22 13:51:00] INFO root fetch - processPackages [Aruna-Python-API]: Remove: archive file [/home/abi/fetcher/tmp/Aruna-Python-API-2.0.0b9.tar.gz]
+[2024-05-22 13:51:00] INFO root fetch - main [MainThread]: End processing [Aruna-Python-API]: success
+[2024-05-22 13:51:00] INFO root fetch - processPackages [beaker-kernel]: executing diffoscope
+[2024-05-22 13:51:00] INFO root fetch - processPackages [beaker-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beaker_kernel-1.5.2.tar.gz tmp/beaker_kernel-1.5.3.tar.gz --markdown 20240522/b/beaker-kernel/1.5.2-1.5.3/README.md --exclude *.pyd
+[2024-05-22 13:51:02] INFO root fetch - processPackages [beaker-kernel]: Remove: archive file [/home/abi/fetcher/tmp/beaker_kernel-1.5.2.tar.gz]
+[2024-05-22 13:51:02] INFO root fetch - processPackages [beaker-kernel]: Remove: archive file [/home/abi/fetcher/tmp/beaker_kernel-1.5.3.tar.gz]
+[2024-05-22 13:51:02] INFO root fetch - main [MainThread]: End processing [beaker-kernel]: success
+[2024-05-22 13:51:02] INFO root fetch - main [MainThread]: Store serial: [23323408]

@@ -9999,3 +9999,96 @@
 [2024-05-22 05:28:44] INFO root fetch - processPackages [bugbug]: Remove: archive file [/home/abi/fetcher/tmp/bugbug-0.0.99.tar.gz]
 [2024-05-22 05:28:44] INFO root fetch - main [MainThread]: End processing [bugbug]: success
 [2024-05-22 05:28:44] INFO root fetch - main [MainThread]: Store serial: [23318257]
+[2024-05-22 05:30:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318257]
+[2024-05-22 05:30:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-22 05:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kimm
+[2024-05-22 05:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mllm
+[2024-05-22 05:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-base-phone
+[2024-05-22 05:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alamos
+[2024-05-22 05:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: synnax-freighter
+[2024-05-22 05:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: duwi-smarthome-sdk-dev
+[2024-05-22 05:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: konfuzio-sdk
+[2024-05-22 05:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: formant
+[2024-05-22 05:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reywechat
+[2024-05-22 05:30:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: synnax
+[2024-05-22 05:30:53] INFO root fetch - processPackages [mllm]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-22 05:30:53] INFO root fetch - processPackages [synnax]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-22 05:30:53] INFO root fetch - processPackages [alamos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-22 05:30:53] INFO root fetch - processPackages [synnax-freighter]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-22 05:30:53] INFO root fetch - processPackages [formant]: New version: [1.99.25] Old Version: [1.99.10]
+[2024-05-22 05:30:53] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-05-22 05:30:53] INFO root fetch - processPackages [kimm]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-22 05:30:53] INFO root fetch - processPackages [odoo-addon-base-phone]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.6]
+[2024-05-22 05:30:53] INFO root fetch - processPackages [reywechat]: New version: [0.99] Old Version: [0.98]
+[2024-05-22 05:30:53] INFO root fetch - processPackages [mllm]: Downloading https://files.pythonhosted.org/packages/f2/44/5b779aa7a3ecad5f51567a8f135aca9219f10bbe5e0ccac8b509ab2b65d7/mllm-0.1.7.tar.gz
+[2024-05-22 05:30:53] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.3.7.dev20240521215914] Old Version: [0.3.7.dev20240519170724]
+[2024-05-22 05:30:53] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/89/a1/f0d76d0706e47ba3dcdbf0fe8c7b2e90c98bd073d40a3c4c7c1c1025aab8/synnax-0.8.0.tar.gz
+[2024-05-22 05:30:53] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c5/2b/b12c4308c7fb396e018ffbe6ec0f046170906ae98b188985b537619e0f55/alamos-0.3.8.tar.gz
+[2024-05-22 05:30:53] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/73/49/ce9ba5821f001d820fe348eef14ea631c0d54f20289c0aa2458ec4b14c23/synnax_freighter-0.7.8.tar.gz
+[2024-05-22 05:30:53] INFO root fetch - processPackages [formant]: Downloading https://files.pythonhosted.org/packages/b4/ae/48e0e0cc421f59b739a0933ff541c564d705ba0f03ab53b6ad242e88d6dd/formant-1.99.10.tar.gz
+[2024-05-22 05:30:53] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/5a/00/990c2c462985fc15acc8b3d8b43bbcc5202cfe588fdd6b3afdf1cc3533ff/duwi_smarthome_sdk_dev-0.0.2.tar.gz
+[2024-05-22 05:30:53] INFO root fetch - processPackages [kimm]: Downloading https://files.pythonhosted.org/packages/11/12/051c742f7d202c33b77e05d88367e5d281ccf358bd4a3674ea8d190b9ee2/kimm-0.2.0.tar.gz
+[2024-05-22 05:30:53] INFO root fetch - processPackages [reywechat]: Downloading https://files.pythonhosted.org/packages/ff/2e/b9a5994a24193c61496f355cbbb5c1bb44f429935c006ce1efd4911a0a6f/reywechat-0.98-py3-none-any.whl
+[2024-05-22 05:30:53] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/69/98/450d22af925898f4900a697c7c3d660b46b15967c2ff1dd824aa722cab92/konfuzio_sdk-0.3.7.dev20240519170724.tar.gz
+[2024-05-22 05:30:53] INFO root fetch - processPackages [mllm]: Downloading https://files.pythonhosted.org/packages/dc/ad/0e1a9c70b058ad0a588c5bde67c28d26111389c945bd5153deb0b3a64a46/mllm-0.1.8.tar.gz
+[2024-05-22 05:30:53] INFO root fetch - processPackages [odoo-addon-base-phone]: Downloading https://files.pythonhosted.org/packages/4c/84/f3dabe9e605b1dcad10190c89ca87638bc7106f4a0fa99aac2b60ab27153/odoo_addon_base_phone-17.0.1.0.0.6-py3-none-any.whl
+[2024-05-22 05:30:53] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c1/08/cf40db715e810dc50be82dd822b41aefe7a4903f73ac57533c85bc63cf9d/alamos-0.3.9.tar.gz
+[2024-05-22 05:30:53] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/b3/bc/76e9b03b96c7ab72f4b39e5e03c396b86efd6fb650bedcff8a7118679e9b/synnax-0.9.0.tar.gz
+[2024-05-22 05:30:53] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/fa/ba/9098a994969c4ac9fa5a1d947ac5ede1ea8e8cf5d2b40c82db732fd56bad/synnax_freighter-0.7.9.tar.gz
+[2024-05-22 05:30:53] INFO root fetch - processPackages [mllm]: executing diffoscope
+[2024-05-22 05:30:53] INFO root fetch - processPackages [mllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mllm-0.1.7.tar.gz tmp/mllm-0.1.8.tar.gz --markdown 20240522/m/mllm/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-22 05:30:53] INFO root fetch - processPackages [formant]: Downloading https://files.pythonhosted.org/packages/0f/87/d41a560174ff1aede53afa1480b906376d1d5d3f7263147c18f90dda6c0f/formant-1.99.25.tar.gz
+[2024-05-22 05:30:54] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-05-22 05:30:54] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.7.8.tar.gz tmp/synnax_freighter-0.7.9.tar.gz --markdown 20240522/s/synnax-freighter/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-22 05:30:54] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-05-22 05:30:54] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.8.tar.gz tmp/alamos-0.3.9.tar.gz --markdown 20240522/a/alamos/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-22 05:30:54] INFO root fetch - processPackages [synnax]: executing diffoscope
+[2024-05-22 05:30:54] INFO root fetch - processPackages [synnax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax-0.8.0.tar.gz tmp/synnax-0.9.0.tar.gz --markdown 20240522/s/synnax/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-22 05:30:54] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/b3/c3/13d096e8c84ba7b533a7d12aa76c66250cc8825c4e81e5f42196b5223260/duwi_smarthome_sdk_dev-0.0.4.tar.gz
+[2024-05-22 05:30:54] INFO root fetch - processPackages [formant]: executing diffoscope
+[2024-05-22 05:30:54] INFO root fetch - processPackages [formant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formant-1.99.10.tar.gz tmp/formant-1.99.25.tar.gz --markdown 20240522/f/formant/1.99.10-1.99.25/README.md --exclude *.pyd
+[2024-05-22 05:30:54] INFO root fetch - processPackages [kimm]: Downloading https://files.pythonhosted.org/packages/a8/dd/4bb099101f1774d40e8dd29e784d05f1851c401944a1bdc808896942a36f/kimm-0.2.1.tar.gz
+[2024-05-22 05:30:54] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/9a/92/09c4645de0d4a3e3c33913ef9c80774d6b2a735a1d094d13ff6509c0c052/konfuzio_sdk-0.3.7.dev20240521215914.tar.gz
+[2024-05-22 05:30:54] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: executing diffoscope
+[2024-05-22 05:30:54] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smarthome_sdk_dev-0.0.2.tar.gz tmp/duwi_smarthome_sdk_dev-0.0.4.tar.gz --markdown 20240522/d/duwi-smarthome-sdk-dev/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-05-22 05:30:54] INFO root fetch - processPackages [reywechat]: Downloading https://files.pythonhosted.org/packages/89/a9/4e20bd7b05b936fabff8d9ba6f694c9652145c4dec3c161120ce57a6494b/reywechat-0.99-py3-none-any.whl
+[2024-05-22 05:30:54] INFO root fetch - processPackages [odoo-addon-base-phone]: Downloading https://files.pythonhosted.org/packages/03/21/4b383bde3ec637cf122064c25ad000eb06736998a8924e54b3694ebcb0c5/odoo_addon_base_phone-17.0.1.0.1-py3-none-any.whl
+[2024-05-22 05:30:54] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2024-05-22 05:30:54] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.3.7.dev20240519170724.tar.gz tmp/konfuzio_sdk-0.3.7.dev20240521215914.tar.gz --markdown 20240522/k/konfuzio-sdk/0.3.7.dev20240519170724-0.3.7.dev20240521215914/README.md --exclude *.pyd
+[2024-05-22 05:30:54] INFO root fetch - processPackages [kimm]: executing diffoscope
+[2024-05-22 05:30:54] INFO root fetch - processPackages [kimm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kimm-0.2.0.tar.gz tmp/kimm-0.2.1.tar.gz --markdown 20240522/k/kimm/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-22 05:30:54] INFO root fetch - processPackages [reywechat]: executing diffoscope
+[2024-05-22 05:30:54] INFO root fetch - processPackages [reywechat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reywechat-0.98-py3-none-any.whl.zip tmp/reywechat-0.99-py3-none-any.whl.zip --markdown 20240522/r/reywechat/0.98-0.99/README.md --exclude *.pyd
+[2024-05-22 05:30:54] INFO root fetch - processPackages [odoo-addon-base-phone]: executing diffoscope
+[2024-05-22 05:30:54] INFO root fetch - processPackages [odoo-addon-base-phone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_phone-17.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_base_phone-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-base-phone/17.0.1.0.0.6-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-22 05:30:54] INFO root fetch - processPackages [mllm]: Remove: archive file [/home/abi/fetcher/tmp/mllm-0.1.7.tar.gz]
+[2024-05-22 05:30:54] INFO root fetch - processPackages [mllm]: Remove: archive file [/home/abi/fetcher/tmp/mllm-0.1.8.tar.gz]
+[2024-05-22 05:30:54] INFO root fetch - main [MainThread]: End processing [mllm]: success
+[2024-05-22 05:30:55] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.8.tar.gz]
+[2024-05-22 05:30:55] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
+[2024-05-22 05:30:55] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-05-22 05:30:55] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.8.0.tar.gz]
+[2024-05-22 05:30:55] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
+[2024-05-22 05:30:55] INFO root fetch - main [MainThread]: End processing [synnax]: success
+[2024-05-22 05:30:55] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.8.tar.gz]
+[2024-05-22 05:30:55] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.9.tar.gz]
+[2024-05-22 05:30:55] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-05-22 05:30:55] INFO root fetch - processPackages [formant]: Remove: archive file [/home/abi/fetcher/tmp/formant-1.99.10.tar.gz]
+[2024-05-22 05:30:55] INFO root fetch - processPackages [formant]: Remove: archive file [/home/abi/fetcher/tmp/formant-1.99.25.tar.gz]
+[2024-05-22 05:30:55] INFO root fetch - main [MainThread]: End processing [formant]: success
+[2024-05-22 05:30:55] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.0.2.tar.gz]
+[2024-05-22 05:30:55] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.0.4.tar.gz]
+[2024-05-22 05:30:55] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk-dev]: success
+[2024-05-22 05:30:55] INFO root fetch - processPackages [reywechat]: Remove: archive file [/home/abi/fetcher/tmp/reywechat-0.98-py3-none-any.whl.zip]
+[2024-05-22 05:30:55] INFO root fetch - processPackages [reywechat]: Remove: archive file [/home/abi/fetcher/tmp/reywechat-0.99-py3-none-any.whl.zip]
+[2024-05-22 05:30:55] INFO root fetch - main [MainThread]: End processing [reywechat]: success
+[2024-05-22 05:30:55] INFO root fetch - processPackages [odoo-addon-base-phone]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_phone-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-22 05:30:55] INFO root fetch - processPackages [odoo-addon-base-phone]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_phone-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-22 05:30:55] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-phone]: success
+[2024-05-22 05:30:55] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.7.dev20240519170724.tar.gz]
+[2024-05-22 05:30:55] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.3.7.dev20240521215914.tar.gz]
+[2024-05-22 05:30:55] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2024-05-22 05:30:55] INFO root fetch - processPackages [kimm]: Remove: archive file [/home/abi/fetcher/tmp/kimm-0.2.0.tar.gz]
+[2024-05-22 05:30:55] INFO root fetch - processPackages [kimm]: Remove: archive file [/home/abi/fetcher/tmp/kimm-0.2.1.tar.gz]
+[2024-05-22 05:30:55] INFO root fetch - main [MainThread]: End processing [kimm]: success
+[2024-05-22 05:30:55] INFO root fetch - main [MainThread]: Store serial: [23318287]

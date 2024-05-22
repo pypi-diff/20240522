@@ -19926,3 +19926,71 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:37:35] INFO root fetch - processPackages [sequali]: Remove: archive file [/home/abi/fetcher/tmp/sequali-0.9.1-cp39-cp39-macosx_11_0_arm64.whl.zip]
 [2024-05-22 12:37:35] INFO root fetch - main [MainThread]: End processing [sequali]: success
 [2024-05-22 12:37:35] INFO root fetch - main [MainThread]: Store serial: [23322504]
+[2024-05-22 12:39:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322504]
+[2024-05-22 12:39:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-22 12:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tcrutils
+[2024-05-22 12:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypercrawl
+[2024-05-22 12:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataloader-gyqk
+[2024-05-22 12:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airbyte-source-pokeapi
+[2024-05-22 12:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skypilot-nightly
+[2024-05-22 12:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymemgpt-nightly
+[2024-05-22 12:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: exasol-saas-api
+[2024-05-22 12:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wwpdb.apps.chem-ref-data
+[2024-05-22 12:39:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hikyuu
+[2024-05-22 12:39:44] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240521] Old Version: [1.0.0.dev20240520]
+[2024-05-22 12:39:44] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.9.dev20240412103904] Old Version: [0.3.9.dev20240411103902]
+[2024-05-22 12:39:44] INFO root fetch - processPackages [airbyte-source-pokeapi]: New version: [0.2.1.dev202405221009] Old Version: [0.2.1.dev202405211431]
+[2024-05-22 12:39:44] INFO root fetch - processPackages [tcrutils]: New version: [12.0.171] Old Version: [12.0.170]
+[2024-05-22 12:39:44] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/a9/3e/1f75fe196610b2d284ff6756f5d9da15ad3ac80d2018f4f9dfbede131307/skypilot_nightly-1.0.0.dev20240520.tar.gz
+[2024-05-22 12:39:44] WARNING root fetch - processPackages [dataloader-gyqk]: Skipping, unable to determine old version
+[2024-05-22 12:39:44] INFO root fetch - main [MainThread]: End processing [dataloader-gyqk] error
+[2024-05-22 12:39:44] WARNING root fetch - processPackages [hypercrawl]: Skipping, unable to determine old version
+[2024-05-22 12:39:44] INFO root fetch - main [MainThread]: End processing [hypercrawl] error
+[2024-05-22 12:39:44] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/28/e7/e8c0c970c21e3670e810627cef085bbbbac1f9e994540354838d7781a0ac/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz
+[2024-05-22 12:39:45] INFO root fetch - processPackages [wwpdb.apps.chem-ref-data]: New version: [0.22.2] Old Version: [0.22.1]
+[2024-05-22 12:39:45] INFO root fetch - processPackages [airbyte-source-pokeapi]: Downloading https://files.pythonhosted.org/packages/3e/a7/0d642f2235ca9a68fd8ceeb505065a4e8be51c1d7425efcee1bd8524a9b9/airbyte_source_pokeapi-0.2.1.dev202405211431.tar.gz
+[2024-05-22 12:39:45] INFO root fetch - processPackages [tcrutils]: Downloading https://files.pythonhosted.org/packages/6c/d5/bcfb864fa137b3685a6d2a5fd8cbf0998e367119f42de88f404b2acc86a6/tcrutils-12.0.170.tar.gz
+[2024-05-22 12:39:45] INFO root fetch - processPackages [hikyuu]: New version: [2.0.8] Old Version: [2.0.7]
+[2024-05-22 12:39:45] INFO root fetch - processPackages [exasol-saas-api]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-22 12:39:45] INFO root fetch - processPackages [wwpdb.apps.chem-ref-data]: Downloading https://files.pythonhosted.org/packages/4b/14/3bacc89092c293794e4a7d18b542b98265483814d8f880b22396e50ccf62/wwpdb.apps.chem_ref_data-0.22.1.tar.gz
+[2024-05-22 12:39:45] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/50/4a/4c9c1fb70a7ee971f3c8697cc6dedb251e3b10cafdd23be4d035ece0f2ec/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz
+[2024-05-22 12:39:45] INFO root fetch - processPackages [airbyte-source-pokeapi]: Downloading https://files.pythonhosted.org/packages/da/13/f9b4e831279614d1f39c88a4dbadd54f870a8561c13ad7f7f81570ff413e/airbyte_source_pokeapi-0.2.1.dev202405221009.tar.gz
+[2024-05-22 12:39:45] INFO root fetch - processPackages [hikyuu]: Downloading https://files.pythonhosted.org/packages/6b/43/53da44d5084f8b3d7f547c6a818fb88a0e8fa913341bd7cce798f314173e/hikyuu-2.0.7-cp39-none-win_amd64.whl
+[2024-05-22 12:39:45] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/75/59/6506496ede5830174cb27fec723a4987dd82a833d194ce37e75f8a103630/skypilot_nightly-1.0.0.dev20240521.tar.gz
+[2024-05-22 12:39:45] INFO root fetch - processPackages [tcrutils]: Downloading https://files.pythonhosted.org/packages/8f/fc/0d0cfa04de59f33cee7387f522dfe06397b49db1257a9a19fda23165ad2b/tcrutils-12.0.171.tar.gz
+[2024-05-22 12:39:45] INFO root fetch - processPackages [exasol-saas-api]: Downloading https://files.pythonhosted.org/packages/c0/fc/54ad6783b947f48c360df10fe64299423ae1c1fd30eca58b9137138608e5/exasol_saas_api-0.5.0.tar.gz
+[2024-05-22 12:39:45] INFO root fetch - processPackages [airbyte-source-pokeapi]: executing diffoscope
+[2024-05-22 12:39:45] INFO root fetch - processPackages [airbyte-source-pokeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_pokeapi-0.2.1.dev202405211431.tar.gz tmp/airbyte_source_pokeapi-0.2.1.dev202405221009.tar.gz --markdown 20240522/a/airbyte-source-pokeapi/0.2.1.dev202405211431-0.2.1.dev202405221009/README.md --exclude *.pyd
+[2024-05-22 12:39:45] WARNING root fetch - processPackages [hikyuu]: Skipping package: exceeds size limit 15668021>=10485760
+[2024-05-22 12:39:45] INFO root fetch - main [MainThread]: End processing [hikyuu] error
+[2024-05-22 12:39:45] INFO root fetch - processPackages [tcrutils]: executing diffoscope
+[2024-05-22 12:39:45] INFO root fetch - processPackages [tcrutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcrutils-12.0.170.tar.gz tmp/tcrutils-12.0.171.tar.gz --markdown 20240522/t/tcrutils/12.0.170-12.0.171/README.md --exclude *.pyd
+[2024-05-22 12:39:45] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-05-22 12:39:45] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz --markdown 20240522/p/pymemgpt-nightly/0.3.9.dev20240411103902-0.3.9.dev20240412103904/README.md --exclude *.pyd
+[2024-05-22 12:39:45] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-05-22 12:39:45] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot_nightly-1.0.0.dev20240520.tar.gz tmp/skypilot_nightly-1.0.0.dev20240521.tar.gz --markdown 20240522/s/skypilot-nightly/1.0.0.dev20240520-1.0.0.dev20240521/README.md --exclude *.pyd
+[2024-05-22 12:39:45] INFO root fetch - processPackages [wwpdb.apps.chem-ref-data]: Downloading https://files.pythonhosted.org/packages/db/da/f6ea91ba59737ea38a310f02b8620022ecb02e338fe87b26811e033f52c2/wwpdb_apps_chem_ref_data-0.22.2.tar.gz
+[2024-05-22 12:39:45] INFO root fetch - processPackages [exasol-saas-api]: Downloading https://files.pythonhosted.org/packages/4a/2a/4251c2b1000b0f9d5a934e09ba95ae8b2e9e69697d55b7d2b6be54ca0773/exasol_saas_api-0.6.0.tar.gz
+[2024-05-22 12:39:45] INFO root fetch - processPackages [wwpdb.apps.chem-ref-data]: executing diffoscope
+[2024-05-22 12:39:45] INFO root fetch - processPackages [wwpdb.apps.chem-ref-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwpdb.apps.chem_ref_data-0.22.1.tar.gz tmp/wwpdb_apps_chem_ref_data-0.22.2.tar.gz --markdown 20240522/w/wwpdb.apps.chem-ref-data/0.22.1-0.22.2/README.md --exclude *.pyd
+[2024-05-22 12:39:45] INFO root fetch - processPackages [exasol-saas-api]: executing diffoscope
+[2024-05-22 12:39:45] INFO root fetch - processPackages [exasol-saas-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exasol_saas_api-0.5.0.tar.gz tmp/exasol_saas_api-0.6.0.tar.gz --markdown 20240522/e/exasol-saas-api/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-22 12:39:46] INFO root fetch - processPackages [airbyte-source-pokeapi]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_pokeapi-0.2.1.dev202405211431.tar.gz]
+[2024-05-22 12:39:46] INFO root fetch - processPackages [airbyte-source-pokeapi]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_pokeapi-0.2.1.dev202405221009.tar.gz]
+[2024-05-22 12:39:46] INFO root fetch - main [MainThread]: End processing [airbyte-source-pokeapi]: success
+[2024-05-22 12:39:46] INFO root fetch - processPackages [tcrutils]: Remove: archive file [/home/abi/fetcher/tmp/tcrutils-12.0.170.tar.gz]
+[2024-05-22 12:39:46] INFO root fetch - processPackages [tcrutils]: Remove: archive file [/home/abi/fetcher/tmp/tcrutils-12.0.171.tar.gz]
+[2024-05-22 12:39:46] INFO root fetch - main [MainThread]: End processing [tcrutils]: success
+[2024-05-22 12:39:46] INFO root fetch - processPackages [wwpdb.apps.chem-ref-data]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb.apps.chem_ref_data-0.22.1.tar.gz]
+[2024-05-22 12:39:46] INFO root fetch - processPackages [wwpdb.apps.chem-ref-data]: Remove: archive file [/home/abi/fetcher/tmp/wwpdb_apps_chem_ref_data-0.22.2.tar.gz]
+[2024-05-22 12:39:46] INFO root fetch - main [MainThread]: End processing [wwpdb.apps.chem-ref-data]: success
+[2024-05-22 12:39:46] INFO root fetch - processPackages [exasol-saas-api]: Remove: archive file [/home/abi/fetcher/tmp/exasol_saas_api-0.5.0.tar.gz]
+[2024-05-22 12:39:46] INFO root fetch - processPackages [exasol-saas-api]: Remove: archive file [/home/abi/fetcher/tmp/exasol_saas_api-0.6.0.tar.gz]
+[2024-05-22 12:39:46] INFO root fetch - main [MainThread]: End processing [exasol-saas-api]: success
+[2024-05-22 12:39:47] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240411103902.tar.gz]
+[2024-05-22 12:39:47] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.9.dev20240412103904.tar.gz]
+[2024-05-22 12:39:47] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-05-22 12:39:47] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240520.tar.gz]
+[2024-05-22 12:39:47] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot_nightly-1.0.0.dev20240521.tar.gz]
+[2024-05-22 12:39:47] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-05-22 12:39:47] INFO root fetch - main [MainThread]: Store serial: [23322549]

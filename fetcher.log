@@ -23190,3 +23190,125 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 14:39:03] INFO root fetch - processPackages [nostr-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nostr_sdk-0.9.1-cp39-cp39-win_amd64.whl.zip]
 [2024-05-22 14:39:03] INFO root fetch - main [MainThread]: End processing [nostr-sdk]: success
 [2024-05-22 14:39:03] INFO root fetch - main [MainThread]: Store serial: [23324070]
+[2024-05-22 14:41:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23324070]
+[2024-05-22 14:41:27] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-22 14:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EmLiLetter
+[2024-05-22 14:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MONSDA
+[2024-05-22 14:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onyxpm
+[2024-05-22 14:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odio
+[2024-05-22 14:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-smartbase-admin
+[2024-05-22 14:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: smartpredict
+[2024-05-22 14:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: oguzhan-gokcekoca-preprocessing
+[2024-05-22 14:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sosin
+[2024-05-22 14:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: libecalc
+[2024-05-22 14:41:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xray-disease-detector
+[2024-05-22 14:41:28] WARNING root fetch - processPackages [xray-disease-detector]: Skipping, unable to determine old version
+[2024-05-22 14:41:28] INFO root fetch - processPackages [xray-disease-detector]: Start processing: oxaigen
+[2024-05-22 14:41:28] INFO root fetch - main [MainThread]: End processing [xray-disease-detector] error
+[2024-05-22 14:41:28] INFO root fetch - processPackages [EmLiLetter]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-22 14:41:28] INFO root fetch - processPackages [smartpredict]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-05-22 14:41:28] INFO root fetch - processPackages [django-smartbase-admin]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-22 14:41:28] INFO root fetch - processPackages [oxaigen]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2024-05-22 14:41:28] INFO root fetch - processPackages [onyxpm]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 14:41:28] WARNING root fetch - processPackages [oguzhan-gokcekoca-preprocessing]: Skipping, unable to determine old version
+[2024-05-22 14:41:28] INFO root fetch - processPackages [oguzhan-gokcekoca-preprocessing]: Start processing: PyProfQueue
+[2024-05-22 14:41:28] INFO root fetch - main [MainThread]: End processing [oguzhan-gokcekoca-preprocessing] error
+[2024-05-22 14:41:28] INFO root fetch - processPackages [odio]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 14:41:28] INFO root fetch - processPackages [libecalc]: New version: [8.9.0] Old Version: [8.8.0]
+[2024-05-22 14:41:28] INFO root fetch - processPackages [MONSDA]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-22 14:41:28] INFO root fetch - processPackages [sosin]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-05-22 14:41:28] INFO root fetch - processPackages [oxaigen]: Downloading https://files.pythonhosted.org/packages/bd/39/72820026abd07f4535b1b133b93b84ce7f8c0c6738a73550f1c0821e99f6/oxaigen-0.0.0.2.tar.gz
+[2024-05-22 14:41:28] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/4c/b9/c32d7019547d76c2c6c1b8ea747b942212105b1c88767762bab1ac62f415/django_smartbase_admin-0.2.7.tar.gz
+[2024-05-22 14:41:28] INFO root fetch - processPackages [PyProfQueue]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-22 14:41:28] INFO root fetch - processPackages [EmLiLetter]: Downloading https://files.pythonhosted.org/packages/7b/c8/b088ab4044016bf5007666ea9e2cbd849e00f76e8e251dde4039a35e8731/EmLiLetter-0.0.2.tar.gz
+[2024-05-22 14:41:28] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/7b/1e/87628984abbd567110ad8fd92ff1fff33a06233b7cc2ee1ba9bafabcf3d0/smartpredict-0.6.7.tar.gz
+[2024-05-22 14:41:28] INFO root fetch - processPackages [onyxpm]: Downloading https://files.pythonhosted.org/packages/f1/0c/81d0e6ed92f60de210422eb5e5e5b2171aa940f4aefd5035a1b1fa6499d7/onyxpm-0.0.8.tar.gz
+[2024-05-22 14:41:28] INFO root fetch - processPackages [odio]: Downloading https://files.pythonhosted.org/packages/81/88/36b9e13c7e7b92850c5e040bfd1058c5ff4efb7bf49700b01a074209a804/odio-0.0.8.tar.gz
+[2024-05-22 14:41:28] INFO root fetch - processPackages [PyProfQueue]: Downloading https://files.pythonhosted.org/packages/a8/ac/2b76d6473e0ae0d29289da866a7d347d0dcfb97c01f78552607d68bbc23f/PyProfQueue-0.2.0.tar.gz
+[2024-05-22 14:41:28] INFO root fetch - processPackages [sosin]: Downloading https://files.pythonhosted.org/packages/7c/e5/2569574d9210413f88441d552d8e688cfb61a4f94fde1765692b2a04fa79/sosin-1.2.6.tar.gz
+[2024-05-22 14:41:28] INFO root fetch - processPackages [libecalc]: Downloading https://files.pythonhosted.org/packages/51/a2/8520612a4baf1a899fba5e8b0ee63b32bd73c2ba905fa5d3ae5fe2a1ed90/libecalc-8.8.0.tar.gz
+[2024-05-22 14:41:28] INFO root fetch - processPackages [oxaigen]: Downloading https://files.pythonhosted.org/packages/fd/9d/7a3efbef6093f9c218e5ffd3eba8cd4bdc9ef1abfdd11a6a78a99b02ff2a/oxaigen-0.0.0.3.tar.gz
+[2024-05-22 14:41:28] INFO root fetch - processPackages [MONSDA]: Downloading https://files.pythonhosted.org/packages/2a/c1/c90466762b6fcbfffbd07207c316b43415856fdaf9ce8c4f8ea404e3f0f9/monsda-1.2.5.tar.gz
+[2024-05-22 14:41:28] INFO root fetch - processPackages [EmLiLetter]: Downloading https://files.pythonhosted.org/packages/bb/cd/d4c220ad3120d047fca7ebe8ff00dfe35f6b49658f4e7e8d57fbc5373d12/EmLiLetter-0.0.3.tar.gz
+[2024-05-22 14:41:28] INFO root fetch - processPackages [onyxpm]: Downloading https://files.pythonhosted.org/packages/d9/25/f0ad33727a1da3f0a10cd50eeaa9ce63400e65a82b0808297792425482f3/onyxpm-0.0.9.tar.gz
+[2024-05-22 14:41:28] INFO root fetch - processPackages [PyProfQueue]: Downloading https://files.pythonhosted.org/packages/02/98/e703b954b897d3d00a734f15c528712385d4e136c194dc1665899e66004b/PyProfQueue-0.2.1.tar.gz
+[2024-05-22 14:41:28] WARNING root fetch - processPackages [libecalc]: Skipping package: exceeds size limit 28339411>=10485760
+[2024-05-22 14:41:28] INFO root fetch - processPackages [libecalc]: Start processing: tensorcircuit-nightly
+[2024-05-22 14:41:28] INFO root fetch - main [MainThread]: End processing [libecalc] error
+[2024-05-22 14:41:28] INFO root fetch - processPackages [oxaigen]: executing diffoscope
+[2024-05-22 14:41:28] INFO root fetch - processPackages [oxaigen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxaigen-0.0.0.2.tar.gz tmp/oxaigen-0.0.0.3.tar.gz --markdown 20240522/o/oxaigen/0.0.0.2-0.0.0.3/README.md --exclude *.pyd
+[2024-05-22 14:41:28] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/d1/50/cd86d982f0b068d26ea3b37008a74aaf61190918f0cc8a78945cc5bec44f/smartpredict-0.6.8.tar.gz
+[2024-05-22 14:41:28] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/63/1e/301c376a330a21311919a45d9762d7c6c5d2090546a3b0d3b0e36db1c986/django_smartbase_admin-0.2.9.tar.gz
+[2024-05-22 14:41:28] INFO root fetch - processPackages [EmLiLetter]: executing diffoscope
+[2024-05-22 14:41:28] INFO root fetch - processPackages [EmLiLetter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EmLiLetter-0.0.2.tar.gz tmp/EmLiLetter-0.0.3.tar.gz --markdown 20240522/E/EmLiLetter/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-22 14:41:28] INFO root fetch - processPackages [sosin]: Downloading https://files.pythonhosted.org/packages/96/c4/541d37210167205f6081732e5bc71634a52cefe64344973bcd37ddd4173f/sosin-1.2.7.tar.gz
+[2024-05-22 14:41:28] INFO root fetch - processPackages [onyxpm]: executing diffoscope
+[2024-05-22 14:41:28] INFO root fetch - processPackages [onyxpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onyxpm-0.0.8.tar.gz tmp/onyxpm-0.0.9.tar.gz --markdown 20240522/o/onyxpm/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 14:41:28] INFO root fetch - processPackages [odio]: Downloading https://files.pythonhosted.org/packages/0c/6b/74cb654c5793583dc530c027f9d8d8e23e6e34c5f48cccd93c5dec728289/odio-0.0.9.tar.gz
+[2024-05-22 14:41:28] INFO root fetch - processPackages [PyProfQueue]: executing diffoscope
+[2024-05-22 14:41:28] INFO root fetch - processPackages [PyProfQueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyProfQueue-0.2.0.tar.gz tmp/PyProfQueue-0.2.1.tar.gz --markdown 20240522/P/PyProfQueue/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-22 14:41:28] INFO root fetch - processPackages [smartpredict]: executing diffoscope
+[2024-05-22 14:41:28] INFO root fetch - processPackages [smartpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpredict-0.6.7.tar.gz tmp/smartpredict-0.6.8.tar.gz --markdown 20240522/s/smartpredict/0.6.7-0.6.8/README.md --exclude *.pyd
+[2024-05-22 14:41:29] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-05-22 14:41:29] INFO root fetch - processPackages [sosin]: executing diffoscope
+[2024-05-22 14:41:29] INFO root fetch - processPackages [sosin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosin-1.2.6.tar.gz tmp/sosin-1.2.7.tar.gz --markdown 20240522/s/sosin/1.2.6-1.2.7/README.md --exclude *.pyd
+[2024-05-22 14:41:29] INFO root fetch - processPackages [MONSDA]: Downloading https://files.pythonhosted.org/packages/f1/88/57c091474c45a695e70e9f9d66fcf9ff6c23d37a4b3c74ba28815d933cb7/monsda-1.2.6.tar.gz
+[2024-05-22 14:41:29] INFO root fetch - processPackages [django-smartbase-admin]: executing diffoscope
+[2024-05-22 14:41:29] INFO root fetch - processPackages [django-smartbase-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_smartbase_admin-0.2.7.tar.gz tmp/django_smartbase_admin-0.2.9.tar.gz --markdown 20240522/d/django-smartbase-admin/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-22 14:41:29] INFO root fetch - processPackages [odio]: executing diffoscope
+[2024-05-22 14:41:29] INFO root fetch - processPackages [odio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odio-0.0.8.tar.gz tmp/odio-0.0.9.tar.gz --markdown 20240522/o/odio/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 14:41:29] INFO root fetch - processPackages [MONSDA]: executing diffoscope
+[2024-05-22 14:41:29] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-05-22 14:41:29] INFO root fetch - processPackages [MONSDA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monsda-1.2.5.tar.gz tmp/monsda-1.2.6.tar.gz --markdown 20240522/M/MONSDA/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-22 14:41:29] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-05-22 14:41:30] INFO root fetch - processPackages [oxaigen]: Remove: archive file [/home/abi/fetcher/tmp/oxaigen-0.0.0.2.tar.gz]
+[2024-05-22 14:41:30] INFO root fetch - processPackages [oxaigen]: Remove: archive file [/home/abi/fetcher/tmp/oxaigen-0.0.0.3.tar.gz]
+[2024-05-22 14:41:30] INFO root fetch - processPackages [oxaigen]: Start processing: logger-tg
+[2024-05-22 14:41:30] INFO root fetch - main [MainThread]: End processing [oxaigen]: success
+[2024-05-22 14:41:30] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-05-22 14:41:30] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240522/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/README.md --exclude *.pyd
+[2024-05-22 14:41:30] INFO root fetch - processPackages [logger-tg]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-22 14:41:30] INFO root fetch - processPackages [EmLiLetter]: Remove: archive file [/home/abi/fetcher/tmp/EmLiLetter-0.0.2.tar.gz]
+[2024-05-22 14:41:30] INFO root fetch - processPackages [EmLiLetter]: Remove: archive file [/home/abi/fetcher/tmp/EmLiLetter-0.0.3.tar.gz]
+[2024-05-22 14:41:30] INFO root fetch - processPackages [EmLiLetter]: Start processing: NMODL-nightly
+[2024-05-22 14:41:30] INFO root fetch - main [MainThread]: End processing [EmLiLetter]: success
+[2024-05-22 14:41:30] INFO root fetch - processPackages [NMODL-nightly]: New version: [0.6.162] Old Version: [0.6.157]
+[2024-05-22 14:41:30] INFO root fetch - processPackages [logger-tg]: Downloading https://files.pythonhosted.org/packages/1b/f9/e0e113a027a49e280d533395fb2431b88c0503fab37ec610d6b4e1812aa2/logger-tg-0.1.7.tar.gz
+[2024-05-22 14:41:30] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.6.7.tar.gz]
+[2024-05-22 14:41:30] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.6.8.tar.gz]
+[2024-05-22 14:41:30] INFO root fetch - main [MainThread]: End processing [smartpredict]: success
+[2024-05-22 14:41:30] INFO root fetch - processPackages [odio]: Remove: archive file [/home/abi/fetcher/tmp/odio-0.0.8.tar.gz]
+[2024-05-22 14:41:30] INFO root fetch - processPackages [odio]: Remove: archive file [/home/abi/fetcher/tmp/odio-0.0.9.tar.gz]
+[2024-05-22 14:41:30] INFO root fetch - main [MainThread]: End processing [odio]: success
+[2024-05-22 14:41:30] INFO root fetch - processPackages [PyProfQueue]: Remove: archive file [/home/abi/fetcher/tmp/PyProfQueue-0.2.0.tar.gz]
+[2024-05-22 14:41:30] INFO root fetch - processPackages [PyProfQueue]: Remove: archive file [/home/abi/fetcher/tmp/PyProfQueue-0.2.1.tar.gz]
+[2024-05-22 14:41:30] INFO root fetch - processPackages [sosin]: Remove: archive file [/home/abi/fetcher/tmp/sosin-1.2.6.tar.gz]
+[2024-05-22 14:41:30] INFO root fetch - main [MainThread]: End processing [PyProfQueue]: success
+[2024-05-22 14:41:30] INFO root fetch - processPackages [sosin]: Remove: archive file [/home/abi/fetcher/tmp/sosin-1.2.7.tar.gz]
+[2024-05-22 14:41:30] INFO root fetch - main [MainThread]: End processing [sosin]: success
+[2024-05-22 14:41:30] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/11/3c/1d7369ee7ebdb36516c9e825fcad78c3356c35088f45f290d1d2c862a8d4/nmodl_nightly-0.6.157-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-22 14:41:30] INFO root fetch - processPackages [logger-tg]: Downloading https://files.pythonhosted.org/packages/53/aa/34bfa06aee7da1572d6e6dc15ae437be8ef09ccb460a36a1033186f06dee/logger-tg-0.1.8.tar.gz
+[2024-05-22 14:41:31] INFO root fetch - processPackages [onyxpm]: Remove: archive file [/home/abi/fetcher/tmp/onyxpm-0.0.8.tar.gz]
+[2024-05-22 14:41:31] INFO root fetch - processPackages [onyxpm]: Remove: archive file [/home/abi/fetcher/tmp/onyxpm-0.0.9.tar.gz]
+[2024-05-22 14:41:31] INFO root fetch - main [MainThread]: End processing [onyxpm]: success
+[2024-05-22 14:41:31] INFO root fetch - processPackages [logger-tg]: executing diffoscope
+[2024-05-22 14:41:31] INFO root fetch - processPackages [logger-tg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-tg-0.1.7.tar.gz tmp/logger-tg-0.1.8.tar.gz --markdown 20240522/l/logger-tg/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-22 14:41:31] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-05-22 14:41:31] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-05-22 14:41:31] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-05-22 14:41:31] INFO root fetch - processPackages [logger-tg]: Remove: archive file [/home/abi/fetcher/tmp/logger-tg-0.1.7.tar.gz]
+[2024-05-22 14:41:31] INFO root fetch - processPackages [logger-tg]: Remove: archive file [/home/abi/fetcher/tmp/logger-tg-0.1.8.tar.gz]
+[2024-05-22 14:41:31] INFO root fetch - main [MainThread]: End processing [logger-tg]: success
+[2024-05-22 14:41:31] INFO root fetch - processPackages [MONSDA]: Remove: archive file [/home/abi/fetcher/tmp/monsda-1.2.5.tar.gz]
+[2024-05-22 14:41:31] INFO root fetch - processPackages [MONSDA]: Remove: archive file [/home/abi/fetcher/tmp/monsda-1.2.6.tar.gz]
+[2024-05-22 14:41:31] INFO root fetch - main [MainThread]: End processing [MONSDA]: success
+[2024-05-22 14:41:32] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/70/68/caaf2e9b0b413335d85c44cae1b60af6e63dbb4d66cd8c2663f416b14b7c/nmodl_nightly-0.6.162-cp39-cp39-macosx_10_15_x86_64.whl
+[2024-05-22 14:41:32] INFO root fetch - processPackages [NMODL-nightly]: executing diffoscope
+[2024-05-22 14:41:32] INFO root fetch - processPackages [NMODL-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmodl_nightly-0.6.157-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nmodl_nightly-0.6.162-cp39-cp39-macosx_10_15_x86_64.whl.zip --markdown 20240522/N/NMODL-nightly/0.6.157-0.6.162/README.md --exclude *.pyd
+[2024-05-22 14:41:35] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.7.tar.gz]
+[2024-05-22 14:41:35] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
+[2024-05-22 14:41:35] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
+[2024-05-22 14:41:36] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nmodl_nightly-0.6.157-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-22 14:41:36] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nmodl_nightly-0.6.162-cp39-cp39-macosx_10_15_x86_64.whl.zip]
+[2024-05-22 14:41:36] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
+[2024-05-22 14:41:36] INFO root fetch - main [MainThread]: Store serial: [23324124]

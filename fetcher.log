@@ -7373,3 +7373,114 @@
 [2024-05-22 03:21:39] INFO root fetch - processPackages [botocore-a-la-carte-wellarchitected]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-wellarchitected-1.34.99.tar.gz]
 [2024-05-22 03:21:39] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-wellarchitected]: success
 [2024-05-22 03:21:39] INFO root fetch - main [MainThread]: Store serial: [23316702]
+[2024-05-22 03:23:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23316702]
+[2024-05-22 03:23:48] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-22 03:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botocore-a-la-carte-wellarchitected
+[2024-05-22 03:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botocore-a-la-carte-sagemaker-a2i-runtime
+[2024-05-22 03:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botocore-a-la-carte-wisdom
+[2024-05-22 03:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botocore-a-la-carte-quicksight
+[2024-05-22 03:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botocore-a-la-carte-kinesis
+[2024-05-22 03:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botocore-a-la-carte-iotsecuretunneling
+[2024-05-22 03:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: botocore-a-la-carte-timestream-query
+[2024-05-22 03:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: botocore-a-la-carte-databrew
+[2024-05-22 03:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-wordpress
+[2024-05-22 03:23:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flask-openapi3-swagger
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-wellarchitected]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-22 03:23:49] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-22 03:23:49] INFO root fetch - processPackages [flask-openapi3-swagger]: New version: [5.17.9] Old Version: [5.17.7]
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-databrew]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-wisdom]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-timestream-query]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-iotsecuretunneling]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-kinesis]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-22 03:23:49] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-wellarchitected]: Downloading https://files.pythonhosted.org/packages/62/41/5df1f485e11088fb8b477414ae4dde093dad0be8116b35a88cded9ff4e11/botocore-a-la-carte-wellarchitected-1.34.98.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: Downloading https://files.pythonhosted.org/packages/7b/31/a079aa7d8f437c99eb547d40d36005b472c0f3c69117662fbc5fb8dc1dae/botocore-a-la-carte-sagemaker-a2i-runtime-1.34.98.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-databrew]: Downloading https://files.pythonhosted.org/packages/b9/0f/039ac438da95988bdb73ddfd3538aceb92a5c0cc2e137c5bcc879e9f0e87/botocore-a-la-carte-databrew-1.34.98.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [flask-openapi3-swagger]: Downloading https://files.pythonhosted.org/packages/04/df/f84ffec99fcccc38c3d4e78bc86b5c22708bb14044582f259f8a5b614f46/flask_openapi3_swagger-5.17.7.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-iotsecuretunneling]: Downloading https://files.pythonhosted.org/packages/21/5c/fae5ddf748e095428541dd36942f07fd7af45e6b9de50948463063824e8f/botocore-a-la-carte-iotsecuretunneling-1.34.98.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-kinesis]: Downloading https://files.pythonhosted.org/packages/7d/1c/b6649f187ccb4cfd0ba6edd4178f5d21869aa22248feb3b906c6789119a6/botocore-a-la-carte-kinesis-1.34.98.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-timestream-query]: Downloading https://files.pythonhosted.org/packages/2b/cf/57955a55aea06d6176b368b742e1d5e5e594f8427af29f28dde03be1cde2/botocore-a-la-carte-timestream-query-1.34.98.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-wisdom]: Downloading https://files.pythonhosted.org/packages/fe/a7/c28ea8e3598057fc2a3a72398ee38e09b18a7be625b2e6135625936f861d/botocore-a-la-carte-wisdom-1.34.98.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-wellarchitected]: Downloading https://files.pythonhosted.org/packages/0f/0d/e139ba4f8e29c160d532bcf965dd4075e344dc408dc7d9e380e650e0999f/botocore-a-la-carte-wellarchitected-1.34.99.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: Downloading https://files.pythonhosted.org/packages/70/11/fb72a782c07bd11a3dad03bc5b8c55edbfa01e1aede639b5267a70e081a7/botocore-a-la-carte-quicksight-1.34.98.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-wellarchitected]: executing diffoscope
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-wellarchitected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-wellarchitected-1.34.98.tar.gz tmp/botocore-a-la-carte-wellarchitected-1.34.99.tar.gz --markdown 20240522/b/botocore-a-la-carte-wellarchitected/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: Downloading https://files.pythonhosted.org/packages/57/3c/4e492026e0f271ac86c6f07c7bc16326ef21b3b55be35540c12bdba712d4/botocore-a-la-carte-sagemaker-a2i-runtime-1.34.99.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2024-05-22 03:23:49] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20240522/c/cdk-wordpress/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-databrew]: Downloading https://files.pythonhosted.org/packages/02/77/2a9d39772f520f0beffb3430996069de2094ec4833a87ffc59be3d251778/botocore-a-la-carte-databrew-1.34.99.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: executing diffoscope
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-sagemaker-a2i-runtime-1.34.98.tar.gz tmp/botocore-a-la-carte-sagemaker-a2i-runtime-1.34.99.tar.gz --markdown 20240522/b/botocore-a-la-carte-sagemaker-a2i-runtime/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-kinesis]: Downloading https://files.pythonhosted.org/packages/03/dc/6c7e1021907fe98677159a1681d5b7e27ebfe54ab83561d4ddde9e012681/botocore-a-la-carte-kinesis-1.34.99.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-timestream-query]: Downloading https://files.pythonhosted.org/packages/50/ce/4205e1fbdcf25bff1ece4dc26b0bcc5ce9a3775e08816dfe8ef94a93eee9/botocore-a-la-carte-timestream-query-1.34.99.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [flask-openapi3-swagger]: Downloading https://files.pythonhosted.org/packages/96/68/72b58b7cb8a6fc87ab3cbd491f65d912d2a7b6fe9484b44fddb2ab5a3d3a/flask_openapi3_swagger-5.17.9.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-wisdom]: Downloading https://files.pythonhosted.org/packages/89/31/5b00d1ed6cdea01c4131abb45ebee316cc388a2a242517958355ffa50cc9/botocore-a-la-carte-wisdom-1.34.99.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-iotsecuretunneling]: Downloading https://files.pythonhosted.org/packages/b2/f8/75736ab97943c5a73c5375f76ec6db77ead56c63f346b451fe8173a76351/botocore-a-la-carte-iotsecuretunneling-1.34.99.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: Downloading https://files.pythonhosted.org/packages/cb/36/3331032f57cac3d6d40fd2e77c600c05b8cc69680d1b98e65e83b7e56a52/botocore-a-la-carte-quicksight-1.34.99.tar.gz
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-databrew]: executing diffoscope
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-databrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-databrew-1.34.98.tar.gz tmp/botocore-a-la-carte-databrew-1.34.99.tar.gz --markdown 20240522/b/botocore-a-la-carte-databrew/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-kinesis]: executing diffoscope
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-kinesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-kinesis-1.34.98.tar.gz tmp/botocore-a-la-carte-kinesis-1.34.99.tar.gz --markdown 20240522/b/botocore-a-la-carte-kinesis/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-timestream-query]: executing diffoscope
+[2024-05-22 03:23:49] INFO root fetch - processPackages [botocore-a-la-carte-timestream-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-timestream-query-1.34.98.tar.gz tmp/botocore-a-la-carte-timestream-query-1.34.99.tar.gz --markdown 20240522/b/botocore-a-la-carte-timestream-query/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-22 03:23:50] INFO root fetch - processPackages [botocore-a-la-carte-iotsecuretunneling]: executing diffoscope
+[2024-05-22 03:23:50] INFO root fetch - processPackages [botocore-a-la-carte-wisdom]: executing diffoscope
+[2024-05-22 03:23:50] INFO root fetch - processPackages [botocore-a-la-carte-iotsecuretunneling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-iotsecuretunneling-1.34.98.tar.gz tmp/botocore-a-la-carte-iotsecuretunneling-1.34.99.tar.gz --markdown 20240522/b/botocore-a-la-carte-iotsecuretunneling/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-22 03:23:50] INFO root fetch - processPackages [botocore-a-la-carte-wisdom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-wisdom-1.34.98.tar.gz tmp/botocore-a-la-carte-wisdom-1.34.99.tar.gz --markdown 20240522/b/botocore-a-la-carte-wisdom/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-22 03:23:50] INFO root fetch - processPackages [flask-openapi3-swagger]: executing diffoscope
+[2024-05-22 03:23:50] INFO root fetch - processPackages [flask-openapi3-swagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_openapi3_swagger-5.17.7.tar.gz tmp/flask_openapi3_swagger-5.17.9.tar.gz --markdown 20240522/f/flask-openapi3-swagger/5.17.7-5.17.9/README.md --exclude *.pyd
+[2024-05-22 03:23:50] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: executing diffoscope
+[2024-05-22 03:23:50] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-quicksight-1.34.98.tar.gz tmp/botocore-a-la-carte-quicksight-1.34.99.tar.gz --markdown 20240522/b/botocore-a-la-carte-quicksight/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-22 03:23:50] INFO root fetch - processPackages [botocore-a-la-carte-wellarchitected]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-wellarchitected-1.34.98.tar.gz]
+[2024-05-22 03:23:50] INFO root fetch - processPackages [botocore-a-la-carte-wellarchitected]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-wellarchitected-1.34.99.tar.gz]
+[2024-05-22 03:23:50] INFO root fetch - processPackages [botocore-a-la-carte-wellarchitected]: Start processing: ventures
+[2024-05-22 03:23:50] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-wellarchitected]: success
+[2024-05-22 03:23:50] INFO root fetch - processPackages [ventures]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-05-22 03:23:50] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2024-05-22 03:23:50] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2024-05-22 03:23:50] INFO root fetch - processPackages [cdk-wordpress]: Start processing: pytech-zp
+[2024-05-22 03:23:50] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2024-05-22 03:23:50] INFO root fetch - processPackages [pytech-zp]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-22 03:23:50] INFO root fetch - processPackages [ventures]: Downloading https://files.pythonhosted.org/packages/61/8b/a99940df0583c8d9c4e2dcdb2c293e174c27de586a49aa648ac5011f2db5/ventures-1.2.0.tar.gz
+[2024-05-22 03:23:50] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sagemaker-a2i-runtime-1.34.98.tar.gz]
+[2024-05-22 03:23:50] INFO root fetch - processPackages [botocore-a-la-carte-sagemaker-a2i-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sagemaker-a2i-runtime-1.34.99.tar.gz]
+[2024-05-22 03:23:50] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-sagemaker-a2i-runtime]: success
+[2024-05-22 03:23:50] INFO root fetch - processPackages [pytech-zp]: Downloading https://files.pythonhosted.org/packages/f1/fb/a2d0019fb744d3ca06d035d0ef9fdcc9d718735efad112360e5ab4704771/pytech_zp-0.1.0.tar.gz
+[2024-05-22 03:23:50] INFO root fetch - processPackages [botocore-a-la-carte-iotsecuretunneling]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-iotsecuretunneling-1.34.98.tar.gz]
+[2024-05-22 03:23:50] INFO root fetch - processPackages [botocore-a-la-carte-iotsecuretunneling]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-iotsecuretunneling-1.34.99.tar.gz]
+[2024-05-22 03:23:50] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-iotsecuretunneling]: success
+[2024-05-22 03:23:50] INFO root fetch - processPackages [botocore-a-la-carte-databrew]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-databrew-1.34.98.tar.gz]
+[2024-05-22 03:23:50] INFO root fetch - processPackages [botocore-a-la-carte-databrew]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-databrew-1.34.99.tar.gz]
+[2024-05-22 03:23:50] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-databrew]: success
+[2024-05-22 03:23:51] INFO root fetch - processPackages [botocore-a-la-carte-timestream-query]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-timestream-query-1.34.98.tar.gz]
+[2024-05-22 03:23:51] INFO root fetch - processPackages [botocore-a-la-carte-timestream-query]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-timestream-query-1.34.99.tar.gz]
+[2024-05-22 03:23:51] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-timestream-query]: success
+[2024-05-22 03:23:51] INFO root fetch - processPackages [ventures]: Downloading https://files.pythonhosted.org/packages/28/df/7eaaf5c25644ecccc6f6678af7d19ddcc048e1a11d384f76a1ee57c3023a/ventures-1.3.0.tar.gz
+[2024-05-22 03:23:51] INFO root fetch - processPackages [botocore-a-la-carte-kinesis]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-kinesis-1.34.98.tar.gz]
+[2024-05-22 03:23:51] INFO root fetch - processPackages [botocore-a-la-carte-kinesis]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-kinesis-1.34.99.tar.gz]
+[2024-05-22 03:23:51] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-kinesis]: success
+[2024-05-22 03:23:51] INFO root fetch - processPackages [pytech-zp]: Downloading https://files.pythonhosted.org/packages/43/e4/76533317c32219cd246f3967d0b3af4c6318d3065d9921f6d0e92ef7a6ca/pytech_zp-0.1.1.tar.gz
+[2024-05-22 03:23:51] INFO root fetch - processPackages [botocore-a-la-carte-wisdom]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-wisdom-1.34.98.tar.gz]
+[2024-05-22 03:23:51] INFO root fetch - processPackages [botocore-a-la-carte-wisdom]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-wisdom-1.34.99.tar.gz]
+[2024-05-22 03:23:51] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-wisdom]: success
+[2024-05-22 03:23:51] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-quicksight-1.34.98.tar.gz]
+[2024-05-22 03:23:51] INFO root fetch - processPackages [ventures]: executing diffoscope
+[2024-05-22 03:23:51] INFO root fetch - processPackages [ventures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ventures-1.2.0.tar.gz tmp/ventures-1.3.0.tar.gz --markdown 20240522/v/ventures/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-05-22 03:23:51] INFO root fetch - processPackages [botocore-a-la-carte-quicksight]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-quicksight-1.34.99.tar.gz]
+[2024-05-22 03:23:51] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-quicksight]: success
+[2024-05-22 03:23:51] INFO root fetch - processPackages [pytech-zp]: executing diffoscope
+[2024-05-22 03:23:51] INFO root fetch - processPackages [pytech-zp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytech_zp-0.1.0.tar.gz tmp/pytech_zp-0.1.1.tar.gz --markdown 20240522/p/pytech-zp/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-22 03:23:51] INFO root fetch - processPackages [pytech-zp]: Remove: archive file [/home/abi/fetcher/tmp/pytech_zp-0.1.0.tar.gz]
+[2024-05-22 03:23:51] INFO root fetch - processPackages [pytech-zp]: Remove: archive file [/home/abi/fetcher/tmp/pytech_zp-0.1.1.tar.gz]
+[2024-05-22 03:23:51] INFO root fetch - main [MainThread]: End processing [pytech-zp]: success
+[2024-05-22 03:23:52] INFO root fetch - processPackages [ventures]: Remove: archive file [/home/abi/fetcher/tmp/ventures-1.2.0.tar.gz]
+[2024-05-22 03:23:52] INFO root fetch - processPackages [ventures]: Remove: archive file [/home/abi/fetcher/tmp/ventures-1.3.0.tar.gz]
+[2024-05-22 03:23:52] INFO root fetch - main [MainThread]: End processing [ventures]: success
+[2024-05-22 03:24:02] INFO root fetch - processPackages [flask-openapi3-swagger]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_swagger-5.17.7.tar.gz]
+[2024-05-22 03:24:02] INFO root fetch - processPackages [flask-openapi3-swagger]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_swagger-5.17.9.tar.gz]
+[2024-05-22 03:24:02] INFO root fetch - main [MainThread]: End processing [flask-openapi3-swagger]: success
+[2024-05-22 03:24:02] INFO root fetch - main [MainThread]: Store serial: [23316783]

@@ -14154,3 +14154,135 @@
 [2024-05-22 09:19:49] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
 [2024-05-22 09:19:49] INFO root fetch - main [MainThread]: End processing [richie]: success
 [2024-05-22 09:19:49] INFO root fetch - main [MainThread]: Store serial: [23320106]
+[2024-05-22 09:21:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320106]
+[2024-05-22 09:21:58] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2024-05-22 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duwi-smarthome-sdk-dev
+[2024-05-22 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-web-widget-open-tab
+[2024-05-22 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2024-05-22 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-web-advanced-search
+[2024-05-22 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: divinegift
+[2024-05-22 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cblaster
+[2024-05-22 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pre-commit-hooks-g
+[2024-05-22 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: avnet-scotty
+[2024-05-22 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unittestreport-yami
+[2024-05-22 09:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dsp-tools
+[2024-05-22 09:21:58] INFO root fetch - processPackages [odoo-addon-web-widget-open-tab]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.2]
+[2024-05-22 09:21:58] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-22 09:21:58] INFO root fetch - processPackages [unittestreport-yami]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-22 09:21:58] INFO root fetch - processPackages [dsp-tools]: New version: [7.2.0.post7] Old Version: [7.2.0.post18]
+[2024-05-22 09:21:58] INFO root fetch - processPackages [cg]: New version: [60.8.0] Old Version: [60.7.9]
+[2024-05-22 09:21:58] INFO root fetch - processPackages [avnet-scotty]: New version: [2024.5rc2] Old Version: [2024.5rc1]
+[2024-05-22 09:21:58] INFO root fetch - processPackages [cblaster]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-22 09:21:58] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/d2/3a/dad33a66b5db39ecf162e5259ef3d3263007dd1e60087e8a98d7f0988605/duwi_smarthome_sdk_dev-0.0.5.tar.gz
+[2024-05-22 09:21:58] INFO root fetch - processPackages [odoo-addon-web-widget-open-tab]: Downloading https://files.pythonhosted.org/packages/fd/57/560d242d3f6f1ce24e2fb0755be7fddcb6fb8a3c4214c332816606674431/odoo_addon_web_widget_open_tab-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-22 09:21:58] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: New version: [16.0.1.0.4.3] Old Version: [16.0.1.0.4.2]
+[2024-05-22 09:21:58] INFO root fetch - processPackages [pre-commit-hooks-g]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-05-22 09:21:58] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/e7/6c/ce53912c80ebed3c42b4deee8a235150d9706b6948beb175618081c2fb09/unittestreport_yami-0.1.1.tar.gz
+[2024-05-22 09:21:58] INFO root fetch - processPackages [divinegift]: New version: [2.9.2.2] Old Version: [2.9.2.1]
+[2024-05-22 09:21:58] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/54/8a/7a53d91022939dd519ef80c2d2d17235673273e642925d4698527293050f/dsp_tools-7.2.0.post18.tar.gz
+[2024-05-22 09:21:58] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6d/38/e3ff082487603f9b23877cfe7185b58a21cb7763a1d8c0ea38640ffb90ea/cg-60.7.9-py3-none-any.whl
+[2024-05-22 09:21:58] INFO root fetch - processPackages [cblaster]: Downloading https://files.pythonhosted.org/packages/31/61/6d68882aac5b86c7f5359ceaf9d9ef3ccc09652320569d98b0cba6640fb7/cblaster-1.3.8.tar.gz
+[2024-05-22 09:21:59] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: Downloading https://files.pythonhosted.org/packages/fc/d2/645d1e294004de6ea77691f7f9024fa9554d2ea6a48b3d9705573d2fb9d8/odoo_addon_web_advanced_search-16.0.1.0.4.2-py3-none-any.whl
+[2024-05-22 09:21:59] INFO root fetch - processPackages [avnet-scotty]: Downloading https://files.pythonhosted.org/packages/51/16/aff0a6239afd883f6bb3b70685f6d76fff06fd4b5c96b2ce3b3393e1f268/avnet_scotty-2024.5rc1.tar.gz
+[2024-05-22 09:21:59] INFO root fetch - processPackages [divinegift]: Downloading https://files.pythonhosted.org/packages/20/54/9cd490ce912447c2d9c28af6ef4a7879ad6c4951e4146bfb5408537f3941/divinegift-2.9.2.1.tar.gz
+[2024-05-22 09:21:59] INFO root fetch - processPackages [pre-commit-hooks-g]: Downloading https://files.pythonhosted.org/packages/14/1d/dddcba04772a18be2eb750b372bf64986b52a0f1ffba0d76502d3f9d6915/pre_commit_hooks_g-1.2.0.tar.gz
+[2024-05-22 09:21:59] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/8e/5c/7e67f0892e0f2b22ad67dd458bf481e7ca189482ff1d8bda8c445aef1afb/dsp_tools-7.2.0.post7.tar.gz
+[2024-05-22 09:21:59] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/ca/33/afe41062594f8025beb2e2a044d1e6bc7bd55e761a25ca122a14ed48db19/duwi_smarthome_sdk_dev-0.0.6.tar.gz
+[2024-05-22 09:21:59] INFO root fetch - processPackages [odoo-addon-web-widget-open-tab]: Downloading https://files.pythonhosted.org/packages/c7/ba/4c46fc285f6dd64bcefab09882439dd909328c5c18ab2dcfc204fe071298/odoo_addon_web_widget_open_tab-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-22 09:21:59] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/73/04/559255ad21d09d9063d7840232594981f40e703933e6fe8773d464890bbd/unittestreport_yami-0.1.2.tar.gz
+[2024-05-22 09:21:59] INFO root fetch - processPackages [dsp-tools]: executing diffoscope
+[2024-05-22 09:21:59] INFO root fetch - processPackages [dsp-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_tools-7.2.0.post18.tar.gz tmp/dsp_tools-7.2.0.post7.tar.gz --markdown 20240522/d/dsp-tools/7.2.0.post18-7.2.0.post7/README.md --exclude *.pyd
+[2024-05-22 09:21:59] INFO root fetch - processPackages [odoo-addon-web-widget-open-tab]: executing diffoscope
+[2024-05-22 09:21:59] INFO root fetch - processPackages [odoo-addon-web-widget-open-tab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_widget_open_tab-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_web_widget_open_tab-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-web-widget-open-tab/17.0.1.0.0.2-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-22 09:21:59] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: executing diffoscope
+[2024-05-22 09:21:59] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smarthome_sdk_dev-0.0.5.tar.gz tmp/duwi_smarthome_sdk_dev-0.0.6.tar.gz --markdown 20240522/d/duwi-smarthome-sdk-dev/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-22 09:21:59] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/78/bd/1a192efffe23d05c1a9cb393a87a119042ff42d19eb7af3bf612973a34a1/cg-60.8.0.tar.gz
+[2024-05-22 09:21:59] INFO root fetch - processPackages [unittestreport-yami]: executing diffoscope
+[2024-05-22 09:21:59] INFO root fetch - processPackages [unittestreport-yami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unittestreport_yami-0.1.1.tar.gz tmp/unittestreport_yami-0.1.2.tar.gz --markdown 20240522/u/unittestreport-yami/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-22 09:21:59] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: Downloading https://files.pythonhosted.org/packages/12/d2/e4e1deab5de7532a3394383f2bb764e4a27c37d80119aa462c278006bb60/odoo_addon_web_advanced_search-16.0.1.0.4.3-py3-none-any.whl
+[2024-05-22 09:21:59] INFO root fetch - processPackages [avnet-scotty]: Downloading https://files.pythonhosted.org/packages/b2/d6/963f154ce32455fb07d79c3d7fd276a002e61524ee536bcd7169bd4c11b5/avnet_scotty-2024.5rc2.tar.gz
+[2024-05-22 09:21:59] INFO root fetch - processPackages [divinegift]: Downloading https://files.pythonhosted.org/packages/2e/f4/a6b82fab8e04ce99fd85cffa08df2970b44a8b3b33c001530d8de0e99ff8/divinegift-2.9.2.2.tar.gz
+[2024-05-22 09:21:59] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: executing diffoscope
+[2024-05-22 09:21:59] INFO root fetch - processPackages [pre-commit-hooks-g]: Downloading https://files.pythonhosted.org/packages/6f/d5/7b2d3482f78d61971ddfd02896daf6d9d7c1adf3688ba55dc9d835d52d3b/pre_commit_hooks_g-1.3.0.tar.gz
+[2024-05-22 09:21:59] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_advanced_search-16.0.1.0.4.2-py3-none-any.whl.zip tmp/odoo_addon_web_advanced_search-16.0.1.0.4.3-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-web-advanced-search/16.0.1.0.4.2-16.0.1.0.4.3/README.md --exclude *.pyd
+[2024-05-22 09:21:59] INFO root fetch - processPackages [avnet-scotty]: executing diffoscope
+[2024-05-22 09:21:59] INFO root fetch - processPackages [avnet-scotty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avnet_scotty-2024.5rc1.tar.gz tmp/avnet_scotty-2024.5rc2.tar.gz --markdown 20240522/a/avnet-scotty/2024.5rc1-2024.5rc2/README.md --exclude *.pyd
+[2024-05-22 09:21:59] INFO root fetch - processPackages [divinegift]: executing diffoscope
+[2024-05-22 09:21:59] INFO root fetch - processPackages [divinegift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/divinegift-2.9.2.1.tar.gz tmp/divinegift-2.9.2.2.tar.gz --markdown 20240522/d/divinegift/2.9.2.1-2.9.2.2/README.md --exclude *.pyd
+[2024-05-22 09:21:59] INFO root fetch - processPackages [cblaster]: Downloading https://files.pythonhosted.org/packages/e8/99/9c3ecee9f103106fffc414f7a672ba4d1906df218a7569a93be087857e7a/cblaster-1.3.9.tar.gz
+[2024-05-22 09:21:59] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-22 09:21:59] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.7.9-py3-none-any.whl.zip tmp/cg-60.8.0.tar.gz --markdown 20240522/c/cg/60.7.9-60.8.0/README.md --exclude *.pyd
+[2024-05-22 09:21:59] INFO root fetch - processPackages [pre-commit-hooks-g]: executing diffoscope
+[2024-05-22 09:21:59] INFO root fetch - processPackages [pre-commit-hooks-g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre_commit_hooks_g-1.2.0.tar.gz tmp/pre_commit_hooks_g-1.3.0.tar.gz --markdown 20240522/p/pre-commit-hooks-g/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-05-22 09:22:00] INFO root fetch - processPackages [cblaster]: executing diffoscope
+[2024-05-22 09:22:00] INFO root fetch - processPackages [cblaster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cblaster-1.3.8.tar.gz tmp/cblaster-1.3.9.tar.gz --markdown 20240522/c/cblaster/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-22 09:22:00] INFO root fetch - processPackages [odoo-addon-web-widget-open-tab]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_widget_open_tab-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-22 09:22:00] INFO root fetch - processPackages [odoo-addon-web-widget-open-tab]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_widget_open_tab-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-22 09:22:00] INFO root fetch - processPackages [odoo-addon-web-widget-open-tab]: Start processing: mentabotix
+[2024-05-22 09:22:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-widget-open-tab]: success
+[2024-05-22 09:22:00] INFO root fetch - processPackages [mentabotix]: New version: [0.1.4.9] Old Version: [0.1.4.8]
+[2024-05-22 09:22:00] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.0.5.tar.gz]
+[2024-05-22 09:22:00] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.0.6.tar.gz]
+[2024-05-22 09:22:00] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Start processing: odoo-addon-website-crm-privacy-policy
+[2024-05-22 09:22:00] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk-dev]: success
+[2024-05-22 09:22:00] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.1.tar.gz]
+[2024-05-22 09:22:00] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.2.tar.gz]
+[2024-05-22 09:22:00] INFO root fetch - processPackages [unittestreport-yami]: Start processing: uniplot
+[2024-05-22 09:22:00] INFO root fetch - main [MainThread]: End processing [unittestreport-yami]: success
+[2024-05-22 09:22:00] INFO root fetch - processPackages [odoo-addon-website-crm-privacy-policy]: New version: [16.0.2.0.0.2] Old Version: [16.0.2.0.0.1]
+[2024-05-22 09:22:00] INFO root fetch - processPackages [uniplot]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-22 09:22:00] INFO root fetch - processPackages [avnet-scotty]: Remove: archive file [/home/abi/fetcher/tmp/avnet_scotty-2024.5rc1.tar.gz]
+[2024-05-22 09:22:00] INFO root fetch - processPackages [avnet-scotty]: Remove: archive file [/home/abi/fetcher/tmp/avnet_scotty-2024.5rc2.tar.gz]
+[2024-05-22 09:22:00] INFO root fetch - processPackages [avnet-scotty]: Start processing: sklearnPro
+[2024-05-22 09:22:00] INFO root fetch - main [MainThread]: End processing [avnet-scotty]: success
+[2024-05-22 09:22:00] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/6a/24/652f96945a74a866a43e5aa5ceee192a738aeba9b9529058a3052e64c2ac/mentabotix-0.1.4.8.tar.gz
+[2024-05-22 09:22:00] WARNING root fetch - processPackages [sklearnPro]: Skipping, unable to determine old version
+[2024-05-22 09:22:00] INFO root fetch - processPackages [sklearnPro]: Start processing: aioamazondevices
+[2024-05-22 09:22:00] INFO root fetch - main [MainThread]: End processing [sklearnPro] error
+[2024-05-22 09:22:00] INFO root fetch - processPackages [divinegift]: Remove: archive file [/home/abi/fetcher/tmp/divinegift-2.9.2.1.tar.gz]
+[2024-05-22 09:22:00] INFO root fetch - processPackages [divinegift]: Remove: archive file [/home/abi/fetcher/tmp/divinegift-2.9.2.2.tar.gz]
+[2024-05-22 09:22:00] INFO root fetch - main [MainThread]: End processing [divinegift]: success
+[2024-05-22 09:22:00] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_advanced_search-16.0.1.0.4.2-py3-none-any.whl.zip]
+[2024-05-22 09:22:00] INFO root fetch - processPackages [odoo-addon-web-advanced-search]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_advanced_search-16.0.1.0.4.3-py3-none-any.whl.zip]
+[2024-05-22 09:22:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-advanced-search]: success
+[2024-05-22 09:22:00] INFO root fetch - processPackages [odoo-addon-website-crm-privacy-policy]: Downloading https://files.pythonhosted.org/packages/e5/88/a10feca771c927158d8aecce1fb1ce33f6a3f718582f387d612592eaeb7b/odoo_addon_website_crm_privacy_policy-16.0.2.0.0.1-py3-none-any.whl
+[2024-05-22 09:22:00] INFO root fetch - processPackages [aioamazondevices]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-22 09:22:01] INFO root fetch - processPackages [uniplot]: Downloading https://files.pythonhosted.org/packages/d3/37/a2264d665b130cc345f157932ca545eefe24cbed666200e2797c2f5e9148/uniplot-0.9.1.tar.gz
+[2024-05-22 09:22:01] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.2.0.post18.tar.gz]
+[2024-05-22 09:22:01] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.2.0.post7.tar.gz]
+[2024-05-22 09:22:01] INFO root fetch - main [MainThread]: End processing [dsp-tools]: success
+[2024-05-22 09:22:01] INFO root fetch - processPackages [mentabotix]: Downloading https://files.pythonhosted.org/packages/ad/17/f4472a89200d6af101e8a93dda85be72a84fa7d66b7cb7a38c711055174d/mentabotix-0.1.4.9.tar.gz
+[2024-05-22 09:22:01] INFO root fetch - processPackages [pre-commit-hooks-g]: Remove: archive file [/home/abi/fetcher/tmp/pre_commit_hooks_g-1.2.0.tar.gz]
+[2024-05-22 09:22:01] INFO root fetch - processPackages [pre-commit-hooks-g]: Remove: archive file [/home/abi/fetcher/tmp/pre_commit_hooks_g-1.3.0.tar.gz]
+[2024-05-22 09:22:01] INFO root fetch - main [MainThread]: End processing [pre-commit-hooks-g]: success
+[2024-05-22 09:22:01] INFO root fetch - processPackages [cblaster]: Remove: archive file [/home/abi/fetcher/tmp/cblaster-1.3.8.tar.gz]
+[2024-05-22 09:22:01] INFO root fetch - processPackages [cblaster]: Remove: archive file [/home/abi/fetcher/tmp/cblaster-1.3.9.tar.gz]
+[2024-05-22 09:22:01] INFO root fetch - main [MainThread]: End processing [cblaster]: success
+[2024-05-22 09:22:01] INFO root fetch - processPackages [mentabotix]: executing diffoscope
+[2024-05-22 09:22:01] INFO root fetch - processPackages [mentabotix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mentabotix-0.1.4.8.tar.gz tmp/mentabotix-0.1.4.9.tar.gz --markdown 20240522/m/mentabotix/0.1.4.8-0.1.4.9/README.md --exclude *.pyd
+[2024-05-22 09:22:01] INFO root fetch - processPackages [aioamazondevices]: Downloading https://files.pythonhosted.org/packages/07/1c/22b0fd0cb79eab6d8df23fd73cc5655f70859109391b92b531204c89db93/aioamazondevices-0.1.0.tar.gz
+[2024-05-22 09:22:01] INFO root fetch - processPackages [odoo-addon-website-crm-privacy-policy]: Downloading https://files.pythonhosted.org/packages/4e/63/c253089ae06bb319c8e40f1464badfc740368c754dcf83a3ea998abfe87e/odoo_addon_website_crm_privacy_policy-16.0.2.0.0.2-py3-none-any.whl
+[2024-05-22 09:22:01] INFO root fetch - processPackages [odoo-addon-website-crm-privacy-policy]: executing diffoscope
+[2024-05-22 09:22:01] INFO root fetch - processPackages [odoo-addon-website-crm-privacy-policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_website_crm_privacy_policy-16.0.2.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_website_crm_privacy_policy-16.0.2.0.0.2-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-website-crm-privacy-policy/16.0.2.0.0.1-16.0.2.0.0.2/README.md --exclude *.pyd
+[2024-05-22 09:22:01] INFO root fetch - processPackages [uniplot]: Downloading https://files.pythonhosted.org/packages/8e/7d/fd84e04d2d1ac39f75fbc2815dbdad71993b01513faf7c426a8ac0fef869/uniplot-0.9.2.tar.gz
+[2024-05-22 09:22:01] INFO root fetch - processPackages [aioamazondevices]: Downloading https://files.pythonhosted.org/packages/19/b1/a1a707435dd0860b9ea5f441245a38c071036502d8978025700c526cc09c/aioamazondevices-0.1.1.tar.gz
+[2024-05-22 09:22:01] INFO root fetch - processPackages [uniplot]: executing diffoscope
+[2024-05-22 09:22:01] INFO root fetch - processPackages [uniplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniplot-0.9.1.tar.gz tmp/uniplot-0.9.2.tar.gz --markdown 20240522/u/uniplot/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-22 09:22:01] INFO root fetch - processPackages [aioamazondevices]: executing diffoscope
+[2024-05-22 09:22:01] INFO root fetch - processPackages [aioamazondevices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioamazondevices-0.1.0.tar.gz tmp/aioamazondevices-0.1.1.tar.gz --markdown 20240522/a/aioamazondevices/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-22 09:22:01] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.4.8.tar.gz]
+[2024-05-22 09:22:01] INFO root fetch - processPackages [mentabotix]: Remove: archive file [/home/abi/fetcher/tmp/mentabotix-0.1.4.9.tar.gz]
+[2024-05-22 09:22:01] INFO root fetch - main [MainThread]: End processing [mentabotix]: success
+[2024-05-22 09:22:02] INFO root fetch - processPackages [odoo-addon-website-crm-privacy-policy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_crm_privacy_policy-16.0.2.0.0.1-py3-none-any.whl.zip]
+[2024-05-22 09:22:02] INFO root fetch - processPackages [odoo-addon-website-crm-privacy-policy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_website_crm_privacy_policy-16.0.2.0.0.2-py3-none-any.whl.zip]
+[2024-05-22 09:22:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-website-crm-privacy-policy]: success
+[2024-05-22 09:22:02] INFO root fetch - processPackages [uniplot]: Remove: archive file [/home/abi/fetcher/tmp/uniplot-0.9.1.tar.gz]
+[2024-05-22 09:22:02] INFO root fetch - processPackages [uniplot]: Remove: archive file [/home/abi/fetcher/tmp/uniplot-0.9.2.tar.gz]
+[2024-05-22 09:22:02] INFO root fetch - main [MainThread]: End processing [uniplot]: success
+[2024-05-22 09:22:02] INFO root fetch - processPackages [aioamazondevices]: Remove: archive file [/home/abi/fetcher/tmp/aioamazondevices-0.1.0.tar.gz]
+[2024-05-22 09:22:02] INFO root fetch - processPackages [aioamazondevices]: Remove: archive file [/home/abi/fetcher/tmp/aioamazondevices-0.1.1.tar.gz]
+[2024-05-22 09:22:02] INFO root fetch - main [MainThread]: End processing [aioamazondevices]: success
+[2024-05-22 09:22:04] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
+[2024-05-22 09:22:04] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.0.tar.gz]
+[2024-05-22 09:22:04] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-22 09:22:04] INFO root fetch - main [MainThread]: Store serial: [23320148]

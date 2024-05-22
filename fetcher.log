@@ -23043,3 +23043,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 14:34:01] INFO root fetch - processPackages [pytensor]: Remove: archive file [/home/abi/fetcher/tmp/pytensor-2.9.1.tar.gz]
 [2024-05-22 14:34:01] INFO root fetch - main [MainThread]: End processing [pytensor]: success
 [2024-05-22 14:34:01] INFO root fetch - main [MainThread]: Store serial: [23324002]
+[2024-05-22 14:36:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23324002]
+[2024-05-22 14:36:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 14:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assisted-service-client
+[2024-05-22 14:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyYAML-tabs
+[2024-05-22 14:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cleanerPandasVol
+[2024-05-22 14:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2024-05-22 14:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: transformers-js-py
+[2024-05-22 14:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TreeSAK
+[2024-05-22 14:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cvat_sdk_i_digit
+[2024-05-22 14:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TM1py
+[2024-05-22 14:36:10] INFO root fetch - processPackages [cleanerPandasVol]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-22 14:36:10] WARNING root fetch - processPackages [cvat_sdk_i_digit]: Skipping, unable to determine old version
+[2024-05-22 14:36:10] INFO root fetch - main [MainThread]: End processing [cvat_sdk_i_digit] error
+[2024-05-22 14:36:10] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-22 14:36:10] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240522110335] Old Version: [3.4.1.dev20240522102452]
+[2024-05-22 14:36:10] INFO root fetch - processPackages [TM1py]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-22 14:36:10] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2024-05-22 14:36:10] WARNING root fetch - processPackages [PyYAML-tabs]: Skipping, unable to determine old version
+[2024-05-22 14:36:10] INFO root fetch - main [MainThread]: End processing [PyYAML-tabs] error
+[2024-05-22 14:36:10] INFO root fetch - processPackages [transformers-js-py]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-05-22 14:36:10] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-05-22 14:36:10] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/34/73/91eec12728513692b4ba5998e439e66fe02447c0b52b6a23db13edb04dd7/localstack_core-3.4.1.dev20240522102452.tar.gz
+[2024-05-22 14:36:10] INFO root fetch - processPackages [TM1py]: Downloading https://files.pythonhosted.org/packages/95/f3/4dcb0853525872245afef9b04f25ecec616f9d7fb2703e3a9c03f230ea84/tm1py-2.0.2.tar.gz
+[2024-05-22 14:36:10] INFO root fetch - processPackages [cleanerPandasVol]: Downloading https://files.pythonhosted.org/packages/e7/a2/056045e466d3bcc216b60c2567ff50109dcb5dc7c60087309b1a32c1f12b/cleanerpandasvol-0.1.2.tar.gz
+[2024-05-22 14:36:10] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2024-05-22 14:36:10] INFO root fetch - processPackages [transformers-js-py]: Downloading https://files.pythonhosted.org/packages/e9/d4/245ab3f4c5f82c00b652b8ff4b0d02cde64e88d462ead1ae460fdf5a43df/transformers_js_py-0.8.1.tar.gz
+[2024-05-22 14:36:11] INFO root fetch - processPackages [TM1py]: Downloading https://files.pythonhosted.org/packages/b1/8c/ec3e1fba4e69fb5deee562250e8ecf91e8de0817cd9fe822dad3a2e361aa/tm1py-2.0.3.tar.gz
+[2024-05-22 14:36:11] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-05-22 14:36:11] INFO root fetch - processPackages [cleanerPandasVol]: Downloading https://files.pythonhosted.org/packages/c1/e7/bcf5ad888d0d91d93a88dd4b00acee201bcdaa160a400c74be8878d134cd/cleanerpandasvol-0.1.3.tar.gz
+[2024-05-22 14:36:11] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/e6/ad/9ddc35daa3372159aaa0f9d6886835a1153a85caabb809d0228746f021f5/localstack_core-3.4.1.dev20240522110335.tar.gz
+[2024-05-22 14:36:11] INFO root fetch - processPackages [TM1py]: executing diffoscope
+[2024-05-22 14:36:11] INFO root fetch - processPackages [TM1py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tm1py-2.0.2.tar.gz tmp/tm1py-2.0.3.tar.gz --markdown 20240522/T/TM1py/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-22 14:36:11] INFO root fetch - processPackages [cleanerPandasVol]: executing diffoscope
+[2024-05-22 14:36:11] INFO root fetch - processPackages [cleanerPandasVol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cleanerpandasvol-0.1.2.tar.gz tmp/cleanerpandasvol-0.1.3.tar.gz --markdown 20240522/c/cleanerPandasVol/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-22 14:36:11] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-05-22 14:36:11] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240522/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-22 14:36:11] INFO root fetch - processPackages [transformers-js-py]: Downloading https://files.pythonhosted.org/packages/69/a5/f53e404079de13cda9053663becf9d7e3a3351cfa3b254d9a695544db414/transformers_js_py-0.9.0.tar.gz
+[2024-05-22 14:36:11] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2024-05-22 14:36:11] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-22 14:36:11] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240522102452.tar.gz tmp/localstack_core-3.4.1.dev20240522110335.tar.gz --markdown 20240522/l/localstack-core/3.4.1.dev20240522102452-3.4.1.dev20240522110335/README.md --exclude *.pyd
+[2024-05-22 14:36:11] INFO root fetch - processPackages [transformers-js-py]: executing diffoscope
+[2024-05-22 14:36:11] INFO root fetch - processPackages [transformers-js-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers_js_py-0.8.1.tar.gz tmp/transformers_js_py-0.9.0.tar.gz --markdown 20240522/t/transformers-js-py/0.8.1-0.9.0/README.md --exclude *.pyd
+[2024-05-22 14:36:11] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2024-05-22 14:36:11] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20240522/a/assisted-service-client/2.9.0.post8-2.9.0.post9/README.md --exclude *.pyd
+[2024-05-22 14:36:12] INFO root fetch - processPackages [cleanerPandasVol]: Remove: archive file [/home/abi/fetcher/tmp/cleanerpandasvol-0.1.2.tar.gz]
+[2024-05-22 14:36:12] INFO root fetch - processPackages [cleanerPandasVol]: Remove: archive file [/home/abi/fetcher/tmp/cleanerpandasvol-0.1.3.tar.gz]
+[2024-05-22 14:36:12] INFO root fetch - main [MainThread]: End processing [cleanerPandasVol]: success
+[2024-05-22 14:36:12] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-05-22 14:36:12] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-05-22 14:36:12] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-05-22 14:36:12] INFO root fetch - processPackages [transformers-js-py]: Remove: archive file [/home/abi/fetcher/tmp/transformers_js_py-0.8.1.tar.gz]
+[2024-05-22 14:36:12] INFO root fetch - processPackages [transformers-js-py]: Remove: archive file [/home/abi/fetcher/tmp/transformers_js_py-0.9.0.tar.gz]
+[2024-05-22 14:36:12] INFO root fetch - main [MainThread]: End processing [transformers-js-py]: success
+[2024-05-22 14:36:12] INFO root fetch - processPackages [TM1py]: Remove: archive file [/home/abi/fetcher/tmp/tm1py-2.0.2.tar.gz]
+[2024-05-22 14:36:12] INFO root fetch - processPackages [TM1py]: Remove: archive file [/home/abi/fetcher/tmp/tm1py-2.0.3.tar.gz]
+[2024-05-22 14:36:12] INFO root fetch - main [MainThread]: End processing [TM1py]: success
+[2024-05-22 14:36:13] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2024-05-22 14:36:13] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2024-05-22 14:36:13] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2024-05-22 14:36:15] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240522102452.tar.gz]
+[2024-05-22 14:36:15] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240522110335.tar.gz]
+[2024-05-22 14:36:15] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-22 14:36:15] INFO root fetch - main [MainThread]: Store serial: [23324028]

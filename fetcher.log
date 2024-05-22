@@ -13843,3 +13843,90 @@
 [2024-05-22 09:05:34] INFO root fetch - main [MainThread]: End processing [remotivelabs-cli]: success
 [2024-05-22 09:05:34] INFO root fetch - main [MainThread]: End processing [edx-api-client]: success
 [2024-05-22 09:05:34] INFO root fetch - main [MainThread]: Store serial: [23319994]
+[2024-05-22 09:07:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319994]
+[2024-05-22 09:07:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-22 09:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyo3-stubgen
+[2024-05-22 09:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hakushin-py
+[2024-05-22 09:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django_medilab_ds
+[2024-05-22 09:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TopologyValidator
+[2024-05-22 09:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zdb2
+[2024-05-22 09:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyntcli
+[2024-05-22 09:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alq
+[2024-05-22 09:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-hr-utilization-report
+[2024-05-22 09:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-hub-nightly
+[2024-05-22 09:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-hr-timesheet-report
+[2024-05-22 09:07:43] WARNING root fetch - processPackages [hakushin-py]: Skipping, unable to determine old version
+[2024-05-22 09:07:43] INFO root fetch - processPackages [hakushin-py]: Start processing: unittestreport-yami
+[2024-05-22 09:07:43] INFO root fetch - main [MainThread]: End processing [hakushin-py] error
+[2024-05-22 09:07:43] INFO root fetch - processPackages [odoo14-addon-hr-utilization-report]: New version: [14.0.1.0.3.dev3] Old Version: [14.0.1.0.3.dev2]
+[2024-05-22 09:07:43] WARNING root fetch - processPackages [pyo3-stubgen]: Skipping, unable to determine old version
+[2024-05-22 09:07:43] INFO root fetch - processPackages [pyo3-stubgen]: Start processing: nb2workflow
+[2024-05-22 09:07:43] INFO root fetch - main [MainThread]: End processing [pyo3-stubgen] error
+[2024-05-22 09:07:43] INFO root fetch - processPackages [django_medilab_ds]: New version: [3.0.0] Old Version: [1.0.1]
+[2024-05-22 09:07:43] INFO root fetch - processPackages [unittestreport-yami]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-22 09:07:43] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2024-05-22 09:07:43] WARNING root fetch - processPackages [zdb2]: Skipping, unable to determine old version
+[2024-05-22 09:07:43] INFO root fetch - main [MainThread]: End processing [zdb2] error
+[2024-05-22 09:07:43] INFO root fetch - processPackages [alq]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-22 09:07:43] WARNING root fetch - processPackages [TopologyValidator]: Skipping, unable to determine old version
+[2024-05-22 09:07:43] INFO root fetch - main [MainThread]: End processing [TopologyValidator] error
+[2024-05-22 09:07:43] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: New version: [14.0.1.0.2.dev1] Old Version: [14.0.1.0.1.dev9]
+[2024-05-22 09:07:43] INFO root fetch - processPackages [pyntcli]: New version: [0.1.85] Old Version: [0.1.84]
+[2024-05-22 09:07:43] INFO root fetch - processPackages [nb2workflow]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-22 09:07:43] INFO root fetch - processPackages [django_medilab_ds]: Downloading https://files.pythonhosted.org/packages/71/13/e81e5ea0436a76c03ed20821709f9f5ec94b86ecbc034de2d6bf9c8d3b63/django-medilab_ds-1.0.1.tar.gz
+[2024-05-22 09:07:43] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/19/f4/3e7f31a43e1bc377362a70f25c3e6f2b133b3f5f962b63c9e526cecae188/unittestreport_yami-0.1.0.tar.gz
+[2024-05-22 09:07:43] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2024-05-22 09:07:43] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: Downloading https://files.pythonhosted.org/packages/88/55/fe6086e72c64361b031a5853e4d0461c68f0ce5d326b07bbac5c484fed81/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev9-py3-none-any.whl
+[2024-05-22 09:07:43] INFO root fetch - processPackages [odoo14-addon-hr-utilization-report]: Downloading https://files.pythonhosted.org/packages/53/fe/0002a24e966fc1fb83e52693f546787635c1c6dd89aee1022c931ef313ae/odoo14_addon_hr_utilization_report-14.0.1.0.3.dev2-py3-none-any.whl
+[2024-05-22 09:07:43] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/52/91/d6ed1369ae2a857f88e3978bb71b1b8cb48ba94eaad7e8b5c8e57b44b608/pyntcli-0.1.84-py3-none-any.whl
+[2024-05-22 09:07:43] INFO root fetch - processPackages [alq]: Downloading https://files.pythonhosted.org/packages/cb/22/4fe5f8e410d059f7f5d1b0a4b31ec084dbde869a9912dab609643d6bc3cc/alq-0.0.2-py3-none-any.whl
+[2024-05-22 09:07:43] INFO root fetch - processPackages [nb2workflow]: Downloading https://files.pythonhosted.org/packages/7f/3b/11144848db715f6a36c1b4556e04a8a599986fe66fe77e94cbdfab641ebc/nb2workflow-1.3.8.tar.gz
+[2024-05-22 09:07:43] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2024-05-22 09:07:43] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/e7/6c/ce53912c80ebed3c42b4deee8a235150d9706b6948beb175618081c2fb09/unittestreport_yami-0.1.1.tar.gz
+[2024-05-22 09:07:43] INFO root fetch - processPackages [odoo14-addon-hr-utilization-report]: Downloading https://files.pythonhosted.org/packages/ea/69/77363fc84adb844871e94bfb4d13c7787acfda302ad528409a847b4d4142/odoo14_addon_hr_utilization_report-14.0.1.0.3.dev3-py3-none-any.whl
+[2024-05-22 09:07:43] INFO root fetch - processPackages [nb2workflow]: Downloading https://files.pythonhosted.org/packages/2f/4a/9716cb3189e1dce858fa737e50cd60c9dee030f82fbe62a49495486fe26e/nb2workflow-1.3.9.tar.gz
+[2024-05-22 09:07:43] INFO root fetch - processPackages [alq]: Downloading https://files.pythonhosted.org/packages/19/31/c5b87f2312f0b2578c60b29d2d9a18ba912c2efa6a2b64b460b6d7f8285e/alq-0.0.3-py3-none-any.whl
+[2024-05-22 09:07:43] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2024-05-22 09:07:43] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20240522/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/README.md --exclude *.pyd
+[2024-05-22 09:07:43] INFO root fetch - processPackages [pyntcli]: Downloading https://files.pythonhosted.org/packages/f3/7e/f2f0a8392fa0d7205246ce3365e45a7f8af54cecd21eb817b404bd6c8190/pyntcli-0.1.85-py3-none-any.whl
+[2024-05-22 09:07:43] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: Downloading https://files.pythonhosted.org/packages/27/55/9af125b62cc8e9956347e9ca40965085fd7420fb002e61790b3f2bf5de54/odoo14_addon_hr_timesheet_report-14.0.1.0.2.dev1-py3-none-any.whl
+[2024-05-22 09:07:43] INFO root fetch - processPackages [django_medilab_ds]: Downloading https://files.pythonhosted.org/packages/bf/ed/b8ff8cc22b3fd2f88ef6d9920d7647d87eae32244cbfacd2d7caf9f72fc1/django_medilab_ds-3.0.0.tar.gz
+[2024-05-22 09:07:43] INFO root fetch - processPackages [unittestreport-yami]: executing diffoscope
+[2024-05-22 09:07:43] INFO root fetch - processPackages [unittestreport-yami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unittestreport_yami-0.1.0.tar.gz tmp/unittestreport_yami-0.1.1.tar.gz --markdown 20240522/u/unittestreport-yami/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-22 09:07:44] INFO root fetch - processPackages [nb2workflow]: executing diffoscope
+[2024-05-22 09:07:44] INFO root fetch - processPackages [nb2workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb2workflow-1.3.8.tar.gz tmp/nb2workflow-1.3.9.tar.gz --markdown 20240522/n/nb2workflow/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-22 09:07:44] INFO root fetch - processPackages [odoo14-addon-hr-utilization-report]: executing diffoscope
+[2024-05-22 09:07:44] INFO root fetch - processPackages [odoo14-addon-hr-utilization-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_utilization_report-14.0.1.0.3.dev2-py3-none-any.whl.zip tmp/odoo14_addon_hr_utilization_report-14.0.1.0.3.dev3-py3-none-any.whl.zip --markdown 20240522/o/odoo14-addon-hr-utilization-report/14.0.1.0.3.dev2-14.0.1.0.3.dev3/README.md --exclude *.pyd
+[2024-05-22 09:07:44] INFO root fetch - processPackages [alq]: executing diffoscope
+[2024-05-22 09:07:44] INFO root fetch - processPackages [alq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alq-0.0.2-py3-none-any.whl.zip tmp/alq-0.0.3-py3-none-any.whl.zip --markdown 20240522/a/alq/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-22 09:07:44] INFO root fetch - processPackages [pyntcli]: executing diffoscope
+[2024-05-22 09:07:44] INFO root fetch - processPackages [pyntcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyntcli-0.1.84-py3-none-any.whl.zip tmp/pyntcli-0.1.85-py3-none-any.whl.zip --markdown 20240522/p/pyntcli/0.1.84-0.1.85/README.md --exclude *.pyd
+[2024-05-22 09:07:44] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: executing diffoscope
+[2024-05-22 09:07:44] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev9-py3-none-any.whl.zip tmp/odoo14_addon_hr_timesheet_report-14.0.1.0.2.dev1-py3-none-any.whl.zip --markdown 20240522/o/odoo14-addon-hr-timesheet-report/14.0.1.0.1.dev9-14.0.1.0.2.dev1/README.md --exclude *.pyd
+[2024-05-22 09:07:44] INFO root fetch - processPackages [django_medilab_ds]: executing diffoscope
+[2024-05-22 09:07:44] INFO root fetch - processPackages [django_medilab_ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-medilab_ds-1.0.1.tar.gz tmp/django_medilab_ds-3.0.0.tar.gz --markdown 20240522/d/django_medilab_ds/1.0.1-3.0.0/README.md --exclude *.pyd
+[2024-05-22 09:07:45] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2024-05-22 09:07:45] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2024-05-22 09:07:45] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2024-05-22 09:07:45] INFO root fetch - processPackages [alq]: Remove: archive file [/home/abi/fetcher/tmp/alq-0.0.2-py3-none-any.whl.zip]
+[2024-05-22 09:07:45] INFO root fetch - processPackages [alq]: Remove: archive file [/home/abi/fetcher/tmp/alq-0.0.3-py3-none-any.whl.zip]
+[2024-05-22 09:07:45] INFO root fetch - main [MainThread]: End processing [alq]: success
+[2024-05-22 09:07:45] INFO root fetch - processPackages [nb2workflow]: Remove: archive file [/home/abi/fetcher/tmp/nb2workflow-1.3.8.tar.gz]
+[2024-05-22 09:07:45] INFO root fetch - processPackages [nb2workflow]: Remove: archive file [/home/abi/fetcher/tmp/nb2workflow-1.3.9.tar.gz]
+[2024-05-22 09:07:45] INFO root fetch - main [MainThread]: End processing [nb2workflow]: success
+[2024-05-22 09:07:45] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_timesheet_report-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2024-05-22 09:07:45] INFO root fetch - processPackages [odoo14-addon-hr-timesheet-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_timesheet_report-14.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2024-05-22 09:07:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-timesheet-report]: success
+[2024-05-22 09:07:45] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.0.tar.gz]
+[2024-05-22 09:07:45] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.1.tar.gz]
+[2024-05-22 09:07:45] INFO root fetch - main [MainThread]: End processing [unittestreport-yami]: success
+[2024-05-22 09:07:45] INFO root fetch - processPackages [odoo14-addon-hr-utilization-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_utilization_report-14.0.1.0.3.dev2-py3-none-any.whl.zip]
+[2024-05-22 09:07:45] INFO root fetch - processPackages [odoo14-addon-hr-utilization-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_hr_utilization_report-14.0.1.0.3.dev3-py3-none-any.whl.zip]
+[2024-05-22 09:07:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-hr-utilization-report]: success
+[2024-05-22 09:07:45] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.84-py3-none-any.whl.zip]
+[2024-05-22 09:07:45] INFO root fetch - processPackages [pyntcli]: Remove: archive file [/home/abi/fetcher/tmp/pyntcli-0.1.85-py3-none-any.whl.zip]
+[2024-05-22 09:07:45] INFO root fetch - main [MainThread]: End processing [pyntcli]: success
+[2024-05-22 09:08:07] INFO root fetch - processPackages [django_medilab_ds]: Remove: archive file [/home/abi/fetcher/tmp/django-medilab_ds-1.0.1.tar.gz]
+[2024-05-22 09:08:07] INFO root fetch - processPackages [django_medilab_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_medilab_ds-3.0.0.tar.gz]
+[2024-05-22 09:08:07] INFO root fetch - main [MainThread]: End processing [django_medilab_ds]: success
+[2024-05-22 09:08:07] INFO root fetch - main [MainThread]: Store serial: [23320028]

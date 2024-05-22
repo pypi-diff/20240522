@@ -14454,3 +14454,77 @@
 [2024-05-22 09:28:51] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.5.6.10.44.50.tar.gz]
 [2024-05-22 09:28:51] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2024-05-22 09:28:51] INFO root fetch - main [MainThread]: Store serial: [23320201]
+[2024-05-22 09:30:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320201]
+[2024-05-22 09:31:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-22 09:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bencode-c
+[2024-05-22 09:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modelbase
+[2024-05-22 09:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HandyLLM
+[2024-05-22 09:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: signaturesnet
+[2024-05-22 09:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: internal-rdbms
+[2024-05-22 09:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wah
+[2024-05-22 09:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: efel
+[2024-05-22 09:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: data-ingestion-lib
+[2024-05-22 09:31:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: timeseriesflattener
+[2024-05-22 09:31:00] WARNING root fetch - processPackages [data-ingestion-lib]: Skipping, unable to determine old version
+[2024-05-22 09:31:00] INFO root fetch - main [MainThread]: End processing [data-ingestion-lib] error
+[2024-05-22 09:31:00] INFO root fetch - processPackages [bencode-c]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 09:31:00] INFO root fetch - processPackages [internal-rdbms]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-22 09:31:00] INFO root fetch - processPackages [signaturesnet]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-22 09:31:00] INFO root fetch - processPackages [efel]: New version: [5.6.9] Old Version: [5.6.8]
+[2024-05-22 09:31:00] INFO root fetch - processPackages [HandyLLM]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-22 09:31:00] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 09:31:00] INFO root fetch - processPackages [modelbase]: New version: [1rc2] Old Version: [1.9.3]
+[2024-05-22 09:31:00] INFO root fetch - processPackages [signaturesnet]: Downloading https://files.pythonhosted.org/packages/38/90/ae9ec30bda7bd0c60c9153192884c129f5848f68abf3c39489f0f95893d4/signaturesnet-0.0.6.tar.gz
+[2024-05-22 09:31:00] INFO root fetch - processPackages [timeseriesflattener]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-05-22 09:31:00] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/79/1e/31cbb4d223fa5779a1791b711bb7cd79f7dad2bf7ab6bce1a22e8e7c0d2f/efel-5.6.8.tar.gz
+[2024-05-22 09:31:00] INFO root fetch - processPackages [internal-rdbms]: Downloading https://files.pythonhosted.org/packages/85/fe/6f45f164e3655d5daacaa0fb0e70358adf953d850f0bcb652c47ba141b7a/internal_rdbms-0.1.2.tar.gz
+[2024-05-22 09:31:00] WARNING root fetch - processPackages [signaturesnet]: Skipping package: exceeds size limit 70688490>=10485760
+[2024-05-22 09:31:00] INFO root fetch - main [MainThread]: End processing [signaturesnet] error
+[2024-05-22 09:31:00] INFO root fetch - processPackages [bencode-c]: Downloading https://files.pythonhosted.org/packages/05/6a/9456cf8f95480e9b88c21ae29815d03d35588aa0bca46f4d4126cb085ece/bencode_c-0.0.8.tar.gz
+[2024-05-22 09:31:00] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/2d/60/61225a94c9e33f3d21366aefd4cdf1945c8805e3540a30f2fd1c5d8faa06/modelbase-1.9.3.tar.gz
+[2024-05-22 09:31:00] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-22 09:31:00] INFO root fetch - processPackages [HandyLLM]: Downloading https://files.pythonhosted.org/packages/b3/a6/72ff120f4662ffe2c3eecdd980bc33c7d34764c5b3b96f9775a7bd988dbf/handyllm-0.7.2.tar.gz
+[2024-05-22 09:31:01] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/1e/92/b7ed69f96cf15fdd5bb497d9b770adfb5c195a57e6a41ed90791f3f6d9ac/timeseriesflattener-2.2.4.tar.gz
+[2024-05-22 09:31:01] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/49/8d/514d183040a164204dbbc17e6552e3c6fba522bfada39777899423fa195d/efel-5.6.9.tar.gz
+[2024-05-22 09:31:01] INFO root fetch - processPackages [internal-rdbms]: Downloading https://files.pythonhosted.org/packages/8a/3c/889c685873a28baa4a11de60a92543e468c036b2e294b1fdc4ffbb50467d/internal_rdbms-0.1.3.tar.gz
+[2024-05-22 09:31:01] INFO root fetch - processPackages [bencode-c]: Downloading https://files.pythonhosted.org/packages/13/e9/f648f5710d23d050e7ab3d22b48c68b1224994488bc8942ef7316a9808bb/bencode_c-0.0.9.tar.gz
+[2024-05-22 09:31:01] INFO root fetch - processPackages [efel]: executing diffoscope
+[2024-05-22 09:31:01] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-5.6.8.tar.gz tmp/efel-5.6.9.tar.gz --markdown 20240522/e/efel/5.6.8-5.6.9/README.md --exclude *.pyd
+[2024-05-22 09:31:01] INFO root fetch - processPackages [HandyLLM]: Downloading https://files.pythonhosted.org/packages/12/1d/10f7fdbadaf0bbe8d49871a07a1210669d40a474866e1601f9b15a1076c7/handyllm-0.7.3.tar.gz
+[2024-05-22 09:31:01] INFO root fetch - processPackages [modelbase]: Downloading https://files.pythonhosted.org/packages/50/e2/d6e4b5bb8eda18f7221f3af4d4f295ef693f37fbafe88e68574e7e39c29f/modelbase-1rc2.tar.gz
+[2024-05-22 09:31:01] INFO root fetch - processPackages [bencode-c]: executing diffoscope
+[2024-05-22 09:31:01] INFO root fetch - processPackages [bencode-c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bencode_c-0.0.8.tar.gz tmp/bencode_c-0.0.9.tar.gz --markdown 20240522/b/bencode-c/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 09:31:01] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-22 09:31:01] INFO root fetch - processPackages [internal-rdbms]: executing diffoscope
+[2024-05-22 09:31:01] INFO root fetch - processPackages [internal-rdbms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internal_rdbms-0.1.2.tar.gz tmp/internal_rdbms-0.1.3.tar.gz --markdown 20240522/i/internal-rdbms/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-22 09:31:01] INFO root fetch - processPackages [HandyLLM]: executing diffoscope
+[2024-05-22 09:31:01] INFO root fetch - processPackages [HandyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/handyllm-0.7.2.tar.gz tmp/handyllm-0.7.3.tar.gz --markdown 20240522/H/HandyLLM/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-22 09:31:01] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-22 09:31:01] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240522/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 09:31:01] INFO root fetch - processPackages [modelbase]: executing diffoscope
+[2024-05-22 09:31:01] INFO root fetch - processPackages [modelbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbase-1.9.3.tar.gz tmp/modelbase-1rc2.tar.gz --markdown 20240522/m/modelbase/1.9.3-1rc2/README.md --exclude *.pyd
+[2024-05-22 09:31:01] INFO root fetch - processPackages [timeseriesflattener]: Downloading https://files.pythonhosted.org/packages/9c/b5/a8d71aa1da3a575d22cfb808199438afe08338718ce25ffd0e2b14d84cf0/timeseriesflattener-2.2.5.tar.gz
+[2024-05-22 09:31:02] INFO root fetch - processPackages [bencode-c]: Remove: archive file [/home/abi/fetcher/tmp/bencode_c-0.0.8.tar.gz]
+[2024-05-22 09:31:02] INFO root fetch - processPackages [bencode-c]: Remove: archive file [/home/abi/fetcher/tmp/bencode_c-0.0.9.tar.gz]
+[2024-05-22 09:31:02] INFO root fetch - main [MainThread]: End processing [bencode-c]: success
+[2024-05-22 09:31:02] INFO root fetch - processPackages [internal-rdbms]: Remove: archive file [/home/abi/fetcher/tmp/internal_rdbms-0.1.2.tar.gz]
+[2024-05-22 09:31:02] INFO root fetch - processPackages [internal-rdbms]: Remove: archive file [/home/abi/fetcher/tmp/internal_rdbms-0.1.3.tar.gz]
+[2024-05-22 09:31:02] INFO root fetch - main [MainThread]: End processing [internal-rdbms]: success
+[2024-05-22 09:31:02] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-22 09:31:02] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-22 09:31:02] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-22 09:31:02] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.8.tar.gz]
+[2024-05-22 09:31:02] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.6.9.tar.gz]
+[2024-05-22 09:31:02] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2024-05-22 09:31:02] INFO root fetch - processPackages [HandyLLM]: Remove: archive file [/home/abi/fetcher/tmp/handyllm-0.7.2.tar.gz]
+[2024-05-22 09:31:02] INFO root fetch - processPackages [HandyLLM]: Remove: archive file [/home/abi/fetcher/tmp/handyllm-0.7.3.tar.gz]
+[2024-05-22 09:31:02] INFO root fetch - main [MainThread]: End processing [HandyLLM]: success
+[2024-05-22 09:31:02] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1.9.3.tar.gz]
+[2024-05-22 09:31:02] INFO root fetch - processPackages [modelbase]: Remove: archive file [/home/abi/fetcher/tmp/modelbase-1rc2.tar.gz]
+[2024-05-22 09:31:02] INFO root fetch - main [MainThread]: End processing [modelbase]: success
+[2024-05-22 09:31:03] INFO root fetch - processPackages [timeseriesflattener]: executing diffoscope
+[2024-05-22 09:31:03] INFO root fetch - processPackages [timeseriesflattener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeseriesflattener-2.2.4.tar.gz tmp/timeseriesflattener-2.2.5.tar.gz --markdown 20240522/t/timeseriesflattener/2.2.4-2.2.5/README.md --exclude *.pyd
+[2024-05-22 09:31:05] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-2.2.4.tar.gz]
+[2024-05-22 09:31:05] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-2.2.5.tar.gz]
+[2024-05-22 09:31:05] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
+[2024-05-22 09:31:05] INFO root fetch - main [MainThread]: Store serial: [23320236]

@@ -16360,3 +16360,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:37:17] INFO root fetch - processPackages [json-arrays]: Remove: archive file [/home/abi/fetcher/tmp/json_arrays-0.15.0.tar.gz]
 [2024-05-22 10:37:17] INFO root fetch - main [MainThread]: End processing [json-arrays]: success
 [2024-05-22 10:37:17] INFO root fetch - main [MainThread]: Store serial: [23320972]
+[2024-05-22 10:39:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320972]
+[2024-05-22 10:39:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 10:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LbNightlyTools
+[2024-05-22 10:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: go-console
+[2024-05-22 10:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kuzu
+[2024-05-22 10:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fredtools
+[2024-05-22 10:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: massmarket-hash-event
+[2024-05-22 10:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: udirect
+[2024-05-22 10:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chatllm
+[2024-05-22 10:39:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: internal-rdbms
+[2024-05-22 10:39:26] INFO root fetch - processPackages [go-console]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-22 10:39:26] INFO root fetch - processPackages [udirect]: New version: [0.1.4.dev2] Old Version: [0.1.4.dev1]
+[2024-05-22 10:39:26] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-22 10:39:26] INFO root fetch - processPackages [internal-rdbms]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-22 10:39:26] INFO root fetch - processPackages [kuzu]: New version: [0.4.3.dev7] Old Version: [0.4.3.dev6]
+[2024-05-22 10:39:26] INFO root fetch - processPackages [go-console]: Downloading https://files.pythonhosted.org/packages/f5/59/2a2d9a33a8af7b161d6e4e3d68729cbb66eaf9c05d4dffdb45c30e6372b9/go_console-0.0.3.tar.gz
+[2024-05-22 10:39:26] INFO root fetch - processPackages [fredtools]: New version: [0.7.9] Old Version: [0.7.5]
+[2024-05-22 10:39:26] INFO root fetch - processPackages [massmarket-hash-event]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-22 10:39:26] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/c2/2b/edc218dab88a44ea956201794c39f326adf4194f22fd30bd6a260de200b3/udirect-0.1.4.dev1.tar.gz
+[2024-05-22 10:39:26] INFO root fetch - processPackages [LbNightlyTools]: New version: [4.0.8] Old Version: [4.0.7]
+[2024-05-22 10:39:26] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-22 10:39:26] INFO root fetch - processPackages [internal-rdbms]: Downloading https://files.pythonhosted.org/packages/8a/3c/889c685873a28baa4a11de60a92543e468c036b2e294b1fdc4ffbb50467d/internal_rdbms-0.1.3.tar.gz
+[2024-05-22 10:39:26] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/fd/f5/baae8217f0548053d6ab4d832ace7f30b5e7c21e5651b245253bb97d743d/kuzu-0.4.3.dev6.tar.gz
+[2024-05-22 10:39:26] INFO root fetch - processPackages [massmarket-hash-event]: Downloading https://files.pythonhosted.org/packages/ae/2c/a86d6d4ad7f807d58ba30dc5cdf886992c53893df649ebf482a485603742/massmarket_hash_event-0.1.4.tar.gz
+[2024-05-22 10:39:26] INFO root fetch - processPackages [fredtools]: Downloading https://files.pythonhosted.org/packages/0b/f2/16c7a8817ae39c1e1c94a644e2f4be44c4a936895d220ce779dee7353026/fredtools-0.7.5-py3-none-any.whl
+[2024-05-22 10:39:26] INFO root fetch - processPackages [LbNightlyTools]: Downloading https://files.pythonhosted.org/packages/3f/4a/f7a8943f780a5249ba45b3de98e731bd15f7d349572624e81f8a5cdf7ebf/LbNightlyTools-4.0.7.tar.gz
+[2024-05-22 10:39:26] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-22 10:39:26] INFO root fetch - processPackages [go-console]: Downloading https://files.pythonhosted.org/packages/0a/e4/58bcbdd8dc02d56c93c8ff45df37633c47030f36283447aacf1510e0860a/go_console-0.0.4.tar.gz
+[2024-05-22 10:39:26] INFO root fetch - processPackages [internal-rdbms]: Downloading https://files.pythonhosted.org/packages/3b/7e/c50ab9aa94f8f8728dd4205388118d48d35c0b1fc31c71e559516b4ace5f/internal_rdbms-0.1.4.tar.gz
+[2024-05-22 10:39:26] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-22 10:39:26] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240522/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-22 10:39:26] INFO root fetch - processPackages [go-console]: executing diffoscope
+[2024-05-22 10:39:26] INFO root fetch - processPackages [go-console]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/go_console-0.0.3.tar.gz tmp/go_console-0.0.4.tar.gz --markdown 20240522/g/go-console/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-22 10:39:26] INFO root fetch - processPackages [internal-rdbms]: executing diffoscope
+[2024-05-22 10:39:26] INFO root fetch - processPackages [internal-rdbms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internal_rdbms-0.1.3.tar.gz tmp/internal_rdbms-0.1.4.tar.gz --markdown 20240522/i/internal-rdbms/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-22 10:39:27] INFO root fetch - processPackages [massmarket-hash-event]: Downloading https://files.pythonhosted.org/packages/bb/20/abe29d1a7090a27942d561a017cb03bc54c866fbfa013b3b78b0298d9f38/massmarket_hash_event-0.1.5.tar.gz
+[2024-05-22 10:39:27] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/3c/a6/d0beb3a589469224227e940acf3201cb853df507dec24217b501cc02630c/udirect-0.1.4.dev2.tar.gz
+[2024-05-22 10:39:27] INFO root fetch - processPackages [massmarket-hash-event]: executing diffoscope
+[2024-05-22 10:39:27] INFO root fetch - processPackages [massmarket-hash-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/massmarket_hash_event-0.1.4.tar.gz tmp/massmarket_hash_event-0.1.5.tar.gz --markdown 20240522/m/massmarket-hash-event/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-22 10:39:27] INFO root fetch - processPackages [fredtools]: Downloading https://files.pythonhosted.org/packages/e3/1d/f83ed3bd9d9483815b7b2af8c68848a9cabd0aebc8459473d9e10c3a1dde/fredtools-0.7.9-py3-none-any.whl
+[2024-05-22 10:39:27] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/48/01/c567ccdf118bf45f572200942db2467b33eddb7e893d1b3f769ac4772571/kuzu-0.4.3.dev7.tar.gz
+[2024-05-22 10:39:27] INFO root fetch - processPackages [LbNightlyTools]: Downloading https://files.pythonhosted.org/packages/8b/a7/e04ac6788f3fb811ef51317fe8e855dff7e01c361362e4580ef40a592512/LbNightlyTools-4.0.8.tar.gz
+[2024-05-22 10:39:27] INFO root fetch - processPackages [fredtools]: executing diffoscope
+[2024-05-22 10:39:27] INFO root fetch - processPackages [fredtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fredtools-0.7.5-py3-none-any.whl.zip tmp/fredtools-0.7.9-py3-none-any.whl.zip --markdown 20240522/f/fredtools/0.7.5-0.7.9/README.md --exclude *.pyd
+[2024-05-22 10:39:27] INFO root fetch - processPackages [udirect]: executing diffoscope
+[2024-05-22 10:39:27] INFO root fetch - processPackages [udirect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udirect-0.1.4.dev1.tar.gz tmp/udirect-0.1.4.dev2.tar.gz --markdown 20240522/u/udirect/0.1.4.dev1-0.1.4.dev2/README.md --exclude *.pyd
+[2024-05-22 10:39:27] INFO root fetch - processPackages [LbNightlyTools]: executing diffoscope
+[2024-05-22 10:39:27] INFO root fetch - processPackages [LbNightlyTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbNightlyTools-4.0.7.tar.gz tmp/LbNightlyTools-4.0.8.tar.gz --markdown 20240522/L/LbNightlyTools/4.0.7-4.0.8/README.md --exclude *.pyd
+[2024-05-22 10:39:27] INFO root fetch - processPackages [go-console]: Remove: archive file [/home/abi/fetcher/tmp/go_console-0.0.3.tar.gz]
+[2024-05-22 10:39:27] INFO root fetch - processPackages [go-console]: Remove: archive file [/home/abi/fetcher/tmp/go_console-0.0.4.tar.gz]
+[2024-05-22 10:39:27] INFO root fetch - main [MainThread]: End processing [go-console]: success
+[2024-05-22 10:39:27] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-05-22 10:39:27] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.4.3.dev6.tar.gz tmp/kuzu-0.4.3.dev7.tar.gz --markdown 20240522/k/kuzu/0.4.3.dev6-0.4.3.dev7/README.md --exclude *.pyd
+[2024-05-22 10:39:27] INFO root fetch - processPackages [internal-rdbms]: Remove: archive file [/home/abi/fetcher/tmp/internal_rdbms-0.1.3.tar.gz]
+[2024-05-22 10:39:27] INFO root fetch - processPackages [internal-rdbms]: Remove: archive file [/home/abi/fetcher/tmp/internal_rdbms-0.1.4.tar.gz]
+[2024-05-22 10:39:27] INFO root fetch - main [MainThread]: End processing [internal-rdbms]: success
+[2024-05-22 10:39:28] INFO root fetch - processPackages [massmarket-hash-event]: Remove: archive file [/home/abi/fetcher/tmp/massmarket_hash_event-0.1.4.tar.gz]
+[2024-05-22 10:39:28] INFO root fetch - processPackages [massmarket-hash-event]: Remove: archive file [/home/abi/fetcher/tmp/massmarket_hash_event-0.1.5.tar.gz]
+[2024-05-22 10:39:28] INFO root fetch - main [MainThread]: End processing [massmarket-hash-event]: success
+[2024-05-22 10:39:28] INFO root fetch - processPackages [fredtools]: Remove: archive file [/home/abi/fetcher/tmp/fredtools-0.7.5-py3-none-any.whl.zip]
+[2024-05-22 10:39:28] INFO root fetch - processPackages [fredtools]: Remove: archive file [/home/abi/fetcher/tmp/fredtools-0.7.9-py3-none-any.whl.zip]
+[2024-05-22 10:39:28] INFO root fetch - main [MainThread]: End processing [fredtools]: success
+[2024-05-22 10:39:28] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-22 10:39:28] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-22 10:39:28] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-22 10:39:28] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev1.tar.gz]
+[2024-05-22 10:39:28] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev2.tar.gz]
+[2024-05-22 10:39:28] INFO root fetch - main [MainThread]: End processing [udirect]: success
+[2024-05-22 10:39:29] INFO root fetch - processPackages [LbNightlyTools]: Remove: archive file [/home/abi/fetcher/tmp/LbNightlyTools-4.0.7.tar.gz]
+[2024-05-22 10:39:29] INFO root fetch - processPackages [LbNightlyTools]: Remove: archive file [/home/abi/fetcher/tmp/LbNightlyTools-4.0.8.tar.gz]
+[2024-05-22 10:39:29] INFO root fetch - main [MainThread]: End processing [LbNightlyTools]: success
+[2024-05-22 10:39:34] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev6.tar.gz]
+[2024-05-22 10:39:34] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev7.tar.gz]
+[2024-05-22 10:39:34] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-05-22 10:39:34] INFO root fetch - main [MainThread]: Store serial: [23321022]

@@ -9344,3 +9344,63 @@
 [2024-05-22 05:00:15] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.9.1.tar.gz]
 [2024-05-22 05:00:15] INFO root fetch - main [MainThread]: End processing [commitizen]: success
 [2024-05-22 05:00:15] INFO root fetch - main [MainThread]: Store serial: [23317963]
+[2024-05-22 05:02:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317963]
+[2024-05-22 05:02:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 05:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tdewolff-minify
+[2024-05-22 05:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-payment-term-extension
+[2024-05-22 05:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-due-list
+[2024-05-22 05:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: advanced-alchemy
+[2024-05-22 05:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: model-explorer-onnx
+[2024-05-22 05:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: my-app-darvin
+[2024-05-22 05:02:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openi
+[2024-05-22 05:02:24] INFO root fetch - processPackages [odoo-addon-account-due-list]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-05-22 05:02:24] INFO root fetch - processPackages [model-explorer-onnx]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-22 05:02:24] INFO root fetch - processPackages [openi]: New version: [2.0.0b0] Old Version: [1.3.1b1]
+[2024-05-22 05:02:24] INFO root fetch - processPackages [odoo-addon-account-payment-term-extension]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.2]
+[2024-05-22 05:02:24] WARNING root fetch - processPackages [my-app-darvin]: Skipping, unable to determine old version
+[2024-05-22 05:02:24] INFO root fetch - main [MainThread]: End processing [my-app-darvin] error
+[2024-05-22 05:02:24] INFO root fetch - processPackages [advanced-alchemy]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-05-22 05:02:24] INFO root fetch - processPackages [tdewolff-minify]: New version: [2.20.9] Old Version: [2.20.8]
+[2024-05-22 05:02:24] INFO root fetch - processPackages [odoo-addon-account-due-list]: Downloading https://files.pythonhosted.org/packages/8b/6f/0b961ea4799bac08efea04719aae0cac47c9be0d314f7cf917a0b8f525f6/odoo_addon_account_due_list-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-22 05:02:24] INFO root fetch - processPackages [odoo-addon-account-payment-term-extension]: Downloading https://files.pythonhosted.org/packages/7c/55/d993b3e42776417817b35c403fdfe950887ef7abc599de30b00a0f5c41a6/odoo_addon_account_payment_term_extension-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-22 05:02:24] INFO root fetch - processPackages [model-explorer-onnx]: Downloading https://files.pythonhosted.org/packages/fd/79/09e4b49cd20b244d9d1c71d3c54af9b234d35ca91f076c88a8f5ff43e7dd/model_explorer_onnx-0.2.3.tar.gz
+[2024-05-22 05:02:24] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/6e/41/6b47bf5f45bcb75dac2012bd1feceb824b2b206a468f8f99befaf7fa2f5b/openi-1.3.1b1.tar.gz
+[2024-05-22 05:02:24] INFO root fetch - processPackages [tdewolff-minify]: Downloading https://files.pythonhosted.org/packages/e4/1b/0a65b34a8c7a9726ea7deedcb0ad0fd582d8696ba036fef7b57f6cd8713b/tdewolff-minify-2.20.8.tar.gz
+[2024-05-22 05:02:24] INFO root fetch - processPackages [advanced-alchemy]: Downloading https://files.pythonhosted.org/packages/87/66/b25442c0473b40aaa229ae6a52887a10cf4c7fc0d63ff1eb9a35a7301afb/advanced_alchemy-0.9.3.tar.gz
+[2024-05-22 05:02:24] INFO root fetch - processPackages [model-explorer-onnx]: Downloading https://files.pythonhosted.org/packages/10/38/5a3e5ddbfbf91db41761047c3870a20dfaff516f4d583f19e9305f878057/model_explorer_onnx-0.2.4.tar.gz
+[2024-05-22 05:02:24] INFO root fetch - processPackages [openi]: Downloading https://files.pythonhosted.org/packages/fb/52/28023e6106343a13e6e64c368f05f1df9f04e21e5e2f6cd79c7dd8416067/openi-2.0.0b0.tar.gz
+[2024-05-22 05:02:24] INFO root fetch - processPackages [tdewolff-minify]: Downloading https://files.pythonhosted.org/packages/79/11/e1027616b69b204ce1002f4d469e36223f120c33c60bba0ce6f53def6623/tdewolff-minify-2.20.9.tar.gz
+[2024-05-22 05:02:24] INFO root fetch - processPackages [odoo-addon-account-due-list]: Downloading https://files.pythonhosted.org/packages/76/b0/5e7ba5163649f071f7e8401b523d2de0926f54232442d15864086fca300a/odoo_addon_account_due_list-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-22 05:02:24] INFO root fetch - processPackages [model-explorer-onnx]: executing diffoscope
+[2024-05-22 05:02:24] INFO root fetch - processPackages [model-explorer-onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_explorer_onnx-0.2.3.tar.gz tmp/model_explorer_onnx-0.2.4.tar.gz --markdown 20240522/m/model-explorer-onnx/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-22 05:02:24] INFO root fetch - processPackages [advanced-alchemy]: Downloading https://files.pythonhosted.org/packages/cd/c2/a72c3fdf3163b7603c25147dccf082e5e8e908cea6e547fde1182dcf56f1/advanced_alchemy-0.9.4.tar.gz
+[2024-05-22 05:02:25] INFO root fetch - processPackages [odoo-addon-account-payment-term-extension]: Downloading https://files.pythonhosted.org/packages/1d/58/203a9067677d7a7cd750223487823ebcadcaac5eb014b3878a8117311e19/odoo_addon_account_payment_term_extension-17.0.1.0.1-py3-none-any.whl
+[2024-05-22 05:02:25] INFO root fetch - processPackages [openi]: executing diffoscope
+[2024-05-22 05:02:25] INFO root fetch - processPackages [openi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openi-1.3.1b1.tar.gz tmp/openi-2.0.0b0.tar.gz --markdown 20240522/o/openi/1.3.1b1-2.0.0b0/README.md --exclude *.pyd
+[2024-05-22 05:02:25] INFO root fetch - processPackages [odoo-addon-account-due-list]: executing diffoscope
+[2024-05-22 05:02:25] INFO root fetch - processPackages [odoo-addon-account-due-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_due_list-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_due_list-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-account-due-list/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-22 05:02:25] INFO root fetch - processPackages [advanced-alchemy]: executing diffoscope
+[2024-05-22 05:02:25] INFO root fetch - processPackages [advanced-alchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced_alchemy-0.9.3.tar.gz tmp/advanced_alchemy-0.9.4.tar.gz --markdown 20240522/a/advanced-alchemy/0.9.3-0.9.4/README.md --exclude *.pyd
+[2024-05-22 05:02:25] INFO root fetch - processPackages [tdewolff-minify]: executing diffoscope
+[2024-05-22 05:02:25] INFO root fetch - processPackages [tdewolff-minify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdewolff-minify-2.20.8.tar.gz tmp/tdewolff-minify-2.20.9.tar.gz --markdown 20240522/t/tdewolff-minify/2.20.8-2.20.9/README.md --exclude *.pyd
+[2024-05-22 05:02:25] INFO root fetch - processPackages [odoo-addon-account-payment-term-extension]: executing diffoscope
+[2024-05-22 05:02:25] INFO root fetch - processPackages [odoo-addon-account-payment-term-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_term_extension-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_payment_term_extension-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-account-payment-term-extension/17.0.1.0.0.2-17.0.1.0.1/README.md --exclude *.pyd
+[2024-05-22 05:02:25] INFO root fetch - processPackages [model-explorer-onnx]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer_onnx-0.2.3.tar.gz]
+[2024-05-22 05:02:25] INFO root fetch - processPackages [model-explorer-onnx]: Remove: archive file [/home/abi/fetcher/tmp/model_explorer_onnx-0.2.4.tar.gz]
+[2024-05-22 05:02:25] INFO root fetch - main [MainThread]: End processing [model-explorer-onnx]: success
+[2024-05-22 05:02:25] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-1.3.1b1.tar.gz]
+[2024-05-22 05:02:25] INFO root fetch - processPackages [openi]: Remove: archive file [/home/abi/fetcher/tmp/openi-2.0.0b0.tar.gz]
+[2024-05-22 05:02:25] INFO root fetch - main [MainThread]: End processing [openi]: success
+[2024-05-22 05:02:25] INFO root fetch - processPackages [odoo-addon-account-due-list]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_due_list-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-22 05:02:25] INFO root fetch - processPackages [odoo-addon-account-due-list]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_due_list-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-22 05:02:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-due-list]: success
+[2024-05-22 05:02:25] INFO root fetch - processPackages [tdewolff-minify]: Remove: archive file [/home/abi/fetcher/tmp/tdewolff-minify-2.20.8.tar.gz]
+[2024-05-22 05:02:25] INFO root fetch - processPackages [tdewolff-minify]: Remove: archive file [/home/abi/fetcher/tmp/tdewolff-minify-2.20.9.tar.gz]
+[2024-05-22 05:02:26] INFO root fetch - main [MainThread]: End processing [tdewolff-minify]: success
+[2024-05-22 05:02:26] INFO root fetch - processPackages [odoo-addon-account-payment-term-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_term_extension-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-22 05:02:26] INFO root fetch - processPackages [odoo-addon-account-payment-term-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_term_extension-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-22 05:02:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-term-extension]: success
+[2024-05-22 05:02:26] INFO root fetch - processPackages [advanced-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/advanced_alchemy-0.9.3.tar.gz]
+[2024-05-22 05:02:26] INFO root fetch - processPackages [advanced-alchemy]: Remove: archive file [/home/abi/fetcher/tmp/advanced_alchemy-0.9.4.tar.gz]
+[2024-05-22 05:02:26] INFO root fetch - main [MainThread]: End processing [advanced-alchemy]: success
+[2024-05-22 05:02:26] INFO root fetch - main [MainThread]: Store serial: [23318042]

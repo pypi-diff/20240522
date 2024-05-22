@@ -23106,3 +23106,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 14:36:15] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240522110335.tar.gz]
 [2024-05-22 14:36:15] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-22 14:36:15] INFO root fetch - main [MainThread]: Store serial: [23324028]
+[2024-05-22 14:38:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23324028]
+[2024-05-22 14:38:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-22 14:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yfiles-jupyter-graphs-for-neo4j
+[2024-05-22 14:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smaht-submitr
+[2024-05-22 14:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apify-client
+[2024-05-22 14:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nostr-sdk
+[2024-05-22 14:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypush
+[2024-05-22 14:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyschwab
+[2024-05-22 14:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: appbuilder-sdk
+[2024-05-22 14:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oxaigen
+[2024-05-22 14:38:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: EmLiLetter
+[2024-05-22 14:38:25] INFO root fetch - processPackages [pyschwab]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2024-05-22 14:38:25] INFO root fetch - processPackages [nostr-sdk]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-22 14:38:25] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.2.1b9] Old Version: [0.8.2.1b8]
+[2024-05-22 14:38:25] INFO root fetch - processPackages [appbuilder-sdk]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-22 14:38:25] INFO root fetch - processPackages [yfiles-jupyter-graphs-for-neo4j]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-22 14:38:25] INFO root fetch - processPackages [pypush]: New version: [2.0.0] Old Version: [1.3]
+[2024-05-22 14:38:25] INFO root fetch - processPackages [pyschwab]: Downloading https://files.pythonhosted.org/packages/c3/6c/82e1b28b90b3538a9eabb3f632b4715e03c1d12166162a84f52f9ee46594/pyschwab-0.0.1a1.tar.gz
+[2024-05-22 14:38:25] INFO root fetch - processPackages [EmLiLetter]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-22 14:38:25] INFO root fetch - processPackages [apify-client]: New version: [1.7.1b2] Old Version: [1.7.1b1]
+[2024-05-22 14:38:25] INFO root fetch - processPackages [oxaigen]: New version: [0.0.0.3] Old Version: [0.0.0.2]
+[2024-05-22 14:38:25] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/94/70/b34d2d34c394fc3e3b347e32bec8900b8b8643db5842d59991c4e84ea528/smaht_submitr-0.8.2.1b8.tar.gz
+[2024-05-22 14:38:25] INFO root fetch - processPackages [nostr-sdk]: Downloading https://files.pythonhosted.org/packages/18/20/a0def81023c65190602c26ff8800446cffd0df738dbdb90b104e55747a96/nostr_sdk-0.9.0-cp39-cp39-win_amd64.whl
+[2024-05-22 14:38:25] INFO root fetch - processPackages [appbuilder-sdk]: Downloading https://files.pythonhosted.org/packages/27/df/e85fa9777b6a4571cc2eed6c85b60c7f071dcd9eae0cf8b2d1b233d80fe8/appbuilder_sdk-0.7.0-py3-none-any.whl
+[2024-05-22 14:38:25] INFO root fetch - processPackages [yfiles-jupyter-graphs-for-neo4j]: Downloading https://files.pythonhosted.org/packages/02/be/6d39d225f62788724fa290d17152c498c643eb957bb2d89acdbc9fa6a554/yfiles_jupyter_graphs_for_neo4j-1.0.0.tar.gz
+[2024-05-22 14:38:25] INFO root fetch - processPackages [pypush]: Downloading https://files.pythonhosted.org/packages/d5/84/71f43d6c96cdec97095a8c3d9f56f557b8a03dc301775f735561d053040a/pypush-1.3.tar.gz
+[2024-05-22 14:38:25] INFO root fetch - processPackages [pyschwab]: Downloading https://files.pythonhosted.org/packages/cd/e4/95305f460c3a7966ce6a7edc5dbe496c2ae402c833be526a46547fc20071/pyschwab-0.0.1a2.tar.gz
+[2024-05-22 14:38:25] INFO root fetch - processPackages [EmLiLetter]: Downloading https://files.pythonhosted.org/packages/7b/c8/b088ab4044016bf5007666ea9e2cbd849e00f76e8e251dde4039a35e8731/EmLiLetter-0.0.2.tar.gz
+[2024-05-22 14:38:25] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/49/5f/4a0cbcc953b126fd89e8d3c5beafcab7cf195845995d05395f40952ad23c/smaht_submitr-0.8.2.1b9.tar.gz
+[2024-05-22 14:38:25] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/b4/10/514a53c007cd8bc2209fdf5b3a087ac9342febac61ef4a955d2fddc12fad/apify_client-1.7.1b1.tar.gz
+[2024-05-22 14:38:25] INFO root fetch - processPackages [oxaigen]: Downloading https://files.pythonhosted.org/packages/bd/39/72820026abd07f4535b1b133b93b84ce7f8c0c6738a73550f1c0821e99f6/oxaigen-0.0.0.2.tar.gz
+[2024-05-22 14:38:25] INFO root fetch - processPackages [pyschwab]: executing diffoscope
+[2024-05-22 14:38:25] INFO root fetch - processPackages [pyschwab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyschwab-0.0.1a1.tar.gz tmp/pyschwab-0.0.1a2.tar.gz --markdown 20240522/p/pyschwab/0.0.1a1-0.0.1a2/README.md --exclude *.pyd
+[2024-05-22 14:38:25] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-05-22 14:38:25] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.2.1b8.tar.gz tmp/smaht_submitr-0.8.2.1b9.tar.gz --markdown 20240522/s/smaht-submitr/0.8.2.1b8-0.8.2.1b9/README.md --exclude *.pyd
+[2024-05-22 14:38:25] INFO root fetch - processPackages [yfiles-jupyter-graphs-for-neo4j]: Downloading https://files.pythonhosted.org/packages/27/d0/55b0145b3fee17f2727cc519d0f089f7f1ba644d209db55115a2edaf2af9/yfiles_jupyter_graphs_for_neo4j-1.1.0.tar.gz
+[2024-05-22 14:38:26] INFO root fetch - processPackages [pypush]: Downloading https://files.pythonhosted.org/packages/8f/38/5c5bd32dfa873c10177081857c845774af6f6649645ae76a81e0a5e70fb6/pypush-2.0.0.tar.gz
+[2024-05-22 14:38:26] INFO root fetch - processPackages [apify-client]: Downloading https://files.pythonhosted.org/packages/95/c8/7d88edc36096ff5e46cc4bc83d56d7bf1b411e12bbcfe84de21964db9449/apify_client-1.7.1b2.tar.gz
+[2024-05-22 14:38:26] INFO root fetch - processPackages [EmLiLetter]: Downloading https://files.pythonhosted.org/packages/bb/cd/d4c220ad3120d047fca7ebe8ff00dfe35f6b49658f4e7e8d57fbc5373d12/EmLiLetter-0.0.3.tar.gz
+[2024-05-22 14:38:26] INFO root fetch - processPackages [oxaigen]: Downloading https://files.pythonhosted.org/packages/fd/9d/7a3efbef6093f9c218e5ffd3eba8cd4bdc9ef1abfdd11a6a78a99b02ff2a/oxaigen-0.0.0.3.tar.gz
+[2024-05-22 14:38:26] INFO root fetch - processPackages [appbuilder-sdk]: Downloading https://files.pythonhosted.org/packages/01/43/489df2d81b323a95f35e66beb2590e0727d48ebcafc7b53a86473fe1533a/appbuilder_sdk-0.7.1-py3-none-any.whl
+[2024-05-22 14:38:26] INFO root fetch - processPackages [yfiles-jupyter-graphs-for-neo4j]: executing diffoscope
+[2024-05-22 14:38:26] INFO root fetch - processPackages [yfiles-jupyter-graphs-for-neo4j]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yfiles_jupyter_graphs_for_neo4j-1.0.0.tar.gz tmp/yfiles_jupyter_graphs_for_neo4j-1.1.0.tar.gz --markdown 20240522/y/yfiles-jupyter-graphs-for-neo4j/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-22 14:38:26] INFO root fetch - processPackages [pypush]: executing diffoscope
+[2024-05-22 14:38:26] INFO root fetch - processPackages [pypush]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypush-1.3.tar.gz tmp/pypush-2.0.0.tar.gz --markdown 20240522/p/pypush/1.3-2.0.0/README.md --exclude *.pyd
+[2024-05-22 14:38:26] INFO root fetch - processPackages [apify-client]: executing diffoscope
+[2024-05-22 14:38:26] INFO root fetch - processPackages [apify-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apify_client-1.7.1b1.tar.gz tmp/apify_client-1.7.1b2.tar.gz --markdown 20240522/a/apify-client/1.7.1b1-1.7.1b2/README.md --exclude *.pyd
+[2024-05-22 14:38:26] INFO root fetch - processPackages [appbuilder-sdk]: executing diffoscope
+[2024-05-22 14:38:26] INFO root fetch - processPackages [appbuilder-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appbuilder_sdk-0.7.0-py3-none-any.whl.zip tmp/appbuilder_sdk-0.7.1-py3-none-any.whl.zip --markdown 20240522/a/appbuilder-sdk/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-22 14:38:26] INFO root fetch - processPackages [oxaigen]: executing diffoscope
+[2024-05-22 14:38:26] INFO root fetch - processPackages [EmLiLetter]: executing diffoscope
+[2024-05-22 14:38:26] INFO root fetch - processPackages [EmLiLetter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EmLiLetter-0.0.2.tar.gz tmp/EmLiLetter-0.0.3.tar.gz --markdown 20240522/E/EmLiLetter/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-22 14:38:26] INFO root fetch - processPackages [oxaigen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxaigen-0.0.0.2.tar.gz tmp/oxaigen-0.0.0.3.tar.gz --markdown 20240522/o/oxaigen/0.0.0.2-0.0.0.3/README.md --exclude *.pyd
+[2024-05-22 14:38:26] INFO root fetch - processPackages [nostr-sdk]: Downloading https://files.pythonhosted.org/packages/33/44/d8f996143a17071a539eb75c0bfaffcb2336e40e14d238b4bc1eb2e47309/nostr_sdk-0.9.1-cp39-cp39-win_amd64.whl
+[2024-05-22 14:38:26] INFO root fetch - processPackages [pyschwab]: Remove: archive file [/home/abi/fetcher/tmp/pyschwab-0.0.1a1.tar.gz]
+[2024-05-22 14:38:26] INFO root fetch - processPackages [pyschwab]: Remove: archive file [/home/abi/fetcher/tmp/pyschwab-0.0.1a2.tar.gz]
+[2024-05-22 14:38:26] INFO root fetch - main [MainThread]: End processing [pyschwab]: success
+[2024-05-22 14:38:27] INFO root fetch - processPackages [yfiles-jupyter-graphs-for-neo4j]: Remove: archive file [/home/abi/fetcher/tmp/yfiles_jupyter_graphs_for_neo4j-1.0.0.tar.gz]
+[2024-05-22 14:38:27] INFO root fetch - processPackages [yfiles-jupyter-graphs-for-neo4j]: Remove: archive file [/home/abi/fetcher/tmp/yfiles_jupyter_graphs_for_neo4j-1.1.0.tar.gz]
+[2024-05-22 14:38:27] INFO root fetch - main [MainThread]: End processing [yfiles-jupyter-graphs-for-neo4j]: success
+[2024-05-22 14:38:27] INFO root fetch - processPackages [pypush]: Remove: archive file [/home/abi/fetcher/tmp/pypush-1.3.tar.gz]
+[2024-05-22 14:38:27] INFO root fetch - processPackages [pypush]: Remove: archive file [/home/abi/fetcher/tmp/pypush-2.0.0.tar.gz]
+[2024-05-22 14:38:27] INFO root fetch - main [MainThread]: End processing [pypush]: success
+[2024-05-22 14:38:27] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.2.1b8.tar.gz]
+[2024-05-22 14:38:27] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.2.1b9.tar.gz]
+[2024-05-22 14:38:27] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-05-22 14:38:27] INFO root fetch - processPackages [nostr-sdk]: executing diffoscope
+[2024-05-22 14:38:27] INFO root fetch - processPackages [nostr-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nostr_sdk-0.9.0-cp39-cp39-win_amd64.whl.zip tmp/nostr_sdk-0.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20240522/n/nostr-sdk/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-22 14:38:27] INFO root fetch - processPackages [EmLiLetter]: Remove: archive file [/home/abi/fetcher/tmp/EmLiLetter-0.0.2.tar.gz]
+[2024-05-22 14:38:27] INFO root fetch - processPackages [EmLiLetter]: Remove: archive file [/home/abi/fetcher/tmp/EmLiLetter-0.0.3.tar.gz]
+[2024-05-22 14:38:27] INFO root fetch - main [MainThread]: End processing [EmLiLetter]: success
+[2024-05-22 14:38:27] INFO root fetch - processPackages [oxaigen]: Remove: archive file [/home/abi/fetcher/tmp/oxaigen-0.0.0.2.tar.gz]
+[2024-05-22 14:38:27] INFO root fetch - processPackages [oxaigen]: Remove: archive file [/home/abi/fetcher/tmp/oxaigen-0.0.0.3.tar.gz]
+[2024-05-22 14:38:27] INFO root fetch - main [MainThread]: End processing [oxaigen]: success
+[2024-05-22 14:38:27] INFO root fetch - processPackages [apify-client]: Remove: archive file [/home/abi/fetcher/tmp/apify_client-1.7.1b1.tar.gz]
+[2024-05-22 14:38:27] INFO root fetch - processPackages [apify-client]: Remove: archive file [/home/abi/fetcher/tmp/apify_client-1.7.1b2.tar.gz]
+[2024-05-22 14:38:27] INFO root fetch - main [MainThread]: End processing [apify-client]: success
+[2024-05-22 14:38:28] INFO root fetch - processPackages [appbuilder-sdk]: Remove: archive file [/home/abi/fetcher/tmp/appbuilder_sdk-0.7.0-py3-none-any.whl.zip]
+[2024-05-22 14:38:28] INFO root fetch - processPackages [appbuilder-sdk]: Remove: archive file [/home/abi/fetcher/tmp/appbuilder_sdk-0.7.1-py3-none-any.whl.zip]
+[2024-05-22 14:38:28] INFO root fetch - main [MainThread]: End processing [appbuilder-sdk]: success
+[2024-05-22 14:39:03] INFO root fetch - processPackages [nostr-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nostr_sdk-0.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 14:39:03] INFO root fetch - processPackages [nostr-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nostr_sdk-0.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 14:39:03] INFO root fetch - main [MainThread]: End processing [nostr-sdk]: success
+[2024-05-22 14:39:03] INFO root fetch - main [MainThread]: Store serial: [23324070]

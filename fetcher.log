@@ -22563,3 +22563,70 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 14:15:59] INFO root fetch - processPackages [TissUUmaps]: Remove: archive file [/home/abi/fetcher/tmp/TissUUmaps-3.2rc3.tar.gz]
 [2024-05-22 14:15:59] INFO root fetch - main [MainThread]: End processing [TissUUmaps]: success
 [2024-05-22 14:15:59] INFO root fetch - main [MainThread]: Store serial: [23323737]
+[2024-05-22 14:18:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323737]
+[2024-05-22 14:18:16] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 14:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqt-templates
+[2024-05-22 14:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timelineomat
+[2024-05-22 14:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metafora
+[2024-05-22 14:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hapi-schema
+[2024-05-22 14:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moto-ext
+[2024-05-22 14:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-smartbase-admin
+[2024-05-22 14:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plotshell
+[2024-05-22 14:18:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phdu
+[2024-05-22 14:18:16] INFO root fetch - processPackages [django-smartbase-admin]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-22 14:18:16] WARNING root fetch - processPackages [plotshell]: Skipping, unable to determine old version
+[2024-05-22 14:18:16] INFO root fetch - main [MainThread]: End processing [plotshell] error
+[2024-05-22 14:18:16] INFO root fetch - processPackages [metafora]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-22 14:18:16] INFO root fetch - processPackages [hapi-schema]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-22 14:18:16] INFO root fetch - processPackages [timelineomat]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-22 14:18:16] INFO root fetch - processPackages [pyqt-templates]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 14:18:16] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/4c/b9/c32d7019547d76c2c6c1b8ea747b942212105b1c88767762bab1ac62f415/django_smartbase_admin-0.2.7.tar.gz
+[2024-05-22 14:18:16] INFO root fetch - processPackages [hapi-schema]: Downloading https://files.pythonhosted.org/packages/bc/a3/66c48e8d5e2f82b74f13a23806c5daaba6f0c0dea33b24d1c55d127c6006/hapi_schema-0.8.2.tar.gz
+[2024-05-22 14:18:16] INFO root fetch - processPackages [moto-ext]: New version: [5.0.7.post2] Old Version: [5.0.7.post1]
+[2024-05-22 14:18:16] INFO root fetch - processPackages [metafora]: Downloading https://files.pythonhosted.org/packages/2f/43/2e3aa7c55f1cfa773a8c86f295b083b84963fab9738117186b744d28d879/metafora-1.1.5.tar.gz
+[2024-05-22 14:18:16] INFO root fetch - processPackages [phdu]: New version: [2.4.3] Old Version: [2.4.2]
+[2024-05-22 14:18:16] INFO root fetch - processPackages [timelineomat]: Downloading https://files.pythonhosted.org/packages/eb/8f/91cfb85f7a4390205fc130037dc95a54b111a48e1eee0e6366f0148ec4a8/timelineomat-0.1.0.tar.gz
+[2024-05-22 14:18:16] INFO root fetch - processPackages [pyqt-templates]: Downloading https://files.pythonhosted.org/packages/7d/44/da08bfb6b303d6d60f74bd23f025d15f6fe51b52b8edac9897f46094d68b/pyqt_templates-0.0.8.tar.gz
+[2024-05-22 14:18:16] INFO root fetch - processPackages [hapi-schema]: Downloading https://files.pythonhosted.org/packages/c3/df/b97c17e23988455454f77d8ff933ea7ee9e63f0e45e3e09b2f2acbe7f211/hapi_schema-0.8.3.tar.gz
+[2024-05-22 14:18:16] INFO root fetch - processPackages [metafora]: Downloading https://files.pythonhosted.org/packages/60/0f/6f0cd15487783c774b2df3c3560284e8f4d2f55e6e03c9266977d57c1795/metafora-1.1.6.tar.gz
+[2024-05-22 14:18:16] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/53/a0/f2ac65b2d57a968e489a69c5db2eb1f6a8c4ee9c5750006bee56954c2548/phdu-2.4.2.tar.gz
+[2024-05-22 14:18:16] INFO root fetch - processPackages [timelineomat]: Downloading https://files.pythonhosted.org/packages/d8/9b/4560b384cd3ea30fd9dab492aa692da8836851279075025c3f45d0166270/timelineomat-0.1.1.tar.gz
+[2024-05-22 14:18:16] INFO root fetch - processPackages [hapi-schema]: executing diffoscope
+[2024-05-22 14:18:16] INFO root fetch - processPackages [hapi-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hapi_schema-0.8.2.tar.gz tmp/hapi_schema-0.8.3.tar.gz --markdown 20240522/h/hapi-schema/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-22 14:18:16] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/63/1e/301c376a330a21311919a45d9762d7c6c5d2090546a3b0d3b0e36db1c986/django_smartbase_admin-0.2.9.tar.gz
+[2024-05-22 14:18:16] INFO root fetch - processPackages [metafora]: executing diffoscope
+[2024-05-22 14:18:16] INFO root fetch - processPackages [metafora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metafora-1.1.5.tar.gz tmp/metafora-1.1.6.tar.gz --markdown 20240522/m/metafora/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-22 14:18:16] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/7d/fd/04bd207e33dd766f529c5037b471af7a4e2aaaf064f032312bf545ac548d/moto_ext-5.0.7.post2.tar.gz
+[2024-05-22 14:18:16] INFO root fetch - processPackages [timelineomat]: executing diffoscope
+[2024-05-22 14:18:16] INFO root fetch - processPackages [timelineomat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timelineomat-0.1.0.tar.gz tmp/timelineomat-0.1.1.tar.gz --markdown 20240522/t/timelineomat/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-22 14:18:17] INFO root fetch - processPackages [pyqt-templates]: Downloading https://files.pythonhosted.org/packages/ca/ee/de08a8fafd00b739ac738044d366731fb2de6e72cc244e41ab0be3bae024/pyqt_templates-0.0.9.tar.gz
+[2024-05-22 14:18:17] INFO root fetch - processPackages [pyqt-templates]: executing diffoscope
+[2024-05-22 14:18:17] INFO root fetch - processPackages [pyqt-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqt_templates-0.0.8.tar.gz tmp/pyqt_templates-0.0.9.tar.gz --markdown 20240522/p/pyqt-templates/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 14:18:17] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/c5/77/f380babd679b02c99c0ba54f29e82dc4342541f631a2fbf63942e3204e73/phdu-2.4.3.tar.gz
+[2024-05-22 14:18:17] INFO root fetch - processPackages [django-smartbase-admin]: executing diffoscope
+[2024-05-22 14:18:17] INFO root fetch - processPackages [django-smartbase-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_smartbase_admin-0.2.7.tar.gz tmp/django_smartbase_admin-0.2.9.tar.gz --markdown 20240522/d/django-smartbase-admin/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-22 14:18:17] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2024-05-22 14:18:17] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-2.4.2.tar.gz tmp/phdu-2.4.3.tar.gz --markdown 20240522/p/phdu/2.4.2-2.4.3/README.md --exclude *.pyd
+[2024-05-22 14:18:17] INFO root fetch - processPackages [metafora]: Remove: archive file [/home/abi/fetcher/tmp/metafora-1.1.5.tar.gz]
+[2024-05-22 14:18:17] INFO root fetch - processPackages [metafora]: Remove: archive file [/home/abi/fetcher/tmp/metafora-1.1.6.tar.gz]
+[2024-05-22 14:18:17] INFO root fetch - main [MainThread]: End processing [metafora]: success
+[2024-05-22 14:18:17] INFO root fetch - processPackages [timelineomat]: Remove: archive file [/home/abi/fetcher/tmp/timelineomat-0.1.0.tar.gz]
+[2024-05-22 14:18:17] INFO root fetch - processPackages [timelineomat]: Remove: archive file [/home/abi/fetcher/tmp/timelineomat-0.1.1.tar.gz]
+[2024-05-22 14:18:17] INFO root fetch - main [MainThread]: End processing [timelineomat]: success
+[2024-05-22 14:18:17] INFO root fetch - processPackages [moto-ext]: executing diffoscope
+[2024-05-22 14:18:17] INFO root fetch - processPackages [moto-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto_ext-5.0.7.post1.tar.gz tmp/moto_ext-5.0.7.post2.tar.gz --markdown 20240522/m/moto-ext/5.0.7.post1-5.0.7.post2/README.md --exclude *.pyd
+[2024-05-22 14:18:17] INFO root fetch - processPackages [hapi-schema]: Remove: archive file [/home/abi/fetcher/tmp/hapi_schema-0.8.2.tar.gz]
+[2024-05-22 14:18:17] INFO root fetch - processPackages [hapi-schema]: Remove: archive file [/home/abi/fetcher/tmp/hapi_schema-0.8.3.tar.gz]
+[2024-05-22 14:18:17] INFO root fetch - main [MainThread]: End processing [hapi-schema]: success
+[2024-05-22 14:18:17] INFO root fetch - processPackages [pyqt-templates]: Remove: archive file [/home/abi/fetcher/tmp/pyqt_templates-0.0.8.tar.gz]
+[2024-05-22 14:18:17] INFO root fetch - processPackages [pyqt-templates]: Remove: archive file [/home/abi/fetcher/tmp/pyqt_templates-0.0.9.tar.gz]
+[2024-05-22 14:18:17] INFO root fetch - main [MainThread]: End processing [pyqt-templates]: success
+[2024-05-22 14:18:18] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.4.2.tar.gz]
+[2024-05-22 14:18:18] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.4.3.tar.gz]
+[2024-05-22 14:18:18] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2024-05-22 14:18:22] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.7.tar.gz]
+[2024-05-22 14:18:22] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
+[2024-05-22 14:18:22] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
+[2024-05-22 14:21:17] ERROR root fetch - processPackages [moto-ext]: Timeout during execution of pkgdiff
+[2024-05-22 14:21:17] INFO root fetch - main [MainThread]: End processing [moto-ext] error
+[2024-05-22 14:21:17] INFO root fetch - main [MainThread]: Store serial: [23323764]

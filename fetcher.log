@@ -17904,3 +17904,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:24:44] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev5.tar.gz]
 [2024-05-22 11:24:44] INFO root fetch - main [MainThread]: End processing [udirect]: success
 [2024-05-22 11:24:44] INFO root fetch - main [MainThread]: Store serial: [23321588]
+[2024-05-22 11:26:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321588]
+[2024-05-22 11:26:53] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 11:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvidia-dali-tf-plugin-nightly-cuda120
+[2024-05-22 11:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ensurepkg
+[2024-05-22 11:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: infrable
+[2024-05-22 11:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: danila-lib
+[2024-05-22 11:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sopa
+[2024-05-22 11:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvidia-dali-nightly-cuda120
+[2024-05-22 11:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arena-client
+[2024-05-22 11:26:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: udirect
+[2024-05-22 11:26:53] INFO root fetch - processPackages [danila-lib]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-05-22 11:26:53] INFO root fetch - processPackages [udirect]: New version: [0.1.4.dev7] Old Version: [0.1.4.dev5]
+[2024-05-22 11:26:53] INFO root fetch - processPackages [sopa]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-22 11:26:53] WARNING root fetch - processPackages [ensurepkg]: Skipping, unable to determine old version
+[2024-05-22 11:26:53] INFO root fetch - main [MainThread]: End processing [ensurepkg] error
+[2024-05-22 11:26:53] INFO root fetch - processPackages [arena-client]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-22 11:26:53] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/3e/02/00e2e9296d6098abac8bbdbf5216fb8790a7fd59439f9a67f2e5fe3e6a12/danila-lib-1.7.1.tar.gz
+[2024-05-22 11:26:53] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: New version: [1.39.0.dev20240521] Old Version: [1.39.0.dev20240520]
+[2024-05-22 11:26:53] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: New version: [1.39.0.dev20240521] Old Version: [1.39.0.dev20240520]
+[2024-05-22 11:26:53] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/bd/54/93300492da13dafad3a2fb04a7b79c9875fbff55f2d0c0d06a8762bf07a5/udirect-0.1.4.dev5.tar.gz
+[2024-05-22 11:26:53] INFO root fetch - processPackages [infrable]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 11:26:54] INFO root fetch - processPackages [sopa]: Downloading https://files.pythonhosted.org/packages/59/ab/3d8164486994242bffb1dfe2d7e2ae44983d309bc12f6768b61e2f8f9473/sopa-1.0.8.tar.gz
+[2024-05-22 11:26:54] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/ba/5e/c95955a20dc99916149175c9e347574981e188eb27c54cae16552cdd8e52/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240520.tar.gz
+[2024-05-22 11:26:54] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/27/e3/9758cb56ce91f7499aa307bc8c521c22d2990adf3fabbd8ae8aefac40c42/infrable-0.1.8.tar.gz
+[2024-05-22 11:26:54] INFO root fetch - processPackages [arena-client]: Downloading https://files.pythonhosted.org/packages/24/89/8e54e807095183ce99e12544f63f82aeb74dbe451bd423c3c6713ab58bf3/arena_client-0.2.1.tar.gz
+[2024-05-22 11:26:54] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/32/03/291e2c6d7799c720d7cda1b9191538a3de58d52aadc858995529a930e5d6/nvidia_dali_nightly_cuda120-1.39.0.dev20240520.tar.gz
+[2024-05-22 11:26:54] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/cb/ff/f5e7461d4f37f30580924e7d42d15c4ae48159e12a05cfda5557c4d73a1c/danila-lib-1.7.2.tar.gz
+[2024-05-22 11:26:54] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-22 11:26:54] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.7.1.tar.gz tmp/danila-lib-1.7.2.tar.gz --markdown 20240522/d/danila-lib/1.7.1-1.7.2/README.md --exclude *.pyd
+[2024-05-22 11:26:54] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/c3/64/6753121bbf36c17ecd015021d52c6a131a5af90200c15da7f76ace822fe3/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240521.tar.gz
+[2024-05-22 11:26:54] INFO root fetch - processPackages [sopa]: Downloading https://files.pythonhosted.org/packages/45/8a/1436f2c984baf186ef702c8657ea3d377bdaadb5932bad4ffeae83a1ef53/sopa-1.0.9.tar.gz
+[2024-05-22 11:26:54] INFO root fetch - processPackages [arena-client]: Downloading https://files.pythonhosted.org/packages/0b/74/0a9b28b2a7ba6941fe21f55ea73a3ff7fc6039d73deaadb29386d3bbc3d0/arena_client-0.2.2.tar.gz
+[2024-05-22 11:26:54] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Downloading https://files.pythonhosted.org/packages/0e/46/90b845516518457fa258654a9eee8647f8d75ebdf00a5da499a6bf118e03/nvidia_dali_nightly_cuda120-1.39.0.dev20240521.tar.gz
+[2024-05-22 11:26:54] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: executing diffoscope
+[2024-05-22 11:26:54] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240520.tar.gz tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240521.tar.gz --markdown 20240522/n/nvidia-dali-tf-plugin-nightly-cuda120/1.39.0.dev20240520-1.39.0.dev20240521/README.md --exclude *.pyd
+[2024-05-22 11:26:54] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/8f/61/4ef24677f9770c824c8347db5e53b0c9255823bc52a3015b00a5755b9a59/udirect-0.1.4.dev7.tar.gz
+[2024-05-22 11:26:54] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/c6/b7/929866de2fa6d2dd8f5310bedf07a1513c40236c5be4a9697505488b59aa/infrable-0.1.9.tar.gz
+[2024-05-22 11:26:54] INFO root fetch - processPackages [sopa]: executing diffoscope
+[2024-05-22 11:26:54] INFO root fetch - processPackages [sopa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sopa-1.0.8.tar.gz tmp/sopa-1.0.9.tar.gz --markdown 20240522/s/sopa/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-22 11:26:54] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: executing diffoscope
+[2024-05-22 11:26:54] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240520.tar.gz tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240521.tar.gz --markdown 20240522/n/nvidia-dali-nightly-cuda120/1.39.0.dev20240520-1.39.0.dev20240521/README.md --exclude *.pyd
+[2024-05-22 11:26:54] INFO root fetch - processPackages [arena-client]: executing diffoscope
+[2024-05-22 11:26:54] INFO root fetch - processPackages [arena-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arena_client-0.2.1.tar.gz tmp/arena_client-0.2.2.tar.gz --markdown 20240522/a/arena-client/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-22 11:26:54] INFO root fetch - processPackages [infrable]: executing diffoscope
+[2024-05-22 11:26:54] INFO root fetch - processPackages [infrable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrable-0.1.8.tar.gz tmp/infrable-0.1.9.tar.gz --markdown 20240522/i/infrable/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 11:26:55] INFO root fetch - processPackages [udirect]: executing diffoscope
+[2024-05-22 11:26:55] INFO root fetch - processPackages [udirect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udirect-0.1.4.dev5.tar.gz tmp/udirect-0.1.4.dev7.tar.gz --markdown 20240522/u/udirect/0.1.4.dev5-0.1.4.dev7/README.md --exclude *.pyd
+[2024-05-22 11:26:55] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240520.tar.gz]
+[2024-05-22 11:26:55] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_tf_plugin_nightly_cuda120-1.39.0.dev20240521.tar.gz]
+[2024-05-22 11:26:55] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda120]: success
+[2024-05-22 11:26:55] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.7.1.tar.gz]
+[2024-05-22 11:26:55] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.7.2.tar.gz]
+[2024-05-22 11:26:55] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-22 11:26:55] INFO root fetch - processPackages [arena-client]: Remove: archive file [/home/abi/fetcher/tmp/arena_client-0.2.1.tar.gz]
+[2024-05-22 11:26:55] INFO root fetch - processPackages [arena-client]: Remove: archive file [/home/abi/fetcher/tmp/arena_client-0.2.2.tar.gz]
+[2024-05-22 11:26:55] INFO root fetch - main [MainThread]: End processing [arena-client]: success
+[2024-05-22 11:26:55] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240520.tar.gz]
+[2024-05-22 11:26:55] INFO root fetch - processPackages [nvidia-dali-nightly-cuda120]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_dali_nightly_cuda120-1.39.0.dev20240521.tar.gz]
+[2024-05-22 11:26:55] INFO root fetch - main [MainThread]: End processing [nvidia-dali-nightly-cuda120]: success
+[2024-05-22 11:26:55] INFO root fetch - processPackages [sopa]: Remove: archive file [/home/abi/fetcher/tmp/sopa-1.0.8.tar.gz]
+[2024-05-22 11:26:55] INFO root fetch - processPackages [sopa]: Remove: archive file [/home/abi/fetcher/tmp/sopa-1.0.9.tar.gz]
+[2024-05-22 11:26:55] INFO root fetch - main [MainThread]: End processing [sopa]: success
+[2024-05-22 11:26:55] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.8.tar.gz]
+[2024-05-22 11:26:55] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.9.tar.gz]
+[2024-05-22 11:26:55] INFO root fetch - main [MainThread]: End processing [infrable]: success
+[2024-05-22 11:26:56] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev5.tar.gz]
+[2024-05-22 11:26:56] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev7.tar.gz]
+[2024-05-22 11:26:56] INFO root fetch - main [MainThread]: End processing [udirect]: success
+[2024-05-22 11:26:56] INFO root fetch - main [MainThread]: Store serial: [23321611]

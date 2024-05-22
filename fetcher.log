@@ -2578,3 +2578,60 @@
 [2024-05-22 02:10:51] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240522.tar.gz]
 [2024-05-22 02:10:51] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
 [2024-05-22 02:10:51] INFO root fetch - main [MainThread]: Store serial: [23315454]
+[2024-05-22 02:12:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315454]
+[2024-05-22 02:13:00] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 02:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: truss
+[2024-05-22 02:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-quantizers-nightly
+[2024-05-22 02:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nomad-media-pip
+[2024-05-22 02:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyforc
+[2024-05-22 02:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-events-notify
+[2024-05-22 02:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-nag
+[2024-05-22 02:13:00] INFO root fetch - processPackages [nomad-media-pip]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-22 02:13:00] INFO root fetch - processPackages [mct-quantizers-nightly]: New version: [1.5.0.20240521.post1112] Old Version: [1.5.0.20240520.post1053]
+[2024-05-22 02:13:00] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-05-22 02:13:00] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-22 02:13:00] INFO root fetch - processPackages [pyforc]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-05-22 02:13:00] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/89/17/9542f18838ecc3189b9eaaec4a7ccfe38f999660bb42c8092050b37835fd/nomad_media_pip-0.0.98.tar.gz
+[2024-05-22 02:13:00] INFO root fetch - processPackages [truss]: New version: [0.9.9rc4] Old Version: [0.9.9rc3]
+[2024-05-22 02:13:00] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-05-22 02:13:01] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-22 02:13:01] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/1c/06/726455b8fa7b8d1875c9c26e9fcab08f394d7b0d18c26e98309d86820acd/mct-quantizers-nightly-1.5.0.20240520.post1053.tar.gz
+[2024-05-22 02:13:01] INFO root fetch - processPackages [pyforc]: Downloading https://files.pythonhosted.org/packages/40/c9/75c24f2e775c4dab1a4edc2c5a8814a977839bd8df0630da1c17483f6bcc/PyFORC-1.1.1.tar.gz
+[2024-05-22 02:13:01] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/b0/fe/165730089543a7078c47d298684f4672008a47e0f974249692ddb97b2ea5/truss-0.9.9rc3.tar.gz
+[2024-05-22 02:13:01] INFO root fetch - processPackages [nomad-media-pip]: Downloading https://files.pythonhosted.org/packages/2b/93/9572cd6061f7b751abb490b170eb8add5795cf245ede93c0b7d20b885a13/nomad_media_pip-0.0.99.tar.gz
+[2024-05-22 02:13:01] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-05-22 02:13:01] INFO root fetch - processPackages [nomad-media-pip]: executing diffoscope
+[2024-05-22 02:13:01] INFO root fetch - processPackages [nomad-media-pip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomad_media_pip-0.0.98.tar.gz tmp/nomad_media_pip-0.0.99.tar.gz --markdown 20240522/n/nomad-media-pip/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-22 02:13:01] INFO root fetch - processPackages [mct-quantizers-nightly]: Downloading https://files.pythonhosted.org/packages/7e/d5/55678e63769944a2e9914990f66989dd7cf3da7e8fe3a2738432a32ad109/mct-quantizers-nightly-1.5.0.20240521.post1112.tar.gz
+[2024-05-22 02:13:01] INFO root fetch - processPackages [pyforc]: Downloading https://files.pythonhosted.org/packages/21/57/a35dbaf20db3cf96f1cffbdb330bccd48afa7cf6490cba8f8f8bf4a0c668/pyforc-1.2.0-py3-none-any.whl
+[2024-05-22 02:13:01] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-22 02:13:01] INFO root fetch - processPackages [truss]: Downloading https://files.pythonhosted.org/packages/8f/d7/9ca2a06c33ed80c149e8e25246ce0bb8e5a19858328ac2b9feeb6b3b9734/truss-0.9.9rc4.tar.gz
+[2024-05-22 02:13:01] INFO root fetch - processPackages [mct-quantizers-nightly]: executing diffoscope
+[2024-05-22 02:13:01] INFO root fetch - processPackages [mct-quantizers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-quantizers-nightly-1.5.0.20240520.post1053.tar.gz tmp/mct-quantizers-nightly-1.5.0.20240521.post1112.tar.gz --markdown 20240522/m/mct-quantizers-nightly/1.5.0.20240520.post1053-1.5.0.20240521.post1112/README.md --exclude *.pyd
+[2024-05-22 02:13:01] INFO root fetch - processPackages [pyforc]: executing diffoscope
+[2024-05-22 02:13:01] INFO root fetch - processPackages [pyforc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFORC-1.1.1.tar.gz tmp/pyforc-1.2.0-py3-none-any.whl.zip --markdown 20240522/p/pyforc/1.1.1-1.2.0/README.md --exclude *.pyd
+[2024-05-22 02:13:01] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-22 02:13:01] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240522/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-22 02:13:01] INFO root fetch - processPackages [truss]: executing diffoscope
+[2024-05-22 02:13:01] INFO root fetch - processPackages [truss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/truss-0.9.9rc3.tar.gz tmp/truss-0.9.9rc4.tar.gz --markdown 20240522/t/truss/0.9.9rc3-0.9.9rc4/README.md --exclude *.pyd
+[2024-05-22 02:13:01] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-05-22 02:13:01] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240522/c/cdk-nag/2.9.6-2.9.7/README.md --exclude *.pyd
+[2024-05-22 02:13:02] INFO root fetch - processPackages [pyforc]: Remove: archive file [/home/abi/fetcher/tmp/PyFORC-1.1.1.tar.gz]
+[2024-05-22 02:13:02] INFO root fetch - processPackages [pyforc]: Remove: archive file [/home/abi/fetcher/tmp/pyforc-1.2.0-py3-none-any.whl.zip]
+[2024-05-22 02:13:02] INFO root fetch - main [MainThread]: End processing [pyforc]: success
+[2024-05-22 02:13:02] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-22 02:13:02] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-22 02:13:02] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240520.post1053.tar.gz]
+[2024-05-22 02:13:02] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-22 02:13:02] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.5.0.20240521.post1112.tar.gz]
+[2024-05-22 02:13:02] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
+[2024-05-22 02:13:02] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-05-22 02:13:02] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-05-22 02:13:02] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-05-22 02:13:02] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.9.9rc3.tar.gz]
+[2024-05-22 02:13:02] INFO root fetch - processPackages [truss]: Remove: archive file [/home/abi/fetcher/tmp/truss-0.9.9rc4.tar.gz]
+[2024-05-22 02:13:02] INFO root fetch - main [MainThread]: End processing [truss]: success
+[2024-05-22 02:13:04] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.98.tar.gz]
+[2024-05-22 02:13:04] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.99.tar.gz]
+[2024-05-22 02:13:04] INFO root fetch - main [MainThread]: End processing [nomad-media-pip]: success
+[2024-05-22 02:13:04] INFO root fetch - main [MainThread]: Store serial: [23315471]

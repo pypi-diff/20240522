@@ -18870,3 +18870,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:49:22] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.45.20240522.398.tar.gz]
 [2024-05-22 11:49:22] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
 [2024-05-22 11:49:22] INFO root fetch - main [MainThread]: Store serial: [23321999]
+[2024-05-22 11:51:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321999]
+[2024-05-22 11:51:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 11:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BuildStream
+[2024-05-22 11:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webdrivermanager-cn
+[2024-05-22 11:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: freegenius
+[2024-05-22 11:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: di-service-locator
+[2024-05-22 11:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metafora
+[2024-05-22 11:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vbpy
+[2024-05-22 11:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-ssi-commission
+[2024-05-22 11:51:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdo-sdk-python
+[2024-05-22 11:51:31] INFO root fetch - processPackages [webdrivermanager-cn]: New version: [1.6.0] Old Version: [1.5.3]
+[2024-05-22 11:51:31] INFO root fetch - processPackages [vbpy]: New version: [2.2.1] Old Version: [2.2.0]
+[2024-05-22 11:51:31] INFO root fetch - processPackages [freegenius]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-22 11:51:31] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-22 11:51:31] INFO root fetch - processPackages [metafora]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-22 11:51:31] INFO root fetch - processPackages [di-service-locator]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-22 11:51:31] INFO root fetch - processPackages [odoo14-addon-ssi-commission]: New version: [14.0.1.3.0] Old Version: [14.0.1.2.2]
+[2024-05-22 11:51:31] INFO root fetch - processPackages [BuildStream]: New version: [2.2.1.dev0] Old Version: [2.2.1]
+[2024-05-22 11:51:31] INFO root fetch - processPackages [webdrivermanager-cn]: Downloading https://files.pythonhosted.org/packages/24/b4/94d274dd68cfe6d2affdad5a399ec1830fb2002fdde481f7a5a5b0f32ef4/webdrivermanager_cn-1.5.3-py3-none-any.whl
+[2024-05-22 11:51:31] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/42/dd/f0acb25433d5cc11fa445af94f26d13024d8833dd8ca1545ae921799db6b/vbpy-2.2.0.tar.gz
+[2024-05-22 11:51:31] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-22 11:51:31] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/d5/ca/411a282eb501daf2e794cd1fb0f3e90fdbc6bf2302cf9c34892282b27dbc/freegenius-0.2.8.tar.gz
+[2024-05-22 11:51:31] INFO root fetch - processPackages [metafora]: Downloading https://files.pythonhosted.org/packages/2f/43/2e3aa7c55f1cfa773a8c86f295b083b84963fab9738117186b744d28d879/metafora-1.1.5.tar.gz
+[2024-05-22 11:51:31] INFO root fetch - processPackages [di-service-locator]: Downloading https://files.pythonhosted.org/packages/c7/36/b09d48575aaf270684a9c6bded200ad3310a70adca4616f16148a0acc319/di_service_locator-1.1.0.tar.gz
+[2024-05-22 11:51:31] INFO root fetch - processPackages [BuildStream]: Downloading https://files.pythonhosted.org/packages/7d/cb/20a020102e920c5c8a4009bf8ce50cffb0806d8e931d3a40dc3be501e49c/buildstream-2.2.1.tar.gz
+[2024-05-22 11:51:32] INFO root fetch - processPackages [odoo14-addon-ssi-commission]: Downloading https://files.pythonhosted.org/packages/14/a0/0b8c662f41c7c984a08be86c57b578d3af57b92da1ede7ebe6756845dd94/odoo14_addon_ssi_commission-14.0.1.2.2-py3-none-any.whl
+[2024-05-22 11:51:32] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/aa/85/139ebcbd65ca0f184bccfdff59d881e12fe724ffde28bb7fb8d1efdbf856/vbpy-2.2.1.tar.gz
+[2024-05-22 11:51:32] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-22 11:51:32] INFO root fetch - processPackages [webdrivermanager-cn]: Downloading https://files.pythonhosted.org/packages/cb/76/d997adcca222e574a66022ef4d8701828e864d239a8ed7de5164bccd7d3a/webdrivermanager_cn-1.6.0-py3-none-any.whl
+[2024-05-22 11:51:32] INFO root fetch - processPackages [vbpy]: executing diffoscope
+[2024-05-22 11:51:32] INFO root fetch - processPackages [vbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpy-2.2.0.tar.gz tmp/vbpy-2.2.1.tar.gz --markdown 20240522/v/vbpy/2.2.0-2.2.1/README.md --exclude *.pyd
+[2024-05-22 11:51:32] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-22 11:51:32] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240522/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-22 11:51:32] INFO root fetch - processPackages [webdrivermanager-cn]: executing diffoscope
+[2024-05-22 11:51:32] INFO root fetch - processPackages [webdrivermanager-cn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webdrivermanager_cn-1.5.3-py3-none-any.whl.zip tmp/webdrivermanager_cn-1.6.0-py3-none-any.whl.zip --markdown 20240522/w/webdrivermanager-cn/1.5.3-1.6.0/README.md --exclude *.pyd
+[2024-05-22 11:51:32] INFO root fetch - processPackages [di-service-locator]: Downloading https://files.pythonhosted.org/packages/e5/62/ce79c4c80f11657346437247edfa08d839f9f4a4e19aae2e6c3ea0c26094/di_service_locator-1.2.0.tar.gz
+[2024-05-22 11:51:32] INFO root fetch - processPackages [metafora]: Downloading https://files.pythonhosted.org/packages/60/0f/6f0cd15487783c774b2df3c3560284e8f4d2f55e6e03c9266977d57c1795/metafora-1.1.6.tar.gz
+[2024-05-22 11:51:32] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/85/e0/79c8d3b405fbb09c8afb4fc4cba33e77303a57f60e90bbef2e19a2c5a73a/freegenius-0.2.9.tar.gz
+[2024-05-22 11:51:32] INFO root fetch - processPackages [odoo14-addon-ssi-commission]: Downloading https://files.pythonhosted.org/packages/58/b9/ee862f9dcf83c4f0528e4905673469450ae6c7561ca30b98446c740a1870/odoo14_addon_ssi_commission-14.0.1.3.0-py3-none-any.whl
+[2024-05-22 11:51:32] INFO root fetch - processPackages [BuildStream]: Downloading https://files.pythonhosted.org/packages/17/3b/84e13f065ee1a29996b3bf3289b24dc50efec0d0b3ef89ebe56cec000fda/buildstream-2.2.1.dev0.tar.gz
+[2024-05-22 11:51:32] INFO root fetch - processPackages [di-service-locator]: executing diffoscope
+[2024-05-22 11:51:32] INFO root fetch - processPackages [di-service-locator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/di_service_locator-1.1.0.tar.gz tmp/di_service_locator-1.2.0.tar.gz --markdown 20240522/d/di-service-locator/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-22 11:51:32] INFO root fetch - processPackages [metafora]: executing diffoscope
+[2024-05-22 11:51:32] INFO root fetch - processPackages [metafora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metafora-1.1.5.tar.gz tmp/metafora-1.1.6.tar.gz --markdown 20240522/m/metafora/1.1.5-1.1.6/README.md --exclude *.pyd
+[2024-05-22 11:51:32] INFO root fetch - processPackages [odoo14-addon-ssi-commission]: executing diffoscope
+[2024-05-22 11:51:32] INFO root fetch - processPackages [odoo14-addon-ssi-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_commission-14.0.1.2.2-py3-none-any.whl.zip tmp/odoo14_addon_ssi_commission-14.0.1.3.0-py3-none-any.whl.zip --markdown 20240522/o/odoo14-addon-ssi-commission/14.0.1.2.2-14.0.1.3.0/README.md --exclude *.pyd
+[2024-05-22 11:51:32] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-05-22 11:51:32] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.2.8.tar.gz tmp/freegenius-0.2.9.tar.gz --markdown 20240522/f/freegenius/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-22 11:51:33] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.2.0.tar.gz]
+[2024-05-22 11:51:33] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.2.1.tar.gz]
+[2024-05-22 11:51:33] INFO root fetch - main [MainThread]: End processing [vbpy]: success
+[2024-05-22 11:51:33] INFO root fetch - processPackages [BuildStream]: executing diffoscope
+[2024-05-22 11:51:33] INFO root fetch - processPackages [BuildStream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildstream-2.2.1.tar.gz tmp/buildstream-2.2.1.dev0.tar.gz --markdown 20240522/B/BuildStream/2.2.1-2.2.1.dev0/README.md --exclude *.pyd
+[2024-05-22 11:51:33] INFO root fetch - processPackages [webdrivermanager-cn]: Remove: archive file [/home/abi/fetcher/tmp/webdrivermanager_cn-1.5.3-py3-none-any.whl.zip]
+[2024-05-22 11:51:33] INFO root fetch - processPackages [webdrivermanager-cn]: Remove: archive file [/home/abi/fetcher/tmp/webdrivermanager_cn-1.6.0-py3-none-any.whl.zip]
+[2024-05-22 11:51:33] INFO root fetch - main [MainThread]: End processing [webdrivermanager-cn]: success
+[2024-05-22 11:51:33] INFO root fetch - processPackages [metafora]: Remove: archive file [/home/abi/fetcher/tmp/metafora-1.1.5.tar.gz]
+[2024-05-22 11:51:33] INFO root fetch - processPackages [metafora]: Remove: archive file [/home/abi/fetcher/tmp/metafora-1.1.6.tar.gz]
+[2024-05-22 11:51:33] INFO root fetch - main [MainThread]: End processing [metafora]: success
+[2024-05-22 11:51:33] INFO root fetch - processPackages [di-service-locator]: Remove: archive file [/home/abi/fetcher/tmp/di_service_locator-1.1.0.tar.gz]
+[2024-05-22 11:51:33] INFO root fetch - processPackages [di-service-locator]: Remove: archive file [/home/abi/fetcher/tmp/di_service_locator-1.2.0.tar.gz]
+[2024-05-22 11:51:33] INFO root fetch - main [MainThread]: End processing [di-service-locator]: success
+[2024-05-22 11:51:33] INFO root fetch - processPackages [odoo14-addon-ssi-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_commission-14.0.1.2.2-py3-none-any.whl.zip]
+[2024-05-22 11:51:33] INFO root fetch - processPackages [odoo14-addon-ssi-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_commission-14.0.1.3.0-py3-none-any.whl.zip]
+[2024-05-22 11:51:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-commission]: success
+[2024-05-22 11:51:34] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-22 11:51:34] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-22 11:51:34] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-22 11:51:34] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.8.tar.gz]
+[2024-05-22 11:51:34] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.9.tar.gz]
+[2024-05-22 11:51:34] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-05-22 11:51:38] INFO root fetch - processPackages [BuildStream]: Remove: archive file [/home/abi/fetcher/tmp/buildstream-2.2.1.tar.gz]
+[2024-05-22 11:51:38] INFO root fetch - processPackages [BuildStream]: Remove: archive file [/home/abi/fetcher/tmp/buildstream-2.2.1.dev0.tar.gz]
+[2024-05-22 11:51:38] INFO root fetch - main [MainThread]: End processing [BuildStream]: success
+[2024-05-22 11:51:38] INFO root fetch - main [MainThread]: Store serial: [23322029]

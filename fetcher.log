@@ -8597,3 +8597,60 @@
 [2024-05-22 04:25:14] INFO root fetch - main [MainThread]: End processing [synnax]: success
 [2024-05-22 04:25:14] INFO root fetch - main [MainThread]: End processing [blueness]: success
 [2024-05-22 04:25:14] INFO root fetch - main [MainThread]: Store serial: [23317598]
+[2024-05-22 04:27:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317598]
+[2024-05-22 04:27:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 04:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-actions
+[2024-05-22 04:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-sdk-remote
+[2024-05-22 04:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naif-eop-high-prec
+[2024-05-22 04:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smaht-submitr
+[2024-05-22 04:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wwbot
+[2024-05-22 04:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chainlite
+[2024-05-22 04:27:23] INFO root fetch - processPackages [chainlite]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-22 04:27:23] INFO root fetch - processPackages [wwbot]: New version: [0.0.9] Old Version: [0.0.8rc0]
+[2024-05-22 04:27:23] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2024.5.21] Old Version: [2024.5.20]
+[2024-05-22 04:27:23] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240521] Old Version: [1.2.20240520]
+[2024-05-22 04:27:23] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/f0/d6/539254b35a392b94716fc626b6b39fc2c1eeecf81b065028e8a8fa69ff5c/wwbot-0.0.8rc0.tar.gz
+[2024-05-22 04:27:23] INFO root fetch - processPackages [python-sdk-remote]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-22 04:27:23] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.2.1b9] Old Version: [0.8.2.1b8]
+[2024-05-22 04:27:23] INFO root fetch - processPackages [chainlite]: Downloading https://files.pythonhosted.org/packages/04/e9/295196b3e63a203ce22265ecf2519248a5477568f5ee58039eacbc15ae9d/chainlite-0.1.0.tar.gz
+[2024-05-22 04:27:23] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/58/29/8d4db6f26c79e7a085b166dfb0810eee7f7ccb094c00406811c4cb745451/naif_eop_high_prec-2024.5.20.tar.gz
+[2024-05-22 04:27:23] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/49/e5/95fcd15962b95306091beb84316e05340e0602fbaf4328f300fce8b9be8a/iam_actions-1.2.20240520.tar.gz
+[2024-05-22 04:27:23] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/60/06/f0d1dcf91cb575c47d6f9af17bfe431bf2e41fe342cd78c7d65bd6c8a27b/wwbot-0.0.9.tar.gz
+[2024-05-22 04:27:24] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/b2/73/ff727800d332ba3412e3135ded7fed3d1b78930e48ab4f978b5038b41b5f/python_sdk_remote-0.0.98.tar.gz
+[2024-05-22 04:27:24] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/94/70/b34d2d34c394fc3e3b347e32bec8900b8b8643db5842d59991c4e84ea528/smaht_submitr-0.8.2.1b8.tar.gz
+[2024-05-22 04:27:24] INFO root fetch - processPackages [wwbot]: executing diffoscope
+[2024-05-22 04:27:24] INFO root fetch - processPackages [wwbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwbot-0.0.8rc0.tar.gz tmp/wwbot-0.0.9.tar.gz --markdown 20240522/w/wwbot/0.0.8rc0-0.0.9/README.md --exclude *.pyd
+[2024-05-22 04:27:24] INFO root fetch - processPackages [chainlite]: Downloading https://files.pythonhosted.org/packages/22/78/932bd28e533c5c6625d04ca26a82904b03d8f48f3f485a25c11190c70a33/chainlite-0.1.1.tar.gz
+[2024-05-22 04:27:24] INFO root fetch - processPackages [python-sdk-remote]: Downloading https://files.pythonhosted.org/packages/c6/6c/d232e7e91dcb30944e7eee0abdeb4922803eca620e93ce6940350682eaeb/python_sdk_remote-0.0.99.tar.gz
+[2024-05-22 04:27:24] INFO root fetch - processPackages [chainlite]: executing diffoscope
+[2024-05-22 04:27:24] INFO root fetch - processPackages [chainlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlite-0.1.0.tar.gz tmp/chainlite-0.1.1.tar.gz --markdown 20240522/c/chainlite/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-22 04:27:24] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/12/6c/42c7542952ebd64410658b89ff4c1f5e81627e49125ac4c2a6b8ef85be72/iam_actions-1.2.20240521.tar.gz
+[2024-05-22 04:27:24] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/49/5f/4a0cbcc953b126fd89e8d3c5beafcab7cf195845995d05395f40952ad23c/smaht_submitr-0.8.2.1b9.tar.gz
+[2024-05-22 04:27:24] INFO root fetch - processPackages [python-sdk-remote]: executing diffoscope
+[2024-05-22 04:27:24] INFO root fetch - processPackages [python-sdk-remote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_sdk_remote-0.0.98.tar.gz tmp/python_sdk_remote-0.0.99.tar.gz --markdown 20240522/p/python-sdk-remote/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-22 04:27:24] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-05-22 04:27:24] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.2.1b8.tar.gz tmp/smaht_submitr-0.8.2.1b9.tar.gz --markdown 20240522/s/smaht-submitr/0.8.2.1b8-0.8.2.1b9/README.md --exclude *.pyd
+[2024-05-22 04:27:24] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-05-22 04:27:24] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/2e/53/d727fa487d217f06cbcca829c2746bf407cb15df456b23c26d7f5c3e687f/naif_eop_high_prec-2024.5.21.tar.gz
+[2024-05-22 04:27:24] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240520.tar.gz tmp/iam_actions-1.2.20240521.tar.gz --markdown 20240522/i/iam-actions/1.2.20240520-1.2.20240521/README.md --exclude *.pyd
+[2024-05-22 04:27:24] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.8rc0.tar.gz]
+[2024-05-22 04:27:24] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.9.tar.gz]
+[2024-05-22 04:27:24] INFO root fetch - main [MainThread]: End processing [wwbot]: success
+[2024-05-22 04:27:24] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2024-05-22 04:27:24] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2024.5.20.tar.gz tmp/naif_eop_high_prec-2024.5.21.tar.gz --markdown 20240522/n/naif-eop-high-prec/2024.5.20-2024.5.21/README.md --exclude *.pyd
+[2024-05-22 04:27:25] INFO root fetch - processPackages [chainlite]: Remove: archive file [/home/abi/fetcher/tmp/chainlite-0.1.0.tar.gz]
+[2024-05-22 04:27:25] INFO root fetch - processPackages [chainlite]: Remove: archive file [/home/abi/fetcher/tmp/chainlite-0.1.1.tar.gz]
+[2024-05-22 04:27:25] INFO root fetch - main [MainThread]: End processing [chainlite]: success
+[2024-05-22 04:27:25] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.98.tar.gz]
+[2024-05-22 04:27:25] INFO root fetch - processPackages [python-sdk-remote]: Remove: archive file [/home/abi/fetcher/tmp/python_sdk_remote-0.0.99.tar.gz]
+[2024-05-22 04:27:25] INFO root fetch - main [MainThread]: End processing [python-sdk-remote]: success
+[2024-05-22 04:27:25] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.2.1b8.tar.gz]
+[2024-05-22 04:27:25] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.2.1b9.tar.gz]
+[2024-05-22 04:27:25] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-05-22 04:27:28] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.20.tar.gz]
+[2024-05-22 04:27:28] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2024.5.21.tar.gz]
+[2024-05-22 04:27:28] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2024-05-22 04:27:29] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240520.tar.gz]
+[2024-05-22 04:27:29] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240521.tar.gz]
+[2024-05-22 04:27:29] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-05-22 04:27:29] INFO root fetch - main [MainThread]: Store serial: [23317619]

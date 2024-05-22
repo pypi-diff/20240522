@@ -19729,3 +19729,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:23:35] INFO root fetch - processPackages [sentier-glossary]: Remove: archive file [/home/abi/fetcher/tmp/sentier_glossary-0.3.0.tar.gz]
 [2024-05-22 12:23:35] INFO root fetch - main [MainThread]: End processing [sentier-glossary]: success
 [2024-05-22 12:23:35] INFO root fetch - main [MainThread]: Store serial: [23322400]
+[2024-05-22 12:25:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322400]
+[2024-05-22 12:25:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 12:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hypercrawler
+[2024-05-22 12:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: promptshield
+[2024-05-22 12:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thapbi-pict
+[2024-05-22 12:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fleekapi
+[2024-05-22 12:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytbai
+[2024-05-22 12:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2024-05-22 12:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PHStatsMethods
+[2024-05-22 12:25:44] INFO root fetch - processPackages [PHStatsMethods]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-22 12:25:44] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240522091352] Old Version: [3.4.1.dev20240522051705]
+[2024-05-22 12:25:44] WARNING root fetch - processPackages [promptshield]: Skipping, unable to determine old version
+[2024-05-22 12:25:44] WARNING root fetch - processPackages [hypercrawler]: Skipping, unable to determine old version
+[2024-05-22 12:25:44] INFO root fetch - main [MainThread]: End processing [promptshield] error
+[2024-05-22 12:25:44] INFO root fetch - main [MainThread]: End processing [hypercrawler] error
+[2024-05-22 12:25:44] WARNING root fetch - processPackages [fleekapi]: Skipping, unable to determine old version
+[2024-05-22 12:25:44] INFO root fetch - main [MainThread]: End processing [fleekapi] error
+[2024-05-22 12:25:44] INFO root fetch - processPackages [pytbai]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-22 12:25:44] INFO root fetch - processPackages [PHStatsMethods]: Downloading https://files.pythonhosted.org/packages/7c/ec/99deb2f22beaab84abc2c7c1530e162406b707381b0df110ea23b5b6392b/phstatsmethods-0.1.7.tar.gz
+[2024-05-22 12:25:44] INFO root fetch - processPackages [thapbi-pict]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-22 12:25:44] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/4a/26/e915a0ad4d3f6e685d871f4cb056d7b8c8c3299bea6f05a920a95246283c/localstack_core-3.4.1.dev20240522051705.tar.gz
+[2024-05-22 12:25:44] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/6f/03/4764e5463720036ff03f0659063a2136d63192397ba2d12780701a5fce1a/pytbai-1.4.8.tar.gz
+[2024-05-22 12:25:44] INFO root fetch - processPackages [thapbi-pict]: Downloading https://files.pythonhosted.org/packages/c9/8a/c603ae7aa0710bdb30b43f19f86509333b0b33dd4b629e128db306a58bc2/thapbi_pict-1.0.8.tar.gz
+[2024-05-22 12:25:44] INFO root fetch - processPackages [PHStatsMethods]: Downloading https://files.pythonhosted.org/packages/fc/07/b008c456e24092ec1e23ce29e625a2f22e9fdcbcb18c5dea2f677fde90d4/phstatsmethods-0.1.8.tar.gz
+[2024-05-22 12:25:45] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/84/0a/d3957bf86b306689c159664611d8b683afd02d9367e6aaa6d2be0555d83c/pytbai-1.4.9.tar.gz
+[2024-05-22 12:25:45] INFO root fetch - processPackages [PHStatsMethods]: executing diffoscope
+[2024-05-22 12:25:45] INFO root fetch - processPackages [PHStatsMethods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phstatsmethods-0.1.7.tar.gz tmp/phstatsmethods-0.1.8.tar.gz --markdown 20240522/P/PHStatsMethods/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-22 12:25:45] INFO root fetch - processPackages [pytbai]: executing diffoscope
+[2024-05-22 12:25:45] INFO root fetch - processPackages [pytbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytbai-1.4.8.tar.gz tmp/pytbai-1.4.9.tar.gz --markdown 20240522/p/pytbai/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-22 12:25:45] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/bc/bc/c460c46c1b6063b4045740381b5b2a549b30f7321db75eda52496e1578a1/localstack_core-3.4.1.dev20240522091352.tar.gz
+[2024-05-22 12:25:45] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-22 12:25:45] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240522051705.tar.gz tmp/localstack_core-3.4.1.dev20240522091352.tar.gz --markdown 20240522/l/localstack-core/3.4.1.dev20240522051705-3.4.1.dev20240522091352/README.md --exclude *.pyd
+[2024-05-22 12:25:45] INFO root fetch - processPackages [PHStatsMethods]: Remove: archive file [/home/abi/fetcher/tmp/phstatsmethods-0.1.7.tar.gz]
+[2024-05-22 12:25:45] INFO root fetch - processPackages [PHStatsMethods]: Remove: archive file [/home/abi/fetcher/tmp/phstatsmethods-0.1.8.tar.gz]
+[2024-05-22 12:25:45] INFO root fetch - main [MainThread]: End processing [PHStatsMethods]: success
+[2024-05-22 12:25:45] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.4.8.tar.gz]
+[2024-05-22 12:25:45] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.4.9.tar.gz]
+[2024-05-22 12:25:45] INFO root fetch - main [MainThread]: End processing [pytbai]: success
+[2024-05-22 12:25:46] INFO root fetch - processPackages [thapbi-pict]: Downloading https://files.pythonhosted.org/packages/86/5f/3aef8067d7c3f431c094d8a025d159e6f939a44c325a34521735d9970073/thapbi_pict-1.0.9.tar.gz
+[2024-05-22 12:25:46] INFO root fetch - processPackages [thapbi-pict]: executing diffoscope
+[2024-05-22 12:25:46] INFO root fetch - processPackages [thapbi-pict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thapbi_pict-1.0.8.tar.gz tmp/thapbi_pict-1.0.9.tar.gz --markdown 20240522/t/thapbi-pict/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-22 12:25:49] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240522051705.tar.gz]
+[2024-05-22 12:25:49] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240522091352.tar.gz]
+[2024-05-22 12:25:49] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-22 12:25:49] INFO root fetch - processPackages [thapbi-pict]: Remove: archive file [/home/abi/fetcher/tmp/thapbi_pict-1.0.8.tar.gz]
+[2024-05-22 12:25:49] INFO root fetch - processPackages [thapbi-pict]: Remove: archive file [/home/abi/fetcher/tmp/thapbi_pict-1.0.9.tar.gz]
+[2024-05-22 12:25:49] INFO root fetch - main [MainThread]: End processing [thapbi-pict]: success
+[2024-05-22 12:25:49] INFO root fetch - main [MainThread]: Store serial: [23322430]

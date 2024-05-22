@@ -20272,3 +20272,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:50:45] INFO root fetch - processPackages [bitlinear]: Remove: archive file [/home/abi/fetcher/tmp/bitlinear-1.2.5.tar.gz]
 [2024-05-22 12:50:45] INFO root fetch - main [MainThread]: End processing [bitlinear]: success
 [2024-05-22 12:50:45] INFO root fetch - main [MainThread]: Store serial: [23322685]
+[2024-05-22 12:52:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322685]
+[2024-05-22 12:52:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 12:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: infrable
+[2024-05-22 12:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grizli
+[2024-05-22 12:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rfc9457
+[2024-05-22 12:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ipywebview
+[2024-05-22 12:52:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: energy-base
+[2024-05-22 12:52:54] INFO root fetch - processPackages [rfc9457]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-22 12:52:54] INFO root fetch - processPackages [infrable]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 12:52:54] INFO root fetch - processPackages [rfc9457]: Downloading https://files.pythonhosted.org/packages/fe/2c/582071422c9cf52dd4c896756e378083385d6182af3512871d1472c70e96/rfc9457-0.0.4.tar.gz
+[2024-05-22 12:52:54] INFO root fetch - processPackages [grizli]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-22 12:52:54] INFO root fetch - processPackages [ipywebview]: New version: [5.2.1] Old Version: [5.2]
+[2024-05-22 12:52:54] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/27/e3/9758cb56ce91f7499aa307bc8c521c22d2990adf3fabbd8ae8aefac40c42/infrable-0.1.8.tar.gz
+[2024-05-22 12:52:54] INFO root fetch - processPackages [energy-base]: New version: [1.7.8] Old Version: [1.7.7]
+[2024-05-22 12:52:55] INFO root fetch - processPackages [grizli]: Downloading https://files.pythonhosted.org/packages/27/60/a68a0d4dc37daa162c1cb4f6be7a4415cfb3382398bd271e0086d8114221/grizli-1.9.8.tar.gz
+[2024-05-22 12:52:55] INFO root fetch - processPackages [rfc9457]: Downloading https://files.pythonhosted.org/packages/11/36/0290b0b81a6275c4c8200c668be821f1e32c888b0cec6349f1aca958492e/rfc9457-0.0.5.tar.gz
+[2024-05-22 12:52:55] INFO root fetch - processPackages [ipywebview]: Downloading https://files.pythonhosted.org/packages/8b/c4/20e268dc8d11ae1fc5d0985ebe129a9cb24860202627f9483b3ecd089a40/ipywebview-5.2.tar.gz
+[2024-05-22 12:52:55] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/9c/1e/3fec88ef9b4e899bacb885114c6d1e1609f874636d5894651e00acb718ff/energy_base-1.7.7.tar.gz
+[2024-05-22 12:52:55] INFO root fetch - processPackages [infrable]: Downloading https://files.pythonhosted.org/packages/c6/b7/929866de2fa6d2dd8f5310bedf07a1513c40236c5be4a9697505488b59aa/infrable-0.1.9.tar.gz
+[2024-05-22 12:52:55] INFO root fetch - processPackages [rfc9457]: executing diffoscope
+[2024-05-22 12:52:55] INFO root fetch - processPackages [rfc9457]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rfc9457-0.0.4.tar.gz tmp/rfc9457-0.0.5.tar.gz --markdown 20240522/r/rfc9457/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-22 12:52:55] INFO root fetch - processPackages [infrable]: executing diffoscope
+[2024-05-22 12:52:55] INFO root fetch - processPackages [infrable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infrable-0.1.8.tar.gz tmp/infrable-0.1.9.tar.gz --markdown 20240522/i/infrable/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 12:52:55] INFO root fetch - processPackages [ipywebview]: Downloading https://files.pythonhosted.org/packages/d0/b4/fbb2597df54a37ab0bf7ed67a028db5f0c70763dc6e9ce9e04e8319eaf74/ipywebview-5.2.1.tar.gz
+[2024-05-22 12:52:55] INFO root fetch - processPackages [energy-base]: Downloading https://files.pythonhosted.org/packages/5d/d4/02b4b68d5562a59bf61eb4338d45bcc69825c00c8c7fc6ef06d2d77a18f1/energy_base-1.7.8.tar.gz
+[2024-05-22 12:52:55] INFO root fetch - processPackages [ipywebview]: executing diffoscope
+[2024-05-22 12:52:55] INFO root fetch - processPackages [ipywebview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipywebview-5.2.tar.gz tmp/ipywebview-5.2.1.tar.gz --markdown 20240522/i/ipywebview/5.2-5.2.1/README.md --exclude *.pyd
+[2024-05-22 12:52:55] INFO root fetch - processPackages [energy-base]: executing diffoscope
+[2024-05-22 12:52:55] INFO root fetch - processPackages [energy-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/energy_base-1.7.7.tar.gz tmp/energy_base-1.7.8.tar.gz --markdown 20240522/e/energy-base/1.7.7-1.7.8/README.md --exclude *.pyd
+[2024-05-22 12:52:55] INFO root fetch - processPackages [rfc9457]: Remove: archive file [/home/abi/fetcher/tmp/rfc9457-0.0.4.tar.gz]
+[2024-05-22 12:52:55] INFO root fetch - processPackages [rfc9457]: Remove: archive file [/home/abi/fetcher/tmp/rfc9457-0.0.5.tar.gz]
+[2024-05-22 12:52:55] INFO root fetch - main [MainThread]: End processing [rfc9457]: success
+[2024-05-22 12:52:56] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.8.tar.gz]
+[2024-05-22 12:52:56] INFO root fetch - processPackages [infrable]: Remove: archive file [/home/abi/fetcher/tmp/infrable-0.1.9.tar.gz]
+[2024-05-22 12:52:56] INFO root fetch - main [MainThread]: End processing [infrable]: success
+[2024-05-22 12:52:56] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.7.7.tar.gz]
+[2024-05-22 12:52:56] INFO root fetch - processPackages [energy-base]: Remove: archive file [/home/abi/fetcher/tmp/energy_base-1.7.8.tar.gz]
+[2024-05-22 12:52:56] INFO root fetch - main [MainThread]: End processing [energy-base]: success
+[2024-05-22 12:52:56] INFO root fetch - processPackages [ipywebview]: Remove: archive file [/home/abi/fetcher/tmp/ipywebview-5.2.tar.gz]
+[2024-05-22 12:52:56] INFO root fetch - processPackages [ipywebview]: Remove: archive file [/home/abi/fetcher/tmp/ipywebview-5.2.1.tar.gz]
+[2024-05-22 12:52:56] INFO root fetch - main [MainThread]: End processing [ipywebview]: success
+[2024-05-22 12:52:56] INFO root fetch - processPackages [grizli]: Downloading https://files.pythonhosted.org/packages/77/09/a51e319f465f00836922464f1e7c9acff140ce55926932f88a036d1fe24f/grizli-1.9.9.tar.gz
+[2024-05-22 12:52:59] INFO root fetch - processPackages [grizli]: executing diffoscope
+[2024-05-22 12:52:59] INFO root fetch - processPackages [grizli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grizli-1.9.8.tar.gz tmp/grizli-1.9.9.tar.gz --markdown 20240522/g/grizli/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-22 12:53:01] INFO root fetch - processPackages [grizli]: Remove: archive file [/home/abi/fetcher/tmp/grizli-1.9.8.tar.gz]
+[2024-05-22 12:53:01] INFO root fetch - processPackages [grizli]: Remove: archive file [/home/abi/fetcher/tmp/grizli-1.9.9.tar.gz]
+[2024-05-22 12:53:01] INFO root fetch - main [MainThread]: End processing [grizli]: success
+[2024-05-22 12:53:01] INFO root fetch - main [MainThread]: Store serial: [23322699]

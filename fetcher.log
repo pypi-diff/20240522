@@ -2874,3 +2874,69 @@
 [2024-05-22 02:24:40] INFO root fetch - processPackages [heaserver-activity]: Remove: archive file [/home/abi/fetcher/tmp/heaserver_activity-1.1.1.tar.gz]
 [2024-05-22 02:24:40] INFO root fetch - main [MainThread]: End processing [heaserver-activity]: success
 [2024-05-22 02:24:40] INFO root fetch - main [MainThread]: Store serial: [23315559]
+[2024-05-22 02:26:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315559]
+[2024-05-22 02:26:48] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 02:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gemmapy
+[2024-05-22 02:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-certbot-dns-route53
+[2024-05-22 02:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-serverless-clamscan
+[2024-05-22 02:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-ecs-service-extensions
+[2024-05-22 02:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: holdup
+[2024-05-22 02:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: janim
+[2024-05-22 02:26:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EAACommander
+[2024-05-22 02:26:49] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-05-22 02:26:49] INFO root fetch - processPackages [EAACommander]: New version: [0.4] Old Version: [0.3]
+[2024-05-22 02:26:49] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-05-22 02:26:49] INFO root fetch - processPackages [janim]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-22 02:26:49] INFO root fetch - processPackages [gemmapy]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-22 02:26:49] INFO root fetch - processPackages [holdup]: New version: [5.1.1] Old Version: [5.1.0]
+[2024-05-22 02:26:49] INFO root fetch - processPackages [EAACommander]: Downloading https://files.pythonhosted.org/packages/9d/9a/5164bff66894af2ea07a6bc149a19803787e51f92f73b25c7e007a28e27a/EAACommander-0.3.tar.gz
+[2024-05-22 02:26:49] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-22 02:26:49] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-05-22 02:26:49] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-05-22 02:26:49] INFO root fetch - processPackages [gemmapy]: Downloading https://files.pythonhosted.org/packages/9c/38/566c826c3135eb8d3444fa5c1ab5c10b34e1e6f48d7606f63b6dd7d6678a/gemmapy-1.0.1.tar.gz
+[2024-05-22 02:26:49] INFO root fetch - processPackages [holdup]: Downloading https://files.pythonhosted.org/packages/4e/0a/3ee0d2df6958a26e01b9db14ac9503b9c6badca4b90305fed1b307c72532/holdup-5.1.0.tar.gz
+[2024-05-22 02:26:49] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-22 02:26:49] INFO root fetch - processPackages [janim]: Downloading https://files.pythonhosted.org/packages/7b/19/fb6e4b1eb2a784b0d639e0c3a68a96f9f33c070092caa3e457dfb0bdd61b/janim-1.0.3.tar.gz
+[2024-05-22 02:26:49] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-05-22 02:26:49] INFO root fetch - processPackages [EAACommander]: Downloading https://files.pythonhosted.org/packages/ac/b8/22863e5478d0529dceb0fa46fa19767c204e7d20c77e05faf31e973233d3/EAACommander-0.4.tar.gz
+[2024-05-22 02:26:49] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-05-22 02:26:49] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-05-22 02:26:49] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240522/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/README.md --exclude *.pyd
+[2024-05-22 02:26:49] INFO root fetch - processPackages [gemmapy]: Downloading https://files.pythonhosted.org/packages/dc/45/8afc86e02fc7821051d029754e1ec747a522b8a6c7ae793a57a3e8e56423/gemmapy-1.0.2.tar.gz
+[2024-05-22 02:26:49] INFO root fetch - processPackages [EAACommander]: executing diffoscope
+[2024-05-22 02:26:49] INFO root fetch - processPackages [EAACommander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EAACommander-0.3.tar.gz tmp/EAACommander-0.4.tar.gz --markdown 20240522/E/EAACommander/0.3-0.4/README.md --exclude *.pyd
+[2024-05-22 02:26:49] INFO root fetch - processPackages [holdup]: Downloading https://files.pythonhosted.org/packages/f4/fb/cbf09e6f2d68291dc3bb7508190affb8586f85757a2c0026b3f553017861/holdup-5.1.1.tar.gz
+[2024-05-22 02:26:49] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-22 02:26:49] INFO root fetch - processPackages [gemmapy]: executing diffoscope
+[2024-05-22 02:26:49] INFO root fetch - processPackages [gemmapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemmapy-1.0.1.tar.gz tmp/gemmapy-1.0.2.tar.gz --markdown 20240522/g/gemmapy/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-22 02:26:49] INFO root fetch - processPackages [janim]: Downloading https://files.pythonhosted.org/packages/86/39/c6cc18037753ce4246cdf98134f515ee09b4f0991c97213082df7165a203/janim-1.0.4.tar.gz
+[2024-05-22 02:26:49] INFO root fetch - processPackages [holdup]: executing diffoscope
+[2024-05-22 02:26:49] INFO root fetch - processPackages [holdup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holdup-5.1.0.tar.gz tmp/holdup-5.1.1.tar.gz --markdown 20240522/h/holdup/5.1.0-5.1.1/README.md --exclude *.pyd
+[2024-05-22 02:26:49] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-22 02:26:49] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240522/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-22 02:26:49] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-05-22 02:26:49] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240522/c/cdk-serverless-clamscan/2.6.98-2.6.99/README.md --exclude *.pyd
+[2024-05-22 02:26:50] INFO root fetch - processPackages [janim]: executing diffoscope
+[2024-05-22 02:26:50] INFO root fetch - processPackages [janim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janim-1.0.3.tar.gz tmp/janim-1.0.4.tar.gz --markdown 20240522/j/janim/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-22 02:26:50] INFO root fetch - processPackages [EAACommander]: Remove: archive file [/home/abi/fetcher/tmp/EAACommander-0.3.tar.gz]
+[2024-05-22 02:26:50] INFO root fetch - processPackages [EAACommander]: Remove: archive file [/home/abi/fetcher/tmp/EAACommander-0.4.tar.gz]
+[2024-05-22 02:26:50] INFO root fetch - main [MainThread]: End processing [EAACommander]: success
+[2024-05-22 02:26:50] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-05-22 02:26:50] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-05-22 02:26:50] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-05-22 02:26:50] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-22 02:26:50] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-22 02:26:50] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-22 02:26:50] INFO root fetch - processPackages [holdup]: Remove: archive file [/home/abi/fetcher/tmp/holdup-5.1.0.tar.gz]
+[2024-05-22 02:26:50] INFO root fetch - processPackages [holdup]: Remove: archive file [/home/abi/fetcher/tmp/holdup-5.1.1.tar.gz]
+[2024-05-22 02:26:50] INFO root fetch - main [MainThread]: End processing [holdup]: success
+[2024-05-22 02:26:50] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-05-22 02:26:50] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-05-22 02:26:50] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-05-22 02:26:51] INFO root fetch - processPackages [janim]: Remove: archive file [/home/abi/fetcher/tmp/janim-1.0.3.tar.gz]
+[2024-05-22 02:26:51] INFO root fetch - processPackages [janim]: Remove: archive file [/home/abi/fetcher/tmp/janim-1.0.4.tar.gz]
+[2024-05-22 02:26:51] INFO root fetch - main [MainThread]: End processing [janim]: success
+[2024-05-22 02:26:51] INFO root fetch - processPackages [gemmapy]: Remove: archive file [/home/abi/fetcher/tmp/gemmapy-1.0.1.tar.gz]
+[2024-05-22 02:26:51] INFO root fetch - processPackages [gemmapy]: Remove: archive file [/home/abi/fetcher/tmp/gemmapy-1.0.2.tar.gz]
+[2024-05-22 02:26:51] INFO root fetch - main [MainThread]: End processing [gemmapy]: success
+[2024-05-22 02:26:51] INFO root fetch - main [MainThread]: Store serial: [23315581]

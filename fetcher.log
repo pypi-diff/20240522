@@ -8742,3 +8742,36 @@
 [2024-05-22 04:29:49] INFO root fetch - processPackages [ventures]: Remove: archive file [/home/abi/fetcher/tmp/ventures-1.3.3.tar.gz]
 [2024-05-22 04:29:49] INFO root fetch - main [MainThread]: End processing [ventures]: success
 [2024-05-22 04:29:49] INFO root fetch - main [MainThread]: Store serial: [23317649]
+[2024-05-22 04:31:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317649]
+[2024-05-22 04:31:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 04:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: contact-person-profile-csv-imp-local
+[2024-05-22 04:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: backend1
+[2024-05-22 04:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: poetry-group-override
+[2024-05-22 04:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: viqi-api
+[2024-05-22 04:31:58] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 04:31:58] INFO root fetch - processPackages [backend1]: New version: [1.0.5] Old Version: [1.0.3]
+[2024-05-22 04:31:58] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Downloading https://files.pythonhosted.org/packages/38/8e/697a7a19f7efccb43ada97483628a3b05cd2c0ecf731e43238d4c94beb46/contact_person_profile_csv_imp_local-0.0.8.tar.gz
+[2024-05-22 04:31:58] INFO root fetch - processPackages [backend1]: Downloading https://files.pythonhosted.org/packages/fe/fb/14567f308b97aa96f9faf7e7a0f6c3979168edc8c28e4125aca56e6c5386/backend1-1.0.3.tar.gz
+[2024-05-22 04:31:58] WARNING root fetch - processPackages [poetry-group-override]: Skipping, unable to determine old version
+[2024-05-22 04:31:58] INFO root fetch - main [MainThread]: End processing [poetry-group-override] error
+[2024-05-22 04:31:58] INFO root fetch - processPackages [viqi-api]: New version: [0.6.4.9] Old Version: [0.6.4.84]
+[2024-05-22 04:31:58] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/e4/09/b16dc6fe8fcdd21f896613ad3031132b0be0d24463e873b43cb68e28a55f/viqi_api-0.6.4.84-py3-none-any.whl
+[2024-05-22 04:31:58] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Downloading https://files.pythonhosted.org/packages/2c/27/f654a86e934199e979e23917591a3a16a0877f5bfff9aa07956945918b8b/contact_person_profile_csv_imp_local-0.0.9.tar.gz
+[2024-05-22 04:31:58] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: executing diffoscope
+[2024-05-22 04:31:58] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_person_profile_csv_imp_local-0.0.8.tar.gz tmp/contact_person_profile_csv_imp_local-0.0.9.tar.gz --markdown 20240522/c/contact-person-profile-csv-imp-local/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 04:31:58] INFO root fetch - processPackages [backend1]: Downloading https://files.pythonhosted.org/packages/70/a6/16c82c398f58e7f44942390d8ef07eae7809ddd1a02a794fb3139305f68f/backend1-1.0.5.tar.gz
+[2024-05-22 04:31:59] INFO root fetch - processPackages [backend1]: executing diffoscope
+[2024-05-22 04:31:59] INFO root fetch - processPackages [backend1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend1-1.0.3.tar.gz tmp/backend1-1.0.5.tar.gz --markdown 20240522/b/backend1/1.0.3-1.0.5/README.md --exclude *.pyd
+[2024-05-22 04:31:59] INFO root fetch - processPackages [viqi-api]: Downloading https://files.pythonhosted.org/packages/e9/5c/44c9cdd455eadd370d8ec9e177faee8af6887be8f78f33d89a2ae15bcc14/viqi_api-0.6.4.9-py3-none-any.whl
+[2024-05-22 04:31:59] INFO root fetch - processPackages [viqi-api]: executing diffoscope
+[2024-05-22 04:31:59] INFO root fetch - processPackages [viqi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viqi_api-0.6.4.84-py3-none-any.whl.zip tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip --markdown 20240522/v/viqi-api/0.6.4.84-0.6.4.9/README.md --exclude *.pyd
+[2024-05-22 04:31:59] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_person_profile_csv_imp_local-0.0.8.tar.gz]
+[2024-05-22 04:31:59] INFO root fetch - processPackages [contact-person-profile-csv-imp-local]: Remove: archive file [/home/abi/fetcher/tmp/contact_person_profile_csv_imp_local-0.0.9.tar.gz]
+[2024-05-22 04:31:59] INFO root fetch - main [MainThread]: End processing [contact-person-profile-csv-imp-local]: success
+[2024-05-22 04:31:59] INFO root fetch - processPackages [backend1]: Remove: archive file [/home/abi/fetcher/tmp/backend1-1.0.3.tar.gz]
+[2024-05-22 04:31:59] INFO root fetch - processPackages [backend1]: Remove: archive file [/home/abi/fetcher/tmp/backend1-1.0.5.tar.gz]
+[2024-05-22 04:31:59] INFO root fetch - main [MainThread]: End processing [backend1]: success
+[2024-05-22 04:32:00] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.84-py3-none-any.whl.zip]
+[2024-05-22 04:32:00] INFO root fetch - processPackages [viqi-api]: Remove: archive file [/home/abi/fetcher/tmp/viqi_api-0.6.4.9-py3-none-any.whl.zip]
+[2024-05-22 04:32:00] INFO root fetch - main [MainThread]: End processing [viqi-api]: success
+[2024-05-22 04:32:00] INFO root fetch - main [MainThread]: Store serial: [23317667]

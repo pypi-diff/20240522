@@ -3635,3 +3635,81 @@
 [2024-05-22 03:03:05] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.9.tar.gz]
 [2024-05-22 03:03:05] INFO root fetch - main [MainThread]: End processing [wwbot]: success
 [2024-05-22 03:03:05] INFO root fetch - main [MainThread]: Store serial: [23315841]
+[2024-05-22 03:05:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315841]
+[2024-05-22 03:05:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-22 03:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaanca-chronometer
+[2024-05-22 03:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botocore-a-la-carte-greengrassv2
+[2024-05-22 03:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botocore-a-la-carte-finspace
+[2024-05-22 03:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botocore-a-la-carte-comprehend
+[2024-05-22 03:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botocore-a-la-carte-codeguruprofiler
+[2024-05-22 03:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botocore-a-la-carte-cloudsearch
+[2024-05-22 03:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: botocore-a-la-carte-servicecatalog
+[2024-05-22 03:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: botocore-a-la-carte-personalize-runtime
+[2024-05-22 03:05:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: botocore-a-la-carte-iot
+[2024-05-22 03:05:13] WARNING root fetch - processPackages [jaanca-chronometer]: Skipping, unable to determine old version
+[2024-05-22 03:05:13] INFO root fetch - main [MainThread]: End processing [jaanca-chronometer] error
+[2024-05-22 03:05:13] INFO root fetch - processPackages [botocore-a-la-carte-cloudsearch]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-22 03:05:13] INFO root fetch - processPackages [botocore-a-la-carte-codeguruprofiler]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-22 03:05:13] INFO root fetch - processPackages [botocore-a-la-carte-finspace]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-22 03:05:13] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-22 03:05:13] INFO root fetch - processPackages [botocore-a-la-carte-greengrassv2]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-22 03:05:13] INFO root fetch - processPackages [botocore-a-la-carte-servicecatalog]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-22 03:05:13] INFO root fetch - processPackages [botocore-a-la-carte-personalize-runtime]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-finspace]: Downloading https://files.pythonhosted.org/packages/68/e0/922c4aa00dae9fc37d5cc68fadbc10a807e92cb0f4d68a3193be7959cf09/botocore-a-la-carte-finspace-1.34.98.tar.gz
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-cloudsearch]: Downloading https://files.pythonhosted.org/packages/37/32/3bb715d67319b0fd0463c3bb81d66c0de48effe7fd578748172d2cc132a4/botocore-a-la-carte-cloudsearch-1.34.98.tar.gz
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: Downloading https://files.pythonhosted.org/packages/69/e3/4d30e0a4ea3f21ba893290b9dbc1684cf55c5abe612a0b7d5db784eb2aba/botocore-a-la-carte-comprehend-1.34.98.tar.gz
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-codeguruprofiler]: Downloading https://files.pythonhosted.org/packages/b0/54/95262f2802bdd9c1e4767265a936e7ee1b3f1f2f13d36c8ccda6cb3ba30d/botocore-a-la-carte-codeguruprofiler-1.34.98.tar.gz
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-greengrassv2]: Downloading https://files.pythonhosted.org/packages/6d/16/c777c3909c6e227cedd6b648fb189e10e4689e24c6b457b50f331fdd985d/botocore-a-la-carte-greengrassv2-1.34.98.tar.gz
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-iot]: New version: [1.34.99] Old Version: [1.34.98]
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-servicecatalog]: Downloading https://files.pythonhosted.org/packages/d2/3a/7a2631b13d0dd32361d0eb03ab0a369ffd42719cbf3d9726ccc72e4d6662/botocore-a-la-carte-servicecatalog-1.34.98.tar.gz
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-personalize-runtime]: Downloading https://files.pythonhosted.org/packages/65/81/18dfd4da69443072a457cfde82d50bd29ffa1d8a50885a1d9927f9e7241d/botocore-a-la-carte-personalize-runtime-1.34.98.tar.gz
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-iot]: Downloading https://files.pythonhosted.org/packages/4b/06/fb764264876724d8d0fa962430de548236472de21b3edddebd38761291fd/botocore-a-la-carte-iot-1.34.98.tar.gz
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: Downloading https://files.pythonhosted.org/packages/44/8c/186b93652c8d0c8d96a931231804e7ab502ce97220a94349bae27649d207/botocore-a-la-carte-comprehend-1.34.99.tar.gz
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-finspace]: Downloading https://files.pythonhosted.org/packages/0c/03/3de17a7182c2811d86ff68450bd2c3b740332fd77fa7a50652a90521e38e/botocore-a-la-carte-finspace-1.34.99.tar.gz
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-codeguruprofiler]: Downloading https://files.pythonhosted.org/packages/58/80/4b8a7c4af237e6b26cf9055910ad9100e77a3c69cfb2584d528a724de164/botocore-a-la-carte-codeguruprofiler-1.34.99.tar.gz
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-cloudsearch]: Downloading https://files.pythonhosted.org/packages/09/09/5ea6691fc44c03e0f5b436a7a2e8f427537222bb81e855480af2d9bd9cae/botocore-a-la-carte-cloudsearch-1.34.99.tar.gz
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-personalize-runtime]: Downloading https://files.pythonhosted.org/packages/a0/72/d243b04e680fea2959d6914b0964f654e0fb09fe6fe54348d025dafd6367/botocore-a-la-carte-personalize-runtime-1.34.99.tar.gz
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-servicecatalog]: Downloading https://files.pythonhosted.org/packages/25/43/3a4081b2460ccbe03ef76a989a95eb7d55e13b7669b5be64c1f0b4a297b2/botocore-a-la-carte-servicecatalog-1.34.99.tar.gz
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-finspace]: executing diffoscope
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-finspace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-finspace-1.34.98.tar.gz tmp/botocore-a-la-carte-finspace-1.34.99.tar.gz --markdown 20240522/b/botocore-a-la-carte-finspace/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-greengrassv2]: Downloading https://files.pythonhosted.org/packages/cc/4f/c8a7336349cb6e95e39735820bed6b3c91d378846ee2df123bc420911cbf/botocore-a-la-carte-greengrassv2-1.34.99.tar.gz
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: executing diffoscope
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-comprehend-1.34.98.tar.gz tmp/botocore-a-la-carte-comprehend-1.34.99.tar.gz --markdown 20240522/b/botocore-a-la-carte-comprehend/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-codeguruprofiler]: executing diffoscope
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-codeguruprofiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-codeguruprofiler-1.34.98.tar.gz tmp/botocore-a-la-carte-codeguruprofiler-1.34.99.tar.gz --markdown 20240522/b/botocore-a-la-carte-codeguruprofiler/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-cloudsearch]: executing diffoscope
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-cloudsearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-cloudsearch-1.34.98.tar.gz tmp/botocore-a-la-carte-cloudsearch-1.34.99.tar.gz --markdown 20240522/b/botocore-a-la-carte-cloudsearch/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-personalize-runtime]: executing diffoscope
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-personalize-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-personalize-runtime-1.34.98.tar.gz tmp/botocore-a-la-carte-personalize-runtime-1.34.99.tar.gz --markdown 20240522/b/botocore-a-la-carte-personalize-runtime/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-greengrassv2]: executing diffoscope
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-greengrassv2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-greengrassv2-1.34.98.tar.gz tmp/botocore-a-la-carte-greengrassv2-1.34.99.tar.gz --markdown 20240522/b/botocore-a-la-carte-greengrassv2/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-iot]: Downloading https://files.pythonhosted.org/packages/5e/9a/b99c524a06054ccae3ac272d4941dda2f9681441a08cbd8fa1bac07004c5/botocore-a-la-carte-iot-1.34.99.tar.gz
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-servicecatalog]: executing diffoscope
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-servicecatalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-servicecatalog-1.34.98.tar.gz tmp/botocore-a-la-carte-servicecatalog-1.34.99.tar.gz --markdown 20240522/b/botocore-a-la-carte-servicecatalog/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-iot]: executing diffoscope
+[2024-05-22 03:05:14] INFO root fetch - processPackages [botocore-a-la-carte-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-iot-1.34.98.tar.gz tmp/botocore-a-la-carte-iot-1.34.99.tar.gz --markdown 20240522/b/botocore-a-la-carte-iot/1.34.98-1.34.99/README.md --exclude *.pyd
+[2024-05-22 03:05:15] INFO root fetch - processPackages [botocore-a-la-carte-codeguruprofiler]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-codeguruprofiler-1.34.98.tar.gz]
+[2024-05-22 03:05:15] INFO root fetch - processPackages [botocore-a-la-carte-codeguruprofiler]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-codeguruprofiler-1.34.99.tar.gz]
+[2024-05-22 03:05:15] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-codeguruprofiler]: success
+[2024-05-22 03:05:15] INFO root fetch - processPackages [botocore-a-la-carte-finspace]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-finspace-1.34.98.tar.gz]
+[2024-05-22 03:05:15] INFO root fetch - processPackages [botocore-a-la-carte-finspace]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-finspace-1.34.99.tar.gz]
+[2024-05-22 03:05:15] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-finspace]: success
+[2024-05-22 03:05:15] INFO root fetch - processPackages [botocore-a-la-carte-greengrassv2]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-greengrassv2-1.34.98.tar.gz]
+[2024-05-22 03:05:15] INFO root fetch - processPackages [botocore-a-la-carte-greengrassv2]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-greengrassv2-1.34.99.tar.gz]
+[2024-05-22 03:05:15] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-greengrassv2]: success
+[2024-05-22 03:05:15] INFO root fetch - processPackages [botocore-a-la-carte-personalize-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-personalize-runtime-1.34.98.tar.gz]
+[2024-05-22 03:05:15] INFO root fetch - processPackages [botocore-a-la-carte-personalize-runtime]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-personalize-runtime-1.34.99.tar.gz]
+[2024-05-22 03:05:15] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-personalize-runtime]: success
+[2024-05-22 03:05:15] INFO root fetch - processPackages [botocore-a-la-carte-cloudsearch]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-cloudsearch-1.34.98.tar.gz]
+[2024-05-22 03:05:15] INFO root fetch - processPackages [botocore-a-la-carte-cloudsearch]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-cloudsearch-1.34.99.tar.gz]
+[2024-05-22 03:05:15] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-cloudsearch]: success
+[2024-05-22 03:05:15] INFO root fetch - processPackages [botocore-a-la-carte-iot]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-iot-1.34.98.tar.gz]
+[2024-05-22 03:05:15] INFO root fetch - processPackages [botocore-a-la-carte-iot]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-iot-1.34.99.tar.gz]
+[2024-05-22 03:05:15] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-iot]: success
+[2024-05-22 03:05:15] INFO root fetch - processPackages [botocore-a-la-carte-servicecatalog]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-servicecatalog-1.34.98.tar.gz]
+[2024-05-22 03:05:15] INFO root fetch - processPackages [botocore-a-la-carte-servicecatalog]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-servicecatalog-1.34.99.tar.gz]
+[2024-05-22 03:05:15] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-servicecatalog]: success
+[2024-05-22 03:05:15] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-comprehend-1.34.98.tar.gz]
+[2024-05-22 03:05:15] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-comprehend-1.34.99.tar.gz]
+[2024-05-22 03:05:15] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-comprehend]: success
+[2024-05-22 03:05:15] INFO root fetch - main [MainThread]: Store serial: [23315858]

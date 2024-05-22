@@ -13486,3 +13486,33 @@
 [2024-05-22 08:48:48] INFO root fetch - processPackages [django_medilab_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_medilab_ds-3.0.0.tar.gz]
 [2024-05-22 08:48:48] INFO root fetch - main [MainThread]: End processing [django_medilab_ds]: success
 [2024-05-22 08:48:48] INFO root fetch - main [MainThread]: Store serial: [23319854]
+[2024-05-22 08:51:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319854]
+[2024-05-22 08:51:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 08:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-social
+[2024-05-22 08:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cg
+[2024-05-22 08:51:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dea-tools
+[2024-05-22 08:51:13] INFO root fetch - processPackages [odoo-addons-oca-social]: New version: [16.0.20240521.0] Old Version: [16.0.20240325.0]
+[2024-05-22 08:51:13] INFO root fetch - processPackages [dea-tools]: New version: [0.3.3.dev9] Old Version: [0.3.2.dev55]
+[2024-05-22 08:51:13] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/08/a3/ad58b3976fca25347969b2a5095a8448b3e8c5a7ef95db7eaf634d918a7e/odoo_addons_oca_social-16.0.20240325.0-py3-none-any.whl
+[2024-05-22 08:51:13] INFO root fetch - processPackages [dea-tools]: Downloading https://files.pythonhosted.org/packages/b9/9f/951757bb189b33cde49d68617201d778651e29cdab7129fed3071dc83112/dea-tools-0.3.2.dev55.tar.gz
+[2024-05-22 08:51:13] INFO root fetch - processPackages [cg]: New version: [60.8.0] Old Version: [60.7.9]
+[2024-05-22 08:51:14] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/6d/38/e3ff082487603f9b23877cfe7185b58a21cb7763a1d8c0ea38640ffb90ea/cg-60.7.9-py3-none-any.whl
+[2024-05-22 08:51:14] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/56/45/67360be3ace6efd71d712e39b1a86af729d1ea9111a14540ece0fc23bb8a/odoo_addons_oca_social-16.0.20240521.0-py3-none-any.whl
+[2024-05-22 08:51:14] INFO root fetch - processPackages [dea-tools]: Downloading https://files.pythonhosted.org/packages/4f/6d/528157888c99df98422c8ebd17dbde5c5d68ae4f6a6f0bc535c8546bda71/dea_tools-0.3.3.dev9.tar.gz
+[2024-05-22 08:51:14] INFO root fetch - processPackages [odoo-addons-oca-social]: executing diffoscope
+[2024-05-22 08:51:14] INFO root fetch - processPackages [odoo-addons-oca-social]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_social-16.0.20240325.0-py3-none-any.whl.zip tmp/odoo_addons_oca_social-16.0.20240521.0-py3-none-any.whl.zip --markdown 20240522/o/odoo-addons-oca-social/16.0.20240325.0-16.0.20240521.0/README.md --exclude *.pyd
+[2024-05-22 08:51:14] INFO root fetch - processPackages [dea-tools]: executing diffoscope
+[2024-05-22 08:51:14] INFO root fetch - processPackages [dea-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dea-tools-0.3.2.dev55.tar.gz tmp/dea_tools-0.3.3.dev9.tar.gz --markdown 20240522/d/dea-tools/0.3.2.dev55-0.3.3.dev9/README.md --exclude *.pyd
+[2024-05-22 08:51:14] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/78/bd/1a192efffe23d05c1a9cb393a87a119042ff42d19eb7af3bf612973a34a1/cg-60.8.0.tar.gz
+[2024-05-22 08:51:14] INFO root fetch - processPackages [odoo-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_social-16.0.20240325.0-py3-none-any.whl.zip]
+[2024-05-22 08:51:14] INFO root fetch - processPackages [odoo-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_social-16.0.20240521.0-py3-none-any.whl.zip]
+[2024-05-22 08:51:14] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-social]: success
+[2024-05-22 08:51:14] INFO root fetch - processPackages [cg]: executing diffoscope
+[2024-05-22 08:51:14] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-60.7.9-py3-none-any.whl.zip tmp/cg-60.8.0.tar.gz --markdown 20240522/c/cg/60.7.9-60.8.0/README.md --exclude *.pyd
+[2024-05-22 08:51:15] INFO root fetch - processPackages [dea-tools]: Remove: archive file [/home/abi/fetcher/tmp/dea-tools-0.3.2.dev55.tar.gz]
+[2024-05-22 08:51:15] INFO root fetch - processPackages [dea-tools]: Remove: archive file [/home/abi/fetcher/tmp/dea_tools-0.3.3.dev9.tar.gz]
+[2024-05-22 08:51:15] INFO root fetch - main [MainThread]: End processing [dea-tools]: success
+[2024-05-22 08:51:19] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.7.9-py3-none-any.whl.zip]
+[2024-05-22 08:51:19] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.0.tar.gz]
+[2024-05-22 08:51:19] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2024-05-22 08:51:19] INFO root fetch - main [MainThread]: Store serial: [23319863]

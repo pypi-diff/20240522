@@ -20878,3 +20878,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 13:14:40] INFO root fetch - processPackages [edgy]: Remove: archive file [/home/abi/fetcher/tmp/edgy-0.9.2.tar.gz]
 [2024-05-22 13:14:40] INFO root fetch - main [MainThread]: End processing [edgy]: success
 [2024-05-22 13:14:40] INFO root fetch - main [MainThread]: Store serial: [23322997]
+[2024-05-22 13:16:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322997]
+[2024-05-22 13:16:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 13:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edgy
+[2024-05-22 13:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: timelineomat
+[2024-05-22 13:16:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hgitaly
+[2024-05-22 13:16:49] WARNING root fetch - processPackages [timelineomat]: Skipping, unable to determine old version
+[2024-05-22 13:16:49] INFO root fetch - main [MainThread]: End processing [timelineomat] error
+[2024-05-22 13:16:49] INFO root fetch - processPackages [edgy]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-22 13:16:49] INFO root fetch - processPackages [edgy]: Downloading https://files.pythonhosted.org/packages/b1/d8/8dba489f9d32d62c0e924248f8d5bccfd9c89fa2c66aea74cc5dae789c2e/edgy-0.9.1.tar.gz
+[2024-05-22 13:16:49] INFO root fetch - processPackages [hgitaly]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-05-22 13:16:50] INFO root fetch - processPackages [edgy]: Downloading https://files.pythonhosted.org/packages/c7/a7/ea7a37ec28c1d9ff6a67269c38a468ab5b7b5e3da09f72104fd5c526cb75/edgy-0.9.2.tar.gz
+[2024-05-22 13:16:50] INFO root fetch - processPackages [hgitaly]: Downloading https://files.pythonhosted.org/packages/fb/f2/831e61d3224c71e37f2c5034bcdf54822ebdf6d986d5cb44a1a312034561/hgitaly-1.5.0.tar.gz
+[2024-05-22 13:16:50] INFO root fetch - processPackages [edgy]: executing diffoscope
+[2024-05-22 13:16:50] INFO root fetch - processPackages [edgy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgy-0.9.1.tar.gz tmp/edgy-0.9.2.tar.gz --markdown 20240522/e/edgy/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-22 13:16:50] INFO root fetch - processPackages [hgitaly]: Downloading https://files.pythonhosted.org/packages/7e/46/6892e41db34f866411089014822c9f1ecf0991d94dbf5fda862cb4ccfc27/hgitaly-1.6.0.tar.gz
+[2024-05-22 13:16:51] INFO root fetch - processPackages [edgy]: Remove: archive file [/home/abi/fetcher/tmp/edgy-0.9.1.tar.gz]
+[2024-05-22 13:16:51] INFO root fetch - processPackages [edgy]: Remove: archive file [/home/abi/fetcher/tmp/edgy-0.9.2.tar.gz]
+[2024-05-22 13:16:51] INFO root fetch - main [MainThread]: End processing [edgy]: success
+[2024-05-22 13:16:51] INFO root fetch - processPackages [hgitaly]: executing diffoscope
+[2024-05-22 13:16:51] INFO root fetch - processPackages [hgitaly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgitaly-1.5.0.tar.gz tmp/hgitaly-1.6.0.tar.gz --markdown 20240522/h/hgitaly/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-05-22 13:16:52] INFO root fetch - processPackages [hgitaly]: Remove: archive file [/home/abi/fetcher/tmp/hgitaly-1.5.0.tar.gz]
+[2024-05-22 13:16:52] INFO root fetch - processPackages [hgitaly]: Remove: archive file [/home/abi/fetcher/tmp/hgitaly-1.6.0.tar.gz]
+[2024-05-22 13:16:52] INFO root fetch - main [MainThread]: End processing [hgitaly]: success
+[2024-05-22 13:16:52] INFO root fetch - main [MainThread]: Store serial: [23323013]

@@ -21323,3 +21323,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 13:30:31] INFO root fetch - processPackages [efaqa-corpus-zh]: Remove: archive file [/home/abi/fetcher/tmp/efaqa_corpus_zh-1.2.tar.gz]
 [2024-05-22 13:30:31] INFO root fetch - main [MainThread]: End processing [efaqa-corpus-zh]: success
 [2024-05-22 13:30:31] INFO root fetch - main [MainThread]: Store serial: [23323173]
+[2024-05-22 13:32:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323173]
+[2024-05-22 13:32:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 13:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: massmarket-hash-event
+[2024-05-22 13:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: packManager
+[2024-05-22 13:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llm-microscope
+[2024-05-22 13:32:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparse
+[2024-05-22 13:32:41] INFO root fetch - processPackages [massmarket-hash-event]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-22 13:32:41] INFO root fetch - processPackages [massmarket-hash-event]: Downloading https://files.pythonhosted.org/packages/bb/20/abe29d1a7090a27942d561a017cb03bc54c866fbfa013b3b78b0298d9f38/massmarket_hash_event-0.1.5.tar.gz
+[2024-05-22 13:32:41] WARNING root fetch - processPackages [llm-microscope]: Skipping, unable to determine old version
+[2024-05-22 13:32:41] INFO root fetch - main [MainThread]: End processing [llm-microscope] error
+[2024-05-22 13:32:41] INFO root fetch - processPackages [packManager]: New version: [1.0.1] Old Version: [0.0.0]
+[2024-05-22 13:32:41] INFO root fetch - processPackages [sparse]: New version: [0.9.1] Old Version: [0.8.0]
+[2024-05-22 13:32:41] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/1d/36/4aed9d6940d682b6a4e75295a18767903d99c13a11dc9aae97b2feb275ce/packmanager-0.0.0.tar.gz
+[2024-05-22 13:32:41] INFO root fetch - processPackages [sparse]: Downloading https://files.pythonhosted.org/packages/8e/da/cba8e6d14869c1e62251d587332eafec3c92fea9f041e0d5491a634b80d1/sparse-0.8.0.tar.gz
+[2024-05-22 13:32:41] INFO root fetch - processPackages [massmarket-hash-event]: Downloading https://files.pythonhosted.org/packages/12/1d/eb2254d5043c7880589e3677ff5bda954a1796b5688bdbf92ca8020f3f66/massmarket_hash_event-0.1.6.tar.gz
+[2024-05-22 13:32:41] INFO root fetch - processPackages [massmarket-hash-event]: executing diffoscope
+[2024-05-22 13:32:41] INFO root fetch - processPackages [massmarket-hash-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/massmarket_hash_event-0.1.5.tar.gz tmp/massmarket_hash_event-0.1.6.tar.gz --markdown 20240522/m/massmarket-hash-event/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-22 13:32:41] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/d2/be/38fa4beec70e9183acdeee3a59d5e481d4b49c240b7fc49434ff1c91a356/packmanager-1.0.1.tar.gz
+[2024-05-22 13:32:42] INFO root fetch - processPackages [sparse]: Downloading https://files.pythonhosted.org/packages/34/99/52ebc6bd4198f1e61e66f04ff1947a27aa8723b974e5d79fde0bb60e784f/sparse-0.9.1.tar.gz
+[2024-05-22 13:32:42] INFO root fetch - processPackages [packManager]: executing diffoscope
+[2024-05-22 13:32:42] INFO root fetch - processPackages [packManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packmanager-0.0.0.tar.gz tmp/packmanager-1.0.1.tar.gz --markdown 20240522/p/packManager/0.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-22 13:32:42] INFO root fetch - processPackages [sparse]: executing diffoscope
+[2024-05-22 13:32:42] INFO root fetch - processPackages [sparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse-0.8.0.tar.gz tmp/sparse-0.9.1.tar.gz --markdown 20240522/s/sparse/0.8.0-0.9.1/README.md --exclude *.pyd
+[2024-05-22 13:32:42] INFO root fetch - processPackages [massmarket-hash-event]: Remove: archive file [/home/abi/fetcher/tmp/massmarket_hash_event-0.1.5.tar.gz]
+[2024-05-22 13:32:42] INFO root fetch - processPackages [massmarket-hash-event]: Remove: archive file [/home/abi/fetcher/tmp/massmarket_hash_event-0.1.6.tar.gz]
+[2024-05-22 13:32:42] INFO root fetch - main [MainThread]: End processing [massmarket-hash-event]: success
+[2024-05-22 13:32:42] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-0.0.0.tar.gz]
+[2024-05-22 13:32:42] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-1.0.1.tar.gz]
+[2024-05-22 13:32:42] INFO root fetch - main [MainThread]: End processing [packManager]: success
+[2024-05-22 13:32:43] INFO root fetch - processPackages [sparse]: Remove: archive file [/home/abi/fetcher/tmp/sparse-0.8.0.tar.gz]
+[2024-05-22 13:32:43] INFO root fetch - processPackages [sparse]: Remove: archive file [/home/abi/fetcher/tmp/sparse-0.9.1.tar.gz]
+[2024-05-22 13:32:43] INFO root fetch - main [MainThread]: End processing [sparse]: success
+[2024-05-22 13:32:43] INFO root fetch - main [MainThread]: Store serial: [23323189]

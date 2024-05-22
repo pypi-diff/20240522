@@ -16198,3 +16198,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:32:50] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
 [2024-05-22 10:32:50] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
 [2024-05-22 10:32:50] INFO root fetch - main [MainThread]: Store serial: [23320917]
+[2024-05-22 10:34:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320917]
+[2024-05-22 10:34:59] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 10:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acryl-datahub
+[2024-05-22 10:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bugsnag
+[2024-05-22 10:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openaichatlib
+[2024-05-22 10:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acryl-datahub-airflow-plugin
+[2024-05-22 10:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatllm
+[2024-05-22 10:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: go-console
+[2024-05-22 10:34:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bus-user
+[2024-05-22 10:34:59] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-22 10:34:59] INFO root fetch - processPackages [go-console]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-22 10:34:59] INFO root fetch - processPackages [openaichatlib]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-22 10:34:59] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-22 10:34:59] INFO root fetch - processPackages [bugsnag]: New version: [4.7.1] Old Version: [4.7.0]
+[2024-05-22 10:34:59] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-22 10:34:59] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-05-22 10:34:59] INFO root fetch - processPackages [bus-user]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-22 10:34:59] INFO root fetch - processPackages [bugsnag]: Downloading https://files.pythonhosted.org/packages/ee/17/8d951eabf875606cc2c93536e3e8aadea880f372774f2354de61630d630d/bugsnag-4.7.0.tar.gz
+[2024-05-22 10:34:59] INFO root fetch - processPackages [go-console]: Downloading https://files.pythonhosted.org/packages/a2/76/278d3492ec8a0e1574beca9e80b403a57a42901ecc5b47ccd94933903848/go_console-0.0.2.tar.gz
+[2024-05-22 10:34:59] INFO root fetch - processPackages [openaichatlib]: Downloading https://files.pythonhosted.org/packages/3e/5b/a3719f06f29cc62e2b960ae8bbd7e2f5d499585b68c7f7f13dd084d0c211/openaichatlib-1.0.8.tar.gz
+[2024-05-22 10:34:59] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-22 10:34:59] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2024-05-22 10:34:59] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/12/c9/6ebe078c59f630ea4548fde18b89e1b8ec05aad546132d7a65d612555a2c/bus_user-0.2.8.tar.gz
+[2024-05-22 10:34:59] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-22 10:34:59] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240522/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-22 10:34:59] INFO root fetch - processPackages [bugsnag]: Downloading https://files.pythonhosted.org/packages/dd/ee/6ce7a0a7c0b882543e3417df54b12a4fcfc94ba6997201175710b8ca3183/bugsnag-4.7.1.tar.gz
+[2024-05-22 10:34:59] INFO root fetch - processPackages [go-console]: Downloading https://files.pythonhosted.org/packages/f5/59/2a2d9a33a8af7b161d6e4e3d68729cbb66eaf9c05d4dffdb45c30e6372b9/go_console-0.0.3.tar.gz
+[2024-05-22 10:34:59] INFO root fetch - processPackages [openaichatlib]: Downloading https://files.pythonhosted.org/packages/0f/08/d1a60919ecc27b4d24615c4cb3ac6a91b9b56ea211aa328fd255a03fe35d/openaichatlib-1.0.9.tar.gz
+[2024-05-22 10:34:59] INFO root fetch - processPackages [bugsnag]: executing diffoscope
+[2024-05-22 10:34:59] INFO root fetch - processPackages [bugsnag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugsnag-4.7.0.tar.gz tmp/bugsnag-4.7.1.tar.gz --markdown 20240522/b/bugsnag/4.7.0-4.7.1/README.md --exclude *.pyd
+[2024-05-22 10:35:00] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2024-05-22 10:35:00] INFO root fetch - processPackages [go-console]: executing diffoscope
+[2024-05-22 10:35:00] INFO root fetch - processPackages [go-console]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/go_console-0.0.2.tar.gz tmp/go_console-0.0.3.tar.gz --markdown 20240522/g/go-console/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-22 10:35:00] INFO root fetch - processPackages [openaichatlib]: executing diffoscope
+[2024-05-22 10:35:00] INFO root fetch - processPackages [openaichatlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openaichatlib-1.0.8.tar.gz tmp/openaichatlib-1.0.9.tar.gz --markdown 20240522/o/openaichatlib/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-22 10:35:00] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2024-05-22 10:35:00] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2024-05-22 10:35:00] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20240522/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-22 10:35:00] INFO root fetch - processPackages [bus-user]: Downloading https://files.pythonhosted.org/packages/a6/26/ff8307b4b7506dd979c15253fc3dff9cc01826c3f9f32a859b6437baa699/bus_user-0.2.9.tar.gz
+[2024-05-22 10:35:00] INFO root fetch - processPackages [bus-user]: executing diffoscope
+[2024-05-22 10:35:00] INFO root fetch - processPackages [bus-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bus_user-0.2.8.tar.gz tmp/bus_user-0.2.9.tar.gz --markdown 20240522/b/bus-user/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-22 10:35:00] INFO root fetch - processPackages [go-console]: Remove: archive file [/home/abi/fetcher/tmp/go_console-0.0.2.tar.gz]
+[2024-05-22 10:35:00] INFO root fetch - processPackages [go-console]: Remove: archive file [/home/abi/fetcher/tmp/go_console-0.0.3.tar.gz]
+[2024-05-22 10:35:00] INFO root fetch - main [MainThread]: End processing [go-console]: success
+[2024-05-22 10:35:00] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2024-05-22 10:35:01] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2024-05-22 10:35:01] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2024-05-22 10:35:01] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2024-05-22 10:35:01] INFO root fetch - processPackages [openaichatlib]: Remove: archive file [/home/abi/fetcher/tmp/openaichatlib-1.0.8.tar.gz]
+[2024-05-22 10:35:01] INFO root fetch - processPackages [openaichatlib]: Remove: archive file [/home/abi/fetcher/tmp/openaichatlib-1.0.9.tar.gz]
+[2024-05-22 10:35:01] INFO root fetch - main [MainThread]: End processing [openaichatlib]: success
+[2024-05-22 10:35:01] INFO root fetch - processPackages [bugsnag]: Remove: archive file [/home/abi/fetcher/tmp/bugsnag-4.7.0.tar.gz]
+[2024-05-22 10:35:01] INFO root fetch - processPackages [bugsnag]: Remove: archive file [/home/abi/fetcher/tmp/bugsnag-4.7.1.tar.gz]
+[2024-05-22 10:35:01] INFO root fetch - main [MainThread]: End processing [bugsnag]: success
+[2024-05-22 10:35:01] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.2.8.tar.gz]
+[2024-05-22 10:35:01] INFO root fetch - processPackages [bus-user]: Remove: archive file [/home/abi/fetcher/tmp/bus_user-0.2.9.tar.gz]
+[2024-05-22 10:35:01] INFO root fetch - main [MainThread]: End processing [bus-user]: success
+[2024-05-22 10:35:01] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2024-05-22 10:35:01] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20240522/a/acryl-datahub/0.9.6rc0-0.9.6rc1/README.md --exclude *.pyd
+[2024-05-22 10:35:01] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-22 10:35:01] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-22 10:35:01] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-22 10:35:03] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2024-05-22 10:35:03] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2024-05-22 10:35:03] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2024-05-22 10:35:03] INFO root fetch - main [MainThread]: Store serial: [23320938]

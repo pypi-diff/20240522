@@ -2323,3 +2323,42 @@
 [2024-05-22 01:59:52] INFO root fetch - processPackages [corgea-cli]: Remove: archive file [/home/abi/fetcher/tmp/corgea_cli-1.3.2.tar.gz]
 [2024-05-22 01:59:52] INFO root fetch - main [MainThread]: End processing [corgea-cli]: success
 [2024-05-22 01:59:52] INFO root fetch - main [MainThread]: Store serial: [23315344]
+[2024-05-22 02:01:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315344]
+[2024-05-22 02:02:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 02:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-horizon-sdk
+[2024-05-22 02:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antimatter-api
+[2024-05-22 02:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alamos
+[2024-05-22 02:02:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: synnax-freighter
+[2024-05-22 02:02:01] INFO root fetch - processPackages [antimatter-api]: New version: [1.0.9] Old Version: [1.0.7]
+[2024-05-22 02:02:01] INFO root fetch - processPackages [alamos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-22 02:02:01] INFO root fetch - processPackages [synnax-freighter]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-22 02:02:01] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-22 02:02:01] INFO root fetch - processPackages [antimatter-api]: Downloading https://files.pythonhosted.org/packages/ad/64/d72b3cfccd352394357d38d534488823a010009c85318d9ad3b21c37becf/antimatter_api-1.0.7.tar.gz
+[2024-05-22 02:02:01] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c5/2b/b12c4308c7fb396e018ffbe6ec0f046170906ae98b188985b537619e0f55/alamos-0.3.8.tar.gz
+[2024-05-22 02:02:01] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/1d/b2/45fac6d04ecd283c4fd0fc41eab1de66ca356f9e86edcb6d59585cbb0e26/synnax_freighter-0.7.1.tar.gz
+[2024-05-22 02:02:01] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/67/4d/e1a8441c0793c287231aa24b799798d11cf616a132506eff04205a00f779/finbourne_horizon_sdk-2.1.8.tar.gz
+[2024-05-22 02:02:01] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c1/08/cf40db715e810dc50be82dd822b41aefe7a4903f73ac57533c85bc63cf9d/alamos-0.3.9.tar.gz
+[2024-05-22 02:02:02] INFO root fetch - processPackages [antimatter-api]: Downloading https://files.pythonhosted.org/packages/9c/e1/e08307712586325195cfb5a7d1d379f7eca786d2e6f7fad8387d003c7837/antimatter_api-1.0.9.tar.gz
+[2024-05-22 02:02:02] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/df/fa/2361b9179baf6e0ef8aa5667c5bf5ef7c28a98660f52bb7a7c8671f43c8e/finbourne_horizon_sdk-2.1.9.tar.gz
+[2024-05-22 02:02:02] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-05-22 02:02:02] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.8.tar.gz tmp/alamos-0.3.9.tar.gz --markdown 20240522/a/alamos/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-22 02:02:02] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/cc/3c/a3040f96734a94461f0b7dc77bdcaf7a1b53eddadfd30e202aa7a1f65802/synnax_freighter-0.7.2.tar.gz
+[2024-05-22 02:02:02] INFO root fetch - processPackages [antimatter-api]: executing diffoscope
+[2024-05-22 02:02:02] INFO root fetch - processPackages [antimatter-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antimatter_api-1.0.7.tar.gz tmp/antimatter_api-1.0.9.tar.gz --markdown 20240522/a/antimatter-api/1.0.7-1.0.9/README.md --exclude *.pyd
+[2024-05-22 02:02:02] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-05-22 02:02:02] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.1.8.tar.gz tmp/finbourne_horizon_sdk-2.1.9.tar.gz --markdown 20240522/f/finbourne-horizon-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-22 02:02:02] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-05-22 02:02:02] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.7.1.tar.gz tmp/synnax_freighter-0.7.2.tar.gz --markdown 20240522/s/synnax-freighter/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-22 02:02:02] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.8.tar.gz]
+[2024-05-22 02:02:02] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
+[2024-05-22 02:02:02] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-05-22 02:02:02] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.1.tar.gz]
+[2024-05-22 02:02:02] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.2.tar.gz]
+[2024-05-22 02:02:02] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-05-22 02:02:02] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.8.tar.gz]
+[2024-05-22 02:02:02] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.1.9.tar.gz]
+[2024-05-22 02:02:02] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-05-22 02:02:05] INFO root fetch - processPackages [antimatter-api]: Remove: archive file [/home/abi/fetcher/tmp/antimatter_api-1.0.7.tar.gz]
+[2024-05-22 02:02:05] INFO root fetch - processPackages [antimatter-api]: Remove: archive file [/home/abi/fetcher/tmp/antimatter_api-1.0.9.tar.gz]
+[2024-05-22 02:02:05] INFO root fetch - main [MainThread]: End processing [antimatter-api]: success
+[2024-05-22 02:02:05] INFO root fetch - main [MainThread]: Store serial: [23315356]

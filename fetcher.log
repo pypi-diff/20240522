@@ -7711,3 +7711,15 @@
 [2024-05-22 03:37:24] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-05-22 03:37:24] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-05-22 03:37:24] INFO root fetch - main [MainThread]: Store serial: [23317252]
+[2024-05-22 03:39:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317252]
+[2024-05-22 03:39:34] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-22 03:39:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ventures
+[2024-05-22 03:39:34] INFO root fetch - processPackages [ventures]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-22 03:39:34] INFO root fetch - processPackages [ventures]: Downloading https://files.pythonhosted.org/packages/27/91/125f1878c17e1e79805451dd66d7012526df10ce94d43e78fbad76934e1c/ventures-1.3.1.tar.gz
+[2024-05-22 03:39:34] INFO root fetch - processPackages [ventures]: Downloading https://files.pythonhosted.org/packages/14/b9/a818c010fbcce30fa60b3b6ebe1957f865d65c4e442f1f551e2f565f72a3/ventures-1.3.2.tar.gz
+[2024-05-22 03:39:34] INFO root fetch - processPackages [ventures]: executing diffoscope
+[2024-05-22 03:39:34] INFO root fetch - processPackages [ventures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ventures-1.3.1.tar.gz tmp/ventures-1.3.2.tar.gz --markdown 20240522/v/ventures/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-22 03:39:36] INFO root fetch - processPackages [ventures]: Remove: archive file [/home/abi/fetcher/tmp/ventures-1.3.1.tar.gz]
+[2024-05-22 03:39:36] INFO root fetch - processPackages [ventures]: Remove: archive file [/home/abi/fetcher/tmp/ventures-1.3.2.tar.gz]
+[2024-05-22 03:39:36] INFO root fetch - main [MainThread]: End processing [ventures]: success
+[2024-05-22 03:39:36] INFO root fetch - main [MainThread]: Store serial: [23317275]

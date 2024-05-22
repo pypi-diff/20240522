@@ -15221,3 +15221,56 @@
 [2024-05-22 09:55:59] INFO root fetch - processPackages [aliyun-python-sdk-ens]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ens-3.0.9.tar.gz]
 [2024-05-22 09:55:59] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ens]: success
 [2024-05-22 09:55:59] INFO root fetch - main [MainThread]: Store serial: [23320550]
+[2024-05-22 09:58:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320550]
+[2024-05-22 09:58:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 09:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duwi-smarthome-sdk-dev
+[2024-05-22 09:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anonipy
+[2024-05-22 09:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quokka-sharp
+[2024-05-22 09:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly
+[2024-05-22 09:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bc-detect-secrets
+[2024-05-22 09:58:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wetb
+[2024-05-22 09:58:08] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-22 09:58:09] INFO root fetch - processPackages [quokka-sharp]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-22 09:58:09] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/01/f9/77ddfa1cf9ee9961726fdc01570adca59ebfc18d7e3be921f4bb8e0b792f/duwi_smarthome_sdk_dev-0.0.7.tar.gz
+[2024-05-22 09:58:09] INFO root fetch - processPackages [bc-detect-secrets]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-22 09:58:09] INFO root fetch - processPackages [anonipy]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-22 09:58:09] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240522] Old Version: [2.17.0.dev20240521]
+[2024-05-22 09:58:09] INFO root fetch - processPackages [wetb]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 09:58:09] INFO root fetch - processPackages [quokka-sharp]: Downloading https://files.pythonhosted.org/packages/00/7b/b2752e0316011e576910a20b79454b971e0028b3a164f4c1d4290bdbe55b/quokka_sharp-1.0.0.tar.gz
+[2024-05-22 09:58:09] INFO root fetch - processPackages [anonipy]: Downloading https://files.pythonhosted.org/packages/51/ca/794ffa005a7faa8ae161b0e5236810bb97d0603373e4ca8cddacb97ef87d/anonipy-0.0.1.tar.gz
+[2024-05-22 09:58:09] INFO root fetch - processPackages [bc-detect-secrets]: Downloading https://files.pythonhosted.org/packages/79/9c/627c3ef35c99626307581bb34033a4f71a8995bedcf8bed561e71ccd8811/bc-detect-secrets-1.5.8.tar.gz
+[2024-05-22 09:58:09] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/35/a3/59ec1b8b0e7d89bdd70d743b0bb15ba28ef88ebc2dc7b157567c220579fc/tf_nightly-2.17.0.dev20240521-cp39-cp39-win_amd64.whl
+[2024-05-22 09:58:09] INFO root fetch - processPackages [wetb]: Downloading https://files.pythonhosted.org/packages/25/d7/77fd21e7e66e518a0e634b94bb741637c63deb72f463150dcf06da99b02a/wetb-0.1.8.tar.gz
+[2024-05-22 09:58:09] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/5c/4d/812b287b07cf42fedf028dff5bb2ca22a9ae0faf0ee185a567ee78de2b99/duwi_smarthome_sdk_dev-0.0.8.tar.gz
+[2024-05-22 09:58:09] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: executing diffoscope
+[2024-05-22 09:58:09] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smarthome_sdk_dev-0.0.7.tar.gz tmp/duwi_smarthome_sdk_dev-0.0.8.tar.gz --markdown 20240522/d/duwi-smarthome-sdk-dev/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-22 09:58:09] WARNING root fetch - processPackages [wetb]: Skipping package: exceeds size limit 21756067>=10485760
+[2024-05-22 09:58:09] INFO root fetch - main [MainThread]: End processing [wetb] error
+[2024-05-22 09:58:09] INFO root fetch - processPackages [quokka-sharp]: Downloading https://files.pythonhosted.org/packages/1e/52/f27d962acab588a26107732e2f7237ac1a2fea86a58c9754df7c770c4e1d/quokka_sharp-1.0.1.tar.gz
+[2024-05-22 09:58:09] INFO root fetch - processPackages [anonipy]: Downloading https://files.pythonhosted.org/packages/3a/ad/63fce5f389a832d505bd22ddcd8a1d81e9b35c126b541859f29af84d8d79/anonipy-0.0.2.tar.gz
+[2024-05-22 09:58:09] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/4d/1a/2bbf86ea17c73c58be66ec30a9d604482b47aed1cde7509036e1f77487d5/tf_nightly-2.17.0.dev20240522-cp39-cp39-win_amd64.whl
+[2024-05-22 09:58:09] INFO root fetch - processPackages [quokka-sharp]: executing diffoscope
+[2024-05-22 09:58:09] INFO root fetch - processPackages [quokka-sharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quokka_sharp-1.0.0.tar.gz tmp/quokka_sharp-1.0.1.tar.gz --markdown 20240522/q/quokka-sharp/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-22 09:58:09] INFO root fetch - processPackages [anonipy]: executing diffoscope
+[2024-05-22 09:58:09] INFO root fetch - processPackages [anonipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anonipy-0.0.1.tar.gz tmp/anonipy-0.0.2.tar.gz --markdown 20240522/a/anonipy/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-22 09:58:09] INFO root fetch - processPackages [bc-detect-secrets]: Downloading https://files.pythonhosted.org/packages/42/0f/25a1152db4487a6f53e4787ce51b1b616079396f2d6ec7ec952f17f417bb/bc-detect-secrets-1.5.9.tar.gz
+[2024-05-22 09:58:09] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-05-22 09:58:09] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240521-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240522-cp39-cp39-win_amd64.whl.zip --markdown 20240522/t/tf-nightly/2.17.0.dev20240521-2.17.0.dev20240522/README.md --exclude *.pyd
+[2024-05-22 09:58:09] INFO root fetch - processPackages [bc-detect-secrets]: executing diffoscope
+[2024-05-22 09:58:09] INFO root fetch - processPackages [bc-detect-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bc-detect-secrets-1.5.8.tar.gz tmp/bc-detect-secrets-1.5.9.tar.gz --markdown 20240522/b/bc-detect-secrets/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-22 09:58:10] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.0.7.tar.gz]
+[2024-05-22 09:58:10] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.0.8.tar.gz]
+[2024-05-22 09:58:10] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk-dev]: success
+[2024-05-22 09:58:10] INFO root fetch - processPackages [quokka-sharp]: Remove: archive file [/home/abi/fetcher/tmp/quokka_sharp-1.0.0.tar.gz]
+[2024-05-22 09:58:10] INFO root fetch - processPackages [quokka-sharp]: Remove: archive file [/home/abi/fetcher/tmp/quokka_sharp-1.0.1.tar.gz]
+[2024-05-22 09:58:10] INFO root fetch - main [MainThread]: End processing [quokka-sharp]: success
+[2024-05-22 09:58:10] INFO root fetch - processPackages [anonipy]: Remove: archive file [/home/abi/fetcher/tmp/anonipy-0.0.1.tar.gz]
+[2024-05-22 09:58:10] INFO root fetch - processPackages [anonipy]: Remove: archive file [/home/abi/fetcher/tmp/anonipy-0.0.2.tar.gz]
+[2024-05-22 09:58:10] INFO root fetch - main [MainThread]: End processing [anonipy]: success
+[2024-05-22 09:58:10] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240521-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 09:58:10] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240522-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 09:58:10] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-05-22 09:58:10] INFO root fetch - processPackages [bc-detect-secrets]: Remove: archive file [/home/abi/fetcher/tmp/bc-detect-secrets-1.5.8.tar.gz]
+[2024-05-22 09:58:10] INFO root fetch - processPackages [bc-detect-secrets]: Remove: archive file [/home/abi/fetcher/tmp/bc-detect-secrets-1.5.9.tar.gz]
+[2024-05-22 09:58:10] INFO root fetch - main [MainThread]: End processing [bc-detect-secrets]: success
+[2024-05-22 09:58:10] INFO root fetch - main [MainThread]: Store serial: [23320567]

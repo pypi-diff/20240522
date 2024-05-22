@@ -17481,3 +17481,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:06:38] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240521.tar.gz]
 [2024-05-22 11:06:38] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
 [2024-05-22 11:06:38] INFO root fetch - main [MainThread]: Store serial: [23321418]
+[2024-05-22 11:08:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321418]
+[2024-05-22 11:08:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 11:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moto
+[2024-05-22 11:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyesorm
+[2024-05-22 11:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: voicebot-accounts
+[2024-05-22 11:08:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astro-extras
+[2024-05-22 11:08:47] WARNING root fetch - processPackages [voicebot-accounts]: Skipping, unable to determine old version
+[2024-05-22 11:08:47] INFO root fetch - main [MainThread]: End processing [voicebot-accounts] error
+[2024-05-22 11:08:47] INFO root fetch - processPackages [astro-extras]: New version: [0.1.1] Old Version: [0.0.9]
+[2024-05-22 11:08:47] INFO root fetch - processPackages [moto]: New version: [5.0.8.dev9] Old Version: [5.0.8.dev8]
+[2024-05-22 11:08:47] INFO root fetch - processPackages [pyesorm]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-22 11:08:47] INFO root fetch - processPackages [astro-extras]: Downloading https://files.pythonhosted.org/packages/58/f6/9fd45c5536eb5a52340a5ab664ae6ac49c5e0460455426cfef38901b5d59/astro_extras-0.0.9.tar.gz
+[2024-05-22 11:08:47] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/3b/ac/06a0859bde65d51176d1bc211894343ba012b690fa8ca460b05853a4cc62/moto-5.0.8.dev8.tar.gz
+[2024-05-22 11:08:47] INFO root fetch - processPackages [pyesorm]: Downloading https://files.pythonhosted.org/packages/62/97/d06220089018208832974365df66ae0517f6e5a720db479c1c7933403c93/pyesorm-0.4.4.tar.gz
+[2024-05-22 11:08:47] INFO root fetch - processPackages [astro-extras]: Downloading https://files.pythonhosted.org/packages/76/77/301ac50f943fd986c04004e166b8fa54629b4c873aa6500ad770478e000f/astro_extras-0.1.1.tar.gz
+[2024-05-22 11:08:47] INFO root fetch - processPackages [astro-extras]: executing diffoscope
+[2024-05-22 11:08:47] INFO root fetch - processPackages [astro-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_extras-0.0.9.tar.gz tmp/astro_extras-0.1.1.tar.gz --markdown 20240522/a/astro-extras/0.0.9-0.1.1/README.md --exclude *.pyd
+[2024-05-22 11:08:47] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/cd/82/43857467531c1b56b16670bf50e2d4a85619a54c84ae9aaf1d5deccd41ca/moto-5.0.8.dev9.tar.gz
+[2024-05-22 11:08:47] INFO root fetch - processPackages [pyesorm]: Downloading https://files.pythonhosted.org/packages/ef/88/71394f45927c23456cf5e4f04bf509db7c67d8f80ca536e781e0238d07db/pyesorm-0.4.5.tar.gz
+[2024-05-22 11:08:47] INFO root fetch - processPackages [pyesorm]: executing diffoscope
+[2024-05-22 11:08:47] INFO root fetch - processPackages [pyesorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyesorm-0.4.4.tar.gz tmp/pyesorm-0.4.5.tar.gz --markdown 20240522/p/pyesorm/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-22 11:08:48] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-05-22 11:08:48] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.8.dev8.tar.gz tmp/moto-5.0.8.dev9.tar.gz --markdown 20240522/m/moto/5.0.8.dev8-5.0.8.dev9/README.md --exclude *.pyd
+[2024-05-22 11:08:48] INFO root fetch - processPackages [astro-extras]: Remove: archive file [/home/abi/fetcher/tmp/astro_extras-0.0.9.tar.gz]
+[2024-05-22 11:08:48] INFO root fetch - processPackages [astro-extras]: Remove: archive file [/home/abi/fetcher/tmp/astro_extras-0.1.1.tar.gz]
+[2024-05-22 11:08:48] INFO root fetch - main [MainThread]: End processing [astro-extras]: success
+[2024-05-22 11:08:48] INFO root fetch - processPackages [pyesorm]: Remove: archive file [/home/abi/fetcher/tmp/pyesorm-0.4.4.tar.gz]
+[2024-05-22 11:08:48] INFO root fetch - processPackages [pyesorm]: Remove: archive file [/home/abi/fetcher/tmp/pyesorm-0.4.5.tar.gz]
+[2024-05-22 11:08:48] INFO root fetch - main [MainThread]: End processing [pyesorm]: success
+[2024-05-22 11:09:00] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.8.dev8.tar.gz]
+[2024-05-22 11:09:00] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.8.dev9.tar.gz]
+[2024-05-22 11:09:00] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-05-22 11:09:00] INFO root fetch - main [MainThread]: Store serial: [23321431]

@@ -14853,3 +14853,59 @@
 [2024-05-22 09:42:14] INFO root fetch - processPackages [typed-monads]: Remove: archive file [/home/abi/fetcher/tmp/typed_monads-0.4.7.tar.gz]
 [2024-05-22 09:42:14] INFO root fetch - main [MainThread]: End processing [typed-monads]: success
 [2024-05-22 09:42:14] INFO root fetch - main [MainThread]: Store serial: [23320421]
+[2024-05-22 09:44:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320421]
+[2024-05-22 09:44:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 09:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-utils
+[2024-05-22 09:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-paddle-billing
+[2024-05-22 09:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybotx
+[2024-05-22 09:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbcls
+[2024-05-22 09:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: signaturesnet
+[2024-05-22 09:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: HtmlFileWriter
+[2024-05-22 09:44:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nb2workflow
+[2024-05-22 09:44:22] WARNING root fetch - processPackages [HtmlFileWriter]: Skipping, unable to determine old version
+[2024-05-22 09:44:22] INFO root fetch - main [MainThread]: End processing [HtmlFileWriter] error
+[2024-05-22 09:44:22] INFO root fetch - processPackages [nucliadb-utils]: New version: [4.0.0.post530] Old Version: [4.0.0.post529]
+[2024-05-22 09:44:22] INFO root fetch - processPackages [signaturesnet]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 09:44:22] INFO root fetch - processPackages [django-paddle-billing]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-22 09:44:22] INFO root fetch - processPackages [dbcls]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-22 09:44:22] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/8e/40/b63308d85d43a88ee13483e422172f32f4b1ef8e6a5511774937594c29d2/nucliadb_utils-4.0.0.post529-py3-none-any.whl
+[2024-05-22 09:44:22] INFO root fetch - processPackages [pybotx]: New version: [0.66.1] Old Version: [0.66.0]
+[2024-05-22 09:44:23] INFO root fetch - processPackages [nb2workflow]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-22 09:44:23] INFO root fetch - processPackages [signaturesnet]: Downloading https://files.pythonhosted.org/packages/d7/c8/bacdfca07c103ace1d8c6faf334e58ecae65b7dae9bc01d17d2ba6b57751/signaturesnet-0.0.8-py3-none-any.whl
+[2024-05-22 09:44:23] INFO root fetch - processPackages [nb2workflow]: Downloading https://files.pythonhosted.org/packages/7f/3b/11144848db715f6a36c1b4556e04a8a599986fe66fe77e94cbdfab641ebc/nb2workflow-1.3.8.tar.gz
+[2024-05-22 09:44:23] WARNING root fetch - processPackages [signaturesnet]: Skipping package: exceeds size limit 72735570>=10485760
+[2024-05-22 09:44:23] INFO root fetch - main [MainThread]: End processing [signaturesnet] error
+[2024-05-22 09:44:23] INFO root fetch - processPackages [django-paddle-billing]: Downloading https://files.pythonhosted.org/packages/02/84/a63e97989f808c72bc0518cb56fcf1920011517a62e9a20a107ec5f45aaa/django_paddle_billing-0.1.2.tar.gz
+[2024-05-22 09:44:23] INFO root fetch - processPackages [dbcls]: Downloading https://files.pythonhosted.org/packages/fa/f2/333fbf1ff8691a9b1d3554027de78d5f02e2290ca9edd9ee2fa172b82ec3/dbcls-1.0.6.tar.gz
+[2024-05-22 09:44:23] INFO root fetch - processPackages [pybotx]: Downloading https://files.pythonhosted.org/packages/ee/b2/68df4a5ba02307576b293d7a9c4ee0c3db2fa0a03549cb430c01ecef284c/pybotx-0.66.0.tar.gz
+[2024-05-22 09:44:23] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/33/39/18aaf2782de46bae17fe85f1063188b871edd51fe426add13646b69bdf60/nucliadb_utils-4.0.0.post530-py3-none-any.whl
+[2024-05-22 09:44:23] INFO root fetch - processPackages [nb2workflow]: Downloading https://files.pythonhosted.org/packages/2f/4a/9716cb3189e1dce858fa737e50cd60c9dee030f82fbe62a49495486fe26e/nb2workflow-1.3.9.tar.gz
+[2024-05-22 09:44:23] INFO root fetch - processPackages [django-paddle-billing]: Downloading https://files.pythonhosted.org/packages/a3/13/0caad1ec70ec7583dfa9605f4d5dacea3ca999c063d8bf2a8b1538ac51dc/django_paddle_billing-0.1.3.tar.gz
+[2024-05-22 09:44:23] INFO root fetch - processPackages [dbcls]: Downloading https://files.pythonhosted.org/packages/a4/76/f8e1c9131e5416ff9eb389dd6a4772c08529e1916872284f3d5f96e49633/dbcls-1.0.7.tar.gz
+[2024-05-22 09:44:23] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-05-22 09:44:23] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-4.0.0.post529-py3-none-any.whl.zip tmp/nucliadb_utils-4.0.0.post530-py3-none-any.whl.zip --markdown 20240522/n/nucliadb-utils/4.0.0.post529-4.0.0.post530/README.md --exclude *.pyd
+[2024-05-22 09:44:23] INFO root fetch - processPackages [nb2workflow]: executing diffoscope
+[2024-05-22 09:44:23] INFO root fetch - processPackages [nb2workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb2workflow-1.3.8.tar.gz tmp/nb2workflow-1.3.9.tar.gz --markdown 20240522/n/nb2workflow/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-22 09:44:23] INFO root fetch - processPackages [pybotx]: Downloading https://files.pythonhosted.org/packages/c8/03/87a86ef73b6574c5630fc2882db328facebac34c7f89aad9c68be0d3655e/pybotx-0.66.1.tar.gz
+[2024-05-22 09:44:23] INFO root fetch - processPackages [django-paddle-billing]: executing diffoscope
+[2024-05-22 09:44:23] INFO root fetch - processPackages [django-paddle-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_paddle_billing-0.1.2.tar.gz tmp/django_paddle_billing-0.1.3.tar.gz --markdown 20240522/d/django-paddle-billing/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-22 09:44:23] INFO root fetch - processPackages [dbcls]: executing diffoscope
+[2024-05-22 09:44:23] INFO root fetch - processPackages [dbcls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbcls-1.0.6.tar.gz tmp/dbcls-1.0.7.tar.gz --markdown 20240522/d/dbcls/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-22 09:44:23] INFO root fetch - processPackages [pybotx]: executing diffoscope
+[2024-05-22 09:44:23] INFO root fetch - processPackages [pybotx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybotx-0.66.0.tar.gz tmp/pybotx-0.66.1.tar.gz --markdown 20240522/p/pybotx/0.66.0-0.66.1/README.md --exclude *.pyd
+[2024-05-22 09:44:24] INFO root fetch - processPackages [nb2workflow]: Remove: archive file [/home/abi/fetcher/tmp/nb2workflow-1.3.8.tar.gz]
+[2024-05-22 09:44:24] INFO root fetch - processPackages [nb2workflow]: Remove: archive file [/home/abi/fetcher/tmp/nb2workflow-1.3.9.tar.gz]
+[2024-05-22 09:44:24] INFO root fetch - main [MainThread]: End processing [nb2workflow]: success
+[2024-05-22 09:44:24] INFO root fetch - processPackages [dbcls]: Remove: archive file [/home/abi/fetcher/tmp/dbcls-1.0.6.tar.gz]
+[2024-05-22 09:44:24] INFO root fetch - processPackages [dbcls]: Remove: archive file [/home/abi/fetcher/tmp/dbcls-1.0.7.tar.gz]
+[2024-05-22 09:44:24] INFO root fetch - main [MainThread]: End processing [dbcls]: success
+[2024-05-22 09:44:24] INFO root fetch - processPackages [django-paddle-billing]: Remove: archive file [/home/abi/fetcher/tmp/django_paddle_billing-0.1.2.tar.gz]
+[2024-05-22 09:44:24] INFO root fetch - processPackages [django-paddle-billing]: Remove: archive file [/home/abi/fetcher/tmp/django_paddle_billing-0.1.3.tar.gz]
+[2024-05-22 09:44:24] INFO root fetch - main [MainThread]: End processing [django-paddle-billing]: success
+[2024-05-22 09:44:24] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post529-py3-none-any.whl.zip]
+[2024-05-22 09:44:24] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-4.0.0.post530-py3-none-any.whl.zip]
+[2024-05-22 09:44:24] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-05-22 09:44:24] INFO root fetch - processPackages [pybotx]: Remove: archive file [/home/abi/fetcher/tmp/pybotx-0.66.0.tar.gz]
+[2024-05-22 09:44:24] INFO root fetch - processPackages [pybotx]: Remove: archive file [/home/abi/fetcher/tmp/pybotx-0.66.1.tar.gz]
+[2024-05-22 09:44:24] INFO root fetch - main [MainThread]: End processing [pybotx]: success
+[2024-05-22 09:44:24] INFO root fetch - main [MainThread]: Store serial: [23320438]

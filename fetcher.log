@@ -11566,3 +11566,38 @@
 [2024-05-22 07:00:48] INFO root fetch - processPackages [great-expectations-cloud]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_cloud-20240521.0.tar.gz]
 [2024-05-22 07:00:48] INFO root fetch - main [MainThread]: End processing [great-expectations-cloud]: success
 [2024-05-22 07:00:48] INFO root fetch - main [MainThread]: Store serial: [23318911]
+[2024-05-22 07:02:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318911]
+[2024-05-22 07:02:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 07:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tdrpa.tdworker
+[2024-05-22 07:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyautd3
+[2024-05-22 07:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ok-script
+[2024-05-22 07:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wuji
+[2024-05-22 07:02:56] INFO root fetch - processPackages [wuji]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 07:02:56] INFO root fetch - processPackages [ok-script]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 07:02:56] INFO root fetch - processPackages [pyautd3]: New version: [9.0.1] Old Version: [9.0.0]
+[2024-05-22 07:02:56] INFO root fetch - processPackages [tdrpa.tdworker]: New version: [1.1.4.15] Old Version: [1.1.4.14]
+[2024-05-22 07:02:56] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/5f/e3/968a4bfd4b0c82df5c5171f3d7d42fc8d8354283f3bae8becf975bc2cfb9/ok-script-0.0.8.tar.gz
+[2024-05-22 07:02:56] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/7f/a5/067714c60d82e31644f08965bc491148a770edf8b5a2ed909a3d3627a247/wuji-0.1.8.tar.gz
+[2024-05-22 07:02:56] INFO root fetch - processPackages [pyautd3]: Downloading https://files.pythonhosted.org/packages/e8/71/a7e782b3fd39d71bc7d9f5c5bc4c935f52b63b87e0680f3ec000d5ae1545/pyautd3-9.0.0.tar.gz
+[2024-05-22 07:02:56] WARNING root fetch - processPackages [pyautd3]: Skipping package: exceeds size limit 25360257>=10485760
+[2024-05-22 07:02:56] INFO root fetch - main [MainThread]: End processing [pyautd3] error
+[2024-05-22 07:02:57] INFO root fetch - processPackages [tdrpa.tdworker]: Downloading https://files.pythonhosted.org/packages/60/bc/283b1a7155d9412efcd5ad681671ac8bf971c1f3c0d72cedc9d1349d6fb0/tdrpa.tdworker-1.1.4.14-py39-none-win_amd64.whl
+[2024-05-22 07:02:57] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/37/42/5e0fc5d99c438cf34f2143a438ca55e1270222dcc0d26563943396cd948d/wuji-0.1.9.tar.gz
+[2024-05-22 07:02:57] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/7e/57/3cb2ecf6f3abc49a58957eb87297ca0e7574e568b46c512c2a5fc710a462/ok-script-0.0.9.tar.gz
+[2024-05-22 07:02:57] INFO root fetch - processPackages [wuji]: executing diffoscope
+[2024-05-22 07:02:57] INFO root fetch - processPackages [wuji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wuji-0.1.8.tar.gz tmp/wuji-0.1.9.tar.gz --markdown 20240522/w/wuji/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 07:02:57] INFO root fetch - processPackages [ok-script]: executing diffoscope
+[2024-05-22 07:02:57] INFO root fetch - processPackages [ok-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ok-script-0.0.8.tar.gz tmp/ok-script-0.0.9.tar.gz --markdown 20240522/o/ok-script/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 07:02:57] INFO root fetch - processPackages [tdrpa.tdworker]: Downloading https://files.pythonhosted.org/packages/e6/9f/b9586bba5d552b6b5156cdf97ad4fbdee01ff6b95e1364b45403a6b23a7c/tdrpa.tdworker-1.1.4.15-py39-none-win_amd64.whl
+[2024-05-22 07:02:57] INFO root fetch - processPackages [tdrpa.tdworker]: executing diffoscope
+[2024-05-22 07:02:57] INFO root fetch - processPackages [tdrpa.tdworker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdrpa.tdworker-1.1.4.14-py39-none-win_amd64.whl.zip tmp/tdrpa.tdworker-1.1.4.15-py39-none-win_amd64.whl.zip --markdown 20240522/t/tdrpa.tdworker/1.1.4.14-1.1.4.15/README.md --exclude *.pyd
+[2024-05-22 07:02:57] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.8.tar.gz]
+[2024-05-22 07:02:57] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.9.tar.gz]
+[2024-05-22 07:02:57] INFO root fetch - main [MainThread]: End processing [wuji]: success
+[2024-05-22 07:02:58] INFO root fetch - processPackages [tdrpa.tdworker]: Remove: archive file [/home/abi/fetcher/tmp/tdrpa.tdworker-1.1.4.14-py39-none-win_amd64.whl.zip]
+[2024-05-22 07:02:58] INFO root fetch - processPackages [tdrpa.tdworker]: Remove: archive file [/home/abi/fetcher/tmp/tdrpa.tdworker-1.1.4.15-py39-none-win_amd64.whl.zip]
+[2024-05-22 07:02:58] INFO root fetch - main [MainThread]: End processing [tdrpa.tdworker]: success
+[2024-05-22 07:02:58] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.8.tar.gz]
+[2024-05-22 07:02:58] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.9.tar.gz]
+[2024-05-22 07:02:58] INFO root fetch - main [MainThread]: End processing [ok-script]: success
+[2024-05-22 07:02:58] INFO root fetch - main [MainThread]: Store serial: [23318931]

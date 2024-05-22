@@ -11497,3 +11497,9 @@
 [2024-05-22 06:52:08] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.9.tar.gz]
 [2024-05-22 06:52:08] INFO root fetch - main [MainThread]: End processing [protein-design-tools]: success
 [2024-05-22 06:52:08] INFO root fetch - main [MainThread]: Store serial: [23318883]
+[2024-05-22 06:54:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318883]
+[2024-05-22 06:54:17] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-22 06:54:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-auditor
+[2024-05-22 06:54:17] WARNING root fetch - processPackages [flask-auditor]: Skipping, unable to determine old version
+[2024-05-22 06:54:17] INFO root fetch - main [MainThread]: End processing [flask-auditor] error
+[2024-05-22 06:54:17] INFO root fetch - main [MainThread]: Store serial: [23318892]

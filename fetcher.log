@@ -7792,3 +7792,24 @@
 [2024-05-22 03:43:56] INFO root fetch - processPackages [graphlearning]: Remove: archive file [/home/abi/fetcher/tmp/graphlearning-1.5.4.tar.gz]
 [2024-05-22 03:43:56] INFO root fetch - main [MainThread]: End processing [graphlearning]: success
 [2024-05-22 03:43:56] INFO root fetch - main [MainThread]: Store serial: [23317297]
+[2024-05-22 03:46:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317297]
+[2024-05-22 03:46:05] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 03:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: copy-to
+[2024-05-22 03:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-version-manager
+[2024-05-22 03:46:05] INFO root fetch - processPackages [copy-to]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-22 03:46:05] INFO root fetch - processPackages [copy-to]: Downloading https://files.pythonhosted.org/packages/3f/bd/552ffe4c7bf8dac05eee1ff1cfa399e95179c832a683082191c1bbc84635/copy-to-1.3.8.tar.gz
+[2024-05-22 03:46:05] INFO root fetch - processPackages [python-version-manager]: New version: [2024.5] Old Version: [2024.4.1]
+[2024-05-22 03:46:05] INFO root fetch - processPackages [copy-to]: Downloading https://files.pythonhosted.org/packages/d5/9a/e1cf706621904d886141bebf3c24390caf4c9135cae97c5a2df84d95731c/copy-to-1.3.9.tar.gz
+[2024-05-22 03:46:05] INFO root fetch - processPackages [python-version-manager]: Downloading https://files.pythonhosted.org/packages/79/3d/432f4c9268132062a86facc6fded5955e3740655ebb97f9d87e52b74dd96/python_version_manager-2024.4.1.tar.gz
+[2024-05-22 03:46:05] INFO root fetch - processPackages [copy-to]: executing diffoscope
+[2024-05-22 03:46:05] INFO root fetch - processPackages [copy-to]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copy-to-1.3.8.tar.gz tmp/copy-to-1.3.9.tar.gz --markdown 20240522/c/copy-to/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-22 03:46:05] INFO root fetch - processPackages [python-version-manager]: Downloading https://files.pythonhosted.org/packages/08/44/409b68d76968d6844c883efe291744f3d05a17a2f57a32719f24c3d84b67/python_version_manager-2024.5.tar.gz
+[2024-05-22 03:46:06] INFO root fetch - processPackages [python-version-manager]: executing diffoscope
+[2024-05-22 03:46:06] INFO root fetch - processPackages [python-version-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_version_manager-2024.4.1.tar.gz tmp/python_version_manager-2024.5.tar.gz --markdown 20240522/p/python-version-manager/2024.4.1-2024.5/README.md --exclude *.pyd
+[2024-05-22 03:46:06] INFO root fetch - processPackages [copy-to]: Remove: archive file [/home/abi/fetcher/tmp/copy-to-1.3.8.tar.gz]
+[2024-05-22 03:46:06] INFO root fetch - processPackages [copy-to]: Remove: archive file [/home/abi/fetcher/tmp/copy-to-1.3.9.tar.gz]
+[2024-05-22 03:46:06] INFO root fetch - main [MainThread]: End processing [copy-to]: success
+[2024-05-22 03:46:06] INFO root fetch - processPackages [python-version-manager]: Remove: archive file [/home/abi/fetcher/tmp/python_version_manager-2024.4.1.tar.gz]
+[2024-05-22 03:46:06] INFO root fetch - processPackages [python-version-manager]: Remove: archive file [/home/abi/fetcher/tmp/python_version_manager-2024.5.tar.gz]
+[2024-05-22 03:46:06] INFO root fetch - main [MainThread]: End processing [python-version-manager]: success
+[2024-05-22 03:46:06] INFO root fetch - main [MainThread]: Store serial: [23317311]

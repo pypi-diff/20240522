@@ -11601,3 +11601,20 @@
 [2024-05-22 07:02:58] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.9.tar.gz]
 [2024-05-22 07:02:58] INFO root fetch - main [MainThread]: End processing [ok-script]: success
 [2024-05-22 07:02:58] INFO root fetch - main [MainThread]: Store serial: [23318931]
+[2024-05-22 07:05:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318931]
+[2024-05-22 07:05:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 07:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-master
+[2024-05-22 07:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: masthay-helpers
+[2024-05-22 07:05:07] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240521.22.52.683119] Old Version: [20240521.19.5.317828]
+[2024-05-22 07:05:07] INFO root fetch - processPackages [masthay-helpers]: New version: [0.2.95] Old Version: [0.2.94]
+[2024-05-22 07:05:07] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/e4/f3/6d84552848cb044e86f92440f3687907b7a8afac24e1b0dadb89e1adec17/certora-cli-alpha-master-20240521.19.5.317828.tar.gz
+[2024-05-22 07:05:07] INFO root fetch - processPackages [masthay-helpers]: Downloading https://files.pythonhosted.org/packages/7a/e2/f4e109c9394a69f63fcdf1d1d3d4f2e313bec9e2a938e4f90199bf988a27/masthay_helpers-0.2.94-py3-none-macosx_11_0_arm64.whl
+[2024-05-22 07:05:07] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14608844>=10485760
+[2024-05-22 07:05:07] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-05-22 07:05:07] INFO root fetch - processPackages [masthay-helpers]: Downloading https://files.pythonhosted.org/packages/32/58/9d1dfbfc339679d314d870681e1eaf9150f365329537c3e2f3787d59a4ef/masthay_helpers-0.2.95-py3-none-macosx_11_0_arm64.whl
+[2024-05-22 07:05:07] INFO root fetch - processPackages [masthay-helpers]: executing diffoscope
+[2024-05-22 07:05:07] INFO root fetch - processPackages [masthay-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masthay_helpers-0.2.94-py3-none-macosx_11_0_arm64.whl.zip tmp/masthay_helpers-0.2.95-py3-none-macosx_11_0_arm64.whl.zip --markdown 20240522/m/masthay-helpers/0.2.94-0.2.95/README.md --exclude *.pyd
+[2024-05-22 07:05:08] INFO root fetch - processPackages [masthay-helpers]: Remove: archive file [/home/abi/fetcher/tmp/masthay_helpers-0.2.94-py3-none-macosx_11_0_arm64.whl.zip]
+[2024-05-22 07:05:08] INFO root fetch - processPackages [masthay-helpers]: Remove: archive file [/home/abi/fetcher/tmp/masthay_helpers-0.2.95-py3-none-macosx_11_0_arm64.whl.zip]
+[2024-05-22 07:05:08] INFO root fetch - main [MainThread]: End processing [masthay-helpers]: success
+[2024-05-22 07:05:08] INFO root fetch - main [MainThread]: Store serial: [23318939]

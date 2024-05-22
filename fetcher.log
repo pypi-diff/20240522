@@ -12188,3 +12188,23 @@
 [2024-05-22 07:38:36] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.910.tar.gz]
 [2024-05-22 07:38:36] INFO root fetch - main [MainThread]: End processing [urllib3-future]: success
 [2024-05-22 07:38:36] INFO root fetch - main [MainThread]: Store serial: [23319125]
+[2024-05-22 07:40:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319125]
+[2024-05-22 07:40:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 07:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccdt
+[2024-05-22 07:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: QPlayer
+[2024-05-22 07:40:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DSGRN
+[2024-05-22 07:40:47] WARNING root fetch - processPackages [QPlayer]: Skipping, unable to determine old version
+[2024-05-22 07:40:47] INFO root fetch - main [MainThread]: End processing [QPlayer] error
+[2024-05-22 07:40:47] INFO root fetch - processPackages [ccdt]: New version: [2.1.99] Old Version: [2.1.98]
+[2024-05-22 07:40:47] INFO root fetch - processPackages [DSGRN]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-05-22 07:40:47] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/5e/9c/468b97d81f651afdc79c90181caf3e96586e1faf49f1f0272cd9d59234cc/ccdt-2.1.98.tar.gz
+[2024-05-22 07:40:47] INFO root fetch - processPackages [DSGRN]: Downloading https://files.pythonhosted.org/packages/c0/3b/62d33f99b02384ccf7c8e5d8cd8f90c326dd5d703d0790002277f9586764/dsgrn-1.6.2.tar.gz
+[2024-05-22 07:40:47] WARNING root fetch - processPackages [DSGRN]: Skipping package: exceeds size limit 13219996>=10485760
+[2024-05-22 07:40:47] INFO root fetch - main [MainThread]: End processing [DSGRN] error
+[2024-05-22 07:40:47] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/bf/88/0a8bde31365394e095dda74c8f4ec442ff47265c632929a84196b5192056/ccdt-2.1.99.tar.gz
+[2024-05-22 07:40:48] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2024-05-22 07:40:48] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.98.tar.gz tmp/ccdt-2.1.99.tar.gz --markdown 20240522/c/ccdt/2.1.98-2.1.99/README.md --exclude *.pyd
+[2024-05-22 07:40:48] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.98.tar.gz]
+[2024-05-22 07:40:48] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.99.tar.gz]
+[2024-05-22 07:40:48] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2024-05-22 07:40:48] INFO root fetch - main [MainThread]: Store serial: [23319135]

@@ -16993,3 +16993,83 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:57:16] INFO root fetch - processPackages [collective.taxonomy]: Remove: archive file [/home/abi/fetcher/tmp/collective_taxonomy-3.1.1.tar.gz]
 [2024-05-22 10:57:16] INFO root fetch - main [MainThread]: End processing [collective.taxonomy]: success
 [2024-05-22 10:57:16] INFO root fetch - main [MainThread]: Store serial: [23321229]
+[2024-05-22 10:59:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321229]
+[2024-05-22 10:59:26] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-22 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DLMS-Firmware-updater
+[2024-05-22 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ms2lipid
+[2024-05-22 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zfx
+[2024-05-22 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: voicebot-accounts
+[2024-05-22 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyatf
+[2024-05-22 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: osc-tiny
+[2024-05-22 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: swanlab
+[2024-05-22 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: udata-front
+[2024-05-22 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastapi-mqtt
+[2024-05-22 10:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: NearBeach
+[2024-05-22 10:59:26] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-22 10:59:26] INFO root fetch - processPackages [ms2lipid]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-22 10:59:26] INFO root fetch - processPackages [DLMS-Firmware-updater]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-22 10:59:26] INFO root fetch - processPackages [ms2lipid]: Downloading https://files.pythonhosted.org/packages/16/43/cb2067da5a0afbd67361409cabc8ad5c5d40b808b6ade36f782bec42b033/ms2lipid-0.1.2.tar.gz
+[2024-05-22 10:59:26] INFO root fetch - processPackages [udata-front]: New version: [4.0.3.dev20013] Old Version: [4.0.3.dev19974]
+[2024-05-22 10:59:26] INFO root fetch - processPackages [fastapi-mqtt]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-05-22 10:59:26] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-22 10:59:26] WARNING root fetch - processPackages [voicebot-accounts]: Skipping, unable to determine old version
+[2024-05-22 10:59:26] INFO root fetch - main [MainThread]: End processing [voicebot-accounts] error
+[2024-05-22 10:59:26] INFO root fetch - processPackages [pyatf]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-22 10:59:26] INFO root fetch - processPackages [swanlab]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-05-22 10:59:26] INFO root fetch - processPackages [osc-tiny]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-22 10:59:26] INFO root fetch - processPackages [NearBeach]: New version: [0.31.9] Old Version: [0.31.8]
+[2024-05-22 10:59:26] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/db/18/681852bb4f93212101dcc1dde5df437d2434cafd7df62ce4f78e6d0c9834/udata_front-4.0.3.dev19974-py2.py3-none-any.whl
+[2024-05-22 10:59:26] INFO root fetch - processPackages [DLMS-Firmware-updater]: Downloading https://files.pythonhosted.org/packages/cc/aa/5e9e714aba23a439f2f39408a4583756fe5cefa395e7d3d450b7b12229f4/DLMS_Firmware_updater-0.3.1.tar.gz
+[2024-05-22 10:59:26] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-22 10:59:26] INFO root fetch - processPackages [pyatf]: Downloading https://files.pythonhosted.org/packages/35/2f/8f021884b600f1c84099b570acbe568d30fa22fa83a00b4856e11a7c0963/pyatf-0.0.3.tar.gz
+[2024-05-22 10:59:26] INFO root fetch - processPackages [fastapi-mqtt]: Downloading https://files.pythonhosted.org/packages/70/96/d2c139e0e2b0ff1b3f3b8d815a20d113cc14240687d1fabcca3184317465/fastapi_mqtt-2.1.1.tar.gz
+[2024-05-22 10:59:26] INFO root fetch - processPackages [osc-tiny]: Downloading https://files.pythonhosted.org/packages/30/29/bcd85a1acbcfc98f7a159ac2364425244286d3085362b40393a74659d987/osc_tiny-0.9.0.tar.gz
+[2024-05-22 10:59:26] INFO root fetch - processPackages [ms2lipid]: Downloading https://files.pythonhosted.org/packages/ca/d0/559ab69013b62109b1a2e5ba1e4d7fd7665305e0329d85a7a36f498592ef/ms2lipid-0.1.3.tar.gz
+[2024-05-22 10:59:26] INFO root fetch - processPackages [NearBeach]: Downloading https://files.pythonhosted.org/packages/d3/c9/4444a9584fae7ddaa87ff4efa7f16f8833a3827e50758749323b05d77edd/nearbeach-0.31.8.tar.gz
+[2024-05-22 10:59:26] INFO root fetch - processPackages [swanlab]: Downloading https://files.pythonhosted.org/packages/7f/e0/7b88a96e11b2f0ea5a751f6a788141f8023477d5216af5903e5b321cddb2/swanlab-0.3.2.tar.gz
+[2024-05-22 10:59:26] WARNING root fetch - processPackages [NearBeach]: Skipping package: exceeds size limit 32530107>=10485760
+[2024-05-22 10:59:26] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-22 10:59:26] INFO root fetch - main [MainThread]: End processing [NearBeach] error
+[2024-05-22 10:59:26] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240522/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-22 10:59:26] INFO root fetch - processPackages [ms2lipid]: executing diffoscope
+[2024-05-22 10:59:26] INFO root fetch - processPackages [ms2lipid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms2lipid-0.1.2.tar.gz tmp/ms2lipid-0.1.3.tar.gz --markdown 20240522/m/ms2lipid/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-22 10:59:27] INFO root fetch - processPackages [fastapi-mqtt]: Downloading https://files.pythonhosted.org/packages/2b/fd/2eb9400ac35f1cad795d76688e801e43f1a48c2bf869ee856bac16a1b921/fastapi_mqtt-2.2.0.tar.gz
+[2024-05-22 10:59:27] INFO root fetch - processPackages [pyatf]: Downloading https://files.pythonhosted.org/packages/8b/d7/de92287b832803f7a8c75c967fac14ff04b6664c4b0b25804418f5d60b92/pyatf-0.0.4.tar.gz
+[2024-05-22 10:59:27] INFO root fetch - processPackages [osc-tiny]: Downloading https://files.pythonhosted.org/packages/c7/45/7ebc71a56d3001bfef0d9092cf4a809d1819dfe2576bec3890cff7f8f5ca/osc_tiny-0.9.1.tar.gz
+[2024-05-22 10:59:27] INFO root fetch - processPackages [fastapi-mqtt]: executing diffoscope
+[2024-05-22 10:59:27] INFO root fetch - processPackages [fastapi-mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_mqtt-2.1.1.tar.gz tmp/fastapi_mqtt-2.2.0.tar.gz --markdown 20240522/f/fastapi-mqtt/2.1.1-2.2.0/README.md --exclude *.pyd
+[2024-05-22 10:59:27] INFO root fetch - processPackages [swanlab]: Downloading https://files.pythonhosted.org/packages/61/b0/82a2a6b63f42145acb4683572548a6d06a7ea20cf226533ced146d3db62c/swanlab-0.3.3.tar.gz
+[2024-05-22 10:59:27] INFO root fetch - processPackages [osc-tiny]: executing diffoscope
+[2024-05-22 10:59:27] INFO root fetch - processPackages [osc-tiny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osc_tiny-0.9.0.tar.gz tmp/osc_tiny-0.9.1.tar.gz --markdown 20240522/o/osc-tiny/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-22 10:59:27] INFO root fetch - processPackages [pyatf]: executing diffoscope
+[2024-05-22 10:59:27] INFO root fetch - processPackages [pyatf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyatf-0.0.3.tar.gz tmp/pyatf-0.0.4.tar.gz --markdown 20240522/p/pyatf/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-22 10:59:27] INFO root fetch - processPackages [DLMS-Firmware-updater]: Downloading https://files.pythonhosted.org/packages/b7/bd/278152a7ce6a4f9b0cf0e9934951cae822895ea74292e8aac325a7f39a2f/DLMS_Firmware_updater-0.3.2.tar.gz
+[2024-05-22 10:59:27] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/0a/f8/4ede84c46147ab46060f7d3684eeeb0b9936b62ed1ac7b5eb6f9ae3451b0/udata_front-4.0.3.dev20013-py2.py3-none-any.whl
+[2024-05-22 10:59:27] WARNING root fetch - processPackages [udata-front]: Skipping package: exceeds size limit 10488389>=10485760
+[2024-05-22 10:59:27] INFO root fetch - main [MainThread]: End processing [udata-front] error
+[2024-05-22 10:59:27] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-22 10:59:27] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-22 10:59:27] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-22 10:59:27] INFO root fetch - processPackages [ms2lipid]: Remove: archive file [/home/abi/fetcher/tmp/ms2lipid-0.1.2.tar.gz]
+[2024-05-22 10:59:27] INFO root fetch - processPackages [ms2lipid]: Remove: archive file [/home/abi/fetcher/tmp/ms2lipid-0.1.3.tar.gz]
+[2024-05-22 10:59:27] INFO root fetch - main [MainThread]: End processing [ms2lipid]: success
+[2024-05-22 10:59:27] INFO root fetch - processPackages [swanlab]: executing diffoscope
+[2024-05-22 10:59:27] INFO root fetch - processPackages [swanlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swanlab-0.3.2.tar.gz tmp/swanlab-0.3.3.tar.gz --markdown 20240522/s/swanlab/0.3.2-0.3.3/README.md --exclude *.pyd
+[2024-05-22 10:59:27] INFO root fetch - processPackages [fastapi-mqtt]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_mqtt-2.1.1.tar.gz]
+[2024-05-22 10:59:27] INFO root fetch - processPackages [fastapi-mqtt]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_mqtt-2.2.0.tar.gz]
+[2024-05-22 10:59:27] INFO root fetch - main [MainThread]: End processing [fastapi-mqtt]: success
+[2024-05-22 10:59:28] INFO root fetch - processPackages [DLMS-Firmware-updater]: executing diffoscope
+[2024-05-22 10:59:28] INFO root fetch - processPackages [DLMS-Firmware-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DLMS_Firmware_updater-0.3.1.tar.gz tmp/DLMS_Firmware_updater-0.3.2.tar.gz --markdown 20240522/D/DLMS-Firmware-updater/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-22 10:59:28] INFO root fetch - processPackages [osc-tiny]: Remove: archive file [/home/abi/fetcher/tmp/osc_tiny-0.9.0.tar.gz]
+[2024-05-22 10:59:28] INFO root fetch - processPackages [osc-tiny]: Remove: archive file [/home/abi/fetcher/tmp/osc_tiny-0.9.1.tar.gz]
+[2024-05-22 10:59:28] INFO root fetch - main [MainThread]: End processing [osc-tiny]: success
+[2024-05-22 10:59:28] INFO root fetch - processPackages [pyatf]: Remove: archive file [/home/abi/fetcher/tmp/pyatf-0.0.3.tar.gz]
+[2024-05-22 10:59:28] INFO root fetch - processPackages [pyatf]: Remove: archive file [/home/abi/fetcher/tmp/pyatf-0.0.4.tar.gz]
+[2024-05-22 10:59:28] INFO root fetch - main [MainThread]: End processing [pyatf]: success
+[2024-05-22 10:59:30] INFO root fetch - processPackages [DLMS-Firmware-updater]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_Firmware_updater-0.3.1.tar.gz]
+[2024-05-22 10:59:30] INFO root fetch - processPackages [DLMS-Firmware-updater]: Remove: archive file [/home/abi/fetcher/tmp/DLMS_Firmware_updater-0.3.2.tar.gz]
+[2024-05-22 10:59:30] INFO root fetch - main [MainThread]: End processing [DLMS-Firmware-updater]: success
+[2024-05-22 10:59:45] INFO root fetch - processPackages [swanlab]: Remove: archive file [/home/abi/fetcher/tmp/swanlab-0.3.2.tar.gz]
+[2024-05-22 10:59:45] INFO root fetch - processPackages [swanlab]: Remove: archive file [/home/abi/fetcher/tmp/swanlab-0.3.3.tar.gz]
+[2024-05-22 10:59:45] INFO root fetch - main [MainThread]: End processing [swanlab]: success
+[2024-05-22 10:59:45] INFO root fetch - main [MainThread]: Store serial: [23321276]

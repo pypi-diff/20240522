@@ -12030,3 +12030,31 @@
 [2024-05-22 07:25:28] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2024-05-22 07:25:28] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2024-05-22 07:25:28] INFO root fetch - main [MainThread]: Store serial: [23319075]
+[2024-05-22 07:27:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319075]
+[2024-05-22 07:27:38] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-22 07:29:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319076]
+[2024-05-22 07:29:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 07:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: system_reliability
+[2024-05-22 07:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentry-relay
+[2024-05-22 07:29:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: danila-lib
+[2024-05-22 07:29:44] INFO root fetch - processPackages [system_reliability]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-22 07:29:44] INFO root fetch - processPackages [danila-lib]: New version: [1.5.6] Old Version: [1.5.5]
+[2024-05-22 07:29:44] INFO root fetch - processPackages [system_reliability]: Downloading https://files.pythonhosted.org/packages/a2/3a/272ee1144f731249fed3bc52ec582c48398a3421a8e6179c5e161814ce97/system_reliability-0.1.1.tar.gz
+[2024-05-22 07:29:44] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/ef/c3/d5f740b63b5e6720ba90b1aad7d9840ed69cc32b695e69efd5528806e783/danila-lib-1.5.5.tar.gz
+[2024-05-22 07:29:44] INFO root fetch - processPackages [sentry-relay]: New version: [1.1.4] Old Version: [0.8.67]
+[2024-05-22 07:29:45] INFO root fetch - processPackages [sentry-relay]: Downloading https://files.pythonhosted.org/packages/4e/3b/84764dfda37852485557ee593edd48ae76542bab32064b18e46a6886f750/sentry-relay-0.8.67.zip
+[2024-05-22 07:29:45] INFO root fetch - processPackages [system_reliability]: Downloading https://files.pythonhosted.org/packages/ea/67/6bb795a018cecba898e4bd13e61c0a9229fa939154ba7e5ca44e52f4412b/system_reliability-0.2.0.tar.gz
+[2024-05-22 07:29:45] WARNING root fetch - processPackages [sentry-relay]: Skipping package: exceeds size limit 14810213>=10485760
+[2024-05-22 07:29:45] INFO root fetch - main [MainThread]: End processing [sentry-relay] error
+[2024-05-22 07:29:45] INFO root fetch - processPackages [system_reliability]: executing diffoscope
+[2024-05-22 07:29:45] INFO root fetch - processPackages [system_reliability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/system_reliability-0.1.1.tar.gz tmp/system_reliability-0.2.0.tar.gz --markdown 20240522/s/system_reliability/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-22 07:29:45] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/d9/23/585ad1b1c2a3f0b4a2bf2082747f3fa8e5bb7543b2040a2c83eabd01feb3/danila-lib-1.5.6.tar.gz
+[2024-05-22 07:29:45] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-22 07:29:45] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.5.5.tar.gz tmp/danila-lib-1.5.6.tar.gz --markdown 20240522/d/danila-lib/1.5.5-1.5.6/README.md --exclude *.pyd
+[2024-05-22 07:29:45] INFO root fetch - processPackages [system_reliability]: Remove: archive file [/home/abi/fetcher/tmp/system_reliability-0.1.1.tar.gz]
+[2024-05-22 07:29:45] INFO root fetch - processPackages [system_reliability]: Remove: archive file [/home/abi/fetcher/tmp/system_reliability-0.2.0.tar.gz]
+[2024-05-22 07:29:45] INFO root fetch - main [MainThread]: End processing [system_reliability]: success
+[2024-05-22 07:29:45] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.5.5.tar.gz]
+[2024-05-22 07:29:45] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.5.6.tar.gz]
+[2024-05-22 07:29:45] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-22 07:29:45] INFO root fetch - main [MainThread]: Store serial: [23319088]

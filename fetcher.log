@@ -9629,3 +9629,29 @@
 [2024-05-22 05:11:09] INFO root fetch - processPackages [odoo-addon-account-statement-import-sheet-file]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_sheet_file-17.0.1.0.0.2-py3-none-any.whl.zip]
 [2024-05-22 05:11:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-sheet-file]: success
 [2024-05-22 05:11:09] INFO root fetch - main [MainThread]: Store serial: [23318112]
+[2024-05-22 05:13:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318112]
+[2024-05-22 05:13:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 05:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ngsolve
+[2024-05-22 05:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nadl
+[2024-05-22 05:13:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tmticket
+[2024-05-22 05:13:18] INFO root fetch - processPackages [nadl]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-22 05:13:18] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/1c/db/cbc9d36f387b03d5b7043bcdcc741708d2ce0ef0576c0b6306949c632963/nadl-1.3.0.tar.gz
+[2024-05-22 05:13:18] INFO root fetch - processPackages [tmticket]: New version: [0.2.2] Old Version: [0.2.16]
+[2024-05-22 05:13:18] INFO root fetch - processPackages [ngsolve]: New version: [6.2.2403.post5.dev0] Old Version: [6.2.2403.post4.dev0]
+[2024-05-22 05:13:18] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/e5/7f/a466189ad722610101fc44e72e699e79efe4166a04bc78b5c09578eee17a/tmticket-0.2.16.tar.gz
+[2024-05-22 05:13:18] INFO root fetch - processPackages [nadl]: Downloading https://files.pythonhosted.org/packages/0b/9e/e33d2b478cbcad93b34277a246f0d1b9f934a1be07344b0dfe95890363e3/nadl-1.4.0.tar.gz
+[2024-05-22 05:13:18] INFO root fetch - processPackages [ngsolve]: Downloading https://files.pythonhosted.org/packages/c8/bb/03ffbecd2f5e8bb43ee9c772ac51a97022964f1a1989bd92ebb8674596d1/ngsolve-6.2.2403.post4.dev0-cp39-cp39-macosx_10_15_universal2.whl
+[2024-05-22 05:13:18] INFO root fetch - processPackages [nadl]: executing diffoscope
+[2024-05-22 05:13:18] INFO root fetch - processPackages [nadl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nadl-1.3.0.tar.gz tmp/nadl-1.4.0.tar.gz --markdown 20240522/n/nadl/1.3.0-1.4.0/README.md --exclude *.pyd
+[2024-05-22 05:13:18] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/14/24/d9b4e8fa75d1188e9a793c4a4910d44ca119f97ff0b3779a448274e8c3fd/tmticket-0.2.2.tar.gz
+[2024-05-22 05:13:18] INFO root fetch - processPackages [tmticket]: executing diffoscope
+[2024-05-22 05:13:18] INFO root fetch - processPackages [tmticket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmticket-0.2.16.tar.gz tmp/tmticket-0.2.2.tar.gz --markdown 20240522/t/tmticket/0.2.16-0.2.2/README.md --exclude *.pyd
+[2024-05-22 05:13:19] WARNING root fetch - processPackages [ngsolve]: Skipping package: exceeds size limit 34291225>=10485760
+[2024-05-22 05:13:19] INFO root fetch - main [MainThread]: End processing [ngsolve] error
+[2024-05-22 05:13:19] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.3.0.tar.gz]
+[2024-05-22 05:13:19] INFO root fetch - processPackages [nadl]: Remove: archive file [/home/abi/fetcher/tmp/nadl-1.4.0.tar.gz]
+[2024-05-22 05:13:19] INFO root fetch - main [MainThread]: End processing [nadl]: success
+[2024-05-22 05:13:19] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.16.tar.gz]
+[2024-05-22 05:13:19] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.2.tar.gz]
+[2024-05-22 05:13:19] INFO root fetch - main [MainThread]: End processing [tmticket]: success
+[2024-05-22 05:13:19] INFO root fetch - main [MainThread]: Store serial: [23318122]

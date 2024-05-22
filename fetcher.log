@@ -21290,3 +21290,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 13:28:21] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
 [2024-05-22 13:28:21] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
 [2024-05-22 13:28:21] INFO root fetch - main [MainThread]: Store serial: [23323157]
+[2024-05-22 13:30:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323157]
+[2024-05-22 13:30:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 13:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clabe_pydantic2
+[2024-05-22 13:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: efaqa-corpus-zh
+[2024-05-22 13:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roche-datachapter-lib
+[2024-05-22 13:30:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: massmarket-hash-event
+[2024-05-22 13:30:30] INFO root fetch - processPackages [massmarket-hash-event]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-22 13:30:30] INFO root fetch - processPackages [massmarket-hash-event]: Downloading https://files.pythonhosted.org/packages/ae/2c/a86d6d4ad7f807d58ba30dc5cdf886992c53893df649ebf482a485603742/massmarket_hash_event-0.1.4.tar.gz
+[2024-05-22 13:30:30] WARNING root fetch - processPackages [clabe_pydantic2]: Skipping, unable to determine old version
+[2024-05-22 13:30:30] INFO root fetch - main [MainThread]: End processing [clabe_pydantic2] error
+[2024-05-22 13:30:30] INFO root fetch - processPackages [roche-datachapter-lib]: New version: [0.0.427] Old Version: [0.0.426]
+[2024-05-22 13:30:30] INFO root fetch - processPackages [efaqa-corpus-zh]: New version: [1.2] Old Version: [1.1]
+[2024-05-22 13:30:30] INFO root fetch - processPackages [roche-datachapter-lib]: Downloading https://files.pythonhosted.org/packages/7d/a4/f7b5b26c8e9f7574871f13db7b58009057d2178fe52c89d06064b209a636/roche_datachapter_lib-0.0.426.tar.gz
+[2024-05-22 13:30:30] INFO root fetch - processPackages [massmarket-hash-event]: Downloading https://files.pythonhosted.org/packages/bb/20/abe29d1a7090a27942d561a017cb03bc54c866fbfa013b3b78b0298d9f38/massmarket_hash_event-0.1.5.tar.gz
+[2024-05-22 13:30:30] INFO root fetch - processPackages [efaqa-corpus-zh]: Downloading https://files.pythonhosted.org/packages/22/85/28214518df5d37574f5c447d78c68e0bbaf8c766d3f965bacc1b324f13ea/efaqa_corpus_zh-1.1.tar.gz
+[2024-05-22 13:30:30] INFO root fetch - processPackages [massmarket-hash-event]: executing diffoscope
+[2024-05-22 13:30:30] INFO root fetch - processPackages [massmarket-hash-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/massmarket_hash_event-0.1.4.tar.gz tmp/massmarket_hash_event-0.1.5.tar.gz --markdown 20240522/m/massmarket-hash-event/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-22 13:30:31] INFO root fetch - processPackages [roche-datachapter-lib]: Downloading https://files.pythonhosted.org/packages/98/a9/a9fbe773dc03ee5312d9872629ad5e1de2fb8067c1ba031d0ffe1f1ee398/roche_datachapter_lib-0.0.427.tar.gz
+[2024-05-22 13:30:31] INFO root fetch - processPackages [roche-datachapter-lib]: executing diffoscope
+[2024-05-22 13:30:31] INFO root fetch - processPackages [roche-datachapter-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roche_datachapter_lib-0.0.426.tar.gz tmp/roche_datachapter_lib-0.0.427.tar.gz --markdown 20240522/r/roche-datachapter-lib/0.0.426-0.0.427/README.md --exclude *.pyd
+[2024-05-22 13:30:31] INFO root fetch - processPackages [efaqa-corpus-zh]: Downloading https://files.pythonhosted.org/packages/57/ab/24abd13cb4c9ef0925490be0b9d27c0b10b22ea1d0f52360da09d059606c/efaqa_corpus_zh-1.2.tar.gz
+[2024-05-22 13:30:31] INFO root fetch - processPackages [efaqa-corpus-zh]: executing diffoscope
+[2024-05-22 13:30:31] INFO root fetch - processPackages [efaqa-corpus-zh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efaqa_corpus_zh-1.1.tar.gz tmp/efaqa_corpus_zh-1.2.tar.gz --markdown 20240522/e/efaqa-corpus-zh/1.1-1.2/README.md --exclude *.pyd
+[2024-05-22 13:30:31] INFO root fetch - processPackages [massmarket-hash-event]: Remove: archive file [/home/abi/fetcher/tmp/massmarket_hash_event-0.1.4.tar.gz]
+[2024-05-22 13:30:31] INFO root fetch - processPackages [massmarket-hash-event]: Remove: archive file [/home/abi/fetcher/tmp/massmarket_hash_event-0.1.5.tar.gz]
+[2024-05-22 13:30:31] INFO root fetch - main [MainThread]: End processing [massmarket-hash-event]: success
+[2024-05-22 13:30:31] INFO root fetch - processPackages [roche-datachapter-lib]: Remove: archive file [/home/abi/fetcher/tmp/roche_datachapter_lib-0.0.426.tar.gz]
+[2024-05-22 13:30:31] INFO root fetch - processPackages [roche-datachapter-lib]: Remove: archive file [/home/abi/fetcher/tmp/roche_datachapter_lib-0.0.427.tar.gz]
+[2024-05-22 13:30:31] INFO root fetch - main [MainThread]: End processing [roche-datachapter-lib]: success
+[2024-05-22 13:30:31] INFO root fetch - processPackages [efaqa-corpus-zh]: Remove: archive file [/home/abi/fetcher/tmp/efaqa_corpus_zh-1.1.tar.gz]
+[2024-05-22 13:30:31] INFO root fetch - processPackages [efaqa-corpus-zh]: Remove: archive file [/home/abi/fetcher/tmp/efaqa_corpus_zh-1.2.tar.gz]
+[2024-05-22 13:30:31] INFO root fetch - main [MainThread]: End processing [efaqa-corpus-zh]: success
+[2024-05-22 13:30:31] INFO root fetch - main [MainThread]: Store serial: [23323173]

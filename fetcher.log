@@ -7645,3 +7645,69 @@
 [2024-05-22 03:35:12] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
 [2024-05-22 03:35:12] INFO root fetch - main [MainThread]: End processing [synnax]: success
 [2024-05-22 03:35:12] INFO root fetch - main [MainThread]: Store serial: [23317188]
+[2024-05-22 03:37:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317188]
+[2024-05-22 03:37:20] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 03:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelbit
+[2024-05-22 03:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neurocaps
+[2024-05-22 03:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: comicinfoxml
+[2024-05-22 03:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jemma
+[2024-05-22 03:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libdaw
+[2024-05-22 03:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyAgrum-nightly
+[2024-05-22 03:37:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ventures
+[2024-05-22 03:37:20] INFO root fetch - processPackages [ventures]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-05-22 03:37:21] INFO root fetch - processPackages [ventures]: Downloading https://files.pythonhosted.org/packages/28/df/7eaaf5c25644ecccc6f6678af7d19ddcc048e1a11d384f76a1ee57c3023a/ventures-1.3.0.tar.gz
+[2024-05-22 03:37:21] INFO root fetch - processPackages [comicinfoxml]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-22 03:37:21] INFO root fetch - processPackages [jemma]: New version: [0.1.423] Old Version: [0.1.422]
+[2024-05-22 03:37:21] INFO root fetch - processPackages [libdaw]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-22 03:37:21] INFO root fetch - processPackages [neurocaps]: New version: [0.9.0.post5] Old Version: [0.9.0.post4]
+[2024-05-22 03:37:21] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-05-22 03:37:21] INFO root fetch - processPackages [comicinfoxml]: Downloading https://files.pythonhosted.org/packages/4c/cb/b918b3ff30092bfb2d2f709df154c68ba43abc020dd7c098c01def243f93/comicinfoxml-0.2.0.tar.gz
+[2024-05-22 03:37:21] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/63/6b/a863031d8cf2af2bd9d83e3bd45b62d23a37f487e591861cbdb407f6b975/jemma-0.1.422.tar.gz
+[2024-05-22 03:37:21] INFO root fetch - processPackages [libdaw]: Downloading https://files.pythonhosted.org/packages/84/c2/2f4456d178796581a5458c5d1d85700f5f41a2a920c7c6bdc475a286ba36/libdaw-0.2.1.tar.gz
+[2024-05-22 03:37:21] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/c9/f0/ed4cc6d7e8a055435d41e58b6ff37b6189ac3cb52e6383b72c12aa4e605f/modelbit-0.9.6.tar.gz
+[2024-05-22 03:37:21] INFO root fetch - processPackages [neurocaps]: Downloading https://files.pythonhosted.org/packages/69/c4/84104d7e0c983f8efcbdd952fe79bd9ba9ef0bbd8b447f255cae62320e2a/neurocaps-0.9.0.post4.tar.gz
+[2024-05-22 03:37:21] INFO root fetch - processPackages [ventures]: Downloading https://files.pythonhosted.org/packages/27/91/125f1878c17e1e79805451dd66d7012526df10ce94d43e78fbad76934e1c/ventures-1.3.1.tar.gz
+[2024-05-22 03:37:21] INFO root fetch - processPackages [ventures]: executing diffoscope
+[2024-05-22 03:37:21] INFO root fetch - processPackages [ventures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ventures-1.3.0.tar.gz tmp/ventures-1.3.1.tar.gz --markdown 20240522/v/ventures/1.3.0-1.3.1/README.md --exclude *.pyd
+[2024-05-22 03:37:21] INFO root fetch - processPackages [comicinfoxml]: Downloading https://files.pythonhosted.org/packages/b2/d2/aae4586477c4a1b4ae8849694923dcc93485f531fa637f21bf3fc97a50ba/comicinfoxml-0.2.1.tar.gz
+[2024-05-22 03:37:21] INFO root fetch - processPackages [libdaw]: Downloading https://files.pythonhosted.org/packages/1c/c7/de3de88caf1f50973d37eb3f948d1a6506035de674281318bea18baa766c/libdaw-0.2.2.tar.gz
+[2024-05-22 03:37:21] INFO root fetch - processPackages [neurocaps]: Downloading https://files.pythonhosted.org/packages/12/ac/1d8a5db6043fb6b3f7b5332eb01be8930c59a427be0c0fbbde6179c79ad3/neurocaps-0.9.0.post5.tar.gz
+[2024-05-22 03:37:21] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/55/0f/8d19e66368fbaa57d08deb9b9d12c445c2e2451e77490d39dfff1e70698a/modelbit-0.9.7.tar.gz
+[2024-05-22 03:37:21] INFO root fetch - processPackages [comicinfoxml]: executing diffoscope
+[2024-05-22 03:37:21] INFO root fetch - processPackages [comicinfoxml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comicinfoxml-0.2.0.tar.gz tmp/comicinfoxml-0.2.1.tar.gz --markdown 20240522/c/comicinfoxml/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-22 03:37:21] INFO root fetch - processPackages [neurocaps]: executing diffoscope
+[2024-05-22 03:37:21] INFO root fetch - processPackages [neurocaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurocaps-0.9.0.post4.tar.gz tmp/neurocaps-0.9.0.post5.tar.gz --markdown 20240522/n/neurocaps/0.9.0.post4-0.9.0.post5/README.md --exclude *.pyd
+[2024-05-22 03:37:21] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2024-05-22 03:37:21] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20240522/m/modelbit/0.9.6-0.9.7/README.md --exclude *.pyd
+[2024-05-22 03:37:21] INFO root fetch - processPackages [jemma]: Downloading https://files.pythonhosted.org/packages/a7/67/fad5ee99cee7c8a2be8ed799451a79018313f3c750e845631620d851c6d0/jemma-0.1.423.tar.gz
+[2024-05-22 03:37:21] INFO root fetch - processPackages [libdaw]: executing diffoscope
+[2024-05-22 03:37:21] INFO root fetch - processPackages [libdaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libdaw-0.2.1.tar.gz tmp/libdaw-0.2.2.tar.gz --markdown 20240522/l/libdaw/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-22 03:37:21] INFO root fetch - processPackages [jemma]: executing diffoscope
+[2024-05-22 03:37:21] INFO root fetch - processPackages [jemma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jemma-0.1.422.tar.gz tmp/jemma-0.1.423.tar.gz --markdown 20240522/j/jemma/0.1.422-0.1.423/README.md --exclude *.pyd
+[2024-05-22 03:37:22] INFO root fetch - processPackages [comicinfoxml]: Remove: archive file [/home/abi/fetcher/tmp/comicinfoxml-0.2.0.tar.gz]
+[2024-05-22 03:37:22] INFO root fetch - processPackages [comicinfoxml]: Remove: archive file [/home/abi/fetcher/tmp/comicinfoxml-0.2.1.tar.gz]
+[2024-05-22 03:37:22] INFO root fetch - main [MainThread]: End processing [comicinfoxml]: success
+[2024-05-22 03:37:22] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.6.tar.gz]
+[2024-05-22 03:37:22] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.7.tar.gz]
+[2024-05-22 03:37:22] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2024-05-22 03:37:22] INFO root fetch - processPackages [neurocaps]: Remove: archive file [/home/abi/fetcher/tmp/neurocaps-0.9.0.post4.tar.gz]
+[2024-05-22 03:37:22] INFO root fetch - processPackages [neurocaps]: Remove: archive file [/home/abi/fetcher/tmp/neurocaps-0.9.0.post5.tar.gz]
+[2024-05-22 03:37:22] INFO root fetch - main [MainThread]: End processing [neurocaps]: success
+[2024-05-22 03:37:22] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.422.tar.gz]
+[2024-05-22 03:37:22] INFO root fetch - processPackages [jemma]: Remove: archive file [/home/abi/fetcher/tmp/jemma-0.1.423.tar.gz]
+[2024-05-22 03:37:22] INFO root fetch - main [MainThread]: End processing [jemma]: success
+[2024-05-22 03:37:22] INFO root fetch - processPackages [libdaw]: Remove: archive file [/home/abi/fetcher/tmp/libdaw-0.2.1.tar.gz]
+[2024-05-22 03:37:22] INFO root fetch - processPackages [libdaw]: Remove: archive file [/home/abi/fetcher/tmp/libdaw-0.2.2.tar.gz]
+[2024-05-22 03:37:22] INFO root fetch - main [MainThread]: End processing [libdaw]: success
+[2024-05-22 03:37:23] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-05-22 03:37:23] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-05-22 03:37:23] INFO root fetch - processPackages [ventures]: Remove: archive file [/home/abi/fetcher/tmp/ventures-1.3.0.tar.gz]
+[2024-05-22 03:37:23] INFO root fetch - processPackages [ventures]: Remove: archive file [/home/abi/fetcher/tmp/ventures-1.3.1.tar.gz]
+[2024-05-22 03:37:23] INFO root fetch - main [MainThread]: End processing [ventures]: success
+[2024-05-22 03:37:23] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-05-22 03:37:24] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-05-22 03:37:24] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240522/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/README.md --exclude *.pyd
+[2024-05-22 03:37:24] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 03:37:24] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 03:37:24] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-05-22 03:37:24] INFO root fetch - main [MainThread]: Store serial: [23317252]

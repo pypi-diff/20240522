@@ -10774,3 +10774,15 @@
 [2024-05-22 06:06:02] INFO root fetch - processPackages [algokit]: Remove: archive file [/home/abi/fetcher/tmp/algokit-2.0.5-py3-none-any.whl.zip]
 [2024-05-22 06:06:02] INFO root fetch - main [MainThread]: End processing [algokit]: success
 [2024-05-22 06:06:02] INFO root fetch - main [MainThread]: Store serial: [23318588]
+[2024-05-22 06:08:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318588]
+[2024-05-22 06:08:11] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-22 06:08:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chromedriver-binary
+[2024-05-22 06:08:11] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-05-22 06:08:12] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-05-22 06:08:12] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-05-22 06:08:12] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-05-22 06:08:12] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240522/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-05-22 06:08:12] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-05-22 06:08:12] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-05-22 06:08:12] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-05-22 06:08:12] INFO root fetch - main [MainThread]: Store serial: [23318595]

@@ -19693,3 +19693,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:19:13] INFO root fetch - processPackages [aa-ledger]: Remove: archive file [/home/abi/fetcher/tmp/aa_ledger-0.3.8a1.tar.gz]
 [2024-05-22 12:19:13] INFO root fetch - main [MainThread]: End processing [aa-ledger]: success
 [2024-05-22 12:19:13] INFO root fetch - main [MainThread]: Store serial: [23322373]
+[2024-05-22 12:21:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322373]
+[2024-05-22 12:21:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 12:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cinemol
+[2024-05-22 12:21:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: playmolecule
+[2024-05-22 12:21:22] INFO root fetch - processPackages [cinemol]: New version: [1.0.0] Old Version: [0.0.1.dev0]
+[2024-05-22 12:21:22] INFO root fetch - processPackages [playmolecule]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-05-22 12:21:22] INFO root fetch - processPackages [cinemol]: Downloading https://files.pythonhosted.org/packages/82/1f/d988e82c16ad842e6fbec17c000743322f3995003461b994aaad913d1fb8/cinemol-0.0.1.dev0.tar.gz
+[2024-05-22 12:21:23] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/64/b0/bfc18e7eb81d52b6e6f077f79370a1f7695b7f0778851e66d68186b30be0/playmolecule-2.4.8.tar.gz
+[2024-05-22 12:21:23] INFO root fetch - processPackages [cinemol]: Downloading https://files.pythonhosted.org/packages/85/32/a734f3b5a3ae5869a3afa356c74808264e4b2700e4c0bcb74fba9b52073b/cinemol-1.0.0.tar.gz
+[2024-05-22 12:21:23] INFO root fetch - processPackages [cinemol]: executing diffoscope
+[2024-05-22 12:21:23] INFO root fetch - processPackages [cinemol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cinemol-0.0.1.dev0.tar.gz tmp/cinemol-1.0.0.tar.gz --markdown 20240522/c/cinemol/0.0.1.dev0-1.0.0/README.md --exclude *.pyd
+[2024-05-22 12:21:23] INFO root fetch - processPackages [playmolecule]: Downloading https://files.pythonhosted.org/packages/f4/32/91c078a0b892421b5797977c4fe473b624a5babecf8f1b20496273257880/playmolecule-2.4.9.tar.gz
+[2024-05-22 12:21:24] INFO root fetch - processPackages [cinemol]: Remove: archive file [/home/abi/fetcher/tmp/cinemol-0.0.1.dev0.tar.gz]
+[2024-05-22 12:21:24] INFO root fetch - processPackages [cinemol]: Remove: archive file [/home/abi/fetcher/tmp/cinemol-1.0.0.tar.gz]
+[2024-05-22 12:21:24] INFO root fetch - main [MainThread]: End processing [cinemol]: success
+[2024-05-22 12:21:25] INFO root fetch - processPackages [playmolecule]: executing diffoscope
+[2024-05-22 12:21:25] INFO root fetch - processPackages [playmolecule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/playmolecule-2.4.8.tar.gz tmp/playmolecule-2.4.9.tar.gz --markdown 20240522/p/playmolecule/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-05-22 12:21:25] INFO root fetch - processPackages [playmolecule]: Remove: archive file [/home/abi/fetcher/tmp/playmolecule-2.4.8.tar.gz]
+[2024-05-22 12:21:25] INFO root fetch - processPackages [playmolecule]: Remove: archive file [/home/abi/fetcher/tmp/playmolecule-2.4.9.tar.gz]
+[2024-05-22 12:21:25] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
+[2024-05-22 12:21:25] INFO root fetch - main [MainThread]: Store serial: [23322382]

@@ -14391,3 +14391,66 @@
 [2024-05-22 09:26:37] INFO root fetch - processPackages [ansys-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/ansys-sphinx-theme-0.9.9.tar.gz]
 [2024-05-22 09:26:37] INFO root fetch - main [MainThread]: End processing [ansys-sphinx-theme]: success
 [2024-05-22 09:26:37] INFO root fetch - main [MainThread]: Store serial: [23320182]
+[2024-05-22 09:28:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320182]
+[2024-05-22 09:28:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 09:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: upils
+[2024-05-22 09:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MeUtils
+[2024-05-22 09:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djapy
+[2024-05-22 09:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: benchling-sdk
+[2024-05-22 09:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatllm
+[2024-05-22 09:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cimsparql
+[2024-05-22 09:28:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datasetlib
+[2024-05-22 09:28:46] INFO root fetch - processPackages [cimsparql]: New version: [4.1.1] Old Version: [4.1.0]
+[2024-05-22 09:28:46] INFO root fetch - processPackages [djapy]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-22 09:28:46] INFO root fetch - processPackages [cimsparql]: Downloading https://files.pythonhosted.org/packages/2a/c9/b743ccd871fd692fa4b56bac0bba470fd73d14bfeb0108f21bad2a571e18/cimsparql-4.1.0.tar.gz
+[2024-05-22 09:28:46] INFO root fetch - processPackages [upils]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-22 09:28:46] INFO root fetch - processPackages [datasetlib]: New version: [0.2.4] Old Version: [0.2.2]
+[2024-05-22 09:28:46] INFO root fetch - processPackages [benchling-sdk]: New version: [1.9.0a5] Old Version: [1.9.0a4]
+[2024-05-22 09:28:46] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-22 09:28:46] INFO root fetch - processPackages [MeUtils]: New version: [2024.5.6.10.44.50] Old Version: [2024.5.6.10.44.5]
+[2024-05-22 09:28:46] INFO root fetch - processPackages [djapy]: Downloading https://files.pythonhosted.org/packages/d7/05/fb05e38aba6af3e09a548417ce5093734160b8a2ec1260fcb053a0096af3/djapy-0.1.98.tar.gz
+[2024-05-22 09:28:46] INFO root fetch - processPackages [upils]: Downloading https://files.pythonhosted.org/packages/41/55/4802e7d3a1ab21c3fd1e65fe20dbc18b7b7368bf29c2309226ae3a1fc81e/upils-0.6.0.tar.gz
+[2024-05-22 09:28:46] INFO root fetch - processPackages [datasetlib]: Downloading https://files.pythonhosted.org/packages/31/ea/14285cc262caa7039eebd88ffbfc68b22c19670662edd20c3bcf9a6fb214/datasetlib-0.2.2.tar.gz
+[2024-05-22 09:28:46] INFO root fetch - processPackages [benchling-sdk]: Downloading https://files.pythonhosted.org/packages/8f/f8/5d02747f1452d3e0311ee1f935d61e67ffee539834f7fc0015dfadcc580a/benchling_sdk-1.9.0a4.tar.gz
+[2024-05-22 09:28:46] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-22 09:28:46] INFO root fetch - processPackages [cimsparql]: Downloading https://files.pythonhosted.org/packages/ca/01/8702a719586ddfad07c86defe84361fb6bf6039b18d5f7aec3ffe1a7dd0d/cimsparql-4.1.1.tar.gz
+[2024-05-22 09:28:46] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/78/33/70eacdfe9bf2fe22dc8f2f41b47fb05e33601609969898927a2e56009f4e/MeUtils-2024.5.6.10.44.5.tar.gz
+[2024-05-22 09:28:46] INFO root fetch - processPackages [djapy]: Downloading https://files.pythonhosted.org/packages/eb/68/fb135a68d77bfcb68c1a8ec2a7f8ea6fdc533dd8a3962ffdf072c735c139/djapy-0.1.99.tar.gz
+[2024-05-22 09:28:46] INFO root fetch - processPackages [cimsparql]: executing diffoscope
+[2024-05-22 09:28:46] INFO root fetch - processPackages [cimsparql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cimsparql-4.1.0.tar.gz tmp/cimsparql-4.1.1.tar.gz --markdown 20240522/c/cimsparql/4.1.0-4.1.1/README.md --exclude *.pyd
+[2024-05-22 09:28:46] INFO root fetch - processPackages [upils]: Downloading https://files.pythonhosted.org/packages/df/83/ba4e1d75148374d3d91db3b02301b1851c66591f4ded18ed7199558080ee/upils-0.7.0.tar.gz
+[2024-05-22 09:28:47] INFO root fetch - processPackages [djapy]: executing diffoscope
+[2024-05-22 09:28:47] INFO root fetch - processPackages [djapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djapy-0.1.98.tar.gz tmp/djapy-0.1.99.tar.gz --markdown 20240522/d/djapy/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-22 09:28:47] INFO root fetch - processPackages [upils]: executing diffoscope
+[2024-05-22 09:28:47] INFO root fetch - processPackages [upils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upils-0.6.0.tar.gz tmp/upils-0.7.0.tar.gz --markdown 20240522/u/upils/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-22 09:28:47] INFO root fetch - processPackages [benchling-sdk]: Downloading https://files.pythonhosted.org/packages/8d/21/f30c5d0a9cad17e7224b3c40cabe4b0cd313a2c4108b4db5d5045a19bc6d/benchling_sdk-1.9.0a5.tar.gz
+[2024-05-22 09:28:47] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-22 09:28:47] INFO root fetch - processPackages [benchling-sdk]: executing diffoscope
+[2024-05-22 09:28:47] INFO root fetch - processPackages [benchling-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_sdk-1.9.0a4.tar.gz tmp/benchling_sdk-1.9.0a5.tar.gz --markdown 20240522/b/benchling-sdk/1.9.0a4-1.9.0a5/README.md --exclude *.pyd
+[2024-05-22 09:28:47] INFO root fetch - processPackages [datasetlib]: Downloading https://files.pythonhosted.org/packages/9b/4c/5a5a9507f1bce9b7536f8180ebfd65a31b4e403908097a0cdacec448471e/datasetlib-0.2.4-py3-none-any.whl
+[2024-05-22 09:28:47] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-22 09:28:47] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240522/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-22 09:28:47] WARNING root fetch - processPackages [datasetlib]: Skipping package: exceeds size limit 17682420>=10485760
+[2024-05-22 09:28:47] INFO root fetch - main [MainThread]: End processing [datasetlib] error
+[2024-05-22 09:28:47] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/02/6d/292bdb40daea1066c52f8a1ec784e268ee7fdec3261940c8419a654a25c2/MeUtils-2024.5.6.10.44.50.tar.gz
+[2024-05-22 09:28:47] INFO root fetch - processPackages [upils]: Remove: archive file [/home/abi/fetcher/tmp/upils-0.6.0.tar.gz]
+[2024-05-22 09:28:47] INFO root fetch - processPackages [upils]: Remove: archive file [/home/abi/fetcher/tmp/upils-0.7.0.tar.gz]
+[2024-05-22 09:28:47] INFO root fetch - main [MainThread]: End processing [upils]: success
+[2024-05-22 09:28:47] INFO root fetch - processPackages [cimsparql]: Remove: archive file [/home/abi/fetcher/tmp/cimsparql-4.1.0.tar.gz]
+[2024-05-22 09:28:47] INFO root fetch - processPackages [cimsparql]: Remove: archive file [/home/abi/fetcher/tmp/cimsparql-4.1.1.tar.gz]
+[2024-05-22 09:28:47] INFO root fetch - main [MainThread]: End processing [cimsparql]: success
+[2024-05-22 09:28:47] INFO root fetch - processPackages [djapy]: Remove: archive file [/home/abi/fetcher/tmp/djapy-0.1.98.tar.gz]
+[2024-05-22 09:28:47] INFO root fetch - processPackages [djapy]: Remove: archive file [/home/abi/fetcher/tmp/djapy-0.1.99.tar.gz]
+[2024-05-22 09:28:47] INFO root fetch - main [MainThread]: End processing [djapy]: success
+[2024-05-22 09:28:48] INFO root fetch - processPackages [benchling-sdk]: Remove: archive file [/home/abi/fetcher/tmp/benchling_sdk-1.9.0a4.tar.gz]
+[2024-05-22 09:28:48] INFO root fetch - processPackages [benchling-sdk]: Remove: archive file [/home/abi/fetcher/tmp/benchling_sdk-1.9.0a5.tar.gz]
+[2024-05-22 09:28:48] INFO root fetch - main [MainThread]: End processing [benchling-sdk]: success
+[2024-05-22 09:28:48] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-22 09:28:48] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-22 09:28:48] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-22 09:28:49] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2024-05-22 09:28:49] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2024.5.6.10.44.5.tar.gz tmp/MeUtils-2024.5.6.10.44.50.tar.gz --markdown 20240522/M/MeUtils/2024.5.6.10.44.5-2024.5.6.10.44.50/README.md --exclude *.pyd
+[2024-05-22 09:28:51] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.5.6.10.44.5.tar.gz]
+[2024-05-22 09:28:51] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2024.5.6.10.44.50.tar.gz]
+[2024-05-22 09:28:51] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2024-05-22 09:28:51] INFO root fetch - main [MainThread]: Store serial: [23320201]

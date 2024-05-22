@@ -12822,3 +12822,63 @@
 [2024-05-22 08:09:43] INFO root fetch - processPackages [quri-parts-stim]: Remove: archive file [/home/abi/fetcher/tmp/quri_parts_stim-17.0.0.tar.gz]
 [2024-05-22 08:09:43] INFO root fetch - main [MainThread]: End processing [quri-parts-stim]: success
 [2024-05-22 08:09:43] INFO root fetch - main [MainThread]: Store serial: [23319509]
+[2024-05-22 08:11:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319509]
+[2024-05-22 08:11:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 08:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: networkx-match
+[2024-05-22 08:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-openstack
+[2024-05-22 08:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dsp-tools
+[2024-05-22 08:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: esssans
+[2024-05-22 08:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mnt.nanoplacer
+[2024-05-22 08:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: setup-django-apex
+[2024-05-22 08:11:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-report-wkhtmltopdf-param
+[2024-05-22 08:11:55] INFO root fetch - processPackages [odoo-addon-report-wkhtmltopdf-param]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.0.8]
+[2024-05-22 08:11:55] INFO root fetch - processPackages [setup-django-apex]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-22 08:11:55] INFO root fetch - processPackages [pulumi-openstack]: New version: [4.0.0] Old Version: [3.9.0a1659603007]
+[2024-05-22 08:11:55] INFO root fetch - processPackages [setup-django-apex]: Downloading https://files.pythonhosted.org/packages/46/7a/6de799b7c8516c57f32329701d4106eb5498981c2f669b3149176afe4ddb/setup_django_apex-0.1.1.tar.gz
+[2024-05-22 08:11:55] INFO root fetch - processPackages [mnt.nanoplacer]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-22 08:11:55] WARNING root fetch - processPackages [networkx-match]: Skipping, unable to determine old version
+[2024-05-22 08:11:55] INFO root fetch - main [MainThread]: End processing [networkx-match] error
+[2024-05-22 08:11:55] INFO root fetch - processPackages [esssans]: New version: [24.5.0] Old Version: [24.4.0]
+[2024-05-22 08:11:55] INFO root fetch - processPackages [dsp-tools]: New version: [7.2.0.post7] Old Version: [7.2.0.post18]
+[2024-05-22 08:11:55] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/cf/b9/1f6195a962138e9e532ea6da486cd8eab11855d8b0284a83af9bb290e254/pulumi_openstack-3.9.0a1659603007.tar.gz
+[2024-05-22 08:11:55] INFO root fetch - processPackages [odoo-addon-report-wkhtmltopdf-param]: Downloading https://files.pythonhosted.org/packages/4d/40/7874f76fc45788800f333cd1edabc59440427111bba6c400aadf97b7fb00/odoo_addon_report_wkhtmltopdf_param-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-22 08:11:55] INFO root fetch - processPackages [mnt.nanoplacer]: Downloading https://files.pythonhosted.org/packages/44/88/8e123bccd9535b25625110d8b7b375315bb52ccd6deb3ef0f352edbb4f8c/mnt_nanoplacer-0.2.2.tar.gz
+[2024-05-22 08:11:55] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/54/8a/7a53d91022939dd519ef80c2d2d17235673273e642925d4698527293050f/dsp_tools-7.2.0.post18.tar.gz
+[2024-05-22 08:11:55] INFO root fetch - processPackages [esssans]: Downloading https://files.pythonhosted.org/packages/30/c0/e95ad571c62378c737429c41c1d10f560a753effe21b5e8f0f96a740fc29/esssans-24.4.0.tar.gz
+[2024-05-22 08:11:55] INFO root fetch - processPackages [odoo-addon-report-wkhtmltopdf-param]: Downloading https://files.pythonhosted.org/packages/71/5f/e7eb2a2b9258ff0920a98849451a6eeaef25ede42927adcffc97c88fe08b/odoo_addon_report_wkhtmltopdf_param-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-22 08:11:55] INFO root fetch - processPackages [setup-django-apex]: Downloading https://files.pythonhosted.org/packages/40/04/ea61c9875f3fd9e33a445e5510ad3a7e1c05cb7588072884a32827eb011c/setup_django_apex-0.1.2.tar.gz
+[2024-05-22 08:11:55] INFO root fetch - processPackages [pulumi-openstack]: Downloading https://files.pythonhosted.org/packages/d4/1c/6f4db61d7a20a5769372fe7bac4f33ac2b7c9ecbf7da30c4dbd5c1ebe674/pulumi_openstack-4.0.0.tar.gz
+[2024-05-22 08:11:55] INFO root fetch - processPackages [odoo-addon-report-wkhtmltopdf-param]: executing diffoscope
+[2024-05-22 08:11:55] INFO root fetch - processPackages [odoo-addon-report-wkhtmltopdf-param]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_report_wkhtmltopdf_param-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_report_wkhtmltopdf_param-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-report-wkhtmltopdf-param/16.0.1.0.0.8-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-22 08:11:55] INFO root fetch - processPackages [setup-django-apex]: executing diffoscope
+[2024-05-22 08:11:55] INFO root fetch - processPackages [setup-django-apex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setup_django_apex-0.1.1.tar.gz tmp/setup_django_apex-0.1.2.tar.gz --markdown 20240522/s/setup-django-apex/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-22 08:11:55] INFO root fetch - processPackages [pulumi-openstack]: executing diffoscope
+[2024-05-22 08:11:55] INFO root fetch - processPackages [pulumi-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_openstack-3.9.0a1659603007.tar.gz tmp/pulumi_openstack-4.0.0.tar.gz --markdown 20240522/p/pulumi-openstack/3.9.0a1659603007-4.0.0/README.md --exclude *.pyd
+[2024-05-22 08:11:55] INFO root fetch - processPackages [esssans]: Downloading https://files.pythonhosted.org/packages/7c/81/5122d5be7d4230d6a1b0773f58fc1a2a4a5bfaeea0ba517cf901298a5968/esssans-24.5.0.tar.gz
+[2024-05-22 08:11:55] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/8e/5c/7e67f0892e0f2b22ad67dd458bf481e7ca189482ff1d8bda8c445aef1afb/dsp_tools-7.2.0.post7.tar.gz
+[2024-05-22 08:11:55] INFO root fetch - processPackages [mnt.nanoplacer]: Downloading https://files.pythonhosted.org/packages/38/ee/926455e3c4c286dc9d76f3696ddd28759ae7031ec50afd2b8174fc031fc7/mnt_nanoplacer-0.2.3.tar.gz
+[2024-05-22 08:11:55] INFO root fetch - processPackages [dsp-tools]: executing diffoscope
+[2024-05-22 08:11:55] INFO root fetch - processPackages [dsp-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_tools-7.2.0.post18.tar.gz tmp/dsp_tools-7.2.0.post7.tar.gz --markdown 20240522/d/dsp-tools/7.2.0.post18-7.2.0.post7/README.md --exclude *.pyd
+[2024-05-22 08:11:55] INFO root fetch - processPackages [esssans]: executing diffoscope
+[2024-05-22 08:11:55] INFO root fetch - processPackages [esssans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esssans-24.4.0.tar.gz tmp/esssans-24.5.0.tar.gz --markdown 20240522/e/esssans/24.4.0-24.5.0/README.md --exclude *.pyd
+[2024-05-22 08:11:56] INFO root fetch - processPackages [setup-django-apex]: Remove: archive file [/home/abi/fetcher/tmp/setup_django_apex-0.1.1.tar.gz]
+[2024-05-22 08:11:56] INFO root fetch - processPackages [setup-django-apex]: Remove: archive file [/home/abi/fetcher/tmp/setup_django_apex-0.1.2.tar.gz]
+[2024-05-22 08:11:56] INFO root fetch - main [MainThread]: End processing [setup-django-apex]: success
+[2024-05-22 08:11:56] INFO root fetch - processPackages [mnt.nanoplacer]: executing diffoscope
+[2024-05-22 08:11:56] INFO root fetch - processPackages [mnt.nanoplacer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mnt_nanoplacer-0.2.2.tar.gz tmp/mnt_nanoplacer-0.2.3.tar.gz --markdown 20240522/m/mnt.nanoplacer/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-22 08:11:56] INFO root fetch - processPackages [odoo-addon-report-wkhtmltopdf-param]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_wkhtmltopdf_param-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-22 08:11:56] INFO root fetch - processPackages [odoo-addon-report-wkhtmltopdf-param]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_wkhtmltopdf_param-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-22 08:11:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-wkhtmltopdf-param]: success
+[2024-05-22 08:11:57] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.2.0.post18.tar.gz]
+[2024-05-22 08:11:57] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.2.0.post7.tar.gz]
+[2024-05-22 08:11:57] INFO root fetch - main [MainThread]: End processing [dsp-tools]: success
+[2024-05-22 08:11:57] INFO root fetch - processPackages [esssans]: Remove: archive file [/home/abi/fetcher/tmp/esssans-24.4.0.tar.gz]
+[2024-05-22 08:11:57] INFO root fetch - processPackages [esssans]: Remove: archive file [/home/abi/fetcher/tmp/esssans-24.5.0.tar.gz]
+[2024-05-22 08:11:57] INFO root fetch - main [MainThread]: End processing [esssans]: success
+[2024-05-22 08:11:58] INFO root fetch - processPackages [mnt.nanoplacer]: Remove: archive file [/home/abi/fetcher/tmp/mnt_nanoplacer-0.2.2.tar.gz]
+[2024-05-22 08:11:58] INFO root fetch - processPackages [mnt.nanoplacer]: Remove: archive file [/home/abi/fetcher/tmp/mnt_nanoplacer-0.2.3.tar.gz]
+[2024-05-22 08:11:58] INFO root fetch - main [MainThread]: End processing [mnt.nanoplacer]: success
+[2024-05-22 08:11:58] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-3.9.0a1659603007.tar.gz]
+[2024-05-22 08:11:58] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-4.0.0.tar.gz]
+[2024-05-22 08:11:58] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
+[2024-05-22 08:11:58] INFO root fetch - main [MainThread]: Store serial: [23319529]

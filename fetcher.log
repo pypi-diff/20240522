@@ -17553,3 +17553,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:11:12] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz]
 [2024-05-22 11:11:12] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
 [2024-05-22 11:11:12] INFO root fetch - main [MainThread]: Store serial: [23321449]
+[2024-05-22 11:13:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321449]
+[2024-05-22 11:13:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-22 11:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mm-wlan
+[2024-05-22 11:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qs-mps
+[2024-05-22 11:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imerit-ango
+[2024-05-22 11:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: win-onnx
+[2024-05-22 11:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-workflow-sdk
+[2024-05-22 11:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lnbits
+[2024-05-22 11:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imap-box-up
+[2024-05-22 11:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sticker-convert
+[2024-05-22 11:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qctma
+[2024-05-22 11:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dataverse-sdk
+[2024-05-22 11:13:21] INFO root fetch - processPackages [imerit-ango]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-22 11:13:21] INFO root fetch - processPackages [imap-box-up]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-22 11:13:21] INFO root fetch - processPackages [lusid-workflow-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-22 11:13:21] INFO root fetch - processPackages [mm-wlan]: New version: [0.5] Old Version: [0.4]
+[2024-05-22 11:13:21] INFO root fetch - processPackages [qctma]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-22 11:13:21] INFO root fetch - processPackages [lnbits]: New version: [0.12.7] Old Version: [0.12.6]
+[2024-05-22 11:13:21] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/c2/4b/76fb7268eae934f8b6babe542caa987f665f9d2bc919b065061d5e43b9d4/imerit_ango-1.3.8-py3-none-any.whl
+[2024-05-22 11:13:21] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/d5/b7/0c32c08fe0b3327878c0d7b7006b46298b3dca469a326a75a439bfd0f0f1/lusid_workflow_sdk-2.1.8.tar.gz
+[2024-05-22 11:13:21] INFO root fetch - processPackages [qs-mps]: New version: [2024.0.1] Old Version: [2024.0.0]
+[2024-05-22 11:13:21] WARNING root fetch - processPackages [win-onnx]: Skipping, unable to determine old version
+[2024-05-22 11:13:21] INFO root fetch - main [MainThread]: End processing [win-onnx] error
+[2024-05-22 11:13:21] INFO root fetch - processPackages [dataverse-sdk]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-05-22 11:13:21] INFO root fetch - processPackages [sticker-convert]: New version: [2.8.8] Old Version: [2.8.7]
+[2024-05-22 11:13:21] INFO root fetch - processPackages [imap-box-up]: Downloading https://files.pythonhosted.org/packages/63/d2/85ac98e793fdf328730ce797f1dd1205fd15da7971df5830169aa44e109b/imap_box_up-0.0.4.tar.gz
+[2024-05-22 11:13:21] INFO root fetch - processPackages [mm-wlan]: Downloading https://files.pythonhosted.org/packages/28/80/aac4bc1ec0a8d661f9683b1e70473b94dce76b91f476768b18c28bf2ce26/mm_wlan-0.4.tar.gz
+[2024-05-22 11:13:21] INFO root fetch - processPackages [lnbits]: Downloading https://files.pythonhosted.org/packages/d4/78/1fcab35f280e32b34732c042ee48136b3489edeb4e2345864a0723c1ff12/lnbits-0.12.6.tar.gz
+[2024-05-22 11:13:21] INFO root fetch - processPackages [qs-mps]: Downloading https://files.pythonhosted.org/packages/7f/fd/379cf81fc2ed35ff848c9ecc0a3441312d87a9235f17dac7838fa3e2fe8a/qs-mps-2024.0.0.tar.gz
+[2024-05-22 11:13:21] INFO root fetch - processPackages [qctma]: Downloading https://files.pythonhosted.org/packages/e6/1f/5780713e9f40a6ad593b82e871d60eab4dab0fc14d413e3c713cefa559df/qctma-1.0.8.tar.gz
+[2024-05-22 11:13:21] INFO root fetch - processPackages [sticker-convert]: Downloading https://files.pythonhosted.org/packages/91/fe/748a2ba486401653e14fe67b91838b3e9c4bd779338a854619f0e5580a54/sticker_convert-2.8.7.tar.gz
+[2024-05-22 11:13:21] INFO root fetch - processPackages [dataverse-sdk]: Downloading https://files.pythonhosted.org/packages/6b/bb/0844b24f6dac3afba556b341b9693ab22a6f6f041969227ce83b3bc33b6f/dataverse_sdk-1.2.1.tar.gz
+[2024-05-22 11:13:21] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/ad/6c/c566cbfb2eb78b60ab906a7089cb27f4363856113a63e1b4a254383269bb/imerit_ango-1.3.9-py3-none-any.whl
+[2024-05-22 11:13:21] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/23/c0/5f5908f038983f29f46a445ed5ff331d6086d5c6cb128e4502bf223fd90b/lusid_workflow_sdk-2.1.9.tar.gz
+[2024-05-22 11:13:21] INFO root fetch - processPackages [imap-box-up]: Downloading https://files.pythonhosted.org/packages/c4/1b/5d302c741cd8a069b5719bef17754702257e6f4b02e89151735437e93253/imap_box_up-0.0.5.tar.gz
+[2024-05-22 11:13:21] INFO root fetch - processPackages [imerit-ango]: executing diffoscope
+[2024-05-22 11:13:21] INFO root fetch - processPackages [imerit-ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imerit_ango-1.3.8-py3-none-any.whl.zip tmp/imerit_ango-1.3.9-py3-none-any.whl.zip --markdown 20240522/i/imerit-ango/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-22 11:13:21] INFO root fetch - processPackages [lusid-workflow-sdk]: executing diffoscope
+[2024-05-22 11:13:21] INFO root fetch - processPackages [lusid-workflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_workflow_sdk-2.1.8.tar.gz tmp/lusid_workflow_sdk-2.1.9.tar.gz --markdown 20240522/l/lusid-workflow-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-22 11:13:21] INFO root fetch - processPackages [mm-wlan]: Downloading https://files.pythonhosted.org/packages/25/93/aefb22acb790f1cb2f09eb154fe843dd42a1941b58c2d6ab2528762b0a88/mm_wlan-0.5.tar.gz
+[2024-05-22 11:13:21] INFO root fetch - processPackages [imap-box-up]: executing diffoscope
+[2024-05-22 11:13:21] INFO root fetch - processPackages [imap-box-up]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imap_box_up-0.0.4.tar.gz tmp/imap_box_up-0.0.5.tar.gz --markdown 20240522/i/imap-box-up/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-22 11:13:21] INFO root fetch - processPackages [qs-mps]: Downloading https://files.pythonhosted.org/packages/c1/23/92f3a883335f606422ee9a145bdf9ed24a89225c310241fc5c5545404815/qs-mps-2024.0.1.tar.gz
+[2024-05-22 11:13:22] INFO root fetch - processPackages [dataverse-sdk]: Downloading https://files.pythonhosted.org/packages/96/f3/0e29d0b8392a0be2d201bf211ff03c446cdd7a50c26380c22375ef021333/dataverse_sdk-1.3.0.tar.gz
+[2024-05-22 11:13:22] INFO root fetch - processPackages [lnbits]: Downloading https://files.pythonhosted.org/packages/b6/b7/c42ea5c082b87a66fda05d65c73f828d9092191af78031c4f919017ab958/lnbits-0.12.7.tar.gz
+[2024-05-22 11:13:22] INFO root fetch - processPackages [qctma]: Downloading https://files.pythonhosted.org/packages/98/34/fe41d95d647586ecc3ea5e3a207babeaf201d19cd21bb8c43bf3c294dbf2/qctma-1.0.9.tar.gz
+[2024-05-22 11:13:22] INFO root fetch - processPackages [mm-wlan]: executing diffoscope
+[2024-05-22 11:13:22] INFO root fetch - processPackages [mm-wlan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mm_wlan-0.4.tar.gz tmp/mm_wlan-0.5.tar.gz --markdown 20240522/m/mm-wlan/0.4-0.5/README.md --exclude *.pyd
+[2024-05-22 11:13:22] INFO root fetch - processPackages [qs-mps]: executing diffoscope
+[2024-05-22 11:13:22] INFO root fetch - processPackages [qs-mps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qs-mps-2024.0.0.tar.gz tmp/qs-mps-2024.0.1.tar.gz --markdown 20240522/q/qs-mps/2024.0.0-2024.0.1/README.md --exclude *.pyd
+[2024-05-22 11:13:22] INFO root fetch - processPackages [dataverse-sdk]: executing diffoscope
+[2024-05-22 11:13:22] INFO root fetch - processPackages [dataverse-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverse_sdk-1.2.1.tar.gz tmp/dataverse_sdk-1.3.0.tar.gz --markdown 20240522/d/dataverse-sdk/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-05-22 11:13:22] INFO root fetch - processPackages [qctma]: executing diffoscope
+[2024-05-22 11:13:22] INFO root fetch - processPackages [qctma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qctma-1.0.8.tar.gz tmp/qctma-1.0.9.tar.gz --markdown 20240522/q/qctma/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-22 11:13:22] INFO root fetch - processPackages [lnbits]: executing diffoscope
+[2024-05-22 11:13:22] INFO root fetch - processPackages [lnbits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnbits-0.12.6.tar.gz tmp/lnbits-0.12.7.tar.gz --markdown 20240522/l/lnbits/0.12.6-0.12.7/README.md --exclude *.pyd
+[2024-05-22 11:13:22] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit_ango-1.3.8-py3-none-any.whl.zip]
+[2024-05-22 11:13:22] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit_ango-1.3.9-py3-none-any.whl.zip]
+[2024-05-22 11:13:22] INFO root fetch - main [MainThread]: End processing [imerit-ango]: success
+[2024-05-22 11:13:23] INFO root fetch - processPackages [mm-wlan]: Remove: archive file [/home/abi/fetcher/tmp/mm_wlan-0.4.tar.gz]
+[2024-05-22 11:13:23] INFO root fetch - processPackages [mm-wlan]: Remove: archive file [/home/abi/fetcher/tmp/mm_wlan-0.5.tar.gz]
+[2024-05-22 11:13:23] INFO root fetch - main [MainThread]: End processing [mm-wlan]: success
+[2024-05-22 11:13:23] INFO root fetch - processPackages [imap-box-up]: Remove: archive file [/home/abi/fetcher/tmp/imap_box_up-0.0.4.tar.gz]
+[2024-05-22 11:13:23] INFO root fetch - processPackages [imap-box-up]: Remove: archive file [/home/abi/fetcher/tmp/imap_box_up-0.0.5.tar.gz]
+[2024-05-22 11:13:23] INFO root fetch - main [MainThread]: End processing [imap-box-up]: success
+[2024-05-22 11:13:23] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.8.tar.gz]
+[2024-05-22 11:13:23] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.9.tar.gz]
+[2024-05-22 11:13:23] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk]: success
+[2024-05-22 11:13:23] INFO root fetch - processPackages [dataverse-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dataverse_sdk-1.2.1.tar.gz]
+[2024-05-22 11:13:23] INFO root fetch - processPackages [dataverse-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dataverse_sdk-1.3.0.tar.gz]
+[2024-05-22 11:13:23] INFO root fetch - main [MainThread]: End processing [dataverse-sdk]: success
+[2024-05-22 11:13:23] INFO root fetch - processPackages [sticker-convert]: Downloading https://files.pythonhosted.org/packages/8a/89/31536719f9d85639a8dce5d972cb83f02e73e2a181111deba5218c0cf92c/sticker_convert-2.8.8.tar.gz
+[2024-05-22 11:13:23] INFO root fetch - processPackages [qctma]: Remove: archive file [/home/abi/fetcher/tmp/qctma-1.0.8.tar.gz]
+[2024-05-22 11:13:23] INFO root fetch - processPackages [qctma]: Remove: archive file [/home/abi/fetcher/tmp/qctma-1.0.9.tar.gz]
+[2024-05-22 11:13:23] INFO root fetch - main [MainThread]: End processing [qctma]: success
+[2024-05-22 11:13:23] INFO root fetch - processPackages [qs-mps]: Remove: archive file [/home/abi/fetcher/tmp/qs-mps-2024.0.0.tar.gz]
+[2024-05-22 11:13:23] INFO root fetch - processPackages [qs-mps]: Remove: archive file [/home/abi/fetcher/tmp/qs-mps-2024.0.1.tar.gz]
+[2024-05-22 11:13:23] INFO root fetch - main [MainThread]: End processing [qs-mps]: success
+[2024-05-22 11:13:23] INFO root fetch - processPackages [sticker-convert]: executing diffoscope
+[2024-05-22 11:13:23] INFO root fetch - processPackages [sticker-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sticker_convert-2.8.7.tar.gz tmp/sticker_convert-2.8.8.tar.gz --markdown 20240522/s/sticker-convert/2.8.7-2.8.8/README.md --exclude *.pyd
+[2024-05-22 11:13:25] INFO root fetch - processPackages [sticker-convert]: Remove: archive file [/home/abi/fetcher/tmp/sticker_convert-2.8.7.tar.gz]
+[2024-05-22 11:13:25] INFO root fetch - processPackages [sticker-convert]: Remove: archive file [/home/abi/fetcher/tmp/sticker_convert-2.8.8.tar.gz]
+[2024-05-22 11:13:25] INFO root fetch - main [MainThread]: End processing [sticker-convert]: success
+[2024-05-22 11:13:40] INFO root fetch - processPackages [lnbits]: Remove: archive file [/home/abi/fetcher/tmp/lnbits-0.12.6.tar.gz]
+[2024-05-22 11:13:40] INFO root fetch - processPackages [lnbits]: Remove: archive file [/home/abi/fetcher/tmp/lnbits-0.12.7.tar.gz]
+[2024-05-22 11:13:40] INFO root fetch - main [MainThread]: End processing [lnbits]: success
+[2024-05-22 11:13:40] INFO root fetch - main [MainThread]: Store serial: [23321490]

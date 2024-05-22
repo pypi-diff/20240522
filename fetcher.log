@@ -2743,3 +2743,51 @@
 [2024-05-22 02:17:25] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
 [2024-05-22 02:17:25] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
 [2024-05-22 02:17:25] INFO root fetch - main [MainThread]: Store serial: [23315508]
+[2024-05-22 02:19:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315508]
+[2024-05-22 02:19:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 02:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-gitlab-runner
+[2024-05-22 02:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-budibase
+[2024-05-22 02:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maria
+[2024-05-22 02:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: groq
+[2024-05-22 02:19:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloud-radar
+[2024-05-22 02:19:34] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-22 02:19:34] INFO root fetch - processPackages [cdk-budibase]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-22 02:19:34] INFO root fetch - processPackages [maria]: New version: [1.0.0] Old Version: [0.9.7]
+[2024-05-22 02:19:34] INFO root fetch - processPackages [groq]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-22 02:19:34] INFO root fetch - processPackages [cloud-radar]: New version: [0.9.2a9] Old Version: [0.9.2a8]
+[2024-05-22 02:19:34] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-22 02:19:34] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/4f/0a/01c6428b0ea2e78dd2dd9e10aba3ba8252b6cd0992b5a90ea9ba90983551/cdk-budibase-0.0.98.tar.gz
+[2024-05-22 02:19:35] INFO root fetch - processPackages [maria]: Downloading https://files.pythonhosted.org/packages/56/77/3333c43670a9e7d544ce76c6d00844f7eb43a005dd1f1dfc373218654c48/maria-0.9.7.tar.gz
+[2024-05-22 02:19:35] INFO root fetch - processPackages [groq]: Downloading https://files.pythonhosted.org/packages/f6/f2/8748b50cda7a2de6d9fd0bdd85dd338bde364af2eea723fdf3211c84fe89/groq-0.6.0.tar.gz
+[2024-05-22 02:19:35] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-22 02:19:35] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/d4/50/5ffa56aed5241d420fd917c5adec58faa0498e2ec1a356da73a3a361e92e/cloud_radar-0.9.2a8.tar.gz
+[2024-05-22 02:19:35] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-22 02:19:35] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240522/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-22 02:19:35] INFO root fetch - processPackages [cdk-budibase]: Downloading https://files.pythonhosted.org/packages/3d/b1/10d1c8f0601959fd0771f3dc7b94b15e702b81729d74397e80ca3dd66c88/cdk-budibase-0.0.99.tar.gz
+[2024-05-22 02:19:35] INFO root fetch - processPackages [groq]: Downloading https://files.pythonhosted.org/packages/cc/87/73cebab01ebfc96731ef258c5edc5401cc08f53a401e43c2e6711e62dba8/groq-0.7.0.tar.gz
+[2024-05-22 02:19:35] INFO root fetch - processPackages [cdk-budibase]: executing diffoscope
+[2024-05-22 02:19:35] INFO root fetch - processPackages [cdk-budibase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-budibase-0.0.98.tar.gz tmp/cdk-budibase-0.0.99.tar.gz --markdown 20240522/c/cdk-budibase/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-22 02:19:35] INFO root fetch - processPackages [maria]: Downloading https://files.pythonhosted.org/packages/ab/5a/e1b96cbe3f930a3fc9461a762fcca4a4110d5b762948acae2b97009ecbd1/maria-1.0.0.tar.gz
+[2024-05-22 02:19:35] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/1b/c7/d74961c32ba47f9ac9e0f7f3733509da22134c16067776e37ab9c3b7f607/cloud_radar-0.9.2a9.tar.gz
+[2024-05-22 02:19:35] INFO root fetch - processPackages [maria]: executing diffoscope
+[2024-05-22 02:19:35] INFO root fetch - processPackages [maria]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maria-0.9.7.tar.gz tmp/maria-1.0.0.tar.gz --markdown 20240522/m/maria/0.9.7-1.0.0/README.md --exclude *.pyd
+[2024-05-22 02:19:35] INFO root fetch - processPackages [groq]: executing diffoscope
+[2024-05-22 02:19:35] INFO root fetch - processPackages [groq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/groq-0.6.0.tar.gz tmp/groq-0.7.0.tar.gz --markdown 20240522/g/groq/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-22 02:19:35] INFO root fetch - processPackages [cloud-radar]: executing diffoscope
+[2024-05-22 02:19:35] INFO root fetch - processPackages [cloud-radar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_radar-0.9.2a8.tar.gz tmp/cloud_radar-0.9.2a9.tar.gz --markdown 20240522/c/cloud-radar/0.9.2a8-0.9.2a9/README.md --exclude *.pyd
+[2024-05-22 02:19:35] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-22 02:19:35] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-22 02:19:35] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-22 02:19:36] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.98.tar.gz]
+[2024-05-22 02:19:36] INFO root fetch - processPackages [cdk-budibase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-budibase-0.0.99.tar.gz]
+[2024-05-22 02:19:36] INFO root fetch - main [MainThread]: End processing [cdk-budibase]: success
+[2024-05-22 02:19:36] INFO root fetch - processPackages [maria]: Remove: archive file [/home/abi/fetcher/tmp/maria-0.9.7.tar.gz]
+[2024-05-22 02:19:36] INFO root fetch - processPackages [maria]: Remove: archive file [/home/abi/fetcher/tmp/maria-1.0.0.tar.gz]
+[2024-05-22 02:19:36] INFO root fetch - main [MainThread]: End processing [maria]: success
+[2024-05-22 02:19:36] INFO root fetch - processPackages [cloud-radar]: Remove: archive file [/home/abi/fetcher/tmp/cloud_radar-0.9.2a8.tar.gz]
+[2024-05-22 02:19:36] INFO root fetch - processPackages [cloud-radar]: Remove: archive file [/home/abi/fetcher/tmp/cloud_radar-0.9.2a9.tar.gz]
+[2024-05-22 02:19:36] INFO root fetch - main [MainThread]: End processing [cloud-radar]: success
+[2024-05-22 02:19:36] INFO root fetch - processPackages [groq]: Remove: archive file [/home/abi/fetcher/tmp/groq-0.6.0.tar.gz]
+[2024-05-22 02:19:36] INFO root fetch - processPackages [groq]: Remove: archive file [/home/abi/fetcher/tmp/groq-0.7.0.tar.gz]
+[2024-05-22 02:19:36] INFO root fetch - main [MainThread]: End processing [groq]: success
+[2024-05-22 02:19:36] INFO root fetch - main [MainThread]: Store serial: [23315524]

@@ -23480,3 +23480,114 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 14:46:24] INFO root fetch - processPackages [nostr-protocol]: Remove: archive file [/home/abi/fetcher/tmp/nostr_protocol-0.9.0-cp39-cp39-win_amd64.whl.zip]
 [2024-05-22 14:46:24] INFO root fetch - main [MainThread]: End processing [nostr-protocol]: success
 [2024-05-22 14:46:24] INFO root fetch - main [MainThread]: Store serial: [23324223]
+[2024-05-22 14:48:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23324223]
+[2024-05-22 14:48:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-22 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: packManager
+[2024-05-22 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TreeSAK
+[2024-05-22 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oxaigen
+[2024-05-22 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tdewolff-minify
+[2024-05-22 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsp-tools
+[2024-05-22 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dynrender_skia
+[2024-05-22 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langchain-xiao
+[2024-05-22 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: finbourne-access-sdk
+[2024-05-22 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: JBioSeqTools
+[2024-05-22 14:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dvcx
+[2024-05-22 14:48:42] INFO root fetch - processPackages [oxaigen]: New version: [0.0.0.4] Old Version: [0.0.0.3]
+[2024-05-22 14:48:42] INFO root fetch - processPackages [tdewolff-minify]: New version: [2.20.9] Old Version: [2.20.8]
+[2024-05-22 14:48:42] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-22 14:48:42] INFO root fetch - processPackages [dsp-tools]: New version: [8.0.0] Old Version: [7.2.0.post7]
+[2024-05-22 14:48:42] INFO root fetch - processPackages [oxaigen]: Downloading https://files.pythonhosted.org/packages/fd/9d/7a3efbef6093f9c218e5ffd3eba8cd4bdc9ef1abfdd11a6a78a99b02ff2a/oxaigen-0.0.0.3.tar.gz
+[2024-05-22 14:48:42] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-22 14:48:42] INFO root fetch - processPackages [packManager]: New version: [1.0.0] Old Version: [0.0.0]
+[2024-05-22 14:48:42] INFO root fetch - processPackages [langchain-xiao]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-22 14:48:42] INFO root fetch - processPackages [dynrender_skia]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-22 14:48:42] INFO root fetch - processPackages [JBioSeqTools]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-22 14:48:42] INFO root fetch - processPackages [tdewolff-minify]: Downloading https://files.pythonhosted.org/packages/e4/1b/0a65b34a8c7a9726ea7deedcb0ad0fd582d8696ba036fef7b57f6cd8713b/tdewolff-minify-2.20.8.tar.gz
+[2024-05-22 14:48:42] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2024-05-22 14:48:42] INFO root fetch - processPackages [dvcx]: New version: [0.83.2] Old Version: [0.83.1]
+[2024-05-22 14:48:42] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-22 14:48:42] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/8e/5c/7e67f0892e0f2b22ad67dd458bf481e7ca189482ff1d8bda8c445aef1afb/dsp_tools-7.2.0.post7.tar.gz
+[2024-05-22 14:48:42] INFO root fetch - processPackages [langchain-xiao]: Downloading https://files.pythonhosted.org/packages/b3/f3/df6b380877a3f14c3a160360cd337376420e6dd642c7e777cbb98ac9e1a8/langchain_xiao-0.0.4.tar.gz
+[2024-05-22 14:48:42] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/1d/36/4aed9d6940d682b6a4e75295a18767903d99c13a11dc9aae97b2feb275ce/packmanager-0.0.0.tar.gz
+[2024-05-22 14:48:42] INFO root fetch - processPackages [dynrender_skia]: Downloading https://files.pythonhosted.org/packages/38/0f/cc0052379b2b08177c7ebd0a86c745314c7506b9f3f0b6ad4a064b0df8aa/dynrender_skia-0.2.5.tar.gz
+[2024-05-22 14:48:42] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/55/7e/f08de83de44ed79c710c9f7805e400c5c2c9c8be39b92ecdce21e7d67fb3/JBioSeqTools-2.0.3.tar.gz
+[2024-05-22 14:48:42] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/18/6d/06b6e0bf4ca36a0a08111e30309ea4afc0d75ae47ac9e94318247f9ce7eb/dvcx-0.83.1.tar.gz
+[2024-05-22 14:48:42] INFO root fetch - processPackages [oxaigen]: Downloading https://files.pythonhosted.org/packages/7f/21/9afcdb3a55bdb747897b407e2a5bb71a88fb0df1fb1cba018e3ee4d98f16/oxaigen-0.0.0.4.tar.gz
+[2024-05-22 14:48:42] INFO root fetch - processPackages [tdewolff-minify]: Downloading https://files.pythonhosted.org/packages/79/11/e1027616b69b204ce1002f4d469e36223f120c33c60bba0ce6f53def6623/tdewolff-minify-2.20.9.tar.gz
+[2024-05-22 14:48:42] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-22 14:48:42] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2024-05-22 14:48:43] INFO root fetch - processPackages [oxaigen]: executing diffoscope
+[2024-05-22 14:48:43] INFO root fetch - processPackages [oxaigen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxaigen-0.0.0.3.tar.gz tmp/oxaigen-0.0.0.4.tar.gz --markdown 20240522/o/oxaigen/0.0.0.3-0.0.0.4/README.md --exclude *.pyd
+[2024-05-22 14:48:43] INFO root fetch - processPackages [tdewolff-minify]: executing diffoscope
+[2024-05-22 14:48:43] INFO root fetch - processPackages [tdewolff-minify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdewolff-minify-2.20.8.tar.gz tmp/tdewolff-minify-2.20.9.tar.gz --markdown 20240522/t/tdewolff-minify/2.20.8-2.20.9/README.md --exclude *.pyd
+[2024-05-22 14:48:43] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-22 14:48:43] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240522/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-22 14:48:43] INFO root fetch - processPackages [dsp-tools]: Downloading https://files.pythonhosted.org/packages/be/da/07089536fcc48346b9d6cfec4b6393ca96ebfc6126c19833e9e392a4e599/dsp_tools-8.0.0.tar.gz
+[2024-05-22 14:48:43] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2024-05-22 14:48:43] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20240522/T/TreeSAK/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-22 14:48:43] INFO root fetch - processPackages [langchain-xiao]: Downloading https://files.pythonhosted.org/packages/51/1b/70198c52683cfc8449627f2b886678996a21a2de4422548a6624ca997098/langchain_xiao-0.0.5.tar.gz
+[2024-05-22 14:48:43] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/e3/f9/837410735e509a02c8999ed123190cbbaf12c00e1fc082071e37315be284/packManager-1.0.0-py3-none-any.whl
+[2024-05-22 14:48:43] INFO root fetch - processPackages [dynrender_skia]: Downloading https://files.pythonhosted.org/packages/a7/27/a1db3c715e5da57a50320c8bb8abf6236327af5c3d529ddb4647acaaf20c/dynrender_skia-0.2.6.tar.gz
+[2024-05-22 14:48:43] INFO root fetch - processPackages [dsp-tools]: executing diffoscope
+[2024-05-22 14:48:43] INFO root fetch - processPackages [dsp-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsp_tools-7.2.0.post7.tar.gz tmp/dsp_tools-8.0.0.tar.gz --markdown 20240522/d/dsp-tools/7.2.0.post7-8.0.0/README.md --exclude *.pyd
+[2024-05-22 14:48:43] INFO root fetch - processPackages [JBioSeqTools]: Downloading https://files.pythonhosted.org/packages/4d/8b/e96ba238b90f1a95fb18b6d8a3014fb6701fcc932f57f28bc2b38a6a7ba6/JBioSeqTools-2.0.4.tar.gz
+[2024-05-22 14:48:43] INFO root fetch - processPackages [langchain-xiao]: executing diffoscope
+[2024-05-22 14:48:43] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/e4/cc/39751eeb3db22f41c99e03dd06bb8d195fb29bfed063012564a7e20bc31d/dvcx-0.83.2.tar.gz
+[2024-05-22 14:48:43] INFO root fetch - processPackages [langchain-xiao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_xiao-0.0.4.tar.gz tmp/langchain_xiao-0.0.5.tar.gz --markdown 20240522/l/langchain-xiao/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-22 14:48:43] INFO root fetch - processPackages [packManager]: executing diffoscope
+[2024-05-22 14:48:43] INFO root fetch - processPackages [packManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packmanager-0.0.0.tar.gz tmp/packManager-1.0.0-py3-none-any.whl.zip --markdown 20240522/p/packManager/0.0.0-1.0.0/README.md --exclude *.pyd
+[2024-05-22 14:48:43] INFO root fetch - processPackages [JBioSeqTools]: executing diffoscope
+[2024-05-22 14:48:43] INFO root fetch - processPackages [JBioSeqTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JBioSeqTools-2.0.3.tar.gz tmp/JBioSeqTools-2.0.4.tar.gz --markdown 20240522/J/JBioSeqTools/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-22 14:48:43] INFO root fetch - processPackages [dynrender_skia]: executing diffoscope
+[2024-05-22 14:48:43] INFO root fetch - processPackages [dynrender_skia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynrender_skia-0.2.5.tar.gz tmp/dynrender_skia-0.2.6.tar.gz --markdown 20240522/d/dynrender_skia/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-22 14:48:43] INFO root fetch - processPackages [dvcx]: executing diffoscope
+[2024-05-22 14:48:43] INFO root fetch - processPackages [dvcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvcx-0.83.1.tar.gz tmp/dvcx-0.83.2.tar.gz --markdown 20240522/d/dvcx/0.83.1-0.83.2/README.md --exclude *.pyd
+[2024-05-22 14:48:44] INFO root fetch - processPackages [oxaigen]: Remove: archive file [/home/abi/fetcher/tmp/oxaigen-0.0.0.3.tar.gz]
+[2024-05-22 14:48:44] INFO root fetch - processPackages [oxaigen]: Remove: archive file [/home/abi/fetcher/tmp/oxaigen-0.0.0.4.tar.gz]
+[2024-05-22 14:48:44] INFO root fetch - processPackages [tdewolff-minify]: Remove: archive file [/home/abi/fetcher/tmp/tdewolff-minify-2.20.8.tar.gz]
+[2024-05-22 14:48:44] INFO root fetch - processPackages [oxaigen]: Start processing: smartpredict
+[2024-05-22 14:48:44] INFO root fetch - main [MainThread]: End processing [oxaigen]: success
+[2024-05-22 14:48:44] INFO root fetch - processPackages [tdewolff-minify]: Remove: archive file [/home/abi/fetcher/tmp/tdewolff-minify-2.20.9.tar.gz]
+[2024-05-22 14:48:44] INFO root fetch - processPackages [tdewolff-minify]: Start processing: onyxpm
+[2024-05-22 14:48:44] INFO root fetch - main [MainThread]: End processing [tdewolff-minify]: success
+[2024-05-22 14:48:44] INFO root fetch - processPackages [smartpredict]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-22 14:48:44] INFO root fetch - processPackages [onyxpm]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 14:48:44] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/d1/50/cd86d982f0b068d26ea3b37008a74aaf61190918f0cc8a78945cc5bec44f/smartpredict-0.6.8.tar.gz
+[2024-05-22 14:48:44] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-0.0.0.tar.gz]
+[2024-05-22 14:48:44] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packManager-1.0.0-py3-none-any.whl.zip]
+[2024-05-22 14:48:44] INFO root fetch - main [MainThread]: End processing [packManager]: success
+[2024-05-22 14:48:44] INFO root fetch - processPackages [onyxpm]: Downloading https://files.pythonhosted.org/packages/f1/0c/81d0e6ed92f60de210422eb5e5e5b2171aa940f4aefd5035a1b1fa6499d7/onyxpm-0.0.8.tar.gz
+[2024-05-22 14:48:44] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2024-05-22 14:48:44] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2024-05-22 14:48:44] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2024-05-22 14:48:44] INFO root fetch - processPackages [langchain-xiao]: Remove: archive file [/home/abi/fetcher/tmp/langchain_xiao-0.0.4.tar.gz]
+[2024-05-22 14:48:44] INFO root fetch - processPackages [langchain-xiao]: Remove: archive file [/home/abi/fetcher/tmp/langchain_xiao-0.0.5.tar.gz]
+[2024-05-22 14:48:44] INFO root fetch - main [MainThread]: End processing [langchain-xiao]: success
+[2024-05-22 14:48:44] INFO root fetch - processPackages [onyxpm]: Downloading https://files.pythonhosted.org/packages/d9/25/f0ad33727a1da3f0a10cd50eeaa9ce63400e65a82b0808297792425482f3/onyxpm-0.0.9.tar.gz
+[2024-05-22 14:48:44] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/22/03/ead990dba4ac20277d0bb0b558813d0f9d8fa86bb63a3efb264d8cb1e739/smartpredict-0.6.9.tar.gz
+[2024-05-22 14:48:44] INFO root fetch - processPackages [dynrender_skia]: Remove: archive file [/home/abi/fetcher/tmp/dynrender_skia-0.2.5.tar.gz]
+[2024-05-22 14:48:44] INFO root fetch - processPackages [dynrender_skia]: Remove: archive file [/home/abi/fetcher/tmp/dynrender_skia-0.2.6.tar.gz]
+[2024-05-22 14:48:44] INFO root fetch - processPackages [smartpredict]: executing diffoscope
+[2024-05-22 14:48:44] INFO root fetch - processPackages [smartpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpredict-0.6.8.tar.gz tmp/smartpredict-0.6.9.tar.gz --markdown 20240522/s/smartpredict/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-22 14:48:44] INFO root fetch - main [MainThread]: End processing [dynrender_skia]: success
+[2024-05-22 14:48:44] INFO root fetch - processPackages [onyxpm]: executing diffoscope
+[2024-05-22 14:48:44] INFO root fetch - processPackages [onyxpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onyxpm-0.0.8.tar.gz tmp/onyxpm-0.0.9.tar.gz --markdown 20240522/o/onyxpm/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 14:48:44] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-22 14:48:44] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-22 14:48:44] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-22 14:48:44] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-2.0.3.tar.gz]
+[2024-05-22 14:48:44] INFO root fetch - processPackages [JBioSeqTools]: Remove: archive file [/home/abi/fetcher/tmp/JBioSeqTools-2.0.4.tar.gz]
+[2024-05-22 14:48:44] INFO root fetch - main [MainThread]: End processing [JBioSeqTools]: success
+[2024-05-22 14:48:45] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-7.2.0.post7.tar.gz]
+[2024-05-22 14:48:45] INFO root fetch - processPackages [dsp-tools]: Remove: archive file [/home/abi/fetcher/tmp/dsp_tools-8.0.0.tar.gz]
+[2024-05-22 14:48:45] INFO root fetch - main [MainThread]: End processing [dsp-tools]: success
+[2024-05-22 14:48:45] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.83.1.tar.gz]
+[2024-05-22 14:48:45] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.83.2.tar.gz]
+[2024-05-22 14:48:45] INFO root fetch - main [MainThread]: End processing [dvcx]: success
+[2024-05-22 14:48:45] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.6.8.tar.gz]
+[2024-05-22 14:48:45] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.6.9.tar.gz]
+[2024-05-22 14:48:45] INFO root fetch - main [MainThread]: End processing [smartpredict]: success
+[2024-05-22 14:48:45] INFO root fetch - processPackages [onyxpm]: Remove: archive file [/home/abi/fetcher/tmp/onyxpm-0.0.8.tar.gz]
+[2024-05-22 14:48:45] INFO root fetch - processPackages [onyxpm]: Remove: archive file [/home/abi/fetcher/tmp/onyxpm-0.0.9.tar.gz]
+[2024-05-22 14:48:45] INFO root fetch - main [MainThread]: End processing [onyxpm]: success
+[2024-05-22 14:48:45] INFO root fetch - main [MainThread]: Store serial: [23324310]

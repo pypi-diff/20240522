@@ -12346,3 +12346,60 @@
 [2024-05-22 07:43:05] INFO root fetch - processPackages [cvat-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk-2.9.2.tar.gz]
 [2024-05-22 07:43:05] INFO root fetch - main [MainThread]: End processing [cvat-sdk]: success
 [2024-05-22 07:43:05] INFO root fetch - main [MainThread]: Store serial: [23319225]
+[2024-05-22 07:45:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319225]
+[2024-05-22 07:45:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 07:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarmtube
+[2024-05-22 07:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unittestreport-yami
+[2024-05-22 07:45:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syncmodels
+[2024-05-22 07:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sp-lib
+[2024-05-22 07:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quickstart-vdk
+[2024-05-22 07:45:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: promplate-inspect
+[2024-05-22 07:45:16] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 07:45:16] INFO root fetch - processPackages [unittestreport-yami]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-05-22 07:45:16] INFO root fetch - processPackages [swarmtube]: New version: [0.1.46] Old Version: [0.1.45]
+[2024-05-22 07:45:16] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-22 07:45:16] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-05-22 07:45:16] INFO root fetch - processPackages [promplate-inspect]: New version: [0.0.2.1] Old Version: [0.0.2]
+[2024-05-22 07:45:16] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/40/1c/2cc96f9d1cdf5dec305a64fce2235b2619b1bd0a366db5c29e54d6b901cd/unittestreport_yami-0.0.2.tar.gz
+[2024-05-22 07:45:16] INFO root fetch - processPackages [sp-lib]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-22 07:45:16] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/c3/84/ebbd0ec32fe67e04e6a441cb1e4c02e9508410de3a50a23dff3cb9da197b/swarmtube-0.1.45-py2.py3-none-any.whl
+[2024-05-22 07:45:16] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-22 07:45:16] INFO root fetch - processPackages [promplate-inspect]: Downloading https://files.pythonhosted.org/packages/a3/7e/c1aed5deb7ef2443f8e8df2f4f0d26aee7f1e644057d71737b31313c3014/promplate_inspect-0.0.2.tar.gz
+[2024-05-22 07:45:16] INFO root fetch - processPackages [sp-lib]: Downloading https://files.pythonhosted.org/packages/27/80/8ae11e338ac8fe0dbfad685172ddfaf6247511c28c3c2a723abee4c5250b/sp_lib-1.0.0.tar.gz
+[2024-05-22 07:45:16] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/19/f4/3e7f31a43e1bc377362a70f25c3e6f2b133b3f5f962b63c9e526cecae188/unittestreport_yami-0.1.0.tar.gz
+[2024-05-22 07:45:16] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-05-22 07:45:16] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-22 07:45:16] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/16/82/1092dfff5beb852b18f7fcfdf57981b48e0e0a3d8d649145925c76c97005/swarmtube-0.1.46-py2.py3-none-any.whl
+[2024-05-22 07:45:16] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-22 07:45:16] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240522/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-22 07:45:16] INFO root fetch - processPackages [unittestreport-yami]: executing diffoscope
+[2024-05-22 07:45:16] INFO root fetch - processPackages [unittestreport-yami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unittestreport_yami-0.0.2.tar.gz tmp/unittestreport_yami-0.1.0.tar.gz --markdown 20240522/u/unittestreport-yami/0.0.2-0.1.0/README.md --exclude *.pyd
+[2024-05-22 07:45:16] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-05-22 07:45:16] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240522/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 07:45:16] INFO root fetch - processPackages [swarmtube]: executing diffoscope
+[2024-05-22 07:45:16] INFO root fetch - processPackages [swarmtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmtube-0.1.45-py2.py3-none-any.whl.zip tmp/swarmtube-0.1.46-py2.py3-none-any.whl.zip --markdown 20240522/s/swarmtube/0.1.45-0.1.46/README.md --exclude *.pyd
+[2024-05-22 07:45:16] INFO root fetch - processPackages [promplate-inspect]: Downloading https://files.pythonhosted.org/packages/8f/81/937ee45d35d0356d1b34db164b6e48012bad10d921cdb5ccb198032a6d4e/promplate_inspect-0.0.2.1.tar.gz
+[2024-05-22 07:45:16] INFO root fetch - processPackages [sp-lib]: Downloading https://files.pythonhosted.org/packages/b3/ed/3f76a103b7679d1c734c6901fbe6879d6be033619c588a345eeb9ae6523c/sp_lib-1.1.0-py3-none-any.whl
+[2024-05-22 07:45:17] INFO root fetch - processPackages [promplate-inspect]: executing diffoscope
+[2024-05-22 07:45:17] INFO root fetch - processPackages [promplate-inspect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promplate_inspect-0.0.2.tar.gz tmp/promplate_inspect-0.0.2.1.tar.gz --markdown 20240522/p/promplate-inspect/0.0.2-0.0.2.1/README.md --exclude *.pyd
+[2024-05-22 07:45:17] INFO root fetch - processPackages [sp-lib]: executing diffoscope
+[2024-05-22 07:45:17] INFO root fetch - processPackages [sp-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sp_lib-1.0.0.tar.gz tmp/sp_lib-1.1.0-py3-none-any.whl.zip --markdown 20240522/s/sp-lib/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-22 07:45:17] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-22 07:45:17] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-22 07:45:17] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-22 07:45:17] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.0.2.tar.gz]
+[2024-05-22 07:45:17] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.0.tar.gz]
+[2024-05-22 07:45:17] INFO root fetch - main [MainThread]: End processing [unittestreport-yami]: success
+[2024-05-22 07:45:17] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-22 07:45:17] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-22 07:45:17] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-05-22 07:45:17] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.45-py2.py3-none-any.whl.zip]
+[2024-05-22 07:45:17] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.46-py2.py3-none-any.whl.zip]
+[2024-05-22 07:45:17] INFO root fetch - main [MainThread]: End processing [swarmtube]: success
+[2024-05-22 07:45:17] INFO root fetch - processPackages [promplate-inspect]: Remove: archive file [/home/abi/fetcher/tmp/promplate_inspect-0.0.2.tar.gz]
+[2024-05-22 07:45:17] INFO root fetch - processPackages [promplate-inspect]: Remove: archive file [/home/abi/fetcher/tmp/promplate_inspect-0.0.2.1.tar.gz]
+[2024-05-22 07:45:17] INFO root fetch - main [MainThread]: End processing [promplate-inspect]: success
+[2024-05-22 07:45:17] INFO root fetch - processPackages [sp-lib]: Remove: archive file [/home/abi/fetcher/tmp/sp_lib-1.0.0.tar.gz]
+[2024-05-22 07:45:17] INFO root fetch - processPackages [sp-lib]: Remove: archive file [/home/abi/fetcher/tmp/sp_lib-1.1.0-py3-none-any.whl.zip]
+[2024-05-22 07:45:17] INFO root fetch - main [MainThread]: End processing [sp-lib]: success
+[2024-05-22 07:45:17] INFO root fetch - main [MainThread]: Store serial: [23319272]

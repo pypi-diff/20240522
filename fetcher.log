@@ -11762,3 +11762,15 @@
 [2024-05-22 07:09:30] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.73.tar.gz]
 [2024-05-22 07:09:30] INFO root fetch - main [MainThread]: End processing [pinjected]: success
 [2024-05-22 07:09:30] INFO root fetch - main [MainThread]: Store serial: [23318997]
+[2024-05-22 07:11:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318997]
+[2024-05-22 07:11:38] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-22 07:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bandicoincurrency
+[2024-05-22 07:11:38] INFO root fetch - processPackages [bandicoincurrency]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-22 07:11:38] INFO root fetch - processPackages [bandicoincurrency]: Downloading https://files.pythonhosted.org/packages/06/e1/c779ea546cd66d71782442561b006987e7e59c5a638d3aca255c03786259/bandicoincurrency-0.0.5.tar.gz
+[2024-05-22 07:11:39] INFO root fetch - processPackages [bandicoincurrency]: Downloading https://files.pythonhosted.org/packages/63/8a/becc2c1c5d4d1c41a4038349cb39df18e84c0d85c232d584ef6e64345eb6/bandicoincurrency-0.0.6.tar.gz
+[2024-05-22 07:11:39] INFO root fetch - processPackages [bandicoincurrency]: executing diffoscope
+[2024-05-22 07:11:39] INFO root fetch - processPackages [bandicoincurrency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bandicoincurrency-0.0.5.tar.gz tmp/bandicoincurrency-0.0.6.tar.gz --markdown 20240522/b/bandicoincurrency/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-22 07:11:39] INFO root fetch - processPackages [bandicoincurrency]: Remove: archive file [/home/abi/fetcher/tmp/bandicoincurrency-0.0.5.tar.gz]
+[2024-05-22 07:11:39] INFO root fetch - processPackages [bandicoincurrency]: Remove: archive file [/home/abi/fetcher/tmp/bandicoincurrency-0.0.6.tar.gz]
+[2024-05-22 07:11:39] INFO root fetch - main [MainThread]: End processing [bandicoincurrency]: success
+[2024-05-22 07:11:39] INFO root fetch - main [MainThread]: Store serial: [23319000]

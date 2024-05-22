@@ -7514,3 +7514,15 @@
 [2024-05-22 03:26:13] INFO root fetch - processPackages [llama-index-core]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_core-0.9.56.tar.gz]
 [2024-05-22 03:26:13] INFO root fetch - main [MainThread]: End processing [llama-index-core]: success
 [2024-05-22 03:26:13] INFO root fetch - main [MainThread]: Store serial: [23316858]
+[2024-05-22 03:28:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23316858]
+[2024-05-22 03:28:22] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-22 03:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nrtk-explorer
+[2024-05-22 03:28:22] INFO root fetch - processPackages [nrtk-explorer]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-22 03:28:22] INFO root fetch - processPackages [nrtk-explorer]: Downloading https://files.pythonhosted.org/packages/02/c4/eee63868b41cf2693d9cccd61a955d2769bf776301b10abb7c5dd6091f53/nrtk_explorer-0.2.1.tar.gz
+[2024-05-22 03:28:23] INFO root fetch - processPackages [nrtk-explorer]: Downloading https://files.pythonhosted.org/packages/47/8c/3deeecae65fa44036bd70fff7a5ceb0e8c252f38772f6fb718de6f36bdc2/nrtk_explorer-0.2.2.tar.gz
+[2024-05-22 03:28:23] INFO root fetch - processPackages [nrtk-explorer]: executing diffoscope
+[2024-05-22 03:28:23] INFO root fetch - processPackages [nrtk-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nrtk_explorer-0.2.1.tar.gz tmp/nrtk_explorer-0.2.2.tar.gz --markdown 20240522/n/nrtk-explorer/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-22 03:28:25] INFO root fetch - processPackages [nrtk-explorer]: Remove: archive file [/home/abi/fetcher/tmp/nrtk_explorer-0.2.1.tar.gz]
+[2024-05-22 03:28:25] INFO root fetch - processPackages [nrtk-explorer]: Remove: archive file [/home/abi/fetcher/tmp/nrtk_explorer-0.2.2.tar.gz]
+[2024-05-22 03:28:25] INFO root fetch - main [MainThread]: End processing [nrtk-explorer]: success
+[2024-05-22 03:28:25] INFO root fetch - main [MainThread]: Store serial: [23316925]

@@ -11545,3 +11545,24 @@
 [2024-05-22 06:58:37] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.9.6.tar.gz]
 [2024-05-22 06:58:37] INFO root fetch - main [MainThread]: End processing [audio-separator]: success
 [2024-05-22 06:58:37] INFO root fetch - main [MainThread]: Store serial: [23318904]
+[2024-05-22 07:00:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318904]
+[2024-05-22 07:00:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 07:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fms-robot-plugin
+[2024-05-22 07:00:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: great-expectations-cloud
+[2024-05-22 07:00:46] INFO root fetch - processPackages [fms-robot-plugin]: New version: [0.3.0rc2] Old Version: [0.3.0rc1]
+[2024-05-22 07:00:46] INFO root fetch - processPackages [great-expectations-cloud]: New version: [20240521.0] Old Version: [20240517.0.dev1]
+[2024-05-22 07:00:46] INFO root fetch - processPackages [fms-robot-plugin]: Downloading https://files.pythonhosted.org/packages/9c/12/596802047e8b27c62c6e6f5d65b0d1a331eefe39e0d248622fd29e07be97/fms_robot_plugin-0.3.0rc1.tar.gz
+[2024-05-22 07:00:46] INFO root fetch - processPackages [great-expectations-cloud]: Downloading https://files.pythonhosted.org/packages/dc/69/20356f19a777410a562f5c46d7b4ba64bf9a9c7bf5195beba0e850599680/great_expectations_cloud-20240517.0.dev1.tar.gz
+[2024-05-22 07:00:47] INFO root fetch - processPackages [great-expectations-cloud]: Downloading https://files.pythonhosted.org/packages/9a/e7/a255a023eef375986f206b3261b0a961b102108acbac39f4f3d0ecd81e35/great_expectations_cloud-20240521.0.tar.gz
+[2024-05-22 07:00:47] INFO root fetch - processPackages [fms-robot-plugin]: Downloading https://files.pythonhosted.org/packages/15/02/b05dc3240cd3d3ac464d06e6f25deaa49861c9e2f05d8ecfed90e07c6bfa/fms_robot_plugin-0.3.0rc2.tar.gz
+[2024-05-22 07:00:47] INFO root fetch - processPackages [fms-robot-plugin]: executing diffoscope
+[2024-05-22 07:00:47] INFO root fetch - processPackages [fms-robot-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fms_robot_plugin-0.3.0rc1.tar.gz tmp/fms_robot_plugin-0.3.0rc2.tar.gz --markdown 20240522/f/fms-robot-plugin/0.3.0rc1-0.3.0rc2/README.md --exclude *.pyd
+[2024-05-22 07:00:47] INFO root fetch - processPackages [great-expectations-cloud]: executing diffoscope
+[2024-05-22 07:00:47] INFO root fetch - processPackages [great-expectations-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_cloud-20240517.0.dev1.tar.gz tmp/great_expectations_cloud-20240521.0.tar.gz --markdown 20240522/g/great-expectations-cloud/20240517.0.dev1-20240521.0/README.md --exclude *.pyd
+[2024-05-22 07:00:47] INFO root fetch - processPackages [fms-robot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/fms_robot_plugin-0.3.0rc1.tar.gz]
+[2024-05-22 07:00:47] INFO root fetch - processPackages [fms-robot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/fms_robot_plugin-0.3.0rc2.tar.gz]
+[2024-05-22 07:00:47] INFO root fetch - main [MainThread]: End processing [fms-robot-plugin]: success
+[2024-05-22 07:00:48] INFO root fetch - processPackages [great-expectations-cloud]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_cloud-20240517.0.dev1.tar.gz]
+[2024-05-22 07:00:48] INFO root fetch - processPackages [great-expectations-cloud]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_cloud-20240521.0.tar.gz]
+[2024-05-22 07:00:48] INFO root fetch - main [MainThread]: End processing [great-expectations-cloud]: success
+[2024-05-22 07:00:48] INFO root fetch - main [MainThread]: Store serial: [23318911]

@@ -19792,3 +19792,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:28:52] INFO root fetch - processPackages [evidently]: Remove: archive file [/home/abi/fetcher/tmp/evidently-0.4.9.tar.gz]
 [2024-05-22 12:28:52] INFO root fetch - main [MainThread]: End processing [evidently]: success
 [2024-05-22 12:28:52] INFO root fetch - main [MainThread]: Store serial: [23322439]
+[2024-05-22 12:30:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322439]
+[2024-05-22 12:31:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 12:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openai-streaming
+[2024-05-22 12:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tcrutils
+[2024-05-22 12:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spreakpy
+[2024-05-22 12:31:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytbai
+[2024-05-22 12:31:02] INFO root fetch - processPackages [pytbai]: New version: [1.4.9] Old Version: [1.4.8]
+[2024-05-22 12:31:02] INFO root fetch - processPackages [tcrutils]: New version: [12.0.170] Old Version: [12.0.169]
+[2024-05-22 12:31:02] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/6f/03/4764e5463720036ff03f0659063a2136d63192397ba2d12780701a5fce1a/pytbai-1.4.8.tar.gz
+[2024-05-22 12:31:02] INFO root fetch - processPackages [openai-streaming]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-05-22 12:31:02] WARNING root fetch - processPackages [spreakpy]: Skipping, unable to determine old version
+[2024-05-22 12:31:02] INFO root fetch - main [MainThread]: End processing [spreakpy] error
+[2024-05-22 12:31:02] INFO root fetch - processPackages [tcrutils]: Downloading https://files.pythonhosted.org/packages/49/d7/afcb5ff27d3532defbeb665ee19dbec1aa1a7882da7b96e205ac7fbc0204/tcrutils-12.0.169.tar.gz
+[2024-05-22 12:31:03] INFO root fetch - processPackages [openai-streaming]: Downloading https://files.pythonhosted.org/packages/52/b9/65a2640ef187cc00f7bd5ade4db9bcc53174956e27e38576a77a088aa776/openai_streaming-0.5.0.tar.gz
+[2024-05-22 12:31:03] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/84/0a/d3957bf86b306689c159664611d8b683afd02d9367e6aaa6d2be0555d83c/pytbai-1.4.9.tar.gz
+[2024-05-22 12:31:03] INFO root fetch - processPackages [tcrutils]: Downloading https://files.pythonhosted.org/packages/6c/d5/bcfb864fa137b3685a6d2a5fd8cbf0998e367119f42de88f404b2acc86a6/tcrutils-12.0.170.tar.gz
+[2024-05-22 12:31:03] INFO root fetch - processPackages [pytbai]: executing diffoscope
+[2024-05-22 12:31:03] INFO root fetch - processPackages [pytbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytbai-1.4.8.tar.gz tmp/pytbai-1.4.9.tar.gz --markdown 20240522/p/pytbai/1.4.8-1.4.9/README.md --exclude *.pyd
+[2024-05-22 12:31:03] INFO root fetch - processPackages [tcrutils]: executing diffoscope
+[2024-05-22 12:31:03] INFO root fetch - processPackages [tcrutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcrutils-12.0.169.tar.gz tmp/tcrutils-12.0.170.tar.gz --markdown 20240522/t/tcrutils/12.0.169-12.0.170/README.md --exclude *.pyd
+[2024-05-22 12:31:03] INFO root fetch - processPackages [openai-streaming]: Downloading https://files.pythonhosted.org/packages/b6/eb/58d13a63653ee5ab8a8f312bfa2e582d23e0ac89034ad477f5857f8a2d7f/openai_streaming-0.5.1.tar.gz
+[2024-05-22 12:31:03] INFO root fetch - processPackages [openai-streaming]: executing diffoscope
+[2024-05-22 12:31:03] INFO root fetch - processPackages [openai-streaming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_streaming-0.5.0.tar.gz tmp/openai_streaming-0.5.1.tar.gz --markdown 20240522/o/openai-streaming/0.5.0-0.5.1/README.md --exclude *.pyd
+[2024-05-22 12:31:03] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.4.8.tar.gz]
+[2024-05-22 12:31:03] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.4.9.tar.gz]
+[2024-05-22 12:31:03] INFO root fetch - main [MainThread]: End processing [pytbai]: success
+[2024-05-22 12:31:03] INFO root fetch - processPackages [tcrutils]: Remove: archive file [/home/abi/fetcher/tmp/tcrutils-12.0.169.tar.gz]
+[2024-05-22 12:31:03] INFO root fetch - processPackages [tcrutils]: Remove: archive file [/home/abi/fetcher/tmp/tcrutils-12.0.170.tar.gz]
+[2024-05-22 12:31:03] INFO root fetch - main [MainThread]: End processing [tcrutils]: success
+[2024-05-22 12:31:04] INFO root fetch - processPackages [openai-streaming]: Remove: archive file [/home/abi/fetcher/tmp/openai_streaming-0.5.0.tar.gz]
+[2024-05-22 12:31:04] INFO root fetch - processPackages [openai-streaming]: Remove: archive file [/home/abi/fetcher/tmp/openai_streaming-0.5.1.tar.gz]
+[2024-05-22 12:31:04] INFO root fetch - main [MainThread]: End processing [openai-streaming]: success
+[2024-05-22 12:31:04] INFO root fetch - main [MainThread]: Store serial: [23322454]

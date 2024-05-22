@@ -13140,3 +13140,27 @@
 [2024-05-22 08:23:34] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: Remove: archive file [/home/abi/fetcher/tmp/pgos-cli-python-sdk-v1-0.2.9.111.tar.gz]
 [2024-05-22 08:23:34] INFO root fetch - main [MainThread]: End processing [pgos-cli-python-sdk-v1]: success
 [2024-05-22 08:23:34] INFO root fetch - main [MainThread]: Store serial: [23319624]
+[2024-05-22 08:25:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319624]
+[2024-05-22 08:25:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 08:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logger-local
+[2024-05-22 08:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hugedict
+[2024-05-22 08:25:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socaity-router
+[2024-05-22 08:25:49] WARNING root fetch - processPackages [socaity-router]: Skipping, unable to determine old version
+[2024-05-22 08:25:49] INFO root fetch - main [MainThread]: End processing [socaity-router] error
+[2024-05-22 08:25:49] INFO root fetch - processPackages [logger-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-22 08:25:49] INFO root fetch - processPackages [hugedict]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-05-22 08:25:49] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/95/83/cbbeaca04ecc0f2c8811769437b1979bde80cd488f848e324e92d8440499/logger-local-0.0.98.tar.gz
+[2024-05-22 08:25:49] INFO root fetch - processPackages [hugedict]: Downloading https://files.pythonhosted.org/packages/d9/ec/67623f8628a4bcad24dd3709e5b462a7b8edc3186d0970efc26ec8dcfcaa/hugedict-2.9.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-22 08:25:50] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/32/72/d6d6521aa3b74d3c30af8cdee32bb3e7a6008c5629d957853e9e7a3c01b4/logger-local-0.0.99.tar.gz
+[2024-05-22 08:25:50] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2024-05-22 08:25:50] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.98.tar.gz tmp/logger-local-0.0.99.tar.gz --markdown 20240522/l/logger-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-22 08:25:50] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.98.tar.gz]
+[2024-05-22 08:25:50] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.99.tar.gz]
+[2024-05-22 08:25:50] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2024-05-22 08:25:52] INFO root fetch - processPackages [hugedict]: Downloading https://files.pythonhosted.org/packages/92/61/4109a9c0c7bb01eefb965b5b386abacc7d6a554e4c79c6de0bdcb1d32d8a/hugedict-2.9.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-22 08:25:52] INFO root fetch - processPackages [hugedict]: executing diffoscope
+[2024-05-22 08:25:52] INFO root fetch - processPackages [hugedict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugedict-2.9.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/hugedict-2.9.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240522/h/hugedict/2.9.1-2.9.2/README.md --exclude *.pyd
+[2024-05-22 08:26:54] INFO root fetch - processPackages [hugedict]: Remove: archive file [/home/abi/fetcher/tmp/hugedict-2.9.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-22 08:26:54] INFO root fetch - processPackages [hugedict]: Remove: archive file [/home/abi/fetcher/tmp/hugedict-2.9.2-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-22 08:26:54] INFO root fetch - main [MainThread]: End processing [hugedict]: success
+[2024-05-22 08:26:54] INFO root fetch - main [MainThread]: Store serial: [23319664]

@@ -22034,3 +22034,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 13:55:35] INFO root fetch - processPackages [sema4ai-actions]: Remove: archive file [/home/abi/fetcher/tmp/sema4ai_actions-0.7.0.tar.gz]
 [2024-05-22 13:55:35] INFO root fetch - main [MainThread]: End processing [sema4ai-actions]: success
 [2024-05-22 13:55:35] INFO root fetch - main [MainThread]: Store serial: [23323458]
+[2024-05-22 13:57:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323458]
+[2024-05-22 13:57:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 13:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gando
+[2024-05-22 13:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypercrawl-lite
+[2024-05-22 13:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vr180-convert
+[2024-05-22 13:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GeoEntropy
+[2024-05-22 13:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: schelp-watch
+[2024-05-22 13:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ktdparser
+[2024-05-22 13:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: snakemake-storage-plugin-sharepoint
+[2024-05-22 13:57:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: matrix-content-scanner
+[2024-05-22 13:57:47] INFO root fetch - processPackages [snakemake-storage-plugin-sharepoint]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-22 13:57:47] INFO root fetch - processPackages [gando]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-22 13:57:47] WARNING root fetch - processPackages [hypercrawl-lite]: Skipping, unable to determine old version
+[2024-05-22 13:57:47] INFO root fetch - main [MainThread]: End processing [hypercrawl-lite] error
+[2024-05-22 13:57:47] WARNING root fetch - processPackages [schelp-watch]: Skipping, unable to determine old version
+[2024-05-22 13:57:47] INFO root fetch - main [MainThread]: End processing [schelp-watch] error
+[2024-05-22 13:57:47] INFO root fetch - processPackages [snakemake-storage-plugin-sharepoint]: Downloading https://files.pythonhosted.org/packages/89/db/2e391a4e54c7780b00e2511b861c9ce38e17446aabfc62f7c7a9bfb84270/snakemake_storage_plugin_sharepoint-0.3.0.tar.gz
+[2024-05-22 13:57:47] INFO root fetch - processPackages [vr180-convert]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-22 13:57:47] WARNING root fetch - processPackages [ktdparser]: Skipping, unable to determine old version
+[2024-05-22 13:57:47] INFO root fetch - main [MainThread]: End processing [ktdparser] error
+[2024-05-22 13:57:47] INFO root fetch - processPackages [GeoEntropy]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-22 13:57:47] INFO root fetch - processPackages [matrix-content-scanner]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-22 13:57:47] INFO root fetch - processPackages [gando]: Downloading https://files.pythonhosted.org/packages/5f/ad/9ce3a6ba3c5faf8984d231b1d4e350dc99ef5decdc96e34bfe1ccc8ba490/gando-0.9.7.tar.gz
+[2024-05-22 13:57:48] INFO root fetch - processPackages [snakemake-storage-plugin-sharepoint]: Downloading https://files.pythonhosted.org/packages/53/fa/e79d81403bf6c6de251bb057ef4b96e28eb3f475fc179d8a71175d930e1b/snakemake_storage_plugin_sharepoint-0.4.0.tar.gz
+[2024-05-22 13:57:48] INFO root fetch - processPackages [vr180-convert]: Downloading https://files.pythonhosted.org/packages/cc/28/d4cc00d8f017564c59427710858b3147bac0472ea32ca9409f98a20661b0/vr180_convert-0.4.0.tar.gz
+[2024-05-22 13:57:48] INFO root fetch - processPackages [GeoEntropy]: Downloading https://files.pythonhosted.org/packages/1b/36/5acc8f4743f80bb6d5a9a96d37cc7f6ffec4b1692aa11f684dd66378d204/GeoEntropy-0.1.1.tar.gz
+[2024-05-22 13:57:48] INFO root fetch - processPackages [gando]: Downloading https://files.pythonhosted.org/packages/55/b4/3eacdbfcda93734a9bbee501af687c86bfb442a8f0f000f752e95377527e/gando-0.9.8.tar.gz
+[2024-05-22 13:57:48] INFO root fetch - processPackages [matrix-content-scanner]: Downloading https://files.pythonhosted.org/packages/92/69/56df33bdbb7e3a839ed8d63a14776809631248ca388464a2bdcef1742bf8/matrix_content_scanner-1.0.5.tar.gz
+[2024-05-22 13:57:48] INFO root fetch - processPackages [snakemake-storage-plugin-sharepoint]: executing diffoscope
+[2024-05-22 13:57:48] INFO root fetch - processPackages [snakemake-storage-plugin-sharepoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake_storage_plugin_sharepoint-0.3.0.tar.gz tmp/snakemake_storage_plugin_sharepoint-0.4.0.tar.gz --markdown 20240522/s/snakemake-storage-plugin-sharepoint/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-22 13:57:48] INFO root fetch - processPackages [gando]: executing diffoscope
+[2024-05-22 13:57:48] INFO root fetch - processPackages [gando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gando-0.9.7.tar.gz tmp/gando-0.9.8.tar.gz --markdown 20240522/g/gando/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-22 13:57:48] INFO root fetch - processPackages [vr180-convert]: Downloading https://files.pythonhosted.org/packages/20/bc/2422bbe1108016b83ac1bc03bb83d4d69326681dedad7904219801ed8a98/vr180_convert-0.4.1.tar.gz
+[2024-05-22 13:57:48] INFO root fetch - processPackages [GeoEntropy]: Downloading https://files.pythonhosted.org/packages/2e/b6/f7e623455d2e12d7c48b6e863dc85e204ec502bfd456c14d14062a53bd1a/GeoEntropy-0.2.0.tar.gz
+[2024-05-22 13:57:48] INFO root fetch - processPackages [matrix-content-scanner]: Downloading https://files.pythonhosted.org/packages/d3/88/357b6906834af573db5ccb1cf7f340e8970d5849ca224df9df75c2bedce6/matrix_content_scanner-1.0.6.tar.gz
+[2024-05-22 13:57:48] INFO root fetch - processPackages [vr180-convert]: executing diffoscope
+[2024-05-22 13:57:48] INFO root fetch - processPackages [vr180-convert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vr180_convert-0.4.0.tar.gz tmp/vr180_convert-0.4.1.tar.gz --markdown 20240522/v/vr180-convert/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-22 13:57:48] INFO root fetch - processPackages [GeoEntropy]: executing diffoscope
+[2024-05-22 13:57:48] INFO root fetch - processPackages [GeoEntropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GeoEntropy-0.1.1.tar.gz tmp/GeoEntropy-0.2.0.tar.gz --markdown 20240522/G/GeoEntropy/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-22 13:57:48] INFO root fetch - processPackages [matrix-content-scanner]: executing diffoscope
+[2024-05-22 13:57:48] INFO root fetch - processPackages [matrix-content-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix_content_scanner-1.0.5.tar.gz tmp/matrix_content_scanner-1.0.6.tar.gz --markdown 20240522/m/matrix-content-scanner/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-22 13:57:49] INFO root fetch - processPackages [snakemake-storage-plugin-sharepoint]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_storage_plugin_sharepoint-0.3.0.tar.gz]
+[2024-05-22 13:57:49] INFO root fetch - processPackages [snakemake-storage-plugin-sharepoint]: Remove: archive file [/home/abi/fetcher/tmp/snakemake_storage_plugin_sharepoint-0.4.0.tar.gz]
+[2024-05-22 13:57:49] INFO root fetch - main [MainThread]: End processing [snakemake-storage-plugin-sharepoint]: success
+[2024-05-22 13:57:49] INFO root fetch - processPackages [vr180-convert]: Remove: archive file [/home/abi/fetcher/tmp/vr180_convert-0.4.0.tar.gz]
+[2024-05-22 13:57:49] INFO root fetch - processPackages [vr180-convert]: Remove: archive file [/home/abi/fetcher/tmp/vr180_convert-0.4.1.tar.gz]
+[2024-05-22 13:57:49] INFO root fetch - main [MainThread]: End processing [vr180-convert]: success
+[2024-05-22 13:57:49] INFO root fetch - processPackages [gando]: Remove: archive file [/home/abi/fetcher/tmp/gando-0.9.7.tar.gz]
+[2024-05-22 13:57:49] INFO root fetch - processPackages [gando]: Remove: archive file [/home/abi/fetcher/tmp/gando-0.9.8.tar.gz]
+[2024-05-22 13:57:49] INFO root fetch - main [MainThread]: End processing [gando]: success
+[2024-05-22 13:57:49] INFO root fetch - processPackages [GeoEntropy]: Remove: archive file [/home/abi/fetcher/tmp/GeoEntropy-0.1.1.tar.gz]
+[2024-05-22 13:57:49] INFO root fetch - processPackages [GeoEntropy]: Remove: archive file [/home/abi/fetcher/tmp/GeoEntropy-0.2.0.tar.gz]
+[2024-05-22 13:57:49] INFO root fetch - main [MainThread]: End processing [GeoEntropy]: success
+[2024-05-22 13:57:49] INFO root fetch - processPackages [matrix-content-scanner]: Remove: archive file [/home/abi/fetcher/tmp/matrix_content_scanner-1.0.5.tar.gz]
+[2024-05-22 13:57:49] INFO root fetch - processPackages [matrix-content-scanner]: Remove: archive file [/home/abi/fetcher/tmp/matrix_content_scanner-1.0.6.tar.gz]
+[2024-05-22 13:57:49] INFO root fetch - main [MainThread]: End processing [matrix-content-scanner]: success
+[2024-05-22 13:57:49] INFO root fetch - main [MainThread]: Store serial: [23323486]

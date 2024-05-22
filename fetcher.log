@@ -3393,3 +3393,51 @@
 [2024-05-22 02:52:03] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-05-22 02:52:03] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-05-22 02:52:03] INFO root fetch - main [MainThread]: Store serial: [23315758]
+[2024-05-22 02:54:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315758]
+[2024-05-22 02:54:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 02:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synnax
+[2024-05-22 02:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-emrserverless-with-delta-lake
+[2024-05-22 02:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lama2923
+[2024-05-22 02:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kolena
+[2024-05-22 02:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kolena-client
+[2024-05-22 02:54:12] INFO root fetch - processPackages [synnax]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-22 02:54:12] INFO root fetch - processPackages [lama2923]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-22 02:54:12] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-22 02:54:12] INFO root fetch - processPackages [kolena]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-22 02:54:12] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/89/a1/f0d76d0706e47ba3dcdbf0fe8c7b2e90c98bd073d40a3c4c7c1c1025aab8/synnax-0.8.0.tar.gz
+[2024-05-22 02:54:12] INFO root fetch - processPackages [kolena-client]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-22 02:54:12] INFO root fetch - processPackages [lama2923]: Downloading https://files.pythonhosted.org/packages/21/24/cf6fa7d51ab27f4ccb6aaa8955c9528c946f0aa489760aaf9445360e2900/lama2923-1.0.5.tar.gz
+[2024-05-22 02:54:12] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2024-05-22 02:54:12] INFO root fetch - processPackages [kolena]: Downloading https://files.pythonhosted.org/packages/0a/d6/97de9a0f80beba1be7fdf36a7755d95f269a93c86487a35a70f230bccde6/kolena-1.8.0.tar.gz
+[2024-05-22 02:54:12] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/a3/a7/78d5afa11fb61ba1e3a48b56f90523118e38fe1c910a463478fb21a82f79/kolena_client-1.8.0.tar.gz
+[2024-05-22 02:54:12] INFO root fetch - processPackages [lama2923]: Downloading https://files.pythonhosted.org/packages/f4/37/e2815d21d84d9aaea1205163db1903fc76cc51d1b34940ee7d97887ec3d2/lama2923-1.0.6.tar.gz
+[2024-05-22 02:54:12] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/b3/bc/76e9b03b96c7ab72f4b39e5e03c396b86efd6fb650bedcff8a7118679e9b/synnax-0.9.0.tar.gz
+[2024-05-22 02:54:12] INFO root fetch - processPackages [lama2923]: executing diffoscope
+[2024-05-22 02:54:12] INFO root fetch - processPackages [lama2923]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lama2923-1.0.5.tar.gz tmp/lama2923-1.0.6.tar.gz --markdown 20240522/l/lama2923/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-22 02:54:12] INFO root fetch - processPackages [synnax]: executing diffoscope
+[2024-05-22 02:54:12] INFO root fetch - processPackages [synnax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax-0.8.0.tar.gz tmp/synnax-0.9.0.tar.gz --markdown 20240522/s/synnax/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-22 02:54:12] INFO root fetch - processPackages [kolena]: Downloading https://files.pythonhosted.org/packages/96/79/bb655005ebffcb47a9d4a3150f2e8aa233b1219d02d5c56c170ff171f870/kolena-1.9.0.tar.gz
+[2024-05-22 02:54:12] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/a8/f0/873193dc29f6f975d384cd4650275c9264bfdf09d2bbeb4e617d8aec3d61/kolena_client-1.9.0.tar.gz
+[2024-05-22 02:54:12] INFO root fetch - processPackages [kolena-client]: executing diffoscope
+[2024-05-22 02:54:12] INFO root fetch - processPackages [kolena-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolena_client-1.8.0.tar.gz tmp/kolena_client-1.9.0.tar.gz --markdown 20240522/k/kolena-client/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-22 02:54:13] INFO root fetch - processPackages [kolena]: executing diffoscope
+[2024-05-22 02:54:13] INFO root fetch - processPackages [kolena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolena-1.8.0.tar.gz tmp/kolena-1.9.0.tar.gz --markdown 20240522/k/kolena/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-22 02:54:13] INFO root fetch - processPackages [lama2923]: Remove: archive file [/home/abi/fetcher/tmp/lama2923-1.0.5.tar.gz]
+[2024-05-22 02:54:13] INFO root fetch - processPackages [lama2923]: Remove: archive file [/home/abi/fetcher/tmp/lama2923-1.0.6.tar.gz]
+[2024-05-22 02:54:13] INFO root fetch - main [MainThread]: End processing [lama2923]: success
+[2024-05-22 02:54:13] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.8.0.tar.gz]
+[2024-05-22 02:54:13] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
+[2024-05-22 02:54:13] INFO root fetch - main [MainThread]: End processing [synnax]: success
+[2024-05-22 02:54:13] INFO root fetch - processPackages [kolena-client]: Remove: archive file [/home/abi/fetcher/tmp/kolena_client-1.8.0.tar.gz]
+[2024-05-22 02:54:13] INFO root fetch - processPackages [kolena-client]: Remove: archive file [/home/abi/fetcher/tmp/kolena_client-1.9.0.tar.gz]
+[2024-05-22 02:54:13] INFO root fetch - main [MainThread]: End processing [kolena-client]: success
+[2024-05-22 02:54:13] INFO root fetch - processPackages [kolena]: Remove: archive file [/home/abi/fetcher/tmp/kolena-1.8.0.tar.gz]
+[2024-05-22 02:54:13] INFO root fetch - processPackages [kolena]: Remove: archive file [/home/abi/fetcher/tmp/kolena-1.9.0.tar.gz]
+[2024-05-22 02:54:13] INFO root fetch - main [MainThread]: End processing [kolena]: success
+[2024-05-22 02:54:13] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2024-05-22 02:54:14] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2024-05-22 02:54:14] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20240522/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-22 02:54:14] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2024-05-22 02:54:14] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2024-05-22 02:54:14] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2024-05-22 02:54:14] INFO root fetch - main [MainThread]: Store serial: [23315773]

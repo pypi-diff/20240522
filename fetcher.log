@@ -7574,3 +7574,44 @@
 [2024-05-22 03:30:36] INFO root fetch - processPackages [pyqir]: Remove: archive file [/home/abi/fetcher/tmp/pyqir-0.9.0-cp37-abi3-win_amd64.whl.zip]
 [2024-05-22 03:30:36] INFO root fetch - main [MainThread]: End processing [pyqir]: success
 [2024-05-22 03:30:36] INFO root fetch - main [MainThread]: Store serial: [23317027]
+[2024-05-22 03:32:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317027]
+[2024-05-22 03:32:45] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 03:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaanca
+[2024-05-22 03:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: picSearch
+[2024-05-22 03:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aimet-torch
+[2024-05-22 03:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaanca-chronometer
+[2024-05-22 03:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-openapi3-scalar
+[2024-05-22 03:32:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: google-cloud-jupyter-config
+[2024-05-22 03:32:45] WARNING root fetch - processPackages [jaanca]: Skipping, unable to determine old version
+[2024-05-22 03:32:45] INFO root fetch - main [MainThread]: End processing [jaanca] error
+[2024-05-22 03:32:45] INFO root fetch - processPackages [jaanca-chronometer]: New version: [0.0.1rc3] Old Version: [0.0.1rc2]
+[2024-05-22 03:32:45] INFO root fetch - processPackages [google-cloud-jupyter-config]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 03:32:45] WARNING root fetch - processPackages [picSearch]: Skipping, unable to determine old version
+[2024-05-22 03:32:45] INFO root fetch - main [MainThread]: End processing [picSearch] error
+[2024-05-22 03:32:45] INFO root fetch - processPackages [jaanca-chronometer]: Downloading https://files.pythonhosted.org/packages/0f/38/87ba0597e5230c57ec10f00233cc45c28c9b441c52ad203d53edfa1b5fe6/jaanca_chronometer-0.0.1rc2.tar.gz
+[2024-05-22 03:32:45] INFO root fetch - processPackages [aimet-torch]: New version: [1.31.2] Old Version: [1.31.1]
+[2024-05-22 03:32:45] INFO root fetch - processPackages [flask-openapi3-scalar]: New version: [1.22.44] Old Version: [1.22.43]
+[2024-05-22 03:32:46] INFO root fetch - processPackages [google-cloud-jupyter-config]: Downloading https://files.pythonhosted.org/packages/4d/20/6af3cc778d73aaf34804e7df804d417db7a10ce2a51a96813848b9b683ca/google_cloud_jupyter_config-0.0.8.tar.gz
+[2024-05-22 03:32:46] INFO root fetch - processPackages [aimet-torch]: Downloading https://files.pythonhosted.org/packages/99/c7/294a44619fa28bd909aeb4ae18ac692e461baccea328ff6487ec97e4b9fe/aimet_torch-1.31.1-cp38-cp38-manylinux_2_29_x86_64.whl
+[2024-05-22 03:32:46] INFO root fetch - processPackages [flask-openapi3-scalar]: Downloading https://files.pythonhosted.org/packages/ae/a7/430d670408d38d1a3bbecf0b248f2926a46c519aed486212bd0aedf543d6/flask_openapi3_scalar-1.22.43.tar.gz
+[2024-05-22 03:32:46] INFO root fetch - processPackages [jaanca-chronometer]: Downloading https://files.pythonhosted.org/packages/7a/47/34be6039ab6edc264566a9ffd62ebf971ccf1b1779f28572d4d5bdfd801f/jaanca_chronometer-0.0.1rc3.tar.gz
+[2024-05-22 03:32:46] WARNING root fetch - processPackages [aimet-torch]: Skipping package: exceeds size limit 15254380>=10485760
+[2024-05-22 03:32:46] INFO root fetch - main [MainThread]: End processing [aimet-torch] error
+[2024-05-22 03:32:46] INFO root fetch - processPackages [jaanca-chronometer]: executing diffoscope
+[2024-05-22 03:32:46] INFO root fetch - processPackages [jaanca-chronometer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaanca_chronometer-0.0.1rc2.tar.gz tmp/jaanca_chronometer-0.0.1rc3.tar.gz --markdown 20240522/j/jaanca-chronometer/0.0.1rc2-0.0.1rc3/README.md --exclude *.pyd
+[2024-05-22 03:32:46] INFO root fetch - processPackages [google-cloud-jupyter-config]: Downloading https://files.pythonhosted.org/packages/a3/e0/2075da1093a0d11b138b3cf8ff80d04a9770bf73c5931701a9d71efd413b/google_cloud_jupyter_config-0.0.9.tar.gz
+[2024-05-22 03:32:46] INFO root fetch - processPackages [flask-openapi3-scalar]: Downloading https://files.pythonhosted.org/packages/10/cd/d768eecbe306be16b875bb48f7f74aa987cb4f95ed0a6d0b008be597eb3c/flask_openapi3_scalar-1.22.44.tar.gz
+[2024-05-22 03:32:46] INFO root fetch - processPackages [google-cloud-jupyter-config]: executing diffoscope
+[2024-05-22 03:32:46] INFO root fetch - processPackages [google-cloud-jupyter-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_cloud_jupyter_config-0.0.8.tar.gz tmp/google_cloud_jupyter_config-0.0.9.tar.gz --markdown 20240522/g/google-cloud-jupyter-config/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 03:32:46] INFO root fetch - processPackages [flask-openapi3-scalar]: executing diffoscope
+[2024-05-22 03:32:46] INFO root fetch - processPackages [flask-openapi3-scalar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_openapi3_scalar-1.22.43.tar.gz tmp/flask_openapi3_scalar-1.22.44.tar.gz --markdown 20240522/f/flask-openapi3-scalar/1.22.43-1.22.44/README.md --exclude *.pyd
+[2024-05-22 03:32:46] INFO root fetch - processPackages [jaanca-chronometer]: Remove: archive file [/home/abi/fetcher/tmp/jaanca_chronometer-0.0.1rc2.tar.gz]
+[2024-05-22 03:32:46] INFO root fetch - processPackages [jaanca-chronometer]: Remove: archive file [/home/abi/fetcher/tmp/jaanca_chronometer-0.0.1rc3.tar.gz]
+[2024-05-22 03:32:46] INFO root fetch - main [MainThread]: End processing [jaanca-chronometer]: success
+[2024-05-22 03:32:47] INFO root fetch - processPackages [google-cloud-jupyter-config]: Remove: archive file [/home/abi/fetcher/tmp/google_cloud_jupyter_config-0.0.8.tar.gz]
+[2024-05-22 03:32:47] INFO root fetch - processPackages [google-cloud-jupyter-config]: Remove: archive file [/home/abi/fetcher/tmp/google_cloud_jupyter_config-0.0.9.tar.gz]
+[2024-05-22 03:32:47] INFO root fetch - main [MainThread]: End processing [google-cloud-jupyter-config]: success
+[2024-05-22 03:33:01] INFO root fetch - processPackages [flask-openapi3-scalar]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_scalar-1.22.43.tar.gz]
+[2024-05-22 03:33:01] INFO root fetch - processPackages [flask-openapi3-scalar]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_scalar-1.22.44.tar.gz]
+[2024-05-22 03:33:01] INFO root fetch - main [MainThread]: End processing [flask-openapi3-scalar]: success
+[2024-05-22 03:33:01] INFO root fetch - main [MainThread]: Store serial: [23317110]

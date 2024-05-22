@@ -2635,3 +2635,60 @@
 [2024-05-22 02:13:04] INFO root fetch - processPackages [nomad-media-pip]: Remove: archive file [/home/abi/fetcher/tmp/nomad_media_pip-0.0.99.tar.gz]
 [2024-05-22 02:13:04] INFO root fetch - main [MainThread]: End processing [nomad-media-pip]: success
 [2024-05-22 02:13:04] INFO root fetch - main [MainThread]: Store serial: [23315471]
+[2024-05-22 02:15:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315471]
+[2024-05-22 02:15:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 02:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-events-notify
+[2024-05-22 02:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-gitlab-runner
+[2024-05-22 02:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-skylight
+[2024-05-22 02:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytorch-ignite
+[2024-05-22 02:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-core
+[2024-05-22 02:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-common
+[2024-05-22 02:15:12] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-22 02:15:12] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-22 02:15:12] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240521] Old Version: [0.6.0.dev20240520]
+[2024-05-22 02:15:12] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-22 02:15:13] INFO root fetch - processPackages [langchain-core]: New version: [0.2.1] Old Version: [0.2.0rc1]
+[2024-05-22 02:15:13] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-05-22 02:15:13] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-05-22 02:15:13] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/b7/7d/50ca1bff3db85ede28826faf2d11bb449770cac87fe89483636e0fe57d94/cdk-events-notify-2.2.98.tar.gz
+[2024-05-22 02:15:13] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/51/57/908992aa28feafeefcbc47ba2ed47be491fce0eaee0c14001900e6e1e665/pytorch_ignite-0.6.0.dev20240520.tar.gz
+[2024-05-22 02:15:13] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-22 02:15:13] INFO root fetch - processPackages [langchain-core]: Downloading https://files.pythonhosted.org/packages/84/ea/6ce4be272f2170b50a3742bc38de952de1fb50b39a2c3ff6c78a3db18d45/langchain_core-0.2.0rc1.tar.gz
+[2024-05-22 02:15:13] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-05-22 02:15:13] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-05-22 02:15:13] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/56/4a/9c2a145913d7a35ac252cb2bddabca89cdc95c802a8e342f192100f709be/cdk-events-notify-2.2.99.tar.gz
+[2024-05-22 02:15:13] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-05-22 02:15:13] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-05-22 02:15:13] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240522/c/cdktf-gitlab-runner/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-22 02:15:13] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-05-22 02:15:13] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.98.tar.gz tmp/cdk-events-notify-2.2.99.tar.gz --markdown 20240522/c/cdk-events-notify/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-22 02:15:13] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/df/32/babad5f7bbf85a3ab8bc006029444119accaa593ecd3a29b1db6520a1702/pytorch_ignite-0.6.0.dev20240521.tar.gz
+[2024-05-22 02:15:13] INFO root fetch - processPackages [langchain-core]: Downloading https://files.pythonhosted.org/packages/10/c8/a1cb80cf03bf8faa7fad0714bc97278a1feca58e0078639de3f74ed163f2/langchain_core-0.2.1.tar.gz
+[2024-05-22 02:15:13] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-05-22 02:15:13] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240522/c/cdk-skylight/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-22 02:15:13] INFO root fetch - processPackages [langchain-core]: executing diffoscope
+[2024-05-22 02:15:13] INFO root fetch - processPackages [langchain-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_core-0.2.0rc1.tar.gz tmp/langchain_core-0.2.1.tar.gz --markdown 20240522/l/langchain-core/0.2.0rc1-0.2.1/README.md --exclude *.pyd
+[2024-05-22 02:15:13] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-05-22 02:15:13] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_ignite-0.6.0.dev20240520.tar.gz tmp/pytorch_ignite-0.6.0.dev20240521.tar.gz --markdown 20240522/p/pytorch-ignite/0.6.0.dev20240520-0.6.0.dev20240521/README.md --exclude *.pyd
+[2024-05-22 02:15:13] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-05-22 02:15:13] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-05-22 02:15:13] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240522/c/cdk-common/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-22 02:15:14] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-05-22 02:15:14] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-05-22 02:15:14] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-05-22 02:15:14] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.98.tar.gz]
+[2024-05-22 02:15:14] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.99.tar.gz]
+[2024-05-22 02:15:14] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-05-22 02:15:14] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-05-22 02:15:14] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-05-22 02:15:14] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-05-22 02:15:14] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240520.tar.gz]
+[2024-05-22 02:15:14] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_ignite-0.6.0.dev20240521.tar.gz]
+[2024-05-22 02:15:14] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-05-22 02:15:14] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-05-22 02:15:14] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-05-22 02:15:14] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-05-22 02:15:14] INFO root fetch - processPackages [langchain-core]: Remove: archive file [/home/abi/fetcher/tmp/langchain_core-0.2.0rc1.tar.gz]
+[2024-05-22 02:15:14] INFO root fetch - processPackages [langchain-core]: Remove: archive file [/home/abi/fetcher/tmp/langchain_core-0.2.1.tar.gz]
+[2024-05-22 02:15:14] INFO root fetch - main [MainThread]: End processing [langchain-core]: success
+[2024-05-22 02:15:15] INFO root fetch - main [MainThread]: Store serial: [23315489]

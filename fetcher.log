@@ -15974,3 +15974,110 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:26:07] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.2.2.tar.gz]
 [2024-05-22 10:26:07] INFO root fetch - main [MainThread]: End processing [mns-common]: success
 [2024-05-22 10:26:07] INFO root fetch - main [MainThread]: Store serial: [23320843]
+[2024-05-22 10:28:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320843]
+[2024-05-22 10:28:16] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-22 10:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stimulsoft-dashboards
+[2024-05-22 10:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: recsyslearn
+[2024-05-22 10:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stimulsoft-data-adapters
+[2024-05-22 10:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nfinance
+[2024-05-22 10:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mozmlops
+[2024-05-22 10:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: few-shot-priming
+[2024-05-22 10:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stimulsoft-reports
+[2024-05-22 10:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: linktest
+[2024-05-22 10:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: CRUDFastAPI
+[2024-05-22 10:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: duwi-smarthome-sdk-dev
+[2024-05-22 10:28:16] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 10:28:16] INFO root fetch - processPackages [CRUDFastAPI]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-22 10:28:16] INFO root fetch - processPackages [recsyslearn]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-22 10:28:16] INFO root fetch - processPackages [stimulsoft-data-adapters]: New version: [2024.2.6] Old Version: [2024.2.5]
+[2024-05-22 10:28:16] INFO root fetch - processPackages [mozmlops]: New version: [0.1.1] Old Version: [0.0.2]
+[2024-05-22 10:28:16] INFO root fetch - processPackages [stimulsoft-dashboards]: New version: [2024.2.6] Old Version: [2024.2.5]
+[2024-05-22 10:28:16] INFO root fetch - processPackages [nfinance]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-22 10:28:16] INFO root fetch - processPackages [stimulsoft-reports]: New version: [2024.2.6] Old Version: [2024.2.5]
+[2024-05-22 10:28:16] INFO root fetch - processPackages [linktest]: New version: [2.8.4] Old Version: [2.8.3]
+[2024-05-22 10:28:16] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/5c/4d/812b287b07cf42fedf028dff5bb2ca22a9ae0faf0ee185a567ee78de2b99/duwi_smarthome_sdk_dev-0.0.8.tar.gz
+[2024-05-22 10:28:16] INFO root fetch - processPackages [few-shot-priming]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-05-22 10:28:16] INFO root fetch - processPackages [CRUDFastAPI]: Downloading https://files.pythonhosted.org/packages/ea/f7/c4861a55ab1d26d63d7eb842012611fe60bf44245c93e605185e23d4837e/crudfastapi-0.0.5.tar.gz
+[2024-05-22 10:28:16] INFO root fetch - processPackages [recsyslearn]: Downloading https://files.pythonhosted.org/packages/c0/7a/48bdb7a0d76727946b5c0cbf3e562f9edeb1d539b896046b58c634ecd0c0/recsyslearn-2.0.1.tar.gz
+[2024-05-22 10:28:16] INFO root fetch - processPackages [stimulsoft-data-adapters]: Downloading https://files.pythonhosted.org/packages/ea/66/b3d173fabadbfe70d4144c5786f177c4a1894c91159dd57501684ef1fd6f/stimulsoft_data_adapters-2024.2.5.tar.gz
+[2024-05-22 10:28:16] INFO root fetch - processPackages [mozmlops]: Downloading https://files.pythonhosted.org/packages/a0/ef/2a39a13d5108b54e505705acb27f88dfa7a4c1c7023a5613d8f9688a909e/mozmlops-0.0.2.tar.gz
+[2024-05-22 10:28:16] INFO root fetch - processPackages [stimulsoft-dashboards]: Downloading https://files.pythonhosted.org/packages/cb/b7/89ac9cfdad45f9dadd58103ac1b32609619d2d2e84786cf616d8336ecc97/stimulsoft_dashboards-2024.2.5.tar.gz
+[2024-05-22 10:28:16] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/15/8d/de4965b6298093d37cf3c49f6a695696ffb6ec9cab51f69f00761973966e/nfinance-0.4.0-py3-none-any.whl
+[2024-05-22 10:28:17] INFO root fetch - processPackages [stimulsoft-reports]: Downloading https://files.pythonhosted.org/packages/41/f4/4f78e11423d275e7e7c1a3b9e5a8fe687af5dc7ace29d51e3795e8b98e32/stimulsoft_reports-2024.2.5.tar.gz
+[2024-05-22 10:28:17] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/d2/a1/a10a8d91a427c3fbc226c07c573758e6f7e67f682b200aec475f6f078ace/linktest-2.8.3.tar.gz
+[2024-05-22 10:28:17] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/eb/67/d15b11d0bfb57369fa16ba7f8c97cd3ddec8f771e6da8f11a3d819004b69/few_shot_priming-0.3.98-py3-none-any.whl
+[2024-05-22 10:28:17] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/95/ef/a2d75a3a44e71edb8d21f90031d60c2bc135082d7c90608877031a2604db/duwi_smarthome_sdk_dev-0.0.9.tar.gz
+[2024-05-22 10:28:17] INFO root fetch - processPackages [CRUDFastAPI]: Downloading https://files.pythonhosted.org/packages/da/c5/9e5fb42a90fd50f5f76c2673d10b8ff6b714a9d2b574d92f3c71121afa17/crudfastapi-0.0.6.tar.gz
+[2024-05-22 10:28:17] WARNING root fetch - processPackages [stimulsoft-reports]: Skipping package: exceeds size limit 30305053>=10485760
+[2024-05-22 10:28:17] INFO root fetch - processPackages [stimulsoft-reports]: Start processing: vnerrant
+[2024-05-22 10:28:17] INFO root fetch - main [MainThread]: End processing [stimulsoft-reports] error
+[2024-05-22 10:28:17] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: executing diffoscope
+[2024-05-22 10:28:17] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smarthome_sdk_dev-0.0.8.tar.gz tmp/duwi_smarthome_sdk_dev-0.0.9.tar.gz --markdown 20240522/d/duwi-smarthome-sdk-dev/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 10:28:17] INFO root fetch - processPackages [stimulsoft-data-adapters]: Downloading https://files.pythonhosted.org/packages/dd/03/89a7b0d7fa039c24eeda6469efafb459691f3ede9315512b2273a04eb5fc/stimulsoft_data_adapters-2024.2.6.tar.gz
+[2024-05-22 10:28:17] INFO root fetch - processPackages [mozmlops]: Downloading https://files.pythonhosted.org/packages/38/82/34e9c67c356abcb5a185f71e22ed1c940fa520af40f457b267908e2ed556/mozmlops-0.1.1.tar.gz
+[2024-05-22 10:28:17] INFO root fetch - processPackages [recsyslearn]: Downloading https://files.pythonhosted.org/packages/f1/2b/08b9f0376229d9f098a2ba5793978cb6a4551ce3c86a7fbeb015952cc7d3/recsyslearn-2.0.2.tar.gz
+[2024-05-22 10:28:17] INFO root fetch - processPackages [CRUDFastAPI]: executing diffoscope
+[2024-05-22 10:28:17] INFO root fetch - processPackages [CRUDFastAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crudfastapi-0.0.5.tar.gz tmp/crudfastapi-0.0.6.tar.gz --markdown 20240522/C/CRUDFastAPI/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-22 10:28:17] INFO root fetch - processPackages [nfinance]: Downloading https://files.pythonhosted.org/packages/81/d9/ef80a9f436fb11ae1f66a4fb54983700283033d03f1d38f98ee44e180386/nfinance-0.4.1-py3-none-any.whl
+[2024-05-22 10:28:17] INFO root fetch - processPackages [vnerrant]: New version: [1.0.1rc5] Old Version: [1.0.1rc4]
+[2024-05-22 10:28:17] INFO root fetch - processPackages [linktest]: Downloading https://files.pythonhosted.org/packages/52/85/8a540efba39636a9dcaf21f64c81a68f04173bac55a080e5e42baf0ec1d1/linktest-2.8.4.tar.gz
+[2024-05-22 10:28:17] INFO root fetch - processPackages [nfinance]: executing diffoscope
+[2024-05-22 10:28:17] INFO root fetch - processPackages [nfinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nfinance-0.4.0-py3-none-any.whl.zip tmp/nfinance-0.4.1-py3-none-any.whl.zip --markdown 20240522/n/nfinance/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-22 10:28:17] INFO root fetch - processPackages [mozmlops]: executing diffoscope
+[2024-05-22 10:28:17] INFO root fetch - processPackages [mozmlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozmlops-0.0.2.tar.gz tmp/mozmlops-0.1.1.tar.gz --markdown 20240522/m/mozmlops/0.0.2-0.1.1/README.md --exclude *.pyd
+[2024-05-22 10:28:17] INFO root fetch - processPackages [stimulsoft-data-adapters]: executing diffoscope
+[2024-05-22 10:28:17] INFO root fetch - processPackages [stimulsoft-data-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimulsoft_data_adapters-2024.2.5.tar.gz tmp/stimulsoft_data_adapters-2024.2.6.tar.gz --markdown 20240522/s/stimulsoft-data-adapters/2024.2.5-2024.2.6/README.md --exclude *.pyd
+[2024-05-22 10:28:17] INFO root fetch - processPackages [recsyslearn]: executing diffoscope
+[2024-05-22 10:28:17] INFO root fetch - processPackages [recsyslearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recsyslearn-2.0.1.tar.gz tmp/recsyslearn-2.0.2.tar.gz --markdown 20240522/r/recsyslearn/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-22 10:28:17] INFO root fetch - processPackages [stimulsoft-dashboards]: Downloading https://files.pythonhosted.org/packages/45/0f/b4acb96e9b3ae3bd5250b5ebecbc2985431248a5f8476204c6b9911742cf/stimulsoft_dashboards-2024.2.6.tar.gz
+[2024-05-22 10:28:17] INFO root fetch - processPackages [vnerrant]: Downloading https://files.pythonhosted.org/packages/41/ce/499c9162aa1297588004bae01a0c9c9d92175353a7bcf2bd20ebfa227cd3/vnerrant-1.0.1rc4.tar.gz
+[2024-05-22 10:28:17] INFO root fetch - processPackages [linktest]: executing diffoscope
+[2024-05-22 10:28:17] INFO root fetch - processPackages [linktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktest-2.8.3.tar.gz tmp/linktest-2.8.4.tar.gz --markdown 20240522/l/linktest/2.8.3-2.8.4/README.md --exclude *.pyd
+[2024-05-22 10:28:17] INFO root fetch - processPackages [stimulsoft-dashboards]: executing diffoscope
+[2024-05-22 10:28:17] INFO root fetch - processPackages [stimulsoft-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stimulsoft_dashboards-2024.2.5.tar.gz tmp/stimulsoft_dashboards-2024.2.6.tar.gz --markdown 20240522/s/stimulsoft-dashboards/2024.2.5-2024.2.6/README.md --exclude *.pyd
+[2024-05-22 10:28:18] INFO root fetch - processPackages [vnerrant]: Downloading https://files.pythonhosted.org/packages/5e/e1/bd8afd555e04fdb0a0f167442a575bf9c4933625e179bb24840acb655486/vnerrant-1.0.1rc5-py3-none-any.whl
+[2024-05-22 10:28:18] INFO root fetch - processPackages [few-shot-priming]: Downloading https://files.pythonhosted.org/packages/ff/11/548f6e96803602e6431dc610d736d401b20fde986f85c35c8ad19a6d0958/few_shot_priming-0.3.99-py3-none-any.whl
+[2024-05-22 10:28:18] INFO root fetch - processPackages [CRUDFastAPI]: Remove: archive file [/home/abi/fetcher/tmp/crudfastapi-0.0.5.tar.gz]
+[2024-05-22 10:28:18] INFO root fetch - processPackages [CRUDFastAPI]: Remove: archive file [/home/abi/fetcher/tmp/crudfastapi-0.0.6.tar.gz]
+[2024-05-22 10:28:18] INFO root fetch - processPackages [CRUDFastAPI]: Start processing: kr8s
+[2024-05-22 10:28:18] INFO root fetch - main [MainThread]: End processing [CRUDFastAPI]: success
+[2024-05-22 10:28:18] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.0.8.tar.gz]
+[2024-05-22 10:28:18] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.0.9.tar.gz]
+[2024-05-22 10:28:18] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk-dev]: success
+[2024-05-22 10:28:18] INFO root fetch - processPackages [mozmlops]: Remove: archive file [/home/abi/fetcher/tmp/mozmlops-0.0.2.tar.gz]
+[2024-05-22 10:28:18] INFO root fetch - processPackages [mozmlops]: Remove: archive file [/home/abi/fetcher/tmp/mozmlops-0.1.1.tar.gz]
+[2024-05-22 10:28:18] INFO root fetch - main [MainThread]: End processing [mozmlops]: success
+[2024-05-22 10:28:18] INFO root fetch - processPackages [kr8s]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-22 10:28:18] INFO root fetch - processPackages [stimulsoft-data-adapters]: Remove: archive file [/home/abi/fetcher/tmp/stimulsoft_data_adapters-2024.2.5.tar.gz]
+[2024-05-22 10:28:18] INFO root fetch - processPackages [stimulsoft-data-adapters]: Remove: archive file [/home/abi/fetcher/tmp/stimulsoft_data_adapters-2024.2.6.tar.gz]
+[2024-05-22 10:28:18] INFO root fetch - main [MainThread]: End processing [stimulsoft-data-adapters]: success
+[2024-05-22 10:28:18] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.0-py3-none-any.whl.zip]
+[2024-05-22 10:28:18] INFO root fetch - processPackages [nfinance]: Remove: archive file [/home/abi/fetcher/tmp/nfinance-0.4.1-py3-none-any.whl.zip]
+[2024-05-22 10:28:18] INFO root fetch - main [MainThread]: End processing [nfinance]: success
+[2024-05-22 10:28:18] INFO root fetch - processPackages [vnerrant]: executing diffoscope
+[2024-05-22 10:28:18] INFO root fetch - processPackages [vnerrant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnerrant-1.0.1rc4.tar.gz tmp/vnerrant-1.0.1rc5-py3-none-any.whl.zip --markdown 20240522/v/vnerrant/1.0.1rc4-1.0.1rc5/README.md --exclude *.pyd
+[2024-05-22 10:28:18] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.8.3.tar.gz]
+[2024-05-22 10:28:18] INFO root fetch - processPackages [linktest]: Remove: archive file [/home/abi/fetcher/tmp/linktest-2.8.4.tar.gz]
+[2024-05-22 10:28:18] INFO root fetch - main [MainThread]: End processing [linktest]: success
+[2024-05-22 10:28:18] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/6d/c4/da598e484ee1d3f5408bf01f4b5cc03d0843cbc6dfe491b556565b1e1855/kr8s-0.9.1.tar.gz
+[2024-05-22 10:28:18] INFO root fetch - processPackages [recsyslearn]: Remove: archive file [/home/abi/fetcher/tmp/recsyslearn-2.0.1.tar.gz]
+[2024-05-22 10:28:18] INFO root fetch - processPackages [recsyslearn]: Remove: archive file [/home/abi/fetcher/tmp/recsyslearn-2.0.2.tar.gz]
+[2024-05-22 10:28:18] INFO root fetch - main [MainThread]: End processing [recsyslearn]: success
+[2024-05-22 10:28:19] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/6b/a4/70e83775e1ce789d4dc02753b52ab25f4dfcbea75b9a96cb64b001b88df1/kr8s-0.9.2.tar.gz
+[2024-05-22 10:28:19] INFO root fetch - processPackages [kr8s]: executing diffoscope
+[2024-05-22 10:28:19] INFO root fetch - processPackages [kr8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kr8s-0.9.1.tar.gz tmp/kr8s-0.9.2.tar.gz --markdown 20240522/k/kr8s/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-22 10:28:20] INFO root fetch - processPackages [vnerrant]: Remove: archive file [/home/abi/fetcher/tmp/vnerrant-1.0.1rc4.tar.gz]
+[2024-05-22 10:28:20] INFO root fetch - processPackages [vnerrant]: Remove: archive file [/home/abi/fetcher/tmp/vnerrant-1.0.1rc5-py3-none-any.whl.zip]
+[2024-05-22 10:28:20] INFO root fetch - main [MainThread]: End processing [vnerrant]: success
+[2024-05-22 10:28:20] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.9.1.tar.gz]
+[2024-05-22 10:28:20] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.9.2.tar.gz]
+[2024-05-22 10:28:20] INFO root fetch - main [MainThread]: End processing [kr8s]: success
+[2024-05-22 10:28:21] INFO root fetch - processPackages [few-shot-priming]: executing diffoscope
+[2024-05-22 10:28:21] INFO root fetch - processPackages [few-shot-priming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip --markdown 20240522/f/few-shot-priming/0.3.98-0.3.99/README.md --exclude *.pyd
+[2024-05-22 10:28:22] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.98-py3-none-any.whl.zip]
+[2024-05-22 10:28:22] INFO root fetch - processPackages [few-shot-priming]: Remove: archive file [/home/abi/fetcher/tmp/few_shot_priming-0.3.99-py3-none-any.whl.zip]
+[2024-05-22 10:28:22] INFO root fetch - main [MainThread]: End processing [few-shot-priming]: success
+[2024-05-22 10:28:23] INFO root fetch - processPackages [stimulsoft-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/stimulsoft_dashboards-2024.2.5.tar.gz]
+[2024-05-22 10:28:23] INFO root fetch - processPackages [stimulsoft-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/stimulsoft_dashboards-2024.2.6.tar.gz]
+[2024-05-22 10:28:23] INFO root fetch - main [MainThread]: End processing [stimulsoft-dashboards]: success
+[2024-05-22 10:28:23] INFO root fetch - main [MainThread]: Store serial: [23320870]

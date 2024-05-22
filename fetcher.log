@@ -19605,3 +19605,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:14:49] INFO root fetch - processPackages [youwol]: Remove: archive file [/home/abi/fetcher/tmp/youwol-0.1.9rc1.tar.gz]
 [2024-05-22 12:14:49] INFO root fetch - main [MainThread]: End processing [youwol]: success
 [2024-05-22 12:14:49] INFO root fetch - main [MainThread]: Store serial: [23322339]
+[2024-05-22 12:16:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322339]
+[2024-05-22 12:16:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 12:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dapla-statbank-client
+[2024-05-22 12:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-logikal
+[2024-05-22 12:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: txdpy
+[2024-05-22 12:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fluke-fl
+[2024-05-22 12:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sertit
+[2024-05-22 12:16:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moogli-erp
+[2024-05-22 12:16:59] INFO root fetch - processPackages [moogli-erp]: New version: [2024.2.0b7] Old Version: [2024.2.0b6]
+[2024-05-22 12:16:59] INFO root fetch - processPackages [txdpy]: New version: [7.7.2] Old Version: [7.7.1]
+[2024-05-22 12:16:59] INFO root fetch - processPackages [moogli-erp]: Downloading https://files.pythonhosted.org/packages/9f/92/97c412c02539b6c62be6b98e66498bcfbfb07fb3b70f52cef27f46948268/moogli-erp-2024.2.0b6.tar.gz
+[2024-05-22 12:16:59] INFO root fetch - processPackages [django-logikal]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-05-22 12:16:59] INFO root fetch - processPackages [fluke-fl]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-22 12:16:59] INFO root fetch - processPackages [dapla-statbank-client]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-22 12:16:59] INFO root fetch - processPackages [sertit]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-05-22 12:16:59] WARNING root fetch - processPackages [moogli-erp]: Skipping package: exceeds size limit 13135758>=10485760
+[2024-05-22 12:16:59] INFO root fetch - main [MainThread]: End processing [moogli-erp] error
+[2024-05-22 12:16:59] INFO root fetch - processPackages [txdpy]: Downloading https://files.pythonhosted.org/packages/37/b4/5bb88cef844820f5abe93ff09dd2ed73939487b18988d3ff56a87d59e891/txdpy-7.7.1.tar.gz
+[2024-05-22 12:16:59] INFO root fetch - processPackages [django-logikal]: Downloading https://files.pythonhosted.org/packages/2d/47/11dee622017968c00840ce80151f4dc2451e1f53821c22b78703e063095b/django-logikal-3.1.0.tar.gz
+[2024-05-22 12:16:59] INFO root fetch - processPackages [dapla-statbank-client]: Downloading https://files.pythonhosted.org/packages/82/0b/a7e844827e7feb822d76f08d09a0ab97cba661679bce56938158e4c0a3de/dapla_statbank_client-1.2.2.tar.gz
+[2024-05-22 12:16:59] INFO root fetch - processPackages [sertit]: Downloading https://files.pythonhosted.org/packages/18/b5/8f8ae3243c9a8219ed4d021a73afa00c403efb3965526ea84b690569d3c7/sertit-1.8.1.tar.gz
+[2024-05-22 12:16:59] INFO root fetch - processPackages [fluke-fl]: Downloading https://files.pythonhosted.org/packages/ac/19/8ae29e24f53069ed31de34250da5d30b0a562c903855a74ca6795f4a986a/fluke_fl-0.0.4.tar.gz
+[2024-05-22 12:16:59] INFO root fetch - processPackages [txdpy]: Downloading https://files.pythonhosted.org/packages/35/71/6791e06a836643abe2c6d54b5b96f89caa007cb2eaf9c21166b31e014980/txdpy-7.7.2.tar.gz
+[2024-05-22 12:16:59] INFO root fetch - processPackages [dapla-statbank-client]: Downloading https://files.pythonhosted.org/packages/a8/47/2811c9923440e8b74d52664a84cfb915659f3da5aeb4199ecddd1c5a6456/dapla_statbank_client-1.2.3.tar.gz
+[2024-05-22 12:17:00] INFO root fetch - processPackages [fluke-fl]: Downloading https://files.pythonhosted.org/packages/6c/a8/9ec9281ea70b4a8e6b0e609b36f29fe3bb681b97b6535f68b8d379cf5eee/fluke_fl-0.0.5.tar.gz
+[2024-05-22 12:17:00] INFO root fetch - processPackages [txdpy]: executing diffoscope
+[2024-05-22 12:17:00] INFO root fetch - processPackages [txdpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txdpy-7.7.1.tar.gz tmp/txdpy-7.7.2.tar.gz --markdown 20240522/t/txdpy/7.7.1-7.7.2/README.md --exclude *.pyd
+[2024-05-22 12:17:00] INFO root fetch - processPackages [sertit]: Downloading https://files.pythonhosted.org/packages/59/69/cbc0654faac948effc31798c883e666bf607b99951a584b7d5d192a3f2e4/sertit-1.9.0.tar.gz
+[2024-05-22 12:17:00] INFO root fetch - processPackages [dapla-statbank-client]: executing diffoscope
+[2024-05-22 12:17:00] INFO root fetch - processPackages [dapla-statbank-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_statbank_client-1.2.2.tar.gz tmp/dapla_statbank_client-1.2.3.tar.gz --markdown 20240522/d/dapla-statbank-client/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-22 12:17:00] INFO root fetch - processPackages [sertit]: executing diffoscope
+[2024-05-22 12:17:00] INFO root fetch - processPackages [sertit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sertit-1.8.1.tar.gz tmp/sertit-1.9.0.tar.gz --markdown 20240522/s/sertit/1.8.1-1.9.0/README.md --exclude *.pyd
+[2024-05-22 12:17:00] INFO root fetch - processPackages [fluke-fl]: executing diffoscope
+[2024-05-22 12:17:00] INFO root fetch - processPackages [fluke-fl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluke_fl-0.0.4.tar.gz tmp/fluke_fl-0.0.5.tar.gz --markdown 20240522/f/fluke-fl/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-22 12:17:00] INFO root fetch - processPackages [txdpy]: Remove: archive file [/home/abi/fetcher/tmp/txdpy-7.7.1.tar.gz]
+[2024-05-22 12:17:00] INFO root fetch - processPackages [txdpy]: Remove: archive file [/home/abi/fetcher/tmp/txdpy-7.7.2.tar.gz]
+[2024-05-22 12:17:00] INFO root fetch - main [MainThread]: End processing [txdpy]: success
+[2024-05-22 12:17:00] INFO root fetch - processPackages [dapla-statbank-client]: Remove: archive file [/home/abi/fetcher/tmp/dapla_statbank_client-1.2.2.tar.gz]
+[2024-05-22 12:17:00] INFO root fetch - processPackages [dapla-statbank-client]: Remove: archive file [/home/abi/fetcher/tmp/dapla_statbank_client-1.2.3.tar.gz]
+[2024-05-22 12:17:00] INFO root fetch - main [MainThread]: End processing [dapla-statbank-client]: success
+[2024-05-22 12:17:00] INFO root fetch - processPackages [sertit]: Remove: archive file [/home/abi/fetcher/tmp/sertit-1.8.1.tar.gz]
+[2024-05-22 12:17:00] INFO root fetch - processPackages [sertit]: Remove: archive file [/home/abi/fetcher/tmp/sertit-1.9.0.tar.gz]
+[2024-05-22 12:17:00] INFO root fetch - main [MainThread]: End processing [sertit]: success
+[2024-05-22 12:17:00] INFO root fetch - processPackages [django-logikal]: Downloading https://files.pythonhosted.org/packages/b8/c8/275e27f909c537d4b9ec9722dce1d1beaef61e2bdb8c6aa0029ff4f6e2c7/django_logikal-3.2.0.tar.gz
+[2024-05-22 12:17:01] INFO root fetch - processPackages [fluke-fl]: Remove: archive file [/home/abi/fetcher/tmp/fluke_fl-0.0.4.tar.gz]
+[2024-05-22 12:17:01] INFO root fetch - processPackages [fluke-fl]: Remove: archive file [/home/abi/fetcher/tmp/fluke_fl-0.0.5.tar.gz]
+[2024-05-22 12:17:01] INFO root fetch - main [MainThread]: End processing [fluke-fl]: success
+[2024-05-22 12:17:01] INFO root fetch - processPackages [django-logikal]: executing diffoscope
+[2024-05-22 12:17:01] INFO root fetch - processPackages [django-logikal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-logikal-3.1.0.tar.gz tmp/django_logikal-3.2.0.tar.gz --markdown 20240522/d/django-logikal/3.1.0-3.2.0/README.md --exclude *.pyd
+[2024-05-22 12:17:02] INFO root fetch - processPackages [django-logikal]: Remove: archive file [/home/abi/fetcher/tmp/django-logikal-3.1.0.tar.gz]
+[2024-05-22 12:17:02] INFO root fetch - processPackages [django-logikal]: Remove: archive file [/home/abi/fetcher/tmp/django_logikal-3.2.0.tar.gz]
+[2024-05-22 12:17:02] INFO root fetch - main [MainThread]: End processing [django-logikal]: success
+[2024-05-22 12:17:02] INFO root fetch - main [MainThread]: Store serial: [23322360]

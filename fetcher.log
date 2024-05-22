@@ -11245,3 +11245,84 @@
 [2024-05-22 06:36:55] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-05-22 06:36:55] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-05-22 06:36:55] INFO root fetch - main [MainThread]: Store serial: [23318787]
+[2024-05-22 06:38:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318787]
+[2024-05-22 06:39:04] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-22 06:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqqq
+[2024-05-22 06:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartpredict
+[2024-05-22 06:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ivande-combiner
+[2024-05-22 06:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: protein-design-tools
+[2024-05-22 06:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bandicoincurrency
+[2024-05-22 06:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ms-entropy
+[2024-05-22 06:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llama-index-graph-stores-nebula
+[2024-05-22 06:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qtile-extras
+[2024-05-22 06:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: llama-index
+[2024-05-22 06:39:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-l10n-br-fiscal-dfe
+[2024-05-22 06:39:04] INFO root fetch - processPackages [ivande-combiner]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-22 06:39:04] WARNING root fetch - processPackages [bandicoincurrency]: Skipping, unable to determine old version
+[2024-05-22 06:39:04] INFO root fetch - main [MainThread]: End processing [bandicoincurrency] error
+[2024-05-22 06:39:04] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/ba/46/f0ee6bfd565cc326320fc9ecaf59557ca2bea1d803ce408cde89a8e43082/ivande_combiner-0.0.5.tar.gz
+[2024-05-22 06:39:04] INFO root fetch - processPackages [pyqqq]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-22 06:39:04] INFO root fetch - processPackages [protein-design-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 06:39:04] INFO root fetch - processPackages [llama-index-graph-stores-nebula]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-22 06:39:04] WARNING root fetch - processPackages [smartpredict]: Skipping, unable to determine old version
+[2024-05-22 06:39:04] INFO root fetch - processPackages [qtile-extras]: New version: [0.26.0] Old Version: [0.25.0]
+[2024-05-22 06:39:04] INFO root fetch - main [MainThread]: End processing [smartpredict] error
+[2024-05-22 06:39:04] INFO root fetch - processPackages [llama-index]: New version: [0.9.9] Old Version: [0.9.8.post1]
+[2024-05-22 06:39:04] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal-dfe]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2024-05-22 06:39:04] INFO root fetch - processPackages [ms-entropy]: New version: [1.2.0] Old Version: [1.1.3]
+[2024-05-22 06:39:05] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/96/27/924b59eac85aad2fc913e1a6e57ddfe954ff8d3a73d8370259e26751340c/pyqqq-0.9.8.tar.gz
+[2024-05-22 06:39:05] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/14/24/a1d06b818f3d46d7318b86f0334181bb8b9134f71856b2a0ca69ea24d040/protein_design_tools-0.1.8.tar.gz
+[2024-05-22 06:39:05] INFO root fetch - processPackages [llama-index-graph-stores-nebula]: Downloading https://files.pythonhosted.org/packages/cc/ff/0771cef37cb80a5289baa7e8ccb92d2e065716332b97bae8d0f360e3604b/llama_index_graph_stores_nebula-0.1.2.tar.gz
+[2024-05-22 06:39:05] INFO root fetch - processPackages [qtile-extras]: Downloading https://files.pythonhosted.org/packages/95/bd/1e15ce432bf8a6228d18c0b1519b511410119507ef9280ab30c8913b76dc/qtile-extras-0.25.0.tar.gz
+[2024-05-22 06:39:05] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/ff/05/5239ef88ab93061d5535beb6c21d17f0b463aa0c48c1c9baa8d0a5941098/llama_index-0.9.8.post1.tar.gz
+[2024-05-22 06:39:05] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal-dfe]: Downloading https://files.pythonhosted.org/packages/8b/5a/51f3938d642c2891d55c4d0bc0e72d5f57934c68f3a51bd89ebd639b0b07/odoo_addon_l10n_br_fiscal_dfe-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-22 06:39:05] INFO root fetch - processPackages [ms-entropy]: Downloading https://files.pythonhosted.org/packages/f9/19/0c8310b85cd5c2d63b05e1188a33a38e62709c3f6cbdd222a6bb9e61abf0/ms_entropy-1.1.3.tar.gz
+[2024-05-22 06:39:05] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/4f/68/1e80572a330b614390ec028d5b7d6ec41ae7188f49980af1f33d011fa9b9/ivande_combiner-0.0.6.tar.gz
+[2024-05-22 06:39:05] INFO root fetch - processPackages [ivande-combiner]: executing diffoscope
+[2024-05-22 06:39:05] INFO root fetch - processPackages [ivande-combiner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivande_combiner-0.0.5.tar.gz tmp/ivande_combiner-0.0.6.tar.gz --markdown 20240522/i/ivande-combiner/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-22 06:39:05] INFO root fetch - processPackages [llama-index-graph-stores-nebula]: Downloading https://files.pythonhosted.org/packages/ed/a6/d887b16c2284df44c60d39648818d9bb171fecf2656ba05902b11dc5b54c/llama_index_graph_stores_nebula-0.1.3.tar.gz
+[2024-05-22 06:39:05] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/55/e3/5119cecbdcf7969a494d1d075a49d3c9451653fd110f7a4d7b25d1fb4c48/pyqqq-0.9.9.tar.gz
+[2024-05-22 06:39:05] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/9c/73/da486d6ea5db2b79ee4188d258d6b13734e412cf0c16cc9d40d09900699d/protein_design_tools-0.1.9.tar.gz
+[2024-05-22 06:39:05] INFO root fetch - processPackages [llama-index-graph-stores-nebula]: executing diffoscope
+[2024-05-22 06:39:05] INFO root fetch - processPackages [llama-index-graph-stores-nebula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_graph_stores_nebula-0.1.2.tar.gz tmp/llama_index_graph_stores_nebula-0.1.3.tar.gz --markdown 20240522/l/llama-index-graph-stores-nebula/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-22 06:39:05] INFO root fetch - processPackages [ms-entropy]: Downloading https://files.pythonhosted.org/packages/c3/49/b17ec02a2d96113a1bc4e3a7c8af1d87ee7ddbfa10817d1d0ff03e41d330/ms_entropy-1.2.0.tar.gz
+[2024-05-22 06:39:05] INFO root fetch - processPackages [qtile-extras]: Downloading https://files.pythonhosted.org/packages/fa/33/cb16a895dab272ac7ea8ecc9ab17fd617e58b0404455e0a04330ab20ee4e/qtile_extras-0.26.0.tar.gz
+[2024-05-22 06:39:05] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/09/9b/6a7d14763cd2bdfe4705633fd1b850857e7c64d269c6cebd5d7bbc646187/llama_index-0.9.9.tar.gz
+[2024-05-22 06:39:05] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal-dfe]: Downloading https://files.pythonhosted.org/packages/41/e6/2e6e1cab156f94c81ccbbe5a73ed8b4e07ce816cd57185581815f397af19/odoo_addon_l10n_br_fiscal_dfe-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-22 06:39:05] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-05-22 06:39:05] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.9.8.tar.gz tmp/pyqqq-0.9.9.tar.gz --markdown 20240522/p/pyqqq/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-22 06:39:05] INFO root fetch - processPackages [protein-design-tools]: executing diffoscope
+[2024-05-22 06:39:05] INFO root fetch - processPackages [protein-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_design_tools-0.1.8.tar.gz tmp/protein_design_tools-0.1.9.tar.gz --markdown 20240522/p/protein-design-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 06:39:05] INFO root fetch - processPackages [ms-entropy]: executing diffoscope
+[2024-05-22 06:39:05] INFO root fetch - processPackages [ms-entropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_entropy-1.1.3.tar.gz tmp/ms_entropy-1.2.0.tar.gz --markdown 20240522/m/ms-entropy/1.1.3-1.2.0/README.md --exclude *.pyd
+[2024-05-22 06:39:05] INFO root fetch - processPackages [qtile-extras]: executing diffoscope
+[2024-05-22 06:39:05] INFO root fetch - processPackages [qtile-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtile-extras-0.25.0.tar.gz tmp/qtile_extras-0.26.0.tar.gz --markdown 20240522/q/qtile-extras/0.25.0-0.26.0/README.md --exclude *.pyd
+[2024-05-22 06:39:05] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal-dfe]: executing diffoscope
+[2024-05-22 06:39:05] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal-dfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_br_fiscal_dfe-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_l10n_br_fiscal_dfe-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-l10n-br-fiscal-dfe/16.0.1.0.0.5-16.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-22 06:39:06] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2024-05-22 06:39:06] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.9.8.post1.tar.gz tmp/llama_index-0.9.9.tar.gz --markdown 20240522/l/llama-index/0.9.8.post1-0.9.9/README.md --exclude *.pyd
+[2024-05-22 06:39:06] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.5.tar.gz]
+[2024-05-22 06:39:06] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.6.tar.gz]
+[2024-05-22 06:39:06] INFO root fetch - main [MainThread]: End processing [ivande-combiner]: success
+[2024-05-22 06:39:06] INFO root fetch - processPackages [llama-index-graph-stores-nebula]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_graph_stores_nebula-0.1.2.tar.gz]
+[2024-05-22 06:39:06] INFO root fetch - processPackages [llama-index-graph-stores-nebula]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_graph_stores_nebula-0.1.3.tar.gz]
+[2024-05-22 06:39:06] INFO root fetch - main [MainThread]: End processing [llama-index-graph-stores-nebula]: success
+[2024-05-22 06:39:06] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.8.tar.gz]
+[2024-05-22 06:39:06] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.9.tar.gz]
+[2024-05-22 06:39:06] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-05-22 06:39:06] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.8.tar.gz]
+[2024-05-22 06:39:06] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.9.tar.gz]
+[2024-05-22 06:39:06] INFO root fetch - main [MainThread]: End processing [protein-design-tools]: success
+[2024-05-22 06:39:06] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal-dfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_fiscal_dfe-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-22 06:39:06] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal-dfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_fiscal_dfe-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-22 06:39:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-fiscal-dfe]: success
+[2024-05-22 06:39:06] INFO root fetch - processPackages [ms-entropy]: Remove: archive file [/home/abi/fetcher/tmp/ms_entropy-1.1.3.tar.gz]
+[2024-05-22 06:39:06] INFO root fetch - processPackages [ms-entropy]: Remove: archive file [/home/abi/fetcher/tmp/ms_entropy-1.2.0.tar.gz]
+[2024-05-22 06:39:06] INFO root fetch - main [MainThread]: End processing [ms-entropy]: success
+[2024-05-22 06:39:07] INFO root fetch - processPackages [qtile-extras]: Remove: archive file [/home/abi/fetcher/tmp/qtile-extras-0.25.0.tar.gz]
+[2024-05-22 06:39:07] INFO root fetch - processPackages [qtile-extras]: Remove: archive file [/home/abi/fetcher/tmp/qtile_extras-0.26.0.tar.gz]
+[2024-05-22 06:39:07] INFO root fetch - main [MainThread]: End processing [qtile-extras]: success
+[2024-05-22 06:39:08] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.9.8.post1.tar.gz]
+[2024-05-22 06:39:08] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.9.9.tar.gz]
+[2024-05-22 06:39:08] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2024-05-22 06:39:08] INFO root fetch - main [MainThread]: Store serial: [23318815]

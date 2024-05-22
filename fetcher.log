@@ -16081,3 +16081,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:28:23] INFO root fetch - processPackages [stimulsoft-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/stimulsoft_dashboards-2024.2.6.tar.gz]
 [2024-05-22 10:28:23] INFO root fetch - main [MainThread]: End processing [stimulsoft-dashboards]: success
 [2024-05-22 10:28:23] INFO root fetch - main [MainThread]: Store serial: [23320870]
+[2024-05-22 10:30:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320870]
+[2024-05-22 10:30:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-22 10:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vnerrant
+[2024-05-22 10:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kr8s
+[2024-05-22 10:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DjangoSharepointStorage
+[2024-05-22 10:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: go-console
+[2024-05-22 10:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kubectl-ng
+[2024-05-22 10:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stereosite
+[2024-05-22 10:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: medkit-lib
+[2024-05-22 10:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chatllm
+[2024-05-22 10:30:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: freegenius
+[2024-05-22 10:30:35] INFO root fetch - processPackages [vnerrant]: New version: [1.0.1rc5] Old Version: [1.0.1rc4]
+[2024-05-22 10:30:35] INFO root fetch - processPackages [kr8s]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-22 10:30:35] INFO root fetch - processPackages [freegenius]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-22 10:30:35] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-22 10:30:35] INFO root fetch - processPackages [vnerrant]: Downloading https://files.pythonhosted.org/packages/41/ce/499c9162aa1297588004bae01a0c9c9d92175353a7bcf2bd20ebfa227cd3/vnerrant-1.0.1rc4.tar.gz
+[2024-05-22 10:30:35] INFO root fetch - processPackages [stereosite]: New version: [2.0.0] Old Version: [1.1.5]
+[2024-05-22 10:30:35] WARNING root fetch - processPackages [go-console]: Skipping, unable to determine old version
+[2024-05-22 10:30:35] INFO root fetch - main [MainThread]: End processing [go-console] error
+[2024-05-22 10:30:35] INFO root fetch - processPackages [DjangoSharepointStorage]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-22 10:30:35] INFO root fetch - processPackages [kubectl-ng]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-22 10:30:35] INFO root fetch - processPackages [medkit-lib]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-05-22 10:30:35] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/6d/c4/da598e484ee1d3f5408bf01f4b5cc03d0843cbc6dfe491b556565b1e1855/kr8s-0.9.1.tar.gz
+[2024-05-22 10:30:35] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/d5/ca/411a282eb501daf2e794cd1fb0f3e90fdbc6bf2302cf9c34892282b27dbc/freegenius-0.2.8.tar.gz
+[2024-05-22 10:30:35] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-22 10:30:35] INFO root fetch - processPackages [DjangoSharepointStorage]: Downloading https://files.pythonhosted.org/packages/5f/a6/573c97c4a33370a4da575438bd5d52a0adf058b489176673365ce9ade174/DjangoSharepointStorage-1.0.3.tar.gz
+[2024-05-22 10:30:35] INFO root fetch - processPackages [stereosite]: Downloading https://files.pythonhosted.org/packages/68/23/b3089df2c25ac9d8d04802cdce806f79cf78aa4674bce2c90a96608a1e5a/stereosite-1.1.5.tar.gz
+[2024-05-22 10:30:35] INFO root fetch - processPackages [kubectl-ng]: Downloading https://files.pythonhosted.org/packages/e6/c0/f112ed450eed19beca353dde9d3dc0aa757e4a2e805a89873bdb3800332c/kubectl_ng-0.9.1.tar.gz
+[2024-05-22 10:30:36] INFO root fetch - processPackages [medkit-lib]: Downloading https://files.pythonhosted.org/packages/74/4b/30398372f26b3c1966e0269a882f2f47924913150928d4ad67a5a616e377/medkit_lib-0.9.1.tar.gz
+[2024-05-22 10:30:36] INFO root fetch - processPackages [vnerrant]: Downloading https://files.pythonhosted.org/packages/5e/e1/bd8afd555e04fdb0a0f167442a575bf9c4933625e179bb24840acb655486/vnerrant-1.0.1rc5-py3-none-any.whl
+[2024-05-22 10:30:36] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-22 10:30:36] INFO root fetch - processPackages [DjangoSharepointStorage]: Downloading https://files.pythonhosted.org/packages/8e/5e/1040b418157d7c9cb4a27e84bb5551f8ec8fa8306e704bc12c532f878fc6/DjangoSharepointStorage-1.0.4.tar.gz
+[2024-05-22 10:30:36] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/6b/a4/70e83775e1ce789d4dc02753b52ab25f4dfcbea75b9a96cb64b001b88df1/kr8s-0.9.2.tar.gz
+[2024-05-22 10:30:36] INFO root fetch - processPackages [vnerrant]: executing diffoscope
+[2024-05-22 10:30:36] INFO root fetch - processPackages [vnerrant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnerrant-1.0.1rc4.tar.gz tmp/vnerrant-1.0.1rc5-py3-none-any.whl.zip --markdown 20240522/v/vnerrant/1.0.1rc4-1.0.1rc5/README.md --exclude *.pyd
+[2024-05-22 10:30:36] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-22 10:30:36] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240522/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-22 10:30:36] INFO root fetch - processPackages [DjangoSharepointStorage]: executing diffoscope
+[2024-05-22 10:30:36] INFO root fetch - processPackages [DjangoSharepointStorage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DjangoSharepointStorage-1.0.3.tar.gz tmp/DjangoSharepointStorage-1.0.4.tar.gz --markdown 20240522/D/DjangoSharepointStorage/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-22 10:30:36] INFO root fetch - processPackages [kr8s]: executing diffoscope
+[2024-05-22 10:30:36] INFO root fetch - processPackages [kr8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kr8s-0.9.1.tar.gz tmp/kr8s-0.9.2.tar.gz --markdown 20240522/k/kr8s/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-22 10:30:36] INFO root fetch - processPackages [stereosite]: Downloading https://files.pythonhosted.org/packages/bb/3d/39f0427aa42c715b7054a451850b7df66753e5a1dc1e398ecf5c9cf0985b/stereosite-2.0.0.tar.gz
+[2024-05-22 10:30:36] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/85/e0/79c8d3b405fbb09c8afb4fc4cba33e77303a57f60e90bbef2e19a2c5a73a/freegenius-0.2.9.tar.gz
+[2024-05-22 10:30:36] INFO root fetch - processPackages [medkit-lib]: Downloading https://files.pythonhosted.org/packages/70/f6/61a0acaf27d4fdaaca78a8cf0b5c78896e2916d091ef2560dc82c92f341f/medkit_lib-0.9.2.tar.gz
+[2024-05-22 10:30:36] INFO root fetch - processPackages [kubectl-ng]: Downloading https://files.pythonhosted.org/packages/83/74/bf599b59418567dbb7fcbb88d455496b1cf5da9a73b72d99ce9c0e2a906f/kubectl_ng-0.9.2.tar.gz
+[2024-05-22 10:30:36] INFO root fetch - processPackages [stereosite]: executing diffoscope
+[2024-05-22 10:30:36] INFO root fetch - processPackages [stereosite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stereosite-1.1.5.tar.gz tmp/stereosite-2.0.0.tar.gz --markdown 20240522/s/stereosite/1.1.5-2.0.0/README.md --exclude *.pyd
+[2024-05-22 10:30:36] INFO root fetch - processPackages [kubectl-ng]: executing diffoscope
+[2024-05-22 10:30:36] INFO root fetch - processPackages [kubectl-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubectl_ng-0.9.1.tar.gz tmp/kubectl_ng-0.9.2.tar.gz --markdown 20240522/k/kubectl-ng/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-22 10:30:36] INFO root fetch - processPackages [medkit-lib]: executing diffoscope
+[2024-05-22 10:30:36] INFO root fetch - processPackages [medkit-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medkit_lib-0.9.1.tar.gz tmp/medkit_lib-0.9.2.tar.gz --markdown 20240522/m/medkit-lib/0.9.1-0.9.2/README.md --exclude *.pyd
+[2024-05-22 10:30:36] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-05-22 10:30:36] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.2.8.tar.gz tmp/freegenius-0.2.9.tar.gz --markdown 20240522/f/freegenius/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-22 10:30:37] INFO root fetch - processPackages [DjangoSharepointStorage]: Remove: archive file [/home/abi/fetcher/tmp/DjangoSharepointStorage-1.0.3.tar.gz]
+[2024-05-22 10:30:37] INFO root fetch - processPackages [DjangoSharepointStorage]: Remove: archive file [/home/abi/fetcher/tmp/DjangoSharepointStorage-1.0.4.tar.gz]
+[2024-05-22 10:30:37] INFO root fetch - main [MainThread]: End processing [DjangoSharepointStorage]: success
+[2024-05-22 10:30:37] INFO root fetch - processPackages [kubectl-ng]: Remove: archive file [/home/abi/fetcher/tmp/kubectl_ng-0.9.1.tar.gz]
+[2024-05-22 10:30:37] INFO root fetch - processPackages [kubectl-ng]: Remove: archive file [/home/abi/fetcher/tmp/kubectl_ng-0.9.2.tar.gz]
+[2024-05-22 10:30:37] INFO root fetch - main [MainThread]: End processing [kubectl-ng]: success
+[2024-05-22 10:30:37] INFO root fetch - processPackages [stereosite]: Remove: archive file [/home/abi/fetcher/tmp/stereosite-1.1.5.tar.gz]
+[2024-05-22 10:30:37] INFO root fetch - processPackages [stereosite]: Remove: archive file [/home/abi/fetcher/tmp/stereosite-2.0.0.tar.gz]
+[2024-05-22 10:30:37] INFO root fetch - main [MainThread]: End processing [stereosite]: success
+[2024-05-22 10:30:37] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.9.1.tar.gz]
+[2024-05-22 10:30:37] INFO root fetch - processPackages [kr8s]: Remove: archive file [/home/abi/fetcher/tmp/kr8s-0.9.2.tar.gz]
+[2024-05-22 10:30:37] INFO root fetch - main [MainThread]: End processing [kr8s]: success
+[2024-05-22 10:30:37] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-22 10:30:37] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-22 10:30:37] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-22 10:30:38] INFO root fetch - processPackages [medkit-lib]: Remove: archive file [/home/abi/fetcher/tmp/medkit_lib-0.9.1.tar.gz]
+[2024-05-22 10:30:38] INFO root fetch - processPackages [medkit-lib]: Remove: archive file [/home/abi/fetcher/tmp/medkit_lib-0.9.2.tar.gz]
+[2024-05-22 10:30:38] INFO root fetch - main [MainThread]: End processing [medkit-lib]: success
+[2024-05-22 10:30:38] INFO root fetch - processPackages [vnerrant]: Remove: archive file [/home/abi/fetcher/tmp/vnerrant-1.0.1rc4.tar.gz]
+[2024-05-22 10:30:38] INFO root fetch - processPackages [vnerrant]: Remove: archive file [/home/abi/fetcher/tmp/vnerrant-1.0.1rc5-py3-none-any.whl.zip]
+[2024-05-22 10:30:38] INFO root fetch - main [MainThread]: End processing [vnerrant]: success
+[2024-05-22 10:30:38] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.8.tar.gz]
+[2024-05-22 10:30:38] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.9.tar.gz]
+[2024-05-22 10:30:38] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-05-22 10:30:38] INFO root fetch - main [MainThread]: Store serial: [23320897]

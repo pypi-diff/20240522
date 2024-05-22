@@ -9587,3 +9587,45 @@
 [2024-05-22 05:08:59] INFO root fetch - processPackages [hugchat]: Remove: archive file [/home/abi/fetcher/tmp/hugchat-0.4.6.tar.gz]
 [2024-05-22 05:08:59] INFO root fetch - main [MainThread]: End processing [hugchat]: success
 [2024-05-22 05:08:59] INFO root fetch - main [MainThread]: Store serial: [23318099]
+[2024-05-22 05:11:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318099]
+[2024-05-22 05:11:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 05:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydicomsorter
+[2024-05-22 05:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jses-environment
+[2024-05-22 05:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: direnumerate
+[2024-05-22 05:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-statement-import-sheet-file
+[2024-05-22 05:11:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyperbee
+[2024-05-22 05:11:08] INFO root fetch - processPackages [hyperbee]: New version: [0.0.2.3] Old Version: [0.0.2.2]
+[2024-05-22 05:11:08] INFO root fetch - processPackages [odoo-addon-account-statement-import-sheet-file]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.1.2]
+[2024-05-22 05:11:08] INFO root fetch - processPackages [pydicomsorter]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-05-22 05:11:08] INFO root fetch - processPackages [direnumerate]: New version: [4.0a1] Old Version: [3.3rc1]
+[2024-05-22 05:11:08] INFO root fetch - processPackages [odoo-addon-account-statement-import-sheet-file]: Downloading https://files.pythonhosted.org/packages/45/79/1c5387a556cfed702bb6bab87e26546ca688a63ae5bad93d4c4f6a3ed402/odoo_addon_account_statement_import_sheet_file-16.0.1.1.2-py3-none-any.whl
+[2024-05-22 05:11:08] INFO root fetch - processPackages [hyperbee]: Downloading https://files.pythonhosted.org/packages/1c/47/df156f043bef007406fd2732a6a688bc01f9099030b9b60216c678ee10a2/hyperbee-0.0.2.2.tar.gz
+[2024-05-22 05:11:08] INFO root fetch - processPackages [pydicomsorter]: Downloading https://files.pythonhosted.org/packages/d3/94/65902d6f084037cb4bd3c6a7f37ff3456e5c0004445bae05ee9a6828f7ea/pydicomsorter-0.5.2.tar.gz
+[2024-05-22 05:11:08] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/40/81/ec2035aa5ea2c13545d3cf5fc2e5fa23ceff70cf0cf173a9ea51b2c64cf6/direnumerate-3.3rc1.tar.gz
+[2024-05-22 05:11:08] WARNING root fetch - processPackages [jses-environment]: Skipping, unable to determine old version
+[2024-05-22 05:11:08] INFO root fetch - main [MainThread]: End processing [jses-environment] error
+[2024-05-22 05:11:08] INFO root fetch - processPackages [odoo-addon-account-statement-import-sheet-file]: Downloading https://files.pythonhosted.org/packages/47/72/f10d9ec4a9946ebf63c6c7399ab81a59d3f518bdd02ca6e09e60fde5c128/odoo_addon_account_statement_import_sheet_file-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-22 05:11:08] INFO root fetch - processPackages [hyperbee]: Downloading https://files.pythonhosted.org/packages/12/ed/90d30a56a24dd6828270983abad6fb4707bbad0d88d2c2724622c1685697/hyperbee-0.0.2.3.tar.gz
+[2024-05-22 05:11:08] INFO root fetch - processPackages [pydicomsorter]: Downloading https://files.pythonhosted.org/packages/1a/22/67b4d8ec542607f16015aedd37be57968ace520494d442d92145d6bd43e0/pydicomsorter-0.6.0.tar.gz
+[2024-05-22 05:11:08] INFO root fetch - processPackages [odoo-addon-account-statement-import-sheet-file]: executing diffoscope
+[2024-05-22 05:11:08] INFO root fetch - processPackages [odoo-addon-account-statement-import-sheet-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_statement_import_sheet_file-16.0.1.1.2-py3-none-any.whl.zip tmp/odoo_addon_account_statement_import_sheet_file-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-account-statement-import-sheet-file/16.0.1.1.2-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-22 05:11:08] INFO root fetch - processPackages [hyperbee]: executing diffoscope
+[2024-05-22 05:11:08] INFO root fetch - processPackages [hyperbee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperbee-0.0.2.2.tar.gz tmp/hyperbee-0.0.2.3.tar.gz --markdown 20240522/h/hyperbee/0.0.2.2-0.0.2.3/README.md --exclude *.pyd
+[2024-05-22 05:11:08] INFO root fetch - processPackages [pydicomsorter]: executing diffoscope
+[2024-05-22 05:11:08] INFO root fetch - processPackages [pydicomsorter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydicomsorter-0.5.2.tar.gz tmp/pydicomsorter-0.6.0.tar.gz --markdown 20240522/p/pydicomsorter/0.5.2-0.6.0/README.md --exclude *.pyd
+[2024-05-22 05:11:08] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/c7/6c/7d51613839eb3c4aba9c8e6b1ce5db7ead406e4191b1cf2c37b3601a5b8c/direnumerate-4.0a1.tar.gz
+[2024-05-22 05:11:08] INFO root fetch - processPackages [direnumerate]: executing diffoscope
+[2024-05-22 05:11:08] INFO root fetch - processPackages [direnumerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direnumerate-3.3rc1.tar.gz tmp/direnumerate-4.0a1.tar.gz --markdown 20240522/d/direnumerate/3.3rc1-4.0a1/README.md --exclude *.pyd
+[2024-05-22 05:11:09] INFO root fetch - processPackages [hyperbee]: Remove: archive file [/home/abi/fetcher/tmp/hyperbee-0.0.2.2.tar.gz]
+[2024-05-22 05:11:09] INFO root fetch - processPackages [hyperbee]: Remove: archive file [/home/abi/fetcher/tmp/hyperbee-0.0.2.3.tar.gz]
+[2024-05-22 05:11:09] INFO root fetch - main [MainThread]: End processing [hyperbee]: success
+[2024-05-22 05:11:09] INFO root fetch - processPackages [pydicomsorter]: Remove: archive file [/home/abi/fetcher/tmp/pydicomsorter-0.5.2.tar.gz]
+[2024-05-22 05:11:09] INFO root fetch - processPackages [pydicomsorter]: Remove: archive file [/home/abi/fetcher/tmp/pydicomsorter-0.6.0.tar.gz]
+[2024-05-22 05:11:09] INFO root fetch - main [MainThread]: End processing [pydicomsorter]: success
+[2024-05-22 05:11:09] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-3.3rc1.tar.gz]
+[2024-05-22 05:11:09] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-4.0a1.tar.gz]
+[2024-05-22 05:11:09] INFO root fetch - main [MainThread]: End processing [direnumerate]: success
+[2024-05-22 05:11:09] INFO root fetch - processPackages [odoo-addon-account-statement-import-sheet-file]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_sheet_file-16.0.1.1.2-py3-none-any.whl.zip]
+[2024-05-22 05:11:09] INFO root fetch - processPackages [odoo-addon-account-statement-import-sheet-file]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_statement_import_sheet_file-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-22 05:11:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-statement-import-sheet-file]: success
+[2024-05-22 05:11:09] INFO root fetch - main [MainThread]: Store serial: [23318112]

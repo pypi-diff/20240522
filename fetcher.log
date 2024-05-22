@@ -18099,3 +18099,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:31:26] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev8.tar.gz]
 [2024-05-22 11:31:26] INFO root fetch - main [MainThread]: End processing [udirect]: success
 [2024-05-22 11:31:26] INFO root fetch - main [MainThread]: Store serial: [23321648]
+[2024-05-22 11:33:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321648]
+[2024-05-22 11:33:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 11:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tq42-grpc-client
+[2024-05-22 11:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt2looker-bigquery
+[2024-05-22 11:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torchfunction
+[2024-05-22 11:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zytlib
+[2024-05-22 11:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MPSPEnv
+[2024-05-22 11:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: unittestreport-yami
+[2024-05-22 11:33:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: NMODL-nightly
+[2024-05-22 11:33:35] INFO root fetch - processPackages [unittestreport-yami]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-22 11:33:35] INFO root fetch - processPackages [tq42-grpc-client]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-22 11:33:35] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/73/04/559255ad21d09d9063d7840232594981f40e703933e6fe8773d464890bbd/unittestreport_yami-0.1.2.tar.gz
+[2024-05-22 11:33:35] INFO root fetch - processPackages [MPSPEnv]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-22 11:33:35] INFO root fetch - processPackages [torchfunction]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 11:33:35] INFO root fetch - processPackages [dbt2looker-bigquery]: New version: [0.12.9] Old Version: [0.12.8]
+[2024-05-22 11:33:35] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/f2/bc/b6b38a6e4dae6de52384d9e036f68f22c0dccd82b37b9bf4dcc753671afd/tq42_grpc_client-1.0.98.tar.gz
+[2024-05-22 11:33:35] INFO root fetch - processPackages [NMODL-nightly]: New version: [0.6.157] Old Version: [0.6.152]
+[2024-05-22 11:33:35] INFO root fetch - processPackages [zytlib]: New version: [0.3.343] Old Version: [0.3.342]
+[2024-05-22 11:33:35] INFO root fetch - processPackages [torchfunction]: Downloading https://files.pythonhosted.org/packages/b5/b3/3f3e4b50c929f618b0ed1fd98da2b8acf67142302d1dcec5c60e3bf8856d/torchfunction-0.0.8-py3-none-any.whl
+[2024-05-22 11:33:35] INFO root fetch - processPackages [dbt2looker-bigquery]: Downloading https://files.pythonhosted.org/packages/a2/5e/47d9a54dcbb9c570b32f148922b1d5fd6ff37025e967603c427d53d688f5/dbt2looker_bigquery-0.12.8.tar.gz
+[2024-05-22 11:33:35] INFO root fetch - processPackages [MPSPEnv]: Downloading https://files.pythonhosted.org/packages/40/03/79318a99c80eb867dc2b2c4611794d8ac4afcb3f54e22bf8b7cac78fef40/mpspenv-0.1.2.tar.gz
+[2024-05-22 11:33:35] INFO root fetch - processPackages [tq42-grpc-client]: Downloading https://files.pythonhosted.org/packages/c5/9d/1449160d0c285ac0d5baa8e0b780b4be4873244452a54befd42e6224614c/tq42_grpc_client-1.0.99.tar.gz
+[2024-05-22 11:33:35] INFO root fetch - processPackages [zytlib]: Downloading https://files.pythonhosted.org/packages/0c/d2/c7853b71e0455c3046c189f3bf0aef75525443ede0317ec919906e17718c/zytlib-0.3.342-py3-none-any.whl
+[2024-05-22 11:33:35] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/00/f3/92090d1f94a80ddc2a849d2fb43c134807570a5064f036d4ff617fa33a5d/nmodl_nightly-0.6.152-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-22 11:33:35] INFO root fetch - processPackages [unittestreport-yami]: Downloading https://files.pythonhosted.org/packages/ef/bf/73116901d49192027d7da78447605a5765c0250c284eb9dc56ce186a1e23/unittestreport_yami-0.1.3.tar.gz
+[2024-05-22 11:33:35] INFO root fetch - processPackages [tq42-grpc-client]: executing diffoscope
+[2024-05-22 11:33:35] INFO root fetch - processPackages [tq42-grpc-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42_grpc_client-1.0.98.tar.gz tmp/tq42_grpc_client-1.0.99.tar.gz --markdown 20240522/t/tq42-grpc-client/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-22 11:33:36] INFO root fetch - processPackages [unittestreport-yami]: executing diffoscope
+[2024-05-22 11:33:36] INFO root fetch - processPackages [unittestreport-yami]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unittestreport_yami-0.1.2.tar.gz tmp/unittestreport_yami-0.1.3.tar.gz --markdown 20240522/u/unittestreport-yami/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-22 11:33:36] INFO root fetch - processPackages [dbt2looker-bigquery]: Downloading https://files.pythonhosted.org/packages/b6/3b/96d5c8ec5203143a9bd03c856f7b8a75f6f5f119206cec2d3a5ac52f1b3f/dbt2looker_bigquery-0.12.9.tar.gz
+[2024-05-22 11:33:36] INFO root fetch - processPackages [MPSPEnv]: Downloading https://files.pythonhosted.org/packages/77/84/b8909b1fc341a4c00ea584b966ed2082280c25149d965d3f5da41212f637/mpspenv-0.1.3.tar.gz
+[2024-05-22 11:33:36] INFO root fetch - processPackages [torchfunction]: Downloading https://files.pythonhosted.org/packages/3f/d4/5051f6556eff0a10ac54966db5c2fa22655608084db6a66f2c8267031c10/torchfunction-0.0.9-py3-none-any.whl
+[2024-05-22 11:33:36] INFO root fetch - processPackages [zytlib]: Downloading https://files.pythonhosted.org/packages/f5/0d/c4d77b62a7f39a43a8427aa71fab26b0b49525b830229cc64fa23d734ec4/zytlib-0.3.343-py3-none-any.whl
+[2024-05-22 11:33:36] INFO root fetch - processPackages [MPSPEnv]: executing diffoscope
+[2024-05-22 11:33:36] INFO root fetch - processPackages [MPSPEnv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpspenv-0.1.2.tar.gz tmp/mpspenv-0.1.3.tar.gz --markdown 20240522/M/MPSPEnv/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-22 11:33:36] INFO root fetch - processPackages [dbt2looker-bigquery]: executing diffoscope
+[2024-05-22 11:33:36] INFO root fetch - processPackages [dbt2looker-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt2looker_bigquery-0.12.8.tar.gz tmp/dbt2looker_bigquery-0.12.9.tar.gz --markdown 20240522/d/dbt2looker-bigquery/0.12.8-0.12.9/README.md --exclude *.pyd
+[2024-05-22 11:33:36] INFO root fetch - processPackages [torchfunction]: executing diffoscope
+[2024-05-22 11:33:36] INFO root fetch - processPackages [torchfunction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchfunction-0.0.8-py3-none-any.whl.zip tmp/torchfunction-0.0.9-py3-none-any.whl.zip --markdown 20240522/t/torchfunction/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 11:33:36] INFO root fetch - processPackages [zytlib]: executing diffoscope
+[2024-05-22 11:33:36] INFO root fetch - processPackages [zytlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zytlib-0.3.342-py3-none-any.whl.zip tmp/zytlib-0.3.343-py3-none-any.whl.zip --markdown 20240522/z/zytlib/0.3.342-0.3.343/README.md --exclude *.pyd
+[2024-05-22 11:33:36] INFO root fetch - processPackages [NMODL-nightly]: Downloading https://files.pythonhosted.org/packages/be/48/e2fd161d2fa41d49e991c02729d91cc41e3f9a0f7ae9b94bb3037bbc37fc/nmodl_nightly-0.6.157-cp39-cp39-macosx_10_15_x86_64.whl
+[2024-05-22 11:33:36] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.2.tar.gz]
+[2024-05-22 11:33:36] INFO root fetch - processPackages [unittestreport-yami]: Remove: archive file [/home/abi/fetcher/tmp/unittestreport_yami-0.1.3.tar.gz]
+[2024-05-22 11:33:36] INFO root fetch - main [MainThread]: End processing [unittestreport-yami]: success
+[2024-05-22 11:33:37] INFO root fetch - processPackages [MPSPEnv]: Remove: archive file [/home/abi/fetcher/tmp/mpspenv-0.1.2.tar.gz]
+[2024-05-22 11:33:37] INFO root fetch - processPackages [MPSPEnv]: Remove: archive file [/home/abi/fetcher/tmp/mpspenv-0.1.3.tar.gz]
+[2024-05-22 11:33:37] INFO root fetch - main [MainThread]: End processing [MPSPEnv]: success
+[2024-05-22 11:33:37] INFO root fetch - processPackages [torchfunction]: Remove: archive file [/home/abi/fetcher/tmp/torchfunction-0.0.8-py3-none-any.whl.zip]
+[2024-05-22 11:33:37] INFO root fetch - processPackages [torchfunction]: Remove: archive file [/home/abi/fetcher/tmp/torchfunction-0.0.9-py3-none-any.whl.zip]
+[2024-05-22 11:33:37] INFO root fetch - main [MainThread]: End processing [torchfunction]: success
+[2024-05-22 11:33:37] INFO root fetch - processPackages [zytlib]: Remove: archive file [/home/abi/fetcher/tmp/zytlib-0.3.342-py3-none-any.whl.zip]
+[2024-05-22 11:33:37] INFO root fetch - processPackages [zytlib]: Remove: archive file [/home/abi/fetcher/tmp/zytlib-0.3.343-py3-none-any.whl.zip]
+[2024-05-22 11:33:37] INFO root fetch - main [MainThread]: End processing [zytlib]: success
+[2024-05-22 11:33:37] INFO root fetch - processPackages [dbt2looker-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/dbt2looker_bigquery-0.12.8.tar.gz]
+[2024-05-22 11:33:37] INFO root fetch - processPackages [dbt2looker-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/dbt2looker_bigquery-0.12.9.tar.gz]
+[2024-05-22 11:33:37] INFO root fetch - main [MainThread]: End processing [dbt2looker-bigquery]: success
+[2024-05-22 11:33:37] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.98.tar.gz]
+[2024-05-22 11:33:37] INFO root fetch - processPackages [tq42-grpc-client]: Remove: archive file [/home/abi/fetcher/tmp/tq42_grpc_client-1.0.99.tar.gz]
+[2024-05-22 11:33:37] INFO root fetch - main [MainThread]: End processing [tq42-grpc-client]: success
+[2024-05-22 11:33:38] INFO root fetch - processPackages [NMODL-nightly]: executing diffoscope
+[2024-05-22 11:33:38] INFO root fetch - processPackages [NMODL-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nmodl_nightly-0.6.152-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nmodl_nightly-0.6.157-cp39-cp39-macosx_10_15_x86_64.whl.zip --markdown 20240522/N/NMODL-nightly/0.6.152-0.6.157/README.md --exclude *.pyd
+[2024-05-22 11:33:41] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nmodl_nightly-0.6.152-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-22 11:33:41] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nmodl_nightly-0.6.157-cp39-cp39-macosx_10_15_x86_64.whl.zip]
+[2024-05-22 11:33:41] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
+[2024-05-22 11:33:41] INFO root fetch - main [MainThread]: Store serial: [23321669]

@@ -9309,3 +9309,38 @@
 [2024-05-22 04:55:59] INFO root fetch - processPackages [libdaw]: Remove: archive file [/home/abi/fetcher/tmp/libdaw-0.2.3.tar.gz]
 [2024-05-22 04:55:59] INFO root fetch - main [MainThread]: End processing [libdaw]: success
 [2024-05-22 04:55:59] INFO root fetch - main [MainThread]: Store serial: [23317943]
+[2024-05-22 04:58:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317943]
+[2024-05-22 04:58:08] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-22 05:00:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317952]
+[2024-05-22 05:00:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 05:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: baseball
+[2024-05-22 05:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jacksung
+[2024-05-22 05:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: commitizen
+[2024-05-22 05:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pushoverwrap
+[2024-05-22 05:00:13] WARNING root fetch - processPackages [pushoverwrap]: Skipping, unable to determine old version
+[2024-05-22 05:00:13] INFO root fetch - main [MainThread]: End processing [pushoverwrap] error
+[2024-05-22 05:00:13] INFO root fetch - processPackages [jacksung]: New version: [0.0.2.99] Old Version: [0.0.2.98]
+[2024-05-22 05:00:13] INFO root fetch - processPackages [baseball]: New version: [9.9] Old Version: [9.8]
+[2024-05-22 05:00:13] INFO root fetch - processPackages [jacksung]: Downloading https://files.pythonhosted.org/packages/53/49/29d6064a8fb6ccc0f6823e713582dc73298157d8802aa60a65240347ef14/jacksung-0.0.2.98.tar.gz
+[2024-05-22 05:00:13] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/04/2a/8b198995c2f8d35c19f4b1e0e6c5c067e955f1258d57c1b1341eab88715e/baseball-9.8.tar.gz
+[2024-05-22 05:00:13] INFO root fetch - processPackages [commitizen]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-22 05:00:14] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/44/a7/117033ebdea50528ddcf8657f5e166b266c2509b4db9629819aa259707ef/commitizen-3.9.0.tar.gz
+[2024-05-22 05:00:14] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/1a/e0/fb3c48a01fd33034695694663cfddfb7a099e47f8aa30dc6c901a5fcee37/baseball-9.9.tar.gz
+[2024-05-22 05:00:14] INFO root fetch - processPackages [jacksung]: Downloading https://files.pythonhosted.org/packages/b5/22/0dfab66df22ada378e333e97f6287eef4c68d06fd84d4bc9a8d76c3ba65e/jacksung-0.0.2.99.tar.gz
+[2024-05-22 05:00:14] INFO root fetch - processPackages [baseball]: executing diffoscope
+[2024-05-22 05:00:14] INFO root fetch - processPackages [baseball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseball-9.8.tar.gz tmp/baseball-9.9.tar.gz --markdown 20240522/b/baseball/9.8-9.9/README.md --exclude *.pyd
+[2024-05-22 05:00:14] INFO root fetch - processPackages [jacksung]: executing diffoscope
+[2024-05-22 05:00:14] INFO root fetch - processPackages [jacksung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jacksung-0.0.2.98.tar.gz tmp/jacksung-0.0.2.99.tar.gz --markdown 20240522/j/jacksung/0.0.2.98-0.0.2.99/README.md --exclude *.pyd
+[2024-05-22 05:00:14] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.8.tar.gz]
+[2024-05-22 05:00:14] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.9.tar.gz]
+[2024-05-22 05:00:14] INFO root fetch - main [MainThread]: End processing [baseball]: success
+[2024-05-22 05:00:14] INFO root fetch - processPackages [jacksung]: Remove: archive file [/home/abi/fetcher/tmp/jacksung-0.0.2.98.tar.gz]
+[2024-05-22 05:00:14] INFO root fetch - processPackages [jacksung]: Remove: archive file [/home/abi/fetcher/tmp/jacksung-0.0.2.99.tar.gz]
+[2024-05-22 05:00:14] INFO root fetch - main [MainThread]: End processing [jacksung]: success
+[2024-05-22 05:00:14] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/1e/db/0711734fc2cd7bb61b915fe0e6734a910f900fa860dc99d4509ee5bbf292/commitizen-3.9.1.tar.gz
+[2024-05-22 05:00:15] INFO root fetch - processPackages [commitizen]: executing diffoscope
+[2024-05-22 05:00:15] INFO root fetch - processPackages [commitizen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commitizen-3.9.0.tar.gz tmp/commitizen-3.9.1.tar.gz --markdown 20240522/c/commitizen/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-22 05:00:15] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.9.0.tar.gz]
+[2024-05-22 05:00:15] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.9.1.tar.gz]
+[2024-05-22 05:00:15] INFO root fetch - main [MainThread]: End processing [commitizen]: success
+[2024-05-22 05:00:15] INFO root fetch - main [MainThread]: Store serial: [23317963]

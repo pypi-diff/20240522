@@ -7927,3 +7927,38 @@
 [2024-05-22 03:56:56] INFO root fetch - processPackages [mktdata]: Remove: archive file [/home/abi/fetcher/tmp/mktdata-0.0.2.tar.gz]
 [2024-05-22 03:56:56] INFO root fetch - main [MainThread]: End processing [mktdata]: success
 [2024-05-22 03:56:56] INFO root fetch - main [MainThread]: Store serial: [23317357]
+[2024-05-22 03:58:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317357]
+[2024-05-22 03:59:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 03:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpioc
+[2024-05-22 03:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-core
+[2024-05-22 03:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myscale-callback
+[2024-05-22 03:59:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-osubot
+[2024-05-22 03:59:04] INFO root fetch - processPackages [llama-index-core]: New version: [0.9.56] Old Version: [0.9.55]
+[2024-05-22 03:59:04] INFO root fetch - processPackages [myscale-callback]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-22 03:59:04] INFO root fetch - processPackages [gpioc]: New version: [1.2] Old Version: [1.1]
+[2024-05-22 03:59:04] INFO root fetch - processPackages [llama-index-core]: Downloading https://files.pythonhosted.org/packages/cb/c2/9d70e1ea21c2760f049ed87f06333bc85bc3afb95daa8f1cc6f9bce744ed/llama_index_core-0.9.55.tar.gz
+[2024-05-22 03:59:04] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.2.2] Old Version: [6.2.1]
+[2024-05-22 03:59:05] INFO root fetch - processPackages [myscale-callback]: Downloading https://files.pythonhosted.org/packages/c9/07/55c8ee33ef10152d66b3a65b31176739dd25d012ada1248db5840802ffd0/myscale_callback-0.1.0.tar.gz
+[2024-05-22 03:59:05] INFO root fetch - processPackages [gpioc]: Downloading https://files.pythonhosted.org/packages/bd/d5/76f534f9123fa328b9b8e7a6bbca23df82c92b55054576d27e7410634a9b/gpioc-1.1.tar.gz
+[2024-05-22 03:59:05] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/73/fc/9f06394b444f39495f0b9e2e4d4a4be0fa7c2b82bb9caecc8edeeb47a047/nonebot-plugin-osubot-6.2.1.tar.gz
+[2024-05-22 03:59:05] INFO root fetch - processPackages [llama-index-core]: Downloading https://files.pythonhosted.org/packages/91/1b/bae52b894555c97848977c73e4a3a778ca388b07a2435d3a33c1133bd678/llama_index_core-0.9.56.tar.gz
+[2024-05-22 03:59:05] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29388695>=10485760
+[2024-05-22 03:59:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-22 03:59:05] INFO root fetch - processPackages [llama-index-core]: executing diffoscope
+[2024-05-22 03:59:05] INFO root fetch - processPackages [llama-index-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_core-0.9.55.tar.gz tmp/llama_index_core-0.9.56.tar.gz --markdown 20240522/l/llama-index-core/0.9.55-0.9.56/README.md --exclude *.pyd
+[2024-05-22 03:59:05] INFO root fetch - processPackages [myscale-callback]: Downloading https://files.pythonhosted.org/packages/e7/fa/2d8b0b22ede165f35fd9ba964ab8b3b81ed293695b331bc2cf1a2c709f5b/myscale_callback-0.2.0.tar.gz
+[2024-05-22 03:59:05] INFO root fetch - processPackages [gpioc]: Downloading https://files.pythonhosted.org/packages/f7/e9/efc47f66839566da518923e03aa7d67a50ee2005b434455e2ace47386eca/gpioc-1.2.tar.gz
+[2024-05-22 03:59:05] INFO root fetch - processPackages [myscale-callback]: executing diffoscope
+[2024-05-22 03:59:05] INFO root fetch - processPackages [myscale-callback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myscale_callback-0.1.0.tar.gz tmp/myscale_callback-0.2.0.tar.gz --markdown 20240522/m/myscale-callback/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-22 03:59:05] INFO root fetch - processPackages [gpioc]: executing diffoscope
+[2024-05-22 03:59:05] INFO root fetch - processPackages [gpioc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpioc-1.1.tar.gz tmp/gpioc-1.2.tar.gz --markdown 20240522/g/gpioc/1.1-1.2/README.md --exclude *.pyd
+[2024-05-22 03:59:06] INFO root fetch - processPackages [myscale-callback]: Remove: archive file [/home/abi/fetcher/tmp/myscale_callback-0.1.0.tar.gz]
+[2024-05-22 03:59:06] INFO root fetch - processPackages [myscale-callback]: Remove: archive file [/home/abi/fetcher/tmp/myscale_callback-0.2.0.tar.gz]
+[2024-05-22 03:59:06] INFO root fetch - main [MainThread]: End processing [myscale-callback]: success
+[2024-05-22 03:59:06] INFO root fetch - processPackages [gpioc]: Remove: archive file [/home/abi/fetcher/tmp/gpioc-1.1.tar.gz]
+[2024-05-22 03:59:06] INFO root fetch - processPackages [gpioc]: Remove: archive file [/home/abi/fetcher/tmp/gpioc-1.2.tar.gz]
+[2024-05-22 03:59:06] INFO root fetch - main [MainThread]: End processing [gpioc]: success
+[2024-05-22 03:59:06] INFO root fetch - processPackages [llama-index-core]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_core-0.9.55.tar.gz]
+[2024-05-22 03:59:06] INFO root fetch - processPackages [llama-index-core]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_core-0.9.56.tar.gz]
+[2024-05-22 03:59:06] INFO root fetch - main [MainThread]: End processing [llama-index-core]: success
+[2024-05-22 03:59:06] INFO root fetch - main [MainThread]: Store serial: [23317374]

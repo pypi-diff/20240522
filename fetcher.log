@@ -21356,3 +21356,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 13:32:43] INFO root fetch - processPackages [sparse]: Remove: archive file [/home/abi/fetcher/tmp/sparse-0.9.1.tar.gz]
 [2024-05-22 13:32:43] INFO root fetch - main [MainThread]: End processing [sparse]: success
 [2024-05-22 13:32:43] INFO root fetch - main [MainThread]: Store serial: [23323189]
+[2024-05-22 13:34:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323189]
+[2024-05-22 13:34:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-22 13:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-radiance
+[2024-05-22 13:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: karp-lex-types
+[2024-05-22 13:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloud-radar
+[2024-05-22 13:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: danila-lib
+[2024-05-22 13:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FlowVisor
+[2024-05-22 13:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clabe_pydantic2
+[2024-05-22 13:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchsnapshot-nightly
+[2024-05-22 13:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-heroku-connect
+[2024-05-22 13:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: leadguru-jobs
+[2024-05-22 13:34:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: honeybee-radiance-postprocess
+[2024-05-22 13:34:53] INFO root fetch - processPackages [karp-lex-types]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-22 13:34:53] WARNING root fetch - processPackages [clabe_pydantic2]: Skipping, unable to determine old version
+[2024-05-22 13:34:53] INFO root fetch - main [MainThread]: End processing [clabe_pydantic2] error
+[2024-05-22 13:34:53] INFO root fetch - processPackages [cloud-radar]: New version: [0.9.2a9] Old Version: [0.9.2a8]
+[2024-05-22 13:34:53] INFO root fetch - processPackages [FlowVisor]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-22 13:34:53] INFO root fetch - processPackages [danila-lib]: New version: [1.7.4] Old Version: [1.7.3]
+[2024-05-22 13:34:53] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-22 13:34:53] INFO root fetch - processPackages [karp-lex-types]: Downloading https://files.pythonhosted.org/packages/bd/52/7e1a7a270cf9a03285769028b4164e42c76817418b929a6b56e652d1af70/karp_lex_types-0.7.0.tar.gz
+[2024-05-22 13:34:53] INFO root fetch - processPackages [django-heroku-connect]: New version: [3.0.0] Old Version: [2.0.0]
+[2024-05-22 13:34:53] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-22 13:34:53] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2024-05-22 13:34:53] INFO root fetch - processPackages [FlowVisor]: Downloading https://files.pythonhosted.org/packages/cf/71/0705800dc4cbd5473ca83afa75120c054301cd3898daff1b446a00421d95/FlowVisor-0.2.0.tar.gz
+[2024-05-22 13:34:53] INFO root fetch - processPackages [torchsnapshot-nightly]: New version: [2024.5.22] Old Version: [2024.5.21]
+[2024-05-22 13:34:53] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/d4/50/5ffa56aed5241d420fd917c5adec58faa0498e2ec1a356da73a3a361e92e/cloud_radar-0.9.2a8.tar.gz
+[2024-05-22 13:34:53] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/e2/9c/a53b08d1585044c30baff13e7d7694201bb5327672bffdf7e31e5cbe0b28/danila-lib-1.7.3.tar.gz
+[2024-05-22 13:34:53] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-05-22 13:34:53] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/b6/91/e656cf214b08dde444b27576e74fc06004fa6bbc0d5f04f1d6514eb05429/honeybee-radiance-postprocess-0.4.98.tar.gz
+[2024-05-22 13:34:53] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a2/41/805cddd3de27bfc114d3b54bbf0a558b1d450bb0bc346c8bbfc9f9e1ca04/dragonfly-radiance-0.3.8.tar.gz
+[2024-05-22 13:34:53] INFO root fetch - processPackages [django-heroku-connect]: Downloading https://files.pythonhosted.org/packages/36/e7/ea427e7dcd26ee24f06022da02cd71c26b827e27eb9b1892c16aaaafe705/django_heroku_connect-2.0.0.tar.gz
+[2024-05-22 13:34:53] INFO root fetch - processPackages [FlowVisor]: Downloading https://files.pythonhosted.org/packages/43/1f/a445bb2202e657b43ec3795f51324544fedcc5ab1cf32b2b804e9fcb1a96/FlowVisor-0.2.1.tar.gz
+[2024-05-22 13:34:53] INFO root fetch - processPackages [torchsnapshot-nightly]: Downloading https://files.pythonhosted.org/packages/a2/3e/9642ab33962cb93ae29936eb89a93f52c40f88233bd8d116e3ca1500b670/torchsnapshot_nightly-2024.5.21.tar.gz
+[2024-05-22 13:34:53] INFO root fetch - processPackages [cloud-radar]: Downloading https://files.pythonhosted.org/packages/1b/c7/d74961c32ba47f9ac9e0f7f3733509da22134c16067776e37ab9c3b7f607/cloud_radar-0.9.2a9.tar.gz
+[2024-05-22 13:34:53] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-05-22 13:34:53] INFO root fetch - processPackages [karp-lex-types]: Downloading https://files.pythonhosted.org/packages/46/34/78cf77798d28d863afed6d27fddb70773e70e66b0731a9735a5ae9fb9f55/karp_lex_types-0.7.1.tar.gz
+[2024-05-22 13:34:53] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/a0/36/d9bd10d2c167dd0fc22f575762f4c29f4da956627a9fd5b4af6385e37b67/danila-lib-1.7.4.tar.gz
+[2024-05-22 13:34:53] INFO root fetch - processPackages [FlowVisor]: executing diffoscope
+[2024-05-22 13:34:53] INFO root fetch - processPackages [FlowVisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlowVisor-0.2.0.tar.gz tmp/FlowVisor-0.2.1.tar.gz --markdown 20240522/F/FlowVisor/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-22 13:34:54] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-05-22 13:34:54] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240522/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-22 13:34:54] INFO root fetch - processPackages [cloud-radar]: executing diffoscope
+[2024-05-22 13:34:54] INFO root fetch - processPackages [cloud-radar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud_radar-0.9.2a8.tar.gz tmp/cloud_radar-0.9.2a9.tar.gz --markdown 20240522/c/cloud-radar/0.9.2a8-0.9.2a9/README.md --exclude *.pyd
+[2024-05-22 13:34:54] INFO root fetch - processPackages [karp-lex-types]: executing diffoscope
+[2024-05-22 13:34:54] INFO root fetch - processPackages [karp-lex-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karp_lex_types-0.7.0.tar.gz tmp/karp_lex_types-0.7.1.tar.gz --markdown 20240522/k/karp-lex-types/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-22 13:34:54] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-22 13:34:54] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.7.3.tar.gz tmp/danila-lib-1.7.4.tar.gz --markdown 20240522/d/danila-lib/1.7.3-1.7.4/README.md --exclude *.pyd
+[2024-05-22 13:34:54] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a9/93/8933c5c67b8d336f624b3e7f9cb128678c38867dac08b6bb30a824b7cb3d/dragonfly-radiance-0.3.9.tar.gz
+[2024-05-22 13:34:54] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/e0/41/5be881e0724bb4d271ee5bb707666eff4c4b9ca79bc8c67f7316687d2f67/honeybee-radiance-postprocess-0.4.99.tar.gz
+[2024-05-22 13:34:54] INFO root fetch - processPackages [torchsnapshot-nightly]: Downloading https://files.pythonhosted.org/packages/ac/1e/792eb97740d8339d904f0abe6931c6d3bb14e20a190d364fdf1bbf786233/torchsnapshot_nightly-2024.5.22.tar.gz
+[2024-05-22 13:34:54] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2024-05-22 13:34:54] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.3.8.tar.gz tmp/dragonfly-radiance-0.3.9.tar.gz --markdown 20240522/d/dragonfly-radiance/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-22 13:34:54] INFO root fetch - processPackages [django-heroku-connect]: Downloading https://files.pythonhosted.org/packages/96/c0/68f6e7efc15d25dd1f7bab7e487dbf7142320c81e8610fc07b6772ed23f8/django_heroku_connect-3.0.0.tar.gz
+[2024-05-22 13:34:54] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2024-05-22 13:34:54] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20240522/h/honeybee-radiance-postprocess/0.4.98-0.4.99/README.md --exclude *.pyd
+[2024-05-22 13:34:54] INFO root fetch - processPackages [torchsnapshot-nightly]: executing diffoscope
+[2024-05-22 13:34:54] INFO root fetch - processPackages [torchsnapshot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchsnapshot_nightly-2024.5.21.tar.gz tmp/torchsnapshot_nightly-2024.5.22.tar.gz --markdown 20240522/t/torchsnapshot-nightly/2024.5.21-2024.5.22/README.md --exclude *.pyd
+[2024-05-22 13:34:54] INFO root fetch - processPackages [django-heroku-connect]: executing diffoscope
+[2024-05-22 13:34:54] INFO root fetch - processPackages [django-heroku-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_heroku_connect-2.0.0.tar.gz tmp/django_heroku_connect-3.0.0.tar.gz --markdown 20240522/d/django-heroku-connect/2.0.0-3.0.0/README.md --exclude *.pyd
+[2024-05-22 13:34:55] INFO root fetch - processPackages [FlowVisor]: Remove: archive file [/home/abi/fetcher/tmp/FlowVisor-0.2.0.tar.gz]
+[2024-05-22 13:34:55] INFO root fetch - processPackages [FlowVisor]: Remove: archive file [/home/abi/fetcher/tmp/FlowVisor-0.2.1.tar.gz]
+[2024-05-22 13:34:55] INFO root fetch - main [MainThread]: End processing [FlowVisor]: success
+[2024-05-22 13:34:55] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-05-22 13:34:55] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-05-22 13:34:55] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-05-22 13:34:55] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.8.tar.gz]
+[2024-05-22 13:34:55] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.9.tar.gz]
+[2024-05-22 13:34:55] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2024-05-22 13:34:55] INFO root fetch - processPackages [cloud-radar]: Remove: archive file [/home/abi/fetcher/tmp/cloud_radar-0.9.2a8.tar.gz]
+[2024-05-22 13:34:55] INFO root fetch - processPackages [cloud-radar]: Remove: archive file [/home/abi/fetcher/tmp/cloud_radar-0.9.2a9.tar.gz]
+[2024-05-22 13:34:55] INFO root fetch - main [MainThread]: End processing [cloud-radar]: success
+[2024-05-22 13:34:55] INFO root fetch - processPackages [karp-lex-types]: Remove: archive file [/home/abi/fetcher/tmp/karp_lex_types-0.7.0.tar.gz]
+[2024-05-22 13:34:55] INFO root fetch - processPackages [karp-lex-types]: Remove: archive file [/home/abi/fetcher/tmp/karp_lex_types-0.7.1.tar.gz]
+[2024-05-22 13:34:55] INFO root fetch - main [MainThread]: End processing [karp-lex-types]: success
+[2024-05-22 13:34:55] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.7.3.tar.gz]
+[2024-05-22 13:34:55] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.7.4.tar.gz]
+[2024-05-22 13:34:55] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-22 13:34:55] INFO root fetch - processPackages [django-heroku-connect]: Remove: archive file [/home/abi/fetcher/tmp/django_heroku_connect-2.0.0.tar.gz]
+[2024-05-22 13:34:55] INFO root fetch - processPackages [django-heroku-connect]: Remove: archive file [/home/abi/fetcher/tmp/django_heroku_connect-3.0.0.tar.gz]
+[2024-05-22 13:34:55] INFO root fetch - main [MainThread]: End processing [django-heroku-connect]: success
+[2024-05-22 13:34:55] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.98.tar.gz]
+[2024-05-22 13:34:55] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.99.tar.gz]
+[2024-05-22 13:34:55] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2024-05-22 13:34:55] INFO root fetch - processPackages [torchsnapshot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchsnapshot_nightly-2024.5.21.tar.gz]
+[2024-05-22 13:34:55] INFO root fetch - processPackages [torchsnapshot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchsnapshot_nightly-2024.5.22.tar.gz]
+[2024-05-22 13:34:55] INFO root fetch - main [MainThread]: End processing [torchsnapshot-nightly]: success
+[2024-05-22 13:34:55] INFO root fetch - main [MainThread]: Store serial: [23323219]

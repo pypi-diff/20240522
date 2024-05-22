@@ -8826,3 +8826,51 @@
 [2024-05-22 04:34:10] INFO root fetch - processPackages [aepo]: Remove: archive file [/home/abi/fetcher/tmp/aepo-0.1.4.tar.gz]
 [2024-05-22 04:34:10] INFO root fetch - main [MainThread]: End processing [aepo]: success
 [2024-05-22 04:34:10] INFO root fetch - main [MainThread]: Store serial: [23317683]
+[2024-05-22 04:36:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317683]
+[2024-05-22 04:36:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 04:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gizai
+[2024-05-22 04:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: landusemix
+[2024-05-22 04:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alamos
+[2024-05-22 04:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: synnax-freighter
+[2024-05-22 04:36:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: notebooks-and-scripts
+[2024-05-22 04:36:19] INFO root fetch - processPackages [notebooks-and-scripts]: New version: [4.452.1] Old Version: [4.451.1]
+[2024-05-22 04:36:19] INFO root fetch - processPackages [landusemix]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-22 04:36:19] INFO root fetch - processPackages [gizai]: New version: [5.9.1] Old Version: [5.6.1]
+[2024-05-22 04:36:19] INFO root fetch - processPackages [alamos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-22 04:36:19] INFO root fetch - processPackages [synnax-freighter]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-22 04:36:19] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/7b/56/48124caafc46396cdf54d322cdb862463ff1824b820c68243076ae74b058/notebooks_and_scripts-4.451.1.tar.gz
+[2024-05-22 04:36:19] INFO root fetch - processPackages [landusemix]: Downloading https://files.pythonhosted.org/packages/42/f9/5be91755e04682af83020a3d7e96db46622145d6a281c19d7dbbaf728668/landusemix-0.0.6.tar.gz
+[2024-05-22 04:36:19] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/01/83/b0110f05b1480d30f378d727382dac2b2e091afab0e8b384fd19699747f7/gizai-5.6.1.tar.gz
+[2024-05-22 04:36:19] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/73/49/ce9ba5821f001d820fe348eef14ea631c0d54f20289c0aa2458ec4b14c23/synnax_freighter-0.7.8.tar.gz
+[2024-05-22 04:36:19] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c5/2b/b12c4308c7fb396e018ffbe6ec0f046170906ae98b188985b537619e0f55/alamos-0.3.8.tar.gz
+[2024-05-22 04:36:19] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/fa/ba/9098a994969c4ac9fa5a1d947ac5ede1ea8e8cf5d2b40c82db732fd56bad/synnax_freighter-0.7.9.tar.gz
+[2024-05-22 04:36:19] INFO root fetch - processPackages [gizai]: Downloading https://files.pythonhosted.org/packages/bd/e0/e34a72b06da9054a2c2be6561feb68d8df248f033dea7576bd6df6bb25a9/gizai-5.9.1.tar.gz
+[2024-05-22 04:36:19] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c1/08/cf40db715e810dc50be82dd822b41aefe7a4903f73ac57533c85bc63cf9d/alamos-0.3.9.tar.gz
+[2024-05-22 04:36:19] INFO root fetch - processPackages [notebooks-and-scripts]: Downloading https://files.pythonhosted.org/packages/ac/d8/14c68d07f730f9b275be3146bfb52e93f93f3ad8644981a9cae2ecbe82b3/notebooks_and_scripts-4.452.1.tar.gz
+[2024-05-22 04:36:19] INFO root fetch - processPackages [landusemix]: Downloading https://files.pythonhosted.org/packages/c2/9d/2fa0f473d0a24da59146ceab24ac6dc1b4488b44b8ae02dfcc8badba6a53/landusemix-0.0.7.tar.gz
+[2024-05-22 04:36:19] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-05-22 04:36:19] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.7.8.tar.gz tmp/synnax_freighter-0.7.9.tar.gz --markdown 20240522/s/synnax-freighter/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-22 04:36:19] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-05-22 04:36:19] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.8.tar.gz tmp/alamos-0.3.9.tar.gz --markdown 20240522/a/alamos/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-22 04:36:19] INFO root fetch - processPackages [notebooks-and-scripts]: executing diffoscope
+[2024-05-22 04:36:19] INFO root fetch - processPackages [notebooks-and-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notebooks_and_scripts-4.451.1.tar.gz tmp/notebooks_and_scripts-4.452.1.tar.gz --markdown 20240522/n/notebooks-and-scripts/4.451.1-4.452.1/README.md --exclude *.pyd
+[2024-05-22 04:36:19] INFO root fetch - processPackages [landusemix]: executing diffoscope
+[2024-05-22 04:36:19] INFO root fetch - processPackages [landusemix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landusemix-0.0.6.tar.gz tmp/landusemix-0.0.7.tar.gz --markdown 20240522/l/landusemix/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-22 04:36:19] INFO root fetch - processPackages [gizai]: executing diffoscope
+[2024-05-22 04:36:19] INFO root fetch - processPackages [gizai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gizai-5.6.1.tar.gz tmp/gizai-5.9.1.tar.gz --markdown 20240522/g/gizai/5.6.1-5.9.1/README.md --exclude *.pyd
+[2024-05-22 04:36:20] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.8.tar.gz]
+[2024-05-22 04:36:20] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
+[2024-05-22 04:36:20] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-05-22 04:36:20] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.451.1.tar.gz]
+[2024-05-22 04:36:20] INFO root fetch - processPackages [notebooks-and-scripts]: Remove: archive file [/home/abi/fetcher/tmp/notebooks_and_scripts-4.452.1.tar.gz]
+[2024-05-22 04:36:20] INFO root fetch - main [MainThread]: End processing [notebooks-and-scripts]: success
+[2024-05-22 04:36:20] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.8.tar.gz]
+[2024-05-22 04:36:20] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.9.tar.gz]
+[2024-05-22 04:36:20] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-05-22 04:36:20] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.6.1.tar.gz]
+[2024-05-22 04:36:20] INFO root fetch - processPackages [gizai]: Remove: archive file [/home/abi/fetcher/tmp/gizai-5.9.1.tar.gz]
+[2024-05-22 04:36:20] INFO root fetch - main [MainThread]: End processing [gizai]: success
+[2024-05-22 04:36:20] INFO root fetch - processPackages [landusemix]: Remove: archive file [/home/abi/fetcher/tmp/landusemix-0.0.6.tar.gz]
+[2024-05-22 04:36:20] INFO root fetch - processPackages [landusemix]: Remove: archive file [/home/abi/fetcher/tmp/landusemix-0.0.7.tar.gz]
+[2024-05-22 04:36:20] INFO root fetch - main [MainThread]: End processing [landusemix]: success
+[2024-05-22 04:36:20] INFO root fetch - main [MainThread]: Store serial: [23317698]

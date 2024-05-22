@@ -13311,3 +13311,29 @@
 [2024-05-22 08:36:32] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-2.0.4.tar.gz]
 [2024-05-22 08:36:32] INFO root fetch - main [MainThread]: End processing [bosing]: success
 [2024-05-22 08:36:32] INFO root fetch - main [MainThread]: Store serial: [23319764]
+[2024-05-22 08:38:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319764]
+[2024-05-22 08:38:56] INFO root fetch - main [MainThread]: No changed packages found
+[2024-05-22 08:40:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319764]
+[2024-05-22 08:41:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 08:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RegionParser
+[2024-05-22 08:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Peliqan
+[2024-05-22 08:41:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hotspell
+[2024-05-22 08:41:02] WARNING root fetch - processPackages [RegionParser]: Skipping, unable to determine old version
+[2024-05-22 08:41:02] INFO root fetch - main [MainThread]: End processing [RegionParser] error
+[2024-05-22 08:41:02] INFO root fetch - processPackages [hotspell]: New version: [0.1.5.8] Old Version: [0.1.5.7]
+[2024-05-22 08:41:02] INFO root fetch - processPackages [Peliqan]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-05-22 08:41:02] INFO root fetch - processPackages [Peliqan]: Downloading https://files.pythonhosted.org/packages/0c/c5/c79bed69dd1f16a0888b55817fe8b20029a939731c8039f968aabf2e047f/Peliqan-1.6.2.tar.gz
+[2024-05-22 08:41:02] INFO root fetch - processPackages [hotspell]: Downloading https://files.pythonhosted.org/packages/8a/03/2d10d473b11e81bffec06b5b3f02a3a3596e7ea7ad9a9bac7a58ff210fc0/hotspell-0.1.5.7.tar.gz
+[2024-05-22 08:41:02] INFO root fetch - processPackages [hotspell]: Downloading https://files.pythonhosted.org/packages/ca/63/cae617fe6cd4f66ef058309aeab3b7b577a2d4adeed2b552368b20fa3861/hotspell-0.1.5.8.tar.gz
+[2024-05-22 08:41:02] INFO root fetch - processPackages [Peliqan]: Downloading https://files.pythonhosted.org/packages/b0/a7/5e969aef85b01b34971e2fcfa7d931c30b1bbab074681bfc6d38216a47cc/Peliqan-1.6.3.tar.gz
+[2024-05-22 08:41:03] INFO root fetch - processPackages [hotspell]: executing diffoscope
+[2024-05-22 08:41:03] INFO root fetch - processPackages [hotspell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotspell-0.1.5.7.tar.gz tmp/hotspell-0.1.5.8.tar.gz --markdown 20240522/h/hotspell/0.1.5.7-0.1.5.8/README.md --exclude *.pyd
+[2024-05-22 08:41:03] INFO root fetch - processPackages [Peliqan]: executing diffoscope
+[2024-05-22 08:41:03] INFO root fetch - processPackages [Peliqan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Peliqan-1.6.2.tar.gz tmp/Peliqan-1.6.3.tar.gz --markdown 20240522/P/Peliqan/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-05-22 08:41:03] INFO root fetch - processPackages [Peliqan]: Remove: archive file [/home/abi/fetcher/tmp/Peliqan-1.6.2.tar.gz]
+[2024-05-22 08:41:03] INFO root fetch - processPackages [Peliqan]: Remove: archive file [/home/abi/fetcher/tmp/Peliqan-1.6.3.tar.gz]
+[2024-05-22 08:41:03] INFO root fetch - main [MainThread]: End processing [Peliqan]: success
+[2024-05-22 08:41:03] INFO root fetch - processPackages [hotspell]: Remove: archive file [/home/abi/fetcher/tmp/hotspell-0.1.5.7.tar.gz]
+[2024-05-22 08:41:03] INFO root fetch - processPackages [hotspell]: Remove: archive file [/home/abi/fetcher/tmp/hotspell-0.1.5.8.tar.gz]
+[2024-05-22 08:41:03] INFO root fetch - main [MainThread]: End processing [hotspell]: success
+[2024-05-22 08:41:03] INFO root fetch - main [MainThread]: Store serial: [23319771]

@@ -9852,3 +9852,39 @@
 [2024-05-22 05:19:57] INFO root fetch - processPackages [PFlowC]: Remove: archive file [/home/abi/fetcher/tmp/PFlowC-2.4.0.tar.gz]
 [2024-05-22 05:19:57] INFO root fetch - main [MainThread]: End processing [PFlowC]: success
 [2024-05-22 05:19:57] INFO root fetch - main [MainThread]: Store serial: [23318190]
+[2024-05-22 05:22:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318190]
+[2024-05-22 05:22:05] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 05:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PFlowC
+[2024-05-22 05:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langchain-utils
+[2024-05-22 05:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: detkit
+[2024-05-22 05:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testeleen
+[2024-05-22 05:22:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: commandtemplate
+[2024-05-22 05:22:06] INFO root fetch - processPackages [PFlowC]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-05-22 05:22:06] INFO root fetch - processPackages [langchain-utils]: New version: [0.7.1] Old Version: [0.6.0]
+[2024-05-22 05:22:06] INFO root fetch - processPackages [PFlowC]: Downloading https://files.pythonhosted.org/packages/c7/31/eadaa679f29df13be97dae313c651c0c1e1de8b2c531640f84eab3eee974/PFlowC-2.3.0.tar.gz
+[2024-05-22 05:22:06] INFO root fetch - processPackages [langchain-utils]: Downloading https://files.pythonhosted.org/packages/87/d1/4318bbe12779e70dec042345ce32e29e68ca2e483e0256813fd1c4352bf0/langchain_utils-0.6.0.tar.gz
+[2024-05-22 05:22:06] WARNING root fetch - processPackages [testeleen]: Skipping, unable to determine old version
+[2024-05-22 05:22:06] INFO root fetch - main [MainThread]: End processing [testeleen] error
+[2024-05-22 05:22:06] WARNING root fetch - processPackages [commandtemplate]: Skipping, unable to determine old version
+[2024-05-22 05:22:06] INFO root fetch - main [MainThread]: End processing [commandtemplate] error
+[2024-05-22 05:22:06] INFO root fetch - processPackages [detkit]: New version: [0.5.2] Old Version: [0.4.0]
+[2024-05-22 05:22:06] INFO root fetch - processPackages [langchain-utils]: Downloading https://files.pythonhosted.org/packages/95/91/89ef3853dbabb8f760b8d8a69e87ec5c3b89ae5e34059a3624a4abb8d5d0/langchain_utils-0.7.1.tar.gz
+[2024-05-22 05:22:06] INFO root fetch - processPackages [detkit]: Downloading https://files.pythonhosted.org/packages/30/8d/909a50b38ea0083b26345511f051809a0a84d187a9962867076c1838e955/detkit-0.4.0.tar.gz
+[2024-05-22 05:22:06] INFO root fetch - processPackages [langchain-utils]: executing diffoscope
+[2024-05-22 05:22:06] INFO root fetch - processPackages [langchain-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_utils-0.6.0.tar.gz tmp/langchain_utils-0.7.1.tar.gz --markdown 20240522/l/langchain-utils/0.6.0-0.7.1/README.md --exclude *.pyd
+[2024-05-22 05:22:06] INFO root fetch - processPackages [PFlowC]: Downloading https://files.pythonhosted.org/packages/67/c5/8a1e12f8ebfde65e7ecd24ac385dd0b967fee9df7055a8e890b235f4ba34/PFlowC-2.4.0.tar.gz
+[2024-05-22 05:22:06] INFO root fetch - processPackages [detkit]: Downloading https://files.pythonhosted.org/packages/33/dc/65d0b69e1234ebb44241b8165e71897eb02c48d1427d85f8456673af4116/detkit-0.5.2-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-05-22 05:22:06] INFO root fetch - processPackages [PFlowC]: executing diffoscope
+[2024-05-22 05:22:06] INFO root fetch - processPackages [PFlowC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PFlowC-2.3.0.tar.gz tmp/PFlowC-2.4.0.tar.gz --markdown 20240522/P/PFlowC/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-05-22 05:22:07] INFO root fetch - processPackages [detkit]: executing diffoscope
+[2024-05-22 05:22:07] INFO root fetch - processPackages [detkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detkit-0.4.0.tar.gz tmp/detkit-0.5.2-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240522/d/detkit/0.4.0-0.5.2/README.md --exclude *.pyd
+[2024-05-22 05:22:07] INFO root fetch - processPackages [langchain-utils]: Remove: archive file [/home/abi/fetcher/tmp/langchain_utils-0.6.0.tar.gz]
+[2024-05-22 05:22:07] INFO root fetch - processPackages [langchain-utils]: Remove: archive file [/home/abi/fetcher/tmp/langchain_utils-0.7.1.tar.gz]
+[2024-05-22 05:22:07] INFO root fetch - main [MainThread]: End processing [langchain-utils]: success
+[2024-05-22 05:22:07] INFO root fetch - processPackages [detkit]: Remove: archive file [/home/abi/fetcher/tmp/detkit-0.4.0.tar.gz]
+[2024-05-22 05:22:07] INFO root fetch - processPackages [detkit]: Remove: archive file [/home/abi/fetcher/tmp/detkit-0.5.2-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-05-22 05:22:07] INFO root fetch - main [MainThread]: End processing [detkit]: success
+[2024-05-22 05:22:07] INFO root fetch - processPackages [PFlowC]: Remove: archive file [/home/abi/fetcher/tmp/PFlowC-2.3.0.tar.gz]
+[2024-05-22 05:22:07] INFO root fetch - processPackages [PFlowC]: Remove: archive file [/home/abi/fetcher/tmp/PFlowC-2.4.0.tar.gz]
+[2024-05-22 05:22:07] INFO root fetch - main [MainThread]: End processing [PFlowC]: success
+[2024-05-22 05:22:07] INFO root fetch - main [MainThread]: Store serial: [23318213]

@@ -11158,3 +11158,48 @@
 [2024-05-22 06:30:22] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip]
 [2024-05-22 06:30:22] INFO root fetch - main [MainThread]: End processing [flowclient]: success
 [2024-05-22 06:30:22] INFO root fetch - main [MainThread]: Store serial: [23318713]
+[2024-05-22 06:32:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318713]
+[2024-05-22 06:32:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xopes
+[2024-05-22 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pi-awning-webthing
+[2024-05-22 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hdx-python-country
+[2024-05-22 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RGBMatrixDriver
+[2024-05-22 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gefpy
+[2024-05-22 06:32:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pi-awning-webthing
+[2024-05-22 06:32:31] INFO root fetch - processPackages [pi-awning-webthing]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-22 06:32:31] INFO root fetch - processPackages [pi-awning-webthing]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-22 06:32:31] INFO root fetch - processPackages [pi-awning-webthing]: Downloading https://files.pythonhosted.org/packages/76/57/4d8817c514bddecb545da8cec55b97fdbb0f6dba09736faa7df43a8c9571/pi_awning_webthing-0.3.0.tar.gz
+[2024-05-22 06:32:31] INFO root fetch - processPackages [pi-awning-webthing]: Downloading https://files.pythonhosted.org/packages/76/57/4d8817c514bddecb545da8cec55b97fdbb0f6dba09736faa7df43a8c9571/pi_awning_webthing-0.3.0.tar.gz
+[2024-05-22 06:32:31] INFO root fetch - processPackages [RGBMatrixDriver]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-22 06:32:31] WARNING root fetch - processPackages [xopes]: Skipping, unable to determine old version
+[2024-05-22 06:32:31] INFO root fetch - main [MainThread]: End processing [xopes] error
+[2024-05-22 06:32:31] INFO root fetch - processPackages [hdx-python-country]: New version: [3.7.1] Old Version: [3.7.0]
+[2024-05-22 06:32:31] INFO root fetch - processPackages [gefpy]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-05-22 06:32:31] INFO root fetch - processPackages [RGBMatrixDriver]: Downloading https://files.pythonhosted.org/packages/cf/3b/933c1eb696ba2e610667c6cfe1fe1db2dfeb3c0a175a389a839465346a10/rgbmatrixdriver-0.1.1.tar.gz
+[2024-05-22 06:32:32] INFO root fetch - processPackages [gefpy]: Downloading https://files.pythonhosted.org/packages/a1/27/0a4fd4276f4918cac21d37490a1d824867a12729cf35f1f0c2e12e1a1637/gefpy-1.1.5-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-22 06:32:32] INFO root fetch - processPackages [pi-awning-webthing]: Downloading https://files.pythonhosted.org/packages/fd/52/3fadbab238312bacf5d7104a141e26e77dc4cbbdeac768b7db039367a680/pi_awning_webthing-0.3.1.tar.gz
+[2024-05-22 06:32:32] INFO root fetch - processPackages [pi-awning-webthing]: Downloading https://files.pythonhosted.org/packages/fd/52/3fadbab238312bacf5d7104a141e26e77dc4cbbdeac768b7db039367a680/pi_awning_webthing-0.3.1.tar.gz
+[2024-05-22 06:32:32] INFO root fetch - processPackages [hdx-python-country]: Downloading https://files.pythonhosted.org/packages/27/14/c91628a231d9de668d33c958b99e8ab89f24424c79402f76554da40c0343/hdx_python_country-3.7.0.tar.gz
+[2024-05-22 06:32:32] INFO root fetch - processPackages [RGBMatrixDriver]: Downloading https://files.pythonhosted.org/packages/17/62/054024a46cf88265711cba6b5951ef66617c80f3648892bb077c2423193d/rgbmatrixdriver-0.1.2.tar.gz
+[2024-05-22 06:32:32] INFO root fetch - processPackages [pi-awning-webthing]: executing diffoscope
+[2024-05-22 06:32:32] INFO root fetch - processPackages [pi-awning-webthing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pi_awning_webthing-0.3.0.tar.gz tmp/pi_awning_webthing-0.3.1.tar.gz --markdown 20240522/p/pi-awning-webthing/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-22 06:32:32] INFO root fetch - processPackages [pi-awning-webthing]: executing diffoscope
+[2024-05-22 06:32:32] INFO root fetch - processPackages [pi-awning-webthing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pi_awning_webthing-0.3.0.tar.gz tmp/pi_awning_webthing-0.3.1.tar.gz --markdown 20240522/p/pi-awning-webthing/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-22 06:32:32] WARNING root fetch - processPackages [gefpy]: Skipping package: exceeds size limit 24133565>=10485760
+[2024-05-22 06:32:32] INFO root fetch - main [MainThread]: End processing [gefpy] error
+[2024-05-22 06:32:32] INFO root fetch - processPackages [RGBMatrixDriver]: executing diffoscope
+[2024-05-22 06:32:32] INFO root fetch - processPackages [RGBMatrixDriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rgbmatrixdriver-0.1.1.tar.gz tmp/rgbmatrixdriver-0.1.2.tar.gz --markdown 20240522/R/RGBMatrixDriver/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-22 06:32:32] INFO root fetch - processPackages [hdx-python-country]: Downloading https://files.pythonhosted.org/packages/56/af/9da4f79ca6e32fa17aa1986c8521730c6e0be14e5b9ca6b2a49252e99e02/hdx_python_country-3.7.1.tar.gz
+[2024-05-22 06:32:32] INFO root fetch - processPackages [hdx-python-country]: executing diffoscope
+[2024-05-22 06:32:32] INFO root fetch - processPackages [hdx-python-country]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx_python_country-3.7.0.tar.gz tmp/hdx_python_country-3.7.1.tar.gz --markdown 20240522/h/hdx-python-country/3.7.0-3.7.1/README.md --exclude *.pyd
+[2024-05-22 06:32:32] INFO root fetch - processPackages [pi-awning-webthing]: Remove: archive file [/home/abi/fetcher/tmp/pi_awning_webthing-0.3.0.tar.gz]
+[2024-05-22 06:32:32] INFO root fetch - processPackages [pi-awning-webthing]: Remove: archive file [/home/abi/fetcher/tmp/pi_awning_webthing-0.3.1.tar.gz]
+[2024-05-22 06:32:32] INFO root fetch - main [MainThread]: End processing [pi-awning-webthing]: success
+[2024-05-22 06:32:33] INFO root fetch - main [MainThread]: End processing [pi-awning-webthing]: success
+[2024-05-22 06:32:33] INFO root fetch - processPackages [RGBMatrixDriver]: Remove: archive file [/home/abi/fetcher/tmp/rgbmatrixdriver-0.1.1.tar.gz]
+[2024-05-22 06:32:33] INFO root fetch - processPackages [RGBMatrixDriver]: Remove: archive file [/home/abi/fetcher/tmp/rgbmatrixdriver-0.1.2.tar.gz]
+[2024-05-22 06:32:33] INFO root fetch - main [MainThread]: End processing [RGBMatrixDriver]: success
+[2024-05-22 06:32:33] INFO root fetch - processPackages [hdx-python-country]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_country-3.7.0.tar.gz]
+[2024-05-22 06:32:33] INFO root fetch - processPackages [hdx-python-country]: Remove: archive file [/home/abi/fetcher/tmp/hdx_python_country-3.7.1.tar.gz]
+[2024-05-22 06:32:33] INFO root fetch - main [MainThread]: End processing [hdx-python-country]: success
+[2024-05-22 06:32:33] INFO root fetch - main [MainThread]: Store serial: [23318742]

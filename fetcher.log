@@ -18042,3 +18042,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:29:15] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
 [2024-05-22 11:29:15] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
 [2024-05-22 11:29:15] INFO root fetch - main [MainThread]: Store serial: [23321632]
+[2024-05-22 11:31:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321632]
+[2024-05-22 11:31:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 11:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: twinstop
+[2024-05-22 11:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-microservice-helper
+[2024-05-22 11:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: boxsdk
+[2024-05-22 11:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: udirect
+[2024-05-22 11:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eip712-clearsign
+[2024-05-22 11:31:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opensr-utils
+[2024-05-22 11:31:24] INFO root fetch - processPackages [udirect]: New version: [0.1.4.dev8] Old Version: [0.1.4.dev7]
+[2024-05-22 11:31:24] INFO root fetch - processPackages [twinstop]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-22 11:31:24] INFO root fetch - processPackages [fastapi-microservice-helper]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-05-22 11:31:24] INFO root fetch - processPackages [opensr-utils]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-22 11:31:24] INFO root fetch - processPackages [eip712-clearsign]: New version: [2.0.0rc1] Old Version: [1.1.3]
+[2024-05-22 11:31:24] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/8f/61/4ef24677f9770c824c8347db5e53b0c9255823bc52a3015b00a5755b9a59/udirect-0.1.4.dev7.tar.gz
+[2024-05-22 11:31:24] INFO root fetch - processPackages [twinstop]: Downloading https://files.pythonhosted.org/packages/e1/8c/df9fd79d38d54ae87395331a88fea33abae1bc942b7f2f37e83b3bca06ca/twinstop-0.1.2.tar.gz
+[2024-05-22 11:31:24] INFO root fetch - processPackages [boxsdk]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-05-22 11:31:24] INFO root fetch - processPackages [fastapi-microservice-helper]: Downloading https://files.pythonhosted.org/packages/cd/0f/89603835388e44bc3f9e4e3d9797c26059aebb3074e359d5adb870c64958/fastapi_microservice_helper-0.0.7.tar.gz
+[2024-05-22 11:31:24] INFO root fetch - processPackages [eip712-clearsign]: Downloading https://files.pythonhosted.org/packages/24/f5/a8bcf347e44167aba894843bdf7b44fdc789a0177151d8a57de64f5a6626/eip712_clearsign-1.1.3.tar.gz
+[2024-05-22 11:31:24] INFO root fetch - processPackages [boxsdk]: Downloading https://files.pythonhosted.org/packages/f0/41/2996ecebb6ccd08b7db5fefb78641c579d1eb47116e0d1d05f66ca37fb29/boxsdk-3.9.1.tar.gz
+[2024-05-22 11:31:24] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/0a/69/fd45c2b7a784583b1532eb88fa3531a0895c5bff99d148b276a3808510d7/opensr-utils-0.4.8.tar.gz
+[2024-05-22 11:31:24] INFO root fetch - processPackages [twinstop]: Downloading https://files.pythonhosted.org/packages/f1/6a/e125e4df788bf1777d32d0b5f7cb68620ed25564e20fd7d96da5aa1dd9a5/twinstop-0.1.3.tar.gz
+[2024-05-22 11:31:24] INFO root fetch - processPackages [twinstop]: executing diffoscope
+[2024-05-22 11:31:24] INFO root fetch - processPackages [twinstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twinstop-0.1.2.tar.gz tmp/twinstop-0.1.3.tar.gz --markdown 20240522/t/twinstop/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-22 11:31:24] INFO root fetch - processPackages [fastapi-microservice-helper]: Downloading https://files.pythonhosted.org/packages/7c/24/01a679cf188c4e90052a94967e6741dcb046199329a3153ef398ff555b96/fastapi_microservice_helper-0.0.9.tar.gz
+[2024-05-22 11:31:24] INFO root fetch - processPackages [eip712-clearsign]: Downloading https://files.pythonhosted.org/packages/c2/69/250a083fbcb142992d24f3dba76069383c6ca71aed992b8fac137db99781/eip712_clearsign-2.0.0rc1.tar.gz
+[2024-05-22 11:31:24] INFO root fetch - processPackages [fastapi-microservice-helper]: executing diffoscope
+[2024-05-22 11:31:24] INFO root fetch - processPackages [fastapi-microservice-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_microservice_helper-0.0.7.tar.gz tmp/fastapi_microservice_helper-0.0.9.tar.gz --markdown 20240522/f/fastapi-microservice-helper/0.0.7-0.0.9/README.md --exclude *.pyd
+[2024-05-22 11:31:24] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/63/2b/b8dd9f284cadd77c65d69c16d3402ff1280b48027dffc1036b26b3a83531/udirect-0.1.4.dev8.tar.gz
+[2024-05-22 11:31:24] INFO root fetch - processPackages [opensr-utils]: Downloading https://files.pythonhosted.org/packages/01/be/98b9f6d453ee11648ecbba55c24d93d20f21bea71dc8cc0b0ca3f3271908/opensr-utils-0.4.9.tar.gz
+[2024-05-22 11:31:24] INFO root fetch - processPackages [eip712-clearsign]: executing diffoscope
+[2024-05-22 11:31:24] INFO root fetch - processPackages [eip712-clearsign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eip712_clearsign-1.1.3.tar.gz tmp/eip712_clearsign-2.0.0rc1.tar.gz --markdown 20240522/e/eip712-clearsign/1.1.3-2.0.0rc1/README.md --exclude *.pyd
+[2024-05-22 11:31:24] INFO root fetch - processPackages [boxsdk]: Downloading https://files.pythonhosted.org/packages/85/19/ea14622e93be7eda5acdf3ec89915f89a8ffa7b9c911d623199da68a4f62/boxsdk-3.9.2.tar.gz
+[2024-05-22 11:31:24] INFO root fetch - processPackages [opensr-utils]: executing diffoscope
+[2024-05-22 11:31:24] INFO root fetch - processPackages [opensr-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensr-utils-0.4.8.tar.gz tmp/opensr-utils-0.4.9.tar.gz --markdown 20240522/o/opensr-utils/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-22 11:31:25] INFO root fetch - processPackages [boxsdk]: executing diffoscope
+[2024-05-22 11:31:25] INFO root fetch - processPackages [boxsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxsdk-3.9.1.tar.gz tmp/boxsdk-3.9.2.tar.gz --markdown 20240522/b/boxsdk/3.9.1-3.9.2/README.md --exclude *.pyd
+[2024-05-22 11:31:25] INFO root fetch - processPackages [udirect]: executing diffoscope
+[2024-05-22 11:31:25] INFO root fetch - processPackages [udirect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udirect-0.1.4.dev7.tar.gz tmp/udirect-0.1.4.dev8.tar.gz --markdown 20240522/u/udirect/0.1.4.dev7-0.1.4.dev8/README.md --exclude *.pyd
+[2024-05-22 11:31:25] INFO root fetch - processPackages [twinstop]: Remove: archive file [/home/abi/fetcher/tmp/twinstop-0.1.2.tar.gz]
+[2024-05-22 11:31:25] INFO root fetch - processPackages [twinstop]: Remove: archive file [/home/abi/fetcher/tmp/twinstop-0.1.3.tar.gz]
+[2024-05-22 11:31:25] INFO root fetch - main [MainThread]: End processing [twinstop]: success
+[2024-05-22 11:31:25] INFO root fetch - processPackages [eip712-clearsign]: Remove: archive file [/home/abi/fetcher/tmp/eip712_clearsign-1.1.3.tar.gz]
+[2024-05-22 11:31:25] INFO root fetch - processPackages [eip712-clearsign]: Remove: archive file [/home/abi/fetcher/tmp/eip712_clearsign-2.0.0rc1.tar.gz]
+[2024-05-22 11:31:25] INFO root fetch - main [MainThread]: End processing [eip712-clearsign]: success
+[2024-05-22 11:31:25] INFO root fetch - processPackages [fastapi-microservice-helper]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_microservice_helper-0.0.7.tar.gz]
+[2024-05-22 11:31:25] INFO root fetch - processPackages [fastapi-microservice-helper]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_microservice_helper-0.0.9.tar.gz]
+[2024-05-22 11:31:25] INFO root fetch - main [MainThread]: End processing [fastapi-microservice-helper]: success
+[2024-05-22 11:31:25] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.8.tar.gz]
+[2024-05-22 11:31:25] INFO root fetch - processPackages [opensr-utils]: Remove: archive file [/home/abi/fetcher/tmp/opensr-utils-0.4.9.tar.gz]
+[2024-05-22 11:31:25] INFO root fetch - main [MainThread]: End processing [opensr-utils]: success
+[2024-05-22 11:31:26] INFO root fetch - processPackages [boxsdk]: Remove: archive file [/home/abi/fetcher/tmp/boxsdk-3.9.1.tar.gz]
+[2024-05-22 11:31:26] INFO root fetch - processPackages [boxsdk]: Remove: archive file [/home/abi/fetcher/tmp/boxsdk-3.9.2.tar.gz]
+[2024-05-22 11:31:26] INFO root fetch - main [MainThread]: End processing [boxsdk]: success
+[2024-05-22 11:31:26] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev7.tar.gz]
+[2024-05-22 11:31:26] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev8.tar.gz]
+[2024-05-22 11:31:26] INFO root fetch - main [MainThread]: End processing [udirect]: success
+[2024-05-22 11:31:26] INFO root fetch - main [MainThread]: Store serial: [23321648]

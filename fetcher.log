@@ -10709,3 +10709,47 @@
 [2024-05-22 06:01:29] INFO root fetch - processPackages [bootlace]: Remove: archive file [/home/abi/fetcher/tmp/bootlace-0.2.3.tar.gz]
 [2024-05-22 06:01:29] INFO root fetch - main [MainThread]: End processing [bootlace]: success
 [2024-05-22 06:01:29] INFO root fetch - main [MainThread]: Store serial: [23318562]
+[2024-05-22 06:03:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318562]
+[2024-05-22 06:03:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 06:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: utilmy
+[2024-05-22 06:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybsm
+[2024-05-22 06:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-cdktf-provider-spotinst
+[2024-05-22 06:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: basingse
+[2024-05-22 06:03:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lastmile-eval
+[2024-05-22 06:03:38] INFO root fetch - processPackages [basingse]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-05-22 06:03:38] INFO root fetch - processPackages [lastmile-eval]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-22 06:03:38] INFO root fetch - processPackages [pybsm]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-22 06:03:38] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: New version: [9.0.9] Old Version: [9.0.8]
+[2024-05-22 06:03:38] INFO root fetch - processPackages [utilmy]: New version: [0.1.17163504] Old Version: [0.1.17162139]
+[2024-05-22 06:03:38] INFO root fetch - processPackages [basingse]: Downloading https://files.pythonhosted.org/packages/15/4f/06626d12a0cd3b06904fb7f1d94c0016a2ba769da19e6224f67655abf627/basingse-0.4.0.tar.gz
+[2024-05-22 06:03:38] INFO root fetch - processPackages [pybsm]: Downloading https://files.pythonhosted.org/packages/d3/0e/01b32eda256d4bc60a4d345e11aed062d43e2d23b5523ff230a07d25711b/pybsm-0.2.0.tar.gz
+[2024-05-22 06:03:38] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/23/3a/ff7bddacc6d9aefca0eeeab5018195400ffe56e21e80a61d96540ae2d5ef/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz
+[2024-05-22 06:03:38] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/44/02/7ac0b4f64b2c6d6c820c6f5c04fe71c98b7498153ef90abc3f22c8b1042b/utilmy-0.1.17162139.tar.gz
+[2024-05-22 06:03:38] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/46/5f/eaa8c53cc1857a1e835ad32892f28b3fa98a02c5409d7c53012941237304/lastmile_eval-0.0.7.tar.gz
+[2024-05-22 06:03:38] WARNING root fetch - processPackages [pybsm]: Skipping package: exceeds size limit 76468360>=10485760
+[2024-05-22 06:03:38] INFO root fetch - main [MainThread]: End processing [pybsm] error
+[2024-05-22 06:03:39] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/82/d9/5b33fa58ced21ee69c2876303b4babbb7449325885a320341f99edabf464/lastmile_eval-0.0.8.tar.gz
+[2024-05-22 06:03:39] INFO root fetch - processPackages [utilmy]: Downloading https://files.pythonhosted.org/packages/81/27/50d1c54e4b6733eec173d1d267810c9b9ae1f314350aafc8e8c83106f1aa/utilmy-0.1.17163504.tar.gz
+[2024-05-22 06:03:39] INFO root fetch - processPackages [lastmile-eval]: executing diffoscope
+[2024-05-22 06:03:39] INFO root fetch - processPackages [lastmile-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lastmile_eval-0.0.7.tar.gz tmp/lastmile_eval-0.0.8.tar.gz --markdown 20240522/l/lastmile-eval/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-22 06:03:39] INFO root fetch - processPackages [utilmy]: executing diffoscope
+[2024-05-22 06:03:39] INFO root fetch - processPackages [utilmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utilmy-0.1.17162139.tar.gz tmp/utilmy-0.1.17163504.tar.gz --markdown 20240522/u/utilmy/0.1.17162139-0.1.17163504/README.md --exclude *.pyd
+[2024-05-22 06:03:39] INFO root fetch - processPackages [basingse]: Downloading https://files.pythonhosted.org/packages/be/33/eddda8bb48bfab1c75db006b1d469e786d121bbd395f1e2cca5cabea34d6/basingse-0.4.1.tar.gz
+[2024-05-22 06:03:39] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/b8/2c/aa878226c72dad7c19534c6713ae070650c0bb7480c80bb6e755f5ccfb7f/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz
+[2024-05-22 06:03:39] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile_eval-0.0.7.tar.gz]
+[2024-05-22 06:03:39] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile_eval-0.0.8.tar.gz]
+[2024-05-22 06:03:39] INFO root fetch - main [MainThread]: End processing [lastmile-eval]: success
+[2024-05-22 06:03:40] INFO root fetch - processPackages [basingse]: executing diffoscope
+[2024-05-22 06:03:40] INFO root fetch - processPackages [basingse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basingse-0.4.0.tar.gz tmp/basingse-0.4.1.tar.gz --markdown 20240522/b/basingse/0.4.0-0.4.1/README.md --exclude *.pyd
+[2024-05-22 06:03:40] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: executing diffoscope
+[2024-05-22 06:03:40] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz --markdown 20240522/c/cdktf-cdktf-provider-spotinst/9.0.8-9.0.9/README.md --exclude *.pyd
+[2024-05-22 06:03:43] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.8.tar.gz]
+[2024-05-22 06:03:43] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-spotinst-9.0.9.tar.gz]
+[2024-05-22 06:03:43] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
+[2024-05-22 06:03:46] INFO root fetch - processPackages [basingse]: Remove: archive file [/home/abi/fetcher/tmp/basingse-0.4.0.tar.gz]
+[2024-05-22 06:03:46] INFO root fetch - processPackages [basingse]: Remove: archive file [/home/abi/fetcher/tmp/basingse-0.4.1.tar.gz]
+[2024-05-22 06:03:46] INFO root fetch - main [MainThread]: End processing [basingse]: success
+[2024-05-22 06:03:51] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17162139.tar.gz]
+[2024-05-22 06:03:51] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17163504.tar.gz]
+[2024-05-22 06:03:51] INFO root fetch - main [MainThread]: End processing [utilmy]: success
+[2024-05-22 06:03:51] INFO root fetch - main [MainThread]: Store serial: [23318582]

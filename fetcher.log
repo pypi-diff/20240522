@@ -14352,3 +14352,42 @@
 [2024-05-22 09:24:26] INFO root fetch - processPackages [django_medicio_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_medicio_dental-3.0.0.tar.gz]
 [2024-05-22 09:24:26] INFO root fetch - main [MainThread]: End processing [django_medicio_dental]: success
 [2024-05-22 09:24:26] INFO root fetch - main [MainThread]: Store serial: [23320172]
+[2024-05-22 09:26:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320172]
+[2024-05-22 09:26:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 09:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lenient-string-formatter
+[2024-05-22 09:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: annogen
+[2024-05-22 09:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FitTransit
+[2024-05-22 09:26:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansys-sphinx-theme
+[2024-05-22 09:26:35] INFO root fetch - processPackages [lenient-string-formatter]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-22 09:26:35] INFO root fetch - processPackages [annogen]: New version: [3.381] Old Version: [3.38]
+[2024-05-22 09:26:35] INFO root fetch - processPackages [FitTransit]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-22 09:26:35] INFO root fetch - processPackages [ansys-sphinx-theme]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-22 09:26:35] INFO root fetch - processPackages [lenient-string-formatter]: Downloading https://files.pythonhosted.org/packages/b7/4b/09392cd0c95026dcde9c7e6510325f7ae51bd74936556bd803a5e8f935e9/lenient_string_formatter-1.1.0.tar.gz
+[2024-05-22 09:26:35] INFO root fetch - processPackages [FitTransit]: Downloading https://files.pythonhosted.org/packages/d3/ec/771bc24e6197e61c41aade43d104ed75320dcb28c895b100ec06a085ea5b/FitTransit-0.1.1-py3-none-any.whl
+[2024-05-22 09:26:35] INFO root fetch - processPackages [annogen]: Downloading https://files.pythonhosted.org/packages/ed/e3/899b503e3b86924155edd228e3bc687fe79d73479df1e523e7658ea8337a/annogen-3.38.tar.gz
+[2024-05-22 09:26:35] INFO root fetch - processPackages [ansys-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/ff/ed/eaba1d94eb6e4d850323103f8bcfc9d37f4b4ca7bc8061fe45c76ddf50a3/ansys-sphinx-theme-0.9.8.tar.gz
+[2024-05-22 09:26:36] INFO root fetch - processPackages [lenient-string-formatter]: Downloading https://files.pythonhosted.org/packages/97/53/eb8c8df48977de8286c0901adf8d61173ad8b987f35cab913913d7efca5d/lenient_string_formatter-1.1.1.tar.gz
+[2024-05-22 09:26:36] INFO root fetch - processPackages [FitTransit]: Downloading https://files.pythonhosted.org/packages/03/05/954d10daa70ab8295ac1271ed5623407fde795388f49a5dc65806ffbf6e5/FitTransit-0.1.2-py3-none-any.whl
+[2024-05-22 09:26:36] INFO root fetch - processPackages [annogen]: Downloading https://files.pythonhosted.org/packages/c9/2e/5b5ce1513095fe24b688e834f4efe6be01fd5a76b4202e701cbbd40761c3/annogen-3.381.tar.gz
+[2024-05-22 09:26:36] INFO root fetch - processPackages [ansys-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/70/5b/157d8b6bf61c537f299e3cf927537b5c17116cd0a7b718eae284558b48e3/ansys-sphinx-theme-0.9.9.tar.gz
+[2024-05-22 09:26:36] INFO root fetch - processPackages [lenient-string-formatter]: executing diffoscope
+[2024-05-22 09:26:36] INFO root fetch - processPackages [lenient-string-formatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lenient_string_formatter-1.1.0.tar.gz tmp/lenient_string_formatter-1.1.1.tar.gz --markdown 20240522/l/lenient-string-formatter/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-22 09:26:36] INFO root fetch - processPackages [FitTransit]: executing diffoscope
+[2024-05-22 09:26:36] INFO root fetch - processPackages [FitTransit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FitTransit-0.1.1-py3-none-any.whl.zip tmp/FitTransit-0.1.2-py3-none-any.whl.zip --markdown 20240522/F/FitTransit/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-22 09:26:36] INFO root fetch - processPackages [annogen]: executing diffoscope
+[2024-05-22 09:26:36] INFO root fetch - processPackages [annogen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annogen-3.38.tar.gz tmp/annogen-3.381.tar.gz --markdown 20240522/a/annogen/3.38-3.381/README.md --exclude *.pyd
+[2024-05-22 09:26:36] INFO root fetch - processPackages [ansys-sphinx-theme]: executing diffoscope
+[2024-05-22 09:26:36] INFO root fetch - processPackages [ansys-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-sphinx-theme-0.9.8.tar.gz tmp/ansys-sphinx-theme-0.9.9.tar.gz --markdown 20240522/a/ansys-sphinx-theme/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-22 09:26:37] INFO root fetch - processPackages [lenient-string-formatter]: Remove: archive file [/home/abi/fetcher/tmp/lenient_string_formatter-1.1.0.tar.gz]
+[2024-05-22 09:26:37] INFO root fetch - processPackages [lenient-string-formatter]: Remove: archive file [/home/abi/fetcher/tmp/lenient_string_formatter-1.1.1.tar.gz]
+[2024-05-22 09:26:37] INFO root fetch - main [MainThread]: End processing [lenient-string-formatter]: success
+[2024-05-22 09:26:37] INFO root fetch - processPackages [annogen]: Remove: archive file [/home/abi/fetcher/tmp/annogen-3.38.tar.gz]
+[2024-05-22 09:26:37] INFO root fetch - processPackages [annogen]: Remove: archive file [/home/abi/fetcher/tmp/annogen-3.381.tar.gz]
+[2024-05-22 09:26:37] INFO root fetch - main [MainThread]: End processing [annogen]: success
+[2024-05-22 09:26:37] INFO root fetch - processPackages [FitTransit]: Remove: archive file [/home/abi/fetcher/tmp/FitTransit-0.1.1-py3-none-any.whl.zip]
+[2024-05-22 09:26:37] INFO root fetch - processPackages [FitTransit]: Remove: archive file [/home/abi/fetcher/tmp/FitTransit-0.1.2-py3-none-any.whl.zip]
+[2024-05-22 09:26:37] INFO root fetch - main [MainThread]: End processing [FitTransit]: success
+[2024-05-22 09:26:37] INFO root fetch - processPackages [ansys-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/ansys-sphinx-theme-0.9.8.tar.gz]
+[2024-05-22 09:26:37] INFO root fetch - processPackages [ansys-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/ansys-sphinx-theme-0.9.9.tar.gz]
+[2024-05-22 09:26:37] INFO root fetch - main [MainThread]: End processing [ansys-sphinx-theme]: success
+[2024-05-22 09:26:37] INFO root fetch - main [MainThread]: Store serial: [23320182]

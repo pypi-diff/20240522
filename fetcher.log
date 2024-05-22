@@ -7843,3 +7843,9 @@
 [2024-05-22 03:48:16] INFO root fetch - processPackages [saritasa-invocations]: Remove: archive file [/home/abi/fetcher/tmp/saritasa_invocations-1.1.1.tar.gz]
 [2024-05-22 03:48:16] INFO root fetch - main [MainThread]: End processing [saritasa-invocations]: success
 [2024-05-22 03:48:16] INFO root fetch - main [MainThread]: Store serial: [23317321]
+[2024-05-22 03:50:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317321]
+[2024-05-22 03:50:25] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-22 03:50:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cardscan-client
+[2024-05-22 03:50:25] WARNING root fetch - processPackages [cardscan-client]: Skipping, unable to determine old version
+[2024-05-22 03:50:25] INFO root fetch - main [MainThread]: End processing [cardscan-client] error
+[2024-05-22 03:50:25] INFO root fetch - main [MainThread]: Store serial: [23317326]

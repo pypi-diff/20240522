@@ -15800,3 +15800,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:17:14] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.9.tar.gz]
 [2024-05-22 10:17:14] INFO root fetch - main [MainThread]: End processing [servicelayer]: success
 [2024-05-22 10:17:14] INFO root fetch - main [MainThread]: Store serial: [23320796]
+[2024-05-22 10:19:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320796]
+[2024-05-22 10:19:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 10:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vuer
+[2024-05-22 10:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pellipop
+[2024-05-22 10:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: insensitive-strenum
+[2024-05-22 10:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vbpy
+[2024-05-22 10:19:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: a4
+[2024-05-22 10:19:31] INFO root fetch - processPackages [vbpy]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-05-22 10:19:31] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/24/05/f71f78a8f5cc3918639dd4585b1272cdb25919f59299dd107bfea777e52e/vbpy-2.1.0.tar.gz
+[2024-05-22 10:19:31] INFO root fetch - processPackages [insensitive-strenum]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-22 10:19:31] INFO root fetch - processPackages [pellipop]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-05-22 10:19:31] INFO root fetch - processPackages [a4]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-22 10:19:31] INFO root fetch - processPackages [vuer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 10:19:31] INFO root fetch - processPackages [pellipop]: Downloading https://files.pythonhosted.org/packages/30/dc/c2e3b114ba45e818fbb97526dfdbc74b1b74cdcc1435059db4ed17e7ccb9/pellipop-0.8.6.tar.gz
+[2024-05-22 10:19:31] INFO root fetch - processPackages [insensitive-strenum]: Downloading https://files.pythonhosted.org/packages/22/05/a3ffcda29a2a14335cb39ee34bba63b018acb0dbb0cb05f7a490cd9fd23d/insensitive_strenum-1.0.0.tar.gz
+[2024-05-22 10:19:32] INFO root fetch - processPackages [a4]: Downloading https://files.pythonhosted.org/packages/42/cc/b77cf6e986d13133ef91f0befa6bc35eedda6c2fac3315282455461026d5/a4-0.2.4-py3-none-any.whl
+[2024-05-22 10:19:32] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/14/ea/4ed23f119eafd70cda97b4911e041767f825880f34f1770da786691d361c/vuer-0.0.8-py3-none-any.whl
+[2024-05-22 10:19:32] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/41/1d/d1f9bef1bdc5ff9261c5c4dfc0243db8afda1bbb18dc89ce588be6b997e9/vbpy-2.1.1.tar.gz
+[2024-05-22 10:19:32] INFO root fetch - processPackages [vbpy]: executing diffoscope
+[2024-05-22 10:19:32] INFO root fetch - processPackages [vbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpy-2.1.0.tar.gz tmp/vbpy-2.1.1.tar.gz --markdown 20240522/v/vbpy/2.1.0-2.1.1/README.md --exclude *.pyd
+[2024-05-22 10:19:32] INFO root fetch - processPackages [a4]: Downloading https://files.pythonhosted.org/packages/80/43/d582253a7442ca927d4fa6a8b71b7c820f326b4d9bad7e6fdfde311058a5/a4-0.2.5-py3-none-any.whl
+[2024-05-22 10:19:32] INFO root fetch - processPackages [pellipop]: Downloading https://files.pythonhosted.org/packages/3c/63/e19551e2317d1d604f155ed9af80375bc6c972f99f93e73dd65d16545187/pellipop-0.8.7.tar.gz
+[2024-05-22 10:19:32] INFO root fetch - processPackages [insensitive-strenum]: Downloading https://files.pythonhosted.org/packages/0c/9a/729fed3aceb526fe44b128355e246dede23cb7885b420c3435e280e9dde0/insensitive_strenum-1.0.1.tar.gz
+[2024-05-22 10:19:32] INFO root fetch - processPackages [pellipop]: executing diffoscope
+[2024-05-22 10:19:32] INFO root fetch - processPackages [pellipop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pellipop-0.8.6.tar.gz tmp/pellipop-0.8.7.tar.gz --markdown 20240522/p/pellipop/0.8.6-0.8.7/README.md --exclude *.pyd
+[2024-05-22 10:19:32] INFO root fetch - processPackages [a4]: executing diffoscope
+[2024-05-22 10:19:32] INFO root fetch - processPackages [a4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a4-0.2.4-py3-none-any.whl.zip tmp/a4-0.2.5-py3-none-any.whl.zip --markdown 20240522/a/a4/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-22 10:19:32] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/25/f1/9174198521ef27b8c45231bf0d7003073ba3ae6fb4be3b18c0a18c4ce749/vuer-0.0.9-py3-none-any.whl
+[2024-05-22 10:19:32] INFO root fetch - processPackages [insensitive-strenum]: executing diffoscope
+[2024-05-22 10:19:32] INFO root fetch - processPackages [insensitive-strenum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insensitive_strenum-1.0.0.tar.gz tmp/insensitive_strenum-1.0.1.tar.gz --markdown 20240522/i/insensitive-strenum/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-22 10:19:32] INFO root fetch - processPackages [vuer]: executing diffoscope
+[2024-05-22 10:19:32] INFO root fetch - processPackages [vuer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vuer-0.0.8-py3-none-any.whl.zip tmp/vuer-0.0.9-py3-none-any.whl.zip --markdown 20240522/v/vuer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 10:19:32] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.1.0.tar.gz]
+[2024-05-22 10:19:32] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.1.1.tar.gz]
+[2024-05-22 10:19:32] INFO root fetch - main [MainThread]: End processing [vbpy]: success
+[2024-05-22 10:19:33] INFO root fetch - processPackages [a4]: Remove: archive file [/home/abi/fetcher/tmp/a4-0.2.4-py3-none-any.whl.zip]
+[2024-05-22 10:19:33] INFO root fetch - processPackages [a4]: Remove: archive file [/home/abi/fetcher/tmp/a4-0.2.5-py3-none-any.whl.zip]
+[2024-05-22 10:19:33] INFO root fetch - main [MainThread]: End processing [a4]: success
+[2024-05-22 10:19:33] INFO root fetch - processPackages [insensitive-strenum]: Remove: archive file [/home/abi/fetcher/tmp/insensitive_strenum-1.0.0.tar.gz]
+[2024-05-22 10:19:33] INFO root fetch - processPackages [insensitive-strenum]: Remove: archive file [/home/abi/fetcher/tmp/insensitive_strenum-1.0.1.tar.gz]
+[2024-05-22 10:19:33] INFO root fetch - main [MainThread]: End processing [insensitive-strenum]: success
+[2024-05-22 10:19:33] INFO root fetch - processPackages [pellipop]: Remove: archive file [/home/abi/fetcher/tmp/pellipop-0.8.6.tar.gz]
+[2024-05-22 10:19:33] INFO root fetch - processPackages [pellipop]: Remove: archive file [/home/abi/fetcher/tmp/pellipop-0.8.7.tar.gz]
+[2024-05-22 10:19:33] INFO root fetch - main [MainThread]: End processing [pellipop]: success
+[2024-05-22 10:19:33] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.8-py3-none-any.whl.zip]
+[2024-05-22 10:19:33] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.9-py3-none-any.whl.zip]
+[2024-05-22 10:19:33] INFO root fetch - main [MainThread]: End processing [vuer]: success
+[2024-05-22 10:19:33] INFO root fetch - main [MainThread]: Store serial: [23320808]

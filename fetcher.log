@@ -22243,3 +22243,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 14:04:40] INFO root fetch - processPackages [tactics2d]: Remove: archive file [/home/abi/fetcher/tmp/tactics2d-0.1.7.tar.gz]
 [2024-05-22 14:04:40] INFO root fetch - main [MainThread]: End processing [tactics2d]: success
 [2024-05-22 14:04:40] INFO root fetch - main [MainThread]: Store serial: [23323565]
+[2024-05-22 14:06:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323565]
+[2024-05-22 14:06:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-22 14:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beambusters
+[2024-05-22 14:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: feediverse
+[2024-05-22 14:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dash-pydantic-form
+[2024-05-22 14:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycrfpp
+[2024-05-22 14:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: decoutilities
+[2024-05-22 14:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hklpy2
+[2024-05-22 14:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rococooo
+[2024-05-22 14:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: threedi-modelchecker
+[2024-05-22 14:06:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spaceone-inventory
+[2024-05-22 14:06:56] WARNING root fetch - processPackages [beambusters]: Skipping, unable to determine old version
+[2024-05-22 14:06:56] INFO root fetch - main [MainThread]: End processing [beambusters] error
+[2024-05-22 14:06:56] INFO root fetch - processPackages [hklpy2]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 14:06:56] INFO root fetch - processPackages [decoutilities]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-22 14:06:56] WARNING root fetch - processPackages [pycrfpp]: Skipping, unable to determine old version
+[2024-05-22 14:06:56] INFO root fetch - main [MainThread]: End processing [pycrfpp] error
+[2024-05-22 14:06:56] INFO root fetch - processPackages [hklpy2]: Downloading https://files.pythonhosted.org/packages/82/8d/5c9570a4a75253dcdf327c259c5c6c07c03b52cb1d033e98aaaa64a7124e/hklpy2-0.0.8.tar.gz
+[2024-05-22 14:06:56] INFO root fetch - processPackages [dash-pydantic-form]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 14:06:56] INFO root fetch - processPackages [feediverse]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-22 14:06:56] WARNING root fetch - processPackages [rococooo]: Skipping, unable to determine old version
+[2024-05-22 14:06:56] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/a4/13/97cfd01874fa2137eed0e1aa1e21e6a2387b173d3191e54a0f3d801cb364/decoutilities-0.2.9.tar.gz
+[2024-05-22 14:06:56] INFO root fetch - main [MainThread]: End processing [rococooo] error
+[2024-05-22 14:06:56] INFO root fetch - processPackages [threedi-modelchecker]: New version: [2.7.3] Old Version: [2.7.2]
+[2024-05-22 14:06:56] INFO root fetch - processPackages [spaceone-inventory]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-22 14:06:56] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/2b/23/73e091142fbd007706604f94cc95718e79d9259d998aa9dd424fc7cc6f7f/spaceone-inventory-2.0.dev98.tar.gz
+[2024-05-22 14:06:57] INFO root fetch - processPackages [feediverse]: Downloading https://files.pythonhosted.org/packages/8e/1c/e5186971a01626d06ea8c4f9f8f4f34f4bda444dcf292d87f1465fcdd887/feediverse-0.3.0.tar.gz
+[2024-05-22 14:06:57] INFO root fetch - processPackages [dash-pydantic-form]: Downloading https://files.pythonhosted.org/packages/5d/79/f2446a74a0647d97f1ed631fb51aac1114a2235ba75271a8e7912a8c0ae8/dash_pydantic_form-0.1.8.tar.gz
+[2024-05-22 14:06:57] INFO root fetch - processPackages [threedi-modelchecker]: Downloading https://files.pythonhosted.org/packages/cd/1e/f072fbf97a3e5f3cf5ecc0c56b85bf779e7246735eb2b9dff5b152082158/threedi_modelchecker-2.7.2.tar.gz
+[2024-05-22 14:06:57] INFO root fetch - processPackages [hklpy2]: Downloading https://files.pythonhosted.org/packages/53/9b/f66f707afd80d550e6ae3a7275571b4ee8983e8dcdfdd13fc56f085c695d/hklpy2-0.0.9.tar.gz
+[2024-05-22 14:06:57] INFO root fetch - processPackages [decoutilities]: Downloading https://files.pythonhosted.org/packages/cc/1f/0c0bacb30cb030b6b106bf5c6ca9cfbea5ba861b6511426fce2156a2864f/decoutilities-0.3.0.tar.gz
+[2024-05-22 14:06:57] INFO root fetch - processPackages [spaceone-inventory]: Downloading https://files.pythonhosted.org/packages/e7/30/f1229bb9f69283d6576804b473d6fe73ff3118fb5543c89d48b18f899ca2/spaceone-inventory-2.0.dev99.tar.gz
+[2024-05-22 14:06:57] INFO root fetch - processPackages [hklpy2]: executing diffoscope
+[2024-05-22 14:06:57] INFO root fetch - processPackages [hklpy2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hklpy2-0.0.8.tar.gz tmp/hklpy2-0.0.9.tar.gz --markdown 20240522/h/hklpy2/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 14:06:57] INFO root fetch - processPackages [decoutilities]: executing diffoscope
+[2024-05-22 14:06:57] INFO root fetch - processPackages [decoutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoutilities-0.2.9.tar.gz tmp/decoutilities-0.3.0.tar.gz --markdown 20240522/d/decoutilities/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-22 14:06:57] INFO root fetch - processPackages [spaceone-inventory]: executing diffoscope
+[2024-05-22 14:06:57] INFO root fetch - processPackages [spaceone-inventory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-inventory-2.0.dev98.tar.gz tmp/spaceone-inventory-2.0.dev99.tar.gz --markdown 20240522/s/spaceone-inventory/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-22 14:06:57] INFO root fetch - processPackages [feediverse]: Downloading https://files.pythonhosted.org/packages/5e/ff/e004e59e63b4e4ba30b740f3dec463877d262a7ca71466d64f76fe59b599/feediverse-0.3.1.tar.gz
+[2024-05-22 14:06:57] INFO root fetch - processPackages [dash-pydantic-form]: Downloading https://files.pythonhosted.org/packages/27/6d/ebcc7cd94582252583d5ed56864691c7d23afa009ca5100c21ab9f8bb15d/dash_pydantic_form-0.1.9.tar.gz
+[2024-05-22 14:06:57] INFO root fetch - processPackages [feediverse]: executing diffoscope
+[2024-05-22 14:06:57] INFO root fetch - processPackages [feediverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feediverse-0.3.0.tar.gz tmp/feediverse-0.3.1.tar.gz --markdown 20240522/f/feediverse/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-22 14:06:57] INFO root fetch - processPackages [threedi-modelchecker]: Downloading https://files.pythonhosted.org/packages/ef/9f/10fe7c193223b950207f9b4f23044aad65e936ff88f187e539e661da3bf4/threedi_modelchecker-2.7.3.tar.gz
+[2024-05-22 14:06:57] INFO root fetch - processPackages [dash-pydantic-form]: executing diffoscope
+[2024-05-22 14:06:57] INFO root fetch - processPackages [dash-pydantic-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_pydantic_form-0.1.8.tar.gz tmp/dash_pydantic_form-0.1.9.tar.gz --markdown 20240522/d/dash-pydantic-form/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 14:06:57] INFO root fetch - processPackages [threedi-modelchecker]: executing diffoscope
+[2024-05-22 14:06:57] INFO root fetch - processPackages [threedi-modelchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedi_modelchecker-2.7.2.tar.gz tmp/threedi_modelchecker-2.7.3.tar.gz --markdown 20240522/t/threedi-modelchecker/2.7.2-2.7.3/README.md --exclude *.pyd
+[2024-05-22 14:06:58] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.2.9.tar.gz]
+[2024-05-22 14:06:58] INFO root fetch - processPackages [decoutilities]: Remove: archive file [/home/abi/fetcher/tmp/decoutilities-0.3.0.tar.gz]
+[2024-05-22 14:06:58] INFO root fetch - main [MainThread]: End processing [decoutilities]: success
+[2024-05-22 14:06:58] INFO root fetch - processPackages [hklpy2]: Remove: archive file [/home/abi/fetcher/tmp/hklpy2-0.0.8.tar.gz]
+[2024-05-22 14:06:58] INFO root fetch - processPackages [hklpy2]: Remove: archive file [/home/abi/fetcher/tmp/hklpy2-0.0.9.tar.gz]
+[2024-05-22 14:06:58] INFO root fetch - main [MainThread]: End processing [hklpy2]: success
+[2024-05-22 14:06:58] INFO root fetch - processPackages [feediverse]: Remove: archive file [/home/abi/fetcher/tmp/feediverse-0.3.0.tar.gz]
+[2024-05-22 14:06:58] INFO root fetch - processPackages [feediverse]: Remove: archive file [/home/abi/fetcher/tmp/feediverse-0.3.1.tar.gz]
+[2024-05-22 14:06:58] INFO root fetch - main [MainThread]: End processing [feediverse]: success
+[2024-05-22 14:06:58] INFO root fetch - processPackages [dash-pydantic-form]: Remove: archive file [/home/abi/fetcher/tmp/dash_pydantic_form-0.1.8.tar.gz]
+[2024-05-22 14:06:58] INFO root fetch - processPackages [dash-pydantic-form]: Remove: archive file [/home/abi/fetcher/tmp/dash_pydantic_form-0.1.9.tar.gz]
+[2024-05-22 14:06:58] INFO root fetch - main [MainThread]: End processing [dash-pydantic-form]: success
+[2024-05-22 14:06:58] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev98.tar.gz]
+[2024-05-22 14:06:58] INFO root fetch - processPackages [spaceone-inventory]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-inventory-2.0.dev99.tar.gz]
+[2024-05-22 14:06:58] INFO root fetch - main [MainThread]: End processing [spaceone-inventory]: success
+[2024-05-22 14:06:59] INFO root fetch - processPackages [threedi-modelchecker]: Remove: archive file [/home/abi/fetcher/tmp/threedi_modelchecker-2.7.2.tar.gz]
+[2024-05-22 14:06:59] INFO root fetch - processPackages [threedi-modelchecker]: Remove: archive file [/home/abi/fetcher/tmp/threedi_modelchecker-2.7.3.tar.gz]
+[2024-05-22 14:06:59] INFO root fetch - main [MainThread]: End processing [threedi-modelchecker]: success
+[2024-05-22 14:06:59] INFO root fetch - main [MainThread]: Store serial: [23323629]

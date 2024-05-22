@@ -22515,3 +22515,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 14:13:24] INFO root fetch - processPackages [odoo-addon-l10n-br-fiscal]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_br_fiscal-16.0.1.9.0-py3-none-any.whl.zip]
 [2024-05-22 14:13:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-br-fiscal]: success
 [2024-05-22 14:13:24] INFO root fetch - main [MainThread]: Store serial: [23323704]
+[2024-05-22 14:15:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323704]
+[2024-05-22 14:15:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 14:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: de-feiertage
+[2024-05-22 14:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypercrawlturbo
+[2024-05-22 14:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TissUUmaps
+[2024-05-22 14:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyiter
+[2024-05-22 14:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tgemoji
+[2024-05-22 14:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rsdb-utils
+[2024-05-22 14:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eurelis-llmatoolkit
+[2024-05-22 14:15:41] INFO root fetch - processPackages [de-feiertage]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-22 14:15:41] WARNING root fetch - processPackages [hypercrawlturbo]: Skipping, unable to determine old version
+[2024-05-22 14:15:41] INFO root fetch - main [MainThread]: End processing [hypercrawlturbo] error
+[2024-05-22 14:15:41] WARNING root fetch - processPackages [rsdb-utils]: Skipping, unable to determine old version
+[2024-05-22 14:15:41] INFO root fetch - main [MainThread]: End processing [rsdb-utils] error
+[2024-05-22 14:15:41] INFO root fetch - processPackages [de-feiertage]: Downloading https://files.pythonhosted.org/packages/4c/2e/9fe0cdf679cfc75c883a7d246cef1c53c90bc2a97b67d415a90be7ae9f91/de-feiertage-1.0.1.tar.gz
+[2024-05-22 14:15:41] INFO root fetch - processPackages [eurelis-llmatoolkit]: New version: [1.0.1] Old Version: [1.0.0rc1]
+[2024-05-22 14:15:41] WARNING root fetch - processPackages [tgemoji]: Skipping, unable to determine old version
+[2024-05-22 14:15:41] INFO root fetch - main [MainThread]: End processing [tgemoji] error
+[2024-05-22 14:15:41] INFO root fetch - processPackages [TissUUmaps]: New version: [3.2rc3] Old Version: [3.2rc2]
+[2024-05-22 14:15:41] INFO root fetch - processPackages [pyiter]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-22 14:15:41] INFO root fetch - processPackages [de-feiertage]: Downloading https://files.pythonhosted.org/packages/a8/cc/2b6d861158cbbb3b2d62cfc8c18768048b3670c236c8ebd20a4045f4cfe8/de_feiertage-1.0.2.tar.gz
+[2024-05-22 14:15:41] INFO root fetch - processPackages [TissUUmaps]: Downloading https://files.pythonhosted.org/packages/bf/78/9caf6bee5293b06ef62eb3faf7b512199cd632f472d8a1cf8f214911ea37/TissUUmaps-3.2rc2.tar.gz
+[2024-05-22 14:15:41] INFO root fetch - processPackages [eurelis-llmatoolkit]: Downloading https://files.pythonhosted.org/packages/ab/e6/d231eec8fb395af88494d2100abf509c802b13f19189e6d1435d27d734f5/eurelis_llmatoolkit-1.0.0rc1.tar.gz
+[2024-05-22 14:15:41] INFO root fetch - processPackages [pyiter]: Downloading https://files.pythonhosted.org/packages/81/57/949b00930968a8370c613892c9991082ad316ffee19add7502975e204df4/pyiter-0.9.0.tar.gz
+[2024-05-22 14:15:41] INFO root fetch - processPackages [de-feiertage]: executing diffoscope
+[2024-05-22 14:15:41] INFO root fetch - processPackages [de-feiertage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/de-feiertage-1.0.1.tar.gz tmp/de_feiertage-1.0.2.tar.gz --markdown 20240522/d/de-feiertage/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-22 14:15:41] INFO root fetch - processPackages [eurelis-llmatoolkit]: Downloading https://files.pythonhosted.org/packages/cf/2e/7044c653de51392a768b03f7543825829e2d6db00cc5546fa3bba707d5da/eurelis_llmatoolkit-1.0.1.tar.gz
+[2024-05-22 14:15:41] INFO root fetch - processPackages [pyiter]: Downloading https://files.pythonhosted.org/packages/17/91/e995ae894d124b30dfa809e66223d59661022009bbc5cd506f77a477d92b/pyiter-0.9.1.tar.gz
+[2024-05-22 14:15:41] INFO root fetch - processPackages [eurelis-llmatoolkit]: executing diffoscope
+[2024-05-22 14:15:41] INFO root fetch - processPackages [eurelis-llmatoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurelis_llmatoolkit-1.0.0rc1.tar.gz tmp/eurelis_llmatoolkit-1.0.1.tar.gz --markdown 20240522/e/eurelis-llmatoolkit/1.0.0rc1-1.0.1/README.md --exclude *.pyd
+[2024-05-22 14:15:42] INFO root fetch - processPackages [pyiter]: executing diffoscope
+[2024-05-22 14:15:42] INFO root fetch - processPackages [pyiter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiter-0.9.0.tar.gz tmp/pyiter-0.9.1.tar.gz --markdown 20240522/p/pyiter/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-22 14:15:42] INFO root fetch - processPackages [TissUUmaps]: Downloading https://files.pythonhosted.org/packages/4f/5b/9eee2596a1a03a1394519124013e8a3dbf611af541beae662c47c6c4ca95/TissUUmaps-3.2rc3.tar.gz
+[2024-05-22 14:15:42] INFO root fetch - processPackages [de-feiertage]: Remove: archive file [/home/abi/fetcher/tmp/de-feiertage-1.0.1.tar.gz]
+[2024-05-22 14:15:42] INFO root fetch - processPackages [de-feiertage]: Remove: archive file [/home/abi/fetcher/tmp/de_feiertage-1.0.2.tar.gz]
+[2024-05-22 14:15:42] INFO root fetch - main [MainThread]: End processing [de-feiertage]: success
+[2024-05-22 14:15:42] INFO root fetch - processPackages [eurelis-llmatoolkit]: Remove: archive file [/home/abi/fetcher/tmp/eurelis_llmatoolkit-1.0.0rc1.tar.gz]
+[2024-05-22 14:15:42] INFO root fetch - processPackages [eurelis-llmatoolkit]: Remove: archive file [/home/abi/fetcher/tmp/eurelis_llmatoolkit-1.0.1.tar.gz]
+[2024-05-22 14:15:42] INFO root fetch - main [MainThread]: End processing [eurelis-llmatoolkit]: success
+[2024-05-22 14:15:42] INFO root fetch - processPackages [TissUUmaps]: executing diffoscope
+[2024-05-22 14:15:42] INFO root fetch - processPackages [TissUUmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TissUUmaps-3.2rc2.tar.gz tmp/TissUUmaps-3.2rc3.tar.gz --markdown 20240522/T/TissUUmaps/3.2rc2-3.2rc3/README.md --exclude *.pyd
+[2024-05-22 14:15:42] INFO root fetch - processPackages [pyiter]: Remove: archive file [/home/abi/fetcher/tmp/pyiter-0.9.0.tar.gz]
+[2024-05-22 14:15:42] INFO root fetch - processPackages [pyiter]: Remove: archive file [/home/abi/fetcher/tmp/pyiter-0.9.1.tar.gz]
+[2024-05-22 14:15:42] INFO root fetch - main [MainThread]: End processing [pyiter]: success
+[2024-05-22 14:15:59] INFO root fetch - processPackages [TissUUmaps]: Remove: archive file [/home/abi/fetcher/tmp/TissUUmaps-3.2rc2.tar.gz]
+[2024-05-22 14:15:59] INFO root fetch - processPackages [TissUUmaps]: Remove: archive file [/home/abi/fetcher/tmp/TissUUmaps-3.2rc3.tar.gz]
+[2024-05-22 14:15:59] INFO root fetch - main [MainThread]: End processing [TissUUmaps]: success
+[2024-05-22 14:15:59] INFO root fetch - main [MainThread]: Store serial: [23323737]

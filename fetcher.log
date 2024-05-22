@@ -3200,3 +3200,24 @@
 [2024-05-22 02:42:54] INFO root fetch - processPackages [typeshed-stats]: Remove: archive file [/home/abi/fetcher/tmp/typeshed_stats-24.5.21.tar.gz]
 [2024-05-22 02:42:54] INFO root fetch - main [MainThread]: End processing [typeshed-stats]: success
 [2024-05-22 02:42:54] INFO root fetch - main [MainThread]: Store serial: [23315694]
+[2024-05-22 02:44:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315694]
+[2024-05-22 02:45:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 02:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: authentik-client
+[2024-05-22 02:45:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tfds-nightly
+[2024-05-22 02:45:03] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202405210044] Old Version: [4.9.4.dev202405200044]
+[2024-05-22 02:45:03] INFO root fetch - processPackages [authentik-client]: New version: [2024.4.2.post1716338601] Old Version: [2024.4.2.post1716209289]
+[2024-05-22 02:45:03] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/5d/af/eff8c18c3f0fa5bc7beb0faa1f34a0794c8703ef2e870515c26f947b413b/tfds-nightly-4.9.4.dev202405200044.tar.gz
+[2024-05-22 02:45:03] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/f9/82/bd095dd030d264fdbbe5980c2165407e161e3fe2c0ed18a0a7bdf17c3032/authentik_client-2024.4.2.post1716209289.tar.gz
+[2024-05-22 02:45:04] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/60/07/02657722ece73cc129deedbc35c0f5e369ecc539a7554a6fb3b6ee43ddd0/tfds-nightly-4.9.4.dev202405210044.tar.gz
+[2024-05-22 02:45:04] INFO root fetch - processPackages [authentik-client]: Downloading https://files.pythonhosted.org/packages/da/ac/c1aa7f2670bcb235faa333b80e54d9716a31a17d1262bb495afdd93f5dc1/authentik_client-2024.4.2.post1716338601.tar.gz
+[2024-05-22 02:45:04] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-05-22 02:45:04] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202405200044.tar.gz tmp/tfds-nightly-4.9.4.dev202405210044.tar.gz --markdown 20240522/t/tfds-nightly/4.9.4.dev202405200044-4.9.4.dev202405210044/README.md --exclude *.pyd
+[2024-05-22 02:45:04] INFO root fetch - processPackages [authentik-client]: executing diffoscope
+[2024-05-22 02:45:04] INFO root fetch - processPackages [authentik-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authentik_client-2024.4.2.post1716209289.tar.gz tmp/authentik_client-2024.4.2.post1716338601.tar.gz --markdown 20240522/a/authentik-client/2024.4.2.post1716209289-2024.4.2.post1716338601/README.md --exclude *.pyd
+[2024-05-22 02:45:09] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.4.2.post1716209289.tar.gz]
+[2024-05-22 02:45:09] INFO root fetch - processPackages [authentik-client]: Remove: archive file [/home/abi/fetcher/tmp/authentik_client-2024.4.2.post1716338601.tar.gz]
+[2024-05-22 02:45:09] INFO root fetch - main [MainThread]: End processing [authentik-client]: success
+[2024-05-22 02:45:13] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405200044.tar.gz]
+[2024-05-22 02:45:13] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405210044.tar.gz]
+[2024-05-22 02:45:13] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-05-22 02:45:13] INFO root fetch - main [MainThread]: Store serial: [23315700]

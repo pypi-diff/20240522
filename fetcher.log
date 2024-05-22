@@ -10265,3 +10265,42 @@
 [2024-05-22 05:39:38] INFO root fetch - processPackages [odoo-addon-crm-lead-vat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_lead_vat-17.0.1.0.1.5-py3-none-any.whl.zip]
 [2024-05-22 05:39:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-lead-vat]: success
 [2024-05-22 05:39:38] INFO root fetch - main [MainThread]: Store serial: [23318374]
+[2024-05-22 05:41:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318374]
+[2024-05-22 05:41:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 05:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synnax
+[2024-05-22 05:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baseball
+[2024-05-22 05:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rayasdk
+[2024-05-22 05:41:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphobjinv
+[2024-05-22 05:41:47] INFO root fetch - processPackages [synnax]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-22 05:41:47] INFO root fetch - processPackages [baseball]: New version: [9.9] Old Version: [9.8]
+[2024-05-22 05:41:47] INFO root fetch - processPackages [sphobjinv]: New version: [v0.1] Old Version: [2.3.1.1]
+[2024-05-22 05:41:47] INFO root fetch - processPackages [rayasdk]: New version: [3.7.9.dev0] Old Version: [3.7.8.dev0]
+[2024-05-22 05:41:47] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/89/a1/f0d76d0706e47ba3dcdbf0fe8c7b2e90c98bd073d40a3c4c7c1c1025aab8/synnax-0.8.0.tar.gz
+[2024-05-22 05:41:47] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/04/2a/8b198995c2f8d35c19f4b1e0e6c5c067e955f1258d57c1b1341eab88715e/baseball-9.8.tar.gz
+[2024-05-22 05:41:47] INFO root fetch - processPackages [sphobjinv]: Downloading https://files.pythonhosted.org/packages/04/b6/1b601e15bd109d0c5314c8c346d3b04f7de516c9622ac3e5c2d4ef9010da/sphobjinv-2.3.1.1.tar.gz
+[2024-05-22 05:41:47] INFO root fetch - processPackages [rayasdk]: Downloading https://files.pythonhosted.org/packages/85/9f/5ea5e44866c0c797627033698e48b38556b8e5aa5837a516d42f0225d1cb/rayasdk-3.7.8.dev0.tar.gz
+[2024-05-22 05:41:47] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/b3/bc/76e9b03b96c7ab72f4b39e5e03c396b86efd6fb650bedcff8a7118679e9b/synnax-0.9.0.tar.gz
+[2024-05-22 05:41:47] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/1a/e0/fb3c48a01fd33034695694663cfddfb7a099e47f8aa30dc6c901a5fcee37/baseball-9.9.tar.gz
+[2024-05-22 05:41:48] INFO root fetch - processPackages [synnax]: executing diffoscope
+[2024-05-22 05:41:48] INFO root fetch - processPackages [synnax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax-0.8.0.tar.gz tmp/synnax-0.9.0.tar.gz --markdown 20240522/s/synnax/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-22 05:41:48] INFO root fetch - processPackages [baseball]: executing diffoscope
+[2024-05-22 05:41:48] INFO root fetch - processPackages [baseball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseball-9.8.tar.gz tmp/baseball-9.9.tar.gz --markdown 20240522/b/baseball/9.8-9.9/README.md --exclude *.pyd
+[2024-05-22 05:41:48] WARNING root fetch - processPackages [sphobjinv]: fallback to get urls: [v0.1]
+[2024-05-22 05:41:48] WARNING root fetch - processPackages [sphobjinv]: None
+[2024-05-22 05:41:48] INFO root fetch - processPackages [rayasdk]: Downloading https://files.pythonhosted.org/packages/5c/c6/eb2b7b28225209501b3b5b714695be0773e4d816b487c4d2ca00a7852aab/rayasdk-3.7.9.dev0.tar.gz
+[2024-05-22 05:41:48] WARNING root fetch - processPackages [sphobjinv]: None
+[2024-05-22 05:41:48] WARNING root fetch - processPackages [sphobjinv]: unable to get url for both version [v0.1]
+[2024-05-22 05:41:48] WARNING root fetch - processPackages [sphobjinv]: None
+[2024-05-22 05:41:48] INFO root fetch - main [MainThread]: End processing [sphobjinv] error
+[2024-05-22 05:41:48] INFO root fetch - processPackages [rayasdk]: executing diffoscope
+[2024-05-22 05:41:48] INFO root fetch - processPackages [rayasdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayasdk-3.7.8.dev0.tar.gz tmp/rayasdk-3.7.9.dev0.tar.gz --markdown 20240522/r/rayasdk/3.7.8.dev0-3.7.9.dev0/README.md --exclude *.pyd
+[2024-05-22 05:41:48] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.8.0.tar.gz]
+[2024-05-22 05:41:48] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
+[2024-05-22 05:41:48] INFO root fetch - main [MainThread]: End processing [synnax]: success
+[2024-05-22 05:41:48] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.8.tar.gz]
+[2024-05-22 05:41:48] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.9.tar.gz]
+[2024-05-22 05:41:48] INFO root fetch - main [MainThread]: End processing [baseball]: success
+[2024-05-22 05:41:49] INFO root fetch - processPackages [rayasdk]: Remove: archive file [/home/abi/fetcher/tmp/rayasdk-3.7.8.dev0.tar.gz]
+[2024-05-22 05:41:49] INFO root fetch - processPackages [rayasdk]: Remove: archive file [/home/abi/fetcher/tmp/rayasdk-3.7.9.dev0.tar.gz]
+[2024-05-22 05:41:49] INFO root fetch - main [MainThread]: End processing [rayasdk]: success
+[2024-05-22 05:41:49] INFO root fetch - main [MainThread]: Store serial: [23318386]

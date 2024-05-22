@@ -10304,3 +10304,33 @@
 [2024-05-22 05:41:49] INFO root fetch - processPackages [rayasdk]: Remove: archive file [/home/abi/fetcher/tmp/rayasdk-3.7.9.dev0.tar.gz]
 [2024-05-22 05:41:49] INFO root fetch - main [MainThread]: End processing [rayasdk]: success
 [2024-05-22 05:41:49] INFO root fetch - main [MainThread]: Store serial: [23318386]
+[2024-05-22 05:43:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318386]
+[2024-05-22 05:43:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 05:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hermes-cai
+[2024-05-22 05:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baseball
+[2024-05-22 05:43:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zfx
+[2024-05-22 05:43:58] INFO root fetch - processPackages [hermes-cai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 05:43:58] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-22 05:43:58] INFO root fetch - processPackages [baseball]: New version: [9.9] Old Version: [9.8]
+[2024-05-22 05:43:58] INFO root fetch - processPackages [hermes-cai]: Downloading https://files.pythonhosted.org/packages/c9/49/97474e8e674b4a25212e52f4667f6ed8090477ad6f09cc4879d99ad76b98/hermes_cai-0.0.8.tar.gz
+[2024-05-22 05:43:58] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-22 05:43:58] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/04/2a/8b198995c2f8d35c19f4b1e0e6c5c067e955f1258d57c1b1341eab88715e/baseball-9.8.tar.gz
+[2024-05-22 05:43:58] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-22 05:43:58] INFO root fetch - processPackages [hermes-cai]: Downloading https://files.pythonhosted.org/packages/c7/2e/0f088ef52872faa4a462253525bc0bf9426cf9d1003e4f90cbfa2ab55af8/hermes_cai-0.0.9.tar.gz
+[2024-05-22 05:43:58] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/1a/e0/fb3c48a01fd33034695694663cfddfb7a099e47f8aa30dc6c901a5fcee37/baseball-9.9.tar.gz
+[2024-05-22 05:43:58] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-22 05:43:58] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240522/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-22 05:43:58] INFO root fetch - processPackages [hermes-cai]: executing diffoscope
+[2024-05-22 05:43:58] INFO root fetch - processPackages [hermes-cai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hermes_cai-0.0.8.tar.gz tmp/hermes_cai-0.0.9.tar.gz --markdown 20240522/h/hermes-cai/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 05:43:58] INFO root fetch - processPackages [baseball]: executing diffoscope
+[2024-05-22 05:43:58] INFO root fetch - processPackages [baseball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseball-9.8.tar.gz tmp/baseball-9.9.tar.gz --markdown 20240522/b/baseball/9.8-9.9/README.md --exclude *.pyd
+[2024-05-22 05:43:59] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.8.tar.gz]
+[2024-05-22 05:43:59] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.9.tar.gz]
+[2024-05-22 05:43:59] INFO root fetch - main [MainThread]: End processing [baseball]: success
+[2024-05-22 05:43:59] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-22 05:43:59] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-22 05:43:59] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-22 05:43:59] INFO root fetch - processPackages [hermes-cai]: Remove: archive file [/home/abi/fetcher/tmp/hermes_cai-0.0.8.tar.gz]
+[2024-05-22 05:43:59] INFO root fetch - processPackages [hermes-cai]: Remove: archive file [/home/abi/fetcher/tmp/hermes_cai-0.0.9.tar.gz]
+[2024-05-22 05:43:59] INFO root fetch - main [MainThread]: End processing [hermes-cai]: success
+[2024-05-22 05:43:59] INFO root fetch - main [MainThread]: Store serial: [23318394]

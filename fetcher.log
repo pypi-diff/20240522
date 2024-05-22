@@ -13179,3 +13179,78 @@
 [2024-05-22 08:29:21] INFO root fetch - processPackages [setup-django-apex]: Remove: archive file [/home/abi/fetcher/tmp/setup_django_apex-0.1.5.tar.gz]
 [2024-05-22 08:29:21] INFO root fetch - main [MainThread]: End processing [setup-django-apex]: success
 [2024-05-22 08:29:21] INFO root fetch - main [MainThread]: Store serial: [23319681]
+[2024-05-22 08:31:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319681]
+[2024-05-22 08:31:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 08:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydolphindb
+[2024-05-22 08:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: distilabel
+[2024-05-22 08:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-product-set
+[2024-05-22 08:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c2cciutils
+[2024-05-22 08:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-sale-order-type
+[2024-05-22 08:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sale-automatic-workflow
+[2024-05-22 08:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-sale-order-line-price-history
+[2024-05-22 08:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: live-cells-py
+[2024-05-22 08:31:43] INFO root fetch - processPackages [live-cells-py]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-22 08:31:43] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-05-22 08:31:43] INFO root fetch - processPackages [pydolphindb]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-22 08:31:43] INFO root fetch - processPackages [odoo-addon-sale-product-set]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-22 08:31:43] INFO root fetch - processPackages [live-cells-py]: Downloading https://files.pythonhosted.org/packages/ac/53/7dceacbf657bdaca437636d073af367e1b4d479483124e3a1e648e2bc6cf/live-cells-py-0.1.2.tar.gz
+[2024-05-22 08:31:43] INFO root fetch - processPackages [distilabel]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-22 08:31:43] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: New version: [16.0.1.1.0.3] Old Version: [16.0.1.1.0.2]
+[2024-05-22 08:31:43] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: New version: [16.0.1.1.1.5] Old Version: [16.0.1.1.1.4]
+[2024-05-22 08:31:43] INFO root fetch - processPackages [odoo-addon-sale-order-type]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-05-22 08:31:43] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-05-22 08:31:43] INFO root fetch - processPackages [pydolphindb]: Downloading https://files.pythonhosted.org/packages/37/4b/8da351e1c2cfcda4457e0d1630a65476dfa2521d708c4f15ab693acfb05d/pydolphindb-1.0.0-py3-none-any.whl
+[2024-05-22 08:31:43] INFO root fetch - processPackages [odoo-addon-sale-product-set]: Downloading https://files.pythonhosted.org/packages/44/d5/13ad14de7fd532ba04e7739acb2fddd145a4fa9c59093a186953ca004d60/odoo_addon_sale_product_set-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-22 08:31:43] INFO root fetch - processPackages [distilabel]: Downloading https://files.pythonhosted.org/packages/7b/e7/6917461cb1129c76d3c96a576443b835af6ba77b7141970f3499a175f62e/distilabel-1.1.0.tar.gz
+[2024-05-22 08:31:43] INFO root fetch - processPackages [odoo-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/3d/ba/c4af688ab5ec3444ac7c8801dcf232f267f0216d4598cd22cbbeb8bbd724/odoo_addon_sale_order_type-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-22 08:31:43] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/67/20/c57c3e433824322740b86c1f5a07497231a671085838fdda01d2dbea7cc4/odoo_addon_sale_automatic_workflow-16.0.1.1.0.2-py3-none-any.whl
+[2024-05-22 08:31:43] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: Downloading https://files.pythonhosted.org/packages/76/3c/9e7822776123644b3689f4dbbf4981887f4cac0e72999b0175c5a785d9b7/odoo_addon_sale_order_line_price_history-16.0.1.1.1.4-py3-none-any.whl
+[2024-05-22 08:31:43] INFO root fetch - processPackages [live-cells-py]: Downloading https://files.pythonhosted.org/packages/a0/14/dbdf8fe9d2512c2fdae5e6a8995402ae061f91ce2251d4ec1df8e23eaed0/live-cells-py-0.1.3.tar.gz
+[2024-05-22 08:31:43] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-05-22 08:31:43] INFO root fetch - processPackages [live-cells-py]: executing diffoscope
+[2024-05-22 08:31:43] INFO root fetch - processPackages [live-cells-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/live-cells-py-0.1.2.tar.gz tmp/live-cells-py-0.1.3.tar.gz --markdown 20240522/l/live-cells-py/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-22 08:31:43] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-05-22 08:31:43] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240522/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/README.md --exclude *.pyd
+[2024-05-22 08:31:43] INFO root fetch - processPackages [odoo-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/2b/c3/c7b7b06a9eff6da15f8f32327457276d7a988e15f4f8dcc5ad66ae5a8d9c/odoo_addon_sale_order_type-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-22 08:31:43] INFO root fetch - processPackages [pydolphindb]: Downloading https://files.pythonhosted.org/packages/58/29/972b1113e61f3f704aceb7c2ca730dcca4641917242b1339df6cec2ab9bb/pydolphindb-1.0.1-py3-none-any.whl
+[2024-05-22 08:31:43] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: Downloading https://files.pythonhosted.org/packages/2a/6b/7253892974fbb2bd37b4c5abf1a6316418f798f50505a2ba3e34778066b7/odoo_addon_sale_automatic_workflow-16.0.1.1.0.3-py3-none-any.whl
+[2024-05-22 08:31:43] INFO root fetch - processPackages [odoo-addon-sale-product-set]: Downloading https://files.pythonhosted.org/packages/3e/54/9d0973276b6706a75dccde4deac7edbe233065d69714e5fd62a60db6122d/odoo_addon_sale_product_set-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-22 08:31:43] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: Downloading https://files.pythonhosted.org/packages/b1/1c/7698dafab5e13ddf456d40a7818236bbb37aa686098b4be3f4ab8117ec4e/odoo_addon_sale_order_line_price_history-16.0.1.1.1.5-py3-none-any.whl
+[2024-05-22 08:31:43] INFO root fetch - processPackages [pydolphindb]: executing diffoscope
+[2024-05-22 08:31:43] INFO root fetch - processPackages [pydolphindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydolphindb-1.0.0-py3-none-any.whl.zip tmp/pydolphindb-1.0.1-py3-none-any.whl.zip --markdown 20240522/p/pydolphindb/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-22 08:31:43] INFO root fetch - processPackages [odoo-addon-sale-order-type]: executing diffoscope
+[2024-05-22 08:31:43] INFO root fetch - processPackages [odoo-addon-sale-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_type-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_order_type-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-sale-order-type/17.0.1.0.0.3-17.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-22 08:31:43] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: executing diffoscope
+[2024-05-22 08:31:43] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_automatic_workflow-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_automatic_workflow-16.0.1.1.0.3-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-sale-automatic-workflow/16.0.1.1.0.2-16.0.1.1.0.3/README.md --exclude *.pyd
+[2024-05-22 08:31:44] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: executing diffoscope
+[2024-05-22 08:31:44] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_line_price_history-16.0.1.1.1.4-py3-none-any.whl.zip tmp/odoo_addon_sale_order_line_price_history-16.0.1.1.1.5-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-sale-order-line-price-history/16.0.1.1.1.4-16.0.1.1.1.5/README.md --exclude *.pyd
+[2024-05-22 08:31:44] INFO root fetch - processPackages [distilabel]: Downloading https://files.pythonhosted.org/packages/3d/39/1f3c12bcc901453a6beb604e88aaafb9e41afd694a836d24fad512b350c1/distilabel-1.1.1.tar.gz
+[2024-05-22 08:31:44] INFO root fetch - processPackages [odoo-addon-sale-product-set]: executing diffoscope
+[2024-05-22 08:31:44] INFO root fetch - processPackages [odoo-addon-sale-product-set]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_product_set-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_sale_product_set-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-sale-product-set/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-22 08:31:44] INFO root fetch - processPackages [live-cells-py]: Remove: archive file [/home/abi/fetcher/tmp/live-cells-py-0.1.2.tar.gz]
+[2024-05-22 08:31:44] INFO root fetch - processPackages [live-cells-py]: Remove: archive file [/home/abi/fetcher/tmp/live-cells-py-0.1.3.tar.gz]
+[2024-05-22 08:31:44] INFO root fetch - main [MainThread]: End processing [live-cells-py]: success
+[2024-05-22 08:31:44] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-05-22 08:31:44] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-05-22 08:31:44] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-05-22 08:31:44] INFO root fetch - processPackages [pydolphindb]: Remove: archive file [/home/abi/fetcher/tmp/pydolphindb-1.0.0-py3-none-any.whl.zip]
+[2024-05-22 08:31:44] INFO root fetch - processPackages [pydolphindb]: Remove: archive file [/home/abi/fetcher/tmp/pydolphindb-1.0.1-py3-none-any.whl.zip]
+[2024-05-22 08:31:44] INFO root fetch - main [MainThread]: End processing [pydolphindb]: success
+[2024-05-22 08:31:44] INFO root fetch - processPackages [distilabel]: executing diffoscope
+[2024-05-22 08:31:44] INFO root fetch - processPackages [distilabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distilabel-1.1.0.tar.gz tmp/distilabel-1.1.1.tar.gz --markdown 20240522/d/distilabel/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-22 08:31:45] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_price_history-16.0.1.1.1.4-py3-none-any.whl.zip]
+[2024-05-22 08:31:45] INFO root fetch - processPackages [odoo-addon-sale-order-line-price-history]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_line_price_history-16.0.1.1.1.5-py3-none-any.whl.zip]
+[2024-05-22 08:31:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-line-price-history]: success
+[2024-05-22 08:31:45] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_automatic_workflow-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-22 08:31:45] INFO root fetch - processPackages [odoo-addon-sale-automatic-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_automatic_workflow-16.0.1.1.0.3-py3-none-any.whl.zip]
+[2024-05-22 08:31:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-automatic-workflow]: success
+[2024-05-22 08:31:45] INFO root fetch - processPackages [odoo-addon-sale-product-set]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_product_set-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-22 08:31:45] INFO root fetch - processPackages [odoo-addon-sale-product-set]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_product_set-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-22 08:31:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-product-set]: success
+[2024-05-22 08:31:45] INFO root fetch - processPackages [odoo-addon-sale-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_type-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-22 08:31:45] INFO root fetch - processPackages [odoo-addon-sale-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_type-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-22 08:31:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-type]: success
+[2024-05-22 08:31:46] INFO root fetch - processPackages [distilabel]: Remove: archive file [/home/abi/fetcher/tmp/distilabel-1.1.0.tar.gz]
+[2024-05-22 08:31:46] INFO root fetch - processPackages [distilabel]: Remove: archive file [/home/abi/fetcher/tmp/distilabel-1.1.1.tar.gz]
+[2024-05-22 08:31:46] INFO root fetch - main [MainThread]: End processing [distilabel]: success
+[2024-05-22 08:31:46] INFO root fetch - main [MainThread]: Store serial: [23319709]

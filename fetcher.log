@@ -20402,3 +20402,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:55:13] INFO root fetch - processPackages [flake8-async]: Remove: archive file [/home/abi/fetcher/tmp/flake8_async-24.5.3.tar.gz]
 [2024-05-22 12:55:13] INFO root fetch - main [MainThread]: End processing [flake8-async]: success
 [2024-05-22 12:55:13] INFO root fetch - main [MainThread]: Store serial: [23322733]
+[2024-05-22 12:57:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322733]
+[2024-05-22 12:57:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 12:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unnecessary-abstraction
+[2024-05-22 12:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slim-trees
+[2024-05-22 12:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moltx
+[2024-05-22 12:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aurum-hikari
+[2024-05-22 12:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ms-swift
+[2024-05-22 12:57:22] INFO root fetch - processPackages [aurum-hikari]: New version: [0.1.5.2] Old Version: [0.1.5.1]
+[2024-05-22 12:57:22] INFO root fetch - processPackages [aurum-hikari]: Downloading https://files.pythonhosted.org/packages/28/c5/a7d8459075b5760d17d1bb797056fc05e44d4b2c6f6ed0a987132375ddbd/aurum_hikari-0.1.5.1.tar.gz
+[2024-05-22 12:57:22] INFO root fetch - processPackages [unnecessary-abstraction]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-22 12:57:22] INFO root fetch - processPackages [moltx]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-22 12:57:22] INFO root fetch - processPackages [slim-trees]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-22 12:57:22] INFO root fetch - processPackages [ms-swift]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-05-22 12:57:22] INFO root fetch - processPackages [unnecessary-abstraction]: Downloading https://files.pythonhosted.org/packages/c0/96/2dd8a0e36f0466a986908629f9de56fab6957546db3d33f942368c4851ca/unnecessary_abstraction-1.0.2.tar.gz
+[2024-05-22 12:57:22] INFO root fetch - processPackages [slim-trees]: Downloading https://files.pythonhosted.org/packages/ec/88/4de15eed626162ea44f0e3e901ba911efe1a689fc14caa2af6407a55fc2b/slim_trees-0.2.8.tar.gz
+[2024-05-22 12:57:22] INFO root fetch - processPackages [moltx]: Downloading https://files.pythonhosted.org/packages/b9/5b/5d420bd0c821887f0a671b6e42438b4424aaf1c1770919315f36eaa41dd3/moltx-1.0.3.tar.gz
+[2024-05-22 12:57:22] INFO root fetch - processPackages [ms-swift]: Downloading https://files.pythonhosted.org/packages/d9/b4/38cc3c94c721fc5e5db3cf0b0e8d11326ef85676236bb844527e26752617/ms-swift-2.0.4.tar.gz
+[2024-05-22 12:57:22] INFO root fetch - processPackages [aurum-hikari]: Downloading https://files.pythonhosted.org/packages/41/af/c142803cab0874087924ef80890a7767a671b883b52811f3ea0a2103c361/aurum_hikari-0.1.5.2.tar.gz
+[2024-05-22 12:57:22] INFO root fetch - processPackages [aurum-hikari]: executing diffoscope
+[2024-05-22 12:57:22] INFO root fetch - processPackages [aurum-hikari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aurum_hikari-0.1.5.1.tar.gz tmp/aurum_hikari-0.1.5.2.tar.gz --markdown 20240522/a/aurum-hikari/0.1.5.1-0.1.5.2/README.md --exclude *.pyd
+[2024-05-22 12:57:22] INFO root fetch - processPackages [slim-trees]: Downloading https://files.pythonhosted.org/packages/ab/ff/36452dcf1b515b6b446cc4934b8360b33cd2aea81c5f1d372dae1ac44468/slim_trees-0.2.9.tar.gz
+[2024-05-22 12:57:22] INFO root fetch - processPackages [moltx]: Downloading https://files.pythonhosted.org/packages/eb/a2/9b8200788bc921ce1b0cd3d977d0cfb52557fc928c1f6d50a5ad2608a0a8/moltx-1.0.4.tar.gz
+[2024-05-22 12:57:22] INFO root fetch - processPackages [unnecessary-abstraction]: Downloading https://files.pythonhosted.org/packages/78/53/a8a23497b733d741a6a5b71c933d12856871dccf190e0cedd50bf3f0948e/unnecessary-abstraction-1.0.3.tar.gz
+[2024-05-22 12:57:22] INFO root fetch - processPackages [slim-trees]: executing diffoscope
+[2024-05-22 12:57:22] INFO root fetch - processPackages [slim-trees]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slim_trees-0.2.8.tar.gz tmp/slim_trees-0.2.9.tar.gz --markdown 20240522/s/slim-trees/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-22 12:57:22] INFO root fetch - processPackages [moltx]: executing diffoscope
+[2024-05-22 12:57:22] INFO root fetch - processPackages [moltx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moltx-1.0.3.tar.gz tmp/moltx-1.0.4.tar.gz --markdown 20240522/m/moltx/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-22 12:57:23] INFO root fetch - processPackages [unnecessary-abstraction]: executing diffoscope
+[2024-05-22 12:57:23] INFO root fetch - processPackages [unnecessary-abstraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unnecessary_abstraction-1.0.2.tar.gz tmp/unnecessary-abstraction-1.0.3.tar.gz --markdown 20240522/u/unnecessary-abstraction/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-22 12:57:23] INFO root fetch - processPackages [ms-swift]: Downloading https://files.pythonhosted.org/packages/e3/76/c641b2b24837a3d6d1044c09ffe45b439f60bf2fdd7d1cf60871ae8a720e/ms-swift-2.0.5.tar.gz
+[2024-05-22 12:57:23] INFO root fetch - processPackages [ms-swift]: executing diffoscope
+[2024-05-22 12:57:23] INFO root fetch - processPackages [ms-swift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms-swift-2.0.4.tar.gz tmp/ms-swift-2.0.5.tar.gz --markdown 20240522/m/ms-swift/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-05-22 12:57:23] INFO root fetch - processPackages [aurum-hikari]: Remove: archive file [/home/abi/fetcher/tmp/aurum_hikari-0.1.5.1.tar.gz]
+[2024-05-22 12:57:23] INFO root fetch - processPackages [aurum-hikari]: Remove: archive file [/home/abi/fetcher/tmp/aurum_hikari-0.1.5.2.tar.gz]
+[2024-05-22 12:57:23] INFO root fetch - main [MainThread]: End processing [aurum-hikari]: success
+[2024-05-22 12:57:23] INFO root fetch - processPackages [slim-trees]: Remove: archive file [/home/abi/fetcher/tmp/slim_trees-0.2.8.tar.gz]
+[2024-05-22 12:57:23] INFO root fetch - processPackages [slim-trees]: Remove: archive file [/home/abi/fetcher/tmp/slim_trees-0.2.9.tar.gz]
+[2024-05-22 12:57:23] INFO root fetch - main [MainThread]: End processing [slim-trees]: success
+[2024-05-22 12:57:23] INFO root fetch - processPackages [unnecessary-abstraction]: Remove: archive file [/home/abi/fetcher/tmp/unnecessary_abstraction-1.0.2.tar.gz]
+[2024-05-22 12:57:23] INFO root fetch - processPackages [unnecessary-abstraction]: Remove: archive file [/home/abi/fetcher/tmp/unnecessary-abstraction-1.0.3.tar.gz]
+[2024-05-22 12:57:23] INFO root fetch - main [MainThread]: End processing [unnecessary-abstraction]: success
+[2024-05-22 12:57:23] INFO root fetch - processPackages [moltx]: Remove: archive file [/home/abi/fetcher/tmp/moltx-1.0.3.tar.gz]
+[2024-05-22 12:57:23] INFO root fetch - processPackages [moltx]: Remove: archive file [/home/abi/fetcher/tmp/moltx-1.0.4.tar.gz]
+[2024-05-22 12:57:23] INFO root fetch - main [MainThread]: End processing [moltx]: success
+[2024-05-22 12:57:25] INFO root fetch - processPackages [ms-swift]: Remove: archive file [/home/abi/fetcher/tmp/ms-swift-2.0.4.tar.gz]
+[2024-05-22 12:57:25] INFO root fetch - processPackages [ms-swift]: Remove: archive file [/home/abi/fetcher/tmp/ms-swift-2.0.5.tar.gz]
+[2024-05-22 12:57:25] INFO root fetch - main [MainThread]: End processing [ms-swift]: success
+[2024-05-22 12:57:25] INFO root fetch - main [MainThread]: Store serial: [23322747]

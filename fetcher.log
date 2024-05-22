@@ -9270,3 +9270,42 @@
 [2024-05-22 04:53:49] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.1.13.tar.gz]
 [2024-05-22 04:53:49] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
 [2024-05-22 04:53:49] INFO root fetch - main [MainThread]: Store serial: [23317907]
+[2024-05-22 04:55:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317907]
+[2024-05-22 04:55:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 04:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: solar-registry
+[2024-05-22 04:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fms-robot-plugin
+[2024-05-22 04:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libdaw
+[2024-05-22 04:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xirvik-tools
+[2024-05-22 04:55:57] INFO root fetch - processPackages [libdaw]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-22 04:55:57] INFO root fetch - processPackages [fms-robot-plugin]: New version: [0.2.2rc1] Old Version: [0.2.2rc0]
+[2024-05-22 04:55:57] INFO root fetch - processPackages [libdaw]: Downloading https://files.pythonhosted.org/packages/1c/c7/de3de88caf1f50973d37eb3f948d1a6506035de674281318bea18baa766c/libdaw-0.2.2.tar.gz
+[2024-05-22 04:55:57] INFO root fetch - processPackages [xirvik-tools]: New version: [0.5.0] Old Version: [0.4.5]
+[2024-05-22 04:55:57] INFO root fetch - processPackages [fms-robot-plugin]: Downloading https://files.pythonhosted.org/packages/99/e1/d6459b9950703fd32fadc77194ac1e3fc78428b2e4dd0b2bc908b8591ae0/fms_robot_plugin-0.2.2rc0.tar.gz
+[2024-05-22 04:55:57] INFO root fetch - processPackages [solar-registry]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-22 04:55:57] INFO root fetch - processPackages [xirvik-tools]: Downloading https://files.pythonhosted.org/packages/b3/f1/679ff260d0362070c1753535b1e5d194075fed48ca179f44754b8de6341c/xirvik_tools-0.4.5.tar.gz
+[2024-05-22 04:55:57] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/0e/f2/d054c6d47257d36b6862b3c6612ca69f03a2aa4b63af145d0ea8a522075a/solar_registry-0.2.8.tar.gz
+[2024-05-22 04:55:57] INFO root fetch - processPackages [fms-robot-plugin]: Downloading https://files.pythonhosted.org/packages/9c/b7/cc3bcc774ba1a3ea475f4b9027dc49c65e7036c23c6b0657c626357d1eea/fms_robot_plugin-0.2.2rc1.tar.gz
+[2024-05-22 04:55:58] INFO root fetch - processPackages [fms-robot-plugin]: executing diffoscope
+[2024-05-22 04:55:58] INFO root fetch - processPackages [fms-robot-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fms_robot_plugin-0.2.2rc0.tar.gz tmp/fms_robot_plugin-0.2.2rc1.tar.gz --markdown 20240522/f/fms-robot-plugin/0.2.2rc0-0.2.2rc1/README.md --exclude *.pyd
+[2024-05-22 04:55:58] INFO root fetch - processPackages [libdaw]: Downloading https://files.pythonhosted.org/packages/54/a9/3f170470ad6bf87b9703a9ab14bf7bb216f9cb24f6dbeb56697834b4ee18/libdaw-0.2.3.tar.gz
+[2024-05-22 04:55:58] INFO root fetch - processPackages [libdaw]: executing diffoscope
+[2024-05-22 04:55:58] INFO root fetch - processPackages [libdaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libdaw-0.2.2.tar.gz tmp/libdaw-0.2.3.tar.gz --markdown 20240522/l/libdaw/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-22 04:55:58] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/cd/40/34eee216b08c5fa01cbb36635892aad7693c83fa5e87387b29ae05c737f0/solar_registry-0.2.9.tar.gz
+[2024-05-22 04:55:58] INFO root fetch - processPackages [xirvik-tools]: Downloading https://files.pythonhosted.org/packages/57/8b/87e2e3541d6843984974d0cd2039e08a76d59a5d637d3048cc0d4a31f41e/xirvik_tools-0.5.0.tar.gz
+[2024-05-22 04:55:58] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-22 04:55:58] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.2.8.tar.gz tmp/solar_registry-0.2.9.tar.gz --markdown 20240522/s/solar-registry/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-22 04:55:58] INFO root fetch - processPackages [xirvik-tools]: executing diffoscope
+[2024-05-22 04:55:58] INFO root fetch - processPackages [xirvik-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xirvik_tools-0.4.5.tar.gz tmp/xirvik_tools-0.5.0.tar.gz --markdown 20240522/x/xirvik-tools/0.4.5-0.5.0/README.md --exclude *.pyd
+[2024-05-22 04:55:58] INFO root fetch - processPackages [fms-robot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/fms_robot_plugin-0.2.2rc0.tar.gz]
+[2024-05-22 04:55:58] INFO root fetch - processPackages [fms-robot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/fms_robot_plugin-0.2.2rc1.tar.gz]
+[2024-05-22 04:55:58] INFO root fetch - main [MainThread]: End processing [fms-robot-plugin]: success
+[2024-05-22 04:55:59] INFO root fetch - processPackages [xirvik-tools]: Remove: archive file [/home/abi/fetcher/tmp/xirvik_tools-0.4.5.tar.gz]
+[2024-05-22 04:55:59] INFO root fetch - processPackages [xirvik-tools]: Remove: archive file [/home/abi/fetcher/tmp/xirvik_tools-0.5.0.tar.gz]
+[2024-05-22 04:55:59] INFO root fetch - main [MainThread]: End processing [xirvik-tools]: success
+[2024-05-22 04:55:59] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.8.tar.gz]
+[2024-05-22 04:55:59] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.9.tar.gz]
+[2024-05-22 04:55:59] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-22 04:55:59] INFO root fetch - processPackages [libdaw]: Remove: archive file [/home/abi/fetcher/tmp/libdaw-0.2.2.tar.gz]
+[2024-05-22 04:55:59] INFO root fetch - processPackages [libdaw]: Remove: archive file [/home/abi/fetcher/tmp/libdaw-0.2.3.tar.gz]
+[2024-05-22 04:55:59] INFO root fetch - main [MainThread]: End processing [libdaw]: success
+[2024-05-22 04:55:59] INFO root fetch - main [MainThread]: Store serial: [23317943]

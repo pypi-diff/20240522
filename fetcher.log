@@ -18945,3 +18945,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:51:38] INFO root fetch - processPackages [BuildStream]: Remove: archive file [/home/abi/fetcher/tmp/buildstream-2.2.1.dev0.tar.gz]
 [2024-05-22 11:51:38] INFO root fetch - main [MainThread]: End processing [BuildStream]: success
 [2024-05-22 11:51:38] INFO root fetch - main [MainThread]: Store serial: [23322029]
+[2024-05-22 11:53:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322029]
+[2024-05-22 11:53:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 11:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdo-sdk-python
+[2024-05-22 11:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thermolib
+[2024-05-22 11:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tcrutils
+[2024-05-22 11:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: basedpyright
+[2024-05-22 11:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiocmcapi
+[2024-05-22 11:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: etao-langchain
+[2024-05-22 11:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pilotpy
+[2024-05-22 11:53:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vbpy
+[2024-05-22 11:53:47] INFO root fetch - processPackages [vbpy]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-05-22 11:53:47] INFO root fetch - processPackages [aiocmcapi]: New version: [0.7] Old Version: [0.6.5]
+[2024-05-22 11:53:47] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-22 11:53:47] INFO root fetch - processPackages [tcrutils]: New version: [12.0.169] Old Version: [12.0.168]
+[2024-05-22 11:53:47] INFO root fetch - processPackages [basedpyright]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-22 11:53:47] WARNING root fetch - processPackages [etao-langchain]: Skipping, unable to determine old version
+[2024-05-22 11:53:47] INFO root fetch - main [MainThread]: End processing [etao-langchain] error
+[2024-05-22 11:53:47] INFO root fetch - processPackages [pilotpy]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-05-22 11:53:47] INFO root fetch - processPackages [thermolib]: New version: [0.3.0] Old Version: [0.2.6]
+[2024-05-22 11:53:47] INFO root fetch - processPackages [aiocmcapi]: Downloading https://files.pythonhosted.org/packages/6f/45/77c8893d8d98847a47e33fca061f638ffc268df4e67c7edc420a5ae50954/aiocmcapi-0.6.5.tar.gz
+[2024-05-22 11:53:47] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/aa/85/139ebcbd65ca0f184bccfdff59d881e12fe724ffde28bb7fb8d1efdbf856/vbpy-2.2.1.tar.gz
+[2024-05-22 11:53:47] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-22 11:53:47] INFO root fetch - processPackages [tcrutils]: Downloading https://files.pythonhosted.org/packages/5f/5c/654bdf5444789855f296aecb6ba4491591a6634513dc0399fc12058e65d2/tcrutils-12.0.168.tar.gz
+[2024-05-22 11:53:47] INFO root fetch - processPackages [basedpyright]: Downloading https://files.pythonhosted.org/packages/04/34/97132270879839d644d10df18ac5c2390d425fd082dc74de2016d30314fd/basedpyright-1.9.0.tar.gz
+[2024-05-22 11:53:47] INFO root fetch - processPackages [thermolib]: Downloading https://files.pythonhosted.org/packages/e3/93/4ea3a89a8b8a70a8692b3a5bf6ee282a5de34f8d3d43b7bfff44f6d2931a/thermolib-0.2.6-cp38-none-win_amd64.whl
+[2024-05-22 11:53:48] INFO root fetch - processPackages [pilotpy]: Downloading https://files.pythonhosted.org/packages/ca/96/efdf0821fcfce1ff45ffb0784e830ab0d599bebeaa564f34cd79c1eecffe/pilotpy-2.0.4.tar.gz
+[2024-05-22 11:53:48] INFO root fetch - processPackages [aiocmcapi]: Downloading https://files.pythonhosted.org/packages/0b/0c/5db6b9efc327184b1c736f62687f8b1655fb751ab65e13d68c953bdcc68a/aiocmcapi-0.7.tar.gz
+[2024-05-22 11:53:48] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-22 11:53:48] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/23/be/10b7c7c662e3cca0c07dc6bfa5f13192d6760b4626c099ffb1124aaf105d/vbpy-2.2.2.tar.gz
+[2024-05-22 11:53:48] INFO root fetch - processPackages [tcrutils]: Downloading https://files.pythonhosted.org/packages/49/d7/afcb5ff27d3532defbeb665ee19dbec1aa1a7882da7b96e205ac7fbc0204/tcrutils-12.0.169.tar.gz
+[2024-05-22 11:53:48] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-22 11:53:48] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240522/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-22 11:53:48] INFO root fetch - processPackages [aiocmcapi]: executing diffoscope
+[2024-05-22 11:53:48] INFO root fetch - processPackages [aiocmcapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiocmcapi-0.6.5.tar.gz tmp/aiocmcapi-0.7.tar.gz --markdown 20240522/a/aiocmcapi/0.6.5-0.7/README.md --exclude *.pyd
+[2024-05-22 11:53:48] INFO root fetch - processPackages [vbpy]: executing diffoscope
+[2024-05-22 11:53:48] INFO root fetch - processPackages [vbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpy-2.2.1.tar.gz tmp/vbpy-2.2.2.tar.gz --markdown 20240522/v/vbpy/2.2.1-2.2.2/README.md --exclude *.pyd
+[2024-05-22 11:53:48] INFO root fetch - processPackages [tcrutils]: executing diffoscope
+[2024-05-22 11:53:48] INFO root fetch - processPackages [tcrutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcrutils-12.0.168.tar.gz tmp/tcrutils-12.0.169.tar.gz --markdown 20240522/t/tcrutils/12.0.168-12.0.169/README.md --exclude *.pyd
+[2024-05-22 11:53:48] INFO root fetch - processPackages [thermolib]: Downloading https://files.pythonhosted.org/packages/f5/95/9eaab2527c4b4fe259f678606615667f596d38bb392fbb5e353e3a8a3d21/thermolib-0.3.0.tar.gz
+[2024-05-22 11:53:48] INFO root fetch - processPackages [pilotpy]: Downloading https://files.pythonhosted.org/packages/d5/86/47aa32e1d756df3ee5cf237f9066e21c8eb6dcaa755f810196bd81bb131d/pilotpy-2.0.5.tar.gz
+[2024-05-22 11:53:48] INFO root fetch - processPackages [thermolib]: executing diffoscope
+[2024-05-22 11:53:48] INFO root fetch - processPackages [thermolib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thermolib-0.2.6-cp38-none-win_amd64.whl.zip tmp/thermolib-0.3.0.tar.gz --markdown 20240522/t/thermolib/0.2.6-0.3.0/README.md --exclude *.pyd
+[2024-05-22 11:53:48] INFO root fetch - processPackages [pilotpy]: executing diffoscope
+[2024-05-22 11:53:48] INFO root fetch - processPackages [pilotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pilotpy-2.0.4.tar.gz tmp/pilotpy-2.0.5.tar.gz --markdown 20240522/p/pilotpy/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-05-22 11:53:48] INFO root fetch - processPackages [aiocmcapi]: Remove: archive file [/home/abi/fetcher/tmp/aiocmcapi-0.6.5.tar.gz]
+[2024-05-22 11:53:48] INFO root fetch - processPackages [aiocmcapi]: Remove: archive file [/home/abi/fetcher/tmp/aiocmcapi-0.7.tar.gz]
+[2024-05-22 11:53:48] INFO root fetch - main [MainThread]: End processing [aiocmcapi]: success
+[2024-05-22 11:53:49] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.2.1.tar.gz]
+[2024-05-22 11:53:49] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.2.2.tar.gz]
+[2024-05-22 11:53:49] INFO root fetch - main [MainThread]: End processing [vbpy]: success
+[2024-05-22 11:53:49] INFO root fetch - processPackages [tcrutils]: Remove: archive file [/home/abi/fetcher/tmp/tcrutils-12.0.168.tar.gz]
+[2024-05-22 11:53:49] INFO root fetch - processPackages [tcrutils]: Remove: archive file [/home/abi/fetcher/tmp/tcrutils-12.0.169.tar.gz]
+[2024-05-22 11:53:49] INFO root fetch - main [MainThread]: End processing [tcrutils]: success
+[2024-05-22 11:53:49] INFO root fetch - processPackages [thermolib]: Remove: archive file [/home/abi/fetcher/tmp/thermolib-0.2.6-cp38-none-win_amd64.whl.zip]
+[2024-05-22 11:53:49] INFO root fetch - processPackages [thermolib]: Remove: archive file [/home/abi/fetcher/tmp/thermolib-0.3.0.tar.gz]
+[2024-05-22 11:53:49] INFO root fetch - main [MainThread]: End processing [thermolib]: success
+[2024-05-22 11:53:49] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-22 11:53:49] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-22 11:53:49] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-22 11:53:49] INFO root fetch - processPackages [pilotpy]: Remove: archive file [/home/abi/fetcher/tmp/pilotpy-2.0.4.tar.gz]
+[2024-05-22 11:53:49] INFO root fetch - processPackages [pilotpy]: Remove: archive file [/home/abi/fetcher/tmp/pilotpy-2.0.5.tar.gz]
+[2024-05-22 11:53:49] INFO root fetch - main [MainThread]: End processing [pilotpy]: success
+[2024-05-22 11:53:49] INFO root fetch - processPackages [basedpyright]: Downloading https://files.pythonhosted.org/packages/69/13/81adfdea3fff1b30c9dd7840dab4cd0508bd762521d896ae056b2fc14936/basedpyright-1.9.1.tar.gz
+[2024-05-22 11:53:52] INFO root fetch - processPackages [basedpyright]: executing diffoscope
+[2024-05-22 11:53:52] INFO root fetch - processPackages [basedpyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basedpyright-1.9.0.tar.gz tmp/basedpyright-1.9.1.tar.gz --markdown 20240522/b/basedpyright/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-22 11:54:49] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.0.tar.gz]
+[2024-05-22 11:54:49] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.1.tar.gz]
+[2024-05-22 11:54:49] INFO root fetch - main [MainThread]: End processing [basedpyright]: success
+[2024-05-22 11:54:49] INFO root fetch - main [MainThread]: Store serial: [23322055]

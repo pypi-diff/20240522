@@ -13444,3 +13444,45 @@
 [2024-05-22 08:46:02] INFO root fetch - processPackages [tfy-mlflow-client]: Remove: archive file [/home/abi/fetcher/tmp/tfy-mlflow-client-0.0.9.tar.gz]
 [2024-05-22 08:46:02] INFO root fetch - main [MainThread]: End processing [tfy-mlflow-client]: success
 [2024-05-22 08:46:02] INFO root fetch - main [MainThread]: Store serial: [23319817]
+[2024-05-22 08:48:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319817]
+[2024-05-22 08:48:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 08:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django_medilab_ds
+[2024-05-22 08:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jijzept-dashboard-client
+[2024-05-22 08:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seven-cloudapp-frame
+[2024-05-22 08:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: acetone-nnet
+[2024-05-22 08:48:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pdfservices-sdk
+[2024-05-22 08:48:24] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-22 08:48:24] WARNING root fetch - processPackages [jijzept-dashboard-client]: Skipping, unable to determine old version
+[2024-05-22 08:48:24] INFO root fetch - main [MainThread]: End processing [jijzept-dashboard-client] error
+[2024-05-22 08:48:24] INFO root fetch - processPackages [pdfservices-sdk]: New version: [4.0.0] Old Version: [2.3.1]
+[2024-05-22 08:48:24] INFO root fetch - processPackages [acetone-nnet]: New version: [0.3] Old Version: [0.2.3.dev4]
+[2024-05-22 08:48:24] INFO root fetch - processPackages [django_medilab_ds]: New version: [3.0.0] Old Version: [1.0.1]
+[2024-05-22 08:48:24] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-05-22 08:48:25] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/f1/5b/b4439270ead98b98f2457e17ce699d0233a50965deb2e7b84ab97f417d1d/acetone_nnet-0.2.3.dev4.tar.gz
+[2024-05-22 08:48:25] INFO root fetch - processPackages [django_medilab_ds]: Downloading https://files.pythonhosted.org/packages/71/13/e81e5ea0436a76c03ed20821709f9f5ec94b86ecbc034de2d6bf9c8d3b63/django-medilab_ds-1.0.1.tar.gz
+[2024-05-22 08:48:25] INFO root fetch - processPackages [pdfservices-sdk]: Downloading https://files.pythonhosted.org/packages/ad/6a/a6d9609c109c7314ef9302a9052cc6a62064f01a1f251563e39cb66d9530/pdfservices-sdk-2.3.1.tar.gz
+[2024-05-22 08:48:25] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-05-22 08:48:25] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-05-22 08:48:25] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240522/s/seven-cloudapp-frame/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-22 08:48:25] INFO root fetch - processPackages [acetone-nnet]: Downloading https://files.pythonhosted.org/packages/f1/e8/0d70231be4a4f3365d92894f455b8d3d03642d4cca1392fe7c4470f3fe70/acetone_nnet-0.3.tar.gz
+[2024-05-22 08:48:25] INFO root fetch - processPackages [pdfservices-sdk]: Downloading https://files.pythonhosted.org/packages/33/ad/3046bbc1de4596bfdb5595b92b45e7a47fe767bc046fd459c51455065b19/pdfservices_sdk-4.0.0.tar.gz
+[2024-05-22 08:48:25] INFO root fetch - processPackages [acetone-nnet]: executing diffoscope
+[2024-05-22 08:48:25] INFO root fetch - processPackages [acetone-nnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acetone_nnet-0.2.3.dev4.tar.gz tmp/acetone_nnet-0.3.tar.gz --markdown 20240522/a/acetone-nnet/0.2.3.dev4-0.3/README.md --exclude *.pyd
+[2024-05-22 08:48:25] INFO root fetch - processPackages [pdfservices-sdk]: executing diffoscope
+[2024-05-22 08:48:25] INFO root fetch - processPackages [pdfservices-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfservices-sdk-2.3.1.tar.gz tmp/pdfservices_sdk-4.0.0.tar.gz --markdown 20240522/p/pdfservices-sdk/2.3.1-4.0.0/README.md --exclude *.pyd
+[2024-05-22 08:48:26] INFO root fetch - processPackages [django_medilab_ds]: Downloading https://files.pythonhosted.org/packages/bf/ed/b8ff8cc22b3fd2f88ef6d9920d7647d87eae32244cbfacd2d7caf9f72fc1/django_medilab_ds-3.0.0.tar.gz
+[2024-05-22 08:48:26] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.2.3.dev4.tar.gz]
+[2024-05-22 08:48:26] INFO root fetch - processPackages [acetone-nnet]: Remove: archive file [/home/abi/fetcher/tmp/acetone_nnet-0.3.tar.gz]
+[2024-05-22 08:48:26] INFO root fetch - main [MainThread]: End processing [acetone-nnet]: success
+[2024-05-22 08:48:26] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-05-22 08:48:26] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-05-22 08:48:26] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-05-22 08:48:26] INFO root fetch - processPackages [pdfservices-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pdfservices-sdk-2.3.1.tar.gz]
+[2024-05-22 08:48:26] INFO root fetch - processPackages [pdfservices-sdk]: Remove: archive file [/home/abi/fetcher/tmp/pdfservices_sdk-4.0.0.tar.gz]
+[2024-05-22 08:48:26] INFO root fetch - main [MainThread]: End processing [pdfservices-sdk]: success
+[2024-05-22 08:48:27] INFO root fetch - processPackages [django_medilab_ds]: executing diffoscope
+[2024-05-22 08:48:27] INFO root fetch - processPackages [django_medilab_ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-medilab_ds-1.0.1.tar.gz tmp/django_medilab_ds-3.0.0.tar.gz --markdown 20240522/d/django_medilab_ds/1.0.1-3.0.0/README.md --exclude *.pyd
+[2024-05-22 08:48:48] INFO root fetch - processPackages [django_medilab_ds]: Remove: archive file [/home/abi/fetcher/tmp/django-medilab_ds-1.0.1.tar.gz]
+[2024-05-22 08:48:48] INFO root fetch - processPackages [django_medilab_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_medilab_ds-3.0.0.tar.gz]
+[2024-05-22 08:48:48] INFO root fetch - main [MainThread]: End processing [django_medilab_ds]: success
+[2024-05-22 08:48:48] INFO root fetch - main [MainThread]: Store serial: [23319854]

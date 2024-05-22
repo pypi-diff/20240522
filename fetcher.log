@@ -21010,3 +21010,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 13:21:15] INFO root fetch - processPackages [pypaperless]: Remove: archive file [/home/abi/fetcher/tmp/pypaperless-3.1.7.tar.gz]
 [2024-05-22 13:21:15] INFO root fetch - main [MainThread]: End processing [pypaperless]: success
 [2024-05-22 13:21:15] INFO root fetch - main [MainThread]: Store serial: [23323053]
+[2024-05-22 13:23:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323053]
+[2024-05-22 13:23:24] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-22 13:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modelscope-agent
+[2024-05-22 13:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ultralytics
+[2024-05-22 13:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: karp-lex-types
+[2024-05-22 13:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xiaogpt
+[2024-05-22 13:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bflower
+[2024-05-22 13:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MindsDB
+[2024-05-22 13:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: HtmlFileWriter
+[2024-05-22 13:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: basetrainer
+[2024-05-22 13:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastapi-sqlalchemy-toolkit
+[2024-05-22 13:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: funcnodes-plotly
+[2024-05-22 13:23:24] INFO root fetch - processPackages [HtmlFileWriter]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-22 13:23:24] INFO root fetch - processPackages [karp-lex-types]: New version: [0.7.0] Old Version: [0.6.5]
+[2024-05-22 13:23:24] INFO root fetch - processPackages [ultralytics]: New version: [8.2.9] Old Version: [8.2.8]
+[2024-05-22 13:23:24] WARNING root fetch - processPackages [bflower]: Skipping, unable to determine old version
+[2024-05-22 13:23:24] INFO root fetch - processPackages [bflower]: Start processing: lusid-workflow-sdk-preview
+[2024-05-22 13:23:24] INFO root fetch - main [MainThread]: End processing [bflower] error
+[2024-05-22 13:23:24] INFO root fetch - processPackages [xiaogpt]: New version: [2.84] Old Version: [2.83]
+[2024-05-22 13:23:24] INFO root fetch - processPackages [MindsDB]: New version: [24.5.4.0] Old Version: [24.4.3.0]
+[2024-05-22 13:23:24] INFO root fetch - processPackages [modelscope-agent]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-05-22 13:23:24] INFO root fetch - processPackages [basetrainer]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-05-22 13:23:24] INFO root fetch - processPackages [fastapi-sqlalchemy-toolkit]: New version: [0.7.4.1] Old Version: [0.7.4]
+[2024-05-22 13:23:24] INFO root fetch - processPackages [funcnodes-plotly]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-22 13:23:24] INFO root fetch - processPackages [karp-lex-types]: Downloading https://files.pythonhosted.org/packages/2e/f8/ef35309f4d66dfb257e15786c06b2d543683f26a4e7668ba9db718083007/karp_lex_types-0.6.5.tar.gz
+[2024-05-22 13:23:24] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.996] Old Version: [0.1.995]
+[2024-05-22 13:23:24] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/56/ac/c34b1b8edd4a745ceacc5a310a38b3dcca685fe17507cacc1cd57db81fdd/lusid-workflow-sdk-preview-0.1.995.tar.gz
+[2024-05-22 13:23:24] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/2d/1f/773ce923d52559a9246fe5b3e4d86c67714d941216658acdb23bf9d46212/ultralytics-8.2.8.tar.gz
+[2024-05-22 13:23:24] INFO root fetch - processPackages [HtmlFileWriter]: Downloading https://files.pythonhosted.org/packages/4b/29/b526229ac52d8db09f44804461f7ef888ce30a0a53ea516379456744d41e/htmlfilewriter-0.1.1.tar.gz
+[2024-05-22 13:23:24] INFO root fetch - processPackages [modelscope-agent]: Downloading https://files.pythonhosted.org/packages/c4/29/c6efd5cee7f2cf192f96a06db54ede7bb71f3bd826ad2d0db9b313f1e23f/modelscope-agent-0.5.2.tar.gz
+[2024-05-22 13:23:24] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/d2/46/6c83fa83bc899c934db8858b233f7d70d3b16747583a2a7341777be55af2/xiaogpt-2.83.tar.gz
+[2024-05-22 13:23:24] INFO root fetch - processPackages [fastapi-sqlalchemy-toolkit]: Downloading https://files.pythonhosted.org/packages/7b/31/7bbdee8d33c449017e8ebc16d94b6b6107a77e308649d23a8309ee9b3a9c/fastapi_sqlalchemy_toolkit-0.7.4.tar.gz
+[2024-05-22 13:23:24] INFO root fetch - processPackages [MindsDB]: Downloading https://files.pythonhosted.org/packages/09/cd/6115da8dea77e2c43121f157990c2bae981cf10f4f3de7159c921919cad2/MindsDB-24.4.3.0.tar.gz
+[2024-05-22 13:23:24] INFO root fetch - processPackages [basetrainer]: Downloading https://files.pythonhosted.org/packages/e8/ec/130aad4ded8bda2387e98e97d7434ed844c6688f02c8a9b93f134ed13258/basetrainer-0.8.3.tar.gz
+[2024-05-22 13:23:24] INFO root fetch - processPackages [funcnodes-plotly]: Downloading https://files.pythonhosted.org/packages/02/fb/b8030c963997b06ead6e7b9484f7c8d2ed82e094080c17b4d43b57901cd4/funcnodes_plotly-0.1.3.tar.gz
+[2024-05-22 13:23:24] INFO root fetch - processPackages [karp-lex-types]: Downloading https://files.pythonhosted.org/packages/bd/52/7e1a7a270cf9a03285769028b4164e42c76817418b929a6b56e652d1af70/karp_lex_types-0.7.0.tar.gz
+[2024-05-22 13:23:24] WARNING root fetch - processPackages [modelscope-agent]: Skipping package: exceeds size limit 23379961>=10485760
+[2024-05-22 13:23:24] INFO root fetch - main [MainThread]: End processing [modelscope-agent] error
+[2024-05-22 13:23:24] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ad/65/93d0e7790f005c1bba7ae75a47e2b35b3d8a514713f549fccca0619a2df9/lusid-workflow-sdk-preview-0.1.996.tar.gz
+[2024-05-22 13:23:25] INFO root fetch - processPackages [karp-lex-types]: executing diffoscope
+[2024-05-22 13:23:25] INFO root fetch - processPackages [karp-lex-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karp_lex_types-0.6.5.tar.gz tmp/karp_lex_types-0.7.0.tar.gz --markdown 20240522/k/karp-lex-types/0.6.5-0.7.0/README.md --exclude *.pyd
+[2024-05-22 13:23:25] INFO root fetch - processPackages [HtmlFileWriter]: Downloading https://files.pythonhosted.org/packages/05/c8/98fa8851bd8873c635281d2d27a41da240c1167f5c8eff249d4bcc42599c/htmlfilewriter-0.1.2.tar.gz
+[2024-05-22 13:23:25] INFO root fetch - processPackages [xiaogpt]: Downloading https://files.pythonhosted.org/packages/0d/57/84fcf7ddd59ae1d57f7f3f2ae774c09ec4bde53aeb063b1455b297b63de3/xiaogpt-2.84.tar.gz
+[2024-05-22 13:23:25] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2024-05-22 13:23:25] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz --markdown 20240522/l/lusid-workflow-sdk-preview/0.1.995-0.1.996/README.md --exclude *.pyd
+[2024-05-22 13:23:25] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/17/6e/89a05ffed4bbaae94368f45323ff75db71965c94c1259457ef61dc551645/ultralytics-8.2.9.tar.gz
+[2024-05-22 13:23:25] INFO root fetch - processPackages [fastapi-sqlalchemy-toolkit]: Downloading https://files.pythonhosted.org/packages/18/fb/fa9342613a6d0a0995e8f1fd49e20a0ad67192b638cb0f09eb1ff1704316/fastapi_sqlalchemy_toolkit-0.7.4.1.tar.gz
+[2024-05-22 13:23:25] INFO root fetch - processPackages [funcnodes-plotly]: Downloading https://files.pythonhosted.org/packages/4e/d0/49373278bcbdf74f833ed17a52491922f41101da5c434f05259506cc8e5f/funcnodes_plotly-0.1.4.tar.gz
+[2024-05-22 13:23:25] INFO root fetch - processPackages [basetrainer]: Downloading https://files.pythonhosted.org/packages/ee/f7/a1c068fb90ddef3570e1b6575ac2d7b8e26d710e85a29652eb79a303193e/basetrainer-0.8.4.tar.gz
+[2024-05-22 13:23:25] INFO root fetch - processPackages [HtmlFileWriter]: executing diffoscope
+[2024-05-22 13:23:25] INFO root fetch - processPackages [HtmlFileWriter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htmlfilewriter-0.1.1.tar.gz tmp/htmlfilewriter-0.1.2.tar.gz --markdown 20240522/H/HtmlFileWriter/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-22 13:23:25] INFO root fetch - processPackages [xiaogpt]: executing diffoscope
+[2024-05-22 13:23:25] INFO root fetch - processPackages [xiaogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaogpt-2.83.tar.gz tmp/xiaogpt-2.84.tar.gz --markdown 20240522/x/xiaogpt/2.83-2.84/README.md --exclude *.pyd
+[2024-05-22 13:23:25] INFO root fetch - processPackages [fastapi-sqlalchemy-toolkit]: executing diffoscope
+[2024-05-22 13:23:25] INFO root fetch - processPackages [fastapi-sqlalchemy-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_sqlalchemy_toolkit-0.7.4.tar.gz tmp/fastapi_sqlalchemy_toolkit-0.7.4.1.tar.gz --markdown 20240522/f/fastapi-sqlalchemy-toolkit/0.7.4-0.7.4.1/README.md --exclude *.pyd
+[2024-05-22 13:23:25] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2024-05-22 13:23:25] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.2.8.tar.gz tmp/ultralytics-8.2.9.tar.gz --markdown 20240522/u/ultralytics/8.2.8-8.2.9/README.md --exclude *.pyd
+[2024-05-22 13:23:25] INFO root fetch - processPackages [basetrainer]: executing diffoscope
+[2024-05-22 13:23:25] INFO root fetch - processPackages [basetrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basetrainer-0.8.3.tar.gz tmp/basetrainer-0.8.4.tar.gz --markdown 20240522/b/basetrainer/0.8.3-0.8.4/README.md --exclude *.pyd
+[2024-05-22 13:23:25] INFO root fetch - processPackages [MindsDB]: Downloading https://files.pythonhosted.org/packages/8c/e2/7c5c80b6d5f2755e7cec551764fd4640d390e236242ffb378b273e662477/MindsDB-24.5.4.0.tar.gz
+[2024-05-22 13:23:25] INFO root fetch - processPackages [funcnodes-plotly]: executing diffoscope
+[2024-05-22 13:23:25] INFO root fetch - processPackages [funcnodes-plotly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes_plotly-0.1.3.tar.gz tmp/funcnodes_plotly-0.1.4.tar.gz --markdown 20240522/f/funcnodes-plotly/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-22 13:23:26] INFO root fetch - processPackages [MindsDB]: executing diffoscope
+[2024-05-22 13:23:26] INFO root fetch - processPackages [MindsDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MindsDB-24.4.3.0.tar.gz tmp/MindsDB-24.5.4.0.tar.gz --markdown 20240522/M/MindsDB/24.4.3.0-24.5.4.0/README.md --exclude *.pyd
+[2024-05-22 13:23:26] INFO root fetch - processPackages [karp-lex-types]: Remove: archive file [/home/abi/fetcher/tmp/karp_lex_types-0.6.5.tar.gz]
+[2024-05-22 13:23:26] INFO root fetch - processPackages [karp-lex-types]: Remove: archive file [/home/abi/fetcher/tmp/karp_lex_types-0.7.0.tar.gz]
+[2024-05-22 13:23:26] INFO root fetch - main [MainThread]: End processing [karp-lex-types]: success
+[2024-05-22 13:23:26] INFO root fetch - processPackages [HtmlFileWriter]: Remove: archive file [/home/abi/fetcher/tmp/htmlfilewriter-0.1.1.tar.gz]
+[2024-05-22 13:23:26] INFO root fetch - processPackages [HtmlFileWriter]: Remove: archive file [/home/abi/fetcher/tmp/htmlfilewriter-0.1.2.tar.gz]
+[2024-05-22 13:23:26] INFO root fetch - main [MainThread]: End processing [HtmlFileWriter]: success
+[2024-05-22 13:23:26] INFO root fetch - processPackages [fastapi-sqlalchemy-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_sqlalchemy_toolkit-0.7.4.tar.gz]
+[2024-05-22 13:23:26] INFO root fetch - processPackages [fastapi-sqlalchemy-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_sqlalchemy_toolkit-0.7.4.1.tar.gz]
+[2024-05-22 13:23:26] INFO root fetch - main [MainThread]: End processing [fastapi-sqlalchemy-toolkit]: success
+[2024-05-22 13:23:26] INFO root fetch - processPackages [xiaogpt]: Remove: archive file [/home/abi/fetcher/tmp/xiaogpt-2.83.tar.gz]
+[2024-05-22 13:23:26] INFO root fetch - processPackages [xiaogpt]: Remove: archive file [/home/abi/fetcher/tmp/xiaogpt-2.84.tar.gz]
+[2024-05-22 13:23:26] INFO root fetch - main [MainThread]: End processing [xiaogpt]: success
+[2024-05-22 13:23:26] INFO root fetch - processPackages [basetrainer]: Remove: archive file [/home/abi/fetcher/tmp/basetrainer-0.8.3.tar.gz]
+[2024-05-22 13:23:26] INFO root fetch - processPackages [basetrainer]: Remove: archive file [/home/abi/fetcher/tmp/basetrainer-0.8.4.tar.gz]
+[2024-05-22 13:23:26] INFO root fetch - main [MainThread]: End processing [basetrainer]: success
+[2024-05-22 13:23:26] INFO root fetch - processPackages [funcnodes-plotly]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_plotly-0.1.3.tar.gz]
+[2024-05-22 13:23:26] INFO root fetch - processPackages [funcnodes-plotly]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes_plotly-0.1.4.tar.gz]
+[2024-05-22 13:23:26] INFO root fetch - main [MainThread]: End processing [funcnodes-plotly]: success
+[2024-05-22 13:23:27] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz]
+[2024-05-22 13:23:27] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz]
+[2024-05-22 13:23:27] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2024-05-22 13:23:27] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.8.tar.gz]
+[2024-05-22 13:23:27] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.2.9.tar.gz]
+[2024-05-22 13:23:27] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2024-05-22 13:23:33] INFO root fetch - processPackages [MindsDB]: Remove: archive file [/home/abi/fetcher/tmp/MindsDB-24.4.3.0.tar.gz]
+[2024-05-22 13:23:33] INFO root fetch - processPackages [MindsDB]: Remove: archive file [/home/abi/fetcher/tmp/MindsDB-24.5.4.0.tar.gz]
+[2024-05-22 13:23:33] INFO root fetch - main [MainThread]: End processing [MindsDB]: success
+[2024-05-22 13:23:33] INFO root fetch - main [MainThread]: Store serial: [23323087]

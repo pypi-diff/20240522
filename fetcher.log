@@ -17640,3 +17640,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:13:40] INFO root fetch - processPackages [lnbits]: Remove: archive file [/home/abi/fetcher/tmp/lnbits-0.12.7.tar.gz]
 [2024-05-22 11:13:40] INFO root fetch - main [MainThread]: End processing [lnbits]: success
 [2024-05-22 11:13:40] INFO root fetch - main [MainThread]: Store serial: [23321490]
+[2024-05-22 11:15:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321490]
+[2024-05-22 11:15:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 11:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-05-22 11:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2024-05-22 11:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2024-05-22 11:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: original-sdk
+[2024-05-22 11:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ome-zarr
+[2024-05-22 11:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gwml
+[2024-05-22 11:15:49] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240522051705] Old Version: [3.4.1.dev20240522035746]
+[2024-05-22 11:15:50] INFO root fetch - processPackages [gwml]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-22 11:15:50] INFO root fetch - processPackages [original-sdk]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-22 11:15:50] INFO root fetch - processPackages [ome-zarr]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-05-22 11:15:50] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/1b/a5/8c77b9ec8c7312ac4c9444f4d81fcad2dd7e7adc25d145d1a803470e38da/localstack_core-3.4.1.dev20240522035746.tar.gz
+[2024-05-22 11:15:50] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-22 11:15:50] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-05-22 11:15:50] INFO root fetch - processPackages [original-sdk]: Downloading https://files.pythonhosted.org/packages/da/95/096a83d02b2e7fdc83aa384802590610a446764aad6898d2b373bd1fbac9/original_sdk-1.3.1.tar.gz
+[2024-05-22 11:15:50] INFO root fetch - processPackages [ome-zarr]: Downloading https://files.pythonhosted.org/packages/d2/ed/ebb5ff1b9afc00467a5dda931c65875af911cd56683ec2ae177171271662/ome-zarr-0.8.3.tar.gz
+[2024-05-22 11:15:50] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/63/ff/5bb906f866fb4f737062aaf439c5f9734473184d1f3b67eab62c70b3160f/gwml-0.1.1-py3-none-any.whl
+[2024-05-22 11:15:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-22 11:15:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-05-22 11:15:50] INFO root fetch - processPackages [original-sdk]: Downloading https://files.pythonhosted.org/packages/e8/6d/5420c41652c123cb7a2db4e8b26ab5e2dad192e4405aa684e8b09b0a850a/original_sdk-1.3.2.tar.gz
+[2024-05-22 11:15:50] INFO root fetch - processPackages [gwml]: Downloading https://files.pythonhosted.org/packages/93/b4/9eae4507c9fab5f1c332b4f1ee966f95f324764f97afccd4ea447e47bd1a/gwml-0.1.2-py3-none-any.whl
+[2024-05-22 11:15:50] INFO root fetch - processPackages [ome-zarr]: Downloading https://files.pythonhosted.org/packages/93/62/52557b3647cc45ae5c21e7be28b898a8c2157998d13fb4de2e0afd055894/ome-zarr-0.9.0.tar.gz
+[2024-05-22 11:15:50] INFO root fetch - processPackages [original-sdk]: executing diffoscope
+[2024-05-22 11:15:50] INFO root fetch - processPackages [original-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/original_sdk-1.3.1.tar.gz tmp/original_sdk-1.3.2.tar.gz --markdown 20240522/o/original-sdk/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-22 11:15:50] INFO root fetch - processPackages [gwml]: executing diffoscope
+[2024-05-22 11:15:50] INFO root fetch - processPackages [gwml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwml-0.1.1-py3-none-any.whl.zip tmp/gwml-0.1.2-py3-none-any.whl.zip --markdown 20240522/g/gwml/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-22 11:15:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-22 11:15:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-05-22 11:15:50] INFO root fetch - processPackages [ome-zarr]: executing diffoscope
+[2024-05-22 11:15:50] INFO root fetch - processPackages [ome-zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ome-zarr-0.8.3.tar.gz tmp/ome-zarr-0.9.0.tar.gz --markdown 20240522/o/ome-zarr/0.8.3-0.9.0/README.md --exclude *.pyd
+[2024-05-22 11:15:50] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/4a/26/e915a0ad4d3f6e685d871f4cb056d7b8c8c3299bea6f05a920a95246283c/localstack_core-3.4.1.dev20240522051705.tar.gz
+[2024-05-22 11:15:51] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-22 11:15:51] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240522/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-22 11:15:51] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-05-22 11:15:51] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240522/s/spanishconjugator/2.3.998-2.3.999/README.md --exclude *.pyd
+[2024-05-22 11:15:51] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-22 11:15:51] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240522035746.tar.gz tmp/localstack_core-3.4.1.dev20240522051705.tar.gz --markdown 20240522/l/localstack-core/3.4.1.dev20240522035746-3.4.1.dev20240522051705/README.md --exclude *.pyd
+[2024-05-22 11:15:51] INFO root fetch - processPackages [original-sdk]: Remove: archive file [/home/abi/fetcher/tmp/original_sdk-1.3.1.tar.gz]
+[2024-05-22 11:15:51] INFO root fetch - processPackages [original-sdk]: Remove: archive file [/home/abi/fetcher/tmp/original_sdk-1.3.2.tar.gz]
+[2024-05-22 11:15:51] INFO root fetch - main [MainThread]: End processing [original-sdk]: success
+[2024-05-22 11:15:51] INFO root fetch - processPackages [ome-zarr]: Remove: archive file [/home/abi/fetcher/tmp/ome-zarr-0.8.3.tar.gz]
+[2024-05-22 11:15:51] INFO root fetch - processPackages [ome-zarr]: Remove: archive file [/home/abi/fetcher/tmp/ome-zarr-0.9.0.tar.gz]
+[2024-05-22 11:15:51] INFO root fetch - main [MainThread]: End processing [ome-zarr]: success
+[2024-05-22 11:15:51] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-05-22 11:15:51] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-05-22 11:15:51] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-22 11:15:51] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-05-22 11:15:52] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.1-py3-none-any.whl.zip]
+[2024-05-22 11:15:52] INFO root fetch - processPackages [gwml]: Remove: archive file [/home/abi/fetcher/tmp/gwml-0.1.2-py3-none-any.whl.zip]
+[2024-05-22 11:15:52] INFO root fetch - main [MainThread]: End processing [gwml]: success
+[2024-05-22 11:15:55] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240522035746.tar.gz]
+[2024-05-22 11:15:55] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240522051705.tar.gz]
+[2024-05-22 11:15:55] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-22 11:15:55] INFO root fetch - main [MainThread]: Store serial: [23321505]

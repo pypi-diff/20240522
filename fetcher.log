@@ -19512,3 +19512,54 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:10:21] INFO root fetch - processPackages [decentriq-dcr-compiler]: Remove: archive file [/home/abi/fetcher/tmp/decentriq_dcr_compiler-0.8.0.dev3-cp39-cp39-macosx_10_7_x86_64.whl.zip]
 [2024-05-22 12:10:21] INFO root fetch - main [MainThread]: End processing [decentriq-dcr-compiler]: success
 [2024-05-22 12:10:21] INFO root fetch - main [MainThread]: Store serial: [23322297]
+[2024-05-22 12:12:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322297]
+[2024-05-22 12:12:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 12:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hitran-api
+[2024-05-22 12:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aimmo
+[2024-05-22 12:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imerit-ango
+[2024-05-22 12:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vsensebox-ultralytics
+[2024-05-22 12:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vbpy
+[2024-05-22 12:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: networkx-matchs
+[2024-05-22 12:12:30] INFO root fetch - processPackages [vbpy]: New version: [2.2.6] Old Version: [2.2.5]
+[2024-05-22 12:12:30] INFO root fetch - processPackages [vsensebox-ultralytics]: New version: [8.2.18] Old Version: [8.2.15]
+[2024-05-22 12:12:30] INFO root fetch - processPackages [imerit-ango]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-22 12:12:30] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/0e/ce/19a99c628e4ead333c4c43cc45f757a90173cd18c82b3328d98b2240957c/vbpy-2.2.5.tar.gz
+[2024-05-22 12:12:30] INFO root fetch - processPackages [hitran-api]: New version: [1.2.2.2] Old Version: [1.2.2.0]
+[2024-05-22 12:12:30] WARNING root fetch - processPackages [networkx-matchs]: Skipping, unable to determine old version
+[2024-05-22 12:12:30] INFO root fetch - main [MainThread]: End processing [networkx-matchs] error
+[2024-05-22 12:12:30] INFO root fetch - processPackages [aimmo]: New version: [v0.1.1-alpha.post.dev9] Old Version: [v0.1.1-alpha.post.dev8]
+[2024-05-22 12:12:30] INFO root fetch - processPackages [vsensebox-ultralytics]: Downloading https://files.pythonhosted.org/packages/1e/df/c487a1b42ee08e7d19e92588d67d5b3584aece52376756bc94ea5c5ac9bc/vsensebox_ultralytics-8.2.15.tar.gz
+[2024-05-22 12:12:30] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/c2/4b/76fb7268eae934f8b6babe542caa987f665f9d2bc919b065061d5e43b9d4/imerit_ango-1.3.8-py3-none-any.whl
+[2024-05-22 12:12:30] INFO root fetch - processPackages [hitran-api]: Downloading https://files.pythonhosted.org/packages/40/94/2d5fd0aaeb10d38c4acf8e12b3584678c2407c96405cc89eb9533f8fe5f1/hitran-api-1.2.2.0.tar.gz
+[2024-05-22 12:12:31] INFO root fetch - processPackages [aimmo]: Downloading https://files.pythonhosted.org/packages/ae/20/64f46e6e224facaa0a512efc2d1dddb4eb0b7c62c45d7cd7ad7c33874d10/aimmo-v0.1.1-alpha.post.dev8.tar.gz
+[2024-05-22 12:12:31] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/11/61/77123a42711d934e8f6cd60148890d98022f3a1db2cdff842a42e219d13d/vbpy-2.2.6.tar.gz
+[2024-05-22 12:12:31] INFO root fetch - processPackages [vbpy]: executing diffoscope
+[2024-05-22 12:12:31] INFO root fetch - processPackages [vbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpy-2.2.5.tar.gz tmp/vbpy-2.2.6.tar.gz --markdown 20240522/v/vbpy/2.2.5-2.2.6/README.md --exclude *.pyd
+[2024-05-22 12:12:31] INFO root fetch - processPackages [vsensebox-ultralytics]: Downloading https://files.pythonhosted.org/packages/d0/8b/4b21e5d341b9de3c5469fd7376b799d0c858a45f6936d37be5d368779c31/vsensebox_ultralytics-8.2.18.tar.gz
+[2024-05-22 12:12:31] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/ad/6c/c566cbfb2eb78b60ab906a7089cb27f4363856113a63e1b4a254383269bb/imerit_ango-1.3.9-py3-none-any.whl
+[2024-05-22 12:12:31] INFO root fetch - processPackages [hitran-api]: Downloading https://files.pythonhosted.org/packages/23/79/c7280297e97d2c7e94c68fb82ad72e1ac29481e1bb5a6cb358fe9c3474b0/hitran_api-1.2.2.2-py2.py3-none-any.whl
+[2024-05-22 12:12:31] INFO root fetch - processPackages [imerit-ango]: executing diffoscope
+[2024-05-22 12:12:31] INFO root fetch - processPackages [imerit-ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imerit_ango-1.3.8-py3-none-any.whl.zip tmp/imerit_ango-1.3.9-py3-none-any.whl.zip --markdown 20240522/i/imerit-ango/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-22 12:12:31] INFO root fetch - processPackages [aimmo]: Downloading https://files.pythonhosted.org/packages/80/23/14dc12f78e542484cb6d32a416afedf1ee4ea53b87476f141cf6231e7355/aimmo-v0.1.1-alpha.post.dev9.tar.gz
+[2024-05-22 12:12:31] INFO root fetch - processPackages [vsensebox-ultralytics]: executing diffoscope
+[2024-05-22 12:12:31] INFO root fetch - processPackages [vsensebox-ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsensebox_ultralytics-8.2.15.tar.gz tmp/vsensebox_ultralytics-8.2.18.tar.gz --markdown 20240522/v/vsensebox-ultralytics/8.2.15-8.2.18/README.md --exclude *.pyd
+[2024-05-22 12:12:31] INFO root fetch - processPackages [hitran-api]: executing diffoscope
+[2024-05-22 12:12:31] INFO root fetch - processPackages [hitran-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hitran-api-1.2.2.0.tar.gz tmp/hitran_api-1.2.2.2-py2.py3-none-any.whl.zip --markdown 20240522/h/hitran-api/1.2.2.0-1.2.2.2/README.md --exclude *.pyd
+[2024-05-22 12:12:31] INFO root fetch - processPackages [aimmo]: executing diffoscope
+[2024-05-22 12:12:31] INFO root fetch - processPackages [aimmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimmo-v0.1.1-alpha.post.dev8.tar.gz tmp/aimmo-v0.1.1-alpha.post.dev9.tar.gz --markdown 20240522/a/aimmo/v0.1.1-alpha.post.dev8-v0.1.1-alpha.post.dev9/README.md --exclude *.pyd
+[2024-05-22 12:12:31] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.2.5.tar.gz]
+[2024-05-22 12:12:31] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.2.6.tar.gz]
+[2024-05-22 12:12:31] INFO root fetch - main [MainThread]: End processing [vbpy]: success
+[2024-05-22 12:12:32] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit_ango-1.3.8-py3-none-any.whl.zip]
+[2024-05-22 12:12:32] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit_ango-1.3.9-py3-none-any.whl.zip]
+[2024-05-22 12:12:32] INFO root fetch - main [MainThread]: End processing [imerit-ango]: success
+[2024-05-22 12:12:32] INFO root fetch - processPackages [aimmo]: Remove: archive file [/home/abi/fetcher/tmp/aimmo-v0.1.1-alpha.post.dev8.tar.gz]
+[2024-05-22 12:12:32] INFO root fetch - processPackages [aimmo]: Remove: archive file [/home/abi/fetcher/tmp/aimmo-v0.1.1-alpha.post.dev9.tar.gz]
+[2024-05-22 12:12:32] INFO root fetch - main [MainThread]: End processing [aimmo]: success
+[2024-05-22 12:12:32] INFO root fetch - processPackages [vsensebox-ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/vsensebox_ultralytics-8.2.15.tar.gz]
+[2024-05-22 12:12:32] INFO root fetch - processPackages [vsensebox-ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/vsensebox_ultralytics-8.2.18.tar.gz]
+[2024-05-22 12:12:32] INFO root fetch - main [MainThread]: End processing [vsensebox-ultralytics]: success
+[2024-05-22 12:12:33] INFO root fetch - processPackages [hitran-api]: Remove: archive file [/home/abi/fetcher/tmp/hitran-api-1.2.2.0.tar.gz]
+[2024-05-22 12:12:33] INFO root fetch - processPackages [hitran-api]: Remove: archive file [/home/abi/fetcher/tmp/hitran_api-1.2.2.2-py2.py3-none-any.whl.zip]
+[2024-05-22 12:12:33] INFO root fetch - main [MainThread]: End processing [hitran-api]: success
+[2024-05-22 12:12:33] INFO root fetch - main [MainThread]: Store serial: [23322322]

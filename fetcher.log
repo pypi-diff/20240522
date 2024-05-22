@@ -19825,3 +19825,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:31:04] INFO root fetch - processPackages [openai-streaming]: Remove: archive file [/home/abi/fetcher/tmp/openai_streaming-0.5.1.tar.gz]
 [2024-05-22 12:31:04] INFO root fetch - main [MainThread]: End processing [openai-streaming]: success
 [2024-05-22 12:31:04] INFO root fetch - main [MainThread]: Store serial: [23322454]
+[2024-05-22 12:33:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322454]
+[2024-05-22 12:33:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 12:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvidia-haystack
+[2024-05-22 12:33:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maji-passport
+[2024-05-22 12:33:13] INFO root fetch - processPackages [maji-passport]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-22 12:33:13] INFO root fetch - processPackages [maji-passport]: Downloading https://files.pythonhosted.org/packages/2e/bd/df79b4a2d62b993043d4fa6d072f674e432861a693b55da3651be926c072/maji_passport-1.0.0.tar.gz
+[2024-05-22 12:33:13] INFO root fetch - processPackages [nvidia-haystack]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-22 12:33:13] INFO root fetch - processPackages [nvidia-haystack]: Downloading https://files.pythonhosted.org/packages/57/31/f980463940cc2da7b8021ad169e8adc6563d7f87956d50b2f4a68355f139/nvidia_haystack-0.0.2.tar.gz
+[2024-05-22 12:33:13] INFO root fetch - processPackages [maji-passport]: Downloading https://files.pythonhosted.org/packages/43/3b/830588162efff81d59a6651fb4fb697fd430015c7fc92fcbb3ba866d7f86/maji_passport-1.0.1.tar.gz
+[2024-05-22 12:33:13] INFO root fetch - processPackages [maji-passport]: executing diffoscope
+[2024-05-22 12:33:13] INFO root fetch - processPackages [maji-passport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maji_passport-1.0.0.tar.gz tmp/maji_passport-1.0.1.tar.gz --markdown 20240522/m/maji-passport/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-22 12:33:13] INFO root fetch - processPackages [nvidia-haystack]: Downloading https://files.pythonhosted.org/packages/7b/c2/8ffd9ac5de9194ddb65ea250361ae6a2293f3ef136dcafd556b7c81a9e51/nvidia_haystack-0.0.3.tar.gz
+[2024-05-22 12:33:13] INFO root fetch - processPackages [nvidia-haystack]: executing diffoscope
+[2024-05-22 12:33:13] INFO root fetch - processPackages [nvidia-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_haystack-0.0.2.tar.gz tmp/nvidia_haystack-0.0.3.tar.gz --markdown 20240522/n/nvidia-haystack/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-22 12:33:14] INFO root fetch - processPackages [maji-passport]: Remove: archive file [/home/abi/fetcher/tmp/maji_passport-1.0.0.tar.gz]
+[2024-05-22 12:33:14] INFO root fetch - processPackages [maji-passport]: Remove: archive file [/home/abi/fetcher/tmp/maji_passport-1.0.1.tar.gz]
+[2024-05-22 12:33:14] INFO root fetch - main [MainThread]: End processing [maji-passport]: success
+[2024-05-22 12:33:14] INFO root fetch - processPackages [nvidia-haystack]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_haystack-0.0.2.tar.gz]
+[2024-05-22 12:33:14] INFO root fetch - processPackages [nvidia-haystack]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_haystack-0.0.3.tar.gz]
+[2024-05-22 12:33:14] INFO root fetch - main [MainThread]: End processing [nvidia-haystack]: success
+[2024-05-22 12:33:14] INFO root fetch - main [MainThread]: Store serial: [23322460]

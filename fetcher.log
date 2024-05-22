@@ -15701,3 +15701,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:12:20] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
 [2024-05-22 10:12:20] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
 [2024-05-22 10:12:20] INFO root fetch - main [MainThread]: Store serial: [23320755]
+[2024-05-22 10:14:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320755]
+[2024-05-22 10:14:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 10:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sunholo
+[2024-05-22 10:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django_medicio_ds
+[2024-05-22 10:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nurikit
+[2024-05-22 10:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastdev
+[2024-05-22 10:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: snakesays
+[2024-05-22 10:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dapla-toolbelt-pseudo
+[2024-05-22 10:14:31] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-22 10:14:32] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-22 10:14:32] INFO root fetch - processPackages [django_medicio_ds]: New version: [3.0.0] Old Version: [1.2.1]
+[2024-05-22 10:14:32] INFO root fetch - processPackages [fastdev]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-22 10:14:32] INFO root fetch - processPackages [snakesays]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-22 10:14:32] INFO root fetch - processPackages [nurikit]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2024-05-22 10:14:32] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-22 10:14:32] INFO root fetch - processPackages [django_medicio_ds]: Downloading https://files.pythonhosted.org/packages/81/15/e5ca6efc8814b448a39fb0ab0bd2331bb1f26112445818a0ebcee129a0b9/django-medicio_ds-1.2.1.tar.gz
+[2024-05-22 10:14:32] INFO root fetch - processPackages [nurikit]: Downloading https://files.pythonhosted.org/packages/0a/69/aadb75060ebf57ac487c43480e356473fadad6c4c9d5dd5e1063b141dc07/nurikit-0.1.0a4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-22 10:14:32] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-22 10:14:32] INFO root fetch - processPackages [fastdev]: Downloading https://files.pythonhosted.org/packages/bd/d8/51a267d7ec908d7f6a05f108b869371095cc0de5c582767a0ccb11947f29/fastdev-0.0.3.tar.gz
+[2024-05-22 10:14:32] INFO root fetch - processPackages [snakesays]: Downloading https://files.pythonhosted.org/packages/a9/03/a187a86ef5504f25263c3238b5dd5fb924ab25e5b1759808ce3732c34f5e/snakesays-1.2.2.tar.gz
+[2024-05-22 10:14:32] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/5b/9e/b41c444bcf16acd5e5ceaa86ecad9715bc0e150057294d3ff0e533a58afa/dapla_toolbelt_pseudo-2.0.0.tar.gz
+[2024-05-22 10:14:32] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-22 10:14:32] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240522/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-22 10:14:32] INFO root fetch - processPackages [snakesays]: Downloading https://files.pythonhosted.org/packages/d7/d2/c23359732ef99ca33636978f0c84c390ee1383898d3521a6903fec096dd3/snakesays-1.2.3.tar.gz
+[2024-05-22 10:14:32] INFO root fetch - processPackages [fastdev]: Downloading https://files.pythonhosted.org/packages/ae/24/ceb3a7d8d1cad70a3ce32089b33b904fcddb96726909ded5cafcc615ce5b/fastdev-0.0.4.tar.gz
+[2024-05-22 10:14:32] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/e7/4a/68a7968ecf290d2890f75aa5ae2aa17ddd9b234a6fce387e14cb7e6a934d/dapla_toolbelt_pseudo-2.0.1.tar.gz
+[2024-05-22 10:14:32] INFO root fetch - processPackages [snakesays]: executing diffoscope
+[2024-05-22 10:14:32] INFO root fetch - processPackages [snakesays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakesays-1.2.2.tar.gz tmp/snakesays-1.2.3.tar.gz --markdown 20240522/s/snakesays/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-22 10:14:32] INFO root fetch - processPackages [django_medicio_ds]: Downloading https://files.pythonhosted.org/packages/b9/67/5b8367ad439fcd189b23816ac8fe057665d998a01c838cbdabdbf5e9f085/django_medicio_ds-3.0.0.tar.gz
+[2024-05-22 10:14:32] INFO root fetch - processPackages [fastdev]: executing diffoscope
+[2024-05-22 10:14:32] INFO root fetch - processPackages [fastdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastdev-0.0.3.tar.gz tmp/fastdev-0.0.4.tar.gz --markdown 20240522/f/fastdev/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-22 10:14:32] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: executing diffoscope
+[2024-05-22 10:14:32] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_toolbelt_pseudo-2.0.0.tar.gz tmp/dapla_toolbelt_pseudo-2.0.1.tar.gz --markdown 20240522/d/dapla-toolbelt-pseudo/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-22 10:14:33] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-22 10:14:33] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-22 10:14:33] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-22 10:14:33] INFO root fetch - processPackages [fastdev]: Remove: archive file [/home/abi/fetcher/tmp/fastdev-0.0.3.tar.gz]
+[2024-05-22 10:14:33] INFO root fetch - processPackages [fastdev]: Remove: archive file [/home/abi/fetcher/tmp/fastdev-0.0.4.tar.gz]
+[2024-05-22 10:14:33] INFO root fetch - main [MainThread]: End processing [fastdev]: success
+[2024-05-22 10:14:33] INFO root fetch - processPackages [snakesays]: Remove: archive file [/home/abi/fetcher/tmp/snakesays-1.2.2.tar.gz]
+[2024-05-22 10:14:33] INFO root fetch - processPackages [snakesays]: Remove: archive file [/home/abi/fetcher/tmp/snakesays-1.2.3.tar.gz]
+[2024-05-22 10:14:33] INFO root fetch - main [MainThread]: End processing [snakesays]: success
+[2024-05-22 10:14:33] INFO root fetch - processPackages [django_medicio_ds]: executing diffoscope
+[2024-05-22 10:14:33] INFO root fetch - processPackages [django_medicio_ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-medicio_ds-1.2.1.tar.gz tmp/django_medicio_ds-3.0.0.tar.gz --markdown 20240522/d/django_medicio_ds/1.2.1-3.0.0/README.md --exclude *.pyd
+[2024-05-22 10:14:33] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-2.0.0.tar.gz]
+[2024-05-22 10:14:33] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-2.0.1.tar.gz]
+[2024-05-22 10:14:33] INFO root fetch - main [MainThread]: End processing [dapla-toolbelt-pseudo]: success
+[2024-05-22 10:14:34] INFO root fetch - processPackages [nurikit]: Downloading https://files.pythonhosted.org/packages/73/73/7b14074c825bfe72a3acdd1018db3f732a033120c2ae56af1992a4191000/nurikit-0.1.0a5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-22 10:14:34] INFO root fetch - processPackages [nurikit]: executing diffoscope
+[2024-05-22 10:14:34] INFO root fetch - processPackages [nurikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nurikit-0.1.0a4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nurikit-0.1.0a5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240522/n/nurikit/0.1.0a4-0.1.0a5/README.md --exclude *.pyd
+[2024-05-22 10:14:47] INFO root fetch - processPackages [nurikit]: Remove: archive file [/home/abi/fetcher/tmp/nurikit-0.1.0a4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-22 10:14:47] INFO root fetch - processPackages [nurikit]: Remove: archive file [/home/abi/fetcher/tmp/nurikit-0.1.0a5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-22 10:14:47] INFO root fetch - main [MainThread]: End processing [nurikit]: success
+[2024-05-22 10:14:54] INFO root fetch - processPackages [django_medicio_ds]: Remove: archive file [/home/abi/fetcher/tmp/django-medicio_ds-1.2.1.tar.gz]
+[2024-05-22 10:14:54] INFO root fetch - processPackages [django_medicio_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_medicio_ds-3.0.0.tar.gz]
+[2024-05-22 10:14:54] INFO root fetch - main [MainThread]: End processing [django_medicio_ds]: success
+[2024-05-22 10:14:54] INFO root fetch - main [MainThread]: Store serial: [23320778]

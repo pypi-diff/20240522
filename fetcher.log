@@ -16633,3 +16633,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:46:12] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2024-05-22 10:46:12] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2024-05-22 10:46:12] INFO root fetch - main [MainThread]: Store serial: [23321092]
+[2024-05-22 10:48:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321092]
+[2024-05-22 10:48:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 10:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leadguru-jobs
+[2024-05-22 10:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: go-console
+[2024-05-22 10:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: upgini
+[2024-05-22 10:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cli-user
+[2024-05-22 10:48:21] INFO root fetch - processPackages [go-console]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-22 10:48:21] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-22 10:48:21] INFO root fetch - processPackages [go-console]: Downloading https://files.pythonhosted.org/packages/b1/89/e0e870f1e6d6f7df6c10a76c2361aff894f4f228a2e9f0c5de024dbc78e2/go_console-0.0.5.tar.gz
+[2024-05-22 10:48:21] INFO root fetch - processPackages [cli-user]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-22 10:48:21] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-05-22 10:48:21] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-22 10:48:21] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-05-22 10:48:21] INFO root fetch - processPackages [cli-user]: Downloading https://files.pythonhosted.org/packages/cc/db/2209583dfc426e589b855592bd1c528637847505a0eebafc2edc5487d194/cli_user-0.0.7.tar.gz
+[2024-05-22 10:48:21] INFO root fetch - processPackages [go-console]: Downloading https://files.pythonhosted.org/packages/9d/89/1173303428b31e54c710a70922b970a70343726f9be23166b431c6db1700/go_console-0.0.6.tar.gz
+[2024-05-22 10:48:21] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/59/79/dc47448e0c68a4e00d9d0b7f4c640207fa605fe48cdc53e30221037a1962/upgini-1.1.98.tar.gz
+[2024-05-22 10:48:21] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-05-22 10:48:21] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240522/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-22 10:48:21] INFO root fetch - processPackages [go-console]: executing diffoscope
+[2024-05-22 10:48:21] INFO root fetch - processPackages [go-console]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/go_console-0.0.5.tar.gz tmp/go_console-0.0.6.tar.gz --markdown 20240522/g/go-console/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-22 10:48:22] INFO root fetch - processPackages [cli-user]: Downloading https://files.pythonhosted.org/packages/24/60/885a026f8fd5aa52079fa4b5a59cf1913406b93eda87e8cc98b2c2e4be10/cli_user-0.0.8.tar.gz
+[2024-05-22 10:48:22] INFO root fetch - processPackages [upgini]: Downloading https://files.pythonhosted.org/packages/32/f1/1df90a6a856d855308ddf057a7b8cdad7dbcafb6230f0592bbff90f929fd/upgini-1.1.99.tar.gz
+[2024-05-22 10:48:22] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2024-05-22 10:48:22] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20240522/u/upgini/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-22 10:48:22] INFO root fetch - processPackages [cli-user]: executing diffoscope
+[2024-05-22 10:48:22] INFO root fetch - processPackages [cli-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cli_user-0.0.7.tar.gz tmp/cli_user-0.0.8.tar.gz --markdown 20240522/c/cli-user/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-22 10:48:22] INFO root fetch - processPackages [go-console]: Remove: archive file [/home/abi/fetcher/tmp/go_console-0.0.5.tar.gz]
+[2024-05-22 10:48:22] INFO root fetch - processPackages [go-console]: Remove: archive file [/home/abi/fetcher/tmp/go_console-0.0.6.tar.gz]
+[2024-05-22 10:48:22] INFO root fetch - main [MainThread]: End processing [go-console]: success
+[2024-05-22 10:48:22] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-05-22 10:48:22] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-05-22 10:48:22] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-05-22 10:48:22] INFO root fetch - processPackages [cli-user]: Remove: archive file [/home/abi/fetcher/tmp/cli_user-0.0.7.tar.gz]
+[2024-05-22 10:48:22] INFO root fetch - processPackages [cli-user]: Remove: archive file [/home/abi/fetcher/tmp/cli_user-0.0.8.tar.gz]
+[2024-05-22 10:48:22] INFO root fetch - main [MainThread]: End processing [cli-user]: success
+[2024-05-22 10:48:23] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2024-05-22 10:48:23] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2024-05-22 10:48:23] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2024-05-22 10:48:23] INFO root fetch - main [MainThread]: Store serial: [23321103]

@@ -18236,3 +18236,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:35:53] INFO root fetch - processPackages [pycamia]: Remove: archive file [/home/abi/fetcher/tmp/pycamia-1.0.40.tar.gz]
 [2024-05-22 11:35:53] INFO root fetch - main [MainThread]: End processing [pycamia]: success
 [2024-05-22 11:35:53] INFO root fetch - main [MainThread]: Store serial: [23321697]
+[2024-05-22 11:37:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321697]
+[2024-05-22 11:38:03] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-22 11:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MachineFailurePredict
+[2024-05-22 11:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zytlib
+[2024-05-22 11:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aliyun-python-sdk-swas-open
+[2024-05-22 11:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: udirect
+[2024-05-22 11:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docmesh-cli
+[2024-05-22 11:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blackfire
+[2024-05-22 11:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: entity-linkers
+[2024-05-22 11:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mnt.pyfiction
+[2024-05-22 11:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: weather-model-graphs
+[2024-05-22 11:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tacf
+[2024-05-22 11:38:03] INFO root fetch - processPackages [udirect]: New version: [0.1.4.dev9] Old Version: [0.1.4.dev8]
+[2024-05-22 11:38:03] WARNING root fetch - processPackages [MachineFailurePredict]: Skipping, unable to determine old version
+[2024-05-22 11:38:03] INFO root fetch - processPackages [MachineFailurePredict]: Start processing: sunholo
+[2024-05-22 11:38:03] INFO root fetch - main [MainThread]: End processing [MachineFailurePredict] error
+[2024-05-22 11:38:03] INFO root fetch - processPackages [zytlib]: New version: [0.3.343] Old Version: [0.3.342]
+[2024-05-22 11:38:03] WARNING root fetch - processPackages [weather-model-graphs]: Skipping, unable to determine old version
+[2024-05-22 11:38:03] INFO root fetch - processPackages [weather-model-graphs]: Start processing: nonlinear-benchmarks
+[2024-05-22 11:38:03] INFO root fetch - main [MainThread]: End processing [weather-model-graphs] error
+[2024-05-22 11:38:03] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/63/2b/b8dd9f284cadd77c65d69c16d3402ff1280b48027dffc1036b26b3a83531/udirect-0.1.4.dev8.tar.gz
+[2024-05-22 11:38:03] INFO root fetch - processPackages [docmesh-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 11:38:03] INFO root fetch - processPackages [aliyun-python-sdk-swas-open]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-22 11:38:03] WARNING root fetch - processPackages [entity-linkers]: Skipping, unable to determine old version
+[2024-05-22 11:38:03] INFO root fetch - main [MainThread]: End processing [entity-linkers] error
+[2024-05-22 11:38:03] WARNING root fetch - processPackages [tacf]: Skipping, unable to determine old version
+[2024-05-22 11:38:03] INFO root fetch - main [MainThread]: End processing [tacf] error
+[2024-05-22 11:38:03] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-22 11:38:03] INFO root fetch - processPackages [blackfire]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-22 11:38:03] INFO root fetch - processPackages [zytlib]: Downloading https://files.pythonhosted.org/packages/0c/d2/c7853b71e0455c3046c189f3bf0aef75525443ede0317ec919906e17718c/zytlib-0.3.342-py3-none-any.whl
+[2024-05-22 11:38:03] INFO root fetch - processPackages [mnt.pyfiction]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-22 11:38:03] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-22 11:38:03] INFO root fetch - processPackages [nonlinear-benchmarks]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-22 11:38:03] INFO root fetch - processPackages [docmesh-cli]: Downloading https://files.pythonhosted.org/packages/52/01/e0b242a120b46fbd3ea11f242cce6164ceba11c4caaa6c0f51714f6c4a81/docmesh_cli-0.0.8.tar.gz
+[2024-05-22 11:38:03] INFO root fetch - processPackages [aliyun-python-sdk-swas-open]: Downloading https://files.pythonhosted.org/packages/71/7e/99e22e55b13471b7f5785ecea3718562c488f5b63aa26fc0c48b8e64e399/aliyun-python-sdk-swas-open-1.0.6.tar.gz
+[2024-05-22 11:38:03] INFO root fetch - processPackages [blackfire]: Downloading https://files.pythonhosted.org/packages/64/65/c3cdb7e4097093b1a2bddd6fa2147b88c0d2018fe1cb7ffbbe75a79213c1/blackfire-1.9.0-cp39-cp39-win_amd64.whl
+[2024-05-22 11:38:03] INFO root fetch - processPackages [mnt.pyfiction]: Downloading https://files.pythonhosted.org/packages/11/ae/37c8c4b4c025530b6b07a4a6d944369c530041534488eea7c89bebfdc531/mnt_pyfiction-0.6.1.tar.gz
+[2024-05-22 11:38:03] INFO root fetch - processPackages [zytlib]: Downloading https://files.pythonhosted.org/packages/f5/0d/c4d77b62a7f39a43a8427aa71fab26b0b49525b830229cc64fa23d734ec4/zytlib-0.3.343-py3-none-any.whl
+[2024-05-22 11:38:03] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-22 11:38:03] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/8a/a3/ad99a9715fce5afd74908cc4510120837854d439e7d1cca91ccead70df48/udirect-0.1.4.dev9.tar.gz
+[2024-05-22 11:38:04] INFO root fetch - processPackages [nonlinear-benchmarks]: Downloading https://files.pythonhosted.org/packages/e4/66/71fe412b84beedce2aba22875103c9056571c3c5537e7f804e585163af27/nonlinear_benchmarks-0.1.1.tar.gz
+[2024-05-22 11:38:04] WARNING root fetch - processPackages [mnt.pyfiction]: Skipping package: exceeds size limit 12779786>=10485760
+[2024-05-22 11:38:04] INFO root fetch - main [MainThread]: End processing [mnt.pyfiction] error
+[2024-05-22 11:38:04] INFO root fetch - processPackages [zytlib]: executing diffoscope
+[2024-05-22 11:38:04] INFO root fetch - processPackages [zytlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zytlib-0.3.342-py3-none-any.whl.zip tmp/zytlib-0.3.343-py3-none-any.whl.zip --markdown 20240522/z/zytlib/0.3.342-0.3.343/README.md --exclude *.pyd
+[2024-05-22 11:38:04] INFO root fetch - processPackages [docmesh-cli]: Downloading https://files.pythonhosted.org/packages/f7/0b/cc22d3fdfad0c1ff514222a92edc6326360d3a28521cf5c8b8dab6d879fb/docmesh_cli-0.0.9.tar.gz
+[2024-05-22 11:38:04] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-22 11:38:04] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240522/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-22 11:38:04] INFO root fetch - processPackages [aliyun-python-sdk-swas-open]: Downloading https://files.pythonhosted.org/packages/86/d9/05fb7c58619e6d818a67f03990678cbe65a31b4d129e09c236e819ba60e8/aliyun-python-sdk-swas-open-1.0.7.tar.gz
+[2024-05-22 11:38:04] INFO root fetch - processPackages [docmesh-cli]: executing diffoscope
+[2024-05-22 11:38:04] INFO root fetch - processPackages [docmesh-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docmesh_cli-0.0.8.tar.gz tmp/docmesh_cli-0.0.9.tar.gz --markdown 20240522/d/docmesh-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 11:38:04] INFO root fetch - processPackages [aliyun-python-sdk-swas-open]: executing diffoscope
+[2024-05-22 11:38:04] INFO root fetch - processPackages [aliyun-python-sdk-swas-open]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-swas-open-1.0.6.tar.gz tmp/aliyun-python-sdk-swas-open-1.0.7.tar.gz --markdown 20240522/a/aliyun-python-sdk-swas-open/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-22 11:38:04] INFO root fetch - processPackages [nonlinear-benchmarks]: Downloading https://files.pythonhosted.org/packages/d4/92/c2df145bca0d6fe4128b5bcefccfc13b8ac97836f08d707fefcc524d1a25/nonlinear_benchmarks-0.1.2-py3-none-any.whl
+[2024-05-22 11:38:04] INFO root fetch - processPackages [udirect]: executing diffoscope
+[2024-05-22 11:38:04] INFO root fetch - processPackages [udirect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udirect-0.1.4.dev8.tar.gz tmp/udirect-0.1.4.dev9.tar.gz --markdown 20240522/u/udirect/0.1.4.dev8-0.1.4.dev9/README.md --exclude *.pyd
+[2024-05-22 11:38:04] INFO root fetch - processPackages [nonlinear-benchmarks]: executing diffoscope
+[2024-05-22 11:38:04] INFO root fetch - processPackages [nonlinear-benchmarks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonlinear_benchmarks-0.1.1.tar.gz tmp/nonlinear_benchmarks-0.1.2-py3-none-any.whl.zip --markdown 20240522/n/nonlinear-benchmarks/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-22 11:38:05] INFO root fetch - processPackages [docmesh-cli]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_cli-0.0.8.tar.gz]
+[2024-05-22 11:38:05] INFO root fetch - processPackages [docmesh-cli]: Remove: archive file [/home/abi/fetcher/tmp/docmesh_cli-0.0.9.tar.gz]
+[2024-05-22 11:38:05] INFO root fetch - main [MainThread]: End processing [docmesh-cli]: success
+[2024-05-22 11:38:05] INFO root fetch - processPackages [blackfire]: Downloading https://files.pythonhosted.org/packages/f1/2f/c549ec10aabd1e91b0f61f993249914c2e2876bcbecbe0475d78319d32ab/blackfire-1.9.1-cp39-cp39-win_amd64.whl
+[2024-05-22 11:38:05] INFO root fetch - processPackages [nonlinear-benchmarks]: Remove: archive file [/home/abi/fetcher/tmp/nonlinear_benchmarks-0.1.1.tar.gz]
+[2024-05-22 11:38:05] INFO root fetch - processPackages [nonlinear-benchmarks]: Remove: archive file [/home/abi/fetcher/tmp/nonlinear_benchmarks-0.1.2-py3-none-any.whl.zip]
+[2024-05-22 11:38:05] INFO root fetch - main [MainThread]: End processing [nonlinear-benchmarks]: success
+[2024-05-22 11:38:05] INFO root fetch - processPackages [zytlib]: Remove: archive file [/home/abi/fetcher/tmp/zytlib-0.3.342-py3-none-any.whl.zip]
+[2024-05-22 11:38:05] INFO root fetch - processPackages [zytlib]: Remove: archive file [/home/abi/fetcher/tmp/zytlib-0.3.343-py3-none-any.whl.zip]
+[2024-05-22 11:38:05] INFO root fetch - main [MainThread]: End processing [zytlib]: success
+[2024-05-22 11:38:05] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-22 11:38:05] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-22 11:38:05] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-22 11:38:05] INFO root fetch - processPackages [aliyun-python-sdk-swas-open]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-swas-open-1.0.6.tar.gz]
+[2024-05-22 11:38:05] INFO root fetch - processPackages [aliyun-python-sdk-swas-open]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-swas-open-1.0.7.tar.gz]
+[2024-05-22 11:38:05] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-swas-open]: success
+[2024-05-22 11:38:05] INFO root fetch - processPackages [blackfire]: executing diffoscope
+[2024-05-22 11:38:05] INFO root fetch - processPackages [blackfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackfire-1.9.0-cp39-cp39-win_amd64.whl.zip tmp/blackfire-1.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20240522/b/blackfire/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-22 11:38:05] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev8.tar.gz]
+[2024-05-22 11:38:05] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev9.tar.gz]
+[2024-05-22 11:38:05] INFO root fetch - main [MainThread]: End processing [udirect]: success
+[2024-05-22 11:38:05] INFO root fetch - processPackages [blackfire]: Remove: archive file [/home/abi/fetcher/tmp/blackfire-1.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 11:38:05] INFO root fetch - processPackages [blackfire]: Remove: archive file [/home/abi/fetcher/tmp/blackfire-1.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 11:38:05] INFO root fetch - main [MainThread]: End processing [blackfire]: success
+[2024-05-22 11:38:05] INFO root fetch - main [MainThread]: Store serial: [23321763]

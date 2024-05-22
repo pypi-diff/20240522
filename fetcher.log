@@ -15448,3 +15448,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:02:39] INFO root fetch - processPackages [kilmlogger]: Remove: archive file [/home/abi/fetcher/tmp/kilmlogger-0.1.0.tar.gz]
 [2024-05-22 10:02:39] INFO root fetch - main [MainThread]: End processing [kilmlogger]: success
 [2024-05-22 10:02:39] INFO root fetch - main [MainThread]: Store serial: [23320671]
+[2024-05-22 10:04:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320671]
+[2024-05-22 10:04:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: annot-attrs
+[2024-05-22 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mteb
+[2024-05-22 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: newsworthycharts
+[2024-05-22 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langfun
+[2024-05-22 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openTEPES
+[2024-05-22 10:04:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: muko
+[2024-05-22 10:04:48] INFO root fetch - processPackages [annot-attrs]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-22 10:04:48] INFO root fetch - processPackages [mteb]: New version: [1.9.3] Old Version: [1.9.2]
+[2024-05-22 10:04:48] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240521] Old Version: [0.0.2.dev20240520]
+[2024-05-22 10:04:49] INFO root fetch - processPackages [annot-attrs]: Downloading https://files.pythonhosted.org/packages/7d/d1/7bd9a06a0f700e9c36902b8948a11295dedf5782bb4b1e869435675cd3bf/annot_attrs-0.0.5.tar.gz
+[2024-05-22 10:04:49] INFO root fetch - processPackages [muko]: New version: [2.52] Old Version: [2.51]
+[2024-05-22 10:04:49] INFO root fetch - processPackages [openTEPES]: New version: [4.9.0] Old Version: [4.8.3]
+[2024-05-22 10:04:49] INFO root fetch - processPackages [newsworthycharts]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-22 10:04:49] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/3c/6c/71908f3390d3a4e9652e4f537142c41748fd18c337a0f1401ec437de96ad/langfun-0.0.2.dev20240520.tar.gz
+[2024-05-22 10:04:49] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/aa/99/be58df74a89833b5d44fbd8f00e5c99b4ca82aa67a9c1487fd782328d3b5/mteb-1.9.2.tar.gz
+[2024-05-22 10:04:49] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/4f/34/94e482c11594b31611c9615d8b47858641b29f0aee69d54a34bf5315fdca/muko-2.51-py3-none-any.whl
+[2024-05-22 10:04:49] INFO root fetch - processPackages [annot-attrs]: Downloading https://files.pythonhosted.org/packages/a8/18/4f01f35833602a32d6479e2888c3ecc3050f47ffaec1ce79ac16e2456aa3/annot_attrs-0.0.6.tar.gz
+[2024-05-22 10:04:49] INFO root fetch - processPackages [openTEPES]: Downloading https://files.pythonhosted.org/packages/d3/bc/956e5b6a3468b50029876bc7aec862ddb929a35570cf5009b1bd0842e9b4/openTEPES-4.8.3.tar.gz
+[2024-05-22 10:04:49] INFO root fetch - processPackages [newsworthycharts]: Downloading https://files.pythonhosted.org/packages/7c/39/c5d93994b0e8197ecb0d330391e5e7328e5539b5865431922763521cb80d/newsworthycharts-1.9.1.tar.gz
+[2024-05-22 10:04:49] INFO root fetch - processPackages [mteb]: Downloading https://files.pythonhosted.org/packages/1a/05/483a4778dcfb42b672c3c28ac435e64d386b1df507d3c0059e5da9194653/mteb-1.9.3.tar.gz
+[2024-05-22 10:04:49] INFO root fetch - processPackages [annot-attrs]: executing diffoscope
+[2024-05-22 10:04:49] INFO root fetch - processPackages [annot-attrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annot_attrs-0.0.5.tar.gz tmp/annot_attrs-0.0.6.tar.gz --markdown 20240522/a/annot-attrs/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-22 10:04:49] WARNING root fetch - processPackages [openTEPES]: Skipping package: exceeds size limit 103228862>=10485760
+[2024-05-22 10:04:49] INFO root fetch - main [MainThread]: End processing [openTEPES] error
+[2024-05-22 10:04:49] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/1d/54/02eaa4985575b75d646dad41bd569f5d6d1fec516a19b28cbd382d013ad2/langfun-0.0.2.dev20240521.tar.gz
+[2024-05-22 10:04:49] INFO root fetch - processPackages [mteb]: executing diffoscope
+[2024-05-22 10:04:49] INFO root fetch - processPackages [mteb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mteb-1.9.2.tar.gz tmp/mteb-1.9.3.tar.gz --markdown 20240522/m/mteb/1.9.2-1.9.3/README.md --exclude *.pyd
+[2024-05-22 10:04:49] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-05-22 10:04:49] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240520.tar.gz tmp/langfun-0.0.2.dev20240521.tar.gz --markdown 20240522/l/langfun/0.0.2.dev20240520-0.0.2.dev20240521/README.md --exclude *.pyd
+[2024-05-22 10:04:49] INFO root fetch - processPackages [newsworthycharts]: Downloading https://files.pythonhosted.org/packages/e5/50/8fca96f3730b1e659f00dc8c2c0c0ad4724580ba4a970d622d59b091f069/newsworthycharts-1.9.2.tar.gz
+[2024-05-22 10:04:49] INFO root fetch - processPackages [muko]: Downloading https://files.pythonhosted.org/packages/e7/9a/b55336208827d180110f96091a8fd52706f1df6019e8e370c5e9e7faa677/muko-2.52-py3-none-any.whl
+[2024-05-22 10:04:49] INFO root fetch - processPackages [newsworthycharts]: executing diffoscope
+[2024-05-22 10:04:49] INFO root fetch - processPackages [newsworthycharts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newsworthycharts-1.9.1.tar.gz tmp/newsworthycharts-1.9.2.tar.gz --markdown 20240522/n/newsworthycharts/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-22 10:04:50] INFO root fetch - processPackages [annot-attrs]: Remove: archive file [/home/abi/fetcher/tmp/annot_attrs-0.0.5.tar.gz]
+[2024-05-22 10:04:50] INFO root fetch - processPackages [annot-attrs]: Remove: archive file [/home/abi/fetcher/tmp/annot_attrs-0.0.6.tar.gz]
+[2024-05-22 10:04:50] INFO root fetch - main [MainThread]: End processing [annot-attrs]: success
+[2024-05-22 10:04:50] INFO root fetch - processPackages [muko]: executing diffoscope
+[2024-05-22 10:04:50] INFO root fetch - processPackages [muko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muko-2.51-py3-none-any.whl.zip tmp/muko-2.52-py3-none-any.whl.zip --markdown 20240522/m/muko/2.51-2.52/README.md --exclude *.pyd
+[2024-05-22 10:04:50] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240520.tar.gz]
+[2024-05-22 10:04:50] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240521.tar.gz]
+[2024-05-22 10:04:50] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-05-22 10:04:50] INFO root fetch - processPackages [newsworthycharts]: Remove: archive file [/home/abi/fetcher/tmp/newsworthycharts-1.9.1.tar.gz]
+[2024-05-22 10:04:50] INFO root fetch - processPackages [newsworthycharts]: Remove: archive file [/home/abi/fetcher/tmp/newsworthycharts-1.9.2.tar.gz]
+[2024-05-22 10:04:50] INFO root fetch - main [MainThread]: End processing [newsworthycharts]: success
+[2024-05-22 10:04:52] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.2.tar.gz]
+[2024-05-22 10:04:52] INFO root fetch - processPackages [mteb]: Remove: archive file [/home/abi/fetcher/tmp/mteb-1.9.3.tar.gz]
+[2024-05-22 10:04:52] INFO root fetch - main [MainThread]: End processing [mteb]: success
+[2024-05-22 10:04:55] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.51-py3-none-any.whl.zip]
+[2024-05-22 10:04:55] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.52-py3-none-any.whl.zip]
+[2024-05-22 10:04:55] INFO root fetch - main [MainThread]: End processing [muko]: success
+[2024-05-22 10:04:55] INFO root fetch - main [MainThread]: Store serial: [23320688]

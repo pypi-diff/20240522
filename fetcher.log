@@ -13125,3 +13125,18 @@
 [2024-05-22 08:21:15] INFO root fetch - processPackages [plone.app.mosaic]: Remove: archive file [/home/abi/fetcher/tmp/plone_app_mosaic-3.2.0a6.tar.gz]
 [2024-05-22 08:21:15] INFO root fetch - main [MainThread]: End processing [plone.app.mosaic]: success
 [2024-05-22 08:21:15] INFO root fetch - main [MainThread]: Store serial: [23319609]
+[2024-05-22 08:23:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319609]
+[2024-05-22 08:23:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 08:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pgos-cli-python-sdk-v1
+[2024-05-22 08:23:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zfxtest
+[2024-05-22 08:23:32] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: New version: [0.2.9.111] Old Version: [0.2.9.110]
+[2024-05-22 08:23:32] WARNING root fetch - processPackages [zfxtest]: Skipping, unable to determine old version
+[2024-05-22 08:23:32] INFO root fetch - main [MainThread]: End processing [zfxtest] error
+[2024-05-22 08:23:32] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: Downloading https://files.pythonhosted.org/packages/29/56/619425392fbdafcd94d5a1a9e199e12a5a08bda31a1af002cc3c457405d9/pgos-cli-python-sdk-v1-0.2.9.110.tar.gz
+[2024-05-22 08:23:33] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: Downloading https://files.pythonhosted.org/packages/4b/1a/4d086d47b3031b22d8b2466201136c16b9c300cc35817a222ace9b6031f4/pgos-cli-python-sdk-v1-0.2.9.111.tar.gz
+[2024-05-22 08:23:33] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: executing diffoscope
+[2024-05-22 08:23:33] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgos-cli-python-sdk-v1-0.2.9.110.tar.gz tmp/pgos-cli-python-sdk-v1-0.2.9.111.tar.gz --markdown 20240522/p/pgos-cli-python-sdk-v1/0.2.9.110-0.2.9.111/README.md --exclude *.pyd
+[2024-05-22 08:23:34] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: Remove: archive file [/home/abi/fetcher/tmp/pgos-cli-python-sdk-v1-0.2.9.110.tar.gz]
+[2024-05-22 08:23:34] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: Remove: archive file [/home/abi/fetcher/tmp/pgos-cli-python-sdk-v1-0.2.9.111.tar.gz]
+[2024-05-22 08:23:34] INFO root fetch - main [MainThread]: End processing [pgos-cli-python-sdk-v1]: success
+[2024-05-22 08:23:34] INFO root fetch - main [MainThread]: Store serial: [23319624]

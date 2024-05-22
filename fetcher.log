@@ -10434,3 +10434,57 @@
 [2024-05-22 05:48:21] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.99.tar.gz]
 [2024-05-22 05:48:21] INFO root fetch - main [MainThread]: End processing [nuon]: success
 [2024-05-22 05:48:21] INFO root fetch - main [MainThread]: Store serial: [23318429]
+[2024-05-22 05:50:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318429]
+[2024-05-22 05:50:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 05:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ahk-client
+[2024-05-22 05:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: frid
+[2024-05-22 05:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rasal
+[2024-05-22 05:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pinjected
+[2024-05-22 05:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anycrc
+[2024-05-22 05:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: transcoders-slim
+[2024-05-22 05:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: benchpots
+[2024-05-22 05:50:30] INFO root fetch - processPackages [pinjected]: New version: [0.2.72] Old Version: [0.2.71]
+[2024-05-22 05:50:30] WARNING root fetch - processPackages [ahk-client]: Skipping, unable to determine old version
+[2024-05-22 05:50:30] INFO root fetch - main [MainThread]: End processing [ahk-client] error
+[2024-05-22 05:50:30] INFO root fetch - processPackages [transcoders-slim]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-22 05:50:30] INFO root fetch - processPackages [frid]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 05:50:30] INFO root fetch - processPackages [rasal]: New version: [0.1.0] Old Version: [0.0.0]
+[2024-05-22 05:50:30] WARNING root fetch - processPackages [benchpots]: Skipping, unable to determine old version
+[2024-05-22 05:50:30] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/56/bf/b9b3ae0d817e1a6ec09eed289fcee2912893884f021072eae901ad42053e/pinjected-0.2.71.tar.gz
+[2024-05-22 05:50:30] INFO root fetch - main [MainThread]: End processing [benchpots] error
+[2024-05-22 05:50:30] INFO root fetch - processPackages [anycrc]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-05-22 05:50:30] INFO root fetch - processPackages [transcoders-slim]: Downloading https://files.pythonhosted.org/packages/8a/da/8d8d20bce18eb7ca4b4a9b7b88c5d35e0151805709c9256ebcbc685377a3/transcoders_slim-0.2.0.tar.gz
+[2024-05-22 05:50:30] INFO root fetch - processPackages [frid]: Downloading https://files.pythonhosted.org/packages/ab/c4/276f758efee3065c10b10aca27b5dcd336fd5f6766bedfb6203ed86b141b/frid-0.0.8.tar.gz
+[2024-05-22 05:50:30] INFO root fetch - processPackages [rasal]: Downloading https://files.pythonhosted.org/packages/0d/d6/2f212f45675fa58e37b1085de44ccf2c7861bd21ffb53640ac0f05611a69/rasal-0.0.0.tar.gz
+[2024-05-22 05:50:30] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/41/2b/0096fdc2e09ae0287235409a57201181da8f4d10960fb57f9dd1c86f3faa/pinjected-0.2.72.tar.gz
+[2024-05-22 05:50:30] INFO root fetch - processPackages [anycrc]: Downloading https://files.pythonhosted.org/packages/39/67/f7411816ee4117465ff82c8680095f1915c13b281aeedc5f457ba45bd367/anycrc-0.7.4.tar.gz
+[2024-05-22 05:50:30] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-05-22 05:50:30] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.71.tar.gz tmp/pinjected-0.2.72.tar.gz --markdown 20240522/p/pinjected/0.2.71-0.2.72/README.md --exclude *.pyd
+[2024-05-22 05:50:31] INFO root fetch - processPackages [frid]: Downloading https://files.pythonhosted.org/packages/bf/0e/c9daa6c9fa362976608c4807386bb44525900903ed383fdf307e9888116a/frid-0.0.9.tar.gz
+[2024-05-22 05:50:31] INFO root fetch - processPackages [rasal]: Downloading https://files.pythonhosted.org/packages/d8/ff/229f4882b12b9ad36ed682c9b296c3f70d65a4fc0f1d900d99e5607faae8/rasal-0.1.0.tar.gz
+[2024-05-22 05:50:31] INFO root fetch - processPackages [transcoders-slim]: Downloading https://files.pythonhosted.org/packages/33/db/16164e182e84ca38d0fd90b5229799685c5bba009e3267d2d89f933ac7d8/transcoders_slim-0.2.1.tar.gz
+[2024-05-22 05:50:31] INFO root fetch - processPackages [anycrc]: Downloading https://files.pythonhosted.org/packages/1e/13/0b12342df023bd751e148a436054c7a6a406d8ac8bc7b2d2922d6b6ef9f5/anycrc-0.7.5.tar.gz
+[2024-05-22 05:50:31] INFO root fetch - processPackages [frid]: executing diffoscope
+[2024-05-22 05:50:31] INFO root fetch - processPackages [frid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frid-0.0.8.tar.gz tmp/frid-0.0.9.tar.gz --markdown 20240522/f/frid/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 05:50:31] INFO root fetch - processPackages [rasal]: executing diffoscope
+[2024-05-22 05:50:31] INFO root fetch - processPackages [rasal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasal-0.0.0.tar.gz tmp/rasal-0.1.0.tar.gz --markdown 20240522/r/rasal/0.0.0-0.1.0/README.md --exclude *.pyd
+[2024-05-22 05:50:31] INFO root fetch - processPackages [transcoders-slim]: executing diffoscope
+[2024-05-22 05:50:31] INFO root fetch - processPackages [transcoders-slim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transcoders_slim-0.2.0.tar.gz tmp/transcoders_slim-0.2.1.tar.gz --markdown 20240522/t/transcoders-slim/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-22 05:50:31] INFO root fetch - processPackages [anycrc]: executing diffoscope
+[2024-05-22 05:50:31] INFO root fetch - processPackages [anycrc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anycrc-0.7.4.tar.gz tmp/anycrc-0.7.5.tar.gz --markdown 20240522/a/anycrc/0.7.4-0.7.5/README.md --exclude *.pyd
+[2024-05-22 05:50:31] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.71.tar.gz]
+[2024-05-22 05:50:31] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.72.tar.gz]
+[2024-05-22 05:50:31] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-05-22 05:50:31] INFO root fetch - processPackages [transcoders-slim]: Remove: archive file [/home/abi/fetcher/tmp/transcoders_slim-0.2.0.tar.gz]
+[2024-05-22 05:50:31] INFO root fetch - processPackages [transcoders-slim]: Remove: archive file [/home/abi/fetcher/tmp/transcoders_slim-0.2.1.tar.gz]
+[2024-05-22 05:50:31] INFO root fetch - main [MainThread]: End processing [transcoders-slim]: success
+[2024-05-22 05:50:31] INFO root fetch - processPackages [anycrc]: Remove: archive file [/home/abi/fetcher/tmp/anycrc-0.7.4.tar.gz]
+[2024-05-22 05:50:31] INFO root fetch - processPackages [anycrc]: Remove: archive file [/home/abi/fetcher/tmp/anycrc-0.7.5.tar.gz]
+[2024-05-22 05:50:31] INFO root fetch - main [MainThread]: End processing [anycrc]: success
+[2024-05-22 05:50:31] INFO root fetch - processPackages [frid]: Remove: archive file [/home/abi/fetcher/tmp/frid-0.0.8.tar.gz]
+[2024-05-22 05:50:31] INFO root fetch - processPackages [frid]: Remove: archive file [/home/abi/fetcher/tmp/frid-0.0.9.tar.gz]
+[2024-05-22 05:50:31] INFO root fetch - main [MainThread]: End processing [frid]: success
+[2024-05-22 05:50:32] INFO root fetch - processPackages [rasal]: Remove: archive file [/home/abi/fetcher/tmp/rasal-0.0.0.tar.gz]
+[2024-05-22 05:50:32] INFO root fetch - processPackages [rasal]: Remove: archive file [/home/abi/fetcher/tmp/rasal-0.1.0.tar.gz]
+[2024-05-22 05:50:32] INFO root fetch - main [MainThread]: End processing [rasal]: success
+[2024-05-22 05:50:32] INFO root fetch - main [MainThread]: Store serial: [23318498]

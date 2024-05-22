@@ -21649,3 +21649,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 13:39:49] INFO root fetch - processPackages [django-logikal]: Remove: archive file [/home/abi/fetcher/tmp/django_logikal-3.2.0.tar.gz]
 [2024-05-22 13:39:49] INFO root fetch - main [MainThread]: End processing [django-logikal]: success
 [2024-05-22 13:39:49] INFO root fetch - main [MainThread]: Store serial: [23323290]
+[2024-05-22 13:41:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323290]
+[2024-05-22 13:42:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 13:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: private-values
+[2024-05-22 13:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quantplay
+[2024-05-22 13:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cognite-extractor-utils
+[2024-05-22 13:42:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-ddmrp-report-part-flow-index
+[2024-05-22 13:42:00] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: New version: [16.0.1.3.0] Old Version: [16.0.1.2.0.2]
+[2024-05-22 13:42:00] INFO root fetch - processPackages [private-values]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-22 13:42:00] INFO root fetch - processPackages [cognite-extractor-utils]: New version: [7.2.0] Old Version: [7.1.6]
+[2024-05-22 13:42:00] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-22 13:42:00] INFO root fetch - processPackages [private-values]: Downloading https://files.pythonhosted.org/packages/e3/74/15db56e050daf5ba7f4d21a9c919ff1be9e1e58d53d2c343450a275b3be2/private_values-0.5.8.tar.gz
+[2024-05-22 13:42:00] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Downloading https://files.pythonhosted.org/packages/69/cb/f040ae6f36fd574552c4ae5459a0b27624ff1b6162ed203ebe61c7e5069f/odoo_addon_ddmrp_report_part_flow_index-16.0.1.2.0.2-py3-none-any.whl
+[2024-05-22 13:42:00] INFO root fetch - processPackages [cognite-extractor-utils]: Downloading https://files.pythonhosted.org/packages/40/35/82737ca1c7ec7d76893a538df907b6eaa1db6fd14402a582c2fb0235bb07/cognite_extractor_utils-7.1.6.tar.gz
+[2024-05-22 13:42:00] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-05-22 13:42:01] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Downloading https://files.pythonhosted.org/packages/dc/45/0a235f9cca74a4bd00c5f29ee5dbf6ca56169bc729321692d104c5843151/odoo_addon_ddmrp_report_part_flow_index-16.0.1.3.0-py3-none-any.whl
+[2024-05-22 13:42:01] INFO root fetch - processPackages [private-values]: Downloading https://files.pythonhosted.org/packages/34/0a/5bff4bbaf7361043a1a406648250e774e3c596e38a93e1b044adb10dc7ea/private_values-0.5.9.tar.gz
+[2024-05-22 13:42:01] INFO root fetch - processPackages [cognite-extractor-utils]: Downloading https://files.pythonhosted.org/packages/96/44/1510ad556d44a098254a28ef4c7fa5a243396b24b0c9b4a4d3d99e7e4fb8/cognite_extractor_utils-7.2.0.tar.gz
+[2024-05-22 13:42:01] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-05-22 13:42:01] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: executing diffoscope
+[2024-05-22 13:42:01] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.2.0.2-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.3.0-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-ddmrp-report-part-flow-index/16.0.1.2.0.2-16.0.1.3.0/README.md --exclude *.pyd
+[2024-05-22 13:42:01] INFO root fetch - processPackages [private-values]: executing diffoscope
+[2024-05-22 13:42:01] INFO root fetch - processPackages [private-values]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/private_values-0.5.8.tar.gz tmp/private_values-0.5.9.tar.gz --markdown 20240522/p/private-values/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-22 13:42:01] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-05-22 13:42:01] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240522/q/quantplay/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-22 13:42:01] INFO root fetch - processPackages [cognite-extractor-utils]: executing diffoscope
+[2024-05-22 13:42:01] INFO root fetch - processPackages [cognite-extractor-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_extractor_utils-7.1.6.tar.gz tmp/cognite_extractor_utils-7.2.0.tar.gz --markdown 20240522/c/cognite-extractor-utils/7.1.6-7.2.0/README.md --exclude *.pyd
+[2024-05-22 13:42:02] INFO root fetch - processPackages [private-values]: Remove: archive file [/home/abi/fetcher/tmp/private_values-0.5.8.tar.gz]
+[2024-05-22 13:42:02] INFO root fetch - processPackages [private-values]: Remove: archive file [/home/abi/fetcher/tmp/private_values-0.5.9.tar.gz]
+[2024-05-22 13:42:02] INFO root fetch - main [MainThread]: End processing [private-values]: success
+[2024-05-22 13:42:02] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.2.0.2-py3-none-any.whl.zip]
+[2024-05-22 13:42:02] INFO root fetch - processPackages [odoo-addon-ddmrp-report-part-flow-index]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_report_part_flow_index-16.0.1.3.0-py3-none-any.whl.zip]
+[2024-05-22 13:42:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-report-part-flow-index]: success
+[2024-05-22 13:42:02] INFO root fetch - processPackages [cognite-extractor-utils]: Remove: archive file [/home/abi/fetcher/tmp/cognite_extractor_utils-7.1.6.tar.gz]
+[2024-05-22 13:42:02] INFO root fetch - processPackages [cognite-extractor-utils]: Remove: archive file [/home/abi/fetcher/tmp/cognite_extractor_utils-7.2.0.tar.gz]
+[2024-05-22 13:42:02] INFO root fetch - main [MainThread]: End processing [cognite-extractor-utils]: success
+[2024-05-22 13:42:02] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-05-22 13:42:02] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-05-22 13:42:02] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-05-22 13:42:02] INFO root fetch - main [MainThread]: Store serial: [23323335]

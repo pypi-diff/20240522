@@ -9948,3 +9948,33 @@
 [2024-05-22 05:24:20] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024052103.tar.gz]
 [2024-05-22 05:24:20] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-05-22 05:24:20] INFO root fetch - main [MainThread]: Store serial: [23318236]
+[2024-05-22 05:26:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318236]
+[2024-05-22 05:26:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 05:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmticket
+[2024-05-22 05:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-22 05:26:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyedifice
+[2024-05-22 05:26:29] INFO root fetch - processPackages [tmticket]: New version: [0.2.2] Old Version: [0.2.17]
+[2024-05-22 05:26:29] INFO root fetch - processPackages [pyedifice]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-22 05:26:29] INFO root fetch - processPackages [pyedifice]: Downloading https://files.pythonhosted.org/packages/8a/0f/590ee2adc8ca2bcaeac57f0b85769086e725807d19014eaf278d417d999e/pyedifice-0.6.0.tar.gz
+[2024-05-22 05:26:29] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.26a1716346744] Old Version: [0.0.26a1716235251]
+[2024-05-22 05:26:29] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/69/be/89bbcd0b44158484f5ef621839bdfb2b01ec705e741311ac1da2bd270fc3/tmticket-0.2.17.tar.gz
+[2024-05-22 05:26:29] INFO root fetch - processPackages [pyedifice]: Downloading https://files.pythonhosted.org/packages/2a/c9/917b2f018a2c77b1963b3ff9763833e911bc2ba0d6f625f4d78be4ba91ac/pyedifice-0.6.1.tar.gz
+[2024-05-22 05:26:29] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/e9/b0/3297d55ead3544bc3a6ef55bb390c1275978acabe30b91887df3ea0629d2/pulumi_kubernetes_the_hard_way-0.0.26a1716235251.tar.gz
+[2024-05-22 05:26:29] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/14/24/d9b4e8fa75d1188e9a793c4a4910d44ca119f97ff0b3779a448274e8c3fd/tmticket-0.2.2.tar.gz
+[2024-05-22 05:26:29] INFO root fetch - processPackages [tmticket]: executing diffoscope
+[2024-05-22 05:26:29] INFO root fetch - processPackages [tmticket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmticket-0.2.17.tar.gz tmp/tmticket-0.2.2.tar.gz --markdown 20240522/t/tmticket/0.2.17-0.2.2/README.md --exclude *.pyd
+[2024-05-22 05:26:29] INFO root fetch - processPackages [pyedifice]: executing diffoscope
+[2024-05-22 05:26:29] INFO root fetch - processPackages [pyedifice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyedifice-0.6.0.tar.gz tmp/pyedifice-0.6.1.tar.gz --markdown 20240522/p/pyedifice/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-22 05:26:29] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/02/11/9ff280721705ac02a2bb6a99f515ee48d34abb275c88aa003764b4aefaed/pulumi_kubernetes_the_hard_way-0.0.26a1716346744.tar.gz
+[2024-05-22 05:26:30] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-22 05:26:30] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.26a1716235251.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.26a1716346744.tar.gz --markdown 20240522/p/pulumi-kubernetes-the-hard-way/0.0.26a1716235251-0.0.26a1716346744/README.md --exclude *.pyd
+[2024-05-22 05:26:30] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.17.tar.gz]
+[2024-05-22 05:26:30] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.2.tar.gz]
+[2024-05-22 05:26:30] INFO root fetch - main [MainThread]: End processing [tmticket]: success
+[2024-05-22 05:26:30] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.26a1716235251.tar.gz]
+[2024-05-22 05:26:30] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.26a1716346744.tar.gz]
+[2024-05-22 05:26:30] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-22 05:26:34] INFO root fetch - processPackages [pyedifice]: Remove: archive file [/home/abi/fetcher/tmp/pyedifice-0.6.0.tar.gz]
+[2024-05-22 05:26:34] INFO root fetch - processPackages [pyedifice]: Remove: archive file [/home/abi/fetcher/tmp/pyedifice-0.6.1.tar.gz]
+[2024-05-22 05:26:34] INFO root fetch - main [MainThread]: End processing [pyedifice]: success
+[2024-05-22 05:26:34] INFO root fetch - main [MainThread]: Store serial: [23318245]

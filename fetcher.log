@@ -9655,3 +9655,63 @@
 [2024-05-22 05:13:19] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.2.tar.gz]
 [2024-05-22 05:13:19] INFO root fetch - main [MainThread]: End processing [tmticket]: success
 [2024-05-22 05:13:19] INFO root fetch - main [MainThread]: Store serial: [23318122]
+[2024-05-22 05:15:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318122]
+[2024-05-22 05:15:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 05:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyedifice
+[2024-05-22 05:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mb-pytorch
+[2024-05-22 05:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydataxm
+[2024-05-22 05:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sklearntools
+[2024-05-22 05:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keras-cv-nightly
+[2024-05-22 05:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zfx
+[2024-05-22 05:15:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: firspackage-test
+[2024-05-22 05:15:28] INFO root fetch - processPackages [pydataxm]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-22 05:15:28] INFO root fetch - processPackages [sklearntools]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-05-22 05:15:28] INFO root fetch - processPackages [mb-pytorch]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-22 05:15:28] INFO root fetch - processPackages [keras-cv-nightly]: New version: [0.9.0.dev2024043000] Old Version: [0.9.0.dev2024042919]
+[2024-05-22 05:15:28] INFO root fetch - processPackages [sklearntools]: Downloading https://files.pythonhosted.org/packages/ac/43/a548ce01d826c63a1f79b8839be12cf472f38592ab0441d9e39d258fe62c/sklearntools-0.4.0.tar.gz
+[2024-05-22 05:15:28] INFO root fetch - processPackages [pyedifice]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-22 05:15:28] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-22 05:15:28] WARNING root fetch - processPackages [firspackage-test]: Skipping, unable to determine old version
+[2024-05-22 05:15:28] INFO root fetch - main [MainThread]: End processing [firspackage-test] error
+[2024-05-22 05:15:28] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/bd/17/3faa9e969f58abadca2ff3a4053bed558afb777bae344f994feeeaf1cfd3/keras_cv_nightly-0.9.0.dev2024042919.tar.gz
+[2024-05-22 05:15:28] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/58/e8/2f828969066e1873b4359ae2a186f78135f5ac14d0abdd28ebd0b153ca53/mb_pytorch-1.0.4.tar.gz
+[2024-05-22 05:15:28] INFO root fetch - processPackages [pydataxm]: Downloading https://files.pythonhosted.org/packages/e1/2d/b479731f084b6f672d2b19ba69b67f3a3edbc1953d0786a6eb31d9408710/pydataxm-0.3.4.tar.gz
+[2024-05-22 05:15:28] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-22 05:15:28] INFO root fetch - processPackages [pyedifice]: Downloading https://files.pythonhosted.org/packages/8a/0f/590ee2adc8ca2bcaeac57f0b85769086e725807d19014eaf278d417d999e/pyedifice-0.6.0.tar.gz
+[2024-05-22 05:15:28] INFO root fetch - processPackages [pydataxm]: Downloading https://files.pythonhosted.org/packages/59/60/454f0249743dc93da38e0fc4d470003e5d5389786676767c0bfd9d4e0077/pydataxm-0.3.5.tar.gz
+[2024-05-22 05:15:28] INFO root fetch - processPackages [mb-pytorch]: Downloading https://files.pythonhosted.org/packages/18/ae/b46b20b02b5f2c2a25fcae91a88f80ab1e1c18413f89f662d20e5475e824/mb_pytorch-1.0.5.tar.gz
+[2024-05-22 05:15:28] INFO root fetch - processPackages [keras-cv-nightly]: Downloading https://files.pythonhosted.org/packages/81/e8/990891e08c4d6686000132786b783a9e72d0cf684f6f44245f2949fd0e57/keras_cv_nightly-0.9.0.dev2024043000.tar.gz
+[2024-05-22 05:15:28] INFO root fetch - processPackages [sklearntools]: Downloading https://files.pythonhosted.org/packages/d7/16/ba0c07228f6ad01de37e81e3598e81ecc29ff83c314021d0fbf1d01e59ab/sklearntools-0.5.0.tar.gz
+[2024-05-22 05:15:28] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-22 05:15:28] INFO root fetch - processPackages [mb-pytorch]: executing diffoscope
+[2024-05-22 05:15:28] INFO root fetch - processPackages [mb-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mb_pytorch-1.0.4.tar.gz tmp/mb_pytorch-1.0.5.tar.gz --markdown 20240522/m/mb-pytorch/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-22 05:15:28] INFO root fetch - processPackages [pydataxm]: executing diffoscope
+[2024-05-22 05:15:28] INFO root fetch - processPackages [pydataxm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydataxm-0.3.4.tar.gz tmp/pydataxm-0.3.5.tar.gz --markdown 20240522/p/pydataxm/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-22 05:15:28] INFO root fetch - processPackages [sklearntools]: executing diffoscope
+[2024-05-22 05:15:28] INFO root fetch - processPackages [sklearntools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearntools-0.4.0.tar.gz tmp/sklearntools-0.5.0.tar.gz --markdown 20240522/s/sklearntools/0.4.0-0.5.0/README.md --exclude *.pyd
+[2024-05-22 05:15:28] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-22 05:15:28] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240522/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-22 05:15:28] INFO root fetch - processPackages [keras-cv-nightly]: executing diffoscope
+[2024-05-22 05:15:28] INFO root fetch - processPackages [keras-cv-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz --markdown 20240522/k/keras-cv-nightly/0.9.0.dev2024042919-0.9.0.dev2024043000/README.md --exclude *.pyd
+[2024-05-22 05:15:29] INFO root fetch - processPackages [pyedifice]: Downloading https://files.pythonhosted.org/packages/2a/c9/917b2f018a2c77b1963b3ff9763833e911bc2ba0d6f625f4d78be4ba91ac/pyedifice-0.6.1.tar.gz
+[2024-05-22 05:15:29] INFO root fetch - processPackages [pyedifice]: executing diffoscope
+[2024-05-22 05:15:29] INFO root fetch - processPackages [pyedifice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyedifice-0.6.0.tar.gz tmp/pyedifice-0.6.1.tar.gz --markdown 20240522/p/pyedifice/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-22 05:15:29] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-22 05:15:29] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-22 05:15:29] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-22 05:15:29] INFO root fetch - processPackages [sklearntools]: Remove: archive file [/home/abi/fetcher/tmp/sklearntools-0.4.0.tar.gz]
+[2024-05-22 05:15:29] INFO root fetch - processPackages [pydataxm]: Remove: archive file [/home/abi/fetcher/tmp/pydataxm-0.3.4.tar.gz]
+[2024-05-22 05:15:29] INFO root fetch - processPackages [sklearntools]: Remove: archive file [/home/abi/fetcher/tmp/sklearntools-0.5.0.tar.gz]
+[2024-05-22 05:15:29] INFO root fetch - processPackages [pydataxm]: Remove: archive file [/home/abi/fetcher/tmp/pydataxm-0.3.5.tar.gz]
+[2024-05-22 05:15:29] INFO root fetch - main [MainThread]: End processing [sklearntools]: success
+[2024-05-22 05:15:29] INFO root fetch - main [MainThread]: End processing [pydataxm]: success
+[2024-05-22 05:15:29] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.4.tar.gz]
+[2024-05-22 05:15:29] INFO root fetch - processPackages [mb-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/mb_pytorch-1.0.5.tar.gz]
+[2024-05-22 05:15:29] INFO root fetch - main [MainThread]: End processing [mb-pytorch]: success
+[2024-05-22 05:15:30] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024042919.tar.gz]
+[2024-05-22 05:15:30] INFO root fetch - processPackages [keras-cv-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_cv_nightly-0.9.0.dev2024043000.tar.gz]
+[2024-05-22 05:15:30] INFO root fetch - main [MainThread]: End processing [keras-cv-nightly]: success
+[2024-05-22 05:15:34] INFO root fetch - processPackages [pyedifice]: Remove: archive file [/home/abi/fetcher/tmp/pyedifice-0.6.0.tar.gz]
+[2024-05-22 05:15:34] INFO root fetch - processPackages [pyedifice]: Remove: archive file [/home/abi/fetcher/tmp/pyedifice-0.6.1.tar.gz]
+[2024-05-22 05:15:34] INFO root fetch - main [MainThread]: End processing [pyedifice]: success
+[2024-05-22 05:15:34] INFO root fetch - main [MainThread]: Store serial: [23318149]

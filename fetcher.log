@@ -9255,3 +9255,18 @@
 [2024-05-22 04:51:35] INFO root fetch - main [MainThread]: End processing [proconfig]: success
 [2024-05-22 04:51:35] INFO root fetch - main [MainThread]: End processing [fms-robot-plugin]: success
 [2024-05-22 04:51:35] INFO root fetch - main [MainThread]: Store serial: [23317899]
+[2024-05-22 04:53:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317899]
+[2024-05-22 04:53:44] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 04:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: firspackage
+[2024-05-22 04:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-dingtalk
+[2024-05-22 04:53:44] WARNING root fetch - processPackages [firspackage]: Skipping, unable to determine old version
+[2024-05-22 04:53:44] INFO root fetch - main [MainThread]: End processing [firspackage] error
+[2024-05-22 04:53:44] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.1.13] Old Version: [2.1.12]
+[2024-05-22 04:53:45] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/6a/2b/e415273dd9956f0ebfe7b01b2227b0a20ca54c329f31cda4676c5857e410/alibabacloud_dingtalk-2.1.12.tar.gz
+[2024-05-22 04:53:45] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/b5/d3/c99c2c77764883129b86fa4e572206d033a2c965d66802324a3966b2f109/alibabacloud_dingtalk-2.1.13.tar.gz
+[2024-05-22 04:53:45] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2024-05-22 04:53:45] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.1.12.tar.gz tmp/alibabacloud_dingtalk-2.1.13.tar.gz --markdown 20240522/a/alibabacloud-dingtalk/2.1.12-2.1.13/README.md --exclude *.pyd
+[2024-05-22 04:53:49] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.1.12.tar.gz]
+[2024-05-22 04:53:49] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.1.13.tar.gz]
+[2024-05-22 04:53:49] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2024-05-22 04:53:49] INFO root fetch - main [MainThread]: Store serial: [23317907]

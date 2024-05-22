@@ -19483,3 +19483,32 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:08:07] INFO root fetch - processPackages [pulp-cli]: Remove: archive file [/home/abi/fetcher/tmp/pulp-cli-0.9.0.tar.gz]
 [2024-05-22 12:08:07] INFO root fetch - main [MainThread]: End processing [pulp-cli]: success
 [2024-05-22 12:08:07] INFO root fetch - main [MainThread]: Store serial: [23322254]
+[2024-05-22 12:10:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322254]
+[2024-05-22 12:10:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 12:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: resc-vcs-scanner
+[2024-05-22 12:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: decentriq-dcr-compiler
+[2024-05-22 12:10:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte-source-pokeapi
+[2024-05-22 12:10:17] INFO root fetch - processPackages [airbyte-source-pokeapi]: New version: [0.2.1.dev202405211431] Old Version: [0.2.1]
+[2024-05-22 12:10:17] INFO root fetch - processPackages [resc-vcs-scanner]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-05-22 12:10:17] INFO root fetch - processPackages [decentriq-dcr-compiler]: New version: [0.8.0.dev3] Old Version: [0.8.0.dev2]
+[2024-05-22 12:10:17] INFO root fetch - processPackages [airbyte-source-pokeapi]: Downloading https://files.pythonhosted.org/packages/3e/a7/0d642f2235ca9a68fd8ceeb505065a4e8be51c1d7425efcee1bd8524a9b9/airbyte_source_pokeapi-0.2.1.dev202405211431.tar.gz
+[2024-05-22 12:10:17] INFO root fetch - processPackages [resc-vcs-scanner]: Downloading https://files.pythonhosted.org/packages/44/73/ccb65d59860037a1338b055e8d40a82b1799919e447fab7eceea0ab692f8/resc_vcs_scanner-3.1.0.tar.gz
+[2024-05-22 12:10:17] INFO root fetch - processPackages [airbyte-source-pokeapi]: executing diffoscope
+[2024-05-22 12:10:17] INFO root fetch - processPackages [airbyte-source-pokeapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_pokeapi-0.2.1.tar.gz tmp/airbyte_source_pokeapi-0.2.1.dev202405211431.tar.gz --markdown 20240522/a/airbyte-source-pokeapi/0.2.1-0.2.1.dev202405211431/README.md --exclude *.pyd
+[2024-05-22 12:10:17] INFO root fetch - processPackages [decentriq-dcr-compiler]: Downloading https://files.pythonhosted.org/packages/98/cf/9e85c3dd5b245ab2d5902c74d5ab75c0edfe1dab51ca2affd747190ef5be/decentriq_dcr_compiler-0.8.0.dev2-cp39-none-win_amd64.whl
+[2024-05-22 12:10:17] INFO root fetch - processPackages [resc-vcs-scanner]: Downloading https://files.pythonhosted.org/packages/b6/35/1d2662751473a0f5396790379a0f52aa8dad16b161ca33304df67b8b9354/resc_vcs_scanner-3.1.1.tar.gz
+[2024-05-22 12:10:17] INFO root fetch - processPackages [resc-vcs-scanner]: executing diffoscope
+[2024-05-22 12:10:17] INFO root fetch - processPackages [resc-vcs-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resc_vcs_scanner-3.1.0.tar.gz tmp/resc_vcs_scanner-3.1.1.tar.gz --markdown 20240522/r/resc-vcs-scanner/3.1.0-3.1.1/README.md --exclude *.pyd
+[2024-05-22 12:10:18] INFO root fetch - processPackages [airbyte-source-pokeapi]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_pokeapi-0.2.1.tar.gz]
+[2024-05-22 12:10:18] INFO root fetch - processPackages [airbyte-source-pokeapi]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_pokeapi-0.2.1.dev202405211431.tar.gz]
+[2024-05-22 12:10:18] INFO root fetch - main [MainThread]: End processing [airbyte-source-pokeapi]: success
+[2024-05-22 12:10:18] INFO root fetch - processPackages [decentriq-dcr-compiler]: Downloading https://files.pythonhosted.org/packages/a5/63/ec33337a36890c0b1f2f9b2f6d2e5c6d8652565934ca060709f218da9af4/decentriq_dcr_compiler-0.8.0.dev3-cp39-cp39-macosx_10_7_x86_64.whl
+[2024-05-22 12:10:18] INFO root fetch - processPackages [resc-vcs-scanner]: Remove: archive file [/home/abi/fetcher/tmp/resc_vcs_scanner-3.1.0.tar.gz]
+[2024-05-22 12:10:18] INFO root fetch - processPackages [resc-vcs-scanner]: Remove: archive file [/home/abi/fetcher/tmp/resc_vcs_scanner-3.1.1.tar.gz]
+[2024-05-22 12:10:18] INFO root fetch - main [MainThread]: End processing [resc-vcs-scanner]: success
+[2024-05-22 12:10:20] INFO root fetch - processPackages [decentriq-dcr-compiler]: executing diffoscope
+[2024-05-22 12:10:20] INFO root fetch - processPackages [decentriq-dcr-compiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq_dcr_compiler-0.8.0.dev2-cp39-none-win_amd64.whl.zip tmp/decentriq_dcr_compiler-0.8.0.dev3-cp39-cp39-macosx_10_7_x86_64.whl.zip --markdown 20240522/d/decentriq-dcr-compiler/0.8.0.dev2-0.8.0.dev3/README.md --exclude *.pyd
+[2024-05-22 12:10:21] INFO root fetch - processPackages [decentriq-dcr-compiler]: Remove: archive file [/home/abi/fetcher/tmp/decentriq_dcr_compiler-0.8.0.dev2-cp39-none-win_amd64.whl.zip]
+[2024-05-22 12:10:21] INFO root fetch - processPackages [decentriq-dcr-compiler]: Remove: archive file [/home/abi/fetcher/tmp/decentriq_dcr_compiler-0.8.0.dev3-cp39-cp39-macosx_10_7_x86_64.whl.zip]
+[2024-05-22 12:10:21] INFO root fetch - main [MainThread]: End processing [decentriq-dcr-compiler]: success
+[2024-05-22 12:10:21] INFO root fetch - main [MainThread]: Store serial: [23322297]

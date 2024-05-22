@@ -16708,3 +16708,105 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:50:33] INFO root fetch - processPackages [reflex-antd]: Remove: archive file [/home/abi/fetcher/tmp/reflex_antd-0.0.9.tar.gz]
 [2024-05-22 10:50:33] INFO root fetch - main [MainThread]: End processing [reflex-antd]: success
 [2024-05-22 10:50:33] INFO root fetch - main [MainThread]: Store serial: [23321119]
+[2024-05-22 10:52:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321119]
+[2024-05-22 10:52:42] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-22 10:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elia-chat
+[2024-05-22 10:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: go-console
+[2024-05-22 10:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: appier-extras
+[2024-05-22 10:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepsearch-toolkit
+[2024-05-22 10:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dycw-utilities
+[2024-05-22 10:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: power-grid-model
+[2024-05-22 10:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smo_rejection
+[2024-05-22 10:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: location-local
+[2024-05-22 10:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lenient-string-formatter
+[2024-05-22 10:52:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: towbintools
+[2024-05-22 10:52:42] INFO root fetch - processPackages [elia-chat]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-05-22 10:52:42] INFO root fetch - processPackages [go-console]: New version: [0.1.0] Old Version: [0.0.6]
+[2024-05-22 10:52:42] INFO root fetch - processPackages [smo_rejection]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-22 10:52:42] INFO root fetch - processPackages [lenient-string-formatter]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-22 10:52:42] INFO root fetch - processPackages [deepsearch-toolkit]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-22 10:52:42] INFO root fetch - processPackages [go-console]: Downloading https://files.pythonhosted.org/packages/9d/89/1173303428b31e54c710a70922b970a70343726f9be23166b431c6db1700/go_console-0.0.6.tar.gz
+[2024-05-22 10:52:42] INFO root fetch - processPackages [dycw-utilities]: New version: [0.9.0] Old Version: [0.8.8]
+[2024-05-22 10:52:42] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-05-22 10:52:42] INFO root fetch - processPackages [towbintools]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-22 10:52:42] INFO root fetch - processPackages [smo_rejection]: Downloading https://files.pythonhosted.org/packages/41/f1/2419d957dc29c9187265e4895de1ed8755235a6530d99be2131b3e2dbf80/smo_rejection-0.5.4.tar.gz
+[2024-05-22 10:52:42] INFO root fetch - processPackages [appier-extras]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-22 10:52:42] INFO root fetch - processPackages [location-local]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-22 10:52:42] INFO root fetch - processPackages [lenient-string-formatter]: Downloading https://files.pythonhosted.org/packages/b7/4b/09392cd0c95026dcde9c7e6510325f7ae51bd74936556bd803a5e8f935e9/lenient_string_formatter-1.1.0.tar.gz
+[2024-05-22 10:52:42] INFO root fetch - processPackages [elia-chat]: Downloading https://files.pythonhosted.org/packages/60/10/e474116177c19219587e4fcc24e680c81de4cf8bc14b89bbfb3b51ec09cb/elia_chat-1.5.0.tar.gz
+[2024-05-22 10:52:42] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/a5/a4/993374a162ca6d880ff284c54df5acfb25a9f3347426746bb1aeeae915b9/dycw_utilities-0.8.8.tar.gz
+[2024-05-22 10:52:42] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-05-22 10:52:42] INFO root fetch - processPackages [deepsearch-toolkit]: Downloading https://files.pythonhosted.org/packages/53/66/33bde55a240a8b297e68f7746e32e0c49c3be34a0bef777b582ce892e75a/deepsearch_toolkit-0.8.0.tar.gz
+[2024-05-22 10:52:43] INFO root fetch - processPackages [towbintools]: Downloading https://files.pythonhosted.org/packages/92/9d/4862e631d82517a61f0b792880476d2fd70993a66a3683015552283f286c/towbintools-0.1.6.tar.gz
+[2024-05-22 10:52:43] INFO root fetch - processPackages [appier-extras]: Downloading https://files.pythonhosted.org/packages/47/23/29c2b197ec603e1155290ca59edec0a4e4e4ac835678a674dfed4989d6bc/appier_extras-0.9.8.tar.gz
+[2024-05-22 10:52:43] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/9c/f2/fcc760989d48c5e33cbe7c435b39b0a9e8eba895ccbf5832a8b83178d5ab/location_local-0.0.98.tar.gz
+[2024-05-22 10:52:43] INFO root fetch - processPackages [go-console]: Downloading https://files.pythonhosted.org/packages/1b/0a/a5950dbf07bbe320c03d258c6d003f1fad6a6833fa15a0733531dc88126b/go_console-0.1.0.tar.gz
+[2024-05-22 10:52:43] INFO root fetch - processPackages [lenient-string-formatter]: Downloading https://files.pythonhosted.org/packages/97/53/eb8c8df48977de8286c0901adf8d61173ad8b987f35cab913913d7efca5d/lenient_string_formatter-1.1.1.tar.gz
+[2024-05-22 10:52:43] INFO root fetch - processPackages [elia-chat]: Downloading https://files.pythonhosted.org/packages/92/90/e792108d88c2a02b8409c68e2d31e159b95e2c35ca18ab10603494a927d0/elia_chat-1.6.0.tar.gz
+[2024-05-22 10:52:43] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/18/5f/14fd12b36288c6f50f412854105898b537e348c0c10e7cedb0b54a05a56e/dycw_utilities-0.9.0.tar.gz
+[2024-05-22 10:52:43] INFO root fetch - processPackages [smo_rejection]: Downloading https://files.pythonhosted.org/packages/c7/5a/77d8626a003a9ac0901a024fd720bd5e79a5bac7143444c24f29930292bc/smo_rejection-0.5.5.tar.gz
+[2024-05-22 10:52:43] INFO root fetch - processPackages [go-console]: executing diffoscope
+[2024-05-22 10:52:43] INFO root fetch - processPackages [go-console]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/go_console-0.0.6.tar.gz tmp/go_console-0.1.0.tar.gz --markdown 20240522/g/go-console/0.0.6-0.1.0/README.md --exclude *.pyd
+[2024-05-22 10:52:43] INFO root fetch - processPackages [lenient-string-formatter]: executing diffoscope
+[2024-05-22 10:52:43] INFO root fetch - processPackages [lenient-string-formatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lenient_string_formatter-1.1.0.tar.gz tmp/lenient_string_formatter-1.1.1.tar.gz --markdown 20240522/l/lenient-string-formatter/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-22 10:52:43] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-05-22 10:52:43] INFO root fetch - processPackages [elia-chat]: executing diffoscope
+[2024-05-22 10:52:43] INFO root fetch - processPackages [elia-chat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elia_chat-1.5.0.tar.gz tmp/elia_chat-1.6.0.tar.gz --markdown 20240522/e/elia-chat/1.5.0-1.6.0/README.md --exclude *.pyd
+[2024-05-22 10:52:43] INFO root fetch - processPackages [smo_rejection]: executing diffoscope
+[2024-05-22 10:52:43] INFO root fetch - processPackages [smo_rejection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smo_rejection-0.5.4.tar.gz tmp/smo_rejection-0.5.5.tar.gz --markdown 20240522/s/smo_rejection/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-22 10:52:43] INFO root fetch - processPackages [dycw-utilities]: executing diffoscope
+[2024-05-22 10:52:43] INFO root fetch - processPackages [dycw-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dycw_utilities-0.8.8.tar.gz tmp/dycw_utilities-0.9.0.tar.gz --markdown 20240522/d/dycw-utilities/0.8.8-0.9.0/README.md --exclude *.pyd
+[2024-05-22 10:52:43] INFO root fetch - processPackages [towbintools]: Downloading https://files.pythonhosted.org/packages/6a/c2/d0ea32b55c3e19cde831c11dd2ef1f490b3bc506db94f4310b05313f274f/towbintools-0.1.7.tar.gz
+[2024-05-22 10:52:43] INFO root fetch - processPackages [deepsearch-toolkit]: Downloading https://files.pythonhosted.org/packages/af/4f/81421d1676fe839d31289bc27a262bdbb1dfd7c868324c8a18fca437e37e/deepsearch_toolkit-0.9.0.tar.gz
+[2024-05-22 10:52:43] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/2e/1e/2a1e6264292214bc558e1230d4660d51bbe681d2921a250cb4f94052fc9e/location_local-0.0.99.tar.gz
+[2024-05-22 10:52:43] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-05-22 10:52:43] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240522/p/power-grid-model/1.7.8a1374103622511-1.7.9/README.md --exclude *.pyd
+[2024-05-22 10:52:43] INFO root fetch - processPackages [towbintools]: executing diffoscope
+[2024-05-22 10:52:43] INFO root fetch - processPackages [towbintools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/towbintools-0.1.6.tar.gz tmp/towbintools-0.1.7.tar.gz --markdown 20240522/t/towbintools/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-22 10:52:43] INFO root fetch - processPackages [deepsearch-toolkit]: executing diffoscope
+[2024-05-22 10:52:43] INFO root fetch - processPackages [deepsearch-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepsearch_toolkit-0.8.0.tar.gz tmp/deepsearch_toolkit-0.9.0.tar.gz --markdown 20240522/d/deepsearch-toolkit/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-22 10:52:43] INFO root fetch - processPackages [location-local]: executing diffoscope
+[2024-05-22 10:52:43] INFO root fetch - processPackages [location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/location_local-0.0.98.tar.gz tmp/location_local-0.0.99.tar.gz --markdown 20240522/l/location-local/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-22 10:52:43] INFO root fetch - processPackages [appier-extras]: Downloading https://files.pythonhosted.org/packages/f1/e4/82f505005d78e76152446bf436704739cea1fe3e65bf3e60fc6b1213f746/appier_extras-0.9.9.tar.gz
+[2024-05-22 10:52:44] INFO root fetch - processPackages [appier-extras]: executing diffoscope
+[2024-05-22 10:52:44] INFO root fetch - processPackages [appier-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appier_extras-0.9.8.tar.gz tmp/appier_extras-0.9.9.tar.gz --markdown 20240522/a/appier-extras/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-22 10:52:44] INFO root fetch - processPackages [go-console]: Remove: archive file [/home/abi/fetcher/tmp/go_console-0.0.6.tar.gz]
+[2024-05-22 10:52:44] INFO root fetch - processPackages [go-console]: Remove: archive file [/home/abi/fetcher/tmp/go_console-0.1.0.tar.gz]
+[2024-05-22 10:52:44] INFO root fetch - processPackages [go-console]: Start processing: CARE-SM-Toolkit
+[2024-05-22 10:52:44] INFO root fetch - main [MainThread]: End processing [go-console]: success
+[2024-05-22 10:52:44] INFO root fetch - processPackages [lenient-string-formatter]: Remove: archive file [/home/abi/fetcher/tmp/lenient_string_formatter-1.1.0.tar.gz]
+[2024-05-22 10:52:44] INFO root fetch - processPackages [lenient-string-formatter]: Remove: archive file [/home/abi/fetcher/tmp/lenient_string_formatter-1.1.1.tar.gz]
+[2024-05-22 10:52:44] INFO root fetch - main [MainThread]: End processing [lenient-string-formatter]: success
+[2024-05-22 10:52:44] INFO root fetch - processPackages [smo_rejection]: Remove: archive file [/home/abi/fetcher/tmp/smo_rejection-0.5.4.tar.gz]
+[2024-05-22 10:52:44] INFO root fetch - processPackages [smo_rejection]: Remove: archive file [/home/abi/fetcher/tmp/smo_rejection-0.5.5.tar.gz]
+[2024-05-22 10:52:44] INFO root fetch - main [MainThread]: End processing [smo_rejection]: success
+[2024-05-22 10:52:44] INFO root fetch - processPackages [CARE-SM-Toolkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 10:52:44] INFO root fetch - processPackages [elia-chat]: Remove: archive file [/home/abi/fetcher/tmp/elia_chat-1.5.0.tar.gz]
+[2024-05-22 10:52:44] INFO root fetch - processPackages [elia-chat]: Remove: archive file [/home/abi/fetcher/tmp/elia_chat-1.6.0.tar.gz]
+[2024-05-22 10:52:44] INFO root fetch - main [MainThread]: End processing [elia-chat]: success
+[2024-05-22 10:52:44] INFO root fetch - processPackages [towbintools]: Remove: archive file [/home/abi/fetcher/tmp/towbintools-0.1.6.tar.gz]
+[2024-05-22 10:52:44] INFO root fetch - processPackages [towbintools]: Remove: archive file [/home/abi/fetcher/tmp/towbintools-0.1.7.tar.gz]
+[2024-05-22 10:52:44] INFO root fetch - main [MainThread]: End processing [towbintools]: success
+[2024-05-22 10:52:44] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location_local-0.0.98.tar.gz]
+[2024-05-22 10:52:44] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location_local-0.0.99.tar.gz]
+[2024-05-22 10:52:44] INFO root fetch - main [MainThread]: End processing [location-local]: success
+[2024-05-22 10:52:44] INFO root fetch - processPackages [CARE-SM-Toolkit]: Downloading https://files.pythonhosted.org/packages/e3/4e/7979886757b816b7e5c86f1f9e04916ce4c43c9bc11c137f6e6726ad4551/CARE-SM-Toolkit-0.0.8.tar.gz
+[2024-05-22 10:52:45] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.8.8.tar.gz]
+[2024-05-22 10:52:45] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
+[2024-05-22 10:52:45] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
+[2024-05-22 10:52:45] INFO root fetch - processPackages [CARE-SM-Toolkit]: Downloading https://files.pythonhosted.org/packages/53/e8/18464be5badbacf069e122164e85463e73c84d2905e9097cf961faf0b527/CARE-SM-Toolkit-0.0.9.tar.gz
+[2024-05-22 10:52:45] INFO root fetch - processPackages [appier-extras]: Remove: archive file [/home/abi/fetcher/tmp/appier_extras-0.9.8.tar.gz]
+[2024-05-22 10:52:45] INFO root fetch - processPackages [CARE-SM-Toolkit]: executing diffoscope
+[2024-05-22 10:52:45] INFO root fetch - processPackages [CARE-SM-Toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CARE-SM-Toolkit-0.0.8.tar.gz tmp/CARE-SM-Toolkit-0.0.9.tar.gz --markdown 20240522/C/CARE-SM-Toolkit/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 10:52:45] INFO root fetch - processPackages [appier-extras]: Remove: archive file [/home/abi/fetcher/tmp/appier_extras-0.9.9.tar.gz]
+[2024-05-22 10:52:45] INFO root fetch - main [MainThread]: End processing [appier-extras]: success
+[2024-05-22 10:52:45] INFO root fetch - processPackages [CARE-SM-Toolkit]: Remove: archive file [/home/abi/fetcher/tmp/CARE-SM-Toolkit-0.0.8.tar.gz]
+[2024-05-22 10:52:45] INFO root fetch - processPackages [CARE-SM-Toolkit]: Remove: archive file [/home/abi/fetcher/tmp/CARE-SM-Toolkit-0.0.9.tar.gz]
+[2024-05-22 10:52:45] INFO root fetch - main [MainThread]: End processing [CARE-SM-Toolkit]: success
+[2024-05-22 10:52:46] INFO root fetch - processPackages [deepsearch-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_toolkit-0.8.0.tar.gz]
+[2024-05-22 10:52:46] INFO root fetch - processPackages [deepsearch-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/deepsearch_toolkit-0.9.0.tar.gz]
+[2024-05-22 10:52:46] INFO root fetch - main [MainThread]: End processing [deepsearch-toolkit]: success
+[2024-05-22 10:52:46] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-05-22 10:52:46] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-05-22 10:52:46] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-05-22 10:52:46] INFO root fetch - main [MainThread]: Store serial: [23321154]

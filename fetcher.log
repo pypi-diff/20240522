@@ -2940,3 +2940,96 @@
 [2024-05-22 02:26:51] INFO root fetch - processPackages [gemmapy]: Remove: archive file [/home/abi/fetcher/tmp/gemmapy-1.0.2.tar.gz]
 [2024-05-22 02:26:51] INFO root fetch - main [MainThread]: End processing [gemmapy]: success
 [2024-05-22 02:26:51] INFO root fetch - main [MainThread]: Store serial: [23315581]
+[2024-05-22 02:28:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315581]
+[2024-05-22 02:28:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-22 02:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulpcore-client
+[2024-05-22 02:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gemini-webapi
+[2024-05-22 02:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulpcore
+[2024-05-22 02:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Unified-python-sdk
+[2024-05-22 02:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Geode-Explicit
+[2024-05-22 02:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-gitlab-runner
+[2024-05-22 02:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ddx-python
+[2024-05-22 02:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-certbot-dns-route53
+[2024-05-22 02:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-aurora-globaldatabase
+[2024-05-22 02:28:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Geode-Simplex
+[2024-05-22 02:29:00] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-05-22 02:29:00] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-05-22 02:29:00] INFO root fetch - processPackages [gemini-webapi]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-05-22 02:29:00] INFO root fetch - processPackages [ddx-python]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-05-22 02:29:00] INFO root fetch - processPackages [Unified-python-sdk]: New version: [0.22.6] Old Version: [0.22.5]
+[2024-05-22 02:29:00] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-22 02:29:00] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2024-05-22 02:29:00] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.8.0rc1] Old Version: [6.8.0]
+[2024-05-22 02:29:00] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.99] Old Version: [2.4.98]
+[2024-05-22 02:29:00] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-05-22 02:29:00] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-05-22 02:29:00] INFO root fetch - processPackages [gemini-webapi]: Downloading https://files.pythonhosted.org/packages/22/e8/91bd61be475257fd325bf64884382f672f0958466e1d441596092599ebc6/gemini_webapi-1.2.0.tar.gz
+[2024-05-22 02:29:00] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/2d/f7/f2374ef0ed74ff92edc5fc4aa420e14afe0953f53ded7c3f21450633e9c9/Geode_Simplex-6.8.0-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-22 02:29:00] INFO root fetch - processPackages [ddx-python]: Downloading https://files.pythonhosted.org/packages/8d/74/e3ce9b19286b8e3908caff2eee1c9834c09707bc7b996fa72ed0d9be055f/ddx_python-0.1.6-cp38-abi3-manylinux_2_24_x86_64.whl
+[2024-05-22 02:29:00] INFO root fetch - processPackages [Unified-python-sdk]: Downloading https://files.pythonhosted.org/packages/e9/16/feadb5d95a15e1c1c12699143048f368a2bc71b674ea692e86295d62a6a4/Unified-python-sdk-0.22.5.tar.gz
+[2024-05-22 02:29:00] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/f8/1d/71d5ee5112d508faa58a8e221cf74383b6d987ca0d17c18e2703c7f42845/pulpcore-3.9.0.tar.gz
+[2024-05-22 02:29:00] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/bc/86/6e7f7c30116cfa30b6bd9e4cb32992d10e7c7f831ceef210610b30707023/pulpcore-client-3.9.0.dev1607297320.tar.gz
+[2024-05-22 02:29:00] INFO root fetch - processPackages [Geode-Explicit]: New version: [4.8.0rc1] Old Version: [4.8.0]
+[2024-05-22 02:29:00] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/7d/4d/b1cb6c8586d736f490cc5099e0220282aadb28d3aefc028cf88e6a183b06/cdk-certbot-dns-route53-2.4.98.tar.gz
+[2024-05-22 02:29:00] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-05-22 02:29:00] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-05-22 02:29:00] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/38/4c/ea87bbf614500bd7b9d53ed795df9bd512e287cc606edaf9d721889a37e8/Geode_Explicit-4.8.0-cp39-cp39-win_amd64.whl
+[2024-05-22 02:29:00] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-05-22 02:29:00] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240522/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/README.md --exclude *.pyd
+[2024-05-22 02:29:00] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-05-22 02:29:00] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240522/c/cdk-gitlab-runner/2.2.98-2.2.99/README.md --exclude *.pyd
+[2024-05-22 02:29:00] INFO root fetch - processPackages [gemini-webapi]: Downloading https://files.pythonhosted.org/packages/bd/38/706d7c2c565579bd94fb30dce75099d411f26e337c7622eae2321990560c/gemini_webapi-1.3.0.tar.gz
+[2024-05-22 02:29:00] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/28/81/76f66486f9d6f5aee6f787bb13f11ab8012414fd95d10756b575fd69b909/cdk-certbot-dns-route53-2.4.99.tar.gz
+[2024-05-22 02:29:00] INFO root fetch - processPackages [ddx-python]: Downloading https://files.pythonhosted.org/packages/db/57/2898784f8fdb54c36dd63ae898348aa1e223fba8d60c59dd22376acbbf41/ddx_python-0.2.0-cp310-cp310-macosx_10_12_x86_64.whl
+[2024-05-22 02:29:00] INFO root fetch - processPackages [Unified-python-sdk]: Downloading https://files.pythonhosted.org/packages/ed/25/5f8d23a3be24833b970f86d3ee86900d5c18948454d127f9bc57330362b0/Unified-python-sdk-0.22.6.tar.gz
+[2024-05-22 02:29:00] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-05-22 02:29:00] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.98.tar.gz tmp/cdk-certbot-dns-route53-2.4.99.tar.gz --markdown 20240522/c/cdk-certbot-dns-route53/2.4.98-2.4.99/README.md --exclude *.pyd
+[2024-05-22 02:29:00] INFO root fetch - processPackages [gemini-webapi]: executing diffoscope
+[2024-05-22 02:29:00] INFO root fetch - processPackages [gemini-webapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemini_webapi-1.2.0.tar.gz tmp/gemini_webapi-1.3.0.tar.gz --markdown 20240522/g/gemini-webapi/1.2.0-1.3.0/README.md --exclude *.pyd
+[2024-05-22 02:29:00] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/35/63/611a0870907086abd3a010fad88acd0236d830aac5b72032d41e66440aff/pulpcore-client-3.9.1.tar.gz
+[2024-05-22 02:29:00] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/bb/70/24516074cc53b97be0e41b4892a3f5bcf3ac34e3b7634e49e28a6ae67a49/pulpcore-3.9.1.tar.gz
+[2024-05-22 02:29:01] INFO root fetch - processPackages [Unified-python-sdk]: executing diffoscope
+[2024-05-22 02:29:01] INFO root fetch - processPackages [Unified-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Unified-python-sdk-0.22.5.tar.gz tmp/Unified-python-sdk-0.22.6.tar.gz --markdown 20240522/U/Unified-python-sdk/0.22.5-0.22.6/README.md --exclude *.pyd
+[2024-05-22 02:29:01] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2024-05-22 02:29:01] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20240522/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/README.md --exclude *.pyd
+[2024-05-22 02:29:01] INFO root fetch - processPackages [ddx-python]: executing diffoscope
+[2024-05-22 02:29:01] INFO root fetch - processPackages [ddx-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddx_python-0.1.6-cp38-abi3-manylinux_2_24_x86_64.whl.zip tmp/ddx_python-0.2.0-cp310-cp310-macosx_10_12_x86_64.whl.zip --markdown 20240522/d/ddx-python/0.1.6-0.2.0/README.md --exclude *.pyd
+[2024-05-22 02:29:01] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2024-05-22 02:29:01] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20240522/p/pulpcore/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-22 02:29:01] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-05-22 02:29:01] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-05-22 02:29:01] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-05-22 02:29:01] INFO root fetch - processPackages [Geode-Explicit]: Downloading https://files.pythonhosted.org/packages/26/3f/a114cf99f0d6c3a5a5c8a72b0305e44b1bdb0ab1e989aec223cf546afb91/Geode_Explicit-4.8.0rc1-cp39-cp39-win_amd64.whl
+[2024-05-22 02:29:01] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-05-22 02:29:01] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-05-22 02:29:01] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-05-22 02:29:01] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.98.tar.gz]
+[2024-05-22 02:29:01] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.99.tar.gz]
+[2024-05-22 02:29:01] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-05-22 02:29:01] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/13/22/7cf118f5c87f0baf641db0929ee8f43d9f08342ebc589c0038d1bc2acce6/Geode_Simplex-6.8.0rc1-cp39-cp39-win_amd64.whl
+[2024-05-22 02:29:01] INFO root fetch - processPackages [ddx-python]: Remove: archive file [/home/abi/fetcher/tmp/ddx_python-0.1.6-cp38-abi3-manylinux_2_24_x86_64.whl.zip]
+[2024-05-22 02:29:01] INFO root fetch - processPackages [ddx-python]: Remove: archive file [/home/abi/fetcher/tmp/ddx_python-0.2.0-cp310-cp310-macosx_10_12_x86_64.whl.zip]
+[2024-05-22 02:29:01] INFO root fetch - main [MainThread]: End processing [ddx-python]: success
+[2024-05-22 02:29:01] INFO root fetch - processPackages [gemini-webapi]: Remove: archive file [/home/abi/fetcher/tmp/gemini_webapi-1.2.0.tar.gz]
+[2024-05-22 02:29:01] INFO root fetch - processPackages [gemini-webapi]: Remove: archive file [/home/abi/fetcher/tmp/gemini_webapi-1.3.0.tar.gz]
+[2024-05-22 02:29:01] INFO root fetch - main [MainThread]: End processing [gemini-webapi]: success
+[2024-05-22 02:29:02] INFO root fetch - processPackages [Geode-Explicit]: executing diffoscope
+[2024-05-22 02:29:02] INFO root fetch - processPackages [Geode-Explicit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Explicit-4.8.0-cp39-cp39-win_amd64.whl.zip tmp/Geode_Explicit-4.8.0rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240522/G/Geode-Explicit/4.8.0-4.8.0rc1/README.md --exclude *.pyd
+[2024-05-22 02:29:02] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz]
+[2024-05-22 02:29:02] INFO root fetch - processPackages [pulpcore-client]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-client-3.9.1.tar.gz]
+[2024-05-22 02:29:02] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2024-05-22 02:29:02] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.0.tar.gz]
+[2024-05-22 02:29:02] INFO root fetch - processPackages [pulpcore]: Remove: archive file [/home/abi/fetcher/tmp/pulpcore-3.9.1.tar.gz]
+[2024-05-22 02:29:02] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2024-05-22 02:29:02] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2024-05-22 02:29:02] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.8.0-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Simplex-6.8.0rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240522/G/Geode-Simplex/6.8.0-6.8.0rc1/README.md --exclude *.pyd
+[2024-05-22 02:29:03] INFO root fetch - processPackages [Unified-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/Unified-python-sdk-0.22.5.tar.gz]
+[2024-05-22 02:29:03] INFO root fetch - processPackages [Unified-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/Unified-python-sdk-0.22.6.tar.gz]
+[2024-05-22 02:29:03] INFO root fetch - main [MainThread]: End processing [Unified-python-sdk]: success
+[2024-05-22 02:29:03] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.8.0-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-22 02:29:03] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.8.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 02:29:03] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2024-05-22 02:29:25] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.8.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 02:29:25] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.8.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 02:29:25] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
+[2024-05-22 02:29:25] INFO root fetch - main [MainThread]: Store serial: [23315617]

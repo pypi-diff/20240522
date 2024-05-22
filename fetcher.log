@@ -19714,3 +19714,18 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:21:25] INFO root fetch - processPackages [playmolecule]: Remove: archive file [/home/abi/fetcher/tmp/playmolecule-2.4.9.tar.gz]
 [2024-05-22 12:21:25] INFO root fetch - main [MainThread]: End processing [playmolecule]: success
 [2024-05-22 12:21:25] INFO root fetch - main [MainThread]: Store serial: [23322382]
+[2024-05-22 12:23:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322382]
+[2024-05-22 12:23:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 12:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dummy-auth-test
+[2024-05-22 12:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentier-glossary
+[2024-05-22 12:23:34] INFO root fetch - processPackages [sentier-glossary]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-22 12:23:34] INFO root fetch - processPackages [sentier-glossary]: Downloading https://files.pythonhosted.org/packages/0b/e5/a06d834105c95a7a6b1ba3ac679dabf8fcf3b0cbf05e9d0d5122cd867445/sentier_glossary-0.2.0.tar.gz
+[2024-05-22 12:23:34] WARNING root fetch - processPackages [dummy-auth-test]: Skipping, unable to determine old version
+[2024-05-22 12:23:34] INFO root fetch - main [MainThread]: End processing [dummy-auth-test] error
+[2024-05-22 12:23:35] INFO root fetch - processPackages [sentier-glossary]: Downloading https://files.pythonhosted.org/packages/8f/bb/8cec3dad8eec3bf7f57a336725c984bc7fb5ebc6690908d373e07aa263c6/sentier_glossary-0.3.0.tar.gz
+[2024-05-22 12:23:35] INFO root fetch - processPackages [sentier-glossary]: executing diffoscope
+[2024-05-22 12:23:35] INFO root fetch - processPackages [sentier-glossary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentier_glossary-0.2.0.tar.gz tmp/sentier_glossary-0.3.0.tar.gz --markdown 20240522/s/sentier-glossary/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-22 12:23:35] INFO root fetch - processPackages [sentier-glossary]: Remove: archive file [/home/abi/fetcher/tmp/sentier_glossary-0.2.0.tar.gz]
+[2024-05-22 12:23:35] INFO root fetch - processPackages [sentier-glossary]: Remove: archive file [/home/abi/fetcher/tmp/sentier_glossary-0.3.0.tar.gz]
+[2024-05-22 12:23:35] INFO root fetch - main [MainThread]: End processing [sentier-glossary]: success
+[2024-05-22 12:23:35] INFO root fetch - main [MainThread]: Store serial: [23322400]

@@ -3293,3 +3293,103 @@
 [2024-05-22 02:49:34] INFO root fetch - processPackages [lama2923]: Remove: archive file [/home/abi/fetcher/tmp/lama2923-1.0.6.tar.gz]
 [2024-05-22 02:49:34] INFO root fetch - main [MainThread]: End processing [lama2923]: success
 [2024-05-22 02:49:34] INFO root fetch - main [MainThread]: Store serial: [23315725]
+[2024-05-22 02:51:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315725]
+[2024-05-22 02:51:42] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-22 02:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alamos
+[2024-05-22 02:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kBmc
+[2024-05-22 02:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: synnax-freighter
+[2024-05-22 02:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: synnax
+[2024-05-22 02:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hoffmanstmpy
+[2024-05-22 02:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inciweb-wildfires
+[2024-05-22 02:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: npc_sessions
+[2024-05-22 02:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-sns-notify
+[2024-05-22 02:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bioversions
+[2024-05-22 02:51:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alamos
+[2024-05-22 02:51:42] INFO root fetch - processPackages [alamos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-22 02:51:42] INFO root fetch - processPackages [synnax-freighter]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-05-22 02:51:42] INFO root fetch - processPackages [synnax]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-22 02:51:42] INFO root fetch - processPackages [alamos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-22 02:51:42] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-22 02:51:43] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-22 02:51:43] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c5/2b/b12c4308c7fb396e018ffbe6ec0f046170906ae98b188985b537619e0f55/alamos-0.3.8.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [hoffmanstmpy]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-22 02:51:43] INFO root fetch - processPackages [inciweb-wildfires]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-22 02:51:43] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/76/cf/43181407a15b2458f32554a3dc049fa9e2d19602a59758e43b7278570c78/synnax_freighter-0.7.3.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [npc_sessions]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-22 02:51:43] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/89/a1/f0d76d0706e47ba3dcdbf0fe8c7b2e90c98bd073d40a3c4c7c1c1025aab8/synnax-0.8.0.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c5/2b/b12c4308c7fb396e018ffbe6ec0f046170906ae98b188985b537619e0f55/alamos-0.3.8.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [hoffmanstmpy]: Downloading https://files.pythonhosted.org/packages/11/ec/e241108d0ea8863ab5d27487f305a29cb5351196574244d7c97a3f3b469a/hoffmanstmpy-1.0.1.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [kBmc]: New version: [2.3.9] Old Version: [2.3.8]
+[2024-05-22 02:51:43] INFO root fetch - processPackages [inciweb-wildfires]: Downloading https://files.pythonhosted.org/packages/99/9c/44b41706e91e60806fce692d108a71095bdf27a66fa9570f26d9fe52dd36/inciweb-wildfires-1.0.0.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c1/08/cf40db715e810dc50be82dd822b41aefe7a4903f73ac57533c85bc63cf9d/alamos-0.3.9.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [npc_sessions]: Downloading https://files.pythonhosted.org/packages/b8/93/bc9b7a7dd0ef6f49e1a89dbd69042819d6a945d3ccc9906feb172a29ba15/npc_sessions-0.0.98.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c1/08/cf40db715e810dc50be82dd822b41aefe7a4903f73ac57533c85bc63cf9d/alamos-0.3.9.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/cd/f5/87d66b35a67a40be6e903787b5ba54ffbc5e97e4c2f17b98206d75628d35/kBmc-2.3.8.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-05-22 02:51:43] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.8.tar.gz tmp/alamos-0.3.9.tar.gz --markdown 20240522/a/alamos/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-22 02:51:43] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/70/8b/915980270b1066bf622e8fe7321ad21c393159d6cda27589bcaa4f3b065e/synnax_freighter-0.7.4.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-05-22 02:51:43] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.8.tar.gz tmp/alamos-0.3.9.tar.gz --markdown 20240522/a/alamos/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-22 02:51:43] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/b3/bc/76e9b03b96c7ab72f4b39e5e03c396b86efd6fb650bedcff8a7118679e9b/synnax-0.9.0.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [hoffmanstmpy]: Downloading https://files.pythonhosted.org/packages/f6/cd/cc9bfb00e5c6df523a7e5263e5da51077cf97ff21c502c008cbc367f1a36/hoffmanstmpy-1.0.2.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [inciweb-wildfires]: Downloading https://files.pythonhosted.org/packages/4d/ab/dbe818a775b97286006fff91bf0f927d05ced4d9d65816b6bb161f80d94e/inciweb-wildfires-1.1.0.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-05-22 02:51:43] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.7.3.tar.gz tmp/synnax_freighter-0.7.4.tar.gz --markdown 20240522/s/synnax-freighter/0.7.3-0.7.4/README.md --exclude *.pyd
+[2024-05-22 02:51:43] INFO root fetch - processPackages [synnax]: executing diffoscope
+[2024-05-22 02:51:43] INFO root fetch - processPackages [synnax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax-0.8.0.tar.gz tmp/synnax-0.9.0.tar.gz --markdown 20240522/s/synnax/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-22 02:51:43] INFO root fetch - processPackages [hoffmanstmpy]: executing diffoscope
+[2024-05-22 02:51:43] INFO root fetch - processPackages [hoffmanstmpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoffmanstmpy-1.0.1.tar.gz tmp/hoffmanstmpy-1.0.2.tar.gz --markdown 20240522/h/hoffmanstmpy/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-22 02:51:43] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2024-05-22 02:51:43] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20240522/c/cdk-sns-notify/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-22 02:51:43] INFO root fetch - processPackages [inciweb-wildfires]: executing diffoscope
+[2024-05-22 02:51:43] INFO root fetch - processPackages [inciweb-wildfires]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inciweb-wildfires-1.0.0.tar.gz tmp/inciweb-wildfires-1.1.0.tar.gz --markdown 20240522/i/inciweb-wildfires/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-22 02:51:43] INFO root fetch - processPackages [npc_sessions]: Downloading https://files.pythonhosted.org/packages/1b/65/bf57b9c6ee648973d846c99ebd5e2954d44af7aee6a3272e3710494205b1/npc_sessions-0.0.99.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [kBmc]: Downloading https://files.pythonhosted.org/packages/b1/30/0a67c9ac9962ec52f20324b37d89b824d3b4caa5963bd919ddb2b19ac530/kBmc-2.3.9.tar.gz
+[2024-05-22 02:51:43] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-05-22 02:51:43] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240522/b/bioversions/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-22 02:51:44] INFO root fetch - processPackages [kBmc]: executing diffoscope
+[2024-05-22 02:51:44] INFO root fetch - processPackages [kBmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kBmc-2.3.8.tar.gz tmp/kBmc-2.3.9.tar.gz --markdown 20240522/k/kBmc/2.3.8-2.3.9/README.md --exclude *.pyd
+[2024-05-22 02:51:44] INFO root fetch - processPackages [npc_sessions]: executing diffoscope
+[2024-05-22 02:51:44] INFO root fetch - processPackages [npc_sessions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npc_sessions-0.0.98.tar.gz tmp/npc_sessions-0.0.99.tar.gz --markdown 20240522/n/npc_sessions/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-22 02:51:44] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.8.tar.gz]
+[2024-05-22 02:51:44] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
+[2024-05-22 02:51:44] INFO root fetch - processPackages [alamos]: Start processing: synnax-freighter
+[2024-05-22 02:51:44] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-05-22 02:51:44] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-05-22 02:51:44] INFO root fetch - processPackages [synnax-freighter]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-05-22 02:51:44] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/96/d9/3a2d5fa49c3fbc85b2e2c6142f858402bd4615fe966a172cd658c7cbbf71/synnax_freighter-0.7.5.tar.gz
+[2024-05-22 02:51:44] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.3.tar.gz]
+[2024-05-22 02:51:44] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.4.tar.gz]
+[2024-05-22 02:51:44] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-05-22 02:51:44] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2024-05-22 02:51:44] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2024-05-22 02:51:44] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2024-05-22 02:51:44] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.8.0.tar.gz]
+[2024-05-22 02:51:44] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
+[2024-05-22 02:51:44] INFO root fetch - processPackages [kBmc]: Remove: archive file [/home/abi/fetcher/tmp/kBmc-2.3.8.tar.gz]
+[2024-05-22 02:51:44] INFO root fetch - main [MainThread]: End processing [synnax]: success
+[2024-05-22 02:51:44] INFO root fetch - processPackages [kBmc]: Remove: archive file [/home/abi/fetcher/tmp/kBmc-2.3.9.tar.gz]
+[2024-05-22 02:51:44] INFO root fetch - main [MainThread]: End processing [kBmc]: success
+[2024-05-22 02:51:44] INFO root fetch - processPackages [hoffmanstmpy]: Remove: archive file [/home/abi/fetcher/tmp/hoffmanstmpy-1.0.1.tar.gz]
+[2024-05-22 02:51:44] INFO root fetch - processPackages [hoffmanstmpy]: Remove: archive file [/home/abi/fetcher/tmp/hoffmanstmpy-1.0.2.tar.gz]
+[2024-05-22 02:51:44] INFO root fetch - main [MainThread]: End processing [hoffmanstmpy]: success
+[2024-05-22 02:51:45] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/64/1b/376a72f1cdf50a821b2b9c179b8348a156aa99c16c2c31d7896c8562ff35/synnax_freighter-0.7.6.tar.gz
+[2024-05-22 02:51:45] INFO root fetch - processPackages [inciweb-wildfires]: Remove: archive file [/home/abi/fetcher/tmp/inciweb-wildfires-1.0.0.tar.gz]
+[2024-05-22 02:51:45] INFO root fetch - processPackages [inciweb-wildfires]: Remove: archive file [/home/abi/fetcher/tmp/inciweb-wildfires-1.1.0.tar.gz]
+[2024-05-22 02:51:45] INFO root fetch - main [MainThread]: End processing [inciweb-wildfires]: success
+[2024-05-22 02:51:45] INFO root fetch - processPackages [npc_sessions]: Remove: archive file [/home/abi/fetcher/tmp/npc_sessions-0.0.98.tar.gz]
+[2024-05-22 02:51:45] INFO root fetch - processPackages [npc_sessions]: Remove: archive file [/home/abi/fetcher/tmp/npc_sessions-0.0.99.tar.gz]
+[2024-05-22 02:51:45] INFO root fetch - main [MainThread]: End processing [npc_sessions]: success
+[2024-05-22 02:51:45] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-05-22 02:51:45] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.7.5.tar.gz tmp/synnax_freighter-0.7.6.tar.gz --markdown 20240522/s/synnax-freighter/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-05-22 02:51:45] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.5.tar.gz]
+[2024-05-22 02:51:45] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.6.tar.gz]
+[2024-05-22 02:51:45] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-05-22 02:52:03] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-05-22 02:52:03] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-05-22 02:52:03] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-05-22 02:52:03] INFO root fetch - main [MainThread]: Store serial: [23315758]

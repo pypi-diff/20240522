@@ -11028,3 +11028,24 @@
 [2024-05-22 06:21:41] INFO root fetch - processPackages [python-urlopen]: Remove: archive file [/home/abi/fetcher/tmp/python_urlopen-0.0.1.3.tar.gz]
 [2024-05-22 06:21:41] INFO root fetch - main [MainThread]: End processing [python-urlopen]: success
 [2024-05-22 06:21:41] INFO root fetch - main [MainThread]: Store serial: [23318678]
+[2024-05-22 06:23:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318678]
+[2024-05-22 06:23:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 06:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: surfkit
+[2024-05-22 06:23:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrathon-payments
+[2024-05-22 06:23:49] INFO root fetch - processPackages [scrathon-payments]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-05-22 06:23:49] INFO root fetch - processPackages [surfkit]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-22 06:23:49] INFO root fetch - processPackages [scrathon-payments]: Downloading https://files.pythonhosted.org/packages/4d/8f/d122699c0c09cc331f517bf3de816e92e288162c883ae5130b22f5a8805f/scrathon_payments-0.1.5.tar.gz
+[2024-05-22 06:23:49] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/c2/e4/d9d6efb4013a22047e07b2174dc8716a86fe2b3fe0652e6e1edddbde177b/surfkit-0.1.98.tar.gz
+[2024-05-22 06:23:50] INFO root fetch - processPackages [scrathon-payments]: Downloading https://files.pythonhosted.org/packages/3b/e8/755fd850f994a981c87f5c211b1686965579ed6f0f1d1d86571342bdc89c/scrathon_payments-0.1.7.tar.gz
+[2024-05-22 06:23:50] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/65/a8/bfc822b58240522d18c4cf24a25a6f2476da037058406af11377393fa476/surfkit-0.1.99.tar.gz
+[2024-05-22 06:23:50] INFO root fetch - processPackages [scrathon-payments]: executing diffoscope
+[2024-05-22 06:23:50] INFO root fetch - processPackages [scrathon-payments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrathon_payments-0.1.5.tar.gz tmp/scrathon_payments-0.1.7.tar.gz --markdown 20240522/s/scrathon-payments/0.1.5-0.1.7/README.md --exclude *.pyd
+[2024-05-22 06:23:50] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-05-22 06:23:50] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.98.tar.gz tmp/surfkit-0.1.99.tar.gz --markdown 20240522/s/surfkit/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-22 06:23:50] INFO root fetch - processPackages [scrathon-payments]: Remove: archive file [/home/abi/fetcher/tmp/scrathon_payments-0.1.5.tar.gz]
+[2024-05-22 06:23:50] INFO root fetch - processPackages [scrathon-payments]: Remove: archive file [/home/abi/fetcher/tmp/scrathon_payments-0.1.7.tar.gz]
+[2024-05-22 06:23:50] INFO root fetch - main [MainThread]: End processing [scrathon-payments]: success
+[2024-05-22 06:23:50] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.98.tar.gz]
+[2024-05-22 06:23:50] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.99.tar.gz]
+[2024-05-22 06:23:50] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-05-22 06:23:50] INFO root fetch - main [MainThread]: Store serial: [23318684]

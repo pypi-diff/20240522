@@ -12112,3 +12112,22 @@
 [2024-05-22 07:34:12] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip]
 [2024-05-22 07:34:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
 [2024-05-22 07:34:12] INFO root fetch - main [MainThread]: Store serial: [23319104]
+[2024-05-22 07:36:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319104]
+[2024-05-22 07:36:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 07:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elements
+[2024-05-22 07:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: elements
+[2024-05-22 07:36:22] INFO root fetch - processPackages [elements]: New version: [3.6.0] Old Version: [3.5.0]
+[2024-05-22 07:36:22] INFO root fetch - processPackages [elements]: New version: [3.6.0] Old Version: [3.5.0]
+[2024-05-22 07:36:22] INFO root fetch - processPackages [elements]: Downloading https://files.pythonhosted.org/packages/a8/53/04c5a86653aaf14e71a09ba7d738cc5256a0560d49cd94f79dfc27ebb0ac/elements-3.5.0.tar.gz
+[2024-05-22 07:36:22] INFO root fetch - processPackages [elements]: Downloading https://files.pythonhosted.org/packages/a8/53/04c5a86653aaf14e71a09ba7d738cc5256a0560d49cd94f79dfc27ebb0ac/elements-3.5.0.tar.gz
+[2024-05-22 07:36:23] INFO root fetch - processPackages [elements]: Downloading https://files.pythonhosted.org/packages/c8/b8/87c36e5c963301dca12835299a3b3e60b4746758a0e1972e4611f7655d68/elements-3.6.0.tar.gz
+[2024-05-22 07:36:23] INFO root fetch - processPackages [elements]: Downloading https://files.pythonhosted.org/packages/c8/b8/87c36e5c963301dca12835299a3b3e60b4746758a0e1972e4611f7655d68/elements-3.6.0.tar.gz
+[2024-05-22 07:36:23] INFO root fetch - processPackages [elements]: executing diffoscope
+[2024-05-22 07:36:23] INFO root fetch - processPackages [elements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elements-3.5.0.tar.gz tmp/elements-3.6.0.tar.gz --markdown 20240522/e/elements/3.5.0-3.6.0/README.md --exclude *.pyd
+[2024-05-22 07:36:23] INFO root fetch - processPackages [elements]: executing diffoscope
+[2024-05-22 07:36:23] INFO root fetch - processPackages [elements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elements-3.5.0.tar.gz tmp/elements-3.6.0.tar.gz --markdown 20240522/e/elements/3.5.0-3.6.0/README.md --exclude *.pyd
+[2024-05-22 07:36:24] INFO root fetch - processPackages [elements]: Remove: archive file [/home/abi/fetcher/tmp/elements-3.5.0.tar.gz]
+[2024-05-22 07:36:24] INFO root fetch - processPackages [elements]: Remove: archive file [/home/abi/fetcher/tmp/elements-3.6.0.tar.gz]
+[2024-05-22 07:36:24] INFO root fetch - main [MainThread]: End processing [elements]: success
+[2024-05-22 07:36:24] INFO root fetch - main [MainThread]: End processing [elements]: success
+[2024-05-22 07:36:24] INFO root fetch - main [MainThread]: Store serial: [23319106]

@@ -8992,3 +8992,41 @@
 [2024-05-22 04:40:40] INFO root fetch - processPackages [fosslight-dependency]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_dependency-3.9.4.tar.gz]
 [2024-05-22 04:40:40] INFO root fetch - main [MainThread]: End processing [fosslight-dependency]: success
 [2024-05-22 04:40:40] INFO root fetch - main [MainThread]: Store serial: [23317734]
+[2024-05-22 04:42:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317734]
+[2024-05-22 04:42:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 04:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uid2-client
+[2024-05-22 04:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vectara-skunk-client
+[2024-05-22 04:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: connected-components-3d
+[2024-05-22 04:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sourcery-nightly
+[2024-05-22 04:42:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smart-terminal
+[2024-05-22 04:42:49] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-22 04:42:49] INFO root fetch - processPackages [vectara-skunk-client]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-05-22 04:42:49] INFO root fetch - processPackages [uid2-client]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-05-22 04:42:49] INFO root fetch - processPackages [vectara-skunk-client]: Downloading https://files.pythonhosted.org/packages/aa/d9/21d785f35a697605b8638418ac81c897601850722a11ca23cb96add50978/vectara-skunk-client-0.4.9.tar.gz
+[2024-05-22 04:42:49] WARNING root fetch - processPackages [smart-terminal]: Skipping, unable to determine old version
+[2024-05-22 04:42:49] INFO root fetch - main [MainThread]: End processing [smart-terminal] error
+[2024-05-22 04:42:49] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-05-22 04:42:50] INFO root fetch - processPackages [uid2-client]: Downloading https://files.pythonhosted.org/packages/87/bf/69feec28c985ee24e312fa1631e94b42321b70c1a85e108b91444116b621/uid2_client-2.3.0.tar.gz
+[2024-05-22 04:42:50] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-05-22 04:42:50] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-05-22 04:42:50] INFO root fetch - processPackages [vectara-skunk-client]: Downloading https://files.pythonhosted.org/packages/25/38/ced057cc2fb88bce170a5697bfd120eff803419bad56571c0541c8c7939e/vectara_skunk_client-0.5.0.tar.gz
+[2024-05-22 04:42:50] INFO root fetch - processPackages [connected-components-3d]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-22 04:42:50] INFO root fetch - processPackages [vectara-skunk-client]: executing diffoscope
+[2024-05-22 04:42:50] INFO root fetch - processPackages [vectara-skunk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectara-skunk-client-0.4.9.tar.gz tmp/vectara_skunk_client-0.5.0.tar.gz --markdown 20240522/v/vectara-skunk-client/0.4.9-0.5.0/README.md --exclude *.pyd
+[2024-05-22 04:42:50] INFO root fetch - processPackages [uid2-client]: Downloading https://files.pythonhosted.org/packages/64/05/49470b0aa859c6e8023f01c55bf3bddc1bdf5ca95d7e210e7ed75dbd624d/uid2_client-2.4.0.tar.gz
+[2024-05-22 04:42:50] INFO root fetch - processPackages [uid2-client]: executing diffoscope
+[2024-05-22 04:42:50] INFO root fetch - processPackages [uid2-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uid2_client-2.3.0.tar.gz tmp/uid2_client-2.4.0.tar.gz --markdown 20240522/u/uid2-client/2.3.0-2.4.0/README.md --exclude *.pyd
+[2024-05-22 04:42:50] INFO root fetch - processPackages [connected-components-3d]: Downloading https://files.pythonhosted.org/packages/51/f7/273086ac8fbe360bd2595ef0d4dd153890299f2197dacb752a43441f87cf/connected-components-3d-3.9.0.tar.gz
+[2024-05-22 04:42:51] INFO root fetch - processPackages [vectara-skunk-client]: Remove: archive file [/home/abi/fetcher/tmp/vectara-skunk-client-0.4.9.tar.gz]
+[2024-05-22 04:42:51] INFO root fetch - processPackages [vectara-skunk-client]: Remove: archive file [/home/abi/fetcher/tmp/vectara_skunk_client-0.5.0.tar.gz]
+[2024-05-22 04:42:51] INFO root fetch - main [MainThread]: End processing [vectara-skunk-client]: success
+[2024-05-22 04:42:51] INFO root fetch - processPackages [connected-components-3d]: Downloading https://files.pythonhosted.org/packages/14/97/5d0d6bde68a8f6a4eca89d60116c7e6c1761f7d410f586fecde73d7d67dc/connected-components-3d-3.9.1.tar.gz
+[2024-05-22 04:42:51] INFO root fetch - processPackages [uid2-client]: Remove: archive file [/home/abi/fetcher/tmp/uid2_client-2.3.0.tar.gz]
+[2024-05-22 04:42:51] INFO root fetch - processPackages [uid2-client]: Remove: archive file [/home/abi/fetcher/tmp/uid2_client-2.4.0.tar.gz]
+[2024-05-22 04:42:51] INFO root fetch - main [MainThread]: End processing [uid2-client]: success
+[2024-05-22 04:42:51] INFO root fetch - processPackages [connected-components-3d]: executing diffoscope
+[2024-05-22 04:42:51] INFO root fetch - processPackages [connected-components-3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connected-components-3d-3.9.0.tar.gz tmp/connected-components-3d-3.9.1.tar.gz --markdown 20240522/c/connected-components-3d/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-22 04:42:52] INFO root fetch - processPackages [connected-components-3d]: Remove: archive file [/home/abi/fetcher/tmp/connected-components-3d-3.9.0.tar.gz]
+[2024-05-22 04:42:52] INFO root fetch - processPackages [connected-components-3d]: Remove: archive file [/home/abi/fetcher/tmp/connected-components-3d-3.9.1.tar.gz]
+[2024-05-22 04:42:52] INFO root fetch - main [MainThread]: End processing [connected-components-3d]: success
+[2024-05-22 04:42:52] INFO root fetch - main [MainThread]: Store serial: [23317779]

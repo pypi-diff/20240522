@@ -11446,3 +11446,54 @@
 [2024-05-22 06:49:58] INFO root fetch - processPackages [fms-robot-plugin]: Remove: archive file [/home/abi/fetcher/tmp/fms_robot_plugin-0.3.0rc1.tar.gz]
 [2024-05-22 06:49:58] INFO root fetch - main [MainThread]: End processing [fms-robot-plugin]: success
 [2024-05-22 06:49:58] INFO root fetch - main [MainThread]: Store serial: [23318864]
+[2024-05-22 06:52:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318864]
+[2024-05-22 06:52:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 06:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protein-design-tools
+[2024-05-22 06:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quickstart-vdk
+[2024-05-22 06:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: force-kwargs
+[2024-05-22 06:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyqqq
+[2024-05-22 06:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bandicoincurrency
+[2024-05-22 06:52:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: glytrait
+[2024-05-22 06:52:07] INFO root fetch - processPackages [glytrait]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-22 06:52:07] INFO root fetch - processPackages [bandicoincurrency]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-22 06:52:07] INFO root fetch - processPackages [protein-design-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 06:52:07] INFO root fetch - processPackages [pyqqq]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-22 06:52:07] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-05-22 06:52:07] WARNING root fetch - processPackages [force-kwargs]: Skipping, unable to determine old version
+[2024-05-22 06:52:07] INFO root fetch - main [MainThread]: End processing [force-kwargs] error
+[2024-05-22 06:52:07] INFO root fetch - processPackages [glytrait]: Downloading https://files.pythonhosted.org/packages/fd/fc/7c78d5838895c272e41c93913f9c0a69f6038a8c5b1dbede82dc181383bb/glytrait-0.1.5.tar.gz
+[2024-05-22 06:52:07] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/14/24/a1d06b818f3d46d7318b86f0334181bb8b9134f71856b2a0ca69ea24d040/protein_design_tools-0.1.8.tar.gz
+[2024-05-22 06:52:07] INFO root fetch - processPackages [bandicoincurrency]: Downloading https://files.pythonhosted.org/packages/5d/ce/8d98d60ad79f0902e45baca9170f4b64074a36767db7b7ac12382ab0f99d/bandicoincurrency-0.0.2.tar.gz
+[2024-05-22 06:52:07] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/96/27/924b59eac85aad2fc913e1a6e57ddfe954ff8d3a73d8370259e26751340c/pyqqq-0.9.8.tar.gz
+[2024-05-22 06:52:07] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-05-22 06:52:07] INFO root fetch - processPackages [glytrait]: Downloading https://files.pythonhosted.org/packages/8a/6b/8d31d3f4b6064662fa75fe2593841a2431538dc1f962c32cacfa975d8400/glytrait-0.1.6.tar.gz
+[2024-05-22 06:52:07] INFO root fetch - processPackages [protein-design-tools]: Downloading https://files.pythonhosted.org/packages/9c/73/da486d6ea5db2b79ee4188d258d6b13734e412cf0c16cc9d40d09900699d/protein_design_tools-0.1.9.tar.gz
+[2024-05-22 06:52:07] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-05-22 06:52:07] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/55/e3/5119cecbdcf7969a494d1d075a49d3c9451653fd110f7a4d7b25d1fb4c48/pyqqq-0.9.9.tar.gz
+[2024-05-22 06:52:07] INFO root fetch - processPackages [bandicoincurrency]: Downloading https://files.pythonhosted.org/packages/db/21/1ac5cf30cc684d6d662c1104af49cec56c73abc7b03e8d9e848db1beaa4c/bandicoincurrency-0.0.3.tar.gz
+[2024-05-22 06:52:07] INFO root fetch - processPackages [glytrait]: executing diffoscope
+[2024-05-22 06:52:07] INFO root fetch - processPackages [glytrait]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glytrait-0.1.5.tar.gz tmp/glytrait-0.1.6.tar.gz --markdown 20240522/g/glytrait/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-22 06:52:07] INFO root fetch - processPackages [protein-design-tools]: executing diffoscope
+[2024-05-22 06:52:07] INFO root fetch - processPackages [protein-design-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_design_tools-0.1.8.tar.gz tmp/protein_design_tools-0.1.9.tar.gz --markdown 20240522/p/protein-design-tools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 06:52:07] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-05-22 06:52:07] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240522/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/README.md --exclude *.pyd
+[2024-05-22 06:52:07] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-05-22 06:52:07] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.9.8.tar.gz tmp/pyqqq-0.9.9.tar.gz --markdown 20240522/p/pyqqq/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-22 06:52:07] INFO root fetch - processPackages [bandicoincurrency]: executing diffoscope
+[2024-05-22 06:52:07] INFO root fetch - processPackages [bandicoincurrency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bandicoincurrency-0.0.2.tar.gz tmp/bandicoincurrency-0.0.3.tar.gz --markdown 20240522/b/bandicoincurrency/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-22 06:52:08] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-05-22 06:52:08] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-05-22 06:52:08] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-05-22 06:52:08] INFO root fetch - processPackages [bandicoincurrency]: Remove: archive file [/home/abi/fetcher/tmp/bandicoincurrency-0.0.2.tar.gz]
+[2024-05-22 06:52:08] INFO root fetch - processPackages [bandicoincurrency]: Remove: archive file [/home/abi/fetcher/tmp/bandicoincurrency-0.0.3.tar.gz]
+[2024-05-22 06:52:08] INFO root fetch - main [MainThread]: End processing [bandicoincurrency]: success
+[2024-05-22 06:52:08] INFO root fetch - processPackages [glytrait]: Remove: archive file [/home/abi/fetcher/tmp/glytrait-0.1.5.tar.gz]
+[2024-05-22 06:52:08] INFO root fetch - processPackages [glytrait]: Remove: archive file [/home/abi/fetcher/tmp/glytrait-0.1.6.tar.gz]
+[2024-05-22 06:52:08] INFO root fetch - main [MainThread]: End processing [glytrait]: success
+[2024-05-22 06:52:08] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.8.tar.gz]
+[2024-05-22 06:52:08] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.9.9.tar.gz]
+[2024-05-22 06:52:08] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-05-22 06:52:08] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.8.tar.gz]
+[2024-05-22 06:52:08] INFO root fetch - processPackages [protein-design-tools]: Remove: archive file [/home/abi/fetcher/tmp/protein_design_tools-0.1.9.tar.gz]
+[2024-05-22 06:52:08] INFO root fetch - main [MainThread]: End processing [protein-design-tools]: success
+[2024-05-22 06:52:08] INFO root fetch - main [MainThread]: Store serial: [23318883]

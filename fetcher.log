@@ -20170,3 +20170,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:46:22] INFO root fetch - processPackages [nqrduck-spectrometer-limenqr]: Remove: archive file [/home/abi/fetcher/tmp/nqrduck_spectrometer_limenqr-0.0.7.tar.gz]
 [2024-05-22 12:46:22] INFO root fetch - main [MainThread]: End processing [nqrduck-spectrometer-limenqr]: success
 [2024-05-22 12:46:22] INFO root fetch - main [MainThread]: Store serial: [23322643]
+[2024-05-22 12:48:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322643]
+[2024-05-22 12:48:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 12:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: freegenius
+[2024-05-22 12:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skipy
+[2024-05-22 12:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-model-manager
+[2024-05-22 12:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: goalchain
+[2024-05-22 12:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dataloader-gyqk
+[2024-05-22 12:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-concurrenttools
+[2024-05-22 12:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: typed-monads
+[2024-05-22 12:48:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qase-robotframework
+[2024-05-22 12:48:32] INFO root fetch - processPackages [skipy]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-22 12:48:32] INFO root fetch - processPackages [typed-monads]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-22 12:48:32] INFO root fetch - processPackages [dataloader-gyqk]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-05-22 12:48:32] INFO root fetch - processPackages [freegenius]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-22 12:48:32] INFO root fetch - processPackages [goalchain]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-22 12:48:32] INFO root fetch - processPackages [qase-robotframework]: New version: [3.0.0b4] Old Version: [3.0.0b3]
+[2024-05-22 12:48:32] WARNING root fetch - processPackages [python-concurrenttools]: Skipping, unable to determine old version
+[2024-05-22 12:48:32] INFO root fetch - main [MainThread]: End processing [python-concurrenttools] error
+[2024-05-22 12:48:32] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev1] Old Version: [0.3.0.dev9]
+[2024-05-22 12:48:32] INFO root fetch - processPackages [skipy]: Downloading https://files.pythonhosted.org/packages/f2/b8/3601c33dd8be16c77ab3abc1aa3d637d224960689d2f7cac7ca9b9ee8913/skipy-0.1.3.tar.gz
+[2024-05-22 12:48:32] INFO root fetch - processPackages [typed-monads]: Downloading https://files.pythonhosted.org/packages/93/b1/d0a4267ae42760337e05cf6f21866976dafb89424ec9aa639b0a1ac381bb/typed-monads-0.4.6.tar.gz
+[2024-05-22 12:48:32] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/d5/ca/411a282eb501daf2e794cd1fb0f3e90fdbc6bf2302cf9c34892282b27dbc/freegenius-0.2.8.tar.gz
+[2024-05-22 12:48:32] INFO root fetch - processPackages [dataloader-gyqk]: Downloading https://files.pythonhosted.org/packages/12/bd/7a7aeb2dbb8b5e91e1ae911c039c2ddc7829748d3c93f902c153c6e8427a/dataloader_gyqk-0.0.0.tar.gz
+[2024-05-22 12:48:32] INFO root fetch - processPackages [goalchain]: Downloading https://files.pythonhosted.org/packages/74/72/099ec78467807ec815c4ebe30d59c24ac0c38dd639caab2a7007514a7760/goalchain-0.0.1.tar.gz
+[2024-05-22 12:48:32] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/13/29/39ec8ce1bb609980c6daa4377ab05384d741a834e356c7e5f6369104f9bc/torch_model_manager-0.3.0.dev9.tar.gz
+[2024-05-22 12:48:32] INFO root fetch - processPackages [qase-robotframework]: Downloading https://files.pythonhosted.org/packages/8d/55/baafa6dc9bbf610e67c1de8ca1c5901e797354f6cab4f68e47247df12bfc/qase_robotframework-3.0.0b3.tar.gz
+[2024-05-22 12:48:32] INFO root fetch - processPackages [typed-monads]: Downloading https://files.pythonhosted.org/packages/e6/87/7076d8d6057c69e6f840bf061fd8c397042b2dbc560c736c647b7189dfa8/typed_monads-0.4.7.tar.gz
+[2024-05-22 12:48:32] INFO root fetch - processPackages [skipy]: Downloading https://files.pythonhosted.org/packages/a9/aa/f3ba2b1dc6ddb06cec8fa36eafb12b7dae3ca41c16969ac817d72ae35591/skipy-0.1.4.tar.gz
+[2024-05-22 12:48:32] INFO root fetch - processPackages [skipy]: executing diffoscope
+[2024-05-22 12:48:32] INFO root fetch - processPackages [typed-monads]: executing diffoscope
+[2024-05-22 12:48:32] INFO root fetch - processPackages [skipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skipy-0.1.3.tar.gz tmp/skipy-0.1.4.tar.gz --markdown 20240522/s/skipy/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-22 12:48:32] INFO root fetch - processPackages [typed-monads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typed-monads-0.4.6.tar.gz tmp/typed_monads-0.4.7.tar.gz --markdown 20240522/t/typed-monads/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-22 12:48:32] INFO root fetch - processPackages [dataloader-gyqk]: Downloading https://files.pythonhosted.org/packages/bd/6c/224a87cbc8ba0a377df155c42c73b825f1900f680388c64aed519eb4d27f/dataloader_gyqk-0.0.1.tar.gz
+[2024-05-22 12:48:32] INFO root fetch - processPackages [goalchain]: Downloading https://files.pythonhosted.org/packages/b1/3f/36da875d7d0297bf6a03f146ed07de885e11356f9772c91f9cca3775e832/goalchain-0.0.2.tar.gz
+[2024-05-22 12:48:32] INFO root fetch - processPackages [qase-robotframework]: Downloading https://files.pythonhosted.org/packages/35/9f/3201698472305baaada82219682431bbced6e2ef806a79e5b20a497d2c20/qase_robotframework-3.0.0b4.tar.gz
+[2024-05-22 12:48:32] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/f2/54/293f84247bbc0f6f8495a40e16d701ecfe4f49ea5a393ddcc30ce2ec3325/torch_model_manager-0.4.0.dev1.tar.gz
+[2024-05-22 12:48:32] INFO root fetch - processPackages [dataloader-gyqk]: executing diffoscope
+[2024-05-22 12:48:32] INFO root fetch - processPackages [dataloader-gyqk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataloader_gyqk-0.0.0.tar.gz tmp/dataloader_gyqk-0.0.1.tar.gz --markdown 20240522/d/dataloader-gyqk/0.0.0-0.0.1/README.md --exclude *.pyd
+[2024-05-22 12:48:32] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/85/e0/79c8d3b405fbb09c8afb4fc4cba33e77303a57f60e90bbef2e19a2c5a73a/freegenius-0.2.9.tar.gz
+[2024-05-22 12:48:32] INFO root fetch - processPackages [goalchain]: executing diffoscope
+[2024-05-22 12:48:32] INFO root fetch - processPackages [goalchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goalchain-0.0.1.tar.gz tmp/goalchain-0.0.2.tar.gz --markdown 20240522/g/goalchain/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-22 12:48:33] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-22 12:48:33] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.3.0.dev9.tar.gz tmp/torch_model_manager-0.4.0.dev1.tar.gz --markdown 20240522/t/torch-model-manager/0.3.0.dev9-0.4.0.dev1/README.md --exclude *.pyd
+[2024-05-22 12:48:33] INFO root fetch - processPackages [qase-robotframework]: executing diffoscope
+[2024-05-22 12:48:33] INFO root fetch - processPackages [qase-robotframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qase_robotframework-3.0.0b3.tar.gz tmp/qase_robotframework-3.0.0b4.tar.gz --markdown 20240522/q/qase-robotframework/3.0.0b3-3.0.0b4/README.md --exclude *.pyd
+[2024-05-22 12:48:33] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-05-22 12:48:33] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.2.8.tar.gz tmp/freegenius-0.2.9.tar.gz --markdown 20240522/f/freegenius/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-22 12:48:33] INFO root fetch - processPackages [typed-monads]: Remove: archive file [/home/abi/fetcher/tmp/typed-monads-0.4.6.tar.gz]
+[2024-05-22 12:48:33] INFO root fetch - processPackages [typed-monads]: Remove: archive file [/home/abi/fetcher/tmp/typed_monads-0.4.7.tar.gz]
+[2024-05-22 12:48:33] INFO root fetch - main [MainThread]: End processing [typed-monads]: success
+[2024-05-22 12:48:33] INFO root fetch - processPackages [skipy]: Remove: archive file [/home/abi/fetcher/tmp/skipy-0.1.3.tar.gz]
+[2024-05-22 12:48:33] INFO root fetch - processPackages [skipy]: Remove: archive file [/home/abi/fetcher/tmp/skipy-0.1.4.tar.gz]
+[2024-05-22 12:48:33] INFO root fetch - main [MainThread]: End processing [skipy]: success
+[2024-05-22 12:48:33] INFO root fetch - processPackages [goalchain]: Remove: archive file [/home/abi/fetcher/tmp/goalchain-0.0.1.tar.gz]
+[2024-05-22 12:48:33] INFO root fetch - processPackages [goalchain]: Remove: archive file [/home/abi/fetcher/tmp/goalchain-0.0.2.tar.gz]
+[2024-05-22 12:48:33] INFO root fetch - main [MainThread]: End processing [goalchain]: success
+[2024-05-22 12:48:33] INFO root fetch - processPackages [dataloader-gyqk]: Remove: archive file [/home/abi/fetcher/tmp/dataloader_gyqk-0.0.0.tar.gz]
+[2024-05-22 12:48:33] INFO root fetch - processPackages [dataloader-gyqk]: Remove: archive file [/home/abi/fetcher/tmp/dataloader_gyqk-0.0.1.tar.gz]
+[2024-05-22 12:48:33] INFO root fetch - main [MainThread]: End processing [dataloader-gyqk]: success
+[2024-05-22 12:48:33] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.3.0.dev9.tar.gz]
+[2024-05-22 12:48:33] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev1.tar.gz]
+[2024-05-22 12:48:33] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-22 12:48:33] INFO root fetch - processPackages [qase-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/qase_robotframework-3.0.0b3.tar.gz]
+[2024-05-22 12:48:33] INFO root fetch - processPackages [qase-robotframework]: Remove: archive file [/home/abi/fetcher/tmp/qase_robotframework-3.0.0b4.tar.gz]
+[2024-05-22 12:48:33] INFO root fetch - main [MainThread]: End processing [qase-robotframework]: success
+[2024-05-22 12:48:35] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.8.tar.gz]
+[2024-05-22 12:48:35] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.9.tar.gz]
+[2024-05-22 12:48:35] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-05-22 12:48:35] INFO root fetch - main [MainThread]: Store serial: [23322672]

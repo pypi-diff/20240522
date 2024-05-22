@@ -10960,3 +10960,18 @@
 [2024-05-22 06:17:19] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-log-fuel]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fleet_vehicle_log_fuel-16.0.1.0.0.6-py3-none-any.whl.zip]
 [2024-05-22 06:17:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-fleet-vehicle-log-fuel]: success
 [2024-05-22 06:17:19] INFO root fetch - main [MainThread]: Store serial: [23318652]
+[2024-05-22 06:19:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318652]
+[2024-05-22 06:19:28] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 06:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xtrainers
+[2024-05-22 06:19:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quool
+[2024-05-22 06:19:28] WARNING root fetch - processPackages [xtrainers]: Skipping, unable to determine old version
+[2024-05-22 06:19:28] INFO root fetch - main [MainThread]: End processing [xtrainers] error
+[2024-05-22 06:19:28] INFO root fetch - processPackages [quool]: New version: [5.2.0] Old Version: [5.1.0]
+[2024-05-22 06:19:28] INFO root fetch - processPackages [quool]: Downloading https://files.pythonhosted.org/packages/a0/c0/d9c99eb9e36835208fd022e112d38b9dfc0a11b45fea6fdf48ef63b89ebd/quool-5.1.0.tar.gz
+[2024-05-22 06:19:29] INFO root fetch - processPackages [quool]: Downloading https://files.pythonhosted.org/packages/f1/20/f5eac0c562fa3df4b71279f97bc6c2a87bc8c955e1ae97de06be5ebb7e61/quool-5.2.0.tar.gz
+[2024-05-22 06:19:29] INFO root fetch - processPackages [quool]: executing diffoscope
+[2024-05-22 06:19:29] INFO root fetch - processPackages [quool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quool-5.1.0.tar.gz tmp/quool-5.2.0.tar.gz --markdown 20240522/q/quool/5.1.0-5.2.0/README.md --exclude *.pyd
+[2024-05-22 06:19:29] INFO root fetch - processPackages [quool]: Remove: archive file [/home/abi/fetcher/tmp/quool-5.1.0.tar.gz]
+[2024-05-22 06:19:29] INFO root fetch - processPackages [quool]: Remove: archive file [/home/abi/fetcher/tmp/quool-5.2.0.tar.gz]
+[2024-05-22 06:19:29] INFO root fetch - main [MainThread]: End processing [quool]: success
+[2024-05-22 06:19:29] INFO root fetch - main [MainThread]: Store serial: [23318661]

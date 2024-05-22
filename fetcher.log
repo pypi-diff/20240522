@@ -22749,3 +22749,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 14:23:37] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.4.4.tar.gz]
 [2024-05-22 14:23:37] INFO root fetch - main [MainThread]: End processing [phdu]: success
 [2024-05-22 14:23:37] INFO root fetch - main [MainThread]: Store serial: [23323854]
+[2024-05-22 14:25:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323854]
+[2024-05-22 14:25:54] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 14:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eolymp
+[2024-05-22 14:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amep
+[2024-05-22 14:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: verstack
+[2024-05-22 14:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kingsoftcloud-sdk-python
+[2024-05-22 14:25:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: onnx2tf
+[2024-05-22 14:25:54] INFO root fetch - processPackages [verstack]: New version: [3.9.3] Old Version: [3.9.2]
+[2024-05-22 14:25:54] INFO root fetch - processPackages [amep]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-22 14:25:54] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-22 14:25:54] INFO root fetch - processPackages [eolymp]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-22 14:25:54] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-22 14:25:54] INFO root fetch - processPackages [amep]: Downloading https://files.pythonhosted.org/packages/87/22/f09e85c3ebf122931abfa05a271dee412f4296334f3a1bf75c336a6863fc/amep-1.0.1.tar.gz
+[2024-05-22 14:25:54] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b4/7e/616d80edbba0ebc4de3d8b9e073268ed513845acc17f3f0c5687e2745d1d/eolymp-0.9.8.tar.gz
+[2024-05-22 14:25:54] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/e8/26/7036b21c26fd1458c85ee49731da00bf08e96ec6b076f6b5e7933369f760/kingsoftcloud_sdk_python-1.4.1.tar.gz
+[2024-05-22 14:25:54] INFO root fetch - processPackages [verstack]: Downloading https://files.pythonhosted.org/packages/da/77/014e9f6fb6845291d9b977e5957aeeaa7874ba1d21c8e6cff57edb4cdc02/verstack-3.9.2.tar.gz
+[2024-05-22 14:25:54] WARNING root fetch - processPackages [verstack]: Skipping package: exceeds size limit 24713100>=10485760
+[2024-05-22 14:25:54] INFO root fetch - main [MainThread]: End processing [verstack] error
+[2024-05-22 14:25:54] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2024-05-22 14:25:55] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b7/fe/df96d638fe0a51e45220154bf6bc8588f92805e80d6cf2e908d0226bf3c9/eolymp-0.9.9.tar.gz
+[2024-05-22 14:25:55] INFO root fetch - processPackages [amep]: Downloading https://files.pythonhosted.org/packages/0c/89/50817815de8b484795b54463c1df3111e85252ea3ef38275f81c312c2bf4/amep-1.0.2.tar.gz
+[2024-05-22 14:25:55] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Downloading https://files.pythonhosted.org/packages/af/cf/50f0f1ad57d8593975e2f19c94b9d2178df4900164804d23a763960e633f/kingsoftcloud_sdk_python-1.4.2.tar.gz
+[2024-05-22 14:25:55] INFO root fetch - processPackages [eolymp]: executing diffoscope
+[2024-05-22 14:25:55] INFO root fetch - processPackages [eolymp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eolymp-0.9.8.tar.gz tmp/eolymp-0.9.9.tar.gz --markdown 20240522/e/eolymp/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-22 14:25:55] INFO root fetch - processPackages [amep]: executing diffoscope
+[2024-05-22 14:25:55] INFO root fetch - processPackages [amep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amep-1.0.1.tar.gz tmp/amep-1.0.2.tar.gz --markdown 20240522/a/amep/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-22 14:25:55] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: executing diffoscope
+[2024-05-22 14:25:55] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kingsoftcloud_sdk_python-1.4.1.tar.gz tmp/kingsoftcloud_sdk_python-1.4.2.tar.gz --markdown 20240522/k/kingsoftcloud-sdk-python/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-22 14:25:55] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2024-05-22 14:25:55] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2024-05-22 14:25:55] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20240522/o/onnx2tf/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-22 14:25:56] INFO root fetch - processPackages [amep]: Remove: archive file [/home/abi/fetcher/tmp/amep-1.0.1.tar.gz]
+[2024-05-22 14:25:56] INFO root fetch - processPackages [amep]: Remove: archive file [/home/abi/fetcher/tmp/amep-1.0.2.tar.gz]
+[2024-05-22 14:25:56] INFO root fetch - main [MainThread]: End processing [amep]: success
+[2024-05-22 14:25:56] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/kingsoftcloud_sdk_python-1.4.1.tar.gz]
+[2024-05-22 14:25:56] INFO root fetch - processPackages [kingsoftcloud-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/kingsoftcloud_sdk_python-1.4.2.tar.gz]
+[2024-05-22 14:25:56] INFO root fetch - main [MainThread]: End processing [kingsoftcloud-sdk-python]: success
+[2024-05-22 14:25:56] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2024-05-22 14:25:56] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2024-05-22 14:25:56] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2024-05-22 14:25:57] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.8.tar.gz]
+[2024-05-22 14:25:57] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.9.tar.gz]
+[2024-05-22 14:25:57] INFO root fetch - main [MainThread]: End processing [eolymp]: success
+[2024-05-22 14:25:57] INFO root fetch - main [MainThread]: Store serial: [23323866]

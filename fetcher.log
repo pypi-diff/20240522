@@ -10401,3 +10401,36 @@
 [2024-05-22 05:46:10] INFO root fetch - main [MainThread]: End processing [pinjected]: success
 [2024-05-22 05:46:10] INFO root fetch - main [MainThread]: End processing [pinjected]: success
 [2024-05-22 05:46:10] INFO root fetch - main [MainThread]: Store serial: [23318415]
+[2024-05-22 05:48:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318415]
+[2024-05-22 05:48:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 05:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: protein-turnover
+[2024-05-22 05:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-delivery-multi-destination
+[2024-05-22 05:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nuon
+[2024-05-22 05:48:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ahk-server
+[2024-05-22 05:48:18] INFO root fetch - processPackages [protein-turnover]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-05-22 05:48:18] INFO root fetch - processPackages [nuon]: New version: [0.19.99] Old Version: [0.19.98]
+[2024-05-22 05:48:19] INFO root fetch - processPackages [odoo-addon-delivery-multi-destination]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-05-22 05:48:19] WARNING root fetch - processPackages [ahk-server]: Skipping, unable to determine old version
+[2024-05-22 05:48:19] INFO root fetch - main [MainThread]: End processing [ahk-server] error
+[2024-05-22 05:48:19] INFO root fetch - processPackages [protein-turnover]: Downloading https://files.pythonhosted.org/packages/58/d4/835726bee45d770ff154661599f48adf59ba3cbba64188cffa221421b121/protein_turnover-0.4.3.tar.gz
+[2024-05-22 05:48:19] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/8d/82/73a4a9564f53819f1d2ce0052786b8fbaac8797092a6e5b9ad8368807e5a/nuon-0.19.98.tar.gz
+[2024-05-22 05:48:19] INFO root fetch - processPackages [odoo-addon-delivery-multi-destination]: Downloading https://files.pythonhosted.org/packages/c3/7e/2b46361987488c6bb9c952254592ae1f77431999da63a80df0aeda9c3008/odoo_addon_delivery_multi_destination-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-22 05:48:19] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/2e/32/73fde17d65f51538c324ffecb418e1d8709cd44e594ad86a351bb39fa67f/nuon-0.19.99.tar.gz
+[2024-05-22 05:48:19] INFO root fetch - processPackages [nuon]: executing diffoscope
+[2024-05-22 05:48:19] INFO root fetch - processPackages [nuon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuon-0.19.98.tar.gz tmp/nuon-0.19.99.tar.gz --markdown 20240522/n/nuon/0.19.98-0.19.99/README.md --exclude *.pyd
+[2024-05-22 05:48:19] INFO root fetch - processPackages [protein-turnover]: Downloading https://files.pythonhosted.org/packages/34/91/27354c1f05990b2f388e1789a2c76872a6541aa7de8e0b0d1193d6b147df/protein_turnover-0.4.4.tar.gz
+[2024-05-22 05:48:19] INFO root fetch - processPackages [protein-turnover]: executing diffoscope
+[2024-05-22 05:48:19] INFO root fetch - processPackages [protein-turnover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_turnover-0.4.3.tar.gz tmp/protein_turnover-0.4.4.tar.gz --markdown 20240522/p/protein-turnover/0.4.3-0.4.4/README.md --exclude *.pyd
+[2024-05-22 05:48:19] INFO root fetch - processPackages [odoo-addon-delivery-multi-destination]: Downloading https://files.pythonhosted.org/packages/25/3a/8c7fa34fc98888a9eb69351d3e8c6139f740658f5edb3733986b73bec1d3/odoo_addon_delivery_multi_destination-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-22 05:48:19] INFO root fetch - processPackages [odoo-addon-delivery-multi-destination]: executing diffoscope
+[2024-05-22 05:48:19] INFO root fetch - processPackages [odoo-addon-delivery-multi-destination]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_delivery_multi_destination-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_delivery_multi_destination-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-delivery-multi-destination/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-22 05:48:20] INFO root fetch - processPackages [protein-turnover]: Remove: archive file [/home/abi/fetcher/tmp/protein_turnover-0.4.3.tar.gz]
+[2024-05-22 05:48:20] INFO root fetch - processPackages [protein-turnover]: Remove: archive file [/home/abi/fetcher/tmp/protein_turnover-0.4.4.tar.gz]
+[2024-05-22 05:48:20] INFO root fetch - main [MainThread]: End processing [protein-turnover]: success
+[2024-05-22 05:48:20] INFO root fetch - processPackages [odoo-addon-delivery-multi-destination]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_multi_destination-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-22 05:48:20] INFO root fetch - processPackages [odoo-addon-delivery-multi-destination]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_delivery_multi_destination-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-22 05:48:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-delivery-multi-destination]: success
+[2024-05-22 05:48:21] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.98.tar.gz]
+[2024-05-22 05:48:21] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.99.tar.gz]
+[2024-05-22 05:48:21] INFO root fetch - main [MainThread]: End processing [nuon]: success
+[2024-05-22 05:48:21] INFO root fetch - main [MainThread]: Store serial: [23318429]

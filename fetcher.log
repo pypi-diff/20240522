@@ -3441,3 +3441,65 @@
 [2024-05-22 02:54:14] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
 [2024-05-22 02:54:14] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
 [2024-05-22 02:54:14] INFO root fetch - main [MainThread]: Store serial: [23315773]
+[2024-05-22 02:56:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315773]
+[2024-05-22 02:56:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 02:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: v2share
+[2024-05-22 02:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cotengra
+[2024-05-22 02:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-curl
+[2024-05-22 02:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fred-pandas
+[2024-05-22 02:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alamos
+[2024-05-22 02:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: synnax-freighter
+[2024-05-22 02:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lama2923
+[2024-05-22 02:56:23] INFO root fetch - processPackages [lama2923]: New version: [1.0.7] Old Version: [1.0.5]
+[2024-05-22 02:56:23] INFO root fetch - processPackages [synnax-freighter]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-05-22 02:56:23] INFO root fetch - processPackages [alamos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-22 02:56:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-22 02:56:23] INFO root fetch - processPackages [v2share]: New version: [0.1.0b1] Old Version: [0.1.0b0]
+[2024-05-22 02:56:23] INFO root fetch - processPackages [lama2923]: Downloading https://files.pythonhosted.org/packages/21/24/cf6fa7d51ab27f4ccb6aaa8955c9528c946f0aa489760aaf9445360e2900/lama2923-1.0.5.tar.gz
+[2024-05-22 02:56:23] INFO root fetch - processPackages [cotengra]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-05-22 02:56:23] INFO root fetch - processPackages [fred-pandas]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-22 02:56:23] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/96/d9/3a2d5fa49c3fbc85b2e2c6142f858402bd4615fe966a172cd658c7cbbf71/synnax_freighter-0.7.5.tar.gz
+[2024-05-22 02:56:23] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c5/2b/b12c4308c7fb396e018ffbe6ec0f046170906ae98b188985b537619e0f55/alamos-0.3.8.tar.gz
+[2024-05-22 02:56:23] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-05-22 02:56:23] INFO root fetch - processPackages [v2share]: Downloading https://files.pythonhosted.org/packages/45/f1/869b98b08055c0b95a27483947031921dbcf65b7d086ad372549d64dcce1/v2share-0.1.0b0.tar.gz
+[2024-05-22 02:56:23] INFO root fetch - processPackages [fred-pandas]: Downloading https://files.pythonhosted.org/packages/aa/15/35ce4c30d54db4d00195f28e8062fe1825166128ee5a38a8006fc469b38f/fred_pandas-0.0.2.tar.gz
+[2024-05-22 02:56:23] INFO root fetch - processPackages [cotengra]: Downloading https://files.pythonhosted.org/packages/ef/f8/29057fe6fec60b0aef78de8f1f426a84d485edf71be63c1bab50d3b54ef3/cotengra-0.6.1.tar.gz
+[2024-05-22 02:56:23] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/64/1b/376a72f1cdf50a821b2b9c179b8348a156aa99c16c2c31d7896c8562ff35/synnax_freighter-0.7.6.tar.gz
+[2024-05-22 02:56:23] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c1/08/cf40db715e810dc50be82dd822b41aefe7a4903f73ac57533c85bc63cf9d/alamos-0.3.9.tar.gz
+[2024-05-22 02:56:24] ERROR root fetch - processPackages [lama2923]: Unable to fetch info: No such project/version 'lama2923' 1.0.7
+[2024-05-22 02:56:24] INFO root fetch - main [MainThread]: End processing [lama2923] error
+[2024-05-22 02:56:24] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-05-22 02:56:24] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.7.5.tar.gz tmp/synnax_freighter-0.7.6.tar.gz --markdown 20240522/s/synnax-freighter/0.7.5-0.7.6/README.md --exclude *.pyd
+[2024-05-22 02:56:24] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-05-22 02:56:24] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.8.tar.gz tmp/alamos-0.3.9.tar.gz --markdown 20240522/a/alamos/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-22 02:56:24] INFO root fetch - processPackages [v2share]: Downloading https://files.pythonhosted.org/packages/37/d8/d548ac7fc684939d830db2c792e7b1be4fbe7eabf5ffe9ec9bbae9126434/v2share-0.1.0b1.tar.gz
+[2024-05-22 02:56:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-05-22 02:56:24] INFO root fetch - processPackages [fred-pandas]: Downloading https://files.pythonhosted.org/packages/00/51/5976499d98621558c2a4f06c737c5f396d55d0b36faf859cc2a740d22341/fred_pandas-0.0.3.tar.gz
+[2024-05-22 02:56:24] INFO root fetch - processPackages [v2share]: executing diffoscope
+[2024-05-22 02:56:24] INFO root fetch - processPackages [v2share]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v2share-0.1.0b0.tar.gz tmp/v2share-0.1.0b1.tar.gz --markdown 20240522/v/v2share/0.1.0b0-0.1.0b1/README.md --exclude *.pyd
+[2024-05-22 02:56:24] INFO root fetch - processPackages [fred-pandas]: executing diffoscope
+[2024-05-22 02:56:24] INFO root fetch - processPackages [fred-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fred_pandas-0.0.2.tar.gz tmp/fred_pandas-0.0.3.tar.gz --markdown 20240522/f/fred-pandas/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-22 02:56:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-05-22 02:56:24] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240522/c/cdk-lambda-layer-curl/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-22 02:56:24] INFO root fetch - processPackages [cotengra]: Downloading https://files.pythonhosted.org/packages/9c/89/fa3e988d0075520b4089da44da3768de97bf14737de2f9f33ff23a1c88a3/cotengra-0.6.2.tar.gz
+[2024-05-22 02:56:24] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.5.tar.gz]
+[2024-05-22 02:56:24] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.6.tar.gz]
+[2024-05-22 02:56:24] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-05-22 02:56:24] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.8.tar.gz]
+[2024-05-22 02:56:24] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
+[2024-05-22 02:56:24] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-05-22 02:56:24] INFO root fetch - processPackages [v2share]: Remove: archive file [/home/abi/fetcher/tmp/v2share-0.1.0b0.tar.gz]
+[2024-05-22 02:56:24] INFO root fetch - processPackages [v2share]: Remove: archive file [/home/abi/fetcher/tmp/v2share-0.1.0b1.tar.gz]
+[2024-05-22 02:56:24] INFO root fetch - main [MainThread]: End processing [v2share]: success
+[2024-05-22 02:56:25] INFO root fetch - processPackages [fred-pandas]: Remove: archive file [/home/abi/fetcher/tmp/fred_pandas-0.0.2.tar.gz]
+[2024-05-22 02:56:25] INFO root fetch - processPackages [fred-pandas]: Remove: archive file [/home/abi/fetcher/tmp/fred_pandas-0.0.3.tar.gz]
+[2024-05-22 02:56:25] INFO root fetch - main [MainThread]: End processing [fred-pandas]: success
+[2024-05-22 02:56:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-05-22 02:56:25] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-05-22 02:56:25] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-05-22 02:56:25] INFO root fetch - processPackages [cotengra]: executing diffoscope
+[2024-05-22 02:56:25] INFO root fetch - processPackages [cotengra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cotengra-0.6.1.tar.gz tmp/cotengra-0.6.2.tar.gz --markdown 20240522/c/cotengra/0.6.1-0.6.2/README.md --exclude *.pyd
+[2024-05-22 02:56:27] INFO root fetch - processPackages [cotengra]: Remove: archive file [/home/abi/fetcher/tmp/cotengra-0.6.1.tar.gz]
+[2024-05-22 02:56:27] INFO root fetch - processPackages [cotengra]: Remove: archive file [/home/abi/fetcher/tmp/cotengra-0.6.2.tar.gz]
+[2024-05-22 02:56:27] INFO root fetch - main [MainThread]: End processing [cotengra]: success
+[2024-05-22 02:56:27] INFO root fetch - main [MainThread]: Store serial: [23315795]

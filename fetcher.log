@@ -3072,3 +3072,21 @@
 [2024-05-22 02:31:36] INFO root fetch - processPackages [metaflow]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-2.9.9.tar.gz]
 [2024-05-22 02:31:36] INFO root fetch - main [MainThread]: End processing [metaflow]: success
 [2024-05-22 02:31:36] INFO root fetch - main [MainThread]: Store serial: [23315631]
+[2024-05-22 02:33:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315631]
+[2024-05-22 02:33:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 02:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qirrunner
+[2024-05-22 02:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: efficalc
+[2024-05-22 02:33:45] INFO root fetch - processPackages [qirrunner]: New version: [0.6.0] Old Version: [0.0.1]
+[2024-05-22 02:33:45] INFO root fetch - processPackages [efficalc]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-05-22 02:33:45] INFO root fetch - processPackages [qirrunner]: Downloading https://files.pythonhosted.org/packages/a3/a9/a9c443bbd8f1c1eefe536dfe3588bac283c38dcfe1b2a5177faac0b382aa/qirrunner-0.0.1-py3-none-any.whl
+[2024-05-22 02:33:45] INFO root fetch - processPackages [efficalc]: Downloading https://files.pythonhosted.org/packages/e6/3f/84360a96f55092f6f55bb5f79c49177189bb24a13a00e2fe40b9ff5b976f/efficalc-1.1.0.tar.gz
+[2024-05-22 02:33:46] INFO root fetch - processPackages [qirrunner]: Downloading https://files.pythonhosted.org/packages/80/5e/31d2b3ce6e9f20bdcd7cd4e2ebc9a7465f38768f0fe4c9f1f185050db042/qirrunner-0.6.0-cp38-abi3-win_amd64.whl
+[2024-05-22 02:33:46] INFO root fetch - processPackages [efficalc]: Downloading https://files.pythonhosted.org/packages/4e/6d/c945f9c451e7bc0aa85c66c86fb1bf6c7e35e2ad4249fd306683469ff6b6/efficalc-1.2.0.tar.gz
+[2024-05-22 02:33:46] WARNING root fetch - processPackages [qirrunner]: Skipping package: exceeds size limit 12754702>=10485760
+[2024-05-22 02:33:46] INFO root fetch - main [MainThread]: End processing [qirrunner] error
+[2024-05-22 02:33:46] INFO root fetch - processPackages [efficalc]: executing diffoscope
+[2024-05-22 02:33:46] INFO root fetch - processPackages [efficalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efficalc-1.1.0.tar.gz tmp/efficalc-1.2.0.tar.gz --markdown 20240522/e/efficalc/1.1.0-1.2.0/README.md --exclude *.pyd
+[2024-05-22 02:33:47] INFO root fetch - processPackages [efficalc]: Remove: archive file [/home/abi/fetcher/tmp/efficalc-1.1.0.tar.gz]
+[2024-05-22 02:33:47] INFO root fetch - processPackages [efficalc]: Remove: archive file [/home/abi/fetcher/tmp/efficalc-1.2.0.tar.gz]
+[2024-05-22 02:33:47] INFO root fetch - main [MainThread]: End processing [efficalc]: success
+[2024-05-22 02:33:47] INFO root fetch - main [MainThread]: Store serial: [23315642]

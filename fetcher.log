@@ -20239,3 +20239,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:48:35] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.2.9.tar.gz]
 [2024-05-22 12:48:35] INFO root fetch - main [MainThread]: End processing [freegenius]: success
 [2024-05-22 12:48:35] INFO root fetch - main [MainThread]: Store serial: [23322672]
+[2024-05-22 12:50:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322672]
+[2024-05-22 12:50:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 12:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apeboiy
+[2024-05-22 12:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MLRegressions
+[2024-05-22 12:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypugjs
+[2024-05-22 12:50:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bitlinear
+[2024-05-22 12:50:44] INFO root fetch - processPackages [MLRegressions]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-22 12:50:44] INFO root fetch - processPackages [MLRegressions]: Downloading https://files.pythonhosted.org/packages/55/aa/1722c3e7ba043f23f4832bd803044c7e1d01040eda79a1bc5ddbb0c5d8bf/mlregressions-1.0.2.tar.gz
+[2024-05-22 12:50:44] INFO root fetch - processPackages [bitlinear]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-05-22 12:50:44] WARNING root fetch - processPackages [apeboiy]: Skipping, unable to determine old version
+[2024-05-22 12:50:44] INFO root fetch - main [MainThread]: End processing [apeboiy] error
+[2024-05-22 12:50:44] INFO root fetch - processPackages [pypugjs]: New version: [5.9.9] Old Version: [5.9.8]
+[2024-05-22 12:50:44] INFO root fetch - processPackages [pypugjs]: Downloading https://files.pythonhosted.org/packages/bc/9e/282e15a4c2e383ea8f7910575eba99c7c61fed857f633605fa48569bcf82/pypugjs-5.9.8.tar.gz
+[2024-05-22 12:50:44] INFO root fetch - processPackages [bitlinear]: Downloading https://files.pythonhosted.org/packages/a9/67/3ddab37b942e1c3681e5981fb82b31c4ee6d131e83ea115a6c710f2940a5/bitlinear-1.2.4.tar.gz
+[2024-05-22 12:50:44] INFO root fetch - processPackages [MLRegressions]: Downloading https://files.pythonhosted.org/packages/8a/64/7b24b5272573bd5c0d1e180e051c59e32a39d4c9213cacaa5e0cc694b996/mlregressions-1.0.3.tar.gz
+[2024-05-22 12:50:44] INFO root fetch - processPackages [MLRegressions]: executing diffoscope
+[2024-05-22 12:50:44] INFO root fetch - processPackages [MLRegressions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlregressions-1.0.2.tar.gz tmp/mlregressions-1.0.3.tar.gz --markdown 20240522/M/MLRegressions/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-22 12:50:44] INFO root fetch - processPackages [pypugjs]: Downloading https://files.pythonhosted.org/packages/ba/f1/f73d7982ebf18cb164dceb1ee34eb29a449e27b0f029354a16762d5a4ba2/pypugjs-5.9.9.tar.gz
+[2024-05-22 12:50:44] INFO root fetch - processPackages [bitlinear]: Downloading https://files.pythonhosted.org/packages/ff/36/dd419064f9d0d20d24805e5ecd32f64cb9c31ca80dc8b4155591eba762a2/bitlinear-1.2.5.tar.gz
+[2024-05-22 12:50:44] INFO root fetch - processPackages [pypugjs]: executing diffoscope
+[2024-05-22 12:50:44] INFO root fetch - processPackages [pypugjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypugjs-5.9.8.tar.gz tmp/pypugjs-5.9.9.tar.gz --markdown 20240522/p/pypugjs/5.9.8-5.9.9/README.md --exclude *.pyd
+[2024-05-22 12:50:45] INFO root fetch - processPackages [bitlinear]: executing diffoscope
+[2024-05-22 12:50:45] INFO root fetch - processPackages [bitlinear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitlinear-1.2.4.tar.gz tmp/bitlinear-1.2.5.tar.gz --markdown 20240522/b/bitlinear/1.2.4-1.2.5/README.md --exclude *.pyd
+[2024-05-22 12:50:45] INFO root fetch - processPackages [MLRegressions]: Remove: archive file [/home/abi/fetcher/tmp/mlregressions-1.0.2.tar.gz]
+[2024-05-22 12:50:45] INFO root fetch - processPackages [MLRegressions]: Remove: archive file [/home/abi/fetcher/tmp/mlregressions-1.0.3.tar.gz]
+[2024-05-22 12:50:45] INFO root fetch - main [MainThread]: End processing [MLRegressions]: success
+[2024-05-22 12:50:45] INFO root fetch - processPackages [pypugjs]: Remove: archive file [/home/abi/fetcher/tmp/pypugjs-5.9.8.tar.gz]
+[2024-05-22 12:50:45] INFO root fetch - processPackages [pypugjs]: Remove: archive file [/home/abi/fetcher/tmp/pypugjs-5.9.9.tar.gz]
+[2024-05-22 12:50:45] INFO root fetch - main [MainThread]: End processing [pypugjs]: success
+[2024-05-22 12:50:45] INFO root fetch - processPackages [bitlinear]: Remove: archive file [/home/abi/fetcher/tmp/bitlinear-1.2.4.tar.gz]
+[2024-05-22 12:50:45] INFO root fetch - processPackages [bitlinear]: Remove: archive file [/home/abi/fetcher/tmp/bitlinear-1.2.5.tar.gz]
+[2024-05-22 12:50:45] INFO root fetch - main [MainThread]: End processing [bitlinear]: success
+[2024-05-22 12:50:45] INFO root fetch - main [MainThread]: Store serial: [23322685]

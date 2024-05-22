@@ -7526,3 +7526,51 @@
 [2024-05-22 03:28:25] INFO root fetch - processPackages [nrtk-explorer]: Remove: archive file [/home/abi/fetcher/tmp/nrtk_explorer-0.2.2.tar.gz]
 [2024-05-22 03:28:25] INFO root fetch - main [MainThread]: End processing [nrtk-explorer]: success
 [2024-05-22 03:28:25] INFO root fetch - main [MainThread]: Store serial: [23316925]
+[2024-05-22 03:30:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23316925]
+[2024-05-22 03:30:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 03:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onediff
+[2024-05-22 03:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onediffx
+[2024-05-22 03:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyqir
+[2024-05-22 03:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: itk-ants
+[2024-05-22 03:30:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aegis-tools
+[2024-05-22 03:30:33] INFO root fetch - processPackages [pyqir]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-05-22 03:30:33] INFO root fetch - processPackages [itk-ants]: New version: [0.4rc3] Old Version: [0.4rc2]
+[2024-05-22 03:30:33] INFO root fetch - processPackages [onediff]: New version: [1.1.0.dev202405220128] Old Version: [1.1.0.dev202405210127]
+[2024-05-22 03:30:33] INFO root fetch - processPackages [onediffx]: New version: [1.1.0.dev202405220128] Old Version: [1.1.0.dev202405210127]
+[2024-05-22 03:30:33] INFO root fetch - processPackages [aegis-tools]: New version: [2.6.5] Old Version: [2.6.4]
+[2024-05-22 03:30:34] INFO root fetch - processPackages [pyqir]: Downloading https://files.pythonhosted.org/packages/b4/20/4276604f34e4df5e006394dff2f1b4f4d850e5bea02b67fc023d7794a1df/pyqir-0.8.2-cp37-abi3-win_amd64.whl
+[2024-05-22 03:30:34] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/bd/a8/8dcde456ac47708b01d37261485842ae0bb2c9560cff28df9d5c87a03a4e/onediff-1.1.0.dev202405210127.tar.gz
+[2024-05-22 03:30:34] INFO root fetch - processPackages [itk-ants]: Downloading https://files.pythonhosted.org/packages/df/a6/5d4b733532ad42c8870a32c11606fd3e434ff40d250e8be453cbfbb4ec4d/itk_ants-0.4rc2-cp39-cp39-win_amd64.whl
+[2024-05-22 03:30:34] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/75/d4/b142c21868a9eb0c210a02327fbc95966073685bd8a24b1e0ea49ab98fc5/onediffx-1.1.0.dev202405210127.tar.gz
+[2024-05-22 03:30:34] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/bd/47/01fc0ce638969ded223a249a324bc455d0dc5aa21de846be3f4091c91547/aegis-tools-2.6.4.tar.gz
+[2024-05-22 03:30:34] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/ec/e3/e832fe2126f349509813a3742a38ddfa01e934a99b8a0397a09613f6063b/onediff-1.1.0.dev202405220128.tar.gz
+[2024-05-22 03:30:34] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/aa/bd/d984c7e5ebc597fe34a33195dbfa6519b30d88627de46cd0578804dd67ca/onediffx-1.1.0.dev202405220128.tar.gz
+[2024-05-22 03:30:34] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-05-22 03:30:34] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-1.1.0.dev202405210127.tar.gz tmp/onediff-1.1.0.dev202405220128.tar.gz --markdown 20240522/o/onediff/1.1.0.dev202405210127-1.1.0.dev202405220128/README.md --exclude *.pyd
+[2024-05-22 03:30:34] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-05-22 03:30:34] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-1.1.0.dev202405210127.tar.gz tmp/onediffx-1.1.0.dev202405220128.tar.gz --markdown 20240522/o/onediffx/1.1.0.dev202405210127-1.1.0.dev202405220128/README.md --exclude *.pyd
+[2024-05-22 03:30:34] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/c2/d1/edf47115f3b1e4b6f38c98509038303794492fb93e57aa1fb385aefd20d6/aegis-tools-2.6.5.tar.gz
+[2024-05-22 03:30:34] INFO root fetch - processPackages [aegis-tools]: executing diffoscope
+[2024-05-22 03:30:34] INFO root fetch - processPackages [aegis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aegis-tools-2.6.4.tar.gz tmp/aegis-tools-2.6.5.tar.gz --markdown 20240522/a/aegis-tools/2.6.4-2.6.5/README.md --exclude *.pyd
+[2024-05-22 03:30:34] INFO root fetch - processPackages [itk-ants]: Downloading https://files.pythonhosted.org/packages/08/db/03aa0c0a5b92624e547c19e3d173e1d50176243d2b391c9a0e2d9630898c/itk_ants-0.4rc3-cp39-cp39-win_amd64.whl
+[2024-05-22 03:30:35] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.1.0.dev202405210127.tar.gz]
+[2024-05-22 03:30:35] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-1.1.0.dev202405220128.tar.gz]
+[2024-05-22 03:30:35] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-05-22 03:30:35] INFO root fetch - processPackages [itk-ants]: executing diffoscope
+[2024-05-22 03:30:35] INFO root fetch - processPackages [itk-ants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itk_ants-0.4rc2-cp39-cp39-win_amd64.whl.zip tmp/itk_ants-0.4rc3-cp39-cp39-win_amd64.whl.zip --markdown 20240522/i/itk-ants/0.4rc2-0.4rc3/README.md --exclude *.pyd
+[2024-05-22 03:30:35] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.6.4.tar.gz]
+[2024-05-22 03:30:35] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.6.5.tar.gz]
+[2024-05-22 03:30:35] INFO root fetch - main [MainThread]: End processing [aegis-tools]: success
+[2024-05-22 03:30:35] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.1.0.dev202405210127.tar.gz]
+[2024-05-22 03:30:35] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-1.1.0.dev202405220128.tar.gz]
+[2024-05-22 03:30:35] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-05-22 03:30:35] INFO root fetch - processPackages [pyqir]: Downloading https://files.pythonhosted.org/packages/b4/67/efc3a8071988406567c48a8a449fccfffe21052fa5d3f2e0e37af5460f13/pyqir-0.9.0-cp37-abi3-win_amd64.whl
+[2024-05-22 03:30:35] INFO root fetch - processPackages [itk-ants]: Remove: archive file [/home/abi/fetcher/tmp/itk_ants-0.4rc2-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 03:30:35] INFO root fetch - processPackages [itk-ants]: Remove: archive file [/home/abi/fetcher/tmp/itk_ants-0.4rc3-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 03:30:35] INFO root fetch - main [MainThread]: End processing [itk-ants]: success
+[2024-05-22 03:30:36] INFO root fetch - processPackages [pyqir]: executing diffoscope
+[2024-05-22 03:30:36] INFO root fetch - processPackages [pyqir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqir-0.8.2-cp37-abi3-win_amd64.whl.zip tmp/pyqir-0.9.0-cp37-abi3-win_amd64.whl.zip --markdown 20240522/p/pyqir/0.8.2-0.9.0/README.md --exclude *.pyd
+[2024-05-22 03:30:36] INFO root fetch - processPackages [pyqir]: Remove: archive file [/home/abi/fetcher/tmp/pyqir-0.8.2-cp37-abi3-win_amd64.whl.zip]
+[2024-05-22 03:30:36] INFO root fetch - processPackages [pyqir]: Remove: archive file [/home/abi/fetcher/tmp/pyqir-0.9.0-cp37-abi3-win_amd64.whl.zip]
+[2024-05-22 03:30:36] INFO root fetch - main [MainThread]: End processing [pyqir]: success
+[2024-05-22 03:30:36] INFO root fetch - main [MainThread]: Store serial: [23317027]

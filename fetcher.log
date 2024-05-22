@@ -3251,3 +3251,45 @@
 [2024-05-22 02:47:24] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
 [2024-05-22 02:47:24] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
 [2024-05-22 02:47:24] INFO root fetch - main [MainThread]: Store serial: [23315709]
+[2024-05-22 02:49:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315709]
+[2024-05-22 02:49:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 02:49:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cxxbuild
+[2024-05-22 02:49:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaanca-chronometer
+[2024-05-22 02:49:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ss-python
+[2024-05-22 02:49:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lama2923
+[2024-05-22 02:49:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyterlab-athena-analytics
+[2024-05-22 02:49:32] INFO root fetch - processPackages [jupyterlab-athena-analytics]: New version: [0.5.9] Old Version: [0.5.7]
+[2024-05-22 02:49:32] INFO root fetch - processPackages [jupyterlab-athena-analytics]: Downloading https://files.pythonhosted.org/packages/d7/48/43a934af56b4f1d6cb851ade783b0bdf327608810b98c7f6e5cd5b503de5/jupyterlab_athena_analytics-0.5.7.tar.gz
+[2024-05-22 02:49:32] INFO root fetch - processPackages [ss-python]: New version: [0.0.52] Old Version: [0.0.51]
+[2024-05-22 02:49:32] INFO root fetch - processPackages [lama2923]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-05-22 02:49:32] WARNING root fetch - processPackages [jaanca-chronometer]: Skipping, unable to determine old version
+[2024-05-22 02:49:32] INFO root fetch - main [MainThread]: End processing [jaanca-chronometer] error
+[2024-05-22 02:49:32] INFO root fetch - processPackages [cxxbuild]: New version: [1.6.4] Old Version: [1.6.3]
+[2024-05-22 02:49:32] INFO root fetch - processPackages [cxxbuild]: Downloading https://files.pythonhosted.org/packages/78/6b/1b25203fdb817aafd103356c3aafc76fb480006ce39bbb806ed1cf255f81/cxxbuild-1.6.3.tar.gz
+[2024-05-22 02:49:33] INFO root fetch - processPackages [lama2923]: Downloading https://files.pythonhosted.org/packages/21/24/cf6fa7d51ab27f4ccb6aaa8955c9528c946f0aa489760aaf9445360e2900/lama2923-1.0.5.tar.gz
+[2024-05-22 02:49:33] INFO root fetch - processPackages [ss-python]: Downloading https://files.pythonhosted.org/packages/c0/d3/68d19137c1a782c1dcd785271834d7daae0f24de9fa1e53b9b8ae455be9e/ss_python-0.0.51.tar.gz
+[2024-05-22 02:49:33] INFO root fetch - processPackages [jupyterlab-athena-analytics]: Downloading https://files.pythonhosted.org/packages/f2/63/89fe836a049d8aa5642538cd88ae33d8083e6e397e6e479fab4754961703/jupyterlab_athena_analytics-0.5.9-py3-none-any.whl
+[2024-05-22 02:49:33] INFO root fetch - processPackages [jupyterlab-athena-analytics]: executing diffoscope
+[2024-05-22 02:49:33] INFO root fetch - processPackages [jupyterlab-athena-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_athena_analytics-0.5.7.tar.gz tmp/jupyterlab_athena_analytics-0.5.9-py3-none-any.whl.zip --markdown 20240522/j/jupyterlab-athena-analytics/0.5.7-0.5.9/README.md --exclude *.pyd
+[2024-05-22 02:49:33] INFO root fetch - processPackages [cxxbuild]: Downloading https://files.pythonhosted.org/packages/01/57/4a791669dd55c320159772dd06737feae60617d61a7effdbf2f137c94a6f/cxxbuild-1.6.4.tar.gz
+[2024-05-22 02:49:33] INFO root fetch - processPackages [ss-python]: Downloading https://files.pythonhosted.org/packages/81/87/6bcad9b971fad581ca50803e0e17dcf52e058ff20236701f38ccaad8e371/ss_python-0.0.52.tar.gz
+[2024-05-22 02:49:33] INFO root fetch - processPackages [lama2923]: Downloading https://files.pythonhosted.org/packages/f4/37/e2815d21d84d9aaea1205163db1903fc76cc51d1b34940ee7d97887ec3d2/lama2923-1.0.6.tar.gz
+[2024-05-22 02:49:33] INFO root fetch - processPackages [cxxbuild]: executing diffoscope
+[2024-05-22 02:49:33] INFO root fetch - processPackages [cxxbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cxxbuild-1.6.3.tar.gz tmp/cxxbuild-1.6.4.tar.gz --markdown 20240522/c/cxxbuild/1.6.3-1.6.4/README.md --exclude *.pyd
+[2024-05-22 02:49:33] INFO root fetch - processPackages [ss-python]: executing diffoscope
+[2024-05-22 02:49:33] INFO root fetch - processPackages [ss-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ss_python-0.0.51.tar.gz tmp/ss_python-0.0.52.tar.gz --markdown 20240522/s/ss-python/0.0.51-0.0.52/README.md --exclude *.pyd
+[2024-05-22 02:49:33] INFO root fetch - processPackages [lama2923]: executing diffoscope
+[2024-05-22 02:49:33] INFO root fetch - processPackages [lama2923]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lama2923-1.0.5.tar.gz tmp/lama2923-1.0.6.tar.gz --markdown 20240522/l/lama2923/1.0.5-1.0.6/README.md --exclude *.pyd
+[2024-05-22 02:49:33] INFO root fetch - processPackages [jupyterlab-athena-analytics]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_athena_analytics-0.5.7.tar.gz]
+[2024-05-22 02:49:33] INFO root fetch - processPackages [jupyterlab-athena-analytics]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_athena_analytics-0.5.9-py3-none-any.whl.zip]
+[2024-05-22 02:49:33] INFO root fetch - main [MainThread]: End processing [jupyterlab-athena-analytics]: success
+[2024-05-22 02:49:34] INFO root fetch - processPackages [ss-python]: Remove: archive file [/home/abi/fetcher/tmp/ss_python-0.0.51.tar.gz]
+[2024-05-22 02:49:34] INFO root fetch - processPackages [ss-python]: Remove: archive file [/home/abi/fetcher/tmp/ss_python-0.0.52.tar.gz]
+[2024-05-22 02:49:34] INFO root fetch - main [MainThread]: End processing [ss-python]: success
+[2024-05-22 02:49:34] INFO root fetch - processPackages [cxxbuild]: Remove: archive file [/home/abi/fetcher/tmp/cxxbuild-1.6.3.tar.gz]
+[2024-05-22 02:49:34] INFO root fetch - processPackages [cxxbuild]: Remove: archive file [/home/abi/fetcher/tmp/cxxbuild-1.6.4.tar.gz]
+[2024-05-22 02:49:34] INFO root fetch - main [MainThread]: End processing [cxxbuild]: success
+[2024-05-22 02:49:34] INFO root fetch - processPackages [lama2923]: Remove: archive file [/home/abi/fetcher/tmp/lama2923-1.0.5.tar.gz]
+[2024-05-22 02:49:34] INFO root fetch - processPackages [lama2923]: Remove: archive file [/home/abi/fetcher/tmp/lama2923-1.0.6.tar.gz]
+[2024-05-22 02:49:34] INFO root fetch - main [MainThread]: End processing [lama2923]: success
+[2024-05-22 02:49:34] INFO root fetch - main [MainThread]: Store serial: [23315725]

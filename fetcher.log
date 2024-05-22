@@ -8437,3 +8437,33 @@
 [2024-05-22 04:18:43] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.1.tar.gz]
 [2024-05-22 04:18:43] INFO root fetch - main [MainThread]: End processing [pozalabs-compose]: success
 [2024-05-22 04:18:43] INFO root fetch - main [MainThread]: Store serial: [23317534]
+[2024-05-22 04:20:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317534]
+[2024-05-22 04:20:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 04:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdindex
+[2024-05-22 04:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kamangir
+[2024-05-22 04:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wwbot
+[2024-05-22 04:20:52] INFO root fetch - processPackages [wwbot]: New version: [0.0.9] Old Version: [0.0.8rc0]
+[2024-05-22 04:20:52] INFO root fetch - processPackages [kamangir]: New version: [3.40.1] Old Version: [3.38.1]
+[2024-05-22 04:20:52] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/f0/d6/539254b35a392b94716fc626b6b39fc2c1eeecf81b065028e8a8fa69ff5c/wwbot-0.0.8rc0.tar.gz
+[2024-05-22 04:20:52] INFO root fetch - processPackages [cdindex]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-22 04:20:52] INFO root fetch - processPackages [kamangir]: Downloading https://files.pythonhosted.org/packages/05/08/f064d5746815ae3d62b558149888165b189e9025d996b6f6dddcae9cefff/kamangir-3.38.1.tar.gz
+[2024-05-22 04:20:52] INFO root fetch - processPackages [cdindex]: Downloading https://files.pythonhosted.org/packages/0c/ca/c91a1bf964c597e58abf1eb1646acfa2a27441c45cf9159f72e5c86edc95/cdindex-1.0.8.tar.gz
+[2024-05-22 04:20:52] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/60/06/f0d1dcf91cb575c47d6f9af17bfe431bf2e41fe342cd78c7d65bd6c8a27b/wwbot-0.0.9.tar.gz
+[2024-05-22 04:20:52] INFO root fetch - processPackages [kamangir]: Downloading https://files.pythonhosted.org/packages/4a/53/7f15b9ff6232c42cf1774b618e4daa830a00f95638ec20c7474643d1e47f/kamangir-3.40.1.tar.gz
+[2024-05-22 04:20:52] INFO root fetch - processPackages [wwbot]: executing diffoscope
+[2024-05-22 04:20:52] INFO root fetch - processPackages [wwbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwbot-0.0.8rc0.tar.gz tmp/wwbot-0.0.9.tar.gz --markdown 20240522/w/wwbot/0.0.8rc0-0.0.9/README.md --exclude *.pyd
+[2024-05-22 04:20:52] INFO root fetch - processPackages [kamangir]: executing diffoscope
+[2024-05-22 04:20:52] INFO root fetch - processPackages [kamangir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kamangir-3.38.1.tar.gz tmp/kamangir-3.40.1.tar.gz --markdown 20240522/k/kamangir/3.38.1-3.40.1/README.md --exclude *.pyd
+[2024-05-22 04:20:52] INFO root fetch - processPackages [cdindex]: Downloading https://files.pythonhosted.org/packages/b8/6f/8e23d66f423b8fb57b7fa13eb2084462d9339de697d6abd97c59a6e488cd/cdindex-1.0.9.tar.gz
+[2024-05-22 04:20:53] INFO root fetch - processPackages [cdindex]: executing diffoscope
+[2024-05-22 04:20:53] INFO root fetch - processPackages [cdindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdindex-1.0.8.tar.gz tmp/cdindex-1.0.9.tar.gz --markdown 20240522/c/cdindex/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-22 04:20:53] INFO root fetch - processPackages [kamangir]: Remove: archive file [/home/abi/fetcher/tmp/kamangir-3.38.1.tar.gz]
+[2024-05-22 04:20:53] INFO root fetch - processPackages [kamangir]: Remove: archive file [/home/abi/fetcher/tmp/kamangir-3.40.1.tar.gz]
+[2024-05-22 04:20:53] INFO root fetch - main [MainThread]: End processing [kamangir]: success
+[2024-05-22 04:20:53] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.8rc0.tar.gz]
+[2024-05-22 04:20:53] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.9.tar.gz]
+[2024-05-22 04:20:53] INFO root fetch - main [MainThread]: End processing [wwbot]: success
+[2024-05-22 04:20:53] INFO root fetch - processPackages [cdindex]: Remove: archive file [/home/abi/fetcher/tmp/cdindex-1.0.8.tar.gz]
+[2024-05-22 04:20:53] INFO root fetch - processPackages [cdindex]: Remove: archive file [/home/abi/fetcher/tmp/cdindex-1.0.9.tar.gz]
+[2024-05-22 04:20:53] INFO root fetch - main [MainThread]: End processing [cdindex]: success
+[2024-05-22 04:20:53] INFO root fetch - main [MainThread]: Store serial: [23317542]

@@ -8049,3 +8049,33 @@
 [2024-05-22 04:03:28] INFO root fetch - processPackages [colorcompass]: Remove: archive file [/home/abi/fetcher/tmp/colorcompass-1.2.3.tar.gz]
 [2024-05-22 04:03:28] INFO root fetch - main [MainThread]: End processing [colorcompass]: success
 [2024-05-22 04:03:28] INFO root fetch - main [MainThread]: Store serial: [23317401]
+[2024-05-22 04:05:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317401]
+[2024-05-22 04:05:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 04:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lastmile-eval
+[2024-05-22 04:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: baseball
+[2024-05-22 04:05:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geonomics
+[2024-05-22 04:05:36] INFO root fetch - processPackages [lastmile-eval]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-22 04:05:36] INFO root fetch - processPackages [baseball]: New version: [9.9] Old Version: [9.8]
+[2024-05-22 04:05:36] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/46/5f/eaa8c53cc1857a1e835ad32892f28b3fa98a02c5409d7c53012941237304/lastmile_eval-0.0.7.tar.gz
+[2024-05-22 04:05:36] INFO root fetch - processPackages [geonomics]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-05-22 04:05:36] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/04/2a/8b198995c2f8d35c19f4b1e0e6c5c067e955f1258d57c1b1341eab88715e/baseball-9.8.tar.gz
+[2024-05-22 04:05:37] INFO root fetch - processPackages [geonomics]: Downloading https://files.pythonhosted.org/packages/9d/ce/f6a39311cfed4ea4bec30c818fdcc487412e4e495ef442c8552057c94e49/geonomics-1.4.1.tar.gz
+[2024-05-22 04:05:37] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/82/d9/5b33fa58ced21ee69c2876303b4babbb7449325885a320341f99edabf464/lastmile_eval-0.0.8.tar.gz
+[2024-05-22 04:05:37] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/1a/e0/fb3c48a01fd33034695694663cfddfb7a099e47f8aa30dc6c901a5fcee37/baseball-9.9.tar.gz
+[2024-05-22 04:05:37] INFO root fetch - processPackages [baseball]: executing diffoscope
+[2024-05-22 04:05:37] INFO root fetch - processPackages [baseball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseball-9.8.tar.gz tmp/baseball-9.9.tar.gz --markdown 20240522/b/baseball/9.8-9.9/README.md --exclude *.pyd
+[2024-05-22 04:05:37] INFO root fetch - processPackages [lastmile-eval]: executing diffoscope
+[2024-05-22 04:05:37] INFO root fetch - processPackages [lastmile-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lastmile_eval-0.0.7.tar.gz tmp/lastmile_eval-0.0.8.tar.gz --markdown 20240522/l/lastmile-eval/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-22 04:05:37] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.8.tar.gz]
+[2024-05-22 04:05:37] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.9.tar.gz]
+[2024-05-22 04:05:37] INFO root fetch - main [MainThread]: End processing [baseball]: success
+[2024-05-22 04:05:38] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile_eval-0.0.7.tar.gz]
+[2024-05-22 04:05:38] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile_eval-0.0.8.tar.gz]
+[2024-05-22 04:05:38] INFO root fetch - main [MainThread]: End processing [lastmile-eval]: success
+[2024-05-22 04:05:38] INFO root fetch - processPackages [geonomics]: Downloading https://files.pythonhosted.org/packages/dd/e9/2cc978a68fa1533533fe47655a795a2377103c98fc6ba4c3f64b9dfd8be1/geonomics-1.4.2.tar.gz
+[2024-05-22 04:05:38] INFO root fetch - processPackages [geonomics]: executing diffoscope
+[2024-05-22 04:05:38] INFO root fetch - processPackages [geonomics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geonomics-1.4.1.tar.gz tmp/geonomics-1.4.2.tar.gz --markdown 20240522/g/geonomics/1.4.1-1.4.2/README.md --exclude *.pyd
+[2024-05-22 04:05:40] INFO root fetch - processPackages [geonomics]: Remove: archive file [/home/abi/fetcher/tmp/geonomics-1.4.1.tar.gz]
+[2024-05-22 04:05:40] INFO root fetch - processPackages [geonomics]: Remove: archive file [/home/abi/fetcher/tmp/geonomics-1.4.2.tar.gz]
+[2024-05-22 04:05:40] INFO root fetch - main [MainThread]: End processing [geonomics]: success
+[2024-05-22 04:05:40] INFO root fetch - main [MainThread]: Store serial: [23317411]

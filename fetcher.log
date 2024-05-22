@@ -19298,3 +19298,149 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:03:43] INFO root fetch - processPackages [PheTK]: Remove: archive file [/home/abi/fetcher/tmp/PheTK-0.1.41.tar.gz]
 [2024-05-22 12:03:43] INFO root fetch - main [MainThread]: End processing [PheTK]: success
 [2024-05-22 12:03:43] INFO root fetch - main [MainThread]: Store serial: [23322190]
+[2024-05-22 12:05:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322190]
+[2024-05-22 12:05:51] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-22 12:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wetb
+[2024-05-22 12:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vbpy
+[2024-05-22 12:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gardener-cicd-base
+[2024-05-22 12:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mdtidy
+[2024-05-22 12:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gardener-cicd-cli
+[2024-05-22 12:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gardener-cicd-dso
+[2024-05-22 12:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-cicd-libs
+[2024-05-22 12:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gardener-cicd-whd
+[2024-05-22 12:05:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gardener-oci
+[2024-05-22 12:05:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: data-factory-testing-framework
+[2024-05-22 12:05:52] INFO root fetch - processPackages [wetb]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 12:05:52] INFO root fetch - processPackages [vbpy]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-05-22 12:05:52] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2402.0] Old Version: [1.2401.0]
+[2024-05-22 12:05:52] INFO root fetch - processPackages [wetb]: Downloading https://files.pythonhosted.org/packages/25/d7/77fd21e7e66e518a0e634b94bb741637c63deb72f463150dcf06da99b02a/wetb-0.1.8.tar.gz
+[2024-05-22 12:05:52] WARNING root fetch - processPackages [mdtidy]: Skipping, unable to determine old version
+[2024-05-22 12:05:52] INFO root fetch - processPackages [mdtidy]: Start processing: fast-multi-regex
+[2024-05-22 12:05:52] INFO root fetch - main [MainThread]: End processing [mdtidy] error
+[2024-05-22 12:05:52] INFO root fetch - processPackages [data-factory-testing-framework]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-22 12:05:52] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/63/95/93345b8d0fb64fcca900909e5003bbad4bc45443d6e62f383d5fb88ded1f/vbpy-2.2.4.tar.gz
+[2024-05-22 12:05:52] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2402.0] Old Version: [1.2401.0]
+[2024-05-22 12:05:52] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2402.0] Old Version: [1.2401.0]
+[2024-05-22 12:05:52] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2402.0] Old Version: [1.2401.0]
+[2024-05-22 12:05:52] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2402.0] Old Version: [1.2401.0]
+[2024-05-22 12:05:52] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2024-05-22 12:05:52] WARNING root fetch - processPackages [wetb]: Skipping package: exceeds size limit 21756067>=10485760
+[2024-05-22 12:05:52] INFO root fetch - processPackages [wetb]: Start processing: udirect
+[2024-05-22 12:05:52] INFO root fetch - main [MainThread]: End processing [wetb] error
+[2024-05-22 12:05:52] INFO root fetch - processPackages [fast-multi-regex]: New version: [0.9] Old Version: [0.8]
+[2024-05-22 12:05:52] INFO root fetch - processPackages [udirect]: New version: [0.1.4.dev9] Old Version: [0.1.4.dev8]
+[2024-05-22 12:05:52] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/4a/72/49d1338607780b98804df960889f7cdaea2d6b812e5fc228a860b3e3b657/gardener_cicd_whd-1.2401.0.tar.gz
+[2024-05-22 12:05:52] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/5e/fa/51906b47f16b52624d695a2409aa2e8d46b1812f91f310850ac4c21acdf0/gardener_cicd_base-1.2401.0.tar.gz
+[2024-05-22 12:05:52] INFO root fetch - processPackages [data-factory-testing-framework]: Downloading https://files.pythonhosted.org/packages/f5/ae/9d0f2f08eb6b86ee047f22c5480aec96b4a86f9e561314731bffe234be32/data_factory_testing_framework-0.2.8.tar.gz
+[2024-05-22 12:05:52] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/81/a9/b34b94b4dbe301a0c9f5339bbabe92faf24c6e685239bf160e8f7aece466/gardener_cicd_libs-1.2401.0.tar.gz
+[2024-05-22 12:05:52] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/63/2b/b8dd9f284cadd77c65d69c16d3402ff1280b48027dffc1036b26b3a83531/udirect-0.1.4.dev8.tar.gz
+[2024-05-22 12:05:52] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/5f/98/619571a270701259193bc9de5939ae2293008d62bc16e4f74a006718523c/gardener_cicd_dso-1.2401.0.tar.gz
+[2024-05-22 12:05:52] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/cb/6c/7f29bbe70aff2f885676040aa46db27764280f3b0efe0614c392df1124f7/gardener_cicd_cli-1.2401.0.tar.gz
+[2024-05-22 12:05:52] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2024-05-22 12:05:52] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/0e/ce/19a99c628e4ead333c4c43cc45f757a90173cd18c82b3328d98b2240957c/vbpy-2.2.5.tar.gz
+[2024-05-22 12:05:52] INFO root fetch - processPackages [fast-multi-regex]: Downloading https://files.pythonhosted.org/packages/77/60/18107bb203fe25038d06e2031e5363af72108ddf2031504aa1330a907b00/fast_multi_regex-0.8.tar.gz
+[2024-05-22 12:05:52] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/47/85/10bda697bead1004d703968ce9cb75ba2309f408c27cd62637d9ca94cc25/gardener_cicd_whd-1.2402.0.tar.gz
+[2024-05-22 12:05:52] INFO root fetch - processPackages [vbpy]: executing diffoscope
+[2024-05-22 12:05:52] INFO root fetch - processPackages [vbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpy-2.2.4.tar.gz tmp/vbpy-2.2.5.tar.gz --markdown 20240522/v/vbpy/2.2.4-2.2.5/README.md --exclude *.pyd
+[2024-05-22 12:05:53] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/10/fc/df9e76b827f3415e7a5aead5c1b4502e730341b7879080261ce8ed08b544/gardener_cicd_base-1.2402.0.tar.gz
+[2024-05-22 12:05:53] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/37/a0/ee30da61a1863f6dac36a0d9435ed47e5979981a0a8a69b115b5be9f4002/gardener_cicd_libs-1.2402.0.tar.gz
+[2024-05-22 12:05:53] INFO root fetch - processPackages [data-factory-testing-framework]: Downloading https://files.pythonhosted.org/packages/67/ff/ff2309eb3833e10c2086b02a6a4c498ac69a1b99909b9f919ff593a52379/data_factory_testing_framework-0.2.9.tar.gz
+[2024-05-22 12:05:53] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2024-05-22 12:05:53] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_base-1.2401.0.tar.gz tmp/gardener_cicd_base-1.2402.0.tar.gz --markdown 20240522/g/gardener-cicd-base/1.2401.0-1.2402.0/README.md --exclude *.pyd
+[2024-05-22 12:05:53] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/fb/6a/fcd0eb1bf2af32a1885507885a952212022032c8372efe682ee749ce55d3/gardener_cicd_cli-1.2402.0.tar.gz
+[2024-05-22 12:05:53] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/09/7e/ab26a265464f1a234fcc4eb827de4bd52c28f44ccf1c6baced82ab0e9424/gardener_cicd_dso-1.2402.0.tar.gz
+[2024-05-22 12:05:53] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2024-05-22 12:05:53] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2024-05-22 12:05:53] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_whd-1.2401.0.tar.gz tmp/gardener_cicd_whd-1.2402.0.tar.gz --markdown 20240522/g/gardener-cicd-whd/1.2401.0-1.2402.0/README.md --exclude *.pyd
+[2024-05-22 12:05:53] INFO root fetch - processPackages [fast-multi-regex]: Downloading https://files.pythonhosted.org/packages/f1/5e/62b9c1824e0c892440aa924f33cc34e2a06bd10ce2e1d6dac7a3f4d66fca/fast_multi_regex-0.9.tar.gz
+[2024-05-22 12:05:53] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2024-05-22 12:05:53] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_libs-1.2401.0.tar.gz tmp/gardener_cicd_libs-1.2402.0.tar.gz --markdown 20240522/g/gardener-cicd-libs/1.2401.0-1.2402.0/README.md --exclude *.pyd
+[2024-05-22 12:05:53] INFO root fetch - processPackages [data-factory-testing-framework]: executing diffoscope
+[2024-05-22 12:05:53] INFO root fetch - processPackages [data-factory-testing-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_factory_testing_framework-0.2.8.tar.gz tmp/data_factory_testing_framework-0.2.9.tar.gz --markdown 20240522/d/data-factory-testing-framework/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-22 12:05:53] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/8a/a3/ad99a9715fce5afd74908cc4510120837854d439e7d1cca91ccead70df48/udirect-0.1.4.dev9.tar.gz
+[2024-05-22 12:05:53] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2024-05-22 12:05:53] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_cli-1.2401.0.tar.gz tmp/gardener_cicd_cli-1.2402.0.tar.gz --markdown 20240522/g/gardener-cicd-cli/1.2401.0-1.2402.0/README.md --exclude *.pyd
+[2024-05-22 12:05:53] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2024-05-22 12:05:53] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20240522/g/gardener-oci/1.998.0-1.999.0/README.md --exclude *.pyd
+[2024-05-22 12:05:53] INFO root fetch - processPackages [fast-multi-regex]: executing diffoscope
+[2024-05-22 12:05:53] INFO root fetch - processPackages [fast-multi-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_multi_regex-0.8.tar.gz tmp/fast_multi_regex-0.9.tar.gz --markdown 20240522/f/fast-multi-regex/0.8-0.9/README.md --exclude *.pyd
+[2024-05-22 12:05:53] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2024-05-22 12:05:53] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener_cicd_dso-1.2401.0.tar.gz tmp/gardener_cicd_dso-1.2402.0.tar.gz --markdown 20240522/g/gardener-cicd-dso/1.2401.0-1.2402.0/README.md --exclude *.pyd
+[2024-05-22 12:05:53] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.2.4.tar.gz]
+[2024-05-22 12:05:53] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.2.5.tar.gz]
+[2024-05-22 12:05:53] INFO root fetch - processPackages [vbpy]: Start processing: python-http_request
+[2024-05-22 12:05:53] INFO root fetch - main [MainThread]: End processing [vbpy]: success
+[2024-05-22 12:05:54] INFO root fetch - processPackages [python-http_request]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-22 12:05:54] INFO root fetch - processPackages [udirect]: executing diffoscope
+[2024-05-22 12:05:54] INFO root fetch - processPackages [udirect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udirect-0.1.4.dev8.tar.gz tmp/udirect-0.1.4.dev9.tar.gz --markdown 20240522/u/udirect/0.1.4.dev8-0.1.4.dev9/README.md --exclude *.pyd
+[2024-05-22 12:05:54] INFO root fetch - processPackages [python-http_request]: Downloading https://files.pythonhosted.org/packages/dc/ff/58de0b5eb805a7d90b0461e8b5299b890a05d9ee00588b84963ca6c78789/python_http_request-0.0.2.tar.gz
+[2024-05-22 12:05:54] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2401.0.tar.gz]
+[2024-05-22 12:05:54] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_whd-1.2402.0.tar.gz]
+[2024-05-22 12:05:54] INFO root fetch - processPackages [gardener-cicd-whd]: Start processing: zfx
+[2024-05-22 12:05:54] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2024-05-22 12:05:54] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-22 12:05:54] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-22 12:05:54] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2401.0.tar.gz]
+[2024-05-22 12:05:54] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_base-1.2402.0.tar.gz]
+[2024-05-22 12:05:54] INFO root fetch - processPackages [gardener-cicd-base]: Start processing: comet-ml
+[2024-05-22 12:05:54] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2024-05-22 12:05:54] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2401.0.tar.gz]
+[2024-05-22 12:05:54] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_cli-1.2402.0.tar.gz]
+[2024-05-22 12:05:54] INFO root fetch - processPackages [gardener-cicd-cli]: Start processing: cfl-common
+[2024-05-22 12:05:54] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2024-05-22 12:05:54] INFO root fetch - processPackages [fast-multi-regex]: Remove: archive file [/home/abi/fetcher/tmp/fast_multi_regex-0.8.tar.gz]
+[2024-05-22 12:05:54] INFO root fetch - processPackages [fast-multi-regex]: Remove: archive file [/home/abi/fetcher/tmp/fast_multi_regex-0.9.tar.gz]
+[2024-05-22 12:05:54] INFO root fetch - processPackages [fast-multi-regex]: Start processing: odoo-addon-l10n-it-delivery-note
+[2024-05-22 12:05:54] INFO root fetch - main [MainThread]: End processing [fast-multi-regex]: success
+[2024-05-22 12:05:54] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2024-05-22 12:05:54] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2024-05-22 12:05:54] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2024-05-22 12:05:54] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-05-22 12:05:54] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2401.0.tar.gz]
+[2024-05-22 12:05:54] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_dso-1.2402.0.tar.gz]
+[2024-05-22 12:05:54] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2024-05-22 12:05:54] INFO root fetch - processPackages [comet-ml]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-22 12:05:54] INFO root fetch - processPackages [python-http_request]: Downloading https://files.pythonhosted.org/packages/e8/78/89a2ce56a0a10f46638dd1d957b1ee340ddd672096319d8a12b807c1b688/python_http_request-0.0.3.tar.gz
+[2024-05-22 12:05:54] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-22 12:05:54] INFO root fetch - processPackages [data-factory-testing-framework]: Remove: archive file [/home/abi/fetcher/tmp/data_factory_testing_framework-0.2.8.tar.gz]
+[2024-05-22 12:05:54] INFO root fetch - processPackages [data-factory-testing-framework]: Remove: archive file [/home/abi/fetcher/tmp/data_factory_testing_framework-0.2.9.tar.gz]
+[2024-05-22 12:05:54] INFO root fetch - main [MainThread]: End processing [data-factory-testing-framework]: success
+[2024-05-22 12:05:54] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/39/0c/ab055a3d77f3c24c39b7455ba3358c91d1217de2dde396545a2eebda525e/cfl-common-6.8.9.tar.gz
+[2024-05-22 12:05:54] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: New version: [16.0.1.4.2] Old Version: [16.0.1.4.1]
+[2024-05-22 12:05:54] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-22 12:05:54] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240522/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-22 12:05:54] INFO root fetch - processPackages [python-http_request]: executing diffoscope
+[2024-05-22 12:05:54] INFO root fetch - processPackages [python-http_request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_http_request-0.0.2.tar.gz tmp/python_http_request-0.0.3.tar.gz --markdown 20240522/p/python-http_request/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-22 12:05:55] INFO root fetch - processPackages [comet-ml]: Downloading https://files.pythonhosted.org/packages/fb/d1/5b364541fde741bc08ab30b76b39bd9dceaf41e597c7878d897b2397d984/comet_ml-3.9.0.tar.gz
+[2024-05-22 12:05:55] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/c3/cf/5b334b6795f709c45a8d254d999095d18787a953cff853d1f0c73971ebcf/odoo_addon_l10n_it_delivery_note-16.0.1.4.1-py3-none-any.whl
+[2024-05-22 12:05:55] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/05/c2/911736fd9caff48e395c4b7643549153b78727af673a7f2ac84e0b673c45/cfl-common-6.9.0.tar.gz
+[2024-05-22 12:05:55] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2024-05-22 12:05:55] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20240522/c/cfl-common/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-05-22 12:05:55] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2401.0.tar.gz]
+[2024-05-22 12:05:55] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener_cicd_libs-1.2402.0.tar.gz]
+[2024-05-22 12:05:55] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2024-05-22 12:05:55] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/a0/69/331066b9ae9702481378a6598505773233dc3ebdfdd0bc5675d333f13e0f/odoo_addon_l10n_it_delivery_note-16.0.1.4.2-py3-none-any.whl
+[2024-05-22 12:05:55] INFO root fetch - processPackages [comet-ml]: Downloading https://files.pythonhosted.org/packages/17/97/9f1e153f6b4df253f5eea38e51f9be34256bc8bf0d363d01a1ffc2d2d668/comet_ml-3.9.1.tar.gz
+[2024-05-22 12:05:55] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: executing diffoscope
+[2024-05-22 12:05:55] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_delivery_note-16.0.1.4.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_delivery_note-16.0.1.4.2-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-l10n-it-delivery-note/16.0.1.4.1-16.0.1.4.2/README.md --exclude *.pyd
+[2024-05-22 12:05:55] INFO root fetch - processPackages [comet-ml]: executing diffoscope
+[2024-05-22 12:05:55] INFO root fetch - processPackages [comet-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_ml-3.9.0.tar.gz tmp/comet_ml-3.9.1.tar.gz --markdown 20240522/c/comet-ml/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-22 12:05:55] INFO root fetch - processPackages [python-http_request]: Remove: archive file [/home/abi/fetcher/tmp/python_http_request-0.0.2.tar.gz]
+[2024-05-22 12:05:55] INFO root fetch - processPackages [python-http_request]: Remove: archive file [/home/abi/fetcher/tmp/python_http_request-0.0.3.tar.gz]
+[2024-05-22 12:05:55] INFO root fetch - main [MainThread]: End processing [python-http_request]: success
+[2024-05-22 12:05:55] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev8.tar.gz]
+[2024-05-22 12:05:55] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev9.tar.gz]
+[2024-05-22 12:05:55] INFO root fetch - main [MainThread]: End processing [udirect]: success
+[2024-05-22 12:05:55] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-22 12:05:55] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-22 12:05:55] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-22 12:05:56] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.8.9.tar.gz]
+[2024-05-22 12:05:56] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.9.0.tar.gz]
+[2024-05-22 12:05:56] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2024-05-22 12:05:56] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_delivery_note-16.0.1.4.1-py3-none-any.whl.zip]
+[2024-05-22 12:05:56] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_delivery_note-16.0.1.4.2-py3-none-any.whl.zip]
+[2024-05-22 12:05:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-delivery-note]: success
+[2024-05-22 12:05:56] INFO root fetch - processPackages [comet-ml]: Remove: archive file [/home/abi/fetcher/tmp/comet_ml-3.9.0.tar.gz]
+[2024-05-22 12:05:56] INFO root fetch - processPackages [comet-ml]: Remove: archive file [/home/abi/fetcher/tmp/comet_ml-3.9.1.tar.gz]
+[2024-05-22 12:05:56] INFO root fetch - main [MainThread]: End processing [comet-ml]: success
+[2024-05-22 12:05:56] INFO root fetch - main [MainThread]: Store serial: [23322243]

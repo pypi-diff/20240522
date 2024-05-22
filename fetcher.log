@@ -13281,3 +13281,33 @@
 [2024-05-22 08:34:10] INFO root fetch - processPackages [odoo-addon-users-ldap-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_users_ldap_mail-16.0.1.0.0.8-py3-none-any.whl.zip]
 [2024-05-22 08:34:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-users-ldap-mail]: success
 [2024-05-22 08:34:10] INFO root fetch - main [MainThread]: Store serial: [23319731]
+[2024-05-22 08:36:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319731]
+[2024-05-22 08:36:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 08:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bosing
+[2024-05-22 08:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Fr1997v011
+[2024-05-22 08:36:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: danila-lib
+[2024-05-22 08:36:31] INFO root fetch - processPackages [danila-lib]: New version: [1.5.7] Old Version: [1.5.6]
+[2024-05-22 08:36:31] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/d9/23/585ad1b1c2a3f0b4a2bf2082747f3fa8e5bb7543b2040a2c83eabd01feb3/danila-lib-1.5.6.tar.gz
+[2024-05-22 08:36:31] INFO root fetch - processPackages [Fr1997v011]: New version: [1.6.3] Old Version: [1.6.1]
+[2024-05-22 08:36:31] INFO root fetch - processPackages [bosing]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-05-22 08:36:31] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/e6/64/c1794dca61fe582fbab862cce4412873be89f988984e774176bdbbd701da/Fr1997v011-1.6.1.tar.gz
+[2024-05-22 08:36:31] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/09/b8/e394550c630225e9cf6d2e2df7ea9ba113e8f6f4f1a4d322648581a403d0/bosing-2.0.3.tar.gz
+[2024-05-22 08:36:31] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/6c/80/f877e4fcd806c902dbe2489b2e8e0723178cfe0722f1c1fc20c2ab1e1893/danila-lib-1.5.7.tar.gz
+[2024-05-22 08:36:31] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-22 08:36:31] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.5.6.tar.gz tmp/danila-lib-1.5.7.tar.gz --markdown 20240522/d/danila-lib/1.5.6-1.5.7/README.md --exclude *.pyd
+[2024-05-22 08:36:31] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/46/82/8bf316ed1b6a26467979548625b5a498cd20517adedd8b229fe4087697af/Fr1997v011-1.6.3.tar.gz
+[2024-05-22 08:36:31] INFO root fetch - processPackages [bosing]: Downloading https://files.pythonhosted.org/packages/27/2b/4c5301c0fb57cf4fea7e39f9a9f5b27ced00fd837da0ab7df809cd5f87e8/bosing-2.0.4.tar.gz
+[2024-05-22 08:36:32] INFO root fetch - processPackages [Fr1997v011]: executing diffoscope
+[2024-05-22 08:36:32] INFO root fetch - processPackages [Fr1997v011]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fr1997v011-1.6.1.tar.gz tmp/Fr1997v011-1.6.3.tar.gz --markdown 20240522/F/Fr1997v011/1.6.1-1.6.3/README.md --exclude *.pyd
+[2024-05-22 08:36:32] INFO root fetch - processPackages [bosing]: executing diffoscope
+[2024-05-22 08:36:32] INFO root fetch - processPackages [bosing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bosing-2.0.3.tar.gz tmp/bosing-2.0.4.tar.gz --markdown 20240522/b/bosing/2.0.3-2.0.4/README.md --exclude *.pyd
+[2024-05-22 08:36:32] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.5.6.tar.gz]
+[2024-05-22 08:36:32] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.5.7.tar.gz]
+[2024-05-22 08:36:32] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-22 08:36:32] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.6.1.tar.gz]
+[2024-05-22 08:36:32] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.6.3.tar.gz]
+[2024-05-22 08:36:32] INFO root fetch - main [MainThread]: End processing [Fr1997v011]: success
+[2024-05-22 08:36:32] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-2.0.3.tar.gz]
+[2024-05-22 08:36:32] INFO root fetch - processPackages [bosing]: Remove: archive file [/home/abi/fetcher/tmp/bosing-2.0.4.tar.gz]
+[2024-05-22 08:36:32] INFO root fetch - main [MainThread]: End processing [bosing]: success
+[2024-05-22 08:36:32] INFO root fetch - main [MainThread]: Store serial: [23319764]

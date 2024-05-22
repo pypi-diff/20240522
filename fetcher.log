@@ -15887,3 +15887,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:21:44] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.9.tar.gz]
 [2024-05-22 10:21:44] INFO root fetch - main [MainThread]: End processing [pipxu]: success
 [2024-05-22 10:21:44] INFO root fetch - main [MainThread]: Store serial: [23320820]
+[2024-05-22 10:23:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320820]
+[2024-05-22 10:23:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 10:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chellow
+[2024-05-22 10:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cnn-framework
+[2024-05-22 10:23:53] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2024-05-22 10:23:53] INFO root fetch - processPackages [cnn-framework]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 10:23:53] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2024-05-22 10:23:53] INFO root fetch - processPackages [cnn-framework]: Downloading https://files.pythonhosted.org/packages/e7/8b/e814c312179a2e3e7e50eb551defd118cf326144a265e64b9424f206eb01/cnn_framework-0.0.8.tar.gz
+[2024-05-22 10:23:54] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2024-05-22 10:23:54] INFO root fetch - processPackages [cnn-framework]: Downloading https://files.pythonhosted.org/packages/df/d3/5cd97ab0acae2c74159bc0bc16b10608c2c301ec4011de238fabc676687b/cnn_framework-0.0.9.tar.gz
+[2024-05-22 10:23:54] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2024-05-22 10:23:54] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20240522/c/chellow/2826-2827/README.md --exclude *.pyd
+[2024-05-22 10:23:54] INFO root fetch - processPackages [cnn-framework]: executing diffoscope
+[2024-05-22 10:23:54] INFO root fetch - processPackages [cnn-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnn_framework-0.0.8.tar.gz tmp/cnn_framework-0.0.9.tar.gz --markdown 20240522/c/cnn-framework/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 10:23:55] INFO root fetch - processPackages [cnn-framework]: Remove: archive file [/home/abi/fetcher/tmp/cnn_framework-0.0.8.tar.gz]
+[2024-05-22 10:23:55] INFO root fetch - processPackages [cnn-framework]: Remove: archive file [/home/abi/fetcher/tmp/cnn_framework-0.0.9.tar.gz]
+[2024-05-22 10:23:55] INFO root fetch - main [MainThread]: End processing [cnn-framework]: success
+[2024-05-22 10:23:56] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2024-05-22 10:23:56] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2024-05-22 10:23:56] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2024-05-22 10:23:56] INFO root fetch - main [MainThread]: Store serial: [23320825]

@@ -20719,3 +20719,80 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 13:08:38] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2024.5.9.tar.gz]
 [2024-05-22 13:08:38] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
 [2024-05-22 13:08:38] INFO root fetch - main [MainThread]: Store serial: [23322860]
+[2024-05-22 13:10:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322860]
+[2024-05-22 13:10:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-22 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nibe
+[2024-05-22 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AAVT
+[2024-05-22 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gando
+[2024-05-22 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: new-dt-algorithm
+[2024-05-22 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composabl-api-dev
+[2024-05-22 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composabl-dev
+[2024-05-22 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composabl-train-dev
+[2024-05-22 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: composabl-cli-dev
+[2024-05-22 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: composabl-core-dev
+[2024-05-22 13:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cf-datapreprocessor
+[2024-05-22 13:10:48] WARNING root fetch - processPackages [AAVT]: Skipping, unable to determine old version
+[2024-05-22 13:10:48] INFO root fetch - main [MainThread]: End processing [AAVT] error
+[2024-05-22 13:10:48] INFO root fetch - processPackages [composabl-train-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev88]
+[2024-05-22 13:10:48] INFO root fetch - processPackages [gando]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-22 13:10:48] INFO root fetch - processPackages [new-dt-algorithm]: New version: [1.0] Old Version: [0.9]
+[2024-05-22 13:10:48] INFO root fetch - processPackages [composabl-api-dev]: New version: [0.8.0.dev88] Old Version: [0.8.0.dev86]
+[2024-05-22 13:10:48] INFO root fetch - processPackages [composabl-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev88]
+[2024-05-22 13:10:48] INFO root fetch - processPackages [composabl-cli-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev88]
+[2024-05-22 13:10:48] WARNING root fetch - processPackages [cf-datapreprocessor]: Skipping, unable to determine old version
+[2024-05-22 13:10:48] INFO root fetch - main [MainThread]: End processing [cf-datapreprocessor] error
+[2024-05-22 13:10:48] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/10/04/21ba7d6a5bda8ad56c3259ac0b1c69f209f5e34a98228f013225b1233b40/composabl_train_dev-0.8.0.dev88-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-22 13:10:48] INFO root fetch - processPackages [nibe]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-05-22 13:10:48] INFO root fetch - processPackages [gando]: Downloading https://files.pythonhosted.org/packages/5f/ad/9ce3a6ba3c5faf8984d231b1d4e350dc99ef5decdc96e34bfe1ccc8ba490/gando-0.9.7.tar.gz
+[2024-05-22 13:10:48] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev89]
+[2024-05-22 13:10:48] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/32/5d/02eb6578b64e1a38a899bcdda891682ef6e8632e8ec46a2a87f6737faad4/composabl_dev-0.8.0.dev88-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-22 13:10:48] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/0c/04/030f9fa37850e812fc568d26768ad4a0b2aa0d22282d2bad6e4323c5bc4a/composabl_cli_dev-0.8.0.dev88-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-22 13:10:48] INFO root fetch - processPackages [new-dt-algorithm]: Downloading https://files.pythonhosted.org/packages/40/44/5e944f04ea3736d79300df171f1772d20770eac65710640e74e9b3018a9f/new_dt_algorithm-0.9.tar.gz
+[2024-05-22 13:10:48] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/cb/59/b82f55a9bf7e1ef77d0360f47b4bd8a1202894b99b21d32e6e7614f7c072/composabl_api_dev-0.8.0.dev86-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-22 13:10:48] INFO root fetch - processPackages [nibe]: Downloading https://files.pythonhosted.org/packages/d7/e4/601b6a0bc68ee58660fe5ec7daf92e722f77e2b6ff48221b0db89b1dee70/nibe-2.8.0.tar.gz
+[2024-05-22 13:10:48] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/a6/ca/dfc033f7d27c4d9aadda9ca5d015f4250e2cd0bc412bd7a64bc1bfe6922e/composabl_core_dev-0.8.0.dev89-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-22 13:10:48] INFO root fetch - processPackages [gando]: Downloading https://files.pythonhosted.org/packages/55/b4/3eacdbfcda93734a9bbee501af687c86bfb442a8f0f000f752e95377527e/gando-0.9.8.tar.gz
+[2024-05-22 13:10:48] WARNING root fetch - processPackages [composabl-core-dev]: Skipping package: exceeds size limit 26154280>=10485760
+[2024-05-22 13:10:48] INFO root fetch - main [MainThread]: End processing [composabl-core-dev] error
+[2024-05-22 13:10:48] INFO root fetch - processPackages [gando]: executing diffoscope
+[2024-05-22 13:10:48] INFO root fetch - processPackages [gando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gando-0.9.7.tar.gz tmp/gando-0.9.8.tar.gz --markdown 20240522/g/gando/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-22 13:10:48] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/a1/f2/4e1924d1039233c3b0c2448b4add74067504cd2e888b319ad5a03135216f/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-22 13:10:48] INFO root fetch - processPackages [new-dt-algorithm]: Downloading https://files.pythonhosted.org/packages/7f/27/bee4ccb4d8f2dedae9639bba6862134050d643012d3b15ff8ce021ce8654/new_dt_algorithm-1.0.tar.gz
+[2024-05-22 13:10:48] INFO root fetch - processPackages [composabl-api-dev]: Downloading https://files.pythonhosted.org/packages/82/e3/10cadbda8a8a7a96220601b871329d6ed277c62e39e3fb2995a850a1d277/composabl_api_dev-0.8.0.dev88-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-22 13:10:48] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/95/20/8e2aca4bfa5f684869b85085faa073c8a53504bf7d60833952d33bbdf05a/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-22 13:10:48] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2024-05-22 13:10:48] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.8.0.dev88-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240522/c/composabl-dev/0.8.0.dev88-0.8.0.dev9/README.md --exclude *.pyd
+[2024-05-22 13:10:49] INFO root fetch - processPackages [nibe]: Downloading https://files.pythonhosted.org/packages/d1/07/19e68c9f5e1850fad1df460f27a9ea2146548e596c0b1d6170b511bbc761/nibe-2.9.0.tar.gz
+[2024-05-22 13:10:49] INFO root fetch - processPackages [new-dt-algorithm]: executing diffoscope
+[2024-05-22 13:10:49] INFO root fetch - processPackages [new-dt-algorithm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/new_dt_algorithm-0.9.tar.gz tmp/new_dt_algorithm-1.0.tar.gz --markdown 20240522/n/new-dt-algorithm/0.9-1.0/README.md --exclude *.pyd
+[2024-05-22 13:10:49] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/7a/63/cb2a64c643c2bf337f7f624895969ab1444fad77d056db19bebd8ab5a022/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-22 13:10:49] INFO root fetch - processPackages [composabl-api-dev]: executing diffoscope
+[2024-05-22 13:10:49] INFO root fetch - processPackages [composabl-api-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_api_dev-0.8.0.dev86-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_api_dev-0.8.0.dev88-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240522/c/composabl-api-dev/0.8.0.dev86-0.8.0.dev88/README.md --exclude *.pyd
+[2024-05-22 13:10:49] INFO root fetch - processPackages [nibe]: executing diffoscope
+[2024-05-22 13:10:49] INFO root fetch - processPackages [nibe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nibe-2.8.0.tar.gz tmp/nibe-2.9.0.tar.gz --markdown 20240522/n/nibe/2.8.0-2.9.0/README.md --exclude *.pyd
+[2024-05-22 13:10:49] INFO root fetch - processPackages [composabl-cli-dev]: executing diffoscope
+[2024-05-22 13:10:49] INFO root fetch - processPackages [composabl-cli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_cli_dev-0.8.0.dev88-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240522/c/composabl-cli-dev/0.8.0.dev88-0.8.0.dev9/README.md --exclude *.pyd
+[2024-05-22 13:10:49] INFO root fetch - processPackages [composabl-train-dev]: executing diffoscope
+[2024-05-22 13:10:49] INFO root fetch - processPackages [composabl-train-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_train_dev-0.8.0.dev88-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240522/c/composabl-train-dev/0.8.0.dev88-0.8.0.dev9/README.md --exclude *.pyd
+[2024-05-22 13:10:49] INFO root fetch - processPackages [gando]: Remove: archive file [/home/abi/fetcher/tmp/gando-0.9.7.tar.gz]
+[2024-05-22 13:10:49] INFO root fetch - processPackages [gando]: Remove: archive file [/home/abi/fetcher/tmp/gando-0.9.8.tar.gz]
+[2024-05-22 13:10:49] INFO root fetch - main [MainThread]: End processing [gando]: success
+[2024-05-22 13:10:49] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev88-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-22 13:10:49] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-22 13:10:49] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2024-05-22 13:10:50] INFO root fetch - processPackages [new-dt-algorithm]: Remove: archive file [/home/abi/fetcher/tmp/new_dt_algorithm-0.9.tar.gz]
+[2024-05-22 13:10:50] INFO root fetch - processPackages [new-dt-algorithm]: Remove: archive file [/home/abi/fetcher/tmp/new_dt_algorithm-1.0.tar.gz]
+[2024-05-22 13:10:50] INFO root fetch - main [MainThread]: End processing [new-dt-algorithm]: success
+[2024-05-22 13:10:50] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev86-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-22 13:10:50] INFO root fetch - processPackages [composabl-api-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_api_dev-0.8.0.dev88-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-22 13:10:50] INFO root fetch - main [MainThread]: End processing [composabl-api-dev]: success
+[2024-05-22 13:10:50] INFO root fetch - processPackages [nibe]: Remove: archive file [/home/abi/fetcher/tmp/nibe-2.8.0.tar.gz]
+[2024-05-22 13:10:50] INFO root fetch - processPackages [nibe]: Remove: archive file [/home/abi/fetcher/tmp/nibe-2.9.0.tar.gz]
+[2024-05-22 13:10:50] INFO root fetch - main [MainThread]: End processing [nibe]: success
+[2024-05-22 13:11:16] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev88-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-22 13:11:16] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-22 13:11:16] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
+[2024-05-22 13:12:01] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev88-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-22 13:12:01] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-22 13:12:01] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
+[2024-05-22 13:12:01] INFO root fetch - main [MainThread]: Store serial: [23322963]

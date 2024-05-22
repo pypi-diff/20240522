@@ -11358,3 +11358,36 @@
 [2024-05-22 06:43:28] INFO root fetch - processPackages [llama-index-llms-vertex]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_vertex-0.1.6.tar.gz]
 [2024-05-22 06:43:28] INFO root fetch - main [MainThread]: End processing [llama-index-llms-vertex]: success
 [2024-05-22 06:43:28] INFO root fetch - main [MainThread]: Store serial: [23318828]
+[2024-05-22 06:45:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318828]
+[2024-05-22 06:45:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 06:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zelos-demeter
+[2024-05-22 06:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iRe.py
+[2024-05-22 06:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: a9x-webstatistics
+[2024-05-22 06:45:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: data-ingestion-lib
+[2024-05-22 06:45:37] WARNING root fetch - processPackages [data-ingestion-lib]: Skipping, unable to determine old version
+[2024-05-22 06:45:37] INFO root fetch - main [MainThread]: End processing [data-ingestion-lib] error
+[2024-05-22 06:45:37] INFO root fetch - processPackages [zelos-demeter]: New version: [0.5.1] Old Version: [0.3.0]
+[2024-05-22 06:45:37] INFO root fetch - processPackages [a9x-webstatistics]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 06:45:37] INFO root fetch - processPackages [iRe.py]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-22 06:45:37] INFO root fetch - processPackages [a9x-webstatistics]: Downloading https://files.pythonhosted.org/packages/34/1d/74a658d3b12d45754cb6a28db75b8a8f9c722cf135e6532226e90e8ed560/a9x_webstatistics-0.1.8.tar.gz
+[2024-05-22 06:45:37] INFO root fetch - processPackages [zelos-demeter]: Downloading https://files.pythonhosted.org/packages/44/d4/2c43a73abb187742ecff67724454d2243ce25ca606bc6baa4c587f99bec5/zelos-demeter-0.3.0.tar.gz
+[2024-05-22 06:45:37] INFO root fetch - processPackages [iRe.py]: Downloading https://files.pythonhosted.org/packages/15/e3/9ae78d89ddc9efebf2648ed733bf88dd0c1ff1dbbce14d50bfde49d7d36b/iRe.py-0.1.1.tar.gz
+[2024-05-22 06:45:37] INFO root fetch - processPackages [iRe.py]: Downloading https://files.pythonhosted.org/packages/b8/79/8ade605f972e6d213fdaef25a0db5cec3bd951a6f58edf79a3799ede824f/iRe.py-0.2.0.tar.gz
+[2024-05-22 06:45:37] INFO root fetch - processPackages [a9x-webstatistics]: Downloading https://files.pythonhosted.org/packages/d1/48/63cfa492e91c19c869faebe4e00f9d747847692a56cffb3154cd9e2e41ef/a9x_webstatistics-0.1.9.tar.gz
+[2024-05-22 06:45:37] INFO root fetch - processPackages [zelos-demeter]: Downloading https://files.pythonhosted.org/packages/c5/15/138e16f52a90f2027367257b9a926e4d3af45808ab27a2eb53125cba0bf8/zelos-demeter-0.5.1.tar.gz
+[2024-05-22 06:45:37] INFO root fetch - processPackages [iRe.py]: executing diffoscope
+[2024-05-22 06:45:37] INFO root fetch - processPackages [iRe.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iRe.py-0.1.1.tar.gz tmp/iRe.py-0.2.0.tar.gz --markdown 20240522/i/iRe.py/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-22 06:45:37] INFO root fetch - processPackages [a9x-webstatistics]: executing diffoscope
+[2024-05-22 06:45:37] INFO root fetch - processPackages [a9x-webstatistics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a9x_webstatistics-0.1.8.tar.gz tmp/a9x_webstatistics-0.1.9.tar.gz --markdown 20240522/a/a9x-webstatistics/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 06:45:37] INFO root fetch - processPackages [zelos-demeter]: executing diffoscope
+[2024-05-22 06:45:37] INFO root fetch - processPackages [zelos-demeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zelos-demeter-0.3.0.tar.gz tmp/zelos-demeter-0.5.1.tar.gz --markdown 20240522/z/zelos-demeter/0.3.0-0.5.1/README.md --exclude *.pyd
+[2024-05-22 06:45:38] INFO root fetch - processPackages [iRe.py]: Remove: archive file [/home/abi/fetcher/tmp/iRe.py-0.1.1.tar.gz]
+[2024-05-22 06:45:38] INFO root fetch - processPackages [iRe.py]: Remove: archive file [/home/abi/fetcher/tmp/iRe.py-0.2.0.tar.gz]
+[2024-05-22 06:45:38] INFO root fetch - main [MainThread]: End processing [iRe.py]: success
+[2024-05-22 06:45:38] INFO root fetch - processPackages [a9x-webstatistics]: Remove: archive file [/home/abi/fetcher/tmp/a9x_webstatistics-0.1.8.tar.gz]
+[2024-05-22 06:45:38] INFO root fetch - processPackages [a9x-webstatistics]: Remove: archive file [/home/abi/fetcher/tmp/a9x_webstatistics-0.1.9.tar.gz]
+[2024-05-22 06:45:38] INFO root fetch - main [MainThread]: End processing [a9x-webstatistics]: success
+[2024-05-22 06:45:38] INFO root fetch - processPackages [zelos-demeter]: Remove: archive file [/home/abi/fetcher/tmp/zelos-demeter-0.3.0.tar.gz]
+[2024-05-22 06:45:38] INFO root fetch - processPackages [zelos-demeter]: Remove: archive file [/home/abi/fetcher/tmp/zelos-demeter-0.5.1.tar.gz]
+[2024-05-22 06:45:38] INFO root fetch - main [MainThread]: End processing [zelos-demeter]: success
+[2024-05-22 06:45:38] INFO root fetch - main [MainThread]: Store serial: [23318842]

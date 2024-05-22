@@ -16499,3 +16499,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:41:46] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
 [2024-05-22 10:41:46] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
 [2024-05-22 10:41:46] INFO root fetch - main [MainThread]: Store serial: [23321044]
+[2024-05-22 10:43:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321044]
+[2024-05-22 10:43:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-22 10:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbox-device-support-plugin
+[2024-05-22 10:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kpops
+[2024-05-22 10:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maji-passport
+[2024-05-22 10:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FunVIP
+[2024-05-22 10:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: udirect
+[2024-05-22 10:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: number-wakeru-photo
+[2024-05-22 10:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sferriol-python
+[2024-05-22 10:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: leadguru-jobs
+[2024-05-22 10:43:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: erlab
+[2024-05-22 10:43:55] INFO root fetch - processPackages [udirect]: New version: [0.1.4.dev3] Old Version: [0.1.4.dev2]
+[2024-05-22 10:43:55] INFO root fetch - processPackages [netbox-device-support-plugin]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-22 10:43:55] INFO root fetch - processPackages [FunVIP]: New version: [0.3.22] Old Version: [0.3.21]
+[2024-05-22 10:43:55] INFO root fetch - processPackages [maji-passport]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-22 10:43:55] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-22 10:43:55] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/3c/a6/d0beb3a589469224227e940acf3201cb853df507dec24217b501cc02630c/udirect-0.1.4.dev2.tar.gz
+[2024-05-22 10:43:55] WARNING root fetch - processPackages [number-wakeru-photo]: Skipping, unable to determine old version
+[2024-05-22 10:43:55] INFO root fetch - main [MainThread]: End processing [number-wakeru-photo] error
+[2024-05-22 10:43:55] INFO root fetch - processPackages [sferriol-python]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-22 10:43:55] INFO root fetch - processPackages [netbox-device-support-plugin]: Downloading https://files.pythonhosted.org/packages/e1/01/0d131066075737281f608ea009283c0962197b383af82d6b134ca30e9cae/netbox_device_support_plugin-1.0.1.tar.gz
+[2024-05-22 10:43:55] INFO root fetch - processPackages [kpops]: New version: [5.1.0] Old Version: [5.0.1]
+[2024-05-22 10:43:55] INFO root fetch - processPackages [FunVIP]: Downloading https://files.pythonhosted.org/packages/15/a7/1458c95468d22392f0d1f5366422c5e3325b2b73fb00ead5645ce60aefd3/funvip-0.3.21.tar.gz
+[2024-05-22 10:43:55] INFO root fetch - processPackages [erlab]: New version: [2.5.3] Old Version: [2.5.2]
+[2024-05-22 10:43:55] INFO root fetch - processPackages [maji-passport]: Downloading https://files.pythonhosted.org/packages/6c/5e/fa88a3a61c5604933759122042df143195056a2cacdedb943b8cace46697/maji_passport-0.0.6.tar.gz
+[2024-05-22 10:43:55] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-05-22 10:43:55] WARNING root fetch - processPackages [FunVIP]: Skipping package: exceeds size limit 59438820>=10485760
+[2024-05-22 10:43:55] INFO root fetch - main [MainThread]: End processing [FunVIP] error
+[2024-05-22 10:43:55] INFO root fetch - processPackages [netbox-device-support-plugin]: Downloading https://files.pythonhosted.org/packages/34/97/5b9f15713c36074d053eb8ceb03c5cf95b651b2e7a386a99b60dbf6b87bf/netbox_device_support_plugin-1.0.2.tar.gz
+[2024-05-22 10:43:55] INFO root fetch - processPackages [sferriol-python]: Downloading https://files.pythonhosted.org/packages/db/e2/e05cef561d2e1863c6412046fba65512c3bb778a45888e29a32cddc942ee/sferriol_python-0.5.0.tar.gz
+[2024-05-22 10:43:55] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/97/ae/a2447d9a961db92f708a93c4e7d7636604639969fc495cf5ccddc6a9bd08/kpops-5.0.1.tar.gz
+[2024-05-22 10:43:55] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-05-22 10:43:55] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/31/bc/ba66699f2746bcefa03b93d2484dc4daab25b1637204a29e9c69973d5c0d/erlab-2.5.2.tar.gz
+[2024-05-22 10:43:56] INFO root fetch - processPackages [netbox-device-support-plugin]: executing diffoscope
+[2024-05-22 10:43:56] INFO root fetch - processPackages [netbox-device-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox_device_support_plugin-1.0.1.tar.gz tmp/netbox_device_support_plugin-1.0.2.tar.gz --markdown 20240522/n/netbox-device-support-plugin/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-22 10:43:56] INFO root fetch - processPackages [maji-passport]: Downloading https://files.pythonhosted.org/packages/04/78/78719a1b5ea97468390050b7dd19e3534570f5257b0f49907fb24f07707a/maji_passport-0.0.7.tar.gz
+[2024-05-22 10:43:56] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-05-22 10:43:56] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240522/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-22 10:43:56] INFO root fetch - processPackages [maji-passport]: executing diffoscope
+[2024-05-22 10:43:56] INFO root fetch - processPackages [maji-passport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maji_passport-0.0.6.tar.gz tmp/maji_passport-0.0.7.tar.gz --markdown 20240522/m/maji-passport/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-22 10:43:56] INFO root fetch - processPackages [sferriol-python]: Downloading https://files.pythonhosted.org/packages/d6/57/1f32be6257392500fe2cefd67b66059ab523fae47640bff682f53f8a25da/sferriol_python-0.6.0.tar.gz
+[2024-05-22 10:43:56] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/a9/c8/6d98b7b9cf2d1648858e751e3a56643e22cf22c1f89000b4a012f5d1837a/kpops-5.1.0.tar.gz
+[2024-05-22 10:43:56] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/cc/1c/0965c1c5af7e72f41383d3be04e014b4971db12a0613b06d5d17276055f4/udirect-0.1.4.dev3.tar.gz
+[2024-05-22 10:43:56] INFO root fetch - processPackages [sferriol-python]: executing diffoscope
+[2024-05-22 10:43:56] INFO root fetch - processPackages [sferriol-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sferriol_python-0.5.0.tar.gz tmp/sferriol_python-0.6.0.tar.gz --markdown 20240522/s/sferriol-python/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-22 10:43:56] INFO root fetch - processPackages [kpops]: executing diffoscope
+[2024-05-22 10:43:56] INFO root fetch - processPackages [kpops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kpops-5.0.1.tar.gz tmp/kpops-5.1.0.tar.gz --markdown 20240522/k/kpops/5.0.1-5.1.0/README.md --exclude *.pyd
+[2024-05-22 10:43:56] INFO root fetch - processPackages [udirect]: executing diffoscope
+[2024-05-22 10:43:56] INFO root fetch - processPackages [udirect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udirect-0.1.4.dev2.tar.gz tmp/udirect-0.1.4.dev3.tar.gz --markdown 20240522/u/udirect/0.1.4.dev2-0.1.4.dev3/README.md --exclude *.pyd
+[2024-05-22 10:43:56] INFO root fetch - processPackages [erlab]: Downloading https://files.pythonhosted.org/packages/66/7b/ca9c4a08a5ef45a6bd8891c78fee417505902312d017e32c36dc9f3cb5ed/erlab-2.5.3.tar.gz
+[2024-05-22 10:43:56] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-05-22 10:43:56] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-05-22 10:43:56] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-05-22 10:43:57] INFO root fetch - processPackages [maji-passport]: Remove: archive file [/home/abi/fetcher/tmp/maji_passport-0.0.6.tar.gz]
+[2024-05-22 10:43:57] INFO root fetch - processPackages [maji-passport]: Remove: archive file [/home/abi/fetcher/tmp/maji_passport-0.0.7.tar.gz]
+[2024-05-22 10:43:57] INFO root fetch - main [MainThread]: End processing [maji-passport]: success
+[2024-05-22 10:43:57] INFO root fetch - processPackages [netbox-device-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_device_support_plugin-1.0.1.tar.gz]
+[2024-05-22 10:43:57] INFO root fetch - processPackages [netbox-device-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox_device_support_plugin-1.0.2.tar.gz]
+[2024-05-22 10:43:57] INFO root fetch - main [MainThread]: End processing [netbox-device-support-plugin]: success
+[2024-05-22 10:43:57] INFO root fetch - processPackages [sferriol-python]: Remove: archive file [/home/abi/fetcher/tmp/sferriol_python-0.5.0.tar.gz]
+[2024-05-22 10:43:57] INFO root fetch - processPackages [sferriol-python]: Remove: archive file [/home/abi/fetcher/tmp/sferriol_python-0.6.0.tar.gz]
+[2024-05-22 10:43:57] INFO root fetch - main [MainThread]: End processing [sferriol-python]: success
+[2024-05-22 10:43:57] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-5.0.1.tar.gz]
+[2024-05-22 10:43:57] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-5.1.0.tar.gz]
+[2024-05-22 10:43:57] INFO root fetch - main [MainThread]: End processing [kpops]: success
+[2024-05-22 10:43:57] INFO root fetch - processPackages [erlab]: executing diffoscope
+[2024-05-22 10:43:57] INFO root fetch - processPackages [erlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlab-2.5.2.tar.gz tmp/erlab-2.5.3.tar.gz --markdown 20240522/e/erlab/2.5.2-2.5.3/README.md --exclude *.pyd
+[2024-05-22 10:43:57] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev2.tar.gz]
+[2024-05-22 10:43:57] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev3.tar.gz]
+[2024-05-22 10:43:57] INFO root fetch - main [MainThread]: End processing [udirect]: success
+[2024-05-22 10:43:58] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.5.2.tar.gz]
+[2024-05-22 10:43:58] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.5.3.tar.gz]
+[2024-05-22 10:43:58] INFO root fetch - main [MainThread]: End processing [erlab]: success
+[2024-05-22 10:43:58] INFO root fetch - main [MainThread]: Store serial: [23321073]

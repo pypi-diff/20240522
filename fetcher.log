@@ -20146,3 +20146,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:44:12] INFO root fetch - processPackages [k8s]: Remove: archive file [/home/abi/fetcher/tmp/k8s-0.9.0.tar.gz]
 [2024-05-22 12:44:12] INFO root fetch - main [MainThread]: End processing [k8s]: success
 [2024-05-22 12:44:12] INFO root fetch - main [MainThread]: Store serial: [23322634]
+[2024-05-22 12:46:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322634]
+[2024-05-22 12:46:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 12:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataloader-gyqk
+[2024-05-22 12:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-flex-report
+[2024-05-22 12:46:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nqrduck-spectrometer-limenqr
+[2024-05-22 12:46:21] WARNING root fetch - processPackages [dataloader-gyqk]: Skipping, unable to determine old version
+[2024-05-22 12:46:21] INFO root fetch - main [MainThread]: End processing [dataloader-gyqk] error
+[2024-05-22 12:46:21] INFO root fetch - processPackages [django-flex-report]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-05-22 12:46:21] INFO root fetch - processPackages [django-flex-report]: Downloading https://files.pythonhosted.org/packages/4e/a6/a7c7c1f708efa62c6248d07d8a543468ba4438e3e38fefe860db89377f5b/django-flex-report-0.8.2.tar.gz
+[2024-05-22 12:46:21] INFO root fetch - processPackages [nqrduck-spectrometer-limenqr]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-22 12:46:21] INFO root fetch - processPackages [django-flex-report]: Downloading https://files.pythonhosted.org/packages/96/0a/2fcf7a20e4a3850e7b702c436f5d6be6b3e41165f2ec3dec578860a794b6/django-flex-report-0.8.3.tar.gz
+[2024-05-22 12:46:21] INFO root fetch - processPackages [nqrduck-spectrometer-limenqr]: Downloading https://files.pythonhosted.org/packages/02/80/fc6f7916646c3bbedf85e41ba83cd9447cf328363a46082cb20d69383a96/nqrduck_spectrometer_limenqr-0.0.6.tar.gz
+[2024-05-22 12:46:21] INFO root fetch - processPackages [django-flex-report]: executing diffoscope
+[2024-05-22 12:46:21] INFO root fetch - processPackages [django-flex-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-flex-report-0.8.2.tar.gz tmp/django-flex-report-0.8.3.tar.gz --markdown 20240522/d/django-flex-report/0.8.2-0.8.3/README.md --exclude *.pyd
+[2024-05-22 12:46:22] INFO root fetch - processPackages [nqrduck-spectrometer-limenqr]: Downloading https://files.pythonhosted.org/packages/a2/3b/ed935586e7b7f03cfdb055c9b7df402683787957cf15b0db2404e47a2422/nqrduck_spectrometer_limenqr-0.0.7.tar.gz
+[2024-05-22 12:46:22] INFO root fetch - processPackages [nqrduck-spectrometer-limenqr]: executing diffoscope
+[2024-05-22 12:46:22] INFO root fetch - processPackages [nqrduck-spectrometer-limenqr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nqrduck_spectrometer_limenqr-0.0.6.tar.gz tmp/nqrduck_spectrometer_limenqr-0.0.7.tar.gz --markdown 20240522/n/nqrduck-spectrometer-limenqr/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-22 12:46:22] INFO root fetch - processPackages [django-flex-report]: Remove: archive file [/home/abi/fetcher/tmp/django-flex-report-0.8.2.tar.gz]
+[2024-05-22 12:46:22] INFO root fetch - processPackages [django-flex-report]: Remove: archive file [/home/abi/fetcher/tmp/django-flex-report-0.8.3.tar.gz]
+[2024-05-22 12:46:22] INFO root fetch - main [MainThread]: End processing [django-flex-report]: success
+[2024-05-22 12:46:22] INFO root fetch - processPackages [nqrduck-spectrometer-limenqr]: Remove: archive file [/home/abi/fetcher/tmp/nqrduck_spectrometer_limenqr-0.0.6.tar.gz]
+[2024-05-22 12:46:22] INFO root fetch - processPackages [nqrduck-spectrometer-limenqr]: Remove: archive file [/home/abi/fetcher/tmp/nqrduck_spectrometer_limenqr-0.0.7.tar.gz]
+[2024-05-22 12:46:22] INFO root fetch - main [MainThread]: End processing [nqrduck-spectrometer-limenqr]: success
+[2024-05-22 12:46:22] INFO root fetch - main [MainThread]: Store serial: [23322643]

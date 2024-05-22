@@ -21557,3 +21557,95 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 13:37:33] INFO root fetch - processPackages [typegraph]: Remove: archive file [/home/abi/fetcher/tmp/typegraph-0.4.2.tar.gz]
 [2024-05-22 13:37:33] INFO root fetch - main [MainThread]: End processing [typegraph]: success
 [2024-05-22 13:37:33] INFO root fetch - main [MainThread]: Store serial: [23323263]
+[2024-05-22 13:39:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323263]
+[2024-05-22 13:39:45] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-22 13:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-logikal
+[2024-05-22 13:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: markdown-exec
+[2024-05-22 13:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarmtube
+[2024-05-22 13:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyzfn
+[2024-05-22 13:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mo-sql-parsing
+[2024-05-22 13:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: clabe_pydantic2
+[2024-05-22 13:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchserve-nightly
+[2024-05-22 13:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torch-model-archiver-nightly
+[2024-05-22 13:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torch-workflow-archiver-nightly
+[2024-05-22 13:39:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-l10n-es-atc
+[2024-05-22 13:39:45] INFO root fetch - processPackages [django-logikal]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-05-22 13:39:45] INFO root fetch - processPackages [clabe_pydantic2]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-22 13:39:45] INFO root fetch - processPackages [swarmtube]: New version: [0.1.47] Old Version: [0.1.46]
+[2024-05-22 13:39:45] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-22 13:39:45] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-22 13:39:45] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-22 13:39:45] INFO root fetch - processPackages [mo-sql-parsing]: New version: [9.640.24141] Old Version: [9.628.24135]
+[2024-05-22 13:39:45] INFO root fetch - processPackages [odoo-addon-l10n-es-atc]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.1]
+[2024-05-22 13:39:45] INFO root fetch - processPackages [markdown-exec]: New version: [1.8.3] Old Version: [1.8.2]
+[2024-05-22 13:39:46] INFO root fetch - processPackages [django-logikal]: Downloading https://files.pythonhosted.org/packages/2d/47/11dee622017968c00840ce80151f4dc2451e1f53821c22b78703e063095b/django-logikal-3.1.0.tar.gz
+[2024-05-22 13:39:46] INFO root fetch - processPackages [pyzfn]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 13:39:46] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/16/82/1092dfff5beb852b18f7fcfdf57981b48e0e0a3d8d649145925c76c97005/swarmtube-0.1.46-py2.py3-none-any.whl
+[2024-05-22 13:39:46] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/8c/43/921f1201a16b139e5df27112c5f8b7328ee4289bfc10ce1f76883a5ba87d/torchserve_nightly-2024.5.8-py3-none-any.whl
+[2024-05-22 13:39:46] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/38/34/a73ff276b5dc5c3f2e6e02c0282c2f5aedce8951e022f3add74d284d17a6/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl
+[2024-05-22 13:39:46] INFO root fetch - processPackages [clabe_pydantic2]: Downloading https://files.pythonhosted.org/packages/a0/f3/868bbe955ebeed708931a9077baeec6fd2fcc33fbdcf2a70e7e469e19db7/clabe_pydantic2-0.1.0.tar.gz
+[2024-05-22 13:39:46] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24333047>=10485760
+[2024-05-22 13:39:46] INFO root fetch - processPackages [torchserve-nightly]: Start processing: msasim
+[2024-05-22 13:39:46] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-05-22 13:39:46] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/39/78/71d3bda9b58dfb022af392de084f78f15d848683db00d19d604fd076ecff/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl
+[2024-05-22 13:39:46] INFO root fetch - processPackages [odoo-addon-l10n-es-atc]: Downloading https://files.pythonhosted.org/packages/ce/c1/5d4fbdc08b241fb992f029fac28bdcf15f1be064ffd26b05454b0f890b66/odoo_addon_l10n_es_atc-16.0.1.0.1-py3-none-any.whl
+[2024-05-22 13:39:46] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/c0/a3/5c973dd21458f0b2d810e99dc69af69267f20f012262a8e7b0dada5408b5/mo_sql_parsing-9.628.24135.tar.gz
+[2024-05-22 13:39:46] INFO root fetch - processPackages [markdown-exec]: Downloading https://files.pythonhosted.org/packages/2e/67/0412fec045c55f2258316191a5a80ac73c84b5e8da19f68693c6179ea122/markdown_exec-1.8.2.tar.gz
+[2024-05-22 13:39:46] INFO root fetch - processPackages [pyzfn]: Downloading https://files.pythonhosted.org/packages/1b/e4/ea29d5643e15cbceede523af806720fb3b19a2832f8b7f9d7539d8817652/pyzfn-0.1.8.tar.gz
+[2024-05-22 13:39:46] WARNING root fetch - processPackages [msasim]: Skipping, unable to determine old version
+[2024-05-22 13:39:46] INFO root fetch - main [MainThread]: End processing [msasim] error
+[2024-05-22 13:39:46] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5c/3d/7e9f420b3d052022aab0ce6e49d396d1d147acccfc51748d2cfa54ae3390/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl
+[2024-05-22 13:39:46] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/55/73/d6cac6137d8889445aa6a2fbae4644d9528d66859fb2e8149098c685de95/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl
+[2024-05-22 13:39:46] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/93/fb/6ad894b16dad55ec0daaa47ce04dc4beefb812ec222604170f7acd389ae0/swarmtube-0.1.47-py2.py3-none-any.whl
+[2024-05-22 13:39:46] INFO root fetch - processPackages [clabe_pydantic2]: Downloading https://files.pythonhosted.org/packages/05/dc/e91fcaf8a0cdc5a819039e2f1d95900ac4c20741e179b0e4a6a8f5878837/clabe_pydantic2-0.1.1.tar.gz
+[2024-05-22 13:39:46] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-05-22 13:39:46] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240522/t/torch-model-archiver-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-22 13:39:46] INFO root fetch - processPackages [django-logikal]: Downloading https://files.pythonhosted.org/packages/b8/c8/275e27f909c537d4b9ec9722dce1d1beaef61e2bdb8c6aa0029ff4f6e2c7/django_logikal-3.2.0.tar.gz
+[2024-05-22 13:39:46] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-05-22 13:39:46] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240522/t/torch-workflow-archiver-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-22 13:39:46] INFO root fetch - processPackages [markdown-exec]: Downloading https://files.pythonhosted.org/packages/84/28/6b1523928dfb26a6b1452a109b325fc7bf805e3cc23e37e4dbed24fabb54/markdown_exec-1.8.3.tar.gz
+[2024-05-22 13:39:46] INFO root fetch - processPackages [swarmtube]: executing diffoscope
+[2024-05-22 13:39:46] INFO root fetch - processPackages [swarmtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmtube-0.1.46-py2.py3-none-any.whl.zip tmp/swarmtube-0.1.47-py2.py3-none-any.whl.zip --markdown 20240522/s/swarmtube/0.1.46-0.1.47/README.md --exclude *.pyd
+[2024-05-22 13:39:46] INFO root fetch - processPackages [mo-sql-parsing]: Downloading https://files.pythonhosted.org/packages/a1/2c/c8d66551469eaa365010bff49e53c778fe4423f82d73941cec6eafebe2e0/mo_sql_parsing-9.640.24141.tar.gz
+[2024-05-22 13:39:46] INFO root fetch - processPackages [clabe_pydantic2]: executing diffoscope
+[2024-05-22 13:39:46] INFO root fetch - processPackages [clabe_pydantic2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clabe_pydantic2-0.1.0.tar.gz tmp/clabe_pydantic2-0.1.1.tar.gz --markdown 20240522/c/clabe_pydantic2/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-22 13:39:46] INFO root fetch - processPackages [odoo-addon-l10n-es-atc]: Downloading https://files.pythonhosted.org/packages/2b/74/8a14c6099cb4361811d54cb6ddec4c9e5f961e40381e1e1b3b2a37efa3b5/odoo_addon_l10n_es_atc-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-22 13:39:46] INFO root fetch - processPackages [pyzfn]: Downloading https://files.pythonhosted.org/packages/c1/fe/b8397f70abf50f53004e3f6e3d4468b5babe7c47f8609c89aace07730228/pyzfn-0.1.9.tar.gz
+[2024-05-22 13:39:46] INFO root fetch - processPackages [markdown-exec]: executing diffoscope
+[2024-05-22 13:39:46] INFO root fetch - processPackages [markdown-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_exec-1.8.2.tar.gz tmp/markdown_exec-1.8.3.tar.gz --markdown 20240522/m/markdown-exec/1.8.2-1.8.3/README.md --exclude *.pyd
+[2024-05-22 13:39:46] INFO root fetch - processPackages [mo-sql-parsing]: executing diffoscope
+[2024-05-22 13:39:46] INFO root fetch - processPackages [mo-sql-parsing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_sql_parsing-9.628.24135.tar.gz tmp/mo_sql_parsing-9.640.24141.tar.gz --markdown 20240522/m/mo-sql-parsing/9.628.24135-9.640.24141/README.md --exclude *.pyd
+[2024-05-22 13:39:46] INFO root fetch - processPackages [odoo-addon-l10n-es-atc]: executing diffoscope
+[2024-05-22 13:39:46] INFO root fetch - processPackages [odoo-addon-l10n-es-atc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_atc-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_atc-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-l10n-es-atc/16.0.1.0.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-22 13:39:47] INFO root fetch - processPackages [pyzfn]: executing diffoscope
+[2024-05-22 13:39:47] INFO root fetch - processPackages [pyzfn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzfn-0.1.8.tar.gz tmp/pyzfn-0.1.9.tar.gz --markdown 20240522/p/pyzfn/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 13:39:47] INFO root fetch - processPackages [django-logikal]: executing diffoscope
+[2024-05-22 13:39:47] INFO root fetch - processPackages [django-logikal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-logikal-3.1.0.tar.gz tmp/django_logikal-3.2.0.tar.gz --markdown 20240522/d/django-logikal/3.1.0-3.2.0/README.md --exclude *.pyd
+[2024-05-22 13:39:48] INFO root fetch - processPackages [clabe_pydantic2]: Remove: archive file [/home/abi/fetcher/tmp/clabe_pydantic2-0.1.0.tar.gz]
+[2024-05-22 13:39:48] INFO root fetch - processPackages [clabe_pydantic2]: Remove: archive file [/home/abi/fetcher/tmp/clabe_pydantic2-0.1.1.tar.gz]
+[2024-05-22 13:39:48] INFO root fetch - main [MainThread]: End processing [clabe_pydantic2]: success
+[2024-05-22 13:39:48] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-22 13:39:48] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-22 13:39:48] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-05-22 13:39:48] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-22 13:39:48] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-22 13:39:48] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-05-22 13:39:48] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.46-py2.py3-none-any.whl.zip]
+[2024-05-22 13:39:48] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.47-py2.py3-none-any.whl.zip]
+[2024-05-22 13:39:48] INFO root fetch - main [MainThread]: End processing [swarmtube]: success
+[2024-05-22 13:39:48] INFO root fetch - processPackages [markdown-exec]: Remove: archive file [/home/abi/fetcher/tmp/markdown_exec-1.8.2.tar.gz]
+[2024-05-22 13:39:48] INFO root fetch - processPackages [markdown-exec]: Remove: archive file [/home/abi/fetcher/tmp/markdown_exec-1.8.3.tar.gz]
+[2024-05-22 13:39:48] INFO root fetch - main [MainThread]: End processing [markdown-exec]: success
+[2024-05-22 13:39:48] INFO root fetch - processPackages [pyzfn]: Remove: archive file [/home/abi/fetcher/tmp/pyzfn-0.1.8.tar.gz]
+[2024-05-22 13:39:48] INFO root fetch - processPackages [pyzfn]: Remove: archive file [/home/abi/fetcher/tmp/pyzfn-0.1.9.tar.gz]
+[2024-05-22 13:39:48] INFO root fetch - main [MainThread]: End processing [pyzfn]: success
+[2024-05-22 13:39:48] INFO root fetch - processPackages [odoo-addon-l10n-es-atc]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_atc-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-22 13:39:48] INFO root fetch - processPackages [odoo-addon-l10n-es-atc]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_atc-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-22 13:39:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-atc]: success
+[2024-05-22 13:39:48] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.628.24135.tar.gz]
+[2024-05-22 13:39:48] INFO root fetch - processPackages [mo-sql-parsing]: Remove: archive file [/home/abi/fetcher/tmp/mo_sql_parsing-9.640.24141.tar.gz]
+[2024-05-22 13:39:48] INFO root fetch - main [MainThread]: End processing [mo-sql-parsing]: success
+[2024-05-22 13:39:49] INFO root fetch - processPackages [django-logikal]: Remove: archive file [/home/abi/fetcher/tmp/django-logikal-3.1.0.tar.gz]
+[2024-05-22 13:39:49] INFO root fetch - processPackages [django-logikal]: Remove: archive file [/home/abi/fetcher/tmp/django_logikal-3.2.0.tar.gz]
+[2024-05-22 13:39:49] INFO root fetch - main [MainThread]: End processing [django-logikal]: success
+[2024-05-22 13:39:49] INFO root fetch - main [MainThread]: Store serial: [23323290]

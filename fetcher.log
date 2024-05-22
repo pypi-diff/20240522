@@ -17325,3 +17325,159 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:04:24] INFO root fetch - processPackages [otx]: Remove: archive file [/home/abi/fetcher/tmp/otx-1.6.1.tar.gz]
 [2024-05-22 11:04:24] INFO root fetch - main [MainThread]: End processing [otx]: success
 [2024-05-22 11:04:24] INFO root fetch - main [MainThread]: Store serial: [23321364]
+[2024-05-22 11:06:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321364]
+[2024-05-22 11:06:33] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2024-05-22 11:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: g3hardware
+[2024-05-22 11:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openaichatlib
+[2024-05-22 11:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogluon.common
+[2024-05-22 11:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.core
+[2024-05-22 11:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.features
+[2024-05-22 11:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.cloud
+[2024-05-22 11:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipython-ngql
+[2024-05-22 11:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: g3projects
+[2024-05-22 11:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autogluon.tabular
+[2024-05-22 11:06:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: buzz-client
+[2024-05-22 11:06:33] INFO root fetch - processPackages [openaichatlib]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-22 11:06:33] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.4.0b20240521] Old Version: [0.4.0b20240520]
+[2024-05-22 11:06:33] INFO root fetch - processPackages [buzz-client]: New version: [1.1.0] Old Version: [1.0.4b0]
+[2024-05-22 11:06:33] INFO root fetch - processPackages [ipython-ngql]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-22 11:06:33] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.1.1b20240521] Old Version: [1.1.1b20240520]
+[2024-05-22 11:06:33] INFO root fetch - processPackages [openaichatlib]: Downloading https://files.pythonhosted.org/packages/3e/5b/a3719f06f29cc62e2b960ae8bbd7e2f5d499585b68c7f7f13dd084d0c211/openaichatlib-1.0.8.tar.gz
+[2024-05-22 11:06:33] INFO root fetch - processPackages [g3hardware]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-22 11:06:33] INFO root fetch - processPackages [g3projects]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-05-22 11:06:33] INFO root fetch - processPackages [buzz-client]: Downloading https://files.pythonhosted.org/packages/68/f0/a564d0617a0fa01d6c441cc828879850a2f56e058ae990f98a69049180b3/buzz_client-1.0.4b0.tar.gz
+[2024-05-22 11:06:33] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/81/e5/c778311a2fd9ab433d5232a6cf56ac1183b9d555cb13ed35b275b1f9ecc4/autogluon.cloud-0.4.0b20240520.tar.gz
+[2024-05-22 11:06:33] INFO root fetch - processPackages [autogluon.common]: New version: [1.1.1b20240522] Old Version: [1.1.1b20240521]
+[2024-05-22 11:06:33] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/29/8c/9d77f828925990c5c1f92de36b653cbc1ee6e73b634725e3d098b12f8d05/ipython-ngql-0.9.0.tar.gz
+[2024-05-22 11:06:33] INFO root fetch - processPackages [autogluon.features]: New version: [1.1.1b20240522] Old Version: [1.1.1b20240521]
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.core]: New version: [1.1.1b20240522] Old Version: [1.1.1b20240521]
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/73/2b/82351110b66cbb5a762f9c0859fbcd5d9592b72a1f6f44fc5a2781c93272/autogluon.tabular-1.1.1b20240520.tar.gz
+[2024-05-22 11:06:34] INFO root fetch - processPackages [g3hardware]: Downloading https://files.pythonhosted.org/packages/b2/a8/f86a159fee67e056cb37b1cedd2a5c7e9887ea3823bdde159f14c8b0d45e/g3hardware-0.2.1.tar.gz
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/f8/b8/fa55809badf073e23f3ff1ba66e9cac54ebb748095ef7d53ffbfa28a762d/autogluon.common-1.1.1b20240521.tar.gz
+[2024-05-22 11:06:34] INFO root fetch - processPackages [g3projects]: Downloading https://files.pythonhosted.org/packages/3d/eb/1279bdeff5a7c0cbb50ad9c9e6b4693f1f49967f84f3be92919f06c7af35/g3projects-0.2.3.tar.gz
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/21/70/da03b70d05e09e08d8bf5e558053017fc54bb5141449f3c853b5cd318394/autogluon.core-1.1.1b20240521.tar.gz
+[2024-05-22 11:06:34] INFO root fetch - processPackages [openaichatlib]: Downloading https://files.pythonhosted.org/packages/0f/08/d1a60919ecc27b4d24615c4cb3ac6a91b9b56ea211aa328fd255a03fe35d/openaichatlib-1.0.9.tar.gz
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/34/b9/44ad40faf9d1208d98a427d6bc3628986f490e07d8ebe30538545552528d/autogluon.features-1.1.1b20240521.tar.gz
+[2024-05-22 11:06:34] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/85/5b/d739e0d6e616df491f6ad44156d4ac4eb6a9a8f3e125574cf1a49296483b/ipython-ngql-0.9.1.tar.gz
+[2024-05-22 11:06:34] INFO root fetch - processPackages [buzz-client]: Downloading https://files.pythonhosted.org/packages/08/58/9f62cba7756c08b147f72fdb590d5cc281c96ca248e2411f78ab3be45c78/buzz_client-1.1.0.tar.gz
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/43/3b/436225d6344d1ddc5e190f93861d781a7d13ab7b961ae1b002e126dc635a/autogluon.cloud-0.4.0b20240521.tar.gz
+[2024-05-22 11:06:34] INFO root fetch - processPackages [openaichatlib]: executing diffoscope
+[2024-05-22 11:06:34] INFO root fetch - processPackages [openaichatlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openaichatlib-1.0.8.tar.gz tmp/openaichatlib-1.0.9.tar.gz --markdown 20240522/o/openaichatlib/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-22 11:06:34] INFO root fetch - processPackages [ipython-ngql]: executing diffoscope
+[2024-05-22 11:06:34] INFO root fetch - processPackages [ipython-ngql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipython-ngql-0.9.0.tar.gz tmp/ipython-ngql-0.9.1.tar.gz --markdown 20240522/i/ipython-ngql/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-22 11:06:34] INFO root fetch - processPackages [buzz-client]: executing diffoscope
+[2024-05-22 11:06:34] INFO root fetch - processPackages [buzz-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buzz_client-1.0.4b0.tar.gz tmp/buzz_client-1.1.0.tar.gz --markdown 20240522/b/buzz-client/1.0.4b0-1.1.0/README.md --exclude *.pyd
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/50/4f/3c9df06ff83a653373870cef81deaa794b6974ceee662a7116503ff2a207/autogluon.tabular-1.1.1b20240521.tar.gz
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.4.0b20240520.tar.gz tmp/autogluon.cloud-0.4.0b20240521.tar.gz --markdown 20240522/a/autogluon.cloud/0.4.0b20240520-0.4.0b20240521/README.md --exclude *.pyd
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/1f/70/41e4ea9b6b91a2a93dcc6191ef0d7e0ec555162304b9f6df2a312d0067db/autogluon.common-1.1.1b20240522.tar.gz
+[2024-05-22 11:06:34] INFO root fetch - processPackages [g3hardware]: Downloading https://files.pythonhosted.org/packages/21/49/ba03e3bbbad868dc043ac192d74a79917362c9f7830859aa8bef2a3a6fb6/g3hardware-0.2.2.tar.gz
+[2024-05-22 11:06:34] INFO root fetch - processPackages [g3projects]: Downloading https://files.pythonhosted.org/packages/50/ae/a247a7112b7e52387b7ecaa484221b72700e21c8d455f7fa7262473ddea4/g3projects-0.2.4.tar.gz
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/03/eb/ebc8bd95fc1ecfcf4dd95daa26d48903698867a1f3fb921f4b003ac24bd8/autogluon.features-1.1.1b20240522.tar.gz
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/a9/45/1d07590c35b3629c905986d1751d722a3796f5ed90f7ad9916eac0d7d9e7/autogluon.core-1.1.1b20240522.tar.gz
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.1.1b20240520.tar.gz tmp/autogluon.tabular-1.1.1b20240521.tar.gz --markdown 20240522/a/autogluon.tabular/1.1.1b20240520-1.1.1b20240521/README.md --exclude *.pyd
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.1.1b20240521.tar.gz tmp/autogluon.common-1.1.1b20240522.tar.gz --markdown 20240522/a/autogluon.common/1.1.1b20240521-1.1.1b20240522/README.md --exclude *.pyd
+[2024-05-22 11:06:34] INFO root fetch - processPackages [g3hardware]: executing diffoscope
+[2024-05-22 11:06:34] INFO root fetch - processPackages [g3hardware]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3hardware-0.2.1.tar.gz tmp/g3hardware-0.2.2.tar.gz --markdown 20240522/g/g3hardware/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-22 11:06:34] INFO root fetch - processPackages [g3projects]: executing diffoscope
+[2024-05-22 11:06:34] INFO root fetch - processPackages [g3projects]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g3projects-0.2.3.tar.gz tmp/g3projects-0.2.4.tar.gz --markdown 20240522/g/g3projects/0.2.3-0.2.4/README.md --exclude *.pyd
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.1.1b20240521.tar.gz tmp/autogluon.features-1.1.1b20240522.tar.gz --markdown 20240522/a/autogluon.features/1.1.1b20240521-1.1.1b20240522/README.md --exclude *.pyd
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-05-22 11:06:34] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.1.1b20240521.tar.gz tmp/autogluon.core-1.1.1b20240522.tar.gz --markdown 20240522/a/autogluon.core/1.1.1b20240521-1.1.1b20240522/README.md --exclude *.pyd
+[2024-05-22 11:06:35] INFO root fetch - processPackages [openaichatlib]: Remove: archive file [/home/abi/fetcher/tmp/openaichatlib-1.0.8.tar.gz]
+[2024-05-22 11:06:35] INFO root fetch - processPackages [openaichatlib]: Remove: archive file [/home/abi/fetcher/tmp/openaichatlib-1.0.9.tar.gz]
+[2024-05-22 11:06:35] INFO root fetch - processPackages [openaichatlib]: Start processing: zcbot-shop-parser
+[2024-05-22 11:06:35] INFO root fetch - main [MainThread]: End processing [openaichatlib]: success
+[2024-05-22 11:06:35] INFO root fetch - processPackages [zcbot-shop-parser]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-22 11:06:35] INFO root fetch - processPackages [buzz-client]: Remove: archive file [/home/abi/fetcher/tmp/buzz_client-1.0.4b0.tar.gz]
+[2024-05-22 11:06:35] INFO root fetch - processPackages [buzz-client]: Remove: archive file [/home/abi/fetcher/tmp/buzz_client-1.1.0.tar.gz]
+[2024-05-22 11:06:35] INFO root fetch - processPackages [buzz-client]: Start processing: autogluon.multimodal
+[2024-05-22 11:06:35] INFO root fetch - main [MainThread]: End processing [buzz-client]: success
+[2024-05-22 11:06:35] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.0.tar.gz]
+[2024-05-22 11:06:35] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.1.tar.gz]
+[2024-05-22 11:06:35] INFO root fetch - processPackages [ipython-ngql]: Start processing: audiostack
+[2024-05-22 11:06:35] INFO root fetch - main [MainThread]: End processing [ipython-ngql]: success
+[2024-05-22 11:06:35] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.1.1b20240521] Old Version: [1.1.1b20240520]
+[2024-05-22 11:06:35] INFO root fetch - processPackages [zcbot-shop-parser]: Downloading https://files.pythonhosted.org/packages/13/20/dd8ddf9a92c525b8df4d5515c59d468a2122ff3874ff161312bb5d018ea6/zcbot-shop-parser-1.0.7.tar.gz
+[2024-05-22 11:06:35] INFO root fetch - processPackages [audiostack]: New version: [2.0.1] Old Version: [2.0.0a0]
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.4.0b20240520.tar.gz]
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.4.0b20240521.tar.gz]
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.cloud]: Start processing: autogluon.timeseries
+[2024-05-22 11:06:36] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/56/20/b556839e601a71e9bf100e8b29fc6518c900ef7e851921574f4fe2d263cf/autogluon.multimodal-1.1.1b20240520.tar.gz
+[2024-05-22 11:06:36] INFO root fetch - processPackages [g3hardware]: Remove: archive file [/home/abi/fetcher/tmp/g3hardware-0.2.1.tar.gz]
+[2024-05-22 11:06:36] INFO root fetch - processPackages [g3hardware]: Remove: archive file [/home/abi/fetcher/tmp/g3hardware-0.2.2.tar.gz]
+[2024-05-22 11:06:36] INFO root fetch - processPackages [g3hardware]: Start processing: gando
+[2024-05-22 11:06:36] INFO root fetch - main [MainThread]: End processing [g3hardware]: success
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.1.1b20240521] Old Version: [1.1.1b20240520]
+[2024-05-22 11:06:36] INFO root fetch - processPackages [audiostack]: Downloading https://files.pythonhosted.org/packages/da/30/78f0e1e94553d7d74b97108e52d364ce9149d40d8d279db3012b0ef60430/audiostack-2.0.0a0.tar.gz
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240521.tar.gz]
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.1.1b20240522.tar.gz]
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.features]: Start processing: autogluon
+[2024-05-22 11:06:36] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/c2/0d/79df33e6c996e56a0297d9cdb8172dde4323eb25551d01926bdcf7b44ee1/autogluon.timeseries-1.1.1b20240520.tar.gz
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240521.tar.gz]
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.1.1b20240522.tar.gz]
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.common]: Start processing: jupyter-nebulagraph
+[2024-05-22 11:06:36] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-05-22 11:06:36] INFO root fetch - processPackages [gando]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-22 11:06:36] INFO root fetch - processPackages [g3projects]: Remove: archive file [/home/abi/fetcher/tmp/g3projects-0.2.3.tar.gz]
+[2024-05-22 11:06:36] INFO root fetch - processPackages [g3projects]: Remove: archive file [/home/abi/fetcher/tmp/g3projects-0.2.4.tar.gz]
+[2024-05-22 11:06:36] INFO root fetch - main [MainThread]: End processing [g3projects]: success
+[2024-05-22 11:06:36] INFO root fetch - processPackages [jupyter-nebulagraph]: New version: [0.9.1] Old Version: [0.12.2]
+[2024-05-22 11:06:36] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/3c/e6/d4eca93129f2ba96dc7580c77b4cae85da674a2ca4a0d0739d22b32eefd6/jupyter_nebulagraph-0.12.2.tar.gz
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240520.tar.gz]
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.1.1b20240521.tar.gz]
+[2024-05-22 11:06:36] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon]: New version: [1.1.1b20240522] Old Version: [1.1.1b20240521]
+[2024-05-22 11:06:36] INFO root fetch - processPackages [audiostack]: Downloading https://files.pythonhosted.org/packages/c9/a3/84b0b1b4c75c54bbde9529cb2cdd9650abf6974b7669ffb0973563ec541e/audiostack-2.0.1.tar.gz
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240521.tar.gz]
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.1.1b20240522.tar.gz]
+[2024-05-22 11:06:36] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-05-22 11:06:36] INFO root fetch - processPackages [zcbot-shop-parser]: Downloading https://files.pythonhosted.org/packages/0f/56/4b089df81ec3a5d307a6542661ff4196ea94cd8c5a4572a1da95a6484d83/zcbot-shop-parser-1.0.8.tar.gz
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/ac/85/f29c59484329b4d516c9c0e441d539de0ac9585781fe494f62b5c96ed03a/autogluon.multimodal-1.1.1b20240521.tar.gz
+[2024-05-22 11:06:36] INFO root fetch - processPackages [gando]: Downloading https://files.pythonhosted.org/packages/5f/ad/9ce3a6ba3c5faf8984d231b1d4e350dc99ef5decdc96e34bfe1ccc8ba490/gando-0.9.7.tar.gz
+[2024-05-22 11:06:36] INFO root fetch - processPackages [audiostack]: executing diffoscope
+[2024-05-22 11:06:36] INFO root fetch - processPackages [audiostack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiostack-2.0.0a0.tar.gz tmp/audiostack-2.0.1.tar.gz --markdown 20240522/a/audiostack/2.0.0a0-2.0.1/README.md --exclude *.pyd
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/98/96/7b8c9924b990a6f35bf33820c774fe1db95b14303d48b322f5f34a016260/autogluon.timeseries-1.1.1b20240521.tar.gz
+[2024-05-22 11:06:36] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/88/06/2fe02a0f2247e1cb1535a7e370f17dac6a53217d2cf9259b8dde3aa9e34a/jupyter_nebulagraph-0.9.1.tar.gz
+[2024-05-22 11:06:36] INFO root fetch - processPackages [zcbot-shop-parser]: executing diffoscope
+[2024-05-22 11:06:36] INFO root fetch - processPackages [zcbot-shop-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-shop-parser-1.0.7.tar.gz tmp/zcbot-shop-parser-1.0.8.tar.gz --markdown 20240522/z/zcbot-shop-parser/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/16/0b/2310c07562f4cfe36cfa75b90f28c607b6164a44469e2ca3f88b359ee8e1/autogluon-1.1.1b20240521.tar.gz
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.1.1b20240520.tar.gz tmp/autogluon.multimodal-1.1.1b20240521.tar.gz --markdown 20240522/a/autogluon.multimodal/1.1.1b20240520-1.1.1b20240521/README.md --exclude *.pyd
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-05-22 11:06:36] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.1.1b20240520.tar.gz tmp/autogluon.timeseries-1.1.1b20240521.tar.gz --markdown 20240522/a/autogluon.timeseries/1.1.1b20240520-1.1.1b20240521/README.md --exclude *.pyd
+[2024-05-22 11:06:36] INFO root fetch - processPackages [jupyter-nebulagraph]: executing diffoscope
+[2024-05-22 11:06:36] INFO root fetch - processPackages [jupyter-nebulagraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_nebulagraph-0.12.2.tar.gz tmp/jupyter_nebulagraph-0.9.1.tar.gz --markdown 20240522/j/jupyter-nebulagraph/0.12.2-0.9.1/README.md --exclude *.pyd
+[2024-05-22 11:06:36] INFO root fetch - processPackages [gando]: Downloading https://files.pythonhosted.org/packages/55/b4/3eacdbfcda93734a9bbee501af687c86bfb442a8f0f000f752e95377527e/gando-0.9.8.tar.gz
+[2024-05-22 11:06:37] INFO root fetch - processPackages [gando]: executing diffoscope
+[2024-05-22 11:06:37] INFO root fetch - processPackages [gando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gando-0.9.7.tar.gz tmp/gando-0.9.8.tar.gz --markdown 20240522/g/gando/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-22 11:06:37] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/e0/5d/62f2c0102e39a013a781f7d12c8c5b0f791e61cf1ddc7da22f60c28baa34/autogluon-1.1.1b20240522.tar.gz
+[2024-05-22 11:06:37] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-05-22 11:06:37] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.1.1b20240521.tar.gz tmp/autogluon-1.1.1b20240522.tar.gz --markdown 20240522/a/autogluon/1.1.1b20240521-1.1.1b20240522/README.md --exclude *.pyd
+[2024-05-22 11:06:37] INFO root fetch - processPackages [zcbot-shop-parser]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-shop-parser-1.0.7.tar.gz]
+[2024-05-22 11:06:37] INFO root fetch - processPackages [zcbot-shop-parser]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-shop-parser-1.0.8.tar.gz]
+[2024-05-22 11:06:37] INFO root fetch - main [MainThread]: End processing [zcbot-shop-parser]: success
+[2024-05-22 11:06:37] INFO root fetch - processPackages [audiostack]: Remove: archive file [/home/abi/fetcher/tmp/audiostack-2.0.0a0.tar.gz]
+[2024-05-22 11:06:37] INFO root fetch - processPackages [audiostack]: Remove: archive file [/home/abi/fetcher/tmp/audiostack-2.0.1.tar.gz]
+[2024-05-22 11:06:37] INFO root fetch - main [MainThread]: End processing [audiostack]: success
+[2024-05-22 11:06:37] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.12.2.tar.gz]
+[2024-05-22 11:06:37] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.9.1.tar.gz]
+[2024-05-22 11:06:37] INFO root fetch - main [MainThread]: End processing [jupyter-nebulagraph]: success
+[2024-05-22 11:06:37] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240520.tar.gz]
+[2024-05-22 11:06:37] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.1.1b20240521.tar.gz]
+[2024-05-22 11:06:37] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-05-22 11:06:38] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240521.tar.gz]
+[2024-05-22 11:06:38] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.1.1b20240522.tar.gz]
+[2024-05-22 11:06:38] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-05-22 11:06:38] INFO root fetch - processPackages [gando]: Remove: archive file [/home/abi/fetcher/tmp/gando-0.9.7.tar.gz]
+[2024-05-22 11:06:38] INFO root fetch - processPackages [gando]: Remove: archive file [/home/abi/fetcher/tmp/gando-0.9.8.tar.gz]
+[2024-05-22 11:06:38] INFO root fetch - main [MainThread]: End processing [gando]: success
+[2024-05-22 11:06:38] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240520.tar.gz]
+[2024-05-22 11:06:38] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.1.1b20240521.tar.gz]
+[2024-05-22 11:06:38] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-05-22 11:06:38] INFO root fetch - main [MainThread]: Store serial: [23321418]

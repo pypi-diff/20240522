@@ -2362,3 +2362,60 @@
 [2024-05-22 02:02:05] INFO root fetch - processPackages [antimatter-api]: Remove: archive file [/home/abi/fetcher/tmp/antimatter_api-1.0.9.tar.gz]
 [2024-05-22 02:02:05] INFO root fetch - main [MainThread]: End processing [antimatter-api]: success
 [2024-05-22 02:02:05] INFO root fetch - main [MainThread]: Store serial: [23315356]
+[2024-05-22 02:04:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315356]
+[2024-05-22 02:04:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 02:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-google-genai
+[2024-05-22 02:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: synnax
+[2024-05-22 02:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ctuFaultDetector
+[2024-05-22 02:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alamos
+[2024-05-22 02:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: synnax-freighter
+[2024-05-22 02:04:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edsnlp
+[2024-05-22 02:04:13] INFO root fetch - processPackages [alamos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-22 02:04:13] INFO root fetch - processPackages [synnax-freighter]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-22 02:04:13] INFO root fetch - processPackages [synnax]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-22 02:04:13] INFO root fetch - processPackages [langchain-google-genai]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-05-22 02:04:13] INFO root fetch - processPackages [ctuFaultDetector]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-22 02:04:14] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c5/2b/b12c4308c7fb396e018ffbe6ec0f046170906ae98b188985b537619e0f55/alamos-0.3.8.tar.gz
+[2024-05-22 02:04:14] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/cc/3c/a3040f96734a94461f0b7dc77bdcaf7a1b53eddadfd30e202aa7a1f65802/synnax_freighter-0.7.2.tar.gz
+[2024-05-22 02:04:14] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/89/a1/f0d76d0706e47ba3dcdbf0fe8c7b2e90c98bd073d40a3c4c7c1c1025aab8/synnax-0.8.0.tar.gz
+[2024-05-22 02:04:14] INFO root fetch - processPackages [edsnlp]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-22 02:04:14] INFO root fetch - processPackages [langchain-google-genai]: Downloading https://files.pythonhosted.org/packages/2a/47/cd57010d7a4b7088458617d0188b312aa084ca2cc961321409f5e246662f/langchain_google_genai-1.0.4.tar.gz
+[2024-05-22 02:04:14] INFO root fetch - processPackages [ctuFaultDetector]: Downloading https://files.pythonhosted.org/packages/42/7d/f0793dfc3406e34b7563463091a945fe35bdb188d6393c178019c062282e/ctuFaultDetector-1.0.0.tar.gz
+[2024-05-22 02:04:14] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c1/08/cf40db715e810dc50be82dd822b41aefe7a4903f73ac57533c85bc63cf9d/alamos-0.3.9.tar.gz
+[2024-05-22 02:04:14] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/76/cf/43181407a15b2458f32554a3dc049fa9e2d19602a59758e43b7278570c78/synnax_freighter-0.7.3.tar.gz
+[2024-05-22 02:04:14] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/b3/bc/76e9b03b96c7ab72f4b39e5e03c396b86efd6fb650bedcff8a7118679e9b/synnax-0.9.0.tar.gz
+[2024-05-22 02:04:14] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-05-22 02:04:14] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.8.tar.gz tmp/alamos-0.3.9.tar.gz --markdown 20240522/a/alamos/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-22 02:04:14] INFO root fetch - processPackages [edsnlp]: Downloading https://files.pythonhosted.org/packages/dc/b9/8029a03f917e17fc8f045d4499135193814e1cc94ecc7d8a28470a46af99/edsnlp-0.9.0.tar.gz
+[2024-05-22 02:04:14] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-05-22 02:04:14] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.7.2.tar.gz tmp/synnax_freighter-0.7.3.tar.gz --markdown 20240522/s/synnax-freighter/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-22 02:04:14] INFO root fetch - processPackages [synnax]: executing diffoscope
+[2024-05-22 02:04:14] INFO root fetch - processPackages [synnax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax-0.8.0.tar.gz tmp/synnax-0.9.0.tar.gz --markdown 20240522/s/synnax/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-22 02:04:14] INFO root fetch - processPackages [langchain-google-genai]: Downloading https://files.pythonhosted.org/packages/a3/7a/9f3bd41517891cce8164b865f8a3dbd69f36a3d9b3fa4aad94142b49b781/langchain_google_genai-1.0.5.tar.gz
+[2024-05-22 02:04:14] INFO root fetch - processPackages [ctuFaultDetector]: Downloading https://files.pythonhosted.org/packages/c8/46/415f8902c2839ed1d28a4b9823da88c677c59f0d42cba578002454171923/ctuFaultDetector-1.1.0.tar.gz
+[2024-05-22 02:04:14] INFO root fetch - processPackages [ctuFaultDetector]: executing diffoscope
+[2024-05-22 02:04:14] INFO root fetch - processPackages [ctuFaultDetector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctuFaultDetector-1.0.0.tar.gz tmp/ctuFaultDetector-1.1.0.tar.gz --markdown 20240522/c/ctuFaultDetector/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-22 02:04:14] INFO root fetch - processPackages [langchain-google-genai]: executing diffoscope
+[2024-05-22 02:04:14] INFO root fetch - processPackages [langchain-google-genai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_google_genai-1.0.4.tar.gz tmp/langchain_google_genai-1.0.5.tar.gz --markdown 20240522/l/langchain-google-genai/1.0.4-1.0.5/README.md --exclude *.pyd
+[2024-05-22 02:04:15] INFO root fetch - processPackages [edsnlp]: Downloading https://files.pythonhosted.org/packages/ba/57/f142ef7568ddb79fbdcec24c49d68b1c8ade9fea7cfa631b6302cddf6016/edsnlp-0.9.1.tar.gz
+[2024-05-22 02:04:15] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.8.tar.gz]
+[2024-05-22 02:04:15] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
+[2024-05-22 02:04:15] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-05-22 02:04:15] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.2.tar.gz]
+[2024-05-22 02:04:15] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.3.tar.gz]
+[2024-05-22 02:04:15] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-05-22 02:04:15] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.8.0.tar.gz]
+[2024-05-22 02:04:15] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
+[2024-05-22 02:04:15] INFO root fetch - main [MainThread]: End processing [synnax]: success
+[2024-05-22 02:04:15] INFO root fetch - processPackages [langchain-google-genai]: Remove: archive file [/home/abi/fetcher/tmp/langchain_google_genai-1.0.4.tar.gz]
+[2024-05-22 02:04:15] INFO root fetch - processPackages [langchain-google-genai]: Remove: archive file [/home/abi/fetcher/tmp/langchain_google_genai-1.0.5.tar.gz]
+[2024-05-22 02:04:15] INFO root fetch - main [MainThread]: End processing [langchain-google-genai]: success
+[2024-05-22 02:04:15] INFO root fetch - processPackages [ctuFaultDetector]: Remove: archive file [/home/abi/fetcher/tmp/ctuFaultDetector-1.0.0.tar.gz]
+[2024-05-22 02:04:15] INFO root fetch - processPackages [ctuFaultDetector]: Remove: archive file [/home/abi/fetcher/tmp/ctuFaultDetector-1.1.0.tar.gz]
+[2024-05-22 02:04:15] INFO root fetch - main [MainThread]: End processing [ctuFaultDetector]: success
+[2024-05-22 02:04:15] INFO root fetch - processPackages [edsnlp]: executing diffoscope
+[2024-05-22 02:04:15] INFO root fetch - processPackages [edsnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edsnlp-0.9.0.tar.gz tmp/edsnlp-0.9.1.tar.gz --markdown 20240522/e/edsnlp/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-22 02:04:17] INFO root fetch - processPackages [edsnlp]: Remove: archive file [/home/abi/fetcher/tmp/edsnlp-0.9.0.tar.gz]
+[2024-05-22 02:04:17] INFO root fetch - processPackages [edsnlp]: Remove: archive file [/home/abi/fetcher/tmp/edsnlp-0.9.1.tar.gz]
+[2024-05-22 02:04:17] INFO root fetch - main [MainThread]: End processing [edsnlp]: success
+[2024-05-22 02:04:17] INFO root fetch - main [MainThread]: Store serial: [23315376]

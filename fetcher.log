@@ -7771,3 +7771,24 @@
 [2024-05-22 03:41:46] INFO root fetch - processPackages [meetSam]: Remove: archive file [/home/abi/fetcher/tmp/meetsam-0.0.2.tar.gz]
 [2024-05-22 03:41:46] INFO root fetch - main [MainThread]: End processing [meetSam]: success
 [2024-05-22 03:41:46] INFO root fetch - main [MainThread]: Store serial: [23317290]
+[2024-05-22 03:43:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317290]
+[2024-05-22 03:43:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 03:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graphlearning
+[2024-05-22 03:43:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wwbot
+[2024-05-22 03:43:55] INFO root fetch - processPackages [wwbot]: New version: [0.0.9] Old Version: [0.0.8rc0]
+[2024-05-22 03:43:55] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/f0/d6/539254b35a392b94716fc626b6b39fc2c1eeecf81b065028e8a8fa69ff5c/wwbot-0.0.8rc0.tar.gz
+[2024-05-22 03:43:55] INFO root fetch - processPackages [graphlearning]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-05-22 03:43:55] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/60/06/f0d1dcf91cb575c47d6f9af17bfe431bf2e41fe342cd78c7d65bd6c8a27b/wwbot-0.0.9.tar.gz
+[2024-05-22 03:43:55] INFO root fetch - processPackages [graphlearning]: Downloading https://files.pythonhosted.org/packages/cc/0e/86cfc976fa7ffc2442262fc70fcd442c12d245aeb97066f9280f9d322f24/graphlearning-1.5.3.tar.gz
+[2024-05-22 03:43:55] INFO root fetch - processPackages [wwbot]: executing diffoscope
+[2024-05-22 03:43:55] INFO root fetch - processPackages [wwbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwbot-0.0.8rc0.tar.gz tmp/wwbot-0.0.9.tar.gz --markdown 20240522/w/wwbot/0.0.8rc0-0.0.9/README.md --exclude *.pyd
+[2024-05-22 03:43:55] INFO root fetch - processPackages [graphlearning]: Downloading https://files.pythonhosted.org/packages/10/e7/9e3619e98d1df0a35d2fa92e1e3c39f6ad95ccbb41a59c93b7c8a0fae8b4/graphlearning-1.5.4.tar.gz
+[2024-05-22 03:43:55] INFO root fetch - processPackages [graphlearning]: executing diffoscope
+[2024-05-22 03:43:55] INFO root fetch - processPackages [graphlearning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphlearning-1.5.3.tar.gz tmp/graphlearning-1.5.4.tar.gz --markdown 20240522/g/graphlearning/1.5.3-1.5.4/README.md --exclude *.pyd
+[2024-05-22 03:43:56] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.8rc0.tar.gz]
+[2024-05-22 03:43:56] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.9.tar.gz]
+[2024-05-22 03:43:56] INFO root fetch - main [MainThread]: End processing [wwbot]: success
+[2024-05-22 03:43:56] INFO root fetch - processPackages [graphlearning]: Remove: archive file [/home/abi/fetcher/tmp/graphlearning-1.5.3.tar.gz]
+[2024-05-22 03:43:56] INFO root fetch - processPackages [graphlearning]: Remove: archive file [/home/abi/fetcher/tmp/graphlearning-1.5.4.tar.gz]
+[2024-05-22 03:43:56] INFO root fetch - main [MainThread]: End processing [graphlearning]: success
+[2024-05-22 03:43:56] INFO root fetch - main [MainThread]: Store serial: [23317297]

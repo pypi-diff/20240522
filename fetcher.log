@@ -15501,3 +15501,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:04:55] INFO root fetch - processPackages [muko]: Remove: archive file [/home/abi/fetcher/tmp/muko-2.52-py3-none-any.whl.zip]
 [2024-05-22 10:04:55] INFO root fetch - main [MainThread]: End processing [muko]: success
 [2024-05-22 10:04:55] INFO root fetch - main [MainThread]: Store serial: [23320688]
+[2024-05-22 10:07:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320688]
+[2024-05-22 10:07:04] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 10:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djangocms-blog-agenda
+[2024-05-22 10:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyter_server_terminals_proxy
+[2024-05-22 10:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-authrespond
+[2024-05-22 10:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opensearch-rest-resources
+[2024-05-22 10:07:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lazymap
+[2024-05-22 10:07:05] INFO root fetch - processPackages [nonebot-plugin-authrespond]: New version: [1.1] Old Version: [1.0]
+[2024-05-22 10:07:05] INFO root fetch - processPackages [jupyter_server_terminals_proxy]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-05-22 10:07:05] INFO root fetch - processPackages [djangocms-blog-agenda]: New version: [0.6.0] Old Version: [0.5.6]
+[2024-05-22 10:07:05] INFO root fetch - processPackages [nonebot-plugin-authrespond]: Downloading https://files.pythonhosted.org/packages/88/b4/80ccb158af5ccd64a0e9fd0513fe30a488848eb8d59f330eeaddb12adedb/nonebot_plugin_authrespond-1.0.tar.gz
+[2024-05-22 10:07:05] INFO root fetch - processPackages [lazymap]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-22 10:07:05] INFO root fetch - processPackages [opensearch-rest-resources]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 10:07:05] INFO root fetch - processPackages [djangocms-blog-agenda]: Downloading https://files.pythonhosted.org/packages/02/b2/f666a8efacae24ab4e5f244edf2a60650d426004c35a124e980af00c19f2/djangocms_blog_agenda-0.5.6.tar.gz
+[2024-05-22 10:07:05] INFO root fetch - processPackages [jupyter_server_terminals_proxy]: Downloading https://files.pythonhosted.org/packages/18/e4/9e9af712439ca3d2826ce0e97942e7cae28de2d9ced95f8c5a65a07ecd3b/jupyter_server_terminals_proxy-0.1.4.tar.gz
+[2024-05-22 10:07:05] INFO root fetch - processPackages [lazymap]: Downloading https://files.pythonhosted.org/packages/c5/72/338381e7fdd25099c00527feaa9dce9f809b721e5f31575ff4af7dc1c49f/lazymap-1.0.0.tar.gz
+[2024-05-22 10:07:05] INFO root fetch - processPackages [opensearch-rest-resources]: Downloading https://files.pythonhosted.org/packages/74/1a/86935ded346135942fc09b12d2b4e422100a7110d799b2ef91cac620edc5/opensearch-rest-resources-0.0.8.tar.gz
+[2024-05-22 10:07:06] INFO root fetch - processPackages [nonebot-plugin-authrespond]: Downloading https://files.pythonhosted.org/packages/62/df/e9b18fed446945494e3b1c09754193acacd8d7925cf48729ac58fcc1f710/nonebot_plugin_authrespond-1.1.tar.gz
+[2024-05-22 10:07:06] INFO root fetch - processPackages [jupyter_server_terminals_proxy]: Downloading https://files.pythonhosted.org/packages/c6/49/a03b21c02a04d206165afe9eb83ec136a647da2c6422c852629ea7175a45/jupyter_server_terminals_proxy-0.2.0.tar.gz
+[2024-05-22 10:07:06] INFO root fetch - processPackages [djangocms-blog-agenda]: Downloading https://files.pythonhosted.org/packages/6c/6a/22cb8d8730931d313bbbc59ac41bfa51c1d5b3765378f53b9262af894d81/djangocms_blog_agenda-0.6.0.tar.gz
+[2024-05-22 10:07:06] INFO root fetch - processPackages [lazymap]: Downloading https://files.pythonhosted.org/packages/94/f6/087385f0a5a4666b6070587d52fed4fb229f6594ed666b282e34024f5519/lazymap-1.0.1.tar.gz
+[2024-05-22 10:07:06] INFO root fetch - processPackages [nonebot-plugin-authrespond]: executing diffoscope
+[2024-05-22 10:07:06] INFO root fetch - processPackages [nonebot-plugin-authrespond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_authrespond-1.0.tar.gz tmp/nonebot_plugin_authrespond-1.1.tar.gz --markdown 20240522/n/nonebot-plugin-authrespond/1.0-1.1/README.md --exclude *.pyd
+[2024-05-22 10:07:06] INFO root fetch - processPackages [jupyter_server_terminals_proxy]: executing diffoscope
+[2024-05-22 10:07:06] INFO root fetch - processPackages [jupyter_server_terminals_proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_server_terminals_proxy-0.1.4.tar.gz tmp/jupyter_server_terminals_proxy-0.2.0.tar.gz --markdown 20240522/j/jupyter_server_terminals_proxy/0.1.4-0.2.0/README.md --exclude *.pyd
+[2024-05-22 10:07:06] INFO root fetch - processPackages [djangocms-blog-agenda]: executing diffoscope
+[2024-05-22 10:07:06] INFO root fetch - processPackages [djangocms-blog-agenda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms_blog_agenda-0.5.6.tar.gz tmp/djangocms_blog_agenda-0.6.0.tar.gz --markdown 20240522/d/djangocms-blog-agenda/0.5.6-0.6.0/README.md --exclude *.pyd
+[2024-05-22 10:07:06] INFO root fetch - processPackages [opensearch-rest-resources]: Downloading https://files.pythonhosted.org/packages/07/d7/d0900600c08c714b969d5cc71211815f1eba04348119ed40eb0fbd05deea/opensearch-rest-resources-0.0.9.tar.gz
+[2024-05-22 10:07:06] INFO root fetch - processPackages [lazymap]: executing diffoscope
+[2024-05-22 10:07:06] INFO root fetch - processPackages [lazymap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazymap-1.0.0.tar.gz tmp/lazymap-1.0.1.tar.gz --markdown 20240522/l/lazymap/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-22 10:07:07] INFO root fetch - processPackages [opensearch-rest-resources]: executing diffoscope
+[2024-05-22 10:07:07] INFO root fetch - processPackages [opensearch-rest-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opensearch-rest-resources-0.0.8.tar.gz tmp/opensearch-rest-resources-0.0.9.tar.gz --markdown 20240522/o/opensearch-rest-resources/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 10:07:07] INFO root fetch - processPackages [jupyter_server_terminals_proxy]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_server_terminals_proxy-0.1.4.tar.gz]
+[2024-05-22 10:07:07] INFO root fetch - processPackages [jupyter_server_terminals_proxy]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_server_terminals_proxy-0.2.0.tar.gz]
+[2024-05-22 10:07:07] INFO root fetch - main [MainThread]: End processing [jupyter_server_terminals_proxy]: success
+[2024-05-22 10:07:07] INFO root fetch - processPackages [nonebot-plugin-authrespond]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_authrespond-1.0.tar.gz]
+[2024-05-22 10:07:07] INFO root fetch - processPackages [nonebot-plugin-authrespond]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_authrespond-1.1.tar.gz]
+[2024-05-22 10:07:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-authrespond]: success
+[2024-05-22 10:07:07] INFO root fetch - processPackages [djangocms-blog-agenda]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_blog_agenda-0.5.6.tar.gz]
+[2024-05-22 10:07:07] INFO root fetch - processPackages [djangocms-blog-agenda]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_blog_agenda-0.6.0.tar.gz]
+[2024-05-22 10:07:07] INFO root fetch - main [MainThread]: End processing [djangocms-blog-agenda]: success
+[2024-05-22 10:07:07] INFO root fetch - processPackages [lazymap]: Remove: archive file [/home/abi/fetcher/tmp/lazymap-1.0.0.tar.gz]
+[2024-05-22 10:07:07] INFO root fetch - processPackages [lazymap]: Remove: archive file [/home/abi/fetcher/tmp/lazymap-1.0.1.tar.gz]
+[2024-05-22 10:07:07] INFO root fetch - main [MainThread]: End processing [lazymap]: success
+[2024-05-22 10:07:07] INFO root fetch - processPackages [opensearch-rest-resources]: Remove: archive file [/home/abi/fetcher/tmp/opensearch-rest-resources-0.0.8.tar.gz]
+[2024-05-22 10:07:07] INFO root fetch - processPackages [opensearch-rest-resources]: Remove: archive file [/home/abi/fetcher/tmp/opensearch-rest-resources-0.0.9.tar.gz]
+[2024-05-22 10:07:07] INFO root fetch - main [MainThread]: End processing [opensearch-rest-resources]: success
+[2024-05-22 10:07:07] INFO root fetch - main [MainThread]: Store serial: [23320703]

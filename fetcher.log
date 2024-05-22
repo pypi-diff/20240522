@@ -17514,3 +17514,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:09:00] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.8.dev9.tar.gz]
 [2024-05-22 11:09:00] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-05-22 11:09:00] INFO root fetch - main [MainThread]: Store serial: [23321431]
+[2024-05-22 11:11:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321431]
+[2024-05-22 11:11:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 11:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maji-passport
+[2024-05-22 11:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-workflow-sdk-preview
+[2024-05-22 11:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MLRegressions
+[2024-05-22 11:11:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pogo-migrate
+[2024-05-22 11:11:10] INFO root fetch - processPackages [maji-passport]: New version: [1.0.0] Old Version: [0.0.7]
+[2024-05-22 11:11:10] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.996] Old Version: [0.1.995]
+[2024-05-22 11:11:10] INFO root fetch - processPackages [maji-passport]: Downloading https://files.pythonhosted.org/packages/04/78/78719a1b5ea97468390050b7dd19e3534570f5257b0f49907fb24f07707a/maji_passport-0.0.7.tar.gz
+[2024-05-22 11:11:10] INFO root fetch - processPackages [MLRegressions]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-05-22 11:11:10] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/56/ac/c34b1b8edd4a745ceacc5a310a38b3dcca685fe17507cacc1cd57db81fdd/lusid-workflow-sdk-preview-0.1.995.tar.gz
+[2024-05-22 11:11:10] INFO root fetch - processPackages [pogo-migrate]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 11:11:10] INFO root fetch - processPackages [pogo-migrate]: Downloading https://files.pythonhosted.org/packages/ff/28/461ed536403eebb4134787b235c735858065030ccccb3cc105dd12df902f/pogo_migrate-0.0.8.tar.gz
+[2024-05-22 11:11:10] INFO root fetch - processPackages [MLRegressions]: Downloading https://files.pythonhosted.org/packages/23/64/0370358fd513ba5befce9b2b0f1bc5fa8de44fa4a6fd1bc9e1284af04fc3/MLRegressions-1.0.0.tar.gz
+[2024-05-22 11:11:10] INFO root fetch - processPackages [maji-passport]: Downloading https://files.pythonhosted.org/packages/2e/bd/df79b4a2d62b993043d4fa6d072f674e432861a693b55da3651be926c072/maji_passport-1.0.0.tar.gz
+[2024-05-22 11:11:10] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/ad/65/93d0e7790f005c1bba7ae75a47e2b35b3d8a514713f549fccca0619a2df9/lusid-workflow-sdk-preview-0.1.996.tar.gz
+[2024-05-22 11:11:10] INFO root fetch - processPackages [maji-passport]: executing diffoscope
+[2024-05-22 11:11:10] INFO root fetch - processPackages [maji-passport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maji_passport-0.0.7.tar.gz tmp/maji_passport-1.0.0.tar.gz --markdown 20240522/m/maji-passport/0.0.7-1.0.0/README.md --exclude *.pyd
+[2024-05-22 11:11:10] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2024-05-22 11:11:10] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz --markdown 20240522/l/lusid-workflow-sdk-preview/0.1.995-0.1.996/README.md --exclude *.pyd
+[2024-05-22 11:11:10] INFO root fetch - processPackages [MLRegressions]: Downloading https://files.pythonhosted.org/packages/55/aa/1722c3e7ba043f23f4832bd803044c7e1d01040eda79a1bc5ddbb0c5d8bf/mlregressions-1.0.2.tar.gz
+[2024-05-22 11:11:10] INFO root fetch - processPackages [pogo-migrate]: Downloading https://files.pythonhosted.org/packages/02/aa/e3bf46e082861ed7f89041ee9e1efd453ec18b5267d59c75d03e23b11a09/pogo_migrate-0.0.9.tar.gz
+[2024-05-22 11:11:10] INFO root fetch - processPackages [MLRegressions]: executing diffoscope
+[2024-05-22 11:11:10] INFO root fetch - processPackages [MLRegressions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLRegressions-1.0.0.tar.gz tmp/mlregressions-1.0.2.tar.gz --markdown 20240522/M/MLRegressions/1.0.0-1.0.2/README.md --exclude *.pyd
+[2024-05-22 11:11:11] INFO root fetch - processPackages [pogo-migrate]: executing diffoscope
+[2024-05-22 11:11:11] INFO root fetch - processPackages [pogo-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pogo_migrate-0.0.8.tar.gz tmp/pogo_migrate-0.0.9.tar.gz --markdown 20240522/p/pogo-migrate/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 11:11:11] INFO root fetch - processPackages [maji-passport]: Remove: archive file [/home/abi/fetcher/tmp/maji_passport-0.0.7.tar.gz]
+[2024-05-22 11:11:11] INFO root fetch - processPackages [maji-passport]: Remove: archive file [/home/abi/fetcher/tmp/maji_passport-1.0.0.tar.gz]
+[2024-05-22 11:11:11] INFO root fetch - main [MainThread]: End processing [maji-passport]: success
+[2024-05-22 11:11:11] INFO root fetch - processPackages [MLRegressions]: Remove: archive file [/home/abi/fetcher/tmp/MLRegressions-1.0.0.tar.gz]
+[2024-05-22 11:11:11] INFO root fetch - processPackages [MLRegressions]: Remove: archive file [/home/abi/fetcher/tmp/mlregressions-1.0.2.tar.gz]
+[2024-05-22 11:11:11] INFO root fetch - main [MainThread]: End processing [MLRegressions]: success
+[2024-05-22 11:11:11] INFO root fetch - processPackages [pogo-migrate]: Remove: archive file [/home/abi/fetcher/tmp/pogo_migrate-0.0.8.tar.gz]
+[2024-05-22 11:11:11] INFO root fetch - processPackages [pogo-migrate]: Remove: archive file [/home/abi/fetcher/tmp/pogo_migrate-0.0.9.tar.gz]
+[2024-05-22 11:11:11] INFO root fetch - main [MainThread]: End processing [pogo-migrate]: success
+[2024-05-22 11:11:12] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.995.tar.gz]
+[2024-05-22 11:11:12] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.996.tar.gz]
+[2024-05-22 11:11:12] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2024-05-22 11:11:12] INFO root fetch - main [MainThread]: Store serial: [23321449]

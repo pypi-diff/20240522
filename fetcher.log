@@ -13705,3 +13705,90 @@
 [2024-05-22 09:01:11] INFO root fetch - processPackages [inferless-cli]: Remove: archive file [/home/abi/fetcher/tmp/inferless_cli-1.1.8.tar.gz]
 [2024-05-22 09:01:11] INFO root fetch - main [MainThread]: End processing [inferless-cli]: success
 [2024-05-22 09:01:11] INFO root fetch - main [MainThread]: Store serial: [23319947]
+[2024-05-22 09:03:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319947]
+[2024-05-22 09:03:20] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-22 09:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scorpiui
+[2024-05-22 09:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-picking-send-by-mail
+[2024-05-22 09:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-stock-move-line-auto-fill
+[2024-05-22 09:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-stock-lot-scrap
+[2024-05-22 09:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: duwi-smarthome-sdk-dev
+[2024-05-22 09:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: YHTest
+[2024-05-22 09:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-split-picking
+[2024-05-22 09:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seqio-nightly
+[2024-05-22 09:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bridgecrew
+[2024-05-22 09:03:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-stock-picking-quick
+[2024-05-22 09:03:20] WARNING root fetch - processPackages [scorpiui]: Skipping, unable to determine old version
+[2024-05-22 09:03:20] INFO root fetch - main [MainThread]: End processing [scorpiui] error
+[2024-05-22 09:03:20] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-05-22 09:03:20] INFO root fetch - processPackages [YHTest]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-22 09:03:20] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-05-22 09:03:20] INFO root fetch - processPackages [bridgecrew]: New version: [3.2.99] Old Version: [3.2.98]
+[2024-05-22 09:03:20] INFO root fetch - processPackages [odoo-addon-stock-picking-send-by-mail]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-05-22 09:03:20] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-22 09:03:20] INFO root fetch - processPackages [odoo-addon-stock-picking-quick]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-05-22 09:03:20] INFO root fetch - processPackages [odoo-addon-stock-move-line-auto-fill]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2024-05-22 09:03:20] INFO root fetch - processPackages [odoo-addon-stock-lot-scrap]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-22 09:03:20] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-05-22 09:03:20] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/5a/00/990c2c462985fc15acc8b3d8b43bbcc5202cfe588fdd6b3afdf1cc3533ff/duwi_smarthome_sdk_dev-0.0.2.tar.gz
+[2024-05-22 09:03:20] INFO root fetch - processPackages [YHTest]: Downloading https://files.pythonhosted.org/packages/5a/e7/1a4975e9ea7b1dc5bbfc87d8cf35ebc76728674cb831d9cea6f0d3373c5f/yhtest-0.0.2.tar.gz
+[2024-05-22 09:03:20] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/5e/b5/7cd86ab5bf038cd7943f580e675768a014b20cb33f33518059ce303b9c9d/bridgecrew-3.2.98.tar.gz
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-picking-send-by-mail]: Downloading https://files.pythonhosted.org/packages/72/e7/62f06e723f6e57aaa57a37dd91f211cf24512422a88151121c466a8bdd27/odoo_addon_stock_picking_send_by_mail-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-move-line-auto-fill]: Downloading https://files.pythonhosted.org/packages/89/57/8232e4603f1de104cbfe88346387709453f97580700dff3e807d9a5df39a/odoo_addon_stock_move_line_auto_fill-16.0.1.1.0-py3-none-any.whl
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-lot-scrap]: Downloading https://files.pythonhosted.org/packages/ec/d5/16f8ddb00a20bfc065fe315ac4a283267991dad47ffc0d0e31892002e0cc/odoo_addon_stock_lot_scrap-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: Downloading https://files.pythonhosted.org/packages/80/90/e12ae0d4ac44eb29bad22b9c834ffd53b1118411be806880180c1d3d0b9f/odoo_addon_stock_split_picking-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-picking-quick]: Downloading https://files.pythonhosted.org/packages/22/56/7ef9445f60c8d8797ba63fd0bc355e5d168dc088c5db5e7b77484809afdb/odoo_addon_stock_picking_quick-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-22 09:03:21] INFO root fetch - processPackages [YHTest]: Downloading https://files.pythonhosted.org/packages/04/5e/866e42db9cea9f075eea974ae9188247b87609942f4a0f59dc252d8c3901/yhtest-0.0.3.tar.gz
+[2024-05-22 09:03:21] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/b3/c3/13d096e8c84ba7b533a7d12aa76c66250cc8825c4e81e5f42196b5223260/duwi_smarthome_sdk_dev-0.0.4.tar.gz
+[2024-05-22 09:03:21] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/8c/e2/de43e2e6c966fe98c0624abafa7f7374b59b424536aaa809a4d6a8fe4aa1/bridgecrew-3.2.99.tar.gz
+[2024-05-22 09:03:21] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-05-22 09:03:21] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: executing diffoscope
+[2024-05-22 09:03:21] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smarthome_sdk_dev-0.0.2.tar.gz tmp/duwi_smarthome_sdk_dev-0.0.4.tar.gz --markdown 20240522/d/duwi-smarthome-sdk-dev/0.0.2-0.0.4/README.md --exclude *.pyd
+[2024-05-22 09:03:21] INFO root fetch - processPackages [YHTest]: executing diffoscope
+[2024-05-22 09:03:21] INFO root fetch - processPackages [YHTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yhtest-0.0.2.tar.gz tmp/yhtest-0.0.3.tar.gz --markdown 20240522/Y/YHTest/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-22 09:03:21] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2024-05-22 09:03:21] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-3.2.98.tar.gz tmp/bridgecrew-3.2.99.tar.gz --markdown 20240522/b/bridgecrew/3.2.98-3.2.99/README.md --exclude *.pyd
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-picking-send-by-mail]: Downloading https://files.pythonhosted.org/packages/d6/7c/88089d6f534f91e228becf4774967b7afc7cdad1a5378b594b4f875f0043/odoo_addon_stock_picking_send_by_mail-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: Downloading https://files.pythonhosted.org/packages/9d/71/91aa33ef15508461a64704c119d08481b6292ddd2b2831ba429ac9690c37/odoo_addon_stock_split_picking-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-22 09:03:21] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-05-22 09:03:21] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240522/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/README.md --exclude *.pyd
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-lot-scrap]: Downloading https://files.pythonhosted.org/packages/67/06/e6bb56e759eaaa6e1283d9f5f5d65c62de70f34f0761f85ada6b976c9da1/odoo_addon_stock_lot_scrap-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-move-line-auto-fill]: Downloading https://files.pythonhosted.org/packages/56/89/a7ee0917bfae103976f674e77201c6c0eafad54a4af2b8bf22d8eaa51123/odoo_addon_stock_move_line_auto_fill-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-picking-send-by-mail]: executing diffoscope
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-picking-send-by-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_send_by_mail-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_send_by_mail-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-stock-picking-send-by-mail/16.0.1.0.0.2-16.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-picking-quick]: Downloading https://files.pythonhosted.org/packages/f1/dd/0a66a8413fc0bdd819a21130492deb0c146440cbd100011b64620ee67783/odoo_addon_stock_picking_quick-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-lot-scrap]: executing diffoscope
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-lot-scrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_lot_scrap-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_lot_scrap-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-stock-lot-scrap/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: executing diffoscope
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_split_picking-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_stock_split_picking-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-stock-split-picking/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-move-line-auto-fill]: executing diffoscope
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-move-line-auto-fill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_move_line_auto_fill-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_stock_move_line_auto_fill-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-stock-move-line-auto-fill/16.0.1.1.0-16.0.1.1.0.1/README.md --exclude *.pyd
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-picking-quick]: executing diffoscope
+[2024-05-22 09:03:21] INFO root fetch - processPackages [odoo-addon-stock-picking-quick]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_quick-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_quick-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-stock-picking-quick/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-22 09:03:22] INFO root fetch - processPackages [YHTest]: Remove: archive file [/home/abi/fetcher/tmp/yhtest-0.0.2.tar.gz]
+[2024-05-22 09:03:22] INFO root fetch - processPackages [YHTest]: Remove: archive file [/home/abi/fetcher/tmp/yhtest-0.0.3.tar.gz]
+[2024-05-22 09:03:22] INFO root fetch - main [MainThread]: End processing [YHTest]: success
+[2024-05-22 09:03:22] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.0.2.tar.gz]
+[2024-05-22 09:03:22] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.0.4.tar.gz]
+[2024-05-22 09:03:22] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk-dev]: success
+[2024-05-22 09:03:22] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.98.tar.gz]
+[2024-05-22 09:03:22] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-3.2.99.tar.gz]
+[2024-05-22 09:03:22] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2024-05-22 09:03:22] INFO root fetch - processPackages [odoo-addon-stock-picking-quick]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_quick-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-22 09:03:22] INFO root fetch - processPackages [odoo-addon-stock-picking-quick]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_quick-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-22 09:03:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-quick]: success
+[2024-05-22 09:03:22] INFO root fetch - processPackages [odoo-addon-stock-lot-scrap]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_lot_scrap-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-22 09:03:22] INFO root fetch - processPackages [odoo-addon-stock-lot-scrap]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_lot_scrap-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-22 09:03:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-lot-scrap]: success
+[2024-05-22 09:03:22] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-05-22 09:03:22] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-05-22 09:03:22] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-05-22 09:03:23] INFO root fetch - processPackages [odoo-addon-stock-picking-send-by-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_send_by_mail-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-22 09:03:23] INFO root fetch - processPackages [odoo-addon-stock-picking-send-by-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_send_by_mail-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-22 09:03:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-send-by-mail]: success
+[2024-05-22 09:03:23] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_split_picking-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-22 09:03:23] INFO root fetch - processPackages [odoo-addon-stock-split-picking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_split_picking-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-22 09:03:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-split-picking]: success
+[2024-05-22 09:03:23] INFO root fetch - processPackages [odoo-addon-stock-move-line-auto-fill]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_line_auto_fill-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-22 09:03:23] INFO root fetch - processPackages [odoo-addon-stock-move-line-auto-fill]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_line_auto_fill-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-22 09:03:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-move-line-auto-fill]: success
+[2024-05-22 09:03:23] INFO root fetch - main [MainThread]: Store serial: [23319977]

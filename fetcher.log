@@ -3221,3 +3221,33 @@
 [2024-05-22 02:45:13] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202405210044.tar.gz]
 [2024-05-22 02:45:13] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-05-22 02:45:13] INFO root fetch - main [MainThread]: Store serial: [23315700]
+[2024-05-22 02:47:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315700]
+[2024-05-22 02:47:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 02:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: you-get
+[2024-05-22 02:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: formant
+[2024-05-22 02:47:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-databrew-cicd
+[2024-05-22 02:47:22] INFO root fetch - processPackages [formant]: New version: [1.99.25] Old Version: [1.99.10]
+[2024-05-22 02:47:22] INFO root fetch - processPackages [formant]: Downloading https://files.pythonhosted.org/packages/b4/ae/48e0e0cc421f59b739a0933ff541c564d705ba0f03ab53b6ad242e88d6dd/formant-1.99.10.tar.gz
+[2024-05-22 02:47:22] INFO root fetch - processPackages [you-get]: New version: [0.4.995] Old Version: [0.4.990]
+[2024-05-22 02:47:22] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-22 02:47:22] INFO root fetch - processPackages [you-get]: Downloading https://files.pythonhosted.org/packages/00/27/99158f9193acc83470de8826f9476346d0b58dd65057f134df7daa82ef2c/you-get-0.4.990.tar.gz
+[2024-05-22 02:47:22] INFO root fetch - processPackages [formant]: Downloading https://files.pythonhosted.org/packages/0f/87/d41a560174ff1aede53afa1480b906376d1d5d3f7263147c18f90dda6c0f/formant-1.99.25.tar.gz
+[2024-05-22 02:47:22] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2024-05-22 02:47:22] INFO root fetch - processPackages [formant]: executing diffoscope
+[2024-05-22 02:47:22] INFO root fetch - processPackages [formant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formant-1.99.10.tar.gz tmp/formant-1.99.25.tar.gz --markdown 20240522/f/formant/1.99.10-1.99.25/README.md --exclude *.pyd
+[2024-05-22 02:47:22] INFO root fetch - processPackages [you-get]: Downloading https://files.pythonhosted.org/packages/65/77/e43b47e11523b66e759c1b831cea3876d8977a6541751b4bbc4c98f1bb7f/you-get-0.4.995.tar.gz
+[2024-05-22 02:47:22] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2024-05-22 02:47:22] INFO root fetch - processPackages [you-get]: executing diffoscope
+[2024-05-22 02:47:22] INFO root fetch - processPackages [you-get]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/you-get-0.4.990.tar.gz tmp/you-get-0.4.995.tar.gz --markdown 20240522/y/you-get/0.4.990-0.4.995/README.md --exclude *.pyd
+[2024-05-22 02:47:23] INFO root fetch - processPackages [formant]: Remove: archive file [/home/abi/fetcher/tmp/formant-1.99.10.tar.gz]
+[2024-05-22 02:47:23] INFO root fetch - processPackages [formant]: Remove: archive file [/home/abi/fetcher/tmp/formant-1.99.25.tar.gz]
+[2024-05-22 02:47:23] INFO root fetch - main [MainThread]: End processing [formant]: success
+[2024-05-22 02:47:23] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2024-05-22 02:47:23] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20240522/c/cdk-databrew-cicd/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-22 02:47:23] INFO root fetch - processPackages [you-get]: Remove: archive file [/home/abi/fetcher/tmp/you-get-0.4.990.tar.gz]
+[2024-05-22 02:47:23] INFO root fetch - processPackages [you-get]: Remove: archive file [/home/abi/fetcher/tmp/you-get-0.4.995.tar.gz]
+[2024-05-22 02:47:23] INFO root fetch - main [MainThread]: End processing [you-get]: success
+[2024-05-22 02:47:24] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2024-05-22 02:47:24] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2024-05-22 02:47:24] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2024-05-22 02:47:24] INFO root fetch - main [MainThread]: Store serial: [23315709]

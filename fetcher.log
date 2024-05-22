@@ -19444,3 +19444,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:05:56] INFO root fetch - processPackages [comet-ml]: Remove: archive file [/home/abi/fetcher/tmp/comet_ml-3.9.1.tar.gz]
 [2024-05-22 12:05:56] INFO root fetch - main [MainThread]: End processing [comet-ml]: success
 [2024-05-22 12:05:56] INFO root fetch - main [MainThread]: Store serial: [23322243]
+[2024-05-22 12:08:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322243]
+[2024-05-22 12:08:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 12:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: internal-rdbms
+[2024-05-22 12:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zfx
+[2024-05-22 12:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulp-glue
+[2024-05-22 12:08:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulp-cli
+[2024-05-22 12:08:06] INFO root fetch - processPackages [internal-rdbms]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-22 12:08:06] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-22 12:08:06] INFO root fetch - processPackages [internal-rdbms]: Downloading https://files.pythonhosted.org/packages/3b/7e/c50ab9aa94f8f8728dd4205388118d48d35c0b1fc31c71e559516b4ace5f/internal_rdbms-0.1.4.tar.gz
+[2024-05-22 12:08:06] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-22 12:08:06] INFO root fetch - processPackages [pulp-cli]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-22 12:08:06] INFO root fetch - processPackages [pulp-glue]: New version: [0.25.2] Old Version: [0.25.1]
+[2024-05-22 12:08:06] INFO root fetch - processPackages [pulp-cli]: Downloading https://files.pythonhosted.org/packages/4d/8a/e059ca9aaab84187e3f5103bb4ea03decda6da1b8f53179cb30f2f384885/pulp-cli-0.8.0.tar.gz
+[2024-05-22 12:08:06] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-22 12:08:06] INFO root fetch - processPackages [pulp-glue]: Downloading https://files.pythonhosted.org/packages/f8/7e/76bfc8bd67cc154bbcbfda73140937856d9ab4109381fe641f74892013ef/pulp-glue-0.25.1.tar.gz
+[2024-05-22 12:08:06] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-22 12:08:06] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240522/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-22 12:08:06] INFO root fetch - processPackages [internal-rdbms]: Downloading https://files.pythonhosted.org/packages/50/dc/41a59f56293402d5b3c8860397dfec84082f0618dcae5e7ec9ae6c439594/internal_rdbms-0.1.5.tar.gz
+[2024-05-22 12:08:06] INFO root fetch - processPackages [internal-rdbms]: executing diffoscope
+[2024-05-22 12:08:06] INFO root fetch - processPackages [internal-rdbms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internal_rdbms-0.1.4.tar.gz tmp/internal_rdbms-0.1.5.tar.gz --markdown 20240522/i/internal-rdbms/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-22 12:08:06] INFO root fetch - processPackages [pulp-cli]: Downloading https://files.pythonhosted.org/packages/50/3d/ed19e49b2fbe937f1d6a2f4ef0f725c4e67f24e5c97023912b3e3ecfdafd/pulp-cli-0.9.0.tar.gz
+[2024-05-22 12:08:06] INFO root fetch - processPackages [pulp-glue]: Downloading https://files.pythonhosted.org/packages/d7/db/f012e19ef61cee291376fb9c7cf1ce384316cdd415080856a3c75f30b858/pulp-glue-0.25.2.tar.gz
+[2024-05-22 12:08:07] INFO root fetch - processPackages [pulp-cli]: executing diffoscope
+[2024-05-22 12:08:07] INFO root fetch - processPackages [pulp-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-cli-0.8.0.tar.gz tmp/pulp-cli-0.9.0.tar.gz --markdown 20240522/p/pulp-cli/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-22 12:08:07] INFO root fetch - processPackages [pulp-glue]: executing diffoscope
+[2024-05-22 12:08:07] INFO root fetch - processPackages [pulp-glue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-glue-0.25.1.tar.gz tmp/pulp-glue-0.25.2.tar.gz --markdown 20240522/p/pulp-glue/0.25.1-0.25.2/README.md --exclude *.pyd
+[2024-05-22 12:08:07] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-22 12:08:07] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-22 12:08:07] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-22 12:08:07] INFO root fetch - processPackages [internal-rdbms]: Remove: archive file [/home/abi/fetcher/tmp/internal_rdbms-0.1.4.tar.gz]
+[2024-05-22 12:08:07] INFO root fetch - processPackages [internal-rdbms]: Remove: archive file [/home/abi/fetcher/tmp/internal_rdbms-0.1.5.tar.gz]
+[2024-05-22 12:08:07] INFO root fetch - main [MainThread]: End processing [internal-rdbms]: success
+[2024-05-22 12:08:07] INFO root fetch - processPackages [pulp-glue]: Remove: archive file [/home/abi/fetcher/tmp/pulp-glue-0.25.1.tar.gz]
+[2024-05-22 12:08:07] INFO root fetch - processPackages [pulp-glue]: Remove: archive file [/home/abi/fetcher/tmp/pulp-glue-0.25.2.tar.gz]
+[2024-05-22 12:08:07] INFO root fetch - main [MainThread]: End processing [pulp-glue]: success
+[2024-05-22 12:08:07] INFO root fetch - processPackages [pulp-cli]: Remove: archive file [/home/abi/fetcher/tmp/pulp-cli-0.8.0.tar.gz]
+[2024-05-22 12:08:07] INFO root fetch - processPackages [pulp-cli]: Remove: archive file [/home/abi/fetcher/tmp/pulp-cli-0.9.0.tar.gz]
+[2024-05-22 12:08:07] INFO root fetch - main [MainThread]: End processing [pulp-cli]: success
+[2024-05-22 12:08:07] INFO root fetch - main [MainThread]: Store serial: [23322254]

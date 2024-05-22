@@ -23312,3 +23312,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 14:41:36] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nmodl_nightly-0.6.162-cp39-cp39-macosx_10_15_x86_64.whl.zip]
 [2024-05-22 14:41:36] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
 [2024-05-22 14:41:36] INFO root fetch - main [MainThread]: Store serial: [23324124]
+[2024-05-22 14:43:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23324124]
+[2024-05-22 14:43:46] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-22 14:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prusa.connect.sdk.printer
+[2024-05-22 14:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tromero-tailor
+[2024-05-22 14:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invenio-rdm-records
+[2024-05-22 14:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xray-disease-detector
+[2024-05-22 14:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edge-containers-cli
+[2024-05-22 14:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-llm
+[2024-05-22 14:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-neomodel
+[2024-05-22 14:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eodc-faas-openeo
+[2024-05-22 14:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: discord-invite
+[2024-05-22 14:43:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: model3501api
+[2024-05-22 14:43:46] INFO root fetch - processPackages [xray-disease-detector]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-22 14:43:46] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-22 14:43:46] INFO root fetch - processPackages [discord-invite]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-22 14:43:46] WARNING root fetch - processPackages [model3501api]: Skipping, unable to determine old version
+[2024-05-22 14:43:46] INFO root fetch - processPackages [model3501api]: Start processing: cvat_sdk_i_digit
+[2024-05-22 14:43:46] INFO root fetch - processPackages [edge-containers-cli]: New version: [3.5.1] Old Version: [3.5.0]
+[2024-05-22 14:43:46] INFO root fetch - main [MainThread]: End processing [model3501api] error
+[2024-05-22 14:43:46] INFO root fetch - processPackages [invenio-rdm-records]: New version: [9.1.0] Old Version: [9.0.1]
+[2024-05-22 14:43:46] INFO root fetch - processPackages [prusa.connect.sdk.printer]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-05-22 14:43:46] INFO root fetch - processPackages [django-neomodel]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-22 14:43:46] INFO root fetch - processPackages [bigdl-llm]: New version: [2.5.0b20240522] Old Version: [2.5.0b20240521]
+[2024-05-22 14:43:46] INFO root fetch - processPackages [tromero-tailor]: New version: [0.0.17] Old Version: [0.0.16]
+[2024-05-22 14:43:46] INFO root fetch - processPackages [cvat_sdk_i_digit]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-22 14:43:46] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/ca/be/0cac445d65820cd08e905a2a081f566a22c846175ec54bf2dcb1d760fd54/eodc_faas_openeo-2024.5.8.tar.gz
+[2024-05-22 14:43:46] INFO root fetch - processPackages [discord-invite]: Downloading https://files.pythonhosted.org/packages/99/d5/586a0513c5934e0b2e0b2415c543815746743b72b1f2b7b1446984996c39/discord_invite-0.1.0.tar.gz
+[2024-05-22 14:43:46] INFO root fetch - processPackages [xray-disease-detector]: Downloading https://files.pythonhosted.org/packages/8d/2d/97e0cda98e58b751b7656823ee00bbfa4d67143416b4d99151ce8daa1658/xray_disease_detector-0.0.1.tar.gz
+[2024-05-22 14:43:46] INFO root fetch - processPackages [edge-containers-cli]: Downloading https://files.pythonhosted.org/packages/87/54/dd340c62a153f2acb118e0136afedcc68c003956f541e467d05a1376faef/edge_containers_cli-3.5.0.tar.gz
+[2024-05-22 14:43:46] INFO root fetch - processPackages [prusa.connect.sdk.printer]: Downloading https://files.pythonhosted.org/packages/10/26/156f15855b9f591566a2250a9e6044e806ec05c4af18f1f615cb98772545/prusa.connect.sdk.printer-0.7.1.tar.gz
+[2024-05-22 14:43:46] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/18/fd/64e00ec4c048a386747c1bef38aee5bea63914ced22c4011af61c18c7617/invenio-rdm-records-9.0.1.tar.gz
+[2024-05-22 14:43:46] INFO root fetch - processPackages [cvat_sdk_i_digit]: Downloading https://files.pythonhosted.org/packages/50/43/2d92ae1502b65fbff8abf280d9c149fa88d0fde79e7f8a63324b21267d03/cvat_sdk_i_digit-0.0.1.tar.gz
+[2024-05-22 14:43:46] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/50/6c/1ece733b105451819dd0144d555d61cb812e431f5bde204b37954a968730/bigdl_llm-2.5.0b20240521-py3-none-win_amd64.whl
+[2024-05-22 14:43:46] INFO root fetch - processPackages [django-neomodel]: Downloading https://files.pythonhosted.org/packages/54/b5/f20236d02a65421f597cb20808b906ae48765f9d45613024d78b437bceea/django_neomodel-0.1.1.tar.gz
+[2024-05-22 14:43:47] INFO root fetch - processPackages [tromero-tailor]: Downloading https://files.pythonhosted.org/packages/78/11/7ce236a31ca72898638543c90c0aa0d39210b6a8e3d6f2c255f76786857c/tromero_tailor-0.0.16.tar.gz
+[2024-05-22 14:43:47] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/70/a2/67861a0850781907e58d3018eb24cc9a315713ff6b39c0d686305dfc2295/eodc_faas_openeo-2024.5.9.tar.gz
+[2024-05-22 14:43:47] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-05-22 14:43:47] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.5.8.tar.gz tmp/eodc_faas_openeo-2024.5.9.tar.gz --markdown 20240522/e/eodc-faas-openeo/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-22 14:43:47] INFO root fetch - processPackages [xray-disease-detector]: Downloading https://files.pythonhosted.org/packages/a6/d5/0d7763b20178837974e4532266557ea815e9a54a394eb6109e7457a60cb9/xray_disease_detector-0.0.2.tar.gz
+[2024-05-22 14:43:47] INFO root fetch - processPackages [discord-invite]: Downloading https://files.pythonhosted.org/packages/65/40/d3fd76f308f8c3cb211d44c27bf6fcae851fdeb22e6c58861e186ccb0ec9/discord_invite-0.1.1.tar.gz
+[2024-05-22 14:43:47] INFO root fetch - processPackages [prusa.connect.sdk.printer]: Downloading https://files.pythonhosted.org/packages/5f/59/f3d908914d6bf3925d5fc56038357c8240fc25abb639ad6ffe789140c697/prusa_connect_sdk_printer-0.8.0.tar.gz
+[2024-05-22 14:43:47] INFO root fetch - processPackages [edge-containers-cli]: Downloading https://files.pythonhosted.org/packages/94/c9/3b44637cbc7772af51e9d0224a29078012d0774527e174875cf844fdbee5/edge_containers_cli-3.5.1.tar.gz
+[2024-05-22 14:43:47] INFO root fetch - processPackages [django-neomodel]: Downloading https://files.pythonhosted.org/packages/b0/c2/46e9ab2a76f7e006c4955abc0ad7c70f3db5d48bcd60d9b0ac368403c911/django_neomodel-0.2.0.tar.gz
+[2024-05-22 14:43:47] INFO root fetch - processPackages [tromero-tailor]: Downloading https://files.pythonhosted.org/packages/26/ca/3d66812eb16b8147a4bba62a57c158267e1eeff4203a960d9adb311d06cb/tromero_tailor-0.0.17.tar.gz
+[2024-05-22 14:43:47] INFO root fetch - processPackages [cvat_sdk_i_digit]: Downloading https://files.pythonhosted.org/packages/a8/c1/cf6b4ce3881d8c086079df33e9f8f65be8a9934ec72f34c48545f0c443cc/cvat_sdk_i_digit-0.0.2.tar.gz
+[2024-05-22 14:43:47] INFO root fetch - processPackages [xray-disease-detector]: executing diffoscope
+[2024-05-22 14:43:47] INFO root fetch - processPackages [xray-disease-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xray_disease_detector-0.0.1.tar.gz tmp/xray_disease_detector-0.0.2.tar.gz --markdown 20240522/x/xray-disease-detector/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-22 14:43:47] INFO root fetch - processPackages [invenio-rdm-records]: Downloading https://files.pythonhosted.org/packages/ff/b3/da0e80b7a9fddba227a118921bf77e45d687a1dfb9f61cc030022dd8500e/invenio-rdm-records-9.1.0.tar.gz
+[2024-05-22 14:43:47] INFO root fetch - processPackages [discord-invite]: executing diffoscope
+[2024-05-22 14:43:47] INFO root fetch - processPackages [discord-invite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord_invite-0.1.0.tar.gz tmp/discord_invite-0.1.1.tar.gz --markdown 20240522/d/discord-invite/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-22 14:43:47] INFO root fetch - processPackages [prusa.connect.sdk.printer]: executing diffoscope
+[2024-05-22 14:43:47] INFO root fetch - processPackages [prusa.connect.sdk.printer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prusa.connect.sdk.printer-0.7.1.tar.gz tmp/prusa_connect_sdk_printer-0.8.0.tar.gz --markdown 20240522/p/prusa.connect.sdk.printer/0.7.1-0.8.0/README.md --exclude *.pyd
+[2024-05-22 14:43:47] INFO root fetch - processPackages [cvat_sdk_i_digit]: executing diffoscope
+[2024-05-22 14:43:47] INFO root fetch - processPackages [cvat_sdk_i_digit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_sdk_i_digit-0.0.1.tar.gz tmp/cvat_sdk_i_digit-0.0.2.tar.gz --markdown 20240522/c/cvat_sdk_i_digit/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-22 14:43:47] INFO root fetch - processPackages [tromero-tailor]: executing diffoscope
+[2024-05-22 14:43:47] INFO root fetch - processPackages [tromero-tailor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tromero_tailor-0.0.16.tar.gz tmp/tromero_tailor-0.0.17.tar.gz --markdown 20240522/t/tromero-tailor/0.0.16-0.0.17/README.md --exclude *.pyd
+[2024-05-22 14:43:47] INFO root fetch - processPackages [django-neomodel]: executing diffoscope
+[2024-05-22 14:43:47] INFO root fetch - processPackages [django-neomodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_neomodel-0.1.1.tar.gz tmp/django_neomodel-0.2.0.tar.gz --markdown 20240522/d/django-neomodel/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-22 14:43:47] INFO root fetch - processPackages [edge-containers-cli]: executing diffoscope
+[2024-05-22 14:43:47] INFO root fetch - processPackages [edge-containers-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edge_containers_cli-3.5.0.tar.gz tmp/edge_containers_cli-3.5.1.tar.gz --markdown 20240522/e/edge-containers-cli/3.5.0-3.5.1/README.md --exclude *.pyd
+[2024-05-22 14:43:47] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/ce/d7/5c0f30d60d2fa22330cfeea53d272383b2f1e0b5885e9273da052826b388/bigdl_llm-2.5.0b20240522-py3-none-win_amd64.whl
+[2024-05-22 14:43:47] INFO root fetch - processPackages [invenio-rdm-records]: executing diffoscope
+[2024-05-22 14:43:47] INFO root fetch - processPackages [invenio-rdm-records]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-rdm-records-9.0.1.tar.gz tmp/invenio-rdm-records-9.1.0.tar.gz --markdown 20240522/i/invenio-rdm-records/9.0.1-9.1.0/README.md --exclude *.pyd
+[2024-05-22 14:43:48] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.8.tar.gz]
+[2024-05-22 14:43:48] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.5.9.tar.gz]
+[2024-05-22 14:43:48] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-05-22 14:43:48] INFO root fetch - processPackages [xray-disease-detector]: Remove: archive file [/home/abi/fetcher/tmp/xray_disease_detector-0.0.1.tar.gz]
+[2024-05-22 14:43:48] INFO root fetch - processPackages [xray-disease-detector]: Remove: archive file [/home/abi/fetcher/tmp/xray_disease_detector-0.0.2.tar.gz]
+[2024-05-22 14:43:48] INFO root fetch - main [MainThread]: End processing [xray-disease-detector]: success
+[2024-05-22 14:43:48] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2024-05-22 14:43:48] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.5.0b20240521-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.5.0b20240522-py3-none-win_amd64.whl.zip --markdown 20240522/b/bigdl-llm/2.5.0b20240521-2.5.0b20240522/README.md --exclude *.pyd
+[2024-05-22 14:43:48] INFO root fetch - processPackages [discord-invite]: Remove: archive file [/home/abi/fetcher/tmp/discord_invite-0.1.0.tar.gz]
+[2024-05-22 14:43:48] INFO root fetch - processPackages [discord-invite]: Remove: archive file [/home/abi/fetcher/tmp/discord_invite-0.1.1.tar.gz]
+[2024-05-22 14:43:48] INFO root fetch - main [MainThread]: End processing [discord-invite]: success
+[2024-05-22 14:43:48] INFO root fetch - processPackages [cvat_sdk_i_digit]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk_i_digit-0.0.1.tar.gz]
+[2024-05-22 14:43:48] INFO root fetch - processPackages [cvat_sdk_i_digit]: Remove: archive file [/home/abi/fetcher/tmp/cvat_sdk_i_digit-0.0.2.tar.gz]
+[2024-05-22 14:43:48] INFO root fetch - main [MainThread]: End processing [cvat_sdk_i_digit]: success
+[2024-05-22 14:43:48] INFO root fetch - processPackages [tromero-tailor]: Remove: archive file [/home/abi/fetcher/tmp/tromero_tailor-0.0.16.tar.gz]
+[2024-05-22 14:43:48] INFO root fetch - processPackages [tromero-tailor]: Remove: archive file [/home/abi/fetcher/tmp/tromero_tailor-0.0.17.tar.gz]
+[2024-05-22 14:43:48] INFO root fetch - main [MainThread]: End processing [tromero-tailor]: success
+[2024-05-22 14:43:48] INFO root fetch - processPackages [django-neomodel]: Remove: archive file [/home/abi/fetcher/tmp/django_neomodel-0.1.1.tar.gz]
+[2024-05-22 14:43:48] INFO root fetch - processPackages [django-neomodel]: Remove: archive file [/home/abi/fetcher/tmp/django_neomodel-0.2.0.tar.gz]
+[2024-05-22 14:43:48] INFO root fetch - main [MainThread]: End processing [django-neomodel]: success
+[2024-05-22 14:43:48] INFO root fetch - processPackages [prusa.connect.sdk.printer]: Remove: archive file [/home/abi/fetcher/tmp/prusa.connect.sdk.printer-0.7.1.tar.gz]
+[2024-05-22 14:43:48] INFO root fetch - processPackages [prusa.connect.sdk.printer]: Remove: archive file [/home/abi/fetcher/tmp/prusa_connect_sdk_printer-0.8.0.tar.gz]
+[2024-05-22 14:43:49] INFO root fetch - main [MainThread]: End processing [prusa.connect.sdk.printer]: success
+[2024-05-22 14:43:49] INFO root fetch - processPackages [edge-containers-cli]: Remove: archive file [/home/abi/fetcher/tmp/edge_containers_cli-3.5.0.tar.gz]
+[2024-05-22 14:43:49] INFO root fetch - processPackages [edge-containers-cli]: Remove: archive file [/home/abi/fetcher/tmp/edge_containers_cli-3.5.1.tar.gz]
+[2024-05-22 14:43:49] INFO root fetch - main [MainThread]: End processing [edge-containers-cli]: success
+[2024-05-22 14:43:50] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240521-py3-none-win_amd64.whl.zip]
+[2024-05-22 14:43:50] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.5.0b20240522-py3-none-win_amd64.whl.zip]
+[2024-05-22 14:43:50] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2024-05-22 14:43:52] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.0.1.tar.gz]
+[2024-05-22 14:43:52] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.1.0.tar.gz]
+[2024-05-22 14:43:52] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
+[2024-05-22 14:43:52] INFO root fetch - main [MainThread]: Store serial: [23324174]

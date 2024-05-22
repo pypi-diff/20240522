@@ -10566,3 +10566,69 @@
 [2024-05-22 05:54:54] INFO root fetch - processPackages [unyts]: Remove: archive file [/home/abi/fetcher/tmp/unyts-0.8.9.tar.gz]
 [2024-05-22 05:54:54] INFO root fetch - main [MainThread]: End processing [unyts]: success
 [2024-05-22 05:54:54] INFO root fetch - main [MainThread]: Store serial: [23318519]
+[2024-05-22 05:56:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318519]
+[2024-05-22 05:57:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 05:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syncmodels
+[2024-05-22 05:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swarmtube
+[2024-05-22 05:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agptools
+[2024-05-22 05:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-filter
+[2024-05-22 05:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tsugu
+[2024-05-22 05:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: poseidon-rna
+[2024-05-22 05:57:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ivande-combiner
+[2024-05-22 05:57:03] INFO root fetch - processPackages [swarmtube]: New version: [0.1.45] Old Version: [0.1.44]
+[2024-05-22 05:57:03] INFO root fetch - processPackages [poseidon-rna]: New version: [0.6] Old Version: [0.5]
+[2024-05-22 05:57:03] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 05:57:03] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 05:57:03] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-05-22 05:57:03] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/5e/c2/40ad16679270f1644ac226ce096432bcb0f3ba3a9693f61fafa71de4787f/swarmtube-0.1.44-py2.py3-none-any.whl
+[2024-05-22 05:57:03] INFO root fetch - processPackages [python-filter]: New version: [2.1.0] Old Version: [2.0.6]
+[2024-05-22 05:57:03] INFO root fetch - processPackages [tsugu]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-05-22 05:57:03] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-05-22 05:57:03] INFO root fetch - processPackages [ivande-combiner]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-22 05:57:03] INFO root fetch - processPackages [poseidon-rna]: Downloading https://files.pythonhosted.org/packages/0c/8e/42f70cb49274258e52f31c476499546328f4818de59ff13111385541afec/poseidon_rna-0.5.tar.gz
+[2024-05-22 05:57:03] INFO root fetch - processPackages [python-filter]: Downloading https://files.pythonhosted.org/packages/0c/3f/5dd688e274d365a15a95e7f42718756eefac8ad8fc4f5163845dd5bb7c80/python-filter-2.0.6.tar.gz
+[2024-05-22 05:57:03] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-05-22 05:57:03] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/ad/a3/775ac009d892fe1d59d3a6afde88c30e65246658ea9a0c5cc3c2828251e7/tsugu-2.0.5.tar.gz
+[2024-05-22 05:57:03] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/ba/46/f0ee6bfd565cc326320fc9ecaf59557ca2bea1d803ce408cde89a8e43082/ivande_combiner-0.0.5.tar.gz
+[2024-05-22 05:57:03] INFO root fetch - processPackages [swarmtube]: Downloading https://files.pythonhosted.org/packages/c3/84/ebbd0ec32fe67e04e6a441cb1e4c02e9508410de3a50a23dff3cb9da197b/swarmtube-0.1.45-py2.py3-none-any.whl
+[2024-05-22 05:57:03] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-05-22 05:57:03] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-05-22 05:57:03] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240522/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 05:57:04] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-05-22 05:57:04] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240522/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 05:57:04] INFO root fetch - processPackages [swarmtube]: executing diffoscope
+[2024-05-22 05:57:04] INFO root fetch - processPackages [swarmtube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmtube-0.1.44-py2.py3-none-any.whl.zip tmp/swarmtube-0.1.45-py2.py3-none-any.whl.zip --markdown 20240522/s/swarmtube/0.1.44-0.1.45/README.md --exclude *.pyd
+[2024-05-22 05:57:04] INFO root fetch - processPackages [python-filter]: Downloading https://files.pythonhosted.org/packages/97/eb/543ac15b8cb1c555c636686ae380e922c1674cc39258fc35f5756245e673/python_filter-2.1.0.tar.gz
+[2024-05-22 05:57:04] INFO root fetch - processPackages [poseidon-rna]: Downloading https://files.pythonhosted.org/packages/80/bc/ee41910f8300ca7c9af6e2e00b3ce02e09be5adbdfcb28e28fbb29c4b1ee/poseidon_rna-0.6.tar.gz
+[2024-05-22 05:57:04] INFO root fetch - processPackages [tsugu]: Downloading https://files.pythonhosted.org/packages/f4/ab/ed5dd6ef0c6869c9460c43076c02fae079c386bfe237bc75f252ffdb89ee/tsugu-2.0.6.tar.gz
+[2024-05-22 05:57:04] INFO root fetch - processPackages [python-filter]: executing diffoscope
+[2024-05-22 05:57:04] INFO root fetch - processPackages [python-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-filter-2.0.6.tar.gz tmp/python_filter-2.1.0.tar.gz --markdown 20240522/p/python-filter/2.0.6-2.1.0/README.md --exclude *.pyd
+[2024-05-22 05:57:04] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/4f/68/1e80572a330b614390ec028d5b7d6ec41ae7188f49980af1f33d011fa9b9/ivande_combiner-0.0.6.tar.gz
+[2024-05-22 05:57:04] INFO root fetch - processPackages [poseidon-rna]: executing diffoscope
+[2024-05-22 05:57:04] INFO root fetch - processPackages [poseidon-rna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poseidon_rna-0.5.tar.gz tmp/poseidon_rna-0.6.tar.gz --markdown 20240522/p/poseidon-rna/0.5-0.6/README.md --exclude *.pyd
+[2024-05-22 05:57:04] INFO root fetch - processPackages [tsugu]: executing diffoscope
+[2024-05-22 05:57:04] INFO root fetch - processPackages [tsugu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsugu-2.0.5.tar.gz tmp/tsugu-2.0.6.tar.gz --markdown 20240522/t/tsugu/2.0.5-2.0.6/README.md --exclude *.pyd
+[2024-05-22 05:57:04] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-22 05:57:04] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-22 05:57:04] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-05-22 05:57:04] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-22 05:57:04] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-22 05:57:04] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-05-22 05:57:04] INFO root fetch - processPackages [ivande-combiner]: executing diffoscope
+[2024-05-22 05:57:04] INFO root fetch - processPackages [ivande-combiner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivande_combiner-0.0.5.tar.gz tmp/ivande_combiner-0.0.6.tar.gz --markdown 20240522/i/ivande-combiner/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-22 05:57:04] INFO root fetch - processPackages [python-filter]: Remove: archive file [/home/abi/fetcher/tmp/python-filter-2.0.6.tar.gz]
+[2024-05-22 05:57:04] INFO root fetch - processPackages [python-filter]: Remove: archive file [/home/abi/fetcher/tmp/python_filter-2.1.0.tar.gz]
+[2024-05-22 05:57:04] INFO root fetch - main [MainThread]: End processing [python-filter]: success
+[2024-05-22 05:57:04] INFO root fetch - processPackages [poseidon-rna]: Remove: archive file [/home/abi/fetcher/tmp/poseidon_rna-0.5.tar.gz]
+[2024-05-22 05:57:04] INFO root fetch - processPackages [poseidon-rna]: Remove: archive file [/home/abi/fetcher/tmp/poseidon_rna-0.6.tar.gz]
+[2024-05-22 05:57:04] INFO root fetch - main [MainThread]: End processing [poseidon-rna]: success
+[2024-05-22 05:57:04] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.44-py2.py3-none-any.whl.zip]
+[2024-05-22 05:57:04] INFO root fetch - processPackages [swarmtube]: Remove: archive file [/home/abi/fetcher/tmp/swarmtube-0.1.45-py2.py3-none-any.whl.zip]
+[2024-05-22 05:57:04] INFO root fetch - main [MainThread]: End processing [swarmtube]: success
+[2024-05-22 05:57:05] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-2.0.5.tar.gz]
+[2024-05-22 05:57:05] INFO root fetch - processPackages [tsugu]: Remove: archive file [/home/abi/fetcher/tmp/tsugu-2.0.6.tar.gz]
+[2024-05-22 05:57:05] INFO root fetch - main [MainThread]: End processing [tsugu]: success
+[2024-05-22 05:57:05] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.5.tar.gz]
+[2024-05-22 05:57:05] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.6.tar.gz]
+[2024-05-22 05:57:05] INFO root fetch - main [MainThread]: End processing [ivande-combiner]: success
+[2024-05-22 05:57:05] INFO root fetch - main [MainThread]: Store serial: [23318533]

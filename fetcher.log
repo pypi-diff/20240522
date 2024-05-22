@@ -19563,3 +19563,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:12:33] INFO root fetch - processPackages [hitran-api]: Remove: archive file [/home/abi/fetcher/tmp/hitran_api-1.2.2.2-py2.py3-none-any.whl.zip]
 [2024-05-22 12:12:33] INFO root fetch - main [MainThread]: End processing [hitran-api]: success
 [2024-05-22 12:12:33] INFO root fetch - main [MainThread]: Store serial: [23322322]
+[2024-05-22 12:14:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322322]
+[2024-05-22 12:14:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 12:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-pogo
+[2024-05-22 12:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-ticketbai
+[2024-05-22 12:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: youwol
+[2024-05-22 12:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: HandyLLM
+[2024-05-22 12:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: danila-lib
+[2024-05-22 12:14:46] INFO root fetch - processPackages [pytest-pogo]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-22 12:14:46] INFO root fetch - processPackages [HandyLLM]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-22 12:14:46] INFO root fetch - processPackages [danila-lib]: New version: [1.7.3] Old Version: [1.7.2]
+[2024-05-22 12:14:46] INFO root fetch - processPackages [pytest-pogo]: Downloading https://files.pythonhosted.org/packages/3d/6a/0000da24eb0b3b42d2a3f59900bd6c37429e35c15c0bbf0666a36b939bb5/pytest_pogo-0.0.2.tar.gz
+[2024-05-22 12:14:46] WARNING root fetch - processPackages [django-ticketbai]: Skipping, unable to determine old version
+[2024-05-22 12:14:46] INFO root fetch - main [MainThread]: End processing [django-ticketbai] error
+[2024-05-22 12:14:46] INFO root fetch - processPackages [HandyLLM]: Downloading https://files.pythonhosted.org/packages/b3/a6/72ff120f4662ffe2c3eecdd980bc33c7d34764c5b3b96f9775a7bd988dbf/handyllm-0.7.2.tar.gz
+[2024-05-22 12:14:46] INFO root fetch - processPackages [youwol]: New version: [0.1.9rc1] Old Version: [0.1.9rc0]
+[2024-05-22 12:14:46] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/cb/ff/f5e7461d4f37f30580924e7d42d15c4ae48159e12a05cfda5557c4d73a1c/danila-lib-1.7.2.tar.gz
+[2024-05-22 12:14:47] INFO root fetch - processPackages [youwol]: Downloading https://files.pythonhosted.org/packages/d1/0b/3346293495321ca05f54f22bf76428fb93c279cd896a7bb38c3fba2dbc19/youwol-0.1.9rc0.tar.gz
+[2024-05-22 12:14:47] INFO root fetch - processPackages [pytest-pogo]: Downloading https://files.pythonhosted.org/packages/cc/68/ad90f526bd0708d79b98b5ce07b1f0dcc42197b735a8566b968b40e6824a/pytest_pogo-0.0.3.tar.gz
+[2024-05-22 12:14:47] INFO root fetch - processPackages [HandyLLM]: Downloading https://files.pythonhosted.org/packages/12/1d/10f7fdbadaf0bbe8d49871a07a1210669d40a474866e1601f9b15a1076c7/handyllm-0.7.3.tar.gz
+[2024-05-22 12:14:48] INFO root fetch - processPackages [pytest-pogo]: executing diffoscope
+[2024-05-22 12:14:48] INFO root fetch - processPackages [pytest-pogo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_pogo-0.0.2.tar.gz tmp/pytest_pogo-0.0.3.tar.gz --markdown 20240522/p/pytest-pogo/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-22 12:14:48] INFO root fetch - processPackages [HandyLLM]: executing diffoscope
+[2024-05-22 12:14:48] INFO root fetch - processPackages [HandyLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/handyllm-0.7.2.tar.gz tmp/handyllm-0.7.3.tar.gz --markdown 20240522/H/HandyLLM/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-22 12:14:48] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/e2/9c/a53b08d1585044c30baff13e7d7694201bb5327672bffdf7e31e5cbe0b28/danila-lib-1.7.3.tar.gz
+[2024-05-22 12:14:48] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-22 12:14:48] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.7.2.tar.gz tmp/danila-lib-1.7.3.tar.gz --markdown 20240522/d/danila-lib/1.7.2-1.7.3/README.md --exclude *.pyd
+[2024-05-22 12:14:48] INFO root fetch - processPackages [youwol]: Downloading https://files.pythonhosted.org/packages/9e/42/3d7811c7a33214ffdf0537d9231f2ae903e06631b1c085abb5a00cf99ca5/youwol-0.1.9rc1.tar.gz
+[2024-05-22 12:14:48] INFO root fetch - processPackages [youwol]: executing diffoscope
+[2024-05-22 12:14:48] INFO root fetch - processPackages [youwol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youwol-0.1.9rc0.tar.gz tmp/youwol-0.1.9rc1.tar.gz --markdown 20240522/y/youwol/0.1.9rc0-0.1.9rc1/README.md --exclude *.pyd
+[2024-05-22 12:14:48] INFO root fetch - processPackages [HandyLLM]: Remove: archive file [/home/abi/fetcher/tmp/handyllm-0.7.2.tar.gz]
+[2024-05-22 12:14:48] INFO root fetch - processPackages [HandyLLM]: Remove: archive file [/home/abi/fetcher/tmp/handyllm-0.7.3.tar.gz]
+[2024-05-22 12:14:48] INFO root fetch - main [MainThread]: End processing [HandyLLM]: success
+[2024-05-22 12:14:48] INFO root fetch - processPackages [pytest-pogo]: Remove: archive file [/home/abi/fetcher/tmp/pytest_pogo-0.0.2.tar.gz]
+[2024-05-22 12:14:48] INFO root fetch - processPackages [pytest-pogo]: Remove: archive file [/home/abi/fetcher/tmp/pytest_pogo-0.0.3.tar.gz]
+[2024-05-22 12:14:48] INFO root fetch - main [MainThread]: End processing [pytest-pogo]: success
+[2024-05-22 12:14:48] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.7.2.tar.gz]
+[2024-05-22 12:14:48] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.7.3.tar.gz]
+[2024-05-22 12:14:48] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-22 12:14:49] INFO root fetch - processPackages [youwol]: Remove: archive file [/home/abi/fetcher/tmp/youwol-0.1.9rc0.tar.gz]
+[2024-05-22 12:14:49] INFO root fetch - processPackages [youwol]: Remove: archive file [/home/abi/fetcher/tmp/youwol-0.1.9rc1.tar.gz]
+[2024-05-22 12:14:49] INFO root fetch - main [MainThread]: End processing [youwol]: success
+[2024-05-22 12:14:49] INFO root fetch - main [MainThread]: Store serial: [23322339]

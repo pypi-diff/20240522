@@ -10334,3 +10334,70 @@
 [2024-05-22 05:43:59] INFO root fetch - processPackages [hermes-cai]: Remove: archive file [/home/abi/fetcher/tmp/hermes_cai-0.0.9.tar.gz]
 [2024-05-22 05:43:59] INFO root fetch - main [MainThread]: End processing [hermes-cai]: success
 [2024-05-22 05:43:59] INFO root fetch - main [MainThread]: Store serial: [23318394]
+[2024-05-22 05:46:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318394]
+[2024-05-22 05:46:07] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 05:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-nets-core
+[2024-05-22 05:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-ddmrp-product-replace
+[2024-05-22 05:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cookiecutter-django-package-instance
+[2024-05-22 05:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-ddmrp-cron-actions-as-job
+[2024-05-22 05:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-ddmrp-exclude-moves-adu-calc
+[2024-05-22 05:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pinjected
+[2024-05-22 05:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: skillpacks
+[2024-05-22 05:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pinjected
+[2024-05-22 05:46:08] INFO root fetch - processPackages [django-nets-core]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-22 05:46:08] INFO root fetch - processPackages [odoo-addon-ddmrp-product-replace]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2024-05-22 05:46:08] INFO root fetch - processPackages [django-nets-core]: Downloading https://files.pythonhosted.org/packages/79/c3/cda8f33a48cc3ba33d3b6d9e2fbd7ee2b5c3361c5337b09da3d8a207b017/django_nets_core-0.1.98.tar.gz
+[2024-05-22 05:46:08] WARNING root fetch - processPackages [cookiecutter-django-package-instance]: Skipping, unable to determine old version
+[2024-05-22 05:46:08] INFO root fetch - processPackages [skillpacks]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 05:46:08] INFO root fetch - main [MainThread]: End processing [cookiecutter-django-package-instance] error
+[2024-05-22 05:46:08] INFO root fetch - processPackages [odoo-addon-ddmrp-exclude-moves-adu-calc]: New version: [16.0.1.0.1.4] Old Version: [16.0.1.0.1.3]
+[2024-05-22 05:46:08] INFO root fetch - processPackages [odoo-addon-ddmrp-cron-actions-as-job]: New version: [16.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2024-05-22 05:46:08] INFO root fetch - processPackages [pinjected]: New version: [0.2.72] Old Version: [0.2.71]
+[2024-05-22 05:46:08] INFO root fetch - processPackages [pinjected]: New version: [0.2.72] Old Version: [0.2.71]
+[2024-05-22 05:46:08] INFO root fetch - processPackages [odoo-addon-ddmrp-product-replace]: Downloading https://files.pythonhosted.org/packages/5d/3c/cf43afe40b05494846c01000c7955cada89caf41acb0c014bc236d188413/odoo_addon_ddmrp_product_replace-16.0.1.1.0-py3-none-any.whl
+[2024-05-22 05:46:08] INFO root fetch - processPackages [django-nets-core]: Downloading https://files.pythonhosted.org/packages/36/e9/30dde935785c504d8cae7b3855974eccdf725a0992dff1f40f413d916c8b/django_nets_core-0.1.99.tar.gz
+[2024-05-22 05:46:08] INFO root fetch - processPackages [skillpacks]: Downloading https://files.pythonhosted.org/packages/e5/2f/a1c43b4d509c4f512639a4b941f93a4a156c544bd2a39f3491b050d2ebbf/skillpacks-0.1.8.tar.gz
+[2024-05-22 05:46:08] INFO root fetch - processPackages [odoo-addon-ddmrp-exclude-moves-adu-calc]: Downloading https://files.pythonhosted.org/packages/94/81/74d19579e6b477041972a4b2d33baa4472804788e0d5d0b5e298cb1a73ef/odoo_addon_ddmrp_exclude_moves_adu_calc-16.0.1.0.1.3-py3-none-any.whl
+[2024-05-22 05:46:08] INFO root fetch - processPackages [odoo-addon-ddmrp-cron-actions-as-job]: Downloading https://files.pythonhosted.org/packages/6a/67/6b6a99cb503c216f57d760ddb959962749e7cf1dd0ce9be45a44a4514ee2/odoo_addon_ddmrp_cron_actions_as_job-16.0.1.0.0.1-py3-none-any.whl
+[2024-05-22 05:46:08] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/56/bf/b9b3ae0d817e1a6ec09eed289fcee2912893884f021072eae901ad42053e/pinjected-0.2.71.tar.gz
+[2024-05-22 05:46:08] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/56/bf/b9b3ae0d817e1a6ec09eed289fcee2912893884f021072eae901ad42053e/pinjected-0.2.71.tar.gz
+[2024-05-22 05:46:08] INFO root fetch - processPackages [django-nets-core]: executing diffoscope
+[2024-05-22 05:46:08] INFO root fetch - processPackages [django-nets-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_nets_core-0.1.98.tar.gz tmp/django_nets_core-0.1.99.tar.gz --markdown 20240522/d/django-nets-core/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-22 05:46:08] INFO root fetch - processPackages [odoo-addon-ddmrp-product-replace]: Downloading https://files.pythonhosted.org/packages/69/67/a6e0e7926cd2ea522b35174a9a8e3f26b1bf29d35b25f3a4d6cf1933c203/odoo_addon_ddmrp_product_replace-16.0.1.1.0.1-py3-none-any.whl
+[2024-05-22 05:46:08] INFO root fetch - processPackages [skillpacks]: Downloading https://files.pythonhosted.org/packages/b6/89/f0de80c844dbbf0e0a57a873f9722d300512a78e06c8ea86863eb3f8391d/skillpacks-0.1.9.tar.gz
+[2024-05-22 05:46:08] INFO root fetch - processPackages [odoo-addon-ddmrp-exclude-moves-adu-calc]: Downloading https://files.pythonhosted.org/packages/e5/bb/7cb2d8f4a538085fc61601a6233fbfba24232f904e7929e0d476e51c9fbe/odoo_addon_ddmrp_exclude_moves_adu_calc-16.0.1.0.1.4-py3-none-any.whl
+[2024-05-22 05:46:08] INFO root fetch - processPackages [odoo-addon-ddmrp-product-replace]: executing diffoscope
+[2024-05-22 05:46:08] INFO root fetch - processPackages [odoo-addon-ddmrp-product-replace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_product_replace-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_product_replace-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-ddmrp-product-replace/16.0.1.1.0-16.0.1.1.0.1/README.md --exclude *.pyd
+[2024-05-22 05:46:08] INFO root fetch - processPackages [odoo-addon-ddmrp-cron-actions-as-job]: Downloading https://files.pythonhosted.org/packages/36/30/e7f5e8bfcf3496d714178a771097d77f58ca62fbfbcdf72f8693b4d0a747/odoo_addon_ddmrp_cron_actions_as_job-16.0.1.0.0.2-py3-none-any.whl
+[2024-05-22 05:46:08] INFO root fetch - processPackages [odoo-addon-ddmrp-exclude-moves-adu-calc]: executing diffoscope
+[2024-05-22 05:46:08] INFO root fetch - processPackages [odoo-addon-ddmrp-exclude-moves-adu-calc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_exclude_moves_adu_calc-16.0.1.0.1.3-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_exclude_moves_adu_calc-16.0.1.0.1.4-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-ddmrp-exclude-moves-adu-calc/16.0.1.0.1.3-16.0.1.0.1.4/README.md --exclude *.pyd
+[2024-05-22 05:46:09] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/41/2b/0096fdc2e09ae0287235409a57201181da8f4d10960fb57f9dd1c86f3faa/pinjected-0.2.72.tar.gz
+[2024-05-22 05:46:09] INFO root fetch - processPackages [pinjected]: Downloading https://files.pythonhosted.org/packages/41/2b/0096fdc2e09ae0287235409a57201181da8f4d10960fb57f9dd1c86f3faa/pinjected-0.2.72.tar.gz
+[2024-05-22 05:46:09] INFO root fetch - processPackages [skillpacks]: executing diffoscope
+[2024-05-22 05:46:09] INFO root fetch - processPackages [skillpacks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skillpacks-0.1.8.tar.gz tmp/skillpacks-0.1.9.tar.gz --markdown 20240522/s/skillpacks/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 05:46:09] INFO root fetch - processPackages [odoo-addon-ddmrp-cron-actions-as-job]: executing diffoscope
+[2024-05-22 05:46:09] INFO root fetch - processPackages [odoo-addon-ddmrp-cron-actions-as-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_cron_actions_as_job-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_cron_actions_as_job-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-ddmrp-cron-actions-as-job/16.0.1.0.0.1-16.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-22 05:46:09] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-05-22 05:46:09] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.71.tar.gz tmp/pinjected-0.2.72.tar.gz --markdown 20240522/p/pinjected/0.2.71-0.2.72/README.md --exclude *.pyd
+[2024-05-22 05:46:09] INFO root fetch - processPackages [pinjected]: executing diffoscope
+[2024-05-22 05:46:09] INFO root fetch - processPackages [pinjected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinjected-0.2.71.tar.gz tmp/pinjected-0.2.72.tar.gz --markdown 20240522/p/pinjected/0.2.71-0.2.72/README.md --exclude *.pyd
+[2024-05-22 05:46:09] INFO root fetch - processPackages [django-nets-core]: Remove: archive file [/home/abi/fetcher/tmp/django_nets_core-0.1.98.tar.gz]
+[2024-05-22 05:46:09] INFO root fetch - processPackages [django-nets-core]: Remove: archive file [/home/abi/fetcher/tmp/django_nets_core-0.1.99.tar.gz]
+[2024-05-22 05:46:09] INFO root fetch - main [MainThread]: End processing [django-nets-core]: success
+[2024-05-22 05:46:09] INFO root fetch - processPackages [odoo-addon-ddmrp-exclude-moves-adu-calc]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_exclude_moves_adu_calc-16.0.1.0.1.3-py3-none-any.whl.zip]
+[2024-05-22 05:46:09] INFO root fetch - processPackages [odoo-addon-ddmrp-exclude-moves-adu-calc]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_exclude_moves_adu_calc-16.0.1.0.1.4-py3-none-any.whl.zip]
+[2024-05-22 05:46:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-exclude-moves-adu-calc]: success
+[2024-05-22 05:46:09] INFO root fetch - processPackages [odoo-addon-ddmrp-cron-actions-as-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_cron_actions_as_job-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-05-22 05:46:09] INFO root fetch - processPackages [odoo-addon-ddmrp-cron-actions-as-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_cron_actions_as_job-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-22 05:46:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-cron-actions-as-job]: success
+[2024-05-22 05:46:09] INFO root fetch - processPackages [skillpacks]: Remove: archive file [/home/abi/fetcher/tmp/skillpacks-0.1.8.tar.gz]
+[2024-05-22 05:46:09] INFO root fetch - processPackages [skillpacks]: Remove: archive file [/home/abi/fetcher/tmp/skillpacks-0.1.9.tar.gz]
+[2024-05-22 05:46:09] INFO root fetch - main [MainThread]: End processing [skillpacks]: success
+[2024-05-22 05:46:09] INFO root fetch - processPackages [odoo-addon-ddmrp-product-replace]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_product_replace-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-05-22 05:46:09] INFO root fetch - processPackages [odoo-addon-ddmrp-product-replace]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_product_replace-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-05-22 05:46:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-product-replace]: success
+[2024-05-22 05:46:10] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.71.tar.gz]
+[2024-05-22 05:46:10] INFO root fetch - processPackages [pinjected]: Remove: archive file [/home/abi/fetcher/tmp/pinjected-0.2.72.tar.gz]
+[2024-05-22 05:46:10] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-05-22 05:46:10] INFO root fetch - main [MainThread]: End processing [pinjected]: success
+[2024-05-22 05:46:10] INFO root fetch - main [MainThread]: Store serial: [23318415]

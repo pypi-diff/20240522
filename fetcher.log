@@ -10536,3 +10536,33 @@
 [2024-05-22 05:52:44] INFO root fetch - processPackages [agent0]: Remove: archive file [/home/abi/fetcher/tmp/agent0-0.20.0.tar.gz]
 [2024-05-22 05:52:44] INFO root fetch - main [MainThread]: End processing [agent0]: success
 [2024-05-22 05:52:44] INFO root fetch - main [MainThread]: Store serial: [23318511]
+[2024-05-22 05:54:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318511]
+[2024-05-22 05:54:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 05:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unyts
+[2024-05-22 05:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Fr1997v011
+[2024-05-22 05:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: internal-rdbms
+[2024-05-22 05:54:53] INFO root fetch - processPackages [internal-rdbms]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-22 05:54:53] INFO root fetch - processPackages [Fr1997v011]: New version: [1.5.8] Old Version: [1.5.6]
+[2024-05-22 05:54:53] INFO root fetch - processPackages [internal-rdbms]: Downloading https://files.pythonhosted.org/packages/43/77/db319c788963480c3e7711784ac5e817fb9dbf6a75711c4f9f8f97d08c1b/internal_rdbms-0.1.1.tar.gz
+[2024-05-22 05:54:53] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/be/a4/4ac69fbebbbd3b013dd0b919f86ea9893e6e9bcb45ae0a74fa0cbfac6792/Fr1997v011-1.5.6.tar.gz
+[2024-05-22 05:54:53] INFO root fetch - processPackages [unyts]: New version: [0.8.9] Old Version: [0.8.3]
+[2024-05-22 05:54:53] INFO root fetch - processPackages [unyts]: Downloading https://files.pythonhosted.org/packages/cd/91/7bced74eee46f70c87f5e7ed608979d3a1a43fe1438b2aa0c795da837ff5/unyts-0.8.3.tar.gz
+[2024-05-22 05:54:53] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/39/4d/b89bae3d2c15166d38e533ab4f6698f61e9d06490e8b734b825899358b78/Fr1997v011-1.5.8.tar.gz
+[2024-05-22 05:54:53] INFO root fetch - processPackages [internal-rdbms]: Downloading https://files.pythonhosted.org/packages/85/fe/6f45f164e3655d5daacaa0fb0e70358adf953d850f0bcb652c47ba141b7a/internal_rdbms-0.1.2.tar.gz
+[2024-05-22 05:54:53] INFO root fetch - processPackages [Fr1997v011]: executing diffoscope
+[2024-05-22 05:54:53] INFO root fetch - processPackages [Fr1997v011]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fr1997v011-1.5.6.tar.gz tmp/Fr1997v011-1.5.8.tar.gz --markdown 20240522/F/Fr1997v011/1.5.6-1.5.8/README.md --exclude *.pyd
+[2024-05-22 05:54:53] INFO root fetch - processPackages [internal-rdbms]: executing diffoscope
+[2024-05-22 05:54:53] INFO root fetch - processPackages [internal-rdbms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internal_rdbms-0.1.1.tar.gz tmp/internal_rdbms-0.1.2.tar.gz --markdown 20240522/i/internal-rdbms/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-22 05:54:53] INFO root fetch - processPackages [unyts]: Downloading https://files.pythonhosted.org/packages/8f/e1/188d783eaa0079854357600e3fb8190a8fc032e1d3625ae431141bf58fb5/unyts-0.8.9.tar.gz
+[2024-05-22 05:54:54] INFO root fetch - processPackages [unyts]: executing diffoscope
+[2024-05-22 05:54:54] INFO root fetch - processPackages [unyts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unyts-0.8.3.tar.gz tmp/unyts-0.8.9.tar.gz --markdown 20240522/u/unyts/0.8.3-0.8.9/README.md --exclude *.pyd
+[2024-05-22 05:54:54] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.5.6.tar.gz]
+[2024-05-22 05:54:54] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.5.8.tar.gz]
+[2024-05-22 05:54:54] INFO root fetch - main [MainThread]: End processing [Fr1997v011]: success
+[2024-05-22 05:54:54] INFO root fetch - processPackages [internal-rdbms]: Remove: archive file [/home/abi/fetcher/tmp/internal_rdbms-0.1.1.tar.gz]
+[2024-05-22 05:54:54] INFO root fetch - processPackages [internal-rdbms]: Remove: archive file [/home/abi/fetcher/tmp/internal_rdbms-0.1.2.tar.gz]
+[2024-05-22 05:54:54] INFO root fetch - main [MainThread]: End processing [internal-rdbms]: success
+[2024-05-22 05:54:54] INFO root fetch - processPackages [unyts]: Remove: archive file [/home/abi/fetcher/tmp/unyts-0.8.3.tar.gz]
+[2024-05-22 05:54:54] INFO root fetch - processPackages [unyts]: Remove: archive file [/home/abi/fetcher/tmp/unyts-0.8.9.tar.gz]
+[2024-05-22 05:54:54] INFO root fetch - main [MainThread]: End processing [unyts]: success
+[2024-05-22 05:54:54] INFO root fetch - main [MainThread]: Store serial: [23318519]

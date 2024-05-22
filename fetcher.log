@@ -7484,3 +7484,33 @@
 [2024-05-22 03:24:02] INFO root fetch - processPackages [flask-openapi3-swagger]: Remove: archive file [/home/abi/fetcher/tmp/flask_openapi3_swagger-5.17.9.tar.gz]
 [2024-05-22 03:24:02] INFO root fetch - main [MainThread]: End processing [flask-openapi3-swagger]: success
 [2024-05-22 03:24:02] INFO root fetch - main [MainThread]: Store serial: [23316783]
+[2024-05-22 03:26:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23316783]
+[2024-05-22 03:26:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 03:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llama-index-core
+[2024-05-22 03:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: celestical
+[2024-05-22 03:26:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vectara-skunk-client
+[2024-05-22 03:26:11] INFO root fetch - processPackages [vectara-skunk-client]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-05-22 03:26:11] INFO root fetch - processPackages [celestical]: New version: [0.9.2] Old Version: [0.16.1]
+[2024-05-22 03:26:11] INFO root fetch - processPackages [llama-index-core]: New version: [0.9.56] Old Version: [0.9.55]
+[2024-05-22 03:26:11] INFO root fetch - processPackages [celestical]: Downloading https://files.pythonhosted.org/packages/0d/45/00aff08af1cfff59c70ffa15a5f83571ea4ce06c8155315b8fadb11a720a/celestical-0.16.1-py3-none-any.whl
+[2024-05-22 03:26:11] INFO root fetch - processPackages [vectara-skunk-client]: Downloading https://files.pythonhosted.org/packages/aa/d9/21d785f35a697605b8638418ac81c897601850722a11ca23cb96add50978/vectara-skunk-client-0.4.9.tar.gz
+[2024-05-22 03:26:11] INFO root fetch - processPackages [llama-index-core]: Downloading https://files.pythonhosted.org/packages/cb/c2/9d70e1ea21c2760f049ed87f06333bc85bc3afb95daa8f1cc6f9bce744ed/llama_index_core-0.9.55.tar.gz
+[2024-05-22 03:26:11] INFO root fetch - processPackages [celestical]: Downloading https://files.pythonhosted.org/packages/6a/53/1f6d4d225fde6a9acc4875ce60fa934dc2af21d85e3dcbe4d276484785e6/celestical-0.9.2-py3-none-any.whl
+[2024-05-22 03:26:11] INFO root fetch - processPackages [vectara-skunk-client]: Downloading https://files.pythonhosted.org/packages/25/38/ced057cc2fb88bce170a5697bfd120eff803419bad56571c0541c8c7939e/vectara_skunk_client-0.5.0.tar.gz
+[2024-05-22 03:26:12] INFO root fetch - processPackages [llama-index-core]: Downloading https://files.pythonhosted.org/packages/91/1b/bae52b894555c97848977c73e4a3a778ca388b07a2435d3a33c1133bd678/llama_index_core-0.9.56.tar.gz
+[2024-05-22 03:26:12] INFO root fetch - processPackages [celestical]: executing diffoscope
+[2024-05-22 03:26:12] INFO root fetch - processPackages [celestical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celestical-0.16.1-py3-none-any.whl.zip tmp/celestical-0.9.2-py3-none-any.whl.zip --markdown 20240522/c/celestical/0.16.1-0.9.2/README.md --exclude *.pyd
+[2024-05-22 03:26:12] INFO root fetch - processPackages [llama-index-core]: executing diffoscope
+[2024-05-22 03:26:12] INFO root fetch - processPackages [llama-index-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_core-0.9.55.tar.gz tmp/llama_index_core-0.9.56.tar.gz --markdown 20240522/l/llama-index-core/0.9.55-0.9.56/README.md --exclude *.pyd
+[2024-05-22 03:26:12] INFO root fetch - processPackages [vectara-skunk-client]: executing diffoscope
+[2024-05-22 03:26:12] INFO root fetch - processPackages [vectara-skunk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectara-skunk-client-0.4.9.tar.gz tmp/vectara_skunk_client-0.5.0.tar.gz --markdown 20240522/v/vectara-skunk-client/0.4.9-0.5.0/README.md --exclude *.pyd
+[2024-05-22 03:26:12] INFO root fetch - processPackages [vectara-skunk-client]: Remove: archive file [/home/abi/fetcher/tmp/vectara-skunk-client-0.4.9.tar.gz]
+[2024-05-22 03:26:12] INFO root fetch - processPackages [vectara-skunk-client]: Remove: archive file [/home/abi/fetcher/tmp/vectara_skunk_client-0.5.0.tar.gz]
+[2024-05-22 03:26:12] INFO root fetch - main [MainThread]: End processing [vectara-skunk-client]: success
+[2024-05-22 03:26:12] INFO root fetch - processPackages [celestical]: Remove: archive file [/home/abi/fetcher/tmp/celestical-0.16.1-py3-none-any.whl.zip]
+[2024-05-22 03:26:12] INFO root fetch - processPackages [celestical]: Remove: archive file [/home/abi/fetcher/tmp/celestical-0.9.2-py3-none-any.whl.zip]
+[2024-05-22 03:26:12] INFO root fetch - main [MainThread]: End processing [celestical]: success
+[2024-05-22 03:26:13] INFO root fetch - processPackages [llama-index-core]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_core-0.9.55.tar.gz]
+[2024-05-22 03:26:13] INFO root fetch - processPackages [llama-index-core]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_core-0.9.56.tar.gz]
+[2024-05-22 03:26:13] INFO root fetch - main [MainThread]: End processing [llama-index-core]: success
+[2024-05-22 03:26:13] INFO root fetch - main [MainThread]: Store serial: [23316858]

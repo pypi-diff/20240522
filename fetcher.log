@@ -14632,3 +14632,51 @@
 [2024-05-22 09:35:31] INFO root fetch - processPackages [lightrun]: Remove: archive file [/home/abi/fetcher/tmp/lightrun-1.9.0-cp39-cp39-win_amd64.whl.zip]
 [2024-05-22 09:35:31] INFO root fetch - main [MainThread]: End processing [lightrun]: success
 [2024-05-22 09:35:31] INFO root fetch - main [MainThread]: Store serial: [23320294]
+[2024-05-22 09:37:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320294]
+[2024-05-22 09:37:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 09:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: json-any
+[2024-05-22 09:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duwi-smarthome-sdk-dev
+[2024-05-22 09:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antchain-yuqing
+[2024-05-22 09:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: longport
+[2024-05-22 09:37:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: intensity-logger
+[2024-05-22 09:37:45] INFO root fetch - processPackages [intensity-logger]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-22 09:37:45] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-22 09:37:45] INFO root fetch - processPackages [antchain-yuqing]: New version: [1.2.9] Old Version: [1.2.3]
+[2024-05-22 09:37:45] INFO root fetch - processPackages [json-any]: New version: [2024.3] Old Version: [2024.2]
+[2024-05-22 09:37:45] INFO root fetch - processPackages [intensity-logger]: Downloading https://files.pythonhosted.org/packages/f1/71/ed62796d3ff4ae8fbfe026dc894f7d85220f21fcad547270ebc05ab33ea4/intensity_logger-0.1.0.tar.gz
+[2024-05-22 09:37:45] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/ca/33/afe41062594f8025beb2e2a044d1e6bc7bd55e761a25ca122a14ed48db19/duwi_smarthome_sdk_dev-0.0.6.tar.gz
+[2024-05-22 09:37:45] INFO root fetch - processPackages [antchain-yuqing]: Downloading https://files.pythonhosted.org/packages/c7/04/5b4a4fb4a81ba69662a2593c4afd20e16b1447e9fdbaad35d673aab45f21/antchain_yuqing-1.2.3.tar.gz
+[2024-05-22 09:37:45] INFO root fetch - processPackages [longport]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-22 09:37:45] INFO root fetch - processPackages [json-any]: Downloading https://files.pythonhosted.org/packages/94/dc/c00cf5c492764499d3925d131d2db11dc33a879300ea719f39b1cbe996ae/json-any-2024.2.tar.gz
+[2024-05-22 09:37:45] INFO root fetch - processPackages [intensity-logger]: Downloading https://files.pythonhosted.org/packages/53/a2/99f080f36610ecdb7d03525ca5a1f86490c6b326b1b49fec4405eab810b5/intensity_logger-0.1.1.tar.gz
+[2024-05-22 09:37:45] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/01/f9/77ddfa1cf9ee9961726fdc01570adca59ebfc18d7e3be921f4bb8e0b792f/duwi_smarthome_sdk_dev-0.0.7.tar.gz
+[2024-05-22 09:37:45] INFO root fetch - processPackages [intensity-logger]: executing diffoscope
+[2024-05-22 09:37:45] INFO root fetch - processPackages [intensity-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intensity_logger-0.1.0.tar.gz tmp/intensity_logger-0.1.1.tar.gz --markdown 20240522/i/intensity-logger/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-22 09:37:45] INFO root fetch - processPackages [longport]: Downloading https://files.pythonhosted.org/packages/a8/d8/56cdd8d715e4b07343d1f38a8f39c316d9a41ef8a16b04ac9ccfb685fd44/longport-1.0.8.tar.gz
+[2024-05-22 09:37:45] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: executing diffoscope
+[2024-05-22 09:37:45] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smarthome_sdk_dev-0.0.6.tar.gz tmp/duwi_smarthome_sdk_dev-0.0.7.tar.gz --markdown 20240522/d/duwi-smarthome-sdk-dev/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-22 09:37:45] INFO root fetch - processPackages [antchain-yuqing]: Downloading https://files.pythonhosted.org/packages/06/dd/2d32466d350e0a77a899b3c6e5be05940632833a6e212022bf9c66d61692/antchain_yuqing-1.2.9.tar.gz
+[2024-05-22 09:37:45] INFO root fetch - processPackages [json-any]: Downloading https://files.pythonhosted.org/packages/9b/86/970d54fcc5844b47f238c2eb3fc42c6ddea95b6f283ccd6ab33b79b73003/json_any-2024.3.tar.gz
+[2024-05-22 09:37:45] INFO root fetch - processPackages [antchain-yuqing]: executing diffoscope
+[2024-05-22 09:37:45] INFO root fetch - processPackages [antchain-yuqing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_yuqing-1.2.3.tar.gz tmp/antchain_yuqing-1.2.9.tar.gz --markdown 20240522/a/antchain-yuqing/1.2.3-1.2.9/README.md --exclude *.pyd
+[2024-05-22 09:37:46] INFO root fetch - processPackages [json-any]: executing diffoscope
+[2024-05-22 09:37:46] INFO root fetch - processPackages [json-any]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json-any-2024.2.tar.gz tmp/json_any-2024.3.tar.gz --markdown 20240522/j/json-any/2024.2-2024.3/README.md --exclude *.pyd
+[2024-05-22 09:37:46] INFO root fetch - processPackages [longport]: Downloading https://files.pythonhosted.org/packages/36/fa/25c45854f4cc739ef801f581c0cf5186fa2fd4928be5a85bf9dba778d99e/longport-1.0.9.tar.gz
+[2024-05-22 09:37:46] INFO root fetch - processPackages [intensity-logger]: Remove: archive file [/home/abi/fetcher/tmp/intensity_logger-0.1.0.tar.gz]
+[2024-05-22 09:37:46] INFO root fetch - processPackages [intensity-logger]: Remove: archive file [/home/abi/fetcher/tmp/intensity_logger-0.1.1.tar.gz]
+[2024-05-22 09:37:46] INFO root fetch - main [MainThread]: End processing [intensity-logger]: success
+[2024-05-22 09:37:46] INFO root fetch - processPackages [longport]: executing diffoscope
+[2024-05-22 09:37:46] INFO root fetch - processPackages [longport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/longport-1.0.8.tar.gz tmp/longport-1.0.9.tar.gz --markdown 20240522/l/longport/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-22 09:37:46] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.0.6.tar.gz]
+[2024-05-22 09:37:46] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.0.7.tar.gz]
+[2024-05-22 09:37:46] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk-dev]: success
+[2024-05-22 09:37:46] INFO root fetch - processPackages [antchain-yuqing]: Remove: archive file [/home/abi/fetcher/tmp/antchain_yuqing-1.2.3.tar.gz]
+[2024-05-22 09:37:46] INFO root fetch - processPackages [antchain-yuqing]: Remove: archive file [/home/abi/fetcher/tmp/antchain_yuqing-1.2.9.tar.gz]
+[2024-05-22 09:37:46] INFO root fetch - main [MainThread]: End processing [antchain-yuqing]: success
+[2024-05-22 09:37:46] INFO root fetch - processPackages [json-any]: Remove: archive file [/home/abi/fetcher/tmp/json-any-2024.2.tar.gz]
+[2024-05-22 09:37:46] INFO root fetch - processPackages [json-any]: Remove: archive file [/home/abi/fetcher/tmp/json_any-2024.3.tar.gz]
+[2024-05-22 09:37:46] INFO root fetch - main [MainThread]: End processing [json-any]: success
+[2024-05-22 09:37:47] INFO root fetch - processPackages [longport]: Remove: archive file [/home/abi/fetcher/tmp/longport-1.0.8.tar.gz]
+[2024-05-22 09:37:47] INFO root fetch - processPackages [longport]: Remove: archive file [/home/abi/fetcher/tmp/longport-1.0.9.tar.gz]
+[2024-05-22 09:37:47] INFO root fetch - main [MainThread]: End processing [longport]: success
+[2024-05-22 09:37:47] INFO root fetch - main [MainThread]: Store serial: [23320324]

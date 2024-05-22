@@ -18658,3 +18658,123 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:44:47] INFO root fetch - processPackages [python-utility-scripts]: Remove: archive file [/home/abi/fetcher/tmp/python_utility_scripts-0.0.9.tar.gz]
 [2024-05-22 11:44:47] INFO root fetch - main [MainThread]: End processing [python-utility-scripts]: success
 [2024-05-22 11:44:47] INFO root fetch - main [MainThread]: Store serial: [23321894]
+[2024-05-22 11:46:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321894]
+[2024-05-22 11:46:56] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-22 11:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: copr-common
+[2024-05-22 11:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MLRegressions
+[2024-05-22 11:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: struqture-py
+[2024-05-22 11:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rosa-python-client
+[2024-05-22 11:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: udirect
+[2024-05-22 11:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: timeout-sampler
+[2024-05-22 11:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aa-ledger
+[2024-05-22 11:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: googleads-housekeeper
+[2024-05-22 11:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: micropolarray
+[2024-05-22 11:46:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-authrespond
+[2024-05-22 11:46:57] INFO root fetch - processPackages [MLRegressions]: New version: [1.0.2] Old Version: [1.0.0]
+[2024-05-22 11:46:57] INFO root fetch - processPackages [udirect]: New version: [0.1.4.dev9] Old Version: [0.1.4.dev8]
+[2024-05-22 11:46:57] INFO root fetch - processPackages [nonebot-plugin-authrespond]: New version: [1.3] Old Version: [1.2]
+[2024-05-22 11:46:57] INFO root fetch - processPackages [micropolarray]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-22 11:46:57] INFO root fetch - processPackages [copr-common]: New version: [0.9] Old Version: [0.8]
+[2024-05-22 11:46:57] INFO root fetch - processPackages [aa-ledger]: New version: [0.3.8a1] Old Version: [0.3.7]
+[2024-05-22 11:46:57] INFO root fetch - processPackages [timeout-sampler]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 11:46:57] INFO root fetch - processPackages [googleads-housekeeper]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev8]
+[2024-05-22 11:46:57] INFO root fetch - processPackages [struqture-py]: New version: [2.0.0a0] Old Version: [1.7.1]
+[2024-05-22 11:46:57] INFO root fetch - processPackages [MLRegressions]: Downloading https://files.pythonhosted.org/packages/23/64/0370358fd513ba5befce9b2b0f1bc5fa8de44fa4a6fd1bc9e1284af04fc3/MLRegressions-1.0.0.tar.gz
+[2024-05-22 11:46:57] INFO root fetch - processPackages [rosa-python-client]: New version: [1.0.94] Old Version: [1.0.93]
+[2024-05-22 11:46:57] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/63/2b/b8dd9f284cadd77c65d69c16d3402ff1280b48027dffc1036b26b3a83531/udirect-0.1.4.dev8.tar.gz
+[2024-05-22 11:46:57] INFO root fetch - processPackages [nonebot-plugin-authrespond]: Downloading https://files.pythonhosted.org/packages/2b/fd/b181b5f3515b835fd91aae6c755f36cdfdbd302d403e1fe65dd88344eb2a/nonebot_plugin_authrespond-1.2.tar.gz
+[2024-05-22 11:46:57] INFO root fetch - processPackages [micropolarray]: Downloading https://files.pythonhosted.org/packages/0f/b5/e822373a92813fa1686f9330033ef9796aba353dc09a5cb58e7659fdc760/micropolarray-1.2.8.tar.gz
+[2024-05-22 11:46:57] INFO root fetch - processPackages [copr-common]: Downloading https://files.pythonhosted.org/packages/91/de/f74ecac4a67c9058eee33690cc1b80e482b5b7f0eec6c0e597aa87870a90/copr-common-0.8.tar.gz
+[2024-05-22 11:46:57] INFO root fetch - processPackages [aa-ledger]: Downloading https://files.pythonhosted.org/packages/fe/0c/aa0ddabe080530341d8ee3a89ad0c9ca2ef84063a68ace3e4398bdcf312f/aa_ledger-0.3.7.tar.gz
+[2024-05-22 11:46:57] INFO root fetch - processPackages [googleads-housekeeper]: Downloading https://files.pythonhosted.org/packages/72/75/8fec6c94f8d851b937e5569bbf946bf3b932c1414c694ef2ab9e72efc3e6/googleads-housekeeper-0.1.0.dev8.tar.gz
+[2024-05-22 11:46:57] INFO root fetch - processPackages [MLRegressions]: Downloading https://files.pythonhosted.org/packages/55/aa/1722c3e7ba043f23f4832bd803044c7e1d01040eda79a1bc5ddbb0c5d8bf/mlregressions-1.0.2.tar.gz
+[2024-05-22 11:46:57] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/ce/b5/1f659c277518a2fe5fce419331ac84b20c1a3e8a73bc4f23865f832270eb/rosa_python_client-1.0.93.tar.gz
+[2024-05-22 11:46:57] INFO root fetch - processPackages [struqture-py]: Downloading https://files.pythonhosted.org/packages/b9/db/a4c9ccc3de77aac35d5c4420bc5446878e10cca292ecdc37556511eb7e20/struqture_py-1.7.1.tar.gz
+[2024-05-22 11:46:57] INFO root fetch - processPackages [timeout-sampler]: Downloading https://files.pythonhosted.org/packages/8f/10/80b652e1b5a19759a828d6291d0bc632b4cf5404fbb3c762b4a1942e1597/timeout_sampler-0.0.8.tar.gz
+[2024-05-22 11:46:57] INFO root fetch - processPackages [micropolarray]: Downloading https://files.pythonhosted.org/packages/af/4a/c49cc1f874abe1aea6bea5e3e22a73db335d1641cce5323ebfa47405af90/micropolarray-1.2.9.tar.gz
+[2024-05-22 11:46:57] INFO root fetch - processPackages [nonebot-plugin-authrespond]: Downloading https://files.pythonhosted.org/packages/2b/19/0edef7ff6bdbe122f015fd98eec20ea7ac4caeb7b444b2a673188060ee6f/nonebot_plugin_authrespond-1.3.tar.gz
+[2024-05-22 11:46:57] INFO root fetch - processPackages [MLRegressions]: executing diffoscope
+[2024-05-22 11:46:57] INFO root fetch - processPackages [MLRegressions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLRegressions-1.0.0.tar.gz tmp/mlregressions-1.0.2.tar.gz --markdown 20240522/M/MLRegressions/1.0.0-1.0.2/README.md --exclude *.pyd
+[2024-05-22 11:46:57] INFO root fetch - processPackages [micropolarray]: executing diffoscope
+[2024-05-22 11:46:57] INFO root fetch - processPackages [micropolarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropolarray-1.2.8.tar.gz tmp/micropolarray-1.2.9.tar.gz --markdown 20240522/m/micropolarray/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-22 11:46:57] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/8a/a3/ad99a9715fce5afd74908cc4510120837854d439e7d1cca91ccead70df48/udirect-0.1.4.dev9.tar.gz
+[2024-05-22 11:46:57] INFO root fetch - processPackages [copr-common]: Downloading https://files.pythonhosted.org/packages/3c/29/efcc31777a97a492d561e87051bd21e03235cc83d97097b54403f86eb45f/copr-common-0.9.tar.gz
+[2024-05-22 11:46:57] INFO root fetch - processPackages [nonebot-plugin-authrespond]: executing diffoscope
+[2024-05-22 11:46:57] INFO root fetch - processPackages [nonebot-plugin-authrespond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_authrespond-1.2.tar.gz tmp/nonebot_plugin_authrespond-1.3.tar.gz --markdown 20240522/n/nonebot-plugin-authrespond/1.2-1.3/README.md --exclude *.pyd
+[2024-05-22 11:46:57] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/f3/c7/1318b582b2b9f9d8d7659201e6435155a4a4846461414d3ab8093442c9bf/rosa_python_client-1.0.94.tar.gz
+[2024-05-22 11:46:57] INFO root fetch - processPackages [aa-ledger]: Downloading https://files.pythonhosted.org/packages/c0/68/33f8aca635f2769aab9859ba5ddffb5ea67c0562728130d6e29d2681b5da/aa_ledger-0.3.8a1.tar.gz
+[2024-05-22 11:46:57] INFO root fetch - processPackages [struqture-py]: Downloading https://files.pythonhosted.org/packages/ce/3e/064c210dfea76477b77e0ea75d9398b4314ce0df53e73ceca72c08711c04/struqture_py-2.0.0a0.tar.gz
+[2024-05-22 11:46:57] INFO root fetch - processPackages [copr-common]: executing diffoscope
+[2024-05-22 11:46:57] INFO root fetch - processPackages [copr-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copr-common-0.8.tar.gz tmp/copr-common-0.9.tar.gz --markdown 20240522/c/copr-common/0.8-0.9/README.md --exclude *.pyd
+[2024-05-22 11:46:58] INFO root fetch - processPackages [googleads-housekeeper]: Downloading https://files.pythonhosted.org/packages/fc/3a/7d5847390fa1978f5fa9c787415a49920ac7254fec7f7d0c0b6830542f94/googleads-housekeeper-0.1.0.dev9.tar.gz
+[2024-05-22 11:46:58] INFO root fetch - processPackages [rosa-python-client]: executing diffoscope
+[2024-05-22 11:46:58] INFO root fetch - processPackages [rosa-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosa_python_client-1.0.93.tar.gz tmp/rosa_python_client-1.0.94.tar.gz --markdown 20240522/r/rosa-python-client/1.0.93-1.0.94/README.md --exclude *.pyd
+[2024-05-22 11:46:58] INFO root fetch - processPackages [timeout-sampler]: Downloading https://files.pythonhosted.org/packages/c7/80/1aafc6e04513398e1dd0e97089dfc64f1b8a3f13439c729cffa06d9dbd1a/timeout_sampler-0.0.9.tar.gz
+[2024-05-22 11:46:58] INFO root fetch - processPackages [aa-ledger]: executing diffoscope
+[2024-05-22 11:46:58] INFO root fetch - processPackages [aa-ledger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_ledger-0.3.7.tar.gz tmp/aa_ledger-0.3.8a1.tar.gz --markdown 20240522/a/aa-ledger/0.3.7-0.3.8a1/README.md --exclude *.pyd
+[2024-05-22 11:46:58] INFO root fetch - processPackages [googleads-housekeeper]: executing diffoscope
+[2024-05-22 11:46:58] INFO root fetch - processPackages [googleads-housekeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/googleads-housekeeper-0.1.0.dev8.tar.gz tmp/googleads-housekeeper-0.1.0.dev9.tar.gz --markdown 20240522/g/googleads-housekeeper/0.1.0.dev8-0.1.0.dev9/README.md --exclude *.pyd
+[2024-05-22 11:46:58] INFO root fetch - processPackages [timeout-sampler]: executing diffoscope
+[2024-05-22 11:46:58] INFO root fetch - processPackages [timeout-sampler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timeout_sampler-0.0.8.tar.gz tmp/timeout_sampler-0.0.9.tar.gz --markdown 20240522/t/timeout-sampler/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 11:46:58] INFO root fetch - processPackages [struqture-py]: executing diffoscope
+[2024-05-22 11:46:58] INFO root fetch - processPackages [struqture-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struqture_py-1.7.1.tar.gz tmp/struqture_py-2.0.0a0.tar.gz --markdown 20240522/s/struqture-py/1.7.1-2.0.0a0/README.md --exclude *.pyd
+[2024-05-22 11:46:58] INFO root fetch - processPackages [udirect]: executing diffoscope
+[2024-05-22 11:46:58] INFO root fetch - processPackages [udirect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udirect-0.1.4.dev8.tar.gz tmp/udirect-0.1.4.dev9.tar.gz --markdown 20240522/u/udirect/0.1.4.dev8-0.1.4.dev9/README.md --exclude *.pyd
+[2024-05-22 11:46:58] INFO root fetch - processPackages [MLRegressions]: Remove: archive file [/home/abi/fetcher/tmp/MLRegressions-1.0.0.tar.gz]
+[2024-05-22 11:46:58] INFO root fetch - processPackages [MLRegressions]: Remove: archive file [/home/abi/fetcher/tmp/mlregressions-1.0.2.tar.gz]
+[2024-05-22 11:46:58] INFO root fetch - processPackages [MLRegressions]: Start processing: amulet-leveldb
+[2024-05-22 11:46:58] INFO root fetch - main [MainThread]: End processing [MLRegressions]: success
+[2024-05-22 11:46:58] INFO root fetch - processPackages [micropolarray]: Remove: archive file [/home/abi/fetcher/tmp/micropolarray-1.2.8.tar.gz]
+[2024-05-22 11:46:58] INFO root fetch - processPackages [micropolarray]: Remove: archive file [/home/abi/fetcher/tmp/micropolarray-1.2.9.tar.gz]
+[2024-05-22 11:46:58] INFO root fetch - processPackages [micropolarray]: Start processing: lljz-tools
+[2024-05-22 11:46:58] INFO root fetch - main [MainThread]: End processing [micropolarray]: success
+[2024-05-22 11:46:58] INFO root fetch - processPackages [lljz-tools]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-22 11:46:58] INFO root fetch - processPackages [nonebot-plugin-authrespond]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_authrespond-1.2.tar.gz]
+[2024-05-22 11:46:58] INFO root fetch - processPackages [nonebot-plugin-authrespond]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_authrespond-1.3.tar.gz]
+[2024-05-22 11:46:58] INFO root fetch - processPackages [nonebot-plugin-authrespond]: Start processing: FlowVisor
+[2024-05-22 11:46:58] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-authrespond]: success
+[2024-05-22 11:46:59] INFO root fetch - processPackages [amulet-leveldb]: New version: [1.0.1] Old Version: [1.0.0b5]
+[2024-05-22 11:46:59] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/07/e1/d8ad41d04bd7526045884eb68fffdf0d0584720dc1f876fa9b7b87605451/lljz_tools-0.2.8.tar.gz
+[2024-05-22 11:46:59] INFO root fetch - processPackages [FlowVisor]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-22 11:46:59] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.93.tar.gz]
+[2024-05-22 11:46:59] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.94.tar.gz]
+[2024-05-22 11:46:59] INFO root fetch - main [MainThread]: End processing [rosa-python-client]: success
+[2024-05-22 11:46:59] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/a7/af/a18c36655f7f553567ff5dd5fb22c0f4e280c4a0200a0b3c876136e8201f/lljz_tools-0.2.9.tar.gz
+[2024-05-22 11:46:59] INFO root fetch - processPackages [amulet-leveldb]: Downloading https://files.pythonhosted.org/packages/9e/89/c24f9a5c2a9a28139fb308c00f73c102f33851aa18dbbe1ae2767bb76b8a/amulet-leveldb-1.0.0b5.tar.gz
+[2024-05-22 11:46:59] INFO root fetch - processPackages [copr-common]: Remove: archive file [/home/abi/fetcher/tmp/copr-common-0.8.tar.gz]
+[2024-05-22 11:46:59] INFO root fetch - processPackages [copr-common]: Remove: archive file [/home/abi/fetcher/tmp/copr-common-0.9.tar.gz]
+[2024-05-22 11:46:59] INFO root fetch - main [MainThread]: End processing [copr-common]: success
+[2024-05-22 11:46:59] INFO root fetch - processPackages [timeout-sampler]: Remove: archive file [/home/abi/fetcher/tmp/timeout_sampler-0.0.8.tar.gz]
+[2024-05-22 11:46:59] INFO root fetch - processPackages [timeout-sampler]: Remove: archive file [/home/abi/fetcher/tmp/timeout_sampler-0.0.9.tar.gz]
+[2024-05-22 11:46:59] INFO root fetch - main [MainThread]: End processing [timeout-sampler]: success
+[2024-05-22 11:46:59] INFO root fetch - processPackages [FlowVisor]: Downloading https://files.pythonhosted.org/packages/cf/71/0705800dc4cbd5473ca83afa75120c054301cd3898daff1b446a00421d95/FlowVisor-0.2.0.tar.gz
+[2024-05-22 11:46:59] INFO root fetch - processPackages [googleads-housekeeper]: Remove: archive file [/home/abi/fetcher/tmp/googleads-housekeeper-0.1.0.dev8.tar.gz]
+[2024-05-22 11:46:59] INFO root fetch - processPackages [googleads-housekeeper]: Remove: archive file [/home/abi/fetcher/tmp/googleads-housekeeper-0.1.0.dev9.tar.gz]
+[2024-05-22 11:46:59] INFO root fetch - main [MainThread]: End processing [googleads-housekeeper]: success
+[2024-05-22 11:46:59] INFO root fetch - processPackages [lljz-tools]: executing diffoscope
+[2024-05-22 11:46:59] INFO root fetch - processPackages [lljz-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lljz_tools-0.2.8.tar.gz tmp/lljz_tools-0.2.9.tar.gz --markdown 20240522/l/lljz-tools/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-22 11:46:59] INFO root fetch - processPackages [aa-ledger]: Remove: archive file [/home/abi/fetcher/tmp/aa_ledger-0.3.7.tar.gz]
+[2024-05-22 11:46:59] INFO root fetch - processPackages [aa-ledger]: Remove: archive file [/home/abi/fetcher/tmp/aa_ledger-0.3.8a1.tar.gz]
+[2024-05-22 11:46:59] INFO root fetch - main [MainThread]: End processing [aa-ledger]: success
+[2024-05-22 11:46:59] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev8.tar.gz]
+[2024-05-22 11:46:59] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev9.tar.gz]
+[2024-05-22 11:46:59] INFO root fetch - main [MainThread]: End processing [udirect]: success
+[2024-05-22 11:46:59] INFO root fetch - processPackages [FlowVisor]: Downloading https://files.pythonhosted.org/packages/43/1f/a445bb2202e657b43ec3795f51324544fedcc5ab1cf32b2b804e9fcb1a96/FlowVisor-0.2.1.tar.gz
+[2024-05-22 11:46:59] INFO root fetch - processPackages [amulet-leveldb]: Downloading https://files.pythonhosted.org/packages/54/b2/afa47bcfa2ec866bdca7bba3d60252c0956f0959db01a770e15339daf0c1/amulet_leveldb-1.0.1.tar.gz
+[2024-05-22 11:46:59] INFO root fetch - processPackages [FlowVisor]: executing diffoscope
+[2024-05-22 11:46:59] INFO root fetch - processPackages [FlowVisor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlowVisor-0.2.0.tar.gz tmp/FlowVisor-0.2.1.tar.gz --markdown 20240522/F/FlowVisor/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-22 11:47:00] INFO root fetch - processPackages [amulet-leveldb]: executing diffoscope
+[2024-05-22 11:47:00] INFO root fetch - processPackages [amulet-leveldb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amulet-leveldb-1.0.0b5.tar.gz tmp/amulet_leveldb-1.0.1.tar.gz --markdown 20240522/a/amulet-leveldb/1.0.0b5-1.0.1/README.md --exclude *.pyd
+[2024-05-22 11:47:00] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.8.tar.gz]
+[2024-05-22 11:47:00] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.9.tar.gz]
+[2024-05-22 11:47:00] INFO root fetch - main [MainThread]: End processing [lljz-tools]: success
+[2024-05-22 11:47:00] INFO root fetch - processPackages [FlowVisor]: Remove: archive file [/home/abi/fetcher/tmp/FlowVisor-0.2.0.tar.gz]
+[2024-05-22 11:47:00] INFO root fetch - processPackages [FlowVisor]: Remove: archive file [/home/abi/fetcher/tmp/FlowVisor-0.2.1.tar.gz]
+[2024-05-22 11:47:00] INFO root fetch - main [MainThread]: End processing [FlowVisor]: success
+[2024-05-22 11:47:02] INFO root fetch - processPackages [amulet-leveldb]: Remove: archive file [/home/abi/fetcher/tmp/amulet-leveldb-1.0.0b5.tar.gz]
+[2024-05-22 11:47:02] INFO root fetch - processPackages [amulet-leveldb]: Remove: archive file [/home/abi/fetcher/tmp/amulet_leveldb-1.0.1.tar.gz]
+[2024-05-22 11:47:02] INFO root fetch - main [MainThread]: End processing [amulet-leveldb]: success
+[2024-05-22 11:47:04] INFO root fetch - processPackages [struqture-py]: Remove: archive file [/home/abi/fetcher/tmp/struqture_py-1.7.1.tar.gz]
+[2024-05-22 11:47:04] INFO root fetch - processPackages [struqture-py]: Remove: archive file [/home/abi/fetcher/tmp/struqture_py-2.0.0a0.tar.gz]
+[2024-05-22 11:47:04] INFO root fetch - main [MainThread]: End processing [struqture-py]: success
+[2024-05-22 11:47:04] INFO root fetch - main [MainThread]: Store serial: [23321939]

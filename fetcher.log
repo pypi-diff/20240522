@@ -22133,3 +22133,71 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 14:00:04] INFO root fetch - processPackages [genocide]: Remove: archive file [/home/abi/fetcher/tmp/genocide-91.tar.gz]
 [2024-05-22 14:00:04] INFO root fetch - main [MainThread]: End processing [genocide]: success
 [2024-05-22 14:00:04] INFO root fetch - main [MainThread]: Store serial: [23323509]
+[2024-05-22 14:02:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323509]
+[2024-05-22 14:02:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-22 14:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi_jwks
+[2024-05-22 14:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hazard-map
+[2024-05-22 14:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlrun
+[2024-05-22 14:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moval
+[2024-05-22 14:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llm-microscope
+[2024-05-22 14:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: psychopy-bbtk
+[2024-05-22 14:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Qubx
+[2024-05-22 14:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: airbyte-source-okta
+[2024-05-22 14:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qoqo
+[2024-05-22 14:02:17] INFO root fetch - processPackages [moval]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-22 14:02:17] INFO root fetch - processPackages [Qubx]: New version: [0.1.82] Old Version: [0.1.81]
+[2024-05-22 14:02:17] WARNING root fetch - processPackages [llm-microscope]: Skipping, unable to determine old version
+[2024-05-22 14:02:17] INFO root fetch - main [MainThread]: End processing [llm-microscope] error
+[2024-05-22 14:02:17] INFO root fetch - processPackages [hazard-map]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-05-22 14:02:17] INFO root fetch - processPackages [mlrun]: New version: [1.7.0rc9] Old Version: [1.7.0rc8]
+[2024-05-22 14:02:17] INFO root fetch - processPackages [psychopy-bbtk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 14:02:17] WARNING root fetch - processPackages [fastapi_jwks]: Skipping, unable to determine old version
+[2024-05-22 14:02:17] INFO root fetch - main [MainThread]: End processing [fastapi_jwks] error
+[2024-05-22 14:02:17] INFO root fetch - processPackages [airbyte-source-okta]: New version: [0.2.0] Old Version: [0.1.16]
+[2024-05-22 14:02:17] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/8a/aa/b16fe864612aedce9b33655b5aa4b6529ca2716bc8af23353d0c5850bae7/moval-0.3.8.tar.gz
+[2024-05-22 14:02:17] INFO root fetch - processPackages [Qubx]: Downloading https://files.pythonhosted.org/packages/11/04/d7f219ac665581f70b65cec3e5d33bd61ce2a90aa3ff9276d576f1adbfbc/qubx-0.1.81.tar.gz
+[2024-05-22 14:02:17] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/3e/de/bbc90293e3757cb8179dc320aa3df99845445ecfbc16972510c5e80415c3/mlrun-1.7.0rc8-py3-none-any.whl
+[2024-05-22 14:02:17] INFO root fetch - processPackages [hazard-map]: Downloading https://files.pythonhosted.org/packages/0e/0a/6121c3c948a82d7b3c0b2d16a26fc0ce62335f1b2e6172401e87cee311f6/hazard_map-0.2.1.tar.gz
+[2024-05-22 14:02:17] INFO root fetch - processPackages [psychopy-bbtk]: Downloading https://files.pythonhosted.org/packages/db/3d/b60d7070f3a3e3a57d50b69b52d6bc452fedb29ae268cfd7ff60da98aa2a/psychopy_bbtk-0.0.8.tar.gz
+[2024-05-22 14:02:18] INFO root fetch - processPackages [qoqo]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-22 14:02:18] INFO root fetch - processPackages [airbyte-source-okta]: Downloading https://files.pythonhosted.org/packages/11/4b/905e04aa70c695cbd97adf0e931d8b2e2fbed42b6bdd582bf05816590f51/airbyte-source-okta-0.1.16.tar.gz
+[2024-05-22 14:02:18] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/b4/3b/6db51dc55940cdbf87faccdbbdb0feff90bf5743a5ba796f48046c862b4b/moval-0.3.9.tar.gz
+[2024-05-22 14:02:18] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/05/f2/d80ba0edb70be9434bf5fb1badcfad0aef24823e8363d78fc935429023ad/mlrun-1.7.0rc9-py3-none-any.whl
+[2024-05-22 14:02:18] INFO root fetch - processPackages [Qubx]: Downloading https://files.pythonhosted.org/packages/46/50/b4a921c6f216617c1d4d3cbe6a606576e7eff1477d438da54c0fdf60ad88/qubx-0.1.82.tar.gz
+[2024-05-22 14:02:18] INFO root fetch - processPackages [moval]: executing diffoscope
+[2024-05-22 14:02:18] INFO root fetch - processPackages [moval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moval-0.3.8.tar.gz tmp/moval-0.3.9.tar.gz --markdown 20240522/m/moval/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-22 14:02:18] INFO root fetch - processPackages [hazard-map]: Downloading https://files.pythonhosted.org/packages/e8/15/d0b28608a40e9403b4a1e234627945220c9a22c5ac1ff0f2039c17767646/hazard_map-0.3.0.tar.gz
+[2024-05-22 14:02:18] INFO root fetch - processPackages [qoqo]: Downloading https://files.pythonhosted.org/packages/1a/b0/f7a662bd3682f4f4f2b3e58b9453c77a6c98ee61f92082fcff78f72c109f/qoqo-1.9.0.tar.gz
+[2024-05-22 14:02:18] ERROR root fetch - processPackages [airbyte-source-okta]: Unable to fetch info: No such project/version 'airbyte-source-okta' 0.2.0
+[2024-05-22 14:02:18] INFO root fetch - main [MainThread]: End processing [airbyte-source-okta] error
+[2024-05-22 14:02:18] INFO root fetch - processPackages [hazard-map]: executing diffoscope
+[2024-05-22 14:02:18] INFO root fetch - processPackages [hazard-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hazard_map-0.2.1.tar.gz tmp/hazard_map-0.3.0.tar.gz --markdown 20240522/h/hazard-map/0.2.1-0.3.0/README.md --exclude *.pyd
+[2024-05-22 14:02:18] INFO root fetch - processPackages [Qubx]: executing diffoscope
+[2024-05-22 14:02:18] INFO root fetch - processPackages [Qubx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qubx-0.1.81.tar.gz tmp/qubx-0.1.82.tar.gz --markdown 20240522/Q/Qubx/0.1.81-0.1.82/README.md --exclude *.pyd
+[2024-05-22 14:02:18] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2024-05-22 14:02:18] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.7.0rc8-py3-none-any.whl.zip tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip --markdown 20240522/m/mlrun/1.7.0rc8-1.7.0rc9/README.md --exclude *.pyd
+[2024-05-22 14:02:18] INFO root fetch - processPackages [psychopy-bbtk]: Downloading https://files.pythonhosted.org/packages/ee/9e/d3935e87010945e5e684959089525de3e11f46e79cbee3f08e2f6ed5f79b/psychopy_bbtk-0.0.9.tar.gz
+[2024-05-22 14:02:18] INFO root fetch - processPackages [psychopy-bbtk]: executing diffoscope
+[2024-05-22 14:02:18] INFO root fetch - processPackages [psychopy-bbtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psychopy_bbtk-0.0.8.tar.gz tmp/psychopy_bbtk-0.0.9.tar.gz --markdown 20240522/p/psychopy-bbtk/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 14:02:18] INFO root fetch - processPackages [qoqo]: Downloading https://files.pythonhosted.org/packages/2a/a1/5d3ee106d66a5a2ebb2065e292b401bed1721c7c9079d1cdc535b8bbe74e/qoqo-1.9.1.tar.gz
+[2024-05-22 14:02:18] INFO root fetch - processPackages [qoqo]: executing diffoscope
+[2024-05-22 14:02:18] INFO root fetch - processPackages [qoqo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo-1.9.0.tar.gz tmp/qoqo-1.9.1.tar.gz --markdown 20240522/q/qoqo/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-22 14:02:19] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.3.8.tar.gz]
+[2024-05-22 14:02:19] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.3.9.tar.gz]
+[2024-05-22 14:02:19] INFO root fetch - main [MainThread]: End processing [moval]: success
+[2024-05-22 14:02:19] INFO root fetch - processPackages [hazard-map]: Remove: archive file [/home/abi/fetcher/tmp/hazard_map-0.2.1.tar.gz]
+[2024-05-22 14:02:19] INFO root fetch - processPackages [hazard-map]: Remove: archive file [/home/abi/fetcher/tmp/hazard_map-0.3.0.tar.gz]
+[2024-05-22 14:02:19] INFO root fetch - main [MainThread]: End processing [hazard-map]: success
+[2024-05-22 14:02:19] INFO root fetch - processPackages [Qubx]: Remove: archive file [/home/abi/fetcher/tmp/qubx-0.1.81.tar.gz]
+[2024-05-22 14:02:19] INFO root fetch - processPackages [Qubx]: Remove: archive file [/home/abi/fetcher/tmp/qubx-0.1.82.tar.gz]
+[2024-05-22 14:02:19] INFO root fetch - main [MainThread]: End processing [Qubx]: success
+[2024-05-22 14:02:19] INFO root fetch - processPackages [psychopy-bbtk]: Remove: archive file [/home/abi/fetcher/tmp/psychopy_bbtk-0.0.8.tar.gz]
+[2024-05-22 14:02:19] INFO root fetch - processPackages [psychopy-bbtk]: Remove: archive file [/home/abi/fetcher/tmp/psychopy_bbtk-0.0.9.tar.gz]
+[2024-05-22 14:02:19] INFO root fetch - main [MainThread]: End processing [psychopy-bbtk]: success
+[2024-05-22 14:02:20] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc8-py3-none-any.whl.zip]
+[2024-05-22 14:02:20] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip]
+[2024-05-22 14:02:20] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2024-05-22 14:02:23] INFO root fetch - processPackages [qoqo]: Remove: archive file [/home/abi/fetcher/tmp/qoqo-1.9.0.tar.gz]
+[2024-05-22 14:02:23] INFO root fetch - processPackages [qoqo]: Remove: archive file [/home/abi/fetcher/tmp/qoqo-1.9.1.tar.gz]
+[2024-05-22 14:02:23] INFO root fetch - main [MainThread]: End processing [qoqo]: success
+[2024-05-22 14:02:23] INFO root fetch - main [MainThread]: Store serial: [23323536]

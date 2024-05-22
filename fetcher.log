@@ -22201,3 +22201,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 14:02:23] INFO root fetch - processPackages [qoqo]: Remove: archive file [/home/abi/fetcher/tmp/qoqo-1.9.1.tar.gz]
 [2024-05-22 14:02:23] INFO root fetch - main [MainThread]: End processing [qoqo]: success
 [2024-05-22 14:02:23] INFO root fetch - main [MainThread]: Store serial: [23323536]
+[2024-05-22 14:04:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323536]
+[2024-05-22 14:04:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 14:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-maintenance-equipment-hierarchy
+[2024-05-22 14:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tactics2d
+[2024-05-22 14:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xrdPlanner
+[2024-05-22 14:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hypercrawl-lite
+[2024-05-22 14:04:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rsdb-utils
+[2024-05-22 14:04:38] INFO root fetch - processPackages [hypercrawl-lite]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-22 14:04:38] WARNING root fetch - processPackages [rsdb-utils]: Skipping, unable to determine old version
+[2024-05-22 14:04:38] INFO root fetch - main [MainThread]: End processing [rsdb-utils] error
+[2024-05-22 14:04:38] INFO root fetch - processPackages [xrdPlanner]: New version: [2023.6.21] Old Version: [1.7.2]
+[2024-05-22 14:04:38] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-hierarchy]: New version: [17.0.1.0.0.3] Old Version: [16.0.1.1.0.5]
+[2024-05-22 14:04:38] INFO root fetch - processPackages [tactics2d]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-05-22 14:04:39] INFO root fetch - processPackages [hypercrawl-lite]: Downloading https://files.pythonhosted.org/packages/98/82/83c83c025409a7d86df6d2cd51c205ebc235c36a5daae119c6623183e16d/hypercrawl-lite-0.1.0.tar.gz
+[2024-05-22 14:04:39] INFO root fetch - processPackages [xrdPlanner]: Downloading https://files.pythonhosted.org/packages/26/be/cf332c0b621e481ee59f25361d3320177760f72a4589c85485bd6a63cd5d/xrdplanner-1.7.2.tar.gz
+[2024-05-22 14:04:39] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-hierarchy]: Downloading https://files.pythonhosted.org/packages/2b/d2/fc8ee6b117da459ab124994d34b7237fc3e8a091e56b67caa0509b4493f2/odoo_addon_maintenance_equipment_hierarchy-16.0.1.1.0.5-py3-none-any.whl
+[2024-05-22 14:04:39] INFO root fetch - processPackages [tactics2d]: Downloading https://files.pythonhosted.org/packages/3c/71/01430431775039487779d1fbef1922ec1f9eca88acc365bb5f0ba5807ece/tactics2d-0.1.6.tar.gz
+[2024-05-22 14:04:39] INFO root fetch - processPackages [hypercrawl-lite]: Downloading https://files.pythonhosted.org/packages/10/65/0e58e3d7e62525cc391306e8ded37b76af3eb5e56358b8167956ab5d73ec/hypercrawl-lite-0.1.1.tar.gz
+[2024-05-22 14:04:39] INFO root fetch - processPackages [hypercrawl-lite]: executing diffoscope
+[2024-05-22 14:04:39] INFO root fetch - processPackages [hypercrawl-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypercrawl-lite-0.1.0.tar.gz tmp/hypercrawl-lite-0.1.1.tar.gz --markdown 20240522/h/hypercrawl-lite/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-22 14:04:39] INFO root fetch - processPackages [xrdPlanner]: Downloading https://files.pythonhosted.org/packages/41/64/d98917c04771e9b308e8286daa8af34ba7bcfc8c9e3dd0f5b3690fcabb4c/xrdPlanner-2023.6.21.tar.gz
+[2024-05-22 14:04:39] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-hierarchy]: Downloading https://files.pythonhosted.org/packages/ed/aa/10f93aa9102094d07a955987f12be32fc4f97cf002776eb22be116bb4601/odoo_addon_maintenance_equipment_hierarchy-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-22 14:04:39] INFO root fetch - processPackages [tactics2d]: Downloading https://files.pythonhosted.org/packages/23/41/3f9bd8f447510a424de58d3c7a38cd8a58291d43503061519352ecef717f/tactics2d-0.1.7.tar.gz
+[2024-05-22 14:04:39] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-hierarchy]: executing diffoscope
+[2024-05-22 14:04:39] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-hierarchy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_maintenance_equipment_hierarchy-16.0.1.1.0.5-py3-none-any.whl.zip tmp/odoo_addon_maintenance_equipment_hierarchy-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-maintenance-equipment-hierarchy/16.0.1.1.0.5-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-22 14:04:39] INFO root fetch - processPackages [xrdPlanner]: executing diffoscope
+[2024-05-22 14:04:39] INFO root fetch - processPackages [xrdPlanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xrdplanner-1.7.2.tar.gz tmp/xrdPlanner-2023.6.21.tar.gz --markdown 20240522/x/xrdPlanner/1.7.2-2023.6.21/README.md --exclude *.pyd
+[2024-05-22 14:04:39] INFO root fetch - processPackages [tactics2d]: executing diffoscope
+[2024-05-22 14:04:39] INFO root fetch - processPackages [tactics2d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tactics2d-0.1.6.tar.gz tmp/tactics2d-0.1.7.tar.gz --markdown 20240522/t/tactics2d/0.1.6-0.1.7/README.md --exclude *.pyd
+[2024-05-22 14:04:40] INFO root fetch - processPackages [hypercrawl-lite]: Remove: archive file [/home/abi/fetcher/tmp/hypercrawl-lite-0.1.0.tar.gz]
+[2024-05-22 14:04:40] INFO root fetch - processPackages [hypercrawl-lite]: Remove: archive file [/home/abi/fetcher/tmp/hypercrawl-lite-0.1.1.tar.gz]
+[2024-05-22 14:04:40] INFO root fetch - main [MainThread]: End processing [hypercrawl-lite]: success
+[2024-05-22 14:04:40] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-hierarchy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_equipment_hierarchy-16.0.1.1.0.5-py3-none-any.whl.zip]
+[2024-05-22 14:04:40] INFO root fetch - processPackages [odoo-addon-maintenance-equipment-hierarchy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_maintenance_equipment_hierarchy-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-22 14:04:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-maintenance-equipment-hierarchy]: success
+[2024-05-22 14:04:40] INFO root fetch - processPackages [xrdPlanner]: Remove: archive file [/home/abi/fetcher/tmp/xrdplanner-1.7.2.tar.gz]
+[2024-05-22 14:04:40] INFO root fetch - processPackages [xrdPlanner]: Remove: archive file [/home/abi/fetcher/tmp/xrdPlanner-2023.6.21.tar.gz]
+[2024-05-22 14:04:40] INFO root fetch - main [MainThread]: End processing [xrdPlanner]: success
+[2024-05-22 14:04:40] INFO root fetch - processPackages [tactics2d]: Remove: archive file [/home/abi/fetcher/tmp/tactics2d-0.1.6.tar.gz]
+[2024-05-22 14:04:40] INFO root fetch - processPackages [tactics2d]: Remove: archive file [/home/abi/fetcher/tmp/tactics2d-0.1.7.tar.gz]
+[2024-05-22 14:04:40] INFO root fetch - main [MainThread]: End processing [tactics2d]: success
+[2024-05-22 14:04:40] INFO root fetch - main [MainThread]: Store serial: [23323565]

@@ -16893,3 +16893,103 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:54:59] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405211143.tar.gz]
 [2024-05-22 10:54:59] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-05-22 10:54:59] INFO root fetch - main [MainThread]: Store serial: [23321184]
+[2024-05-22 10:57:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321184]
+[2024-05-22 10:57:08] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-22 10:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vuer
+[2024-05-22 10:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: go-console
+[2024-05-22 10:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: danila-lib
+[2024-05-22 10:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: danila-lib
+[2024-05-22 10:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: udirect
+[2024-05-22 10:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mozmlops
+[2024-05-22 10:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pymecht
+[2024-05-22 10:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: otcdocstheme
+[2024-05-22 10:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: conf-root
+[2024-05-22 10:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: collective.taxonomy
+[2024-05-22 10:57:08] INFO root fetch - processPackages [go-console]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-22 10:57:08] INFO root fetch - processPackages [danila-lib]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-05-22 10:57:08] INFO root fetch - processPackages [udirect]: New version: [0.1.4.dev4] Old Version: [0.1.4.dev3]
+[2024-05-22 10:57:08] INFO root fetch - processPackages [vuer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 10:57:08] INFO root fetch - processPackages [danila-lib]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-05-22 10:57:08] INFO root fetch - processPackages [mozmlops]: New version: [0.1.1] Old Version: [0.0.2]
+[2024-05-22 10:57:08] INFO root fetch - processPackages [otcdocstheme]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-22 10:57:08] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/cc/1c/0965c1c5af7e72f41383d3be04e014b4971db12a0613b06d5d17276055f4/udirect-0.1.4.dev3.tar.gz
+[2024-05-22 10:57:08] INFO root fetch - processPackages [conf-root]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-22 10:57:08] INFO root fetch - processPackages [pymecht]: New version: [1.0.1] Old Version: [1.0]
+[2024-05-22 10:57:08] INFO root fetch - processPackages [go-console]: Downloading https://files.pythonhosted.org/packages/1b/0a/a5950dbf07bbe320c03d258c6d003f1fad6a6833fa15a0733531dc88126b/go_console-0.1.0.tar.gz
+[2024-05-22 10:57:08] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/5b/83/563e814dca0d33e62ef7536ca3d52981dd1fb7ec54afc814e2e95d0a003f/danila-lib-1.6.2.tar.gz
+[2024-05-22 10:57:08] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/5b/83/563e814dca0d33e62ef7536ca3d52981dd1fb7ec54afc814e2e95d0a003f/danila-lib-1.6.2.tar.gz
+[2024-05-22 10:57:08] INFO root fetch - processPackages [collective.taxonomy]: New version: [3.1.1] Old Version: [3.1]
+[2024-05-22 10:57:08] INFO root fetch - processPackages [otcdocstheme]: Downloading https://files.pythonhosted.org/packages/8a/ff/00c699aca4575369ab332672b2fbd301e52fb26fcc7ea25e3ff29f7bce0e/otcdocstheme-1.2.3.tar.gz
+[2024-05-22 10:57:08] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/14/ea/4ed23f119eafd70cda97b4911e041767f825880f34f1770da786691d361c/vuer-0.0.8-py3-none-any.whl
+[2024-05-22 10:57:08] INFO root fetch - processPackages [mozmlops]: Downloading https://files.pythonhosted.org/packages/a0/ef/2a39a13d5108b54e505705acb27f88dfa7a4c1c7023a5613d8f9688a909e/mozmlops-0.0.2.tar.gz
+[2024-05-22 10:57:09] INFO root fetch - processPackages [conf-root]: Downloading https://files.pythonhosted.org/packages/0b/f6/a04bc3a58bda18892323420e9c72f50f8514af1593b42ffb6f10c92b2749/conf_root-0.3.1.tar.gz
+[2024-05-22 10:57:09] INFO root fetch - processPackages [pymecht]: Downloading https://files.pythonhosted.org/packages/4b/01/8d87f23db7bf2c42c3ae1710901747a108dc0c8b3266345f3585f926058c/pymecht-1.0.tar.gz
+[2024-05-22 10:57:09] INFO root fetch - processPackages [collective.taxonomy]: Downloading https://files.pythonhosted.org/packages/35/d3/d806613825a1afb28fd2a1286b27dd4226f5f32b7689c21b3f8e725e311e/collective.taxonomy-3.1.tar.gz
+[2024-05-22 10:57:09] INFO root fetch - processPackages [go-console]: Downloading https://files.pythonhosted.org/packages/fb/be/09da40cfc3c0d752c8008cd30aba248cce5b9d13354ab885356c63b49908/go_console-0.1.1.tar.gz
+[2024-05-22 10:57:09] INFO root fetch - processPackages [mozmlops]: Downloading https://files.pythonhosted.org/packages/38/82/34e9c67c356abcb5a185f71e22ed1c940fa520af40f457b267908e2ed556/mozmlops-0.1.1.tar.gz
+[2024-05-22 10:57:09] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/25/f1/9174198521ef27b8c45231bf0d7003073ba3ae6fb4be3b18c0a18c4ce749/vuer-0.0.9-py3-none-any.whl
+[2024-05-22 10:57:09] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/41/33/eb36bbebc52f46ab1cd5ebda7bd501e173d9544d2c8eb27d8c77a1e577b4/danila-lib-1.6.3.tar.gz
+[2024-05-22 10:57:09] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/41/33/eb36bbebc52f46ab1cd5ebda7bd501e173d9544d2c8eb27d8c77a1e577b4/danila-lib-1.6.3.tar.gz
+[2024-05-22 10:57:09] INFO root fetch - processPackages [go-console]: executing diffoscope
+[2024-05-22 10:57:09] INFO root fetch - processPackages [go-console]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/go_console-0.1.0.tar.gz tmp/go_console-0.1.1.tar.gz --markdown 20240522/g/go-console/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-22 10:57:09] INFO root fetch - processPackages [mozmlops]: executing diffoscope
+[2024-05-22 10:57:09] INFO root fetch - processPackages [mozmlops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozmlops-0.0.2.tar.gz tmp/mozmlops-0.1.1.tar.gz --markdown 20240522/m/mozmlops/0.0.2-0.1.1/README.md --exclude *.pyd
+[2024-05-22 10:57:09] INFO root fetch - processPackages [conf-root]: Downloading https://files.pythonhosted.org/packages/df/c0/3ea4a175aeca060e24b6b1ccab8242fe9b0edb0d55fa33c9bac4ec876ba0/conf_root-0.3.2.tar.gz
+[2024-05-22 10:57:09] INFO root fetch - processPackages [vuer]: executing diffoscope
+[2024-05-22 10:57:09] INFO root fetch - processPackages [vuer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vuer-0.0.8-py3-none-any.whl.zip tmp/vuer-0.0.9-py3-none-any.whl.zip --markdown 20240522/v/vuer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 10:57:09] INFO root fetch - processPackages [pymecht]: Downloading https://files.pythonhosted.org/packages/06/fe/9c1ac1534a878efd5a99e74e13579e1e863722145805f5c587c41666f0a5/pymecht-1.0.1.tar.gz
+[2024-05-22 10:57:09] INFO root fetch - processPackages [otcdocstheme]: Downloading https://files.pythonhosted.org/packages/bd/e3/3435b6008d8b2acd52d22ef93115a4dbebd6cb1714a4a6ea2422cfe49306/otcdocstheme-1.2.4.tar.gz
+[2024-05-22 10:57:09] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-22 10:57:09] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.6.2.tar.gz tmp/danila-lib-1.6.3.tar.gz --markdown 20240522/d/danila-lib/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-05-22 10:57:09] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-22 10:57:09] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.6.2.tar.gz tmp/danila-lib-1.6.3.tar.gz --markdown 20240522/d/danila-lib/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-05-22 10:57:09] INFO root fetch - processPackages [pymecht]: executing diffoscope
+[2024-05-22 10:57:09] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/96/8c/e324f351106ad45f5de754e478c01698f555c94b93d896e83b4c32b0cbbe/udirect-0.1.4.dev4.tar.gz
+[2024-05-22 10:57:09] INFO root fetch - processPackages [pymecht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymecht-1.0.tar.gz tmp/pymecht-1.0.1.tar.gz --markdown 20240522/p/pymecht/1.0-1.0.1/README.md --exclude *.pyd
+[2024-05-22 10:57:09] INFO root fetch - processPackages [conf-root]: executing diffoscope
+[2024-05-22 10:57:09] INFO root fetch - processPackages [conf-root]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conf_root-0.3.1.tar.gz tmp/conf_root-0.3.2.tar.gz --markdown 20240522/c/conf-root/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-22 10:57:09] INFO root fetch - processPackages [otcdocstheme]: executing diffoscope
+[2024-05-22 10:57:09] INFO root fetch - processPackages [otcdocstheme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otcdocstheme-1.2.3.tar.gz tmp/otcdocstheme-1.2.4.tar.gz --markdown 20240522/o/otcdocstheme/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-22 10:57:10] INFO root fetch - processPackages [collective.taxonomy]: Downloading https://files.pythonhosted.org/packages/2c/ee/529a47ff825fc4b471c95cce045690a844504d14c8655d6a9c9ae9d3292f/collective_taxonomy-3.1.1.tar.gz
+[2024-05-22 10:57:10] INFO root fetch - processPackages [udirect]: executing diffoscope
+[2024-05-22 10:57:10] INFO root fetch - processPackages [udirect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udirect-0.1.4.dev3.tar.gz tmp/udirect-0.1.4.dev4.tar.gz --markdown 20240522/u/udirect/0.1.4.dev3-0.1.4.dev4/README.md --exclude *.pyd
+[2024-05-22 10:57:10] INFO root fetch - processPackages [go-console]: Remove: archive file [/home/abi/fetcher/tmp/go_console-0.1.0.tar.gz]
+[2024-05-22 10:57:10] INFO root fetch - processPackages [go-console]: Remove: archive file [/home/abi/fetcher/tmp/go_console-0.1.1.tar.gz]
+[2024-05-22 10:57:10] INFO root fetch - processPackages [go-console]: Start processing: tgedr-dataops
+[2024-05-22 10:57:10] INFO root fetch - main [MainThread]: End processing [go-console]: success
+[2024-05-22 10:57:10] INFO root fetch - processPackages [tgedr-dataops]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 10:57:10] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.8-py3-none-any.whl.zip]
+[2024-05-22 10:57:10] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.9-py3-none-any.whl.zip]
+[2024-05-22 10:57:10] INFO root fetch - main [MainThread]: End processing [vuer]: success
+[2024-05-22 10:57:10] INFO root fetch - processPackages [mozmlops]: Remove: archive file [/home/abi/fetcher/tmp/mozmlops-0.0.2.tar.gz]
+[2024-05-22 10:57:10] INFO root fetch - processPackages [mozmlops]: Remove: archive file [/home/abi/fetcher/tmp/mozmlops-0.1.1.tar.gz]
+[2024-05-22 10:57:10] INFO root fetch - main [MainThread]: End processing [mozmlops]: success
+[2024-05-22 10:57:10] INFO root fetch - processPackages [tgedr-dataops]: Downloading https://files.pythonhosted.org/packages/b4/76/d8edec3eb0fa4e85b82785a270815d5e84c2d89fad52fe7f73e50b5605ff/tgedr-dataops-0.0.8.tar.gz
+[2024-05-22 10:57:10] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.6.2.tar.gz]
+[2024-05-22 10:57:10] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.6.3.tar.gz]
+[2024-05-22 10:57:10] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-22 10:57:10] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-22 10:57:10] INFO root fetch - processPackages [conf-root]: Remove: archive file [/home/abi/fetcher/tmp/conf_root-0.3.1.tar.gz]
+[2024-05-22 10:57:10] INFO root fetch - processPackages [conf-root]: Remove: archive file [/home/abi/fetcher/tmp/conf_root-0.3.2.tar.gz]
+[2024-05-22 10:57:10] INFO root fetch - main [MainThread]: End processing [conf-root]: success
+[2024-05-22 10:57:10] INFO root fetch - processPackages [collective.taxonomy]: executing diffoscope
+[2024-05-22 10:57:10] INFO root fetch - processPackages [collective.taxonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.taxonomy-3.1.tar.gz tmp/collective_taxonomy-3.1.1.tar.gz --markdown 20240522/c/collective.taxonomy/3.1-3.1.1/README.md --exclude *.pyd
+[2024-05-22 10:57:10] INFO root fetch - processPackages [pymecht]: Remove: archive file [/home/abi/fetcher/tmp/pymecht-1.0.tar.gz]
+[2024-05-22 10:57:10] INFO root fetch - processPackages [pymecht]: Remove: archive file [/home/abi/fetcher/tmp/pymecht-1.0.1.tar.gz]
+[2024-05-22 10:57:10] INFO root fetch - main [MainThread]: End processing [pymecht]: success
+[2024-05-22 10:57:10] INFO root fetch - processPackages [tgedr-dataops]: Downloading https://files.pythonhosted.org/packages/e4/87/f10ef9ea6518ce92da3038190aff39bfbb00bf04216a67b7418ab6ab2803/tgedr-dataops-0.0.9.tar.gz
+[2024-05-22 10:57:10] INFO root fetch - processPackages [tgedr-dataops]: executing diffoscope
+[2024-05-22 10:57:10] INFO root fetch - processPackages [tgedr-dataops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgedr-dataops-0.0.8.tar.gz tmp/tgedr-dataops-0.0.9.tar.gz --markdown 20240522/t/tgedr-dataops/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 10:57:11] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev3.tar.gz]
+[2024-05-22 10:57:11] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev4.tar.gz]
+[2024-05-22 10:57:11] INFO root fetch - main [MainThread]: End processing [udirect]: success
+[2024-05-22 10:57:11] INFO root fetch - processPackages [tgedr-dataops]: Remove: archive file [/home/abi/fetcher/tmp/tgedr-dataops-0.0.8.tar.gz]
+[2024-05-22 10:57:11] INFO root fetch - processPackages [tgedr-dataops]: Remove: archive file [/home/abi/fetcher/tmp/tgedr-dataops-0.0.9.tar.gz]
+[2024-05-22 10:57:11] INFO root fetch - main [MainThread]: End processing [tgedr-dataops]: success
+[2024-05-22 10:57:13] INFO root fetch - processPackages [otcdocstheme]: Remove: archive file [/home/abi/fetcher/tmp/otcdocstheme-1.2.3.tar.gz]
+[2024-05-22 10:57:13] INFO root fetch - processPackages [otcdocstheme]: Remove: archive file [/home/abi/fetcher/tmp/otcdocstheme-1.2.4.tar.gz]
+[2024-05-22 10:57:13] INFO root fetch - main [MainThread]: End processing [otcdocstheme]: success
+[2024-05-22 10:57:16] INFO root fetch - processPackages [collective.taxonomy]: Remove: archive file [/home/abi/fetcher/tmp/collective.taxonomy-3.1.tar.gz]
+[2024-05-22 10:57:16] INFO root fetch - processPackages [collective.taxonomy]: Remove: archive file [/home/abi/fetcher/tmp/collective_taxonomy-3.1.1.tar.gz]
+[2024-05-22 10:57:16] INFO root fetch - main [MainThread]: End processing [collective.taxonomy]: success
+[2024-05-22 10:57:16] INFO root fetch - main [MainThread]: Store serial: [23321229]

@@ -2692,3 +2692,54 @@
 [2024-05-22 02:15:14] INFO root fetch - processPackages [langchain-core]: Remove: archive file [/home/abi/fetcher/tmp/langchain_core-0.2.1.tar.gz]
 [2024-05-22 02:15:14] INFO root fetch - main [MainThread]: End processing [langchain-core]: success
 [2024-05-22 02:15:15] INFO root fetch - main [MainThread]: Store serial: [23315489]
+[2024-05-22 02:17:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315489]
+[2024-05-22 02:17:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 02:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geo-roughness-tool
+[2024-05-22 02:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: centrex-trajectories
+[2024-05-22 02:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bdi-kit
+[2024-05-22 02:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-05-22 02:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdklabs.appsync-utils
+[2024-05-22 02:17:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-05-22 02:17:24] INFO root fetch - processPackages [geo-roughness-tool]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-22 02:17:24] INFO root fetch - processPackages [cdklabs.appsync-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-22 02:17:24] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-05-22 02:17:24] INFO root fetch - processPackages [centrex-trajectories]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-05-22 02:17:24] WARNING root fetch - processPackages [bdi-kit]: Skipping, unable to determine old version
+[2024-05-22 02:17:24] INFO root fetch - main [MainThread]: End processing [bdi-kit] error
+[2024-05-22 02:17:24] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/f0/38/19e4e70e2e795d89d085e80427179c6b2ca691e3779ea0fa2aacb6c1d744/geo_roughness_tool-0.2.2.tar.gz
+[2024-05-22 02:17:24] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/c2/b6/9921880127918975163ef796466fd100a8f3a6246436ca4993eafae4915d/cdklabs.appsync-utils-0.0.98.tar.gz
+[2024-05-22 02:17:24] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-05-22 02:17:24] INFO root fetch - processPackages [centrex-trajectories]: Downloading https://files.pythonhosted.org/packages/bc/89/2f432dcdc41ae7e65e775ade1d1564fd9a82aaf1da98c20cca1473ff2680/centrex-trajectories-0.2.0.tar.gz
+[2024-05-22 02:17:24] INFO root fetch - processPackages [cdklabs.appsync-utils]: Downloading https://files.pythonhosted.org/packages/fe/2c/3a8605fe934a0a120041c6190f384b00350c8036420ee8d53ac0b0906f74/cdklabs.appsync-utils-0.0.99.tar.gz
+[2024-05-22 02:17:24] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-05-22 02:17:24] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-05-22 02:17:24] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/80/fc/37e44973dfea10099a578b11a1716524758256df7081ce3785bdb199b415/geo_roughness_tool-0.2.3.tar.gz
+[2024-05-22 02:17:24] INFO root fetch - processPackages [cdklabs.appsync-utils]: executing diffoscope
+[2024-05-22 02:17:24] INFO root fetch - processPackages [cdklabs.appsync-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.appsync-utils-0.0.98.tar.gz tmp/cdklabs.appsync-utils-0.0.99.tar.gz --markdown 20240522/c/cdklabs.appsync-utils/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-22 02:17:24] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-05-22 02:17:24] INFO root fetch - processPackages [centrex-trajectories]: Downloading https://files.pythonhosted.org/packages/98/a3/eef6d7b0ffbe2a702b5202eced13e229508c8cbad72abde5179713fbe69f/centrex-trajectories-0.3.0.tar.gz
+[2024-05-22 02:17:24] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-05-22 02:17:24] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240522/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/README.md --exclude *.pyd
+[2024-05-22 02:17:24] INFO root fetch - processPackages [geo-roughness-tool]: executing diffoscope
+[2024-05-22 02:17:24] INFO root fetch - processPackages [geo-roughness-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_roughness_tool-0.2.2.tar.gz tmp/geo_roughness_tool-0.2.3.tar.gz --markdown 20240522/g/geo-roughness-tool/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-22 02:17:24] INFO root fetch - processPackages [centrex-trajectories]: executing diffoscope
+[2024-05-22 02:17:24] INFO root fetch - processPackages [centrex-trajectories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centrex-trajectories-0.2.0.tar.gz tmp/centrex-trajectories-0.3.0.tar.gz --markdown 20240522/c/centrex-trajectories/0.2.0-0.3.0/README.md --exclude *.pyd
+[2024-05-22 02:17:24] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-05-22 02:17:25] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-05-22 02:17:25] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240522/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/README.md --exclude *.pyd
+[2024-05-22 02:17:25] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.98.tar.gz]
+[2024-05-22 02:17:25] INFO root fetch - processPackages [cdklabs.appsync-utils]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.appsync-utils-0.0.99.tar.gz]
+[2024-05-22 02:17:25] INFO root fetch - main [MainThread]: End processing [cdklabs.appsync-utils]: success
+[2024-05-22 02:17:25] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.2.2.tar.gz]
+[2024-05-22 02:17:25] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.2.3.tar.gz]
+[2024-05-22 02:17:25] INFO root fetch - main [MainThread]: End processing [geo-roughness-tool]: success
+[2024-05-22 02:17:25] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-05-22 02:17:25] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-05-22 02:17:25] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-05-22 02:17:25] INFO root fetch - processPackages [centrex-trajectories]: Remove: archive file [/home/abi/fetcher/tmp/centrex-trajectories-0.2.0.tar.gz]
+[2024-05-22 02:17:25] INFO root fetch - processPackages [centrex-trajectories]: Remove: archive file [/home/abi/fetcher/tmp/centrex-trajectories-0.3.0.tar.gz]
+[2024-05-22 02:17:25] INFO root fetch - main [MainThread]: End processing [centrex-trajectories]: success
+[2024-05-22 02:17:25] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-05-22 02:17:25] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-05-22 02:17:25] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-05-22 02:17:25] INFO root fetch - main [MainThread]: Store serial: [23315508]

@@ -16672,3 +16672,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:48:23] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
 [2024-05-22 10:48:23] INFO root fetch - main [MainThread]: End processing [upgini]: success
 [2024-05-22 10:48:23] INFO root fetch - main [MainThread]: Store serial: [23321103]
+[2024-05-22 10:50:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321103]
+[2024-05-22 10:50:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 10:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reflex-antd
+[2024-05-22 10:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eyeballvul
+[2024-05-22 10:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: duwi-smarthome-sdk-dev
+[2024-05-22 10:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scraped
+[2024-05-22 10:50:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: danila-lib
+[2024-05-22 10:50:31] INFO root fetch - processPackages [danila-lib]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-05-22 10:50:31] WARNING root fetch - processPackages [scraped]: Skipping, unable to determine old version
+[2024-05-22 10:50:31] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-22 10:50:31] INFO root fetch - main [MainThread]: End processing [scraped] error
+[2024-05-22 10:50:31] WARNING root fetch - processPackages [eyeballvul]: Skipping, unable to determine old version
+[2024-05-22 10:50:31] INFO root fetch - main [MainThread]: End processing [eyeballvul] error
+[2024-05-22 10:50:31] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/57/11/e1768ee2b3b48a2a9c6f0f1b3599f55d7e04a5b98d390c33c48d96488edb/danila-lib-1.6.1.tar.gz
+[2024-05-22 10:50:31] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/95/ef/a2d75a3a44e71edb8d21f90031d60c2bc135082d7c90608877031a2604db/duwi_smarthome_sdk_dev-0.0.9.tar.gz
+[2024-05-22 10:50:31] INFO root fetch - processPackages [reflex-antd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 10:50:32] INFO root fetch - processPackages [reflex-antd]: Downloading https://files.pythonhosted.org/packages/39/b1/8602f2c195fa9861580d5f2f11ce959db6b0aebbaefd727e338206c1e946/reflex_antd-0.0.8.tar.gz
+[2024-05-22 10:50:32] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/5b/83/563e814dca0d33e62ef7536ca3d52981dd1fb7ec54afc814e2e95d0a003f/danila-lib-1.6.2.tar.gz
+[2024-05-22 10:50:32] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Downloading https://files.pythonhosted.org/packages/a8/cd/20285260203174b25c37ecba1add69fc535f380cce915281e7e3df62ac6e/duwi_smarthome_sdk_dev-0.1.0.tar.gz
+[2024-05-22 10:50:32] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-22 10:50:32] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.6.1.tar.gz tmp/danila-lib-1.6.2.tar.gz --markdown 20240522/d/danila-lib/1.6.1-1.6.2/README.md --exclude *.pyd
+[2024-05-22 10:50:32] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: executing diffoscope
+[2024-05-22 10:50:32] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duwi_smarthome_sdk_dev-0.0.9.tar.gz tmp/duwi_smarthome_sdk_dev-0.1.0.tar.gz --markdown 20240522/d/duwi-smarthome-sdk-dev/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-22 10:50:32] INFO root fetch - processPackages [reflex-antd]: Downloading https://files.pythonhosted.org/packages/19/4f/54390740115cca2de5971fe6d7daef3d17dd8cb843fdb6c73ef1c3ef7b27/reflex_antd-0.0.9.tar.gz
+[2024-05-22 10:50:32] INFO root fetch - processPackages [reflex-antd]: executing diffoscope
+[2024-05-22 10:50:32] INFO root fetch - processPackages [reflex-antd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex_antd-0.0.8.tar.gz tmp/reflex_antd-0.0.9.tar.gz --markdown 20240522/r/reflex-antd/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 10:50:33] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.6.1.tar.gz]
+[2024-05-22 10:50:33] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.6.2.tar.gz]
+[2024-05-22 10:50:33] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-22 10:50:33] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.0.9.tar.gz]
+[2024-05-22 10:50:33] INFO root fetch - processPackages [duwi-smarthome-sdk-dev]: Remove: archive file [/home/abi/fetcher/tmp/duwi_smarthome_sdk_dev-0.1.0.tar.gz]
+[2024-05-22 10:50:33] INFO root fetch - main [MainThread]: End processing [duwi-smarthome-sdk-dev]: success
+[2024-05-22 10:50:33] INFO root fetch - processPackages [reflex-antd]: Remove: archive file [/home/abi/fetcher/tmp/reflex_antd-0.0.8.tar.gz]
+[2024-05-22 10:50:33] INFO root fetch - processPackages [reflex-antd]: Remove: archive file [/home/abi/fetcher/tmp/reflex_antd-0.0.9.tar.gz]
+[2024-05-22 10:50:33] INFO root fetch - main [MainThread]: End processing [reflex-antd]: success
+[2024-05-22 10:50:33] INFO root fetch - main [MainThread]: Store serial: [23321119]

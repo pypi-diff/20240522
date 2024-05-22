@@ -9715,3 +9715,96 @@
 [2024-05-22 05:15:34] INFO root fetch - processPackages [pyedifice]: Remove: archive file [/home/abi/fetcher/tmp/pyedifice-0.6.1.tar.gz]
 [2024-05-22 05:15:34] INFO root fetch - main [MainThread]: End processing [pyedifice]: success
 [2024-05-22 05:15:34] INFO root fetch - main [MainThread]: Store serial: [23318149]
+[2024-05-22 05:17:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318149]
+[2024-05-22 05:17:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-22 05:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alamos
+[2024-05-22 05:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: synnax-freighter
+[2024-05-22 05:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gaea-operator
+[2024-05-22 05:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: synnax
+[2024-05-22 05:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tmticket
+[2024-05-22 05:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-sale-commission-geo-assign-product-domain
+[2024-05-22 05:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-cdktf-provider-random
+[2024-05-22 05:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mllm
+[2024-05-22 05:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dash-spread-grid
+[2024-05-22 05:17:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: baseball
+[2024-05-22 05:17:43] INFO root fetch - processPackages [synnax-freighter]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-22 05:17:43] INFO root fetch - processPackages [alamos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-22 05:17:43] INFO root fetch - processPackages [tmticket]: New version: [0.2.2] Old Version: [0.2.16]
+[2024-05-22 05:17:43] INFO root fetch - processPackages [dash-spread-grid]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 05:17:43] INFO root fetch - processPackages [synnax]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-22 05:17:43] INFO root fetch - processPackages [baseball]: New version: [9.9] Old Version: [9.8]
+[2024-05-22 05:17:43] INFO root fetch - processPackages [gaea-operator]: New version: [4.1.2.dev7] Old Version: [4.1.2.dev6]
+[2024-05-22 05:17:43] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign-product-domain]: New version: [14.0.1.3.1.dev2] Old Version: [14.0.1.3.1.dev1]
+[2024-05-22 05:17:43] INFO root fetch - processPackages [mllm]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-22 05:17:43] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/73/49/ce9ba5821f001d820fe348eef14ea631c0d54f20289c0aa2458ec4b14c23/synnax_freighter-0.7.8.tar.gz
+[2024-05-22 05:17:43] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c5/2b/b12c4308c7fb396e018ffbe6ec0f046170906ae98b188985b537619e0f55/alamos-0.3.8.tar.gz
+[2024-05-22 05:17:43] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-05-22 05:17:43] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/e5/7f/a466189ad722610101fc44e72e699e79efe4166a04bc78b5c09578eee17a/tmticket-0.2.16.tar.gz
+[2024-05-22 05:17:43] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/89/a1/f0d76d0706e47ba3dcdbf0fe8c7b2e90c98bd073d40a3c4c7c1c1025aab8/synnax-0.8.0.tar.gz
+[2024-05-22 05:17:43] INFO root fetch - processPackages [dash-spread-grid]: Downloading https://files.pythonhosted.org/packages/9f/39/3477f65f22676264317bcb1d617b220ddcc8d09f85a7eb7904d8c2676dae/dash_spread_grid-0.0.8.tar.gz
+[2024-05-22 05:17:43] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/04/2a/8b198995c2f8d35c19f4b1e0e6c5c067e955f1258d57c1b1341eab88715e/baseball-9.8.tar.gz
+[2024-05-22 05:17:43] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign-product-domain]: Downloading https://files.pythonhosted.org/packages/42/86/82f75c08fbf222e5d35699689d16ae6ad9f770703961b0b4265fefc7f527/odoo14_addon_sale_commission_geo_assign_product_domain-14.0.1.3.1.dev1-py3-none-any.whl
+[2024-05-22 05:17:43] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/1b/a7/a4a614d13e0e8360edfddd1c0939a8a01b5551f1b9c463f2cbe66724b750/gaea_operator-4.1.2.dev6-py3-none-any.whl
+[2024-05-22 05:17:43] INFO root fetch - processPackages [mllm]: Downloading https://files.pythonhosted.org/packages/f2/44/5b779aa7a3ecad5f51567a8f135aca9219f10bbe5e0ccac8b509ab2b65d7/mllm-0.1.7.tar.gz
+[2024-05-22 05:17:43] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: Downloading https://files.pythonhosted.org/packages/b2/96/d577b90a44bcb87339b5c1c1fa000bd65c32a35640657250db410e87783e/cdktf-cdktf-provider-random-8.0.0.tar.gz
+[2024-05-22 05:17:43] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c1/08/cf40db715e810dc50be82dd822b41aefe7a4903f73ac57533c85bc63cf9d/alamos-0.3.9.tar.gz
+[2024-05-22 05:17:43] INFO root fetch - processPackages [tmticket]: Downloading https://files.pythonhosted.org/packages/14/24/d9b4e8fa75d1188e9a793c4a4910d44ca119f97ff0b3779a448274e8c3fd/tmticket-0.2.2.tar.gz
+[2024-05-22 05:17:43] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/b3/bc/76e9b03b96c7ab72f4b39e5e03c396b86efd6fb650bedcff8a7118679e9b/synnax-0.9.0.tar.gz
+[2024-05-22 05:17:43] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/1a/e0/fb3c48a01fd33034695694663cfddfb7a099e47f8aa30dc6c901a5fcee37/baseball-9.9.tar.gz
+[2024-05-22 05:17:43] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/fa/ba/9098a994969c4ac9fa5a1d947ac5ede1ea8e8cf5d2b40c82db732fd56bad/synnax_freighter-0.7.9.tar.gz
+[2024-05-22 05:17:43] INFO root fetch - processPackages [dash-spread-grid]: Downloading https://files.pythonhosted.org/packages/37/f7/3991c1c5cd26d592773df3381df4e17ae14f51d47af4fd52b7419949494b/dash_spread_grid-0.0.9.tar.gz
+[2024-05-22 05:17:43] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-05-22 05:17:43] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.8.tar.gz tmp/alamos-0.3.9.tar.gz --markdown 20240522/a/alamos/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-22 05:17:43] INFO root fetch - processPackages [tmticket]: executing diffoscope
+[2024-05-22 05:17:43] INFO root fetch - processPackages [tmticket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmticket-0.2.16.tar.gz tmp/tmticket-0.2.2.tar.gz --markdown 20240522/t/tmticket/0.2.16-0.2.2/README.md --exclude *.pyd
+[2024-05-22 05:17:43] INFO root fetch - processPackages [synnax]: executing diffoscope
+[2024-05-22 05:17:43] INFO root fetch - processPackages [synnax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax-0.8.0.tar.gz tmp/synnax-0.9.0.tar.gz --markdown 20240522/s/synnax/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-22 05:17:43] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-05-22 05:17:43] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.7.8.tar.gz tmp/synnax_freighter-0.7.9.tar.gz --markdown 20240522/s/synnax-freighter/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-22 05:17:44] INFO root fetch - processPackages [baseball]: executing diffoscope
+[2024-05-22 05:17:44] INFO root fetch - processPackages [baseball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseball-9.8.tar.gz tmp/baseball-9.9.tar.gz --markdown 20240522/b/baseball/9.8-9.9/README.md --exclude *.pyd
+[2024-05-22 05:17:44] INFO root fetch - processPackages [dash-spread-grid]: executing diffoscope
+[2024-05-22 05:17:44] INFO root fetch - processPackages [dash-spread-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_spread_grid-0.0.8.tar.gz tmp/dash_spread_grid-0.0.9.tar.gz --markdown 20240522/d/dash-spread-grid/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 05:17:44] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign-product-domain]: Downloading https://files.pythonhosted.org/packages/12/0a/32854d98f5aa4ad13e988cad9fed1b818e3529173905ff73b88c1ba9a455/odoo14_addon_sale_commission_geo_assign_product_domain-14.0.1.3.1.dev2-py3-none-any.whl
+[2024-05-22 05:17:44] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/a8/1a/3f11273fd235febb5f481b80f73b5d5e74202fa287d0be625410cf17d725/gaea_operator-4.1.2.dev7-py3-none-any.whl
+[2024-05-22 05:17:44] INFO root fetch - processPackages [mllm]: Downloading https://files.pythonhosted.org/packages/dc/ad/0e1a9c70b058ad0a588c5bde67c28d26111389c945bd5153deb0b3a64a46/mllm-0.1.8.tar.gz
+[2024-05-22 05:17:44] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign-product-domain]: executing diffoscope
+[2024-05-22 05:17:44] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign-product-domain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_commission_geo_assign_product_domain-14.0.1.3.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_sale_commission_geo_assign_product_domain-14.0.1.3.1.dev2-py3-none-any.whl.zip --markdown 20240522/o/odoo14-addon-sale-commission-geo-assign-product-domain/14.0.1.3.1.dev1-14.0.1.3.1.dev2/README.md --exclude *.pyd
+[2024-05-22 05:17:44] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: Downloading https://files.pythonhosted.org/packages/ab/db/1a3e701f980b3b2fe176bd67f97813d63f23bbeda86cae9aeadedd3e9fa0/cdktf-cdktf-provider-random-9.0.0.tar.gz
+[2024-05-22 05:17:44] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-05-22 05:17:44] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-4.1.2.dev6-py3-none-any.whl.zip tmp/gaea_operator-4.1.2.dev7-py3-none-any.whl.zip --markdown 20240522/g/gaea-operator/4.1.2.dev6-4.1.2.dev7/README.md --exclude *.pyd
+[2024-05-22 05:17:44] INFO root fetch - processPackages [mllm]: executing diffoscope
+[2024-05-22 05:17:44] INFO root fetch - processPackages [mllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mllm-0.1.7.tar.gz tmp/mllm-0.1.8.tar.gz --markdown 20240522/m/mllm/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-22 05:17:44] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.8.tar.gz]
+[2024-05-22 05:17:44] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
+[2024-05-22 05:17:44] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-05-22 05:17:44] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.8.tar.gz]
+[2024-05-22 05:17:44] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.9.tar.gz]
+[2024-05-22 05:17:44] INFO root fetch - main [MainThread]: End processing [baseball]: success
+[2024-05-22 05:17:44] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.16.tar.gz]
+[2024-05-22 05:17:44] INFO root fetch - processPackages [tmticket]: Remove: archive file [/home/abi/fetcher/tmp/tmticket-0.2.2.tar.gz]
+[2024-05-22 05:17:44] INFO root fetch - main [MainThread]: End processing [tmticket]: success
+[2024-05-22 05:17:45] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.8.tar.gz]
+[2024-05-22 05:17:45] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.9.tar.gz]
+[2024-05-22 05:17:45] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-05-22 05:17:45] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.8.0.tar.gz]
+[2024-05-22 05:17:45] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
+[2024-05-22 05:17:45] INFO root fetch - main [MainThread]: End processing [synnax]: success
+[2024-05-22 05:17:45] INFO root fetch - processPackages [mllm]: Remove: archive file [/home/abi/fetcher/tmp/mllm-0.1.7.tar.gz]
+[2024-05-22 05:17:45] INFO root fetch - processPackages [mllm]: Remove: archive file [/home/abi/fetcher/tmp/mllm-0.1.8.tar.gz]
+[2024-05-22 05:17:45] INFO root fetch - main [MainThread]: End processing [mllm]: success
+[2024-05-22 05:17:45] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign-product-domain]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_geo_assign_product_domain-14.0.1.3.1.dev1-py3-none-any.whl.zip]
+[2024-05-22 05:17:45] INFO root fetch - processPackages [odoo14-addon-sale-commission-geo-assign-product-domain]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_commission_geo_assign_product_domain-14.0.1.3.1.dev2-py3-none-any.whl.zip]
+[2024-05-22 05:17:45] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-commission-geo-assign-product-domain]: success
+[2024-05-22 05:17:45] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: executing diffoscope
+[2024-05-22 05:17:45] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-random-8.0.0.tar.gz tmp/cdktf-cdktf-provider-random-9.0.0.tar.gz --markdown 20240522/c/cdktf-cdktf-provider-random/8.0.0-9.0.0/README.md --exclude *.pyd
+[2024-05-22 05:17:45] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-4.1.2.dev6-py3-none-any.whl.zip]
+[2024-05-22 05:17:45] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-4.1.2.dev7-py3-none-any.whl.zip]
+[2024-05-22 05:17:45] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-05-22 05:17:45] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-random-8.0.0.tar.gz]
+[2024-05-22 05:17:45] INFO root fetch - processPackages [cdktf-cdktf-provider-random]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-random-9.0.0.tar.gz]
+[2024-05-22 05:17:45] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-random]: success
+[2024-05-22 05:17:45] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.0.8.tar.gz]
+[2024-05-22 05:17:45] INFO root fetch - processPackages [dash-spread-grid]: Remove: archive file [/home/abi/fetcher/tmp/dash_spread_grid-0.0.9.tar.gz]
+[2024-05-22 05:17:45] INFO root fetch - main [MainThread]: End processing [dash-spread-grid]: success
+[2024-05-22 05:17:45] INFO root fetch - main [MainThread]: Store serial: [23318177]

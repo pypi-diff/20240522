@@ -11503,3 +11503,33 @@
 [2024-05-22 06:54:17] WARNING root fetch - processPackages [flask-auditor]: Skipping, unable to determine old version
 [2024-05-22 06:54:17] INFO root fetch - main [MainThread]: End processing [flask-auditor] error
 [2024-05-22 06:54:17] INFO root fetch - main [MainThread]: Store serial: [23318892]
+[2024-05-22 06:56:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318892]
+[2024-05-22 06:56:25] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 06:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rvc3python
+[2024-05-22 06:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bandicoincurrency
+[2024-05-22 06:56:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: phidata
+[2024-05-22 06:56:25] INFO root fetch - processPackages [bandicoincurrency]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-22 06:56:26] INFO root fetch - processPackages [bandicoincurrency]: Downloading https://files.pythonhosted.org/packages/db/21/1ac5cf30cc684d6d662c1104af49cec56c73abc7b03e8d9e848db1beaa4c/bandicoincurrency-0.0.3.tar.gz
+[2024-05-22 06:56:26] INFO root fetch - processPackages [rvc3python]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-22 06:56:26] INFO root fetch - processPackages [phidata]: New version: [2.4.9] Old Version: [2.4.8]
+[2024-05-22 06:56:26] INFO root fetch - processPackages [rvc3python]: Downloading https://files.pythonhosted.org/packages/b4/ec/77142cb134bb867f6232539121955952cbe9050c41434ffd0b60b33d7a53/rvc3python-0.9.0.tar.gz
+[2024-05-22 06:56:26] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/aa/0d/aa8c04e9be152bbe8c3b585e508dab23ce7796abb950ae3060303bef3d6e/phidata-2.4.8.tar.gz
+[2024-05-22 06:56:26] INFO root fetch - processPackages [bandicoincurrency]: Downloading https://files.pythonhosted.org/packages/0e/cb/812dabb3d40bf11de1dbc5b17c871dcfa412289b07f1d8c3bba9db9e218f/bandicoincurrency-0.0.4.tar.gz
+[2024-05-22 06:56:26] INFO root fetch - processPackages [bandicoincurrency]: executing diffoscope
+[2024-05-22 06:56:26] INFO root fetch - processPackages [bandicoincurrency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bandicoincurrency-0.0.3.tar.gz tmp/bandicoincurrency-0.0.4.tar.gz --markdown 20240522/b/bandicoincurrency/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-22 06:56:26] INFO root fetch - processPackages [rvc3python]: Downloading https://files.pythonhosted.org/packages/8c/bb/e4fc93b0c493aa8ab3a6c71c43fd8177b46efb56efe3eae2d88abd0b5795/rvc3python-0.9.1.tar.gz
+[2024-05-22 06:56:26] INFO root fetch - processPackages [phidata]: Downloading https://files.pythonhosted.org/packages/af/f2/078560b1bbc6db30e04c13e02a195a38a6552601be938d1ed5895276476e/phidata-2.4.9.tar.gz
+[2024-05-22 06:56:26] INFO root fetch - processPackages [rvc3python]: executing diffoscope
+[2024-05-22 06:56:26] INFO root fetch - processPackages [rvc3python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rvc3python-0.9.0.tar.gz tmp/rvc3python-0.9.1.tar.gz --markdown 20240522/r/rvc3python/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-22 06:56:26] INFO root fetch - processPackages [phidata]: executing diffoscope
+[2024-05-22 06:56:26] INFO root fetch - processPackages [phidata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidata-2.4.8.tar.gz tmp/phidata-2.4.9.tar.gz --markdown 20240522/p/phidata/2.4.8-2.4.9/README.md --exclude *.pyd
+[2024-05-22 06:56:26] INFO root fetch - processPackages [bandicoincurrency]: Remove: archive file [/home/abi/fetcher/tmp/bandicoincurrency-0.0.3.tar.gz]
+[2024-05-22 06:56:26] INFO root fetch - processPackages [bandicoincurrency]: Remove: archive file [/home/abi/fetcher/tmp/bandicoincurrency-0.0.4.tar.gz]
+[2024-05-22 06:56:26] INFO root fetch - main [MainThread]: End processing [bandicoincurrency]: success
+[2024-05-22 06:56:27] INFO root fetch - processPackages [rvc3python]: Remove: archive file [/home/abi/fetcher/tmp/rvc3python-0.9.0.tar.gz]
+[2024-05-22 06:56:27] INFO root fetch - processPackages [rvc3python]: Remove: archive file [/home/abi/fetcher/tmp/rvc3python-0.9.1.tar.gz]
+[2024-05-22 06:56:27] INFO root fetch - main [MainThread]: End processing [rvc3python]: success
+[2024-05-22 06:56:28] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.8.tar.gz]
+[2024-05-22 06:56:28] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.9.tar.gz]
+[2024-05-22 06:56:28] INFO root fetch - main [MainThread]: End processing [phidata]: success
+[2024-05-22 06:56:28] INFO root fetch - main [MainThread]: Store serial: [23318901]

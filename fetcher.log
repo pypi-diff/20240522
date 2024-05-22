@@ -14528,3 +14528,33 @@
 [2024-05-22 09:31:05] INFO root fetch - processPackages [timeseriesflattener]: Remove: archive file [/home/abi/fetcher/tmp/timeseriesflattener-2.2.5.tar.gz]
 [2024-05-22 09:31:05] INFO root fetch - main [MainThread]: End processing [timeseriesflattener]: success
 [2024-05-22 09:31:05] INFO root fetch - main [MainThread]: Store serial: [23320236]
+[2024-05-22 09:33:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320236]
+[2024-05-22 09:33:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 09:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: danila-lib
+[2024-05-22 09:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2cwsgiutils
+[2024-05-22 09:33:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intensity-logger
+[2024-05-22 09:33:14] INFO root fetch - processPackages [danila-lib]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-05-22 09:33:14] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/72/5e/d6a1e82dd68e9b2b10985f661c775eee2813d3d5435ea9ecd1156e33b340/danila-lib-1.5.8.tar.gz
+[2024-05-22 09:33:14] INFO root fetch - processPackages [intensity-logger]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-22 09:33:14] INFO root fetch - processPackages [c2cwsgiutils]: New version: [6.1.0.dev99] Old Version: [6.1.0.dev97]
+[2024-05-22 09:33:14] INFO root fetch - processPackages [intensity-logger]: Downloading https://files.pythonhosted.org/packages/f1/71/ed62796d3ff4ae8fbfe026dc894f7d85220f21fcad547270ebc05ab33ea4/intensity_logger-0.1.0.tar.gz
+[2024-05-22 09:33:14] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/70/82/1062250c5f8b684273f1f576ab49863eb71b99aedcf0e638b7d18af727dc/c2cwsgiutils-6.1.0.dev97.tar.gz
+[2024-05-22 09:33:14] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/df/78/12fba2618d0bc8bf6b2ea4b91a95f0ef246ee416b5054a1e7178ff5b3cb1/danila-lib-1.5.9.tar.gz
+[2024-05-22 09:33:15] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-22 09:33:15] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.5.8.tar.gz tmp/danila-lib-1.5.9.tar.gz --markdown 20240522/d/danila-lib/1.5.8-1.5.9/README.md --exclude *.pyd
+[2024-05-22 09:33:15] INFO root fetch - processPackages [intensity-logger]: Downloading https://files.pythonhosted.org/packages/53/a2/99f080f36610ecdb7d03525ca5a1f86490c6b326b1b49fec4405eab810b5/intensity_logger-0.1.1.tar.gz
+[2024-05-22 09:33:15] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/ab/62/7a161c456f1828f37b18431d8f5cf1bbda9dfe8ef509b1c94d8dad7c8da1/c2cwsgiutils-6.1.0.dev99.tar.gz
+[2024-05-22 09:33:15] INFO root fetch - processPackages [intensity-logger]: executing diffoscope
+[2024-05-22 09:33:15] INFO root fetch - processPackages [intensity-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intensity_logger-0.1.0.tar.gz tmp/intensity_logger-0.1.1.tar.gz --markdown 20240522/i/intensity-logger/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-22 09:33:15] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2024-05-22 09:33:15] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-6.1.0.dev97.tar.gz tmp/c2cwsgiutils-6.1.0.dev99.tar.gz --markdown 20240522/c/c2cwsgiutils/6.1.0.dev97-6.1.0.dev99/README.md --exclude *.pyd
+[2024-05-22 09:33:15] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.5.8.tar.gz]
+[2024-05-22 09:33:15] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.5.9.tar.gz]
+[2024-05-22 09:33:15] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-22 09:33:15] INFO root fetch - processPackages [intensity-logger]: Remove: archive file [/home/abi/fetcher/tmp/intensity_logger-0.1.0.tar.gz]
+[2024-05-22 09:33:15] INFO root fetch - processPackages [intensity-logger]: Remove: archive file [/home/abi/fetcher/tmp/intensity_logger-0.1.1.tar.gz]
+[2024-05-22 09:33:15] INFO root fetch - main [MainThread]: End processing [intensity-logger]: success
+[2024-05-22 09:33:16] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev97.tar.gz]
+[2024-05-22 09:33:16] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
+[2024-05-22 09:33:16] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2024-05-22 09:33:16] INFO root fetch - main [MainThread]: Store serial: [23320254]

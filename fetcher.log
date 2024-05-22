@@ -17973,3 +17973,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:26:56] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev7.tar.gz]
 [2024-05-22 11:26:56] INFO root fetch - main [MainThread]: End processing [udirect]: success
 [2024-05-22 11:26:56] INFO root fetch - main [MainThread]: Store serial: [23321611]
+[2024-05-22 11:29:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321611]
+[2024-05-22 11:29:05] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 11:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenFisca-France
+[2024-05-22 11:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slidingRP
+[2024-05-22 11:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloud-governance
+[2024-05-22 11:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-cost-analysis
+[2024-05-22 11:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invenio-records-resources
+[2024-05-22 11:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leadguru-jobs
+[2024-05-22 11:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wolfsoftware.drawlines
+[2024-05-22 11:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: twinstop
+[2024-05-22 11:29:05] WARNING root fetch - processPackages [wolfsoftware.drawlines]: Skipping, unable to determine old version
+[2024-05-22 11:29:05] INFO root fetch - main [MainThread]: End processing [wolfsoftware.drawlines] error
+[2024-05-22 11:29:05] INFO root fetch - processPackages [invenio-records-resources]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-05-22 11:29:05] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-05-22 11:29:05] INFO root fetch - processPackages [spaceone-cost-analysis]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-22 11:29:05] INFO root fetch - processPackages [OpenFisca-France]: New version: [99.0.1] Old Version: [99.0.0]
+[2024-05-22 11:29:05] INFO root fetch - processPackages [slidingRP]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-05-22 11:29:05] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/9d/ed/0868da6c86e4dc02447a82f2ea7dd601cbcd9f9457f1ffd86ffcd52166c9/spaceone-cost-analysis-2.0.dev98.tar.gz
+[2024-05-22 11:29:05] INFO root fetch - processPackages [invenio-records-resources]: Downloading https://files.pythonhosted.org/packages/e2/70/8714e278c3e10473c0d5acbdeee1879fe4cbb20c7cfbe48d78f8bb3a412a/invenio-records-resources-5.8.0.tar.gz
+[2024-05-22 11:29:05] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-22 11:29:05] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-05-22 11:29:05] INFO root fetch - processPackages [twinstop]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-22 11:29:05] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/70/8b/f7e6ae929e6bc09831757bdb5cdb964099c9af3419db607df1bdfebfe6fd/OpenFisca_France-99.0.0-py3-none-any.whl
+[2024-05-22 11:29:05] INFO root fetch - processPackages [slidingRP]: Downloading https://files.pythonhosted.org/packages/59/9f/0fd10f390e650ebee481e34c5a7d11e91eb71c93354d2ab0b4537d28a71f/slidingRP-1.1.0.tar.gz
+[2024-05-22 11:29:05] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/69/3b/abd588017217f1cd8fff7ef2a5fece8d81258b7c7585bb8fa88833d77684/spaceone-cost-analysis-2.0.dev99.tar.gz
+[2024-05-22 11:29:05] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-05-22 11:29:05] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2024-05-22 11:29:05] INFO root fetch - processPackages [twinstop]: Downloading https://files.pythonhosted.org/packages/e1/8c/df9fd79d38d54ae87395331a88fea33abae1bc942b7f2f37e83b3bca06ca/twinstop-0.1.2.tar.gz
+[2024-05-22 11:29:05] INFO root fetch - processPackages [spaceone-cost-analysis]: executing diffoscope
+[2024-05-22 11:29:05] INFO root fetch - processPackages [spaceone-cost-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-cost-analysis-2.0.dev98.tar.gz tmp/spaceone-cost-analysis-2.0.dev99.tar.gz --markdown 20240522/s/spaceone-cost-analysis/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-22 11:29:05] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-05-22 11:29:05] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240522/l/leadguru-jobs/0.98.0-0.99.0/README.md --exclude *.pyd
+[2024-05-22 11:29:05] INFO root fetch - processPackages [invenio-records-resources]: Downloading https://files.pythonhosted.org/packages/50/d8/77dc9d6bd7c8d654c814c7be0fe9e62d7d7b25df13185ad7f768fce57d79/invenio-records-resources-5.9.0.tar.gz
+[2024-05-22 11:29:05] INFO root fetch - processPackages [slidingRP]: Downloading https://files.pythonhosted.org/packages/58/93/cbedf2071fd337b0ea07aa5faa0c11c0dc0907f831e0093376fe563bee6f/slidingRP-1.1.1.tar.gz
+[2024-05-22 11:29:05] INFO root fetch - processPackages [invenio-records-resources]: executing diffoscope
+[2024-05-22 11:29:05] INFO root fetch - processPackages [invenio-records-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-resources-5.8.0.tar.gz tmp/invenio-records-resources-5.9.0.tar.gz --markdown 20240522/i/invenio-records-resources/5.8.0-5.9.0/README.md --exclude *.pyd
+[2024-05-22 11:29:05] INFO root fetch - processPackages [OpenFisca-France]: Downloading https://files.pythonhosted.org/packages/b5/c6/01bc5d57d2ec6bf602cdc2aacf3444fa5f25fbb7d9e9a5bdda07728b537d/OpenFisca_France-99.0.1-py3-none-any.whl
+[2024-05-22 11:29:06] INFO root fetch - processPackages [slidingRP]: executing diffoscope
+[2024-05-22 11:29:06] INFO root fetch - processPackages [slidingRP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slidingRP-1.1.0.tar.gz tmp/slidingRP-1.1.1.tar.gz --markdown 20240522/s/slidingRP/1.1.0-1.1.1/README.md --exclude *.pyd
+[2024-05-22 11:29:06] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2024-05-22 11:29:06] INFO root fetch - processPackages [twinstop]: Downloading https://files.pythonhosted.org/packages/f1/6a/e125e4df788bf1777d32d0b5f7cb68620ed25564e20fd7d96da5aa1dd9a5/twinstop-0.1.3.tar.gz
+[2024-05-22 11:29:06] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2024-05-22 11:29:06] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20240522/c/cloud-governance/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-22 11:29:06] INFO root fetch - processPackages [OpenFisca-France]: executing diffoscope
+[2024-05-22 11:29:06] INFO root fetch - processPackages [OpenFisca-France]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip --markdown 20240522/O/OpenFisca-France/99.0.0-99.0.1/README.md --exclude *.pyd
+[2024-05-22 11:29:06] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-05-22 11:29:06] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-05-22 11:29:06] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-05-22 11:29:06] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev98.tar.gz]
+[2024-05-22 11:29:06] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev99.tar.gz]
+[2024-05-22 11:29:06] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
+[2024-05-22 11:29:06] INFO root fetch - processPackages [slidingRP]: Remove: archive file [/home/abi/fetcher/tmp/slidingRP-1.1.0.tar.gz]
+[2024-05-22 11:29:06] INFO root fetch - processPackages [slidingRP]: Remove: archive file [/home/abi/fetcher/tmp/slidingRP-1.1.1.tar.gz]
+[2024-05-22 11:29:06] INFO root fetch - main [MainThread]: End processing [slidingRP]: success
+[2024-05-22 11:29:06] INFO root fetch - processPackages [twinstop]: executing diffoscope
+[2024-05-22 11:29:06] INFO root fetch - processPackages [twinstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twinstop-0.1.2.tar.gz tmp/twinstop-0.1.3.tar.gz --markdown 20240522/t/twinstop/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-22 11:29:07] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2024-05-22 11:29:07] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2024-05-22 11:29:07] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2024-05-22 11:29:07] INFO root fetch - processPackages [invenio-records-resources]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-resources-5.8.0.tar.gz]
+[2024-05-22 11:29:07] INFO root fetch - processPackages [invenio-records-resources]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-resources-5.9.0.tar.gz]
+[2024-05-22 11:29:07] INFO root fetch - main [MainThread]: End processing [invenio-records-resources]: success
+[2024-05-22 11:29:07] INFO root fetch - processPackages [twinstop]: Remove: archive file [/home/abi/fetcher/tmp/twinstop-0.1.2.tar.gz]
+[2024-05-22 11:29:07] INFO root fetch - processPackages [twinstop]: Remove: archive file [/home/abi/fetcher/tmp/twinstop-0.1.3.tar.gz]
+[2024-05-22 11:29:07] INFO root fetch - main [MainThread]: End processing [twinstop]: success
+[2024-05-22 11:29:15] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.0-py3-none-any.whl.zip]
+[2024-05-22 11:29:15] INFO root fetch - processPackages [OpenFisca-France]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_France-99.0.1-py3-none-any.whl.zip]
+[2024-05-22 11:29:15] INFO root fetch - main [MainThread]: End processing [OpenFisca-France]: success
+[2024-05-22 11:29:15] INFO root fetch - main [MainThread]: Store serial: [23321632]

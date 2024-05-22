@@ -9045,3 +9045,72 @@
 [2024-05-22 04:45:02] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.2.5.tar.gz]
 [2024-05-22 04:45:02] INFO root fetch - main [MainThread]: End processing [lambkid]: success
 [2024-05-22 04:45:02] INFO root fetch - main [MainThread]: Store serial: [23317797]
+[2024-05-22 04:47:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317797]
+[2024-05-22 04:47:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 04:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: etl-m-ibrahim-khalil
+[2024-05-22 04:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ventures
+[2024-05-22 04:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lambkid
+[2024-05-22 04:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mbfxml2ex
+[2024-05-22 04:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libdaw
+[2024-05-22 04:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: baseball
+[2024-05-22 04:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: internal-rdbms
+[2024-05-22 04:47:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vision-agent
+[2024-05-22 04:47:11] INFO root fetch - processPackages [internal-rdbms]: New version: [0.1.0a0] Old Version: [0.1.0]
+[2024-05-22 04:47:11] INFO root fetch - processPackages [lambkid]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-22 04:47:11] INFO root fetch - processPackages [ventures]: New version: [1.4.0] Old Version: [1.3.3]
+[2024-05-22 04:47:11] INFO root fetch - processPackages [libdaw]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-22 04:47:11] INFO root fetch - processPackages [baseball]: New version: [9.9] Old Version: [9.8]
+[2024-05-22 04:47:11] INFO root fetch - processPackages [mbfxml2ex]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-22 04:47:11] INFO root fetch - processPackages [ventures]: Downloading https://files.pythonhosted.org/packages/fd/1d/29e1cfcc0a9c35ba50013fa15c1229552c5371a21391e9c49c6c74054b2e/ventures-1.3.3.tar.gz
+[2024-05-22 04:47:11] WARNING root fetch - processPackages [etl-m-ibrahim-khalil]: Skipping, unable to determine old version
+[2024-05-22 04:47:11] INFO root fetch - main [MainThread]: End processing [etl-m-ibrahim-khalil] error
+[2024-05-22 04:47:11] INFO root fetch - processPackages [vision-agent]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-22 04:47:11] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/80/59/21a6ed059753867416cef429e536e04d0c26ac3d0a5d3782b42f7dc6e522/lambkid-0.2.4.tar.gz
+[2024-05-22 04:47:11] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/04/2a/8b198995c2f8d35c19f4b1e0e6c5c067e955f1258d57c1b1341eab88715e/baseball-9.8.tar.gz
+[2024-05-22 04:47:12] INFO root fetch - processPackages [libdaw]: Downloading https://files.pythonhosted.org/packages/84/c2/2f4456d178796581a5458c5d1d85700f5f41a2a920c7c6bdc475a286ba36/libdaw-0.2.1.tar.gz
+[2024-05-22 04:47:12] INFO root fetch - processPackages [internal-rdbms]: Downloading https://files.pythonhosted.org/packages/64/35/1f92a3c1f12cd0c9ffdf6448014b2cca7292469add560d9e4ab177d17dcf/internal_rdbms-0.1.0.tar.gz
+[2024-05-22 04:47:12] INFO root fetch - processPackages [mbfxml2ex]: Downloading https://files.pythonhosted.org/packages/cb/a7/b6712b901431e826bc2910d26d9f0263687c33353fd4e1a27d3178dcb926/mbfxml2ex-0.7.1-py3-none-any.whl
+[2024-05-22 04:47:12] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/0c/95/4cc93c0448acda0068720c68eff075929f25ab799564de37eef47b7b2c10/vision_agent-0.2.8.tar.gz
+[2024-05-22 04:47:12] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/ef/f3/5455cddb6d817beed9e90f42b3cb22aac2efaefe69f56c67e1135d5b9f34/lambkid-0.2.5.tar.gz
+[2024-05-22 04:47:12] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/1a/e0/fb3c48a01fd33034695694663cfddfb7a099e47f8aa30dc6c901a5fcee37/baseball-9.9.tar.gz
+[2024-05-22 04:47:12] INFO root fetch - processPackages [libdaw]: Downloading https://files.pythonhosted.org/packages/1c/c7/de3de88caf1f50973d37eb3f948d1a6506035de674281318bea18baa766c/libdaw-0.2.2.tar.gz
+[2024-05-22 04:47:12] INFO root fetch - processPackages [ventures]: Downloading https://files.pythonhosted.org/packages/0c/2e/f88629f86afcdaa639450a3ac4719035a2a4f4ae7c77c4974ea6b26feef2/ventures-1.4.0.tar.gz
+[2024-05-22 04:47:12] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-05-22 04:47:12] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.2.4.tar.gz tmp/lambkid-0.2.5.tar.gz --markdown 20240522/l/lambkid/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-22 04:47:12] INFO root fetch - processPackages [baseball]: executing diffoscope
+[2024-05-22 04:47:12] INFO root fetch - processPackages [baseball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseball-9.8.tar.gz tmp/baseball-9.9.tar.gz --markdown 20240522/b/baseball/9.8-9.9/README.md --exclude *.pyd
+[2024-05-22 04:47:12] INFO root fetch - processPackages [internal-rdbms]: Downloading https://files.pythonhosted.org/packages/09/fd/64e594e1ed4631e0657a00a507f2e6cf70c864cf664a9f23d38e1534ab80/internal_rdbms-0.1.0a0.tar.gz
+[2024-05-22 04:47:12] INFO root fetch - processPackages [libdaw]: executing diffoscope
+[2024-05-22 04:47:12] INFO root fetch - processPackages [libdaw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libdaw-0.2.1.tar.gz tmp/libdaw-0.2.2.tar.gz --markdown 20240522/l/libdaw/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-22 04:47:12] INFO root fetch - processPackages [mbfxml2ex]: Downloading https://files.pythonhosted.org/packages/58/68/502d5ee853b664da6cf2d8da68d804b5d5dafcf7d8dccb6979780c7abb3d/mbfxml2ex-0.7.2-py3-none-any.whl
+[2024-05-22 04:47:12] INFO root fetch - processPackages [ventures]: executing diffoscope
+[2024-05-22 04:47:12] INFO root fetch - processPackages [ventures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ventures-1.3.3.tar.gz tmp/ventures-1.4.0.tar.gz --markdown 20240522/v/ventures/1.3.3-1.4.0/README.md --exclude *.pyd
+[2024-05-22 04:47:12] INFO root fetch - processPackages [internal-rdbms]: executing diffoscope
+[2024-05-22 04:47:12] INFO root fetch - processPackages [internal-rdbms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internal_rdbms-0.1.0.tar.gz tmp/internal_rdbms-0.1.0a0.tar.gz --markdown 20240522/i/internal-rdbms/0.1.0-0.1.0a0/README.md --exclude *.pyd
+[2024-05-22 04:47:12] INFO root fetch - processPackages [mbfxml2ex]: executing diffoscope
+[2024-05-22 04:47:12] INFO root fetch - processPackages [mbfxml2ex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbfxml2ex-0.7.1-py3-none-any.whl.zip tmp/mbfxml2ex-0.7.2-py3-none-any.whl.zip --markdown 20240522/m/mbfxml2ex/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-22 04:47:12] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/72/9f/90c2e26c1f92cadcd8c25d12307c9505ef1d189c73981f02b32432391cae/vision_agent-0.2.9.tar.gz
+[2024-05-22 04:47:12] INFO root fetch - processPackages [vision-agent]: executing diffoscope
+[2024-05-22 04:47:12] INFO root fetch - processPackages [vision-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_agent-0.2.8.tar.gz tmp/vision_agent-0.2.9.tar.gz --markdown 20240522/v/vision-agent/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-22 04:47:13] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.2.4.tar.gz]
+[2024-05-22 04:47:13] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.2.5.tar.gz]
+[2024-05-22 04:47:13] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-05-22 04:47:13] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.8.tar.gz]
+[2024-05-22 04:47:13] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.9.tar.gz]
+[2024-05-22 04:47:13] INFO root fetch - main [MainThread]: End processing [baseball]: success
+[2024-05-22 04:47:13] INFO root fetch - processPackages [internal-rdbms]: Remove: archive file [/home/abi/fetcher/tmp/internal_rdbms-0.1.0.tar.gz]
+[2024-05-22 04:47:13] INFO root fetch - processPackages [internal-rdbms]: Remove: archive file [/home/abi/fetcher/tmp/internal_rdbms-0.1.0a0.tar.gz]
+[2024-05-22 04:47:13] INFO root fetch - main [MainThread]: End processing [internal-rdbms]: success
+[2024-05-22 04:47:13] INFO root fetch - processPackages [mbfxml2ex]: Remove: archive file [/home/abi/fetcher/tmp/mbfxml2ex-0.7.1-py3-none-any.whl.zip]
+[2024-05-22 04:47:13] INFO root fetch - processPackages [mbfxml2ex]: Remove: archive file [/home/abi/fetcher/tmp/mbfxml2ex-0.7.2-py3-none-any.whl.zip]
+[2024-05-22 04:47:13] INFO root fetch - main [MainThread]: End processing [mbfxml2ex]: success
+[2024-05-22 04:47:13] INFO root fetch - processPackages [libdaw]: Remove: archive file [/home/abi/fetcher/tmp/libdaw-0.2.1.tar.gz]
+[2024-05-22 04:47:13] INFO root fetch - processPackages [libdaw]: Remove: archive file [/home/abi/fetcher/tmp/libdaw-0.2.2.tar.gz]
+[2024-05-22 04:47:13] INFO root fetch - main [MainThread]: End processing [libdaw]: success
+[2024-05-22 04:47:13] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.8.tar.gz]
+[2024-05-22 04:47:13] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.2.9.tar.gz]
+[2024-05-22 04:47:13] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
+[2024-05-22 04:47:14] INFO root fetch - processPackages [ventures]: Remove: archive file [/home/abi/fetcher/tmp/ventures-1.3.3.tar.gz]
+[2024-05-22 04:47:14] INFO root fetch - processPackages [ventures]: Remove: archive file [/home/abi/fetcher/tmp/ventures-1.4.0.tar.gz]
+[2024-05-22 04:47:14] INFO root fetch - main [MainThread]: End processing [ventures]: success
+[2024-05-22 04:47:14] INFO root fetch - main [MainThread]: Store serial: [23317853]

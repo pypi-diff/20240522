@@ -12544,3 +12544,33 @@
 [2024-05-22 07:58:30] INFO root fetch - processPackages [niquests]: Remove: archive file [/home/abi/fetcher/tmp/niquests-3.6.5.tar.gz]
 [2024-05-22 07:58:30] INFO root fetch - main [MainThread]: End processing [niquests]: success
 [2024-05-22 07:58:30] INFO root fetch - main [MainThread]: Store serial: [23319384]
+[2024-05-22 08:00:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319384]
+[2024-05-22 08:00:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 08:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flatpack
+[2024-05-22 08:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gs2
+[2024-05-22 08:00:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: centralcli
+[2024-05-22 08:00:42] INFO root fetch - processPackages [flatpack]: New version: [3.4.99] Old Version: [3.4.98]
+[2024-05-22 08:00:42] INFO root fetch - processPackages [gs2]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-05-22 08:00:42] INFO root fetch - processPackages [centralcli]: New version: [5.0.0] Old Version: [4.2.0]
+[2024-05-22 08:00:42] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/cb/39/adcd388eba8071e3318b3a2224e5c96179761da6dbd7cfa96b20311e810f/flatpack-3.4.98.tar.gz
+[2024-05-22 08:00:42] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/c5/4e/2410c578d132c3fea988dc408e73fddf9945a8ab84f7cfbaa7c82bd7a40b/gs2-1.1.98.tar.gz
+[2024-05-22 08:00:42] INFO root fetch - processPackages [flatpack]: Downloading https://files.pythonhosted.org/packages/89/20/a694f72cbfa96253cdb38b9f65c7cfd5f3a4fb145d2fe2483132b80dafd4/flatpack-3.4.99.tar.gz
+[2024-05-22 08:00:42] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/4e/1e/bab7ae053d11efcc8632005b5b40326d2fbc00d04674fc7788744a14bd28/centralcli-4.2.0.tar.gz
+[2024-05-22 08:00:42] INFO root fetch - processPackages [flatpack]: executing diffoscope
+[2024-05-22 08:00:42] INFO root fetch - processPackages [flatpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatpack-3.4.98.tar.gz tmp/flatpack-3.4.99.tar.gz --markdown 20240522/f/flatpack/3.4.98-3.4.99/README.md --exclude *.pyd
+[2024-05-22 08:00:42] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/81/a0/4021a82a0acbd1a2e84e6dce76f329b6654d5ebcf3ad4bfebcfcb3152d55/gs2-1.1.99.tar.gz
+[2024-05-22 08:00:42] INFO root fetch - processPackages [centralcli]: Downloading https://files.pythonhosted.org/packages/07/94/ff2136b32dbe51983feaaf58053f23b3dab6718fa511a0967e724a4b66d4/centralcli-5.0.0.tar.gz
+[2024-05-22 08:00:42] INFO root fetch - processPackages [gs2]: executing diffoscope
+[2024-05-22 08:00:42] INFO root fetch - processPackages [gs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-1.1.98.tar.gz tmp/gs2-1.1.99.tar.gz --markdown 20240522/g/gs2/1.1.98-1.1.99/README.md --exclude *.pyd
+[2024-05-22 08:00:43] INFO root fetch - processPackages [centralcli]: executing diffoscope
+[2024-05-22 08:00:43] INFO root fetch - processPackages [centralcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centralcli-4.2.0.tar.gz tmp/centralcli-5.0.0.tar.gz --markdown 20240522/c/centralcli/4.2.0-5.0.0/README.md --exclude *.pyd
+[2024-05-22 08:00:43] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.98.tar.gz]
+[2024-05-22 08:00:43] INFO root fetch - processPackages [flatpack]: Remove: archive file [/home/abi/fetcher/tmp/flatpack-3.4.99.tar.gz]
+[2024-05-22 08:00:43] INFO root fetch - main [MainThread]: End processing [flatpack]: success
+[2024-05-22 08:00:44] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-4.2.0.tar.gz]
+[2024-05-22 08:00:44] INFO root fetch - processPackages [centralcli]: Remove: archive file [/home/abi/fetcher/tmp/centralcli-5.0.0.tar.gz]
+[2024-05-22 08:00:44] INFO root fetch - main [MainThread]: End processing [centralcli]: success
+[2024-05-22 08:00:45] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.98.tar.gz]
+[2024-05-22 08:00:45] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.99.tar.gz]
+[2024-05-22 08:00:45] INFO root fetch - main [MainThread]: End processing [gs2]: success
+[2024-05-22 08:00:45] INFO root fetch - main [MainThread]: Store serial: [23319426]

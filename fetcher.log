@@ -19152,3 +19152,72 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:59:15] INFO root fetch - processPackages [qoqo-calculator-pyo3]: Remove: archive file [/home/abi/fetcher/tmp/qoqo_calculator_pyo3-1.2.2.tar.gz]
 [2024-05-22 11:59:15] INFO root fetch - main [MainThread]: End processing [qoqo-calculator-pyo3]: success
 [2024-05-22 11:59:15] INFO root fetch - main [MainThread]: Store serial: [23322110]
+[2024-05-22 12:01:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322110]
+[2024-05-22 12:01:24] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 12:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: udirect
+[2024-05-22 12:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skipy
+[2024-05-22 12:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: posebusters
+[2024-05-22 12:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chanjo
+[2024-05-22 12:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: payments-py
+[2024-05-22 12:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: remotemanager
+[2024-05-22 12:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: onyxpm
+[2024-05-22 12:01:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hitran-api2
+[2024-05-22 12:01:24] INFO root fetch - processPackages [udirect]: New version: [0.1.4.dev9] Old Version: [0.1.4.dev8]
+[2024-05-22 12:01:24] INFO root fetch - processPackages [onyxpm]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 12:01:24] WARNING root fetch - processPackages [hitran-api2]: Skipping, unable to determine old version
+[2024-05-22 12:01:24] INFO root fetch - main [MainThread]: End processing [hitran-api2] error
+[2024-05-22 12:01:24] INFO root fetch - processPackages [skipy]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-22 12:01:24] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/63/2b/b8dd9f284cadd77c65d69c16d3402ff1280b48027dffc1036b26b3a83531/udirect-0.1.4.dev8.tar.gz
+[2024-05-22 12:01:24] INFO root fetch - processPackages [payments-py]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-22 12:01:24] INFO root fetch - processPackages [posebusters]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-22 12:01:24] INFO root fetch - processPackages [remotemanager]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-22 12:01:24] INFO root fetch - processPackages [chanjo]: New version: [v0.0.4] Old Version: [v0.0.3-beta]
+[2024-05-22 12:01:24] INFO root fetch - processPackages [skipy]: Downloading https://files.pythonhosted.org/packages/f2/b8/3601c33dd8be16c77ab3abc1aa3d637d224960689d2f7cac7ca9b9ee8913/skipy-0.1.3.tar.gz
+[2024-05-22 12:01:24] INFO root fetch - processPackages [posebusters]: Downloading https://files.pythonhosted.org/packages/55/43/bfca31a97deff527376628e2d8c0829a1bac5095cc5d9565f4cf1b5843ab/posebusters-0.2.8.tar.gz
+[2024-05-22 12:01:24] INFO root fetch - processPackages [onyxpm]: Downloading https://files.pythonhosted.org/packages/f1/0c/81d0e6ed92f60de210422eb5e5e5b2171aa940f4aefd5035a1b1fa6499d7/onyxpm-0.0.8.tar.gz
+[2024-05-22 12:01:25] INFO root fetch - processPackages [payments-py]: Downloading https://files.pythonhosted.org/packages/2e/1f/ed19d3880236f3305613debe2e974cce139f9b9ff829f82f58e83ba2563d/payments_py-0.2.0.tar.gz
+[2024-05-22 12:01:25] INFO root fetch - processPackages [chanjo]: Downloading https://files.pythonhosted.org/packages/20/b6/6e07b7991d49d5abb4345ee80feb4724c43fdc865fe57aadc3ba2780523b/chanjo-v0.0.3-beta.tar.gz
+[2024-05-22 12:01:25] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/3a/50/528a08969afb90065e86c917ad0bd8c483a312df046908703699cd798a92/remotemanager-0.9.8.tar.gz
+[2024-05-22 12:01:25] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/8a/a3/ad99a9715fce5afd74908cc4510120837854d439e7d1cca91ccead70df48/udirect-0.1.4.dev9.tar.gz
+[2024-05-22 12:01:25] INFO root fetch - processPackages [skipy]: Downloading https://files.pythonhosted.org/packages/a9/aa/f3ba2b1dc6ddb06cec8fa36eafb12b7dae3ca41c16969ac817d72ae35591/skipy-0.1.4.tar.gz
+[2024-05-22 12:01:25] INFO root fetch - processPackages [skipy]: executing diffoscope
+[2024-05-22 12:01:25] INFO root fetch - processPackages [payments-py]: Downloading https://files.pythonhosted.org/packages/51/30/b8e7356ded5ce4bcddb195ed876d86b8b2a847fb0773288baf909f6ee6c7/payments_py-0.2.1.tar.gz
+[2024-05-22 12:01:25] INFO root fetch - processPackages [chanjo]: Downloading https://files.pythonhosted.org/packages/ee/98/bf10057b0271b795f2b01b2feacda74b4d4a7c36ffae597b0f2f30c05746/chanjo-v0.0.4.tar.gz
+[2024-05-22 12:01:25] INFO root fetch - processPackages [onyxpm]: Downloading https://files.pythonhosted.org/packages/d9/25/f0ad33727a1da3f0a10cd50eeaa9ce63400e65a82b0808297792425482f3/onyxpm-0.0.9.tar.gz
+[2024-05-22 12:01:25] INFO root fetch - processPackages [skipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skipy-0.1.3.tar.gz tmp/skipy-0.1.4.tar.gz --markdown 20240522/s/skipy/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-22 12:01:25] INFO root fetch - processPackages [udirect]: executing diffoscope
+[2024-05-22 12:01:25] INFO root fetch - processPackages [udirect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udirect-0.1.4.dev8.tar.gz tmp/udirect-0.1.4.dev9.tar.gz --markdown 20240522/u/udirect/0.1.4.dev8-0.1.4.dev9/README.md --exclude *.pyd
+[2024-05-22 12:01:25] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/6c/ad/4dc56a0e10097173d3641ee71fb03814440f99f7f8e09d6b4646fc06a8c1/remotemanager-0.9.9.tar.gz
+[2024-05-22 12:01:25] INFO root fetch - processPackages [onyxpm]: executing diffoscope
+[2024-05-22 12:01:25] INFO root fetch - processPackages [onyxpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onyxpm-0.0.8.tar.gz tmp/onyxpm-0.0.9.tar.gz --markdown 20240522/o/onyxpm/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 12:01:25] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2024-05-22 12:01:25] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.9.8.tar.gz tmp/remotemanager-0.9.9.tar.gz --markdown 20240522/r/remotemanager/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-22 12:01:25] INFO root fetch - processPackages [chanjo]: executing diffoscope
+[2024-05-22 12:01:25] INFO root fetch - processPackages [chanjo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chanjo-v0.0.3-beta.tar.gz tmp/chanjo-v0.0.4.tar.gz --markdown 20240522/c/chanjo/v0.0.3-beta-v0.0.4/README.md --exclude *.pyd
+[2024-05-22 12:01:25] INFO root fetch - processPackages [payments-py]: executing diffoscope
+[2024-05-22 12:01:25] INFO root fetch - processPackages [payments-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payments_py-0.2.0.tar.gz tmp/payments_py-0.2.1.tar.gz --markdown 20240522/p/payments-py/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-22 12:01:26] INFO root fetch - processPackages [skipy]: Remove: archive file [/home/abi/fetcher/tmp/skipy-0.1.3.tar.gz]
+[2024-05-22 12:01:26] INFO root fetch - processPackages [skipy]: Remove: archive file [/home/abi/fetcher/tmp/skipy-0.1.4.tar.gz]
+[2024-05-22 12:01:26] INFO root fetch - main [MainThread]: End processing [skipy]: success
+[2024-05-22 12:01:26] INFO root fetch - processPackages [chanjo]: Remove: archive file [/home/abi/fetcher/tmp/chanjo-v0.0.3-beta.tar.gz]
+[2024-05-22 12:01:26] INFO root fetch - processPackages [chanjo]: Remove: archive file [/home/abi/fetcher/tmp/chanjo-v0.0.4.tar.gz]
+[2024-05-22 12:01:26] INFO root fetch - main [MainThread]: End processing [chanjo]: success
+[2024-05-22 12:01:26] INFO root fetch - processPackages [posebusters]: Downloading https://files.pythonhosted.org/packages/a9/72/9b6ba0ccce1f8dffc9c8c1be0690e0197695c22643dada3f2736c3f9d39f/posebusters-0.2.9.tar.gz
+[2024-05-22 12:01:26] INFO root fetch - processPackages [onyxpm]: Remove: archive file [/home/abi/fetcher/tmp/onyxpm-0.0.8.tar.gz]
+[2024-05-22 12:01:26] INFO root fetch - processPackages [onyxpm]: Remove: archive file [/home/abi/fetcher/tmp/onyxpm-0.0.9.tar.gz]
+[2024-05-22 12:01:26] INFO root fetch - main [MainThread]: End processing [onyxpm]: success
+[2024-05-22 12:01:26] INFO root fetch - processPackages [payments-py]: Remove: archive file [/home/abi/fetcher/tmp/payments_py-0.2.0.tar.gz]
+[2024-05-22 12:01:26] INFO root fetch - processPackages [payments-py]: Remove: archive file [/home/abi/fetcher/tmp/payments_py-0.2.1.tar.gz]
+[2024-05-22 12:01:26] INFO root fetch - main [MainThread]: End processing [payments-py]: success
+[2024-05-22 12:01:26] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev8.tar.gz]
+[2024-05-22 12:01:26] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev9.tar.gz]
+[2024-05-22 12:01:26] INFO root fetch - main [MainThread]: End processing [udirect]: success
+[2024-05-22 12:01:26] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.9.8.tar.gz]
+[2024-05-22 12:01:26] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.9.9.tar.gz]
+[2024-05-22 12:01:26] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2024-05-22 12:01:28] INFO root fetch - processPackages [posebusters]: executing diffoscope
+[2024-05-22 12:01:28] INFO root fetch - processPackages [posebusters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/posebusters-0.2.8.tar.gz tmp/posebusters-0.2.9.tar.gz --markdown 20240522/p/posebusters/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-22 12:01:30] INFO root fetch - processPackages [posebusters]: Remove: archive file [/home/abi/fetcher/tmp/posebusters-0.2.8.tar.gz]
+[2024-05-22 12:01:30] INFO root fetch - processPackages [posebusters]: Remove: archive file [/home/abi/fetcher/tmp/posebusters-0.2.9.tar.gz]
+[2024-05-22 12:01:30] INFO root fetch - main [MainThread]: End processing [posebusters]: success
+[2024-05-22 12:01:30] INFO root fetch - main [MainThread]: Store serial: [23322161]

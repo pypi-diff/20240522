@@ -3090,3 +3090,15 @@
 [2024-05-22 02:33:47] INFO root fetch - processPackages [efficalc]: Remove: archive file [/home/abi/fetcher/tmp/efficalc-1.2.0.tar.gz]
 [2024-05-22 02:33:47] INFO root fetch - main [MainThread]: End processing [efficalc]: success
 [2024-05-22 02:33:47] INFO root fetch - main [MainThread]: Store serial: [23315642]
+[2024-05-22 02:35:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315642]
+[2024-05-22 02:35:55] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-22 02:35:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zaber-motion
+[2024-05-22 02:35:56] INFO root fetch - processPackages [zaber-motion]: New version: [6.0.0] Old Version: [5.2.2]
+[2024-05-22 02:35:56] INFO root fetch - processPackages [zaber-motion]: Downloading https://files.pythonhosted.org/packages/ae/40/eee47babb7afd32d1b6827be377fc193f9fc7c0d24c3618cc16b2417c78e/zaber_motion-5.2.2.tar.gz
+[2024-05-22 02:35:56] INFO root fetch - processPackages [zaber-motion]: Downloading https://files.pythonhosted.org/packages/82/02/7143c9552630159e74d22d7edc8acb7a5dc489a65ca82dcf8d79f3e72697/zaber_motion-6.0.0.tar.gz
+[2024-05-22 02:35:56] INFO root fetch - processPackages [zaber-motion]: executing diffoscope
+[2024-05-22 02:35:56] INFO root fetch - processPackages [zaber-motion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaber_motion-5.2.2.tar.gz tmp/zaber_motion-6.0.0.tar.gz --markdown 20240522/z/zaber-motion/5.2.2-6.0.0/README.md --exclude *.pyd
+[2024-05-22 02:35:58] INFO root fetch - processPackages [zaber-motion]: Remove: archive file [/home/abi/fetcher/tmp/zaber_motion-5.2.2.tar.gz]
+[2024-05-22 02:35:58] INFO root fetch - processPackages [zaber-motion]: Remove: archive file [/home/abi/fetcher/tmp/zaber_motion-6.0.0.tar.gz]
+[2024-05-22 02:35:58] INFO root fetch - main [MainThread]: End processing [zaber-motion]: success
+[2024-05-22 02:35:58] INFO root fetch - main [MainThread]: Store serial: [23315652]

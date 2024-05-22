@@ -15758,3 +15758,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:14:54] INFO root fetch - processPackages [django_medicio_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_medicio_ds-3.0.0.tar.gz]
 [2024-05-22 10:14:54] INFO root fetch - main [MainThread]: End processing [django_medicio_ds]: success
 [2024-05-22 10:14:54] INFO root fetch - main [MainThread]: Store serial: [23320778]
+[2024-05-22 10:17:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320778]
+[2024-05-22 10:17:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 10:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxsim
+[2024-05-22 10:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vbpy
+[2024-05-22 10:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djangocms-blog-agenda
+[2024-05-22 10:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-sale-report-commitment-date
+[2024-05-22 10:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: servicelayer
+[2024-05-22 10:17:12] INFO root fetch - processPackages [vbpy]: New version: [2.1.0] Old Version: [2.0.9]
+[2024-05-22 10:17:12] INFO root fetch - processPackages [djangocms-blog-agenda]: New version: [0.6.0] Old Version: [0.5.6]
+[2024-05-22 10:17:12] INFO root fetch - processPackages [jaxsim]: New version: [0.2.dev92] Old Version: [0.2.dev87]
+[2024-05-22 10:17:12] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/2e/10/68500370eec8421643bcf87ccb4af9d6a5fa015614dfcb80c071f6c47ecf/vbpy-2.0.9.tar.gz
+[2024-05-22 10:17:12] WARNING root fetch - processPackages [odoo-addon-sale-report-commitment-date]: Skipping, unable to determine old version
+[2024-05-22 10:17:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-report-commitment-date] error
+[2024-05-22 10:17:12] INFO root fetch - processPackages [djangocms-blog-agenda]: Downloading https://files.pythonhosted.org/packages/02/b2/f666a8efacae24ab4e5f244edf2a60650d426004c35a124e980af00c19f2/djangocms_blog_agenda-0.5.6.tar.gz
+[2024-05-22 10:17:12] INFO root fetch - processPackages [servicelayer]: New version: [1.9.9] Old Version: [1.9.7]
+[2024-05-22 10:17:12] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/b5/25/4a27bb25679ce17fef64a522f1af1c8722d2ec06d59735f1ddf7d16201d9/jaxsim-0.2.dev87.tar.gz
+[2024-05-22 10:17:12] INFO root fetch - processPackages [servicelayer]: Downloading https://files.pythonhosted.org/packages/ee/db/1796fab38fcee1f8829f20fd361bcf31f85f757974dd2b15ccd78d6367bd/servicelayer-1.9.7.tar.gz
+[2024-05-22 10:17:12] INFO root fetch - processPackages [djangocms-blog-agenda]: Downloading https://files.pythonhosted.org/packages/6c/6a/22cb8d8730931d313bbbc59ac41bfa51c1d5b3765378f53b9262af894d81/djangocms_blog_agenda-0.6.0.tar.gz
+[2024-05-22 10:17:13] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/24/05/f71f78a8f5cc3918639dd4585b1272cdb25919f59299dd107bfea777e52e/vbpy-2.1.0.tar.gz
+[2024-05-22 10:17:13] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/5f/f3/d7774afb77c6832c188a48524d674234d264ab4e593515aac50ba544ea66/jaxsim-0.2.dev92.tar.gz
+[2024-05-22 10:17:13] INFO root fetch - processPackages [djangocms-blog-agenda]: executing diffoscope
+[2024-05-22 10:17:13] INFO root fetch - processPackages [djangocms-blog-agenda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms_blog_agenda-0.5.6.tar.gz tmp/djangocms_blog_agenda-0.6.0.tar.gz --markdown 20240522/d/djangocms-blog-agenda/0.5.6-0.6.0/README.md --exclude *.pyd
+[2024-05-22 10:17:13] INFO root fetch - processPackages [vbpy]: executing diffoscope
+[2024-05-22 10:17:13] INFO root fetch - processPackages [vbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpy-2.0.9.tar.gz tmp/vbpy-2.1.0.tar.gz --markdown 20240522/v/vbpy/2.0.9-2.1.0/README.md --exclude *.pyd
+[2024-05-22 10:17:13] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2024-05-22 10:17:13] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.2.dev87.tar.gz tmp/jaxsim-0.2.dev92.tar.gz --markdown 20240522/j/jaxsim/0.2.dev87-0.2.dev92/README.md --exclude *.pyd
+[2024-05-22 10:17:13] INFO root fetch - processPackages [servicelayer]: Downloading https://files.pythonhosted.org/packages/97/a6/7dd98e9095ddcfd768ec511ffba0fade37609396a850259086dac16c4924/servicelayer-1.9.9.tar.gz
+[2024-05-22 10:17:13] INFO root fetch - processPackages [servicelayer]: executing diffoscope
+[2024-05-22 10:17:13] INFO root fetch - processPackages [servicelayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicelayer-1.9.7.tar.gz tmp/servicelayer-1.9.9.tar.gz --markdown 20240522/s/servicelayer/1.9.7-1.9.9/README.md --exclude *.pyd
+[2024-05-22 10:17:13] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.0.9.tar.gz]
+[2024-05-22 10:17:13] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.1.0.tar.gz]
+[2024-05-22 10:17:13] INFO root fetch - main [MainThread]: End processing [vbpy]: success
+[2024-05-22 10:17:13] INFO root fetch - processPackages [djangocms-blog-agenda]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_blog_agenda-0.5.6.tar.gz]
+[2024-05-22 10:17:13] INFO root fetch - processPackages [djangocms-blog-agenda]: Remove: archive file [/home/abi/fetcher/tmp/djangocms_blog_agenda-0.6.0.tar.gz]
+[2024-05-22 10:17:13] INFO root fetch - main [MainThread]: End processing [djangocms-blog-agenda]: success
+[2024-05-22 10:17:14] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev87.tar.gz]
+[2024-05-22 10:17:14] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev92.tar.gz]
+[2024-05-22 10:17:14] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2024-05-22 10:17:14] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.7.tar.gz]
+[2024-05-22 10:17:14] INFO root fetch - processPackages [servicelayer]: Remove: archive file [/home/abi/fetcher/tmp/servicelayer-1.9.9.tar.gz]
+[2024-05-22 10:17:14] INFO root fetch - main [MainThread]: End processing [servicelayer]: success
+[2024-05-22 10:17:14] INFO root fetch - main [MainThread]: Store serial: [23320796]

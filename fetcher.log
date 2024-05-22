@@ -22793,3 +22793,78 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 14:25:57] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.9.tar.gz]
 [2024-05-22 14:25:57] INFO root fetch - main [MainThread]: End processing [eolymp]: success
 [2024-05-22 14:25:57] INFO root fetch - main [MainThread]: Store serial: [23323866]
+[2024-05-22 14:28:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323866]
+[2024-05-22 14:28:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 14:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnx2tf
+[2024-05-22 14:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rsdb-utils
+[2024-05-22 14:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AlekSIS-App-Chronos
+[2024-05-22 14:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: esanalyzer
+[2024-05-22 14:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartpredict
+[2024-05-22 14:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crossfire
+[2024-05-22 14:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yoctools
+[2024-05-22 14:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: genomehubs
+[2024-05-22 14:28:13] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-22 14:28:13] INFO root fetch - processPackages [rsdb-utils]: New version: [0.1.post1] Old Version: [0.1]
+[2024-05-22 14:28:13] INFO root fetch - processPackages [smartpredict]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-05-22 14:28:13] INFO root fetch - processPackages [genomehubs]: New version: [2.8.9] Old Version: [2.8.8]
+[2024-05-22 14:28:13] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2024-05-22 14:28:13] INFO root fetch - processPackages [yoctools]: New version: [2.0.9] Old Version: [2.0.77]
+[2024-05-22 14:28:13] INFO root fetch - processPackages [AlekSIS-App-Chronos]: New version: [4.0.0.dev4] Old Version: [4.0.0.dev3]
+[2024-05-22 14:28:13] INFO root fetch - processPackages [crossfire]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-05-22 14:28:13] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/40/79/9fd909ec4b7e06893d6de1170b3d7abf91cb37e2967110ede0f45cccc4fd/smartpredict-0.6.6.tar.gz
+[2024-05-22 14:28:14] INFO root fetch - processPackages [rsdb-utils]: Downloading https://files.pythonhosted.org/packages/e8/b2/65cee0a915329982daebf477857f00c1fdcead238da8769d62a32218f1c9/rsdb_utils-0.1.tar.gz
+[2024-05-22 14:28:14] INFO root fetch - processPackages [genomehubs]: Downloading https://files.pythonhosted.org/packages/9c/4c/608f36cc05d99a88aecbc115585b3036e5f3fd827984673d4952589b0d54/genomehubs-2.8.8.tar.gz
+[2024-05-22 14:28:14] INFO root fetch - processPackages [esanalyzer]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-22 14:28:14] INFO root fetch - processPackages [yoctools]: Downloading https://files.pythonhosted.org/packages/51/c4/667902c569ce1147a74f1c00e4a0a995b882547c60fa9360733efd2cbb02/yoctools-2.0.77.tar.gz
+[2024-05-22 14:28:14] INFO root fetch - processPackages [crossfire]: Downloading https://files.pythonhosted.org/packages/3b/56/1463a7745630799cf599e4990aaeed7e04bb59e7bbf28b1db019484e0216/crossfire-1.0.2.tar.gz
+[2024-05-22 14:28:14] INFO root fetch - processPackages [AlekSIS-App-Chronos]: Downloading https://files.pythonhosted.org/packages/2e/70/4c5690b8560c69ecc48e0e8b9037f7beb32b97759268d6b13b54b8e37647/aleksis_app_chronos-4.0.0.dev3.tar.gz
+[2024-05-22 14:28:14] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/7b/1e/87628984abbd567110ad8fd92ff1fff33a06233b7cc2ee1ba9bafabcf3d0/smartpredict-0.6.7.tar.gz
+[2024-05-22 14:28:14] INFO root fetch - processPackages [esanalyzer]: Downloading https://files.pythonhosted.org/packages/43/14/101561ab9afc24028a4d3b9cbba1ddfd977c8e48d168e21b04d7c78532d3/esanalyzer-1.0.6-py3-none-any.whl
+[2024-05-22 14:28:14] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2024-05-22 14:28:14] INFO root fetch - processPackages [genomehubs]: Downloading https://files.pythonhosted.org/packages/9b/1c/5edbddec749d7db76dc18c7261b63960fe42a1071d339f713cd5eeb898df/genomehubs-2.8.9.tar.gz
+[2024-05-22 14:28:14] INFO root fetch - processPackages [rsdb-utils]: Downloading https://files.pythonhosted.org/packages/ff/7a/0307e50a99b63609dc8953a8d724ae62c89bca58fb43f841679348b6f6a5/rsdb_utils-0.1.post1.tar.gz
+[2024-05-22 14:28:14] INFO root fetch - processPackages [smartpredict]: executing diffoscope
+[2024-05-22 14:28:14] INFO root fetch - processPackages [smartpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpredict-0.6.6.tar.gz tmp/smartpredict-0.6.7.tar.gz --markdown 20240522/s/smartpredict/0.6.6-0.6.7/README.md --exclude *.pyd
+[2024-05-22 14:28:14] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2024-05-22 14:28:14] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20240522/o/onnx2tf/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-22 14:28:14] INFO root fetch - processPackages [genomehubs]: executing diffoscope
+[2024-05-22 14:28:14] INFO root fetch - processPackages [genomehubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genomehubs-2.8.8.tar.gz tmp/genomehubs-2.8.9.tar.gz --markdown 20240522/g/genomehubs/2.8.8-2.8.9/README.md --exclude *.pyd
+[2024-05-22 14:28:14] INFO root fetch - processPackages [rsdb-utils]: executing diffoscope
+[2024-05-22 14:28:14] INFO root fetch - processPackages [rsdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsdb_utils-0.1.tar.gz tmp/rsdb_utils-0.1.post1.tar.gz --markdown 20240522/r/rsdb-utils/0.1-0.1.post1/README.md --exclude *.pyd
+[2024-05-22 14:28:14] INFO root fetch - processPackages [crossfire]: Downloading https://files.pythonhosted.org/packages/b7/d8/553df8e939a73b98831b35cef0e626c989f0b73a034f2d2356672a1b8608/crossfire-1.1.0.tar.gz
+[2024-05-22 14:28:14] INFO root fetch - processPackages [AlekSIS-App-Chronos]: Downloading https://files.pythonhosted.org/packages/27/81/16d12574a3db8e3d6b323367e523b79eb61cd5502fb76f4afd4d209fddd8/aleksis_app_chronos-4.0.0.dev4.tar.gz
+[2024-05-22 14:28:14] INFO root fetch - processPackages [esanalyzer]: Downloading https://files.pythonhosted.org/packages/cb/4c/c8deccede1f26604463d03fa41ca468a16070c3e4c6967e01cc7285fdbd0/esanalyzer-1.0.7-py3-none-any.whl
+[2024-05-22 14:28:14] INFO root fetch - processPackages [crossfire]: executing diffoscope
+[2024-05-22 14:28:14] INFO root fetch - processPackages [crossfire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossfire-1.0.2.tar.gz tmp/crossfire-1.1.0.tar.gz --markdown 20240522/c/crossfire/1.0.2-1.1.0/README.md --exclude *.pyd
+[2024-05-22 14:28:14] INFO root fetch - processPackages [AlekSIS-App-Chronos]: executing diffoscope
+[2024-05-22 14:28:14] INFO root fetch - processPackages [AlekSIS-App-Chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis_app_chronos-4.0.0.dev3.tar.gz tmp/aleksis_app_chronos-4.0.0.dev4.tar.gz --markdown 20240522/A/AlekSIS-App-Chronos/4.0.0.dev3-4.0.0.dev4/README.md --exclude *.pyd
+[2024-05-22 14:28:14] INFO root fetch - processPackages [esanalyzer]: executing diffoscope
+[2024-05-22 14:28:14] INFO root fetch - processPackages [esanalyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esanalyzer-1.0.6-py3-none-any.whl.zip tmp/esanalyzer-1.0.7-py3-none-any.whl.zip --markdown 20240522/e/esanalyzer/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-22 14:28:15] INFO root fetch - processPackages [yoctools]: Downloading https://files.pythonhosted.org/packages/72/8f/1faa61e65723d613fb6313f889b8da66ca965420bbbc147155105d89936d/yoctools-2.0.9.tar.gz
+[2024-05-22 14:28:15] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.6.6.tar.gz]
+[2024-05-22 14:28:15] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.6.7.tar.gz]
+[2024-05-22 14:28:15] INFO root fetch - main [MainThread]: End processing [smartpredict]: success
+[2024-05-22 14:28:15] INFO root fetch - processPackages [genomehubs]: Remove: archive file [/home/abi/fetcher/tmp/genomehubs-2.8.8.tar.gz]
+[2024-05-22 14:28:15] INFO root fetch - processPackages [genomehubs]: Remove: archive file [/home/abi/fetcher/tmp/genomehubs-2.8.9.tar.gz]
+[2024-05-22 14:28:15] INFO root fetch - main [MainThread]: End processing [genomehubs]: success
+[2024-05-22 14:28:15] INFO root fetch - processPackages [esanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/esanalyzer-1.0.6-py3-none-any.whl.zip]
+[2024-05-22 14:28:15] INFO root fetch - processPackages [esanalyzer]: Remove: archive file [/home/abi/fetcher/tmp/esanalyzer-1.0.7-py3-none-any.whl.zip]
+[2024-05-22 14:28:15] INFO root fetch - main [MainThread]: End processing [esanalyzer]: success
+[2024-05-22 14:28:15] INFO root fetch - processPackages [rsdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/rsdb_utils-0.1.tar.gz]
+[2024-05-22 14:28:15] INFO root fetch - processPackages [rsdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/rsdb_utils-0.1.post1.tar.gz]
+[2024-05-22 14:28:16] INFO root fetch - main [MainThread]: End processing [rsdb-utils]: success
+[2024-05-22 14:28:16] INFO root fetch - processPackages [crossfire]: Remove: archive file [/home/abi/fetcher/tmp/crossfire-1.0.2.tar.gz]
+[2024-05-22 14:28:16] INFO root fetch - processPackages [crossfire]: Remove: archive file [/home/abi/fetcher/tmp/crossfire-1.1.0.tar.gz]
+[2024-05-22 14:28:16] INFO root fetch - main [MainThread]: End processing [crossfire]: success
+[2024-05-22 14:28:16] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2024-05-22 14:28:16] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2024-05-22 14:28:16] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2024-05-22 14:28:16] INFO root fetch - processPackages [AlekSIS-App-Chronos]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_chronos-4.0.0.dev3.tar.gz]
+[2024-05-22 14:28:16] INFO root fetch - processPackages [AlekSIS-App-Chronos]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_chronos-4.0.0.dev4.tar.gz]
+[2024-05-22 14:28:16] INFO root fetch - main [MainThread]: End processing [AlekSIS-App-Chronos]: success
+[2024-05-22 14:28:17] INFO root fetch - processPackages [yoctools]: executing diffoscope
+[2024-05-22 14:28:17] INFO root fetch - processPackages [yoctools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoctools-2.0.77.tar.gz tmp/yoctools-2.0.9.tar.gz --markdown 20240522/y/yoctools/2.0.77-2.0.9/README.md --exclude *.pyd
+[2024-05-22 14:29:18] INFO root fetch - processPackages [yoctools]: Remove: archive file [/home/abi/fetcher/tmp/yoctools-2.0.77.tar.gz]
+[2024-05-22 14:29:18] INFO root fetch - processPackages [yoctools]: Remove: archive file [/home/abi/fetcher/tmp/yoctools-2.0.9.tar.gz]
+[2024-05-22 14:29:18] INFO root fetch - main [MainThread]: End processing [yoctools]: success
+[2024-05-22 14:29:18] INFO root fetch - main [MainThread]: Store serial: [23323902]

@@ -22630,3 +22630,122 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 14:21:17] ERROR root fetch - processPackages [moto-ext]: Timeout during execution of pkgdiff
 [2024-05-22 14:21:17] INFO root fetch - main [MainThread]: End processing [moto-ext] error
 [2024-05-22 14:21:17] INFO root fetch - main [MainThread]: Store serial: [23323764]
+[2024-05-22 14:23:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323764]
+[2024-05-22 14:23:34] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-05-22 14:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phdu
+[2024-05-22 14:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hotsos
+[2024-05-22 14:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gradio-litmodel3d
+[2024-05-22 14:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: my-cli-code-explorer
+[2024-05-22 14:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-html-report-merger
+[2024-05-22 14:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyfusion
+[2024-05-22 14:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hacs-frontend
+[2024-05-22 14:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mysmallutils
+[2024-05-22 14:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: music-tool-kit
+[2024-05-22 14:23:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moval
+[2024-05-22 14:23:34] INFO root fetch - processPackages [phdu]: New version: [2.4.3] Old Version: [2.4.2]
+[2024-05-22 14:23:34] INFO root fetch - processPackages [mysmallutils]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-22 14:23:34] INFO root fetch - processPackages [moval]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-22 14:23:34] INFO root fetch - processPackages [music-tool-kit]: New version: [1.3.9] Old Version: [1.3.7]
+[2024-05-22 14:23:34] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/53/a0/f2ac65b2d57a968e489a69c5db2eb1f6a8c4ee9c5750006bee56954c2548/phdu-2.4.2.tar.gz
+[2024-05-22 14:23:34] WARNING root fetch - processPackages [my-cli-code-explorer]: Skipping, unable to determine old version
+[2024-05-22 14:23:34] INFO root fetch - processPackages [my-cli-code-explorer]: Start processing: robotframework-seleniumlibrary
+[2024-05-22 14:23:34] INFO root fetch - main [MainThread]: End processing [my-cli-code-explorer] error
+[2024-05-22 14:23:34] WARNING root fetch - processPackages [gradio-litmodel3d]: Skipping, unable to determine old version
+[2024-05-22 14:23:34] INFO root fetch - processPackages [gradio-litmodel3d]: Start processing: apeboiy
+[2024-05-22 14:23:34] INFO root fetch - main [MainThread]: End processing [gradio-litmodel3d] error
+[2024-05-22 14:23:34] INFO root fetch - processPackages [hotsos]: New version: [1.18.post4] Old Version: [1.18.post3]
+[2024-05-22 14:23:34] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/8a/aa/b16fe864612aedce9b33655b5aa4b6529ca2716bc8af23353d0c5850bae7/moval-0.3.8.tar.gz
+[2024-05-22 14:23:34] INFO root fetch - processPackages [pytest-html-report-merger]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-22 14:23:34] INFO root fetch - processPackages [pyfusion]: New version: [1.1.0.dev3] Old Version: [1.1.0.dev1]
+[2024-05-22 14:23:34] INFO root fetch - processPackages [hacs-frontend]: New version: [9] Old Version: [8]
+[2024-05-22 14:23:34] WARNING root fetch - processPackages [apeboiy]: Skipping, unable to determine old version
+[2024-05-22 14:23:34] INFO root fetch - processPackages [apeboiy]: Start processing: nameless-deploy-tools
+[2024-05-22 14:23:34] INFO root fetch - main [MainThread]: End processing [apeboiy] error
+[2024-05-22 14:23:34] INFO root fetch - processPackages [mysmallutils]: Downloading https://files.pythonhosted.org/packages/48/b1/8a46ca1fa06c719ed68b08250f8905709af83fd450a370701fe8393ac88d/mysmallutils-2.0.8.tar.gz
+[2024-05-22 14:23:34] INFO root fetch - processPackages [music-tool-kit]: Downloading https://files.pythonhosted.org/packages/fa/07/e97e49b2076389ac9389a5e0536ee113a6b979da08156c5fc1ba903842c2/music-tool-kit-1.3.7.tar.gz
+[2024-05-22 14:23:34] INFO root fetch - processPackages [robotframework-seleniumlibrary]: New version: [6.4.0rc1] Old Version: [6.4.0]
+[2024-05-22 14:23:34] INFO root fetch - processPackages [nameless-deploy-tools]: New version: [1.99] Old Version: [1.98]
+[2024-05-22 14:23:34] INFO root fetch - processPackages [pytest-html-report-merger]: Downloading https://files.pythonhosted.org/packages/e3/1c/c74a5b08b2ce7d95f84cc1af65ead1c60dc017b4bfc8549dc5981af47b94/pytest_html_report_merger-0.1.2.tar.gz
+[2024-05-22 14:23:34] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/0a/a8/f1a1742933661b6babcc144ead4f8e26207ed82457994afc7b74164bc93e/hotsos-1.18.post3.tar.gz
+[2024-05-22 14:23:34] INFO root fetch - processPackages [hacs-frontend]: Downloading https://files.pythonhosted.org/packages/4b/54/4a6311d8b103f58145787acb710d11417db7aa8446ae2bec85633213f873/hacs-frontend-8.tar.gz
+[2024-05-22 14:23:34] INFO root fetch - processPackages [pyfusion]: Downloading https://files.pythonhosted.org/packages/06/e8/665b7def2c4ceffcc4579ce1e575537efd9712cc23de40ef0924b3109d44/PyFusion-1.1.0.dev1.tar.gz
+[2024-05-22 14:23:34] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/c5/77/f380babd679b02c99c0ba54f29e82dc4342541f631a2fbf63942e3204e73/phdu-2.4.3.tar.gz
+[2024-05-22 14:23:34] INFO root fetch - processPackages [moval]: Downloading https://files.pythonhosted.org/packages/b4/3b/6db51dc55940cdbf87faccdbbdb0feff90bf5743a5ba796f48046c862b4b/moval-0.3.9.tar.gz
+[2024-05-22 14:23:34] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Downloading https://files.pythonhosted.org/packages/32/de/cec316baeca042b32737958a87eb4341e5d0f77b5eb3aa3ef178e3176ef0/robotframework_seleniumlibrary-6.4.0.tar.gz
+[2024-05-22 14:23:34] INFO root fetch - processPackages [mysmallutils]: Downloading https://files.pythonhosted.org/packages/c1/7b/9cb02517d3c26da15f250b0dad05380f9167b5e911b9dec6c2bc0a506a24/mysmallutils-2.0.9.tar.gz
+[2024-05-22 14:23:34] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2024-05-22 14:23:34] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-2.4.2.tar.gz tmp/phdu-2.4.3.tar.gz --markdown 20240522/p/phdu/2.4.2-2.4.3/README.md --exclude *.pyd
+[2024-05-22 14:23:34] INFO root fetch - processPackages [music-tool-kit]: Downloading https://files.pythonhosted.org/packages/61/46/9dea7689535604f310b9ef6eb925e2991a1484513db2ec6ba68994663584/music-tool-kit-1.3.9.tar.gz
+[2024-05-22 14:23:34] INFO root fetch - processPackages [nameless-deploy-tools]: Downloading https://files.pythonhosted.org/packages/0d/c8/8c3c9f7254326f089bfaaf17c4f26d37fda0baf5993e7674c3c324a4ddc8/nameless-deploy-tools-1.98.tar.gz
+[2024-05-22 14:23:34] INFO root fetch - processPackages [moval]: executing diffoscope
+[2024-05-22 14:23:34] INFO root fetch - processPackages [moval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moval-0.3.8.tar.gz tmp/moval-0.3.9.tar.gz --markdown 20240522/m/moval/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-22 14:23:35] INFO root fetch - processPackages [pytest-html-report-merger]: Downloading https://files.pythonhosted.org/packages/89/50/e875eb47c71f2f50dee45ddc1903f5a2c926aa056d5764f51ab17fca0336/pytest_html_report_merger-0.1.3.tar.gz
+[2024-05-22 14:23:35] INFO root fetch - processPackages [mysmallutils]: executing diffoscope
+[2024-05-22 14:23:35] INFO root fetch - processPackages [mysmallutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysmallutils-2.0.8.tar.gz tmp/mysmallutils-2.0.9.tar.gz --markdown 20240522/m/mysmallutils/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-22 14:23:35] INFO root fetch - processPackages [music-tool-kit]: executing diffoscope
+[2024-05-22 14:23:35] INFO root fetch - processPackages [music-tool-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music-tool-kit-1.3.7.tar.gz tmp/music-tool-kit-1.3.9.tar.gz --markdown 20240522/m/music-tool-kit/1.3.7-1.3.9/README.md --exclude *.pyd
+[2024-05-22 14:23:35] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/1b/b5/ff3cfc825c97e2575e59c5701fd8b3d3391fd93f7bd1f4cb68d07faa18dc/hotsos-1.18.post4.tar.gz
+[2024-05-22 14:23:35] INFO root fetch - processPackages [pyfusion]: Downloading https://files.pythonhosted.org/packages/ca/d6/cc3b553e07ab3a214c1b4e9b5c33f9b5833ccc8eff1296cb9c8d9225b3fc/pyfusion-1.1.0.dev3.tar.gz
+[2024-05-22 14:23:35] INFO root fetch - processPackages [pytest-html-report-merger]: executing diffoscope
+[2024-05-22 14:23:35] INFO root fetch - processPackages [pytest-html-report-merger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_html_report_merger-0.1.2.tar.gz tmp/pytest_html_report_merger-0.1.3.tar.gz --markdown 20240522/p/pytest-html-report-merger/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-22 14:23:35] INFO root fetch - processPackages [hacs-frontend]: Downloading https://files.pythonhosted.org/packages/27/64/99fc7d5e575ed7ac25aaf6fa2230eea1499ac447c06f0c88af1a96d19d69/hacs-frontend-9.tar.gz
+[2024-05-22 14:23:35] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Downloading https://files.pythonhosted.org/packages/79/74/0e5bcb0daa8e300903bd1d7f1d77ae9ebb85906dcc0d3ac1488bec3d95ae/robotframework_seleniumlibrary-6.4.0rc1.tar.gz
+[2024-05-22 14:23:35] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2024-05-22 14:23:35] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.18.post3.tar.gz tmp/hotsos-1.18.post4.tar.gz --markdown 20240522/h/hotsos/1.18.post3-1.18.post4/README.md --exclude *.pyd
+[2024-05-22 14:23:35] INFO root fetch - processPackages [nameless-deploy-tools]: Downloading https://files.pythonhosted.org/packages/fe/19/ea262f36b269c4dbb14250dd1ad53e26d137416f57251e88cd4db4227090/nameless-deploy-tools-1.99.tar.gz
+[2024-05-22 14:23:35] INFO root fetch - processPackages [robotframework-seleniumlibrary]: executing diffoscope
+[2024-05-22 14:23:35] INFO root fetch - processPackages [robotframework-seleniumlibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_seleniumlibrary-6.4.0.tar.gz tmp/robotframework_seleniumlibrary-6.4.0rc1.tar.gz --markdown 20240522/r/robotframework-seleniumlibrary/6.4.0-6.4.0rc1/README.md --exclude *.pyd
+[2024-05-22 14:23:35] INFO root fetch - processPackages [hacs-frontend]: executing diffoscope
+[2024-05-22 14:23:35] INFO root fetch - processPackages [hacs-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hacs-frontend-8.tar.gz tmp/hacs-frontend-9.tar.gz --markdown 20240522/h/hacs-frontend/8-9/README.md --exclude *.pyd
+[2024-05-22 14:23:35] INFO root fetch - processPackages [pyfusion]: executing diffoscope
+[2024-05-22 14:23:35] INFO root fetch - processPackages [pyfusion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFusion-1.1.0.dev1.tar.gz tmp/pyfusion-1.1.0.dev3.tar.gz --markdown 20240522/p/pyfusion/1.1.0.dev1-1.1.0.dev3/README.md --exclude *.pyd
+[2024-05-22 14:23:35] INFO root fetch - processPackages [nameless-deploy-tools]: executing diffoscope
+[2024-05-22 14:23:35] INFO root fetch - processPackages [nameless-deploy-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nameless-deploy-tools-1.98.tar.gz tmp/nameless-deploy-tools-1.99.tar.gz --markdown 20240522/n/nameless-deploy-tools/1.98-1.99/README.md --exclude *.pyd
+[2024-05-22 14:23:36] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.4.2.tar.gz]
+[2024-05-22 14:23:36] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.4.3.tar.gz]
+[2024-05-22 14:23:36] INFO root fetch - processPackages [phdu]: Start processing: yspscda
+[2024-05-22 14:23:36] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2024-05-22 14:23:36] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.3.8.tar.gz]
+[2024-05-22 14:23:36] INFO root fetch - processPackages [moval]: Remove: archive file [/home/abi/fetcher/tmp/moval-0.3.9.tar.gz]
+[2024-05-22 14:23:36] INFO root fetch - processPackages [moval]: Start processing: phdu
+[2024-05-22 14:23:36] INFO root fetch - main [MainThread]: End processing [moval]: success
+[2024-05-22 14:23:36] INFO root fetch - processPackages [phdu]: New version: [2.4.4] Old Version: [2.4.3]
+[2024-05-22 14:23:36] WARNING root fetch - processPackages [yspscda]: Skipping, unable to determine old version
+[2024-05-22 14:23:36] INFO root fetch - processPackages [yspscda]: Start processing: l4casadi
+[2024-05-22 14:23:36] INFO root fetch - main [MainThread]: End processing [yspscda] error
+[2024-05-22 14:23:36] INFO root fetch - processPackages [pytest-html-report-merger]: Remove: archive file [/home/abi/fetcher/tmp/pytest_html_report_merger-0.1.2.tar.gz]
+[2024-05-22 14:23:36] INFO root fetch - processPackages [pytest-html-report-merger]: Remove: archive file [/home/abi/fetcher/tmp/pytest_html_report_merger-0.1.3.tar.gz]
+[2024-05-22 14:23:36] INFO root fetch - main [MainThread]: End processing [pytest-html-report-merger]: success
+[2024-05-22 14:23:36] INFO root fetch - processPackages [music-tool-kit]: Remove: archive file [/home/abi/fetcher/tmp/music-tool-kit-1.3.7.tar.gz]
+[2024-05-22 14:23:36] INFO root fetch - processPackages [music-tool-kit]: Remove: archive file [/home/abi/fetcher/tmp/music-tool-kit-1.3.9.tar.gz]
+[2024-05-22 14:23:36] INFO root fetch - main [MainThread]: End processing [music-tool-kit]: success
+[2024-05-22 14:23:36] INFO root fetch - processPackages [mysmallutils]: Remove: archive file [/home/abi/fetcher/tmp/mysmallutils-2.0.8.tar.gz]
+[2024-05-22 14:23:36] INFO root fetch - processPackages [mysmallutils]: Remove: archive file [/home/abi/fetcher/tmp/mysmallutils-2.0.9.tar.gz]
+[2024-05-22 14:23:36] INFO root fetch - main [MainThread]: End processing [mysmallutils]: success
+[2024-05-22 14:23:36] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/c5/77/f380babd679b02c99c0ba54f29e82dc4342541f631a2fbf63942e3204e73/phdu-2.4.3.tar.gz
+[2024-05-22 14:23:36] INFO root fetch - processPackages [l4casadi]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-05-22 14:23:36] INFO root fetch - processPackages [l4casadi]: Downloading https://files.pythonhosted.org/packages/57/89/f3e71bdb49554dca5784630ffd323f1ea62e11471b0c8f1bcbb74533e028/l4casadi-1.3.0.tar.gz
+[2024-05-22 14:23:36] INFO root fetch - processPackages [phdu]: Downloading https://files.pythonhosted.org/packages/f0/07/607a288eefb7b7f360bbf0b7264db102053d47f7afca8fe070dd6aeccaff/phdu-2.4.4.tar.gz
+[2024-05-22 14:23:36] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_seleniumlibrary-6.4.0.tar.gz]
+[2024-05-22 14:23:36] INFO root fetch - processPackages [robotframework-seleniumlibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_seleniumlibrary-6.4.0rc1.tar.gz]
+[2024-05-22 14:23:36] INFO root fetch - main [MainThread]: End processing [robotframework-seleniumlibrary]: success
+[2024-05-22 14:23:36] WARNING root fetch - processPackages [l4casadi]: Skipping package: exceeds size limit 11559946>=10485760
+[2024-05-22 14:23:36] INFO root fetch - main [MainThread]: End processing [l4casadi] error
+[2024-05-22 14:23:36] INFO root fetch - processPackages [pyfusion]: Remove: archive file [/home/abi/fetcher/tmp/PyFusion-1.1.0.dev1.tar.gz]
+[2024-05-22 14:23:36] INFO root fetch - processPackages [pyfusion]: Remove: archive file [/home/abi/fetcher/tmp/pyfusion-1.1.0.dev3.tar.gz]
+[2024-05-22 14:23:36] INFO root fetch - main [MainThread]: End processing [pyfusion]: success
+[2024-05-22 14:23:37] INFO root fetch - processPackages [phdu]: executing diffoscope
+[2024-05-22 14:23:37] INFO root fetch - processPackages [phdu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phdu-2.4.3.tar.gz tmp/phdu-2.4.4.tar.gz --markdown 20240522/p/phdu/2.4.3-2.4.4/README.md --exclude *.pyd
+[2024-05-22 14:23:37] INFO root fetch - processPackages [nameless-deploy-tools]: Remove: archive file [/home/abi/fetcher/tmp/nameless-deploy-tools-1.98.tar.gz]
+[2024-05-22 14:23:37] INFO root fetch - processPackages [nameless-deploy-tools]: Remove: archive file [/home/abi/fetcher/tmp/nameless-deploy-tools-1.99.tar.gz]
+[2024-05-22 14:23:37] INFO root fetch - main [MainThread]: End processing [nameless-deploy-tools]: success
+[2024-05-22 14:23:37] INFO root fetch - processPackages [hacs-frontend]: Remove: archive file [/home/abi/fetcher/tmp/hacs-frontend-8.tar.gz]
+[2024-05-22 14:23:37] INFO root fetch - processPackages [hacs-frontend]: Remove: archive file [/home/abi/fetcher/tmp/hacs-frontend-9.tar.gz]
+[2024-05-22 14:23:37] INFO root fetch - main [MainThread]: End processing [hacs-frontend]: success
+[2024-05-22 14:23:37] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.18.post3.tar.gz]
+[2024-05-22 14:23:37] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.18.post4.tar.gz]
+[2024-05-22 14:23:37] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2024-05-22 14:23:37] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.4.3.tar.gz]
+[2024-05-22 14:23:37] INFO root fetch - processPackages [phdu]: Remove: archive file [/home/abi/fetcher/tmp/phdu-2.4.4.tar.gz]
+[2024-05-22 14:23:37] INFO root fetch - main [MainThread]: End processing [phdu]: success
+[2024-05-22 14:23:37] INFO root fetch - main [MainThread]: Store serial: [23323854]

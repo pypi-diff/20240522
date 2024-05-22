@@ -13254,3 +13254,30 @@
 [2024-05-22 08:31:46] INFO root fetch - processPackages [distilabel]: Remove: archive file [/home/abi/fetcher/tmp/distilabel-1.1.1.tar.gz]
 [2024-05-22 08:31:46] INFO root fetch - main [MainThread]: End processing [distilabel]: success
 [2024-05-22 08:31:46] INFO root fetch - main [MainThread]: Store serial: [23319709]
+[2024-05-22 08:34:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319709]
+[2024-05-22 08:34:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 08:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RegionParser
+[2024-05-22 08:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: UnityPredict
+[2024-05-22 08:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-users-ldap-mail
+[2024-05-22 08:34:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-users-ldap-groups
+[2024-05-22 08:34:08] INFO root fetch - processPackages [odoo-addon-users-ldap-mail]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-05-22 08:34:08] INFO root fetch - processPackages [odoo-addon-users-ldap-groups]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2024-05-22 08:34:08] WARNING root fetch - processPackages [UnityPredict]: Skipping, unable to determine old version
+[2024-05-22 08:34:08] INFO root fetch - main [MainThread]: End processing [UnityPredict] error
+[2024-05-22 08:34:08] WARNING root fetch - processPackages [RegionParser]: Skipping, unable to determine old version
+[2024-05-22 08:34:08] INFO root fetch - main [MainThread]: End processing [RegionParser] error
+[2024-05-22 08:34:08] INFO root fetch - processPackages [odoo-addon-users-ldap-groups]: Downloading https://files.pythonhosted.org/packages/e7/d4/f0388103e48f16a357eea829fa38b17c296feb482830c67f6772f263411d/odoo_addon_users_ldap_groups-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-22 08:34:08] INFO root fetch - processPackages [odoo-addon-users-ldap-mail]: Downloading https://files.pythonhosted.org/packages/a6/82/f17804edcb080d3acee36cbfabb9e6b85d0e994229807b6f478e06d2127b/odoo_addon_users_ldap_mail-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-22 08:34:09] INFO root fetch - processPackages [odoo-addon-users-ldap-mail]: Downloading https://files.pythonhosted.org/packages/5f/93/d0f4ccfd2a918eb085966437655696e9184685b2da82507055cba8aca13b/odoo_addon_users_ldap_mail-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-22 08:34:09] INFO root fetch - processPackages [odoo-addon-users-ldap-groups]: Downloading https://files.pythonhosted.org/packages/4d/29/453d5e8a649b3f5dd1f16a80344865584d94b44c51843a73ec611f39fd93/odoo_addon_users_ldap_groups-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-22 08:34:09] INFO root fetch - processPackages [odoo-addon-users-ldap-mail]: executing diffoscope
+[2024-05-22 08:34:09] INFO root fetch - processPackages [odoo-addon-users-ldap-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_users_ldap_mail-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_users_ldap_mail-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-users-ldap-mail/16.0.1.0.0.7-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-22 08:34:09] INFO root fetch - processPackages [odoo-addon-users-ldap-groups]: executing diffoscope
+[2024-05-22 08:34:09] INFO root fetch - processPackages [odoo-addon-users-ldap-groups]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_users_ldap_groups-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_users_ldap_groups-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-users-ldap-groups/16.0.1.0.0.5-16.0.1.0.0.6/README.md --exclude *.pyd
+[2024-05-22 08:34:09] INFO root fetch - processPackages [odoo-addon-users-ldap-groups]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_users_ldap_groups-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-22 08:34:09] INFO root fetch - processPackages [odoo-addon-users-ldap-groups]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_users_ldap_groups-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-22 08:34:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-users-ldap-groups]: success
+[2024-05-22 08:34:10] INFO root fetch - processPackages [odoo-addon-users-ldap-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_users_ldap_mail-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-22 08:34:10] INFO root fetch - processPackages [odoo-addon-users-ldap-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_users_ldap_mail-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-22 08:34:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-users-ldap-mail]: success
+[2024-05-22 08:34:10] INFO root fetch - main [MainThread]: Store serial: [23319731]

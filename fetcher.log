@@ -22309,3 +22309,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 14:06:59] INFO root fetch - processPackages [threedi-modelchecker]: Remove: archive file [/home/abi/fetcher/tmp/threedi_modelchecker-2.7.3.tar.gz]
 [2024-05-22 14:06:59] INFO root fetch - main [MainThread]: End processing [threedi-modelchecker]: success
 [2024-05-22 14:06:59] INFO root fetch - main [MainThread]: Store serial: [23323629]
+[2024-05-22 14:09:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323629]
+[2024-05-22 14:09:14] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 14:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wetb
+[2024-05-22 14:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: psyke
+[2024-05-22 14:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FinRobot
+[2024-05-22 14:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tsc-cfg
+[2024-05-22 14:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: packManager
+[2024-05-22 14:09:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chainlit
+[2024-05-22 14:09:14] INFO root fetch - processPackages [wetb]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 14:09:14] INFO root fetch - processPackages [packManager]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-22 14:09:14] INFO root fetch - processPackages [chainlit]: New version: [1.1.201] Old Version: [1.1.200]
+[2024-05-22 14:09:14] INFO root fetch - processPackages [psyke]: New version: [0.8.9.dev5] Old Version: [0.8.9.dev4]
+[2024-05-22 14:09:14] INFO root fetch - processPackages [wetb]: Downloading https://files.pythonhosted.org/packages/25/d7/77fd21e7e66e518a0e634b94bb741637c63deb72f463150dcf06da99b02a/wetb-0.1.8.tar.gz
+[2024-05-22 14:09:14] INFO root fetch - processPackages [FinRobot]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-05-22 14:09:14] INFO root fetch - processPackages [tsc-cfg]: New version: [0.5] Old Version: [0.4]
+[2024-05-22 14:09:14] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/d2/be/38fa4beec70e9183acdeee3a59d5e481d4b49c240b7fc49434ff1c91a356/packmanager-1.0.1.tar.gz
+[2024-05-22 14:09:14] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/82/08/681dfb208e788bb002f678aa3ef6a03788ebb8230cc92fd096536df95579/chainlit-1.1.200.tar.gz
+[2024-05-22 14:09:14] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/b0/cc/ac7226cbb3a7b40cbb809fa27c3a340d542398bd8d3a1c16bea69d51e0db/psyke-0.8.9.dev4.tar.gz
+[2024-05-22 14:09:14] WARNING root fetch - processPackages [wetb]: Skipping package: exceeds size limit 21756067>=10485760
+[2024-05-22 14:09:14] INFO root fetch - main [MainThread]: End processing [wetb] error
+[2024-05-22 14:09:14] INFO root fetch - processPackages [FinRobot]: Downloading https://files.pythonhosted.org/packages/1d/7d/3d6cb6ee85c89d6541121e7c40ad602e227d0b85c35278cab4691d9ee011/FinRobot-0.0.1.tar.gz
+[2024-05-22 14:09:14] INFO root fetch - processPackages [tsc-cfg]: Downloading https://files.pythonhosted.org/packages/3e/97/28280813586db59fe3870b11c728be422f962cc26ce2527ebfebe59117e0/tsc-cfg-0.4.tar.gz
+[2024-05-22 14:09:14] INFO root fetch - processPackages [psyke]: Downloading https://files.pythonhosted.org/packages/75/ab/f64cd2b24022c25e5f069b565ccfadaa05c233c3bdee7fd8049fac17720d/psyke-0.8.9.dev5.tar.gz
+[2024-05-22 14:09:14] INFO root fetch - processPackages [packManager]: Downloading https://files.pythonhosted.org/packages/9c/9c/9ee05b8019886266d9309db0d4fd517ba7c269ca6f9b41d72c64a50867bd/packmanager-1.1.0.tar.gz
+[2024-05-22 14:09:15] INFO root fetch - processPackages [psyke]: executing diffoscope
+[2024-05-22 14:09:15] INFO root fetch - processPackages [psyke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyke-0.8.9.dev4.tar.gz tmp/psyke-0.8.9.dev5.tar.gz --markdown 20240522/p/psyke/0.8.9.dev4-0.8.9.dev5/README.md --exclude *.pyd
+[2024-05-22 14:09:15] INFO root fetch - processPackages [packManager]: executing diffoscope
+[2024-05-22 14:09:15] INFO root fetch - processPackages [packManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packmanager-1.0.1.tar.gz tmp/packmanager-1.1.0.tar.gz --markdown 20240522/p/packManager/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-22 14:09:15] INFO root fetch - processPackages [FinRobot]: Downloading https://files.pythonhosted.org/packages/61/91/34a9456574ff433bf66fe58aecde0741fdc11a9c835b0a8300180c59b103/FinRobot-0.1.0.tar.gz
+[2024-05-22 14:09:15] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/2c/a2/c853fa0f0fdd019a757d8dc9d751fa489a56dde238c2e97932fdbbc3fec9/chainlit-1.1.201.tar.gz
+[2024-05-22 14:09:15] INFO root fetch - processPackages [FinRobot]: executing diffoscope
+[2024-05-22 14:09:15] INFO root fetch - processPackages [FinRobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FinRobot-0.0.1.tar.gz tmp/FinRobot-0.1.0.tar.gz --markdown 20240522/F/FinRobot/0.0.1-0.1.0/README.md --exclude *.pyd
+[2024-05-22 14:09:15] INFO root fetch - processPackages [tsc-cfg]: Downloading https://files.pythonhosted.org/packages/32/30/a3a1e7aeccd3f63528c54b48fb0c0e082b9f32da8cc96f421dd216790cfb/tsc-cfg-0.5.tar.gz
+[2024-05-22 14:09:15] INFO root fetch - processPackages [tsc-cfg]: executing diffoscope
+[2024-05-22 14:09:15] INFO root fetch - processPackages [tsc-cfg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsc-cfg-0.4.tar.gz tmp/tsc-cfg-0.5.tar.gz --markdown 20240522/t/tsc-cfg/0.4-0.5/README.md --exclude *.pyd
+[2024-05-22 14:09:15] INFO root fetch - processPackages [chainlit]: executing diffoscope
+[2024-05-22 14:09:15] INFO root fetch - processPackages [chainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlit-1.1.200.tar.gz tmp/chainlit-1.1.201.tar.gz --markdown 20240522/c/chainlit/1.1.200-1.1.201/README.md --exclude *.pyd
+[2024-05-22 14:09:15] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-1.0.1.tar.gz]
+[2024-05-22 14:09:15] INFO root fetch - processPackages [packManager]: Remove: archive file [/home/abi/fetcher/tmp/packmanager-1.1.0.tar.gz]
+[2024-05-22 14:09:15] INFO root fetch - main [MainThread]: End processing [packManager]: success
+[2024-05-22 14:09:15] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.9.dev4.tar.gz]
+[2024-05-22 14:09:15] INFO root fetch - processPackages [psyke]: Remove: archive file [/home/abi/fetcher/tmp/psyke-0.8.9.dev5.tar.gz]
+[2024-05-22 14:09:15] INFO root fetch - main [MainThread]: End processing [psyke]: success
+[2024-05-22 14:09:15] INFO root fetch - processPackages [FinRobot]: Remove: archive file [/home/abi/fetcher/tmp/FinRobot-0.0.1.tar.gz]
+[2024-05-22 14:09:15] INFO root fetch - processPackages [FinRobot]: Remove: archive file [/home/abi/fetcher/tmp/FinRobot-0.1.0.tar.gz]
+[2024-05-22 14:09:15] INFO root fetch - main [MainThread]: End processing [FinRobot]: success
+[2024-05-22 14:09:15] INFO root fetch - processPackages [tsc-cfg]: Remove: archive file [/home/abi/fetcher/tmp/tsc-cfg-0.4.tar.gz]
+[2024-05-22 14:09:15] INFO root fetch - processPackages [tsc-cfg]: Remove: archive file [/home/abi/fetcher/tmp/tsc-cfg-0.5.tar.gz]
+[2024-05-22 14:09:15] INFO root fetch - main [MainThread]: End processing [tsc-cfg]: success
+[2024-05-22 14:11:03] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.1.200.tar.gz]
+[2024-05-22 14:11:03] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.1.201.tar.gz]
+[2024-05-22 14:11:03] INFO root fetch - main [MainThread]: End processing [chainlit]: success
+[2024-05-22 14:11:03] INFO root fetch - main [MainThread]: Store serial: [23323648]

@@ -20977,3 +20977,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 13:19:04] INFO root fetch - processPackages [tz-osemosys]: Remove: archive file [/home/abi/fetcher/tmp/tz_osemosys-0.0.5.tar.gz]
 [2024-05-22 13:19:04] INFO root fetch - main [MainThread]: End processing [tz-osemosys]: success
 [2024-05-22 13:19:04] INFO root fetch - main [MainThread]: Store serial: [23323036]
+[2024-05-22 13:21:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323036]
+[2024-05-22 13:21:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 13:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: win-onnx
+[2024-05-22 13:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypaperless
+[2024-05-22 13:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-snack
+[2024-05-22 13:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: olx-api-wrapper
+[2024-05-22 13:21:13] WARNING root fetch - processPackages [win-onnx]: Skipping, unable to determine old version
+[2024-05-22 13:21:13] INFO root fetch - main [MainThread]: End processing [win-onnx] error
+[2024-05-22 13:21:13] INFO root fetch - processPackages [data-snack]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-05-22 13:21:13] INFO root fetch - processPackages [pypaperless]: New version: [3.1.7] Old Version: [3.1.6]
+[2024-05-22 13:21:13] INFO root fetch - processPackages [olx-api-wrapper]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-22 13:21:13] INFO root fetch - processPackages [data-snack]: Downloading https://files.pythonhosted.org/packages/ca/bd/fb9c3d473421a2c2810352a2aaea0f83213cf770c87f027ab4817270209c/data_snack-1.0.3.tar.gz
+[2024-05-22 13:21:13] INFO root fetch - processPackages [pypaperless]: Downloading https://files.pythonhosted.org/packages/81/28/434fb962a7cf51f48737850167094c30eb6b4c47bf836b2bdd785a587ade/pypaperless-3.1.6.tar.gz
+[2024-05-22 13:21:14] INFO root fetch - processPackages [olx-api-wrapper]: Downloading https://files.pythonhosted.org/packages/3c/46/8154d45db3ee38fb20608d28a8777666c502025486baccac199a229dcc44/olx-api-wrapper-0.3.3.tar.gz
+[2024-05-22 13:21:14] INFO root fetch - processPackages [data-snack]: Downloading https://files.pythonhosted.org/packages/da/bf/6c92f09828dc4cce71f2aa139d0f637ec58f761b6f5c7708d09715b7b250/data_snack-1.0.4.tar.gz
+[2024-05-22 13:21:14] INFO root fetch - processPackages [olx-api-wrapper]: Downloading https://files.pythonhosted.org/packages/44/a8/78ba3809016f130c4328eb2e155a59c314fb394c955444f5a06f3045101b/olx-api-wrapper-0.3.4.tar.gz
+[2024-05-22 13:21:14] INFO root fetch - processPackages [pypaperless]: Downloading https://files.pythonhosted.org/packages/dc/79/5e530caf8273b1c5787c358c097b5985bbbe45b34964d245055030869bf6/pypaperless-3.1.7.tar.gz
+[2024-05-22 13:21:14] INFO root fetch - processPackages [data-snack]: executing diffoscope
+[2024-05-22 13:21:14] INFO root fetch - processPackages [data-snack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_snack-1.0.3.tar.gz tmp/data_snack-1.0.4.tar.gz --markdown 20240522/d/data-snack/1.0.3-1.0.4/README.md --exclude *.pyd
+[2024-05-22 13:21:14] INFO root fetch - processPackages [pypaperless]: executing diffoscope
+[2024-05-22 13:21:14] INFO root fetch - processPackages [pypaperless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypaperless-3.1.6.tar.gz tmp/pypaperless-3.1.7.tar.gz --markdown 20240522/p/pypaperless/3.1.6-3.1.7/README.md --exclude *.pyd
+[2024-05-22 13:21:14] INFO root fetch - processPackages [olx-api-wrapper]: executing diffoscope
+[2024-05-22 13:21:14] INFO root fetch - processPackages [olx-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olx-api-wrapper-0.3.3.tar.gz tmp/olx-api-wrapper-0.3.4.tar.gz --markdown 20240522/o/olx-api-wrapper/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-22 13:21:15] INFO root fetch - processPackages [data-snack]: Remove: archive file [/home/abi/fetcher/tmp/data_snack-1.0.3.tar.gz]
+[2024-05-22 13:21:15] INFO root fetch - processPackages [data-snack]: Remove: archive file [/home/abi/fetcher/tmp/data_snack-1.0.4.tar.gz]
+[2024-05-22 13:21:15] INFO root fetch - main [MainThread]: End processing [data-snack]: success
+[2024-05-22 13:21:15] INFO root fetch - processPackages [olx-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/olx-api-wrapper-0.3.3.tar.gz]
+[2024-05-22 13:21:15] INFO root fetch - processPackages [olx-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/olx-api-wrapper-0.3.4.tar.gz]
+[2024-05-22 13:21:15] INFO root fetch - main [MainThread]: End processing [olx-api-wrapper]: success
+[2024-05-22 13:21:15] INFO root fetch - processPackages [pypaperless]: Remove: archive file [/home/abi/fetcher/tmp/pypaperless-3.1.6.tar.gz]
+[2024-05-22 13:21:15] INFO root fetch - processPackages [pypaperless]: Remove: archive file [/home/abi/fetcher/tmp/pypaperless-3.1.7.tar.gz]
+[2024-05-22 13:21:15] INFO root fetch - main [MainThread]: End processing [pypaperless]: success
+[2024-05-22 13:21:15] INFO root fetch - main [MainThread]: Store serial: [23323053]

@@ -19896,3 +19896,33 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:35:24] INFO root fetch - processPackages [pulp-cli]: Remove: archive file [/home/abi/fetcher/tmp/pulp-cli-0.9.0.tar.gz]
 [2024-05-22 12:35:24] INFO root fetch - main [MainThread]: End processing [pulp-cli]: success
 [2024-05-22 12:35:24] INFO root fetch - main [MainThread]: Store serial: [23322484]
+[2024-05-22 12:37:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322484]
+[2024-05-22 12:37:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 12:37:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Anteater-GH
+[2024-05-22 12:37:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypercrawler
+[2024-05-22 12:37:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: syngen
+[2024-05-22 12:37:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sequali
+[2024-05-22 12:37:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apes-py
+[2024-05-22 12:37:33] WARNING root fetch - processPackages [Anteater-GH]: Skipping, unable to determine old version
+[2024-05-22 12:37:33] INFO root fetch - main [MainThread]: End processing [Anteater-GH] error
+[2024-05-22 12:37:33] WARNING root fetch - processPackages [hypercrawler]: Skipping, unable to determine old version
+[2024-05-22 12:37:33] INFO root fetch - main [MainThread]: End processing [hypercrawler] error
+[2024-05-22 12:37:33] WARNING root fetch - processPackages [apes-py]: Skipping, unable to determine old version
+[2024-05-22 12:37:33] INFO root fetch - main [MainThread]: End processing [apes-py] error
+[2024-05-22 12:37:33] INFO root fetch - processPackages [syngen]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-05-22 12:37:33] INFO root fetch - processPackages [sequali]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-22 12:37:33] INFO root fetch - processPackages [sequali]: Downloading https://files.pythonhosted.org/packages/35/ea/6189afe92635e0f7a6cbf2812a9af424c1c2e86c543c686221619003edd5/sequali-0.9.0.tar.gz
+[2024-05-22 12:37:33] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/0b/21/53cc8c948d573d016c889cf700a420dacbea667d60d06cde9c8ddc21c9b2/syngen-0.8.1.tar.gz
+[2024-05-22 12:37:34] INFO root fetch - processPackages [sequali]: Downloading https://files.pythonhosted.org/packages/cb/6b/5c85ec0366a3f1fb58bf032ae2c3d36ab4315cdd25ab179894d1f4ea6515/sequali-0.9.1-cp39-cp39-macosx_11_0_arm64.whl
+[2024-05-22 12:37:34] INFO root fetch - processPackages [syngen]: Downloading https://files.pythonhosted.org/packages/09/44/28c5fa414049fb84acd128b7c3dc3d7b1a3a3e0d6c110ef4f22f74011e9e/syngen-0.8.2.tar.gz
+[2024-05-22 12:37:34] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2024-05-22 12:37:34] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.8.1.tar.gz tmp/syngen-0.8.2.tar.gz --markdown 20240522/s/syngen/0.8.1-0.8.2/README.md --exclude *.pyd
+[2024-05-22 12:37:34] INFO root fetch - processPackages [sequali]: executing diffoscope
+[2024-05-22 12:37:34] INFO root fetch - processPackages [sequali]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequali-0.9.0.tar.gz tmp/sequali-0.9.1-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20240522/s/sequali/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-22 12:37:35] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.8.1.tar.gz]
+[2024-05-22 12:37:35] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.8.2.tar.gz]
+[2024-05-22 12:37:35] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2024-05-22 12:37:35] INFO root fetch - processPackages [sequali]: Remove: archive file [/home/abi/fetcher/tmp/sequali-0.9.0.tar.gz]
+[2024-05-22 12:37:35] INFO root fetch - processPackages [sequali]: Remove: archive file [/home/abi/fetcher/tmp/sequali-0.9.1-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2024-05-22 12:37:35] INFO root fetch - main [MainThread]: End processing [sequali]: success
+[2024-05-22 12:37:35] INFO root fetch - main [MainThread]: Store serial: [23322504]

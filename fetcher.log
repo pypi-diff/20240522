@@ -12903,3 +12903,51 @@
 [2024-05-22 08:14:12] INFO root fetch - processPackages [odoo-addon-report-wkhtmltopdf-param]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_wkhtmltopdf_param-17.0.1.0.0.3-py3-none-any.whl.zip]
 [2024-05-22 08:14:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-wkhtmltopdf-param]: success
 [2024-05-22 08:14:12] INFO root fetch - main [MainThread]: Store serial: [23319533]
+[2024-05-22 08:16:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319533]
+[2024-05-22 08:16:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 08:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipython-ngql
+[2024-05-22 08:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyter-nebulagraph
+[2024-05-22 08:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiogram3-form
+[2024-05-22 08:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bo4e
+[2024-05-22 08:16:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iceye-audit-log
+[2024-05-22 08:16:24] INFO root fetch - processPackages [bo4e]: New version: [202401.2.0] Old Version: [202401.1.2rc15]
+[2024-05-22 08:16:24] INFO root fetch - processPackages [iceye-audit-log]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-22 08:16:24] INFO root fetch - processPackages [aiogram3-form]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-22 08:16:24] INFO root fetch - processPackages [jupyter-nebulagraph]: New version: [0.9.1] Old Version: [0.12.2]
+[2024-05-22 08:16:24] INFO root fetch - processPackages [ipython-ngql]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-22 08:16:24] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/96/36/dc360923cda750a2cb4852203764fd2ef60f5fe7e686145333a2535152d3/bo4e-202401.1.2rc15.tar.gz
+[2024-05-22 08:16:24] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/3c/e6/d4eca93129f2ba96dc7580c77b4cae85da674a2ca4a0d0739d22b32eefd6/jupyter_nebulagraph-0.12.2.tar.gz
+[2024-05-22 08:16:24] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/29/8c/9d77f828925990c5c1f92de36b653cbc1ee6e73b634725e3d098b12f8d05/ipython-ngql-0.9.0.tar.gz
+[2024-05-22 08:16:25] INFO root fetch - processPackages [aiogram3-form]: Downloading https://files.pythonhosted.org/packages/3a/52/f7f8882a0ca6c40304d8edd612973667e473c2ef8c1e7054a2ab2baf7f06/aiogram3_form-2.0.2.tar.gz
+[2024-05-22 08:16:25] INFO root fetch - processPackages [iceye-audit-log]: Downloading https://files.pythonhosted.org/packages/f0/92/eab9573bcd55d108c284baaa2db64ec828dda86a6e9977f60329e17ea0ce/iceye_audit_log-0.1.0.tar.gz
+[2024-05-22 08:16:25] INFO root fetch - processPackages [jupyter-nebulagraph]: Downloading https://files.pythonhosted.org/packages/88/06/2fe02a0f2247e1cb1535a7e370f17dac6a53217d2cf9259b8dde3aa9e34a/jupyter_nebulagraph-0.9.1.tar.gz
+[2024-05-22 08:16:25] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/91/8a/d780d4655ec49f5b608e52ed69c39e3915fbd3dbe295563a10940857c6ff/bo4e-202401.2.0.tar.gz
+[2024-05-22 08:16:25] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/85/5b/d739e0d6e616df491f6ad44156d4ac4eb6a9a8f3e125574cf1a49296483b/ipython-ngql-0.9.1.tar.gz
+[2024-05-22 08:16:25] INFO root fetch - processPackages [iceye-audit-log]: Downloading https://files.pythonhosted.org/packages/90/09/f1117a92b57e34d3a21a2effcc8b617ee6ce2cf308f850b80d37e6fdcecf/iceye_audit_log-0.1.1.tar.gz
+[2024-05-22 08:16:25] INFO root fetch - processPackages [aiogram3-form]: Downloading https://files.pythonhosted.org/packages/dd/d2/6cf07e4ffabb43fac187bb948182e9bb076f4ea5923247d202b8d67bfabe/aiogram3_form-2.0.3.tar.gz
+[2024-05-22 08:16:25] INFO root fetch - processPackages [ipython-ngql]: executing diffoscope
+[2024-05-22 08:16:25] INFO root fetch - processPackages [ipython-ngql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipython-ngql-0.9.0.tar.gz tmp/ipython-ngql-0.9.1.tar.gz --markdown 20240522/i/ipython-ngql/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-22 08:16:25] INFO root fetch - processPackages [iceye-audit-log]: executing diffoscope
+[2024-05-22 08:16:25] INFO root fetch - processPackages [iceye-audit-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iceye_audit_log-0.1.0.tar.gz tmp/iceye_audit_log-0.1.1.tar.gz --markdown 20240522/i/iceye-audit-log/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-22 08:16:25] INFO root fetch - processPackages [bo4e]: executing diffoscope
+[2024-05-22 08:16:25] INFO root fetch - processPackages [bo4e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bo4e-202401.1.2rc15.tar.gz tmp/bo4e-202401.2.0.tar.gz --markdown 20240522/b/bo4e/202401.1.2rc15-202401.2.0/README.md --exclude *.pyd
+[2024-05-22 08:16:25] INFO root fetch - processPackages [jupyter-nebulagraph]: executing diffoscope
+[2024-05-22 08:16:25] INFO root fetch - processPackages [jupyter-nebulagraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_nebulagraph-0.12.2.tar.gz tmp/jupyter_nebulagraph-0.9.1.tar.gz --markdown 20240522/j/jupyter-nebulagraph/0.12.2-0.9.1/README.md --exclude *.pyd
+[2024-05-22 08:16:25] INFO root fetch - processPackages [aiogram3-form]: executing diffoscope
+[2024-05-22 08:16:25] INFO root fetch - processPackages [aiogram3-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram3_form-2.0.2.tar.gz tmp/aiogram3_form-2.0.3.tar.gz --markdown 20240522/a/aiogram3-form/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-22 08:16:26] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.0.tar.gz]
+[2024-05-22 08:16:26] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.1.tar.gz]
+[2024-05-22 08:16:26] INFO root fetch - main [MainThread]: End processing [ipython-ngql]: success
+[2024-05-22 08:16:26] INFO root fetch - processPackages [iceye-audit-log]: Remove: archive file [/home/abi/fetcher/tmp/iceye_audit_log-0.1.0.tar.gz]
+[2024-05-22 08:16:26] INFO root fetch - processPackages [iceye-audit-log]: Remove: archive file [/home/abi/fetcher/tmp/iceye_audit_log-0.1.1.tar.gz]
+[2024-05-22 08:16:26] INFO root fetch - main [MainThread]: End processing [iceye-audit-log]: success
+[2024-05-22 08:16:26] INFO root fetch - processPackages [aiogram3-form]: Remove: archive file [/home/abi/fetcher/tmp/aiogram3_form-2.0.2.tar.gz]
+[2024-05-22 08:16:26] INFO root fetch - processPackages [aiogram3-form]: Remove: archive file [/home/abi/fetcher/tmp/aiogram3_form-2.0.3.tar.gz]
+[2024-05-22 08:16:26] INFO root fetch - main [MainThread]: End processing [aiogram3-form]: success
+[2024-05-22 08:16:26] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.12.2.tar.gz]
+[2024-05-22 08:16:26] INFO root fetch - processPackages [jupyter-nebulagraph]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_nebulagraph-0.9.1.tar.gz]
+[2024-05-22 08:16:26] INFO root fetch - main [MainThread]: End processing [jupyter-nebulagraph]: success
+[2024-05-22 08:16:26] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-202401.1.2rc15.tar.gz]
+[2024-05-22 08:16:26] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-202401.2.0.tar.gz]
+[2024-05-22 08:16:26] INFO root fetch - main [MainThread]: End processing [bo4e]: success
+[2024-05-22 08:16:26] INFO root fetch - main [MainThread]: Store serial: [23319548]

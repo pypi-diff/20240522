@@ -20605,3 +20605,77 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 13:04:02] INFO root fetch - processPackages [ibllib]: Remove: archive file [/home/abi/fetcher/tmp/ibllib-2.9.1.tar.gz]
 [2024-05-22 13:04:02] INFO root fetch - main [MainThread]: End processing [ibllib]: success
 [2024-05-22 13:04:02] INFO root fetch - main [MainThread]: Store serial: [23322810]
+[2024-05-22 13:06:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322810]
+[2024-05-22 13:06:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-22 13:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-model-manager
+[2024-05-22 13:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stac-fastapi.types
+[2024-05-22 13:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stac-fastapi.extensions
+[2024-05-22 13:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: localstack-core
+[2024-05-22 13:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stac-fastapi.api
+[2024-05-22 13:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moogli-erp
+[2024-05-22 13:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: georeader-spaceml
+[2024-05-22 13:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moto
+[2024-05-22 13:06:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bflower-base
+[2024-05-22 13:06:12] INFO root fetch - processPackages [moogli-erp]: New version: [2024.2.3] Old Version: [2024.2.2]
+[2024-05-22 13:06:12] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev3] Old Version: [0.4.0.dev2]
+[2024-05-22 13:06:12] INFO root fetch - processPackages [stac-fastapi.types]: New version: [3.0.0a1] Old Version: [3.0.0a0]
+[2024-05-22 13:06:12] INFO root fetch - processPackages [moto]: New version: [5.0.8.dev9] Old Version: [5.0.8.dev8]
+[2024-05-22 13:06:12] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240522102452] Old Version: [3.4.1.dev20240522091352]
+[2024-05-22 13:06:12] WARNING root fetch - processPackages [bflower-base]: Skipping, unable to determine old version
+[2024-05-22 13:06:12] INFO root fetch - main [MainThread]: End processing [bflower-base] error
+[2024-05-22 13:06:12] INFO root fetch - processPackages [stac-fastapi.api]: New version: [3.0.0a1] Old Version: [3.0.0a0]
+[2024-05-22 13:06:12] INFO root fetch - processPackages [stac-fastapi.extensions]: New version: [3.0.0a1] Old Version: [3.0.0a0]
+[2024-05-22 13:06:12] INFO root fetch - processPackages [georeader-spaceml]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-05-22 13:06:12] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/7b/74/7c14c634f791cd4fd68a375561b4f500302195c619dbe652a04134de544e/torch_model_manager-0.4.0.dev2.tar.gz
+[2024-05-22 13:06:12] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/3b/ac/06a0859bde65d51176d1bc211894343ba012b690fa8ca460b05853a4cc62/moto-5.0.8.dev8.tar.gz
+[2024-05-22 13:06:12] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/bc/bc/c460c46c1b6063b4045740381b5b2a549b30f7321db75eda52496e1578a1/localstack_core-3.4.1.dev20240522091352.tar.gz
+[2024-05-22 13:06:12] INFO root fetch - processPackages [moogli-erp]: Downloading https://files.pythonhosted.org/packages/78/3f/f812054ffad1fa034869427d01705145f83dce55a925027ce11e0f9771b8/moogli-erp-2024.2.2.tar.gz
+[2024-05-22 13:06:12] INFO root fetch - processPackages [stac-fastapi.types]: Downloading https://files.pythonhosted.org/packages/83/70/1c2741eb083f03efd4fe04811fc00b64029ab9c4bc5846041a940ee85dd2/stac_fastapi_types-3.0.0a0.tar.gz
+[2024-05-22 13:06:12] WARNING root fetch - processPackages [moogli-erp]: Skipping package: exceeds size limit 12476436>=10485760
+[2024-05-22 13:06:12] INFO root fetch - main [MainThread]: End processing [moogli-erp] error
+[2024-05-22 13:06:12] INFO root fetch - processPackages [georeader-spaceml]: Downloading https://files.pythonhosted.org/packages/84/db/3d0815a4044da37d58ce06ab30137340689bb42c42b09aa1dc912f05b9c8/georeader-spaceml-1.1.2.tar.gz
+[2024-05-22 13:06:12] INFO root fetch - processPackages [stac-fastapi.extensions]: Downloading https://files.pythonhosted.org/packages/b3/16/88f4154419b26e668fda3dede662bc52bfcc31b4cfac48eb0d222e71370f/stac_fastapi_extensions-3.0.0a0.tar.gz
+[2024-05-22 13:06:12] INFO root fetch - processPackages [stac-fastapi.api]: Downloading https://files.pythonhosted.org/packages/e6/ff/9621dcf4f0dd577e6e26dcf99e709c61d671e7e56a105418eec3fcf2c18c/stac_fastapi_api-3.0.0a0.tar.gz
+[2024-05-22 13:06:12] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/6c/f4/b6a41de8e5140db8189e4f843e61f6dc2b7c154c4337b2d8f903b05fbef4/torch_model_manager-0.4.0.dev3.tar.gz
+[2024-05-22 13:06:12] INFO root fetch - processPackages [stac-fastapi.types]: Downloading https://files.pythonhosted.org/packages/75/90/4b6d082017311acc486430dd2ab052179f31e29e2018ef5aafe878efdb33/stac_fastapi_types-3.0.0a1.tar.gz
+[2024-05-22 13:06:12] INFO root fetch - processPackages [georeader-spaceml]: Downloading https://files.pythonhosted.org/packages/cc/48/a547a8717c0ebae81d3528f17b416dda0837b261f02c47b1145e8b000225/georeader-spaceml-1.1.3.tar.gz
+[2024-05-22 13:06:12] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-22 13:06:12] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.0.dev2.tar.gz tmp/torch_model_manager-0.4.0.dev3.tar.gz --markdown 20240522/t/torch-model-manager/0.4.0.dev2-0.4.0.dev3/README.md --exclude *.pyd
+[2024-05-22 13:06:12] INFO root fetch - processPackages [stac-fastapi.types]: executing diffoscope
+[2024-05-22 13:06:12] INFO root fetch - processPackages [stac-fastapi.types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac_fastapi_types-3.0.0a0.tar.gz tmp/stac_fastapi_types-3.0.0a1.tar.gz --markdown 20240522/s/stac-fastapi.types/3.0.0a0-3.0.0a1/README.md --exclude *.pyd
+[2024-05-22 13:06:12] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/cd/82/43857467531c1b56b16670bf50e2d4a85619a54c84ae9aaf1d5deccd41ca/moto-5.0.8.dev9.tar.gz
+[2024-05-22 13:06:12] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/34/73/91eec12728513692b4ba5998e439e66fe02447c0b52b6a23db13edb04dd7/localstack_core-3.4.1.dev20240522102452.tar.gz
+[2024-05-22 13:06:12] INFO root fetch - processPackages [stac-fastapi.extensions]: Downloading https://files.pythonhosted.org/packages/07/39/9d907a660f9d57ba11bac950d0749a18182ebcef32da49ad9a24cd19e438/stac_fastapi_extensions-3.0.0a1.tar.gz
+[2024-05-22 13:06:12] INFO root fetch - processPackages [stac-fastapi.api]: Downloading https://files.pythonhosted.org/packages/66/68/ae6a50797ad7eaec074702fd8461de77f9a374cbb9cb7abc91b9a0eb82e7/stac_fastapi_api-3.0.0a1.tar.gz
+[2024-05-22 13:06:12] INFO root fetch - processPackages [georeader-spaceml]: executing diffoscope
+[2024-05-22 13:06:12] INFO root fetch - processPackages [georeader-spaceml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/georeader-spaceml-1.1.2.tar.gz tmp/georeader-spaceml-1.1.3.tar.gz --markdown 20240522/g/georeader-spaceml/1.1.2-1.1.3/README.md --exclude *.pyd
+[2024-05-22 13:06:12] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-22 13:06:12] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240522091352.tar.gz tmp/localstack_core-3.4.1.dev20240522102452.tar.gz --markdown 20240522/l/localstack-core/3.4.1.dev20240522091352-3.4.1.dev20240522102452/README.md --exclude *.pyd
+[2024-05-22 13:06:12] INFO root fetch - processPackages [stac-fastapi.extensions]: executing diffoscope
+[2024-05-22 13:06:12] INFO root fetch - processPackages [stac-fastapi.extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac_fastapi_extensions-3.0.0a0.tar.gz tmp/stac_fastapi_extensions-3.0.0a1.tar.gz --markdown 20240522/s/stac-fastapi.extensions/3.0.0a0-3.0.0a1/README.md --exclude *.pyd
+[2024-05-22 13:06:12] INFO root fetch - processPackages [stac-fastapi.api]: executing diffoscope
+[2024-05-22 13:06:12] INFO root fetch - processPackages [stac-fastapi.api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stac_fastapi_api-3.0.0a0.tar.gz tmp/stac_fastapi_api-3.0.0a1.tar.gz --markdown 20240522/s/stac-fastapi.api/3.0.0a0-3.0.0a1/README.md --exclude *.pyd
+[2024-05-22 13:06:13] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-05-22 13:06:13] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.8.dev8.tar.gz tmp/moto-5.0.8.dev9.tar.gz --markdown 20240522/m/moto/5.0.8.dev8-5.0.8.dev9/README.md --exclude *.pyd
+[2024-05-22 13:06:13] INFO root fetch - processPackages [stac-fastapi.types]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_types-3.0.0a0.tar.gz]
+[2024-05-22 13:06:13] INFO root fetch - processPackages [stac-fastapi.types]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_types-3.0.0a1.tar.gz]
+[2024-05-22 13:06:13] INFO root fetch - main [MainThread]: End processing [stac-fastapi.types]: success
+[2024-05-22 13:06:13] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev2.tar.gz]
+[2024-05-22 13:06:13] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev3.tar.gz]
+[2024-05-22 13:06:13] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-22 13:06:14] INFO root fetch - processPackages [georeader-spaceml]: Remove: archive file [/home/abi/fetcher/tmp/georeader-spaceml-1.1.2.tar.gz]
+[2024-05-22 13:06:14] INFO root fetch - processPackages [georeader-spaceml]: Remove: archive file [/home/abi/fetcher/tmp/georeader-spaceml-1.1.3.tar.gz]
+[2024-05-22 13:06:14] INFO root fetch - main [MainThread]: End processing [georeader-spaceml]: success
+[2024-05-22 13:06:14] INFO root fetch - processPackages [stac-fastapi.api]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_api-3.0.0a0.tar.gz]
+[2024-05-22 13:06:14] INFO root fetch - processPackages [stac-fastapi.api]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_api-3.0.0a1.tar.gz]
+[2024-05-22 13:06:14] INFO root fetch - main [MainThread]: End processing [stac-fastapi.api]: success
+[2024-05-22 13:06:14] INFO root fetch - processPackages [stac-fastapi.extensions]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_extensions-3.0.0a0.tar.gz]
+[2024-05-22 13:06:14] INFO root fetch - processPackages [stac-fastapi.extensions]: Remove: archive file [/home/abi/fetcher/tmp/stac_fastapi_extensions-3.0.0a1.tar.gz]
+[2024-05-22 13:06:14] INFO root fetch - main [MainThread]: End processing [stac-fastapi.extensions]: success
+[2024-05-22 13:06:18] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240522091352.tar.gz]
+[2024-05-22 13:06:18] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240522102452.tar.gz]
+[2024-05-22 13:06:18] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-22 13:06:27] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.8.dev8.tar.gz]
+[2024-05-22 13:06:27] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.8.dev9.tar.gz]
+[2024-05-22 13:06:27] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-05-22 13:06:27] INFO root fetch - main [MainThread]: Store serial: [23322838]

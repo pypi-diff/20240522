@@ -11901,3 +11901,60 @@
 [2024-05-22 07:18:51] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240522035746.tar.gz]
 [2024-05-22 07:18:51] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-22 07:18:51] INFO root fetch - main [MainThread]: Store serial: [23319040]
+[2024-05-22 07:20:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319040]
+[2024-05-22 07:21:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 07:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: system_reliability
+[2024-05-22 07:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-mrp-auto-assign
+[2024-05-22 07:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-mrp-sale-info
+[2024-05-22 07:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-manufacture
+[2024-05-22 07:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autopipeline
+[2024-05-22 07:21:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nanoCEM
+[2024-05-22 07:21:01] INFO root fetch - processPackages [system_reliability]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-05-22 07:21:01] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-22 07:21:01] INFO root fetch - processPackages [nanoCEM]: New version: [0.0.6.1] Old Version: [0.0.6.0]
+[2024-05-22 07:21:01] INFO root fetch - processPackages [system_reliability]: Downloading https://files.pythonhosted.org/packages/a2/3a/272ee1144f731249fed3bc52ec582c48398a3421a8e6179c5e161814ce97/system_reliability-0.1.1.tar.gz
+[2024-05-22 07:21:01] INFO root fetch - processPackages [odoo-addon-mrp-sale-info]: New version: [17.0.1.1.0.2] Old Version: [16.0.1.1.0.4]
+[2024-05-22 07:21:01] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-05-22 07:21:01] INFO root fetch - processPackages [odoo14-addon-mrp-auto-assign]: New version: [14.0.1.0.1.dev3] Old Version: [14.0.1.0.1.dev2]
+[2024-05-22 07:21:01] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: New version: [14.0.20240521.0] Old Version: [14.0.20240304.0]
+[2024-05-22 07:21:02] INFO root fetch - processPackages [odoo-addon-mrp-sale-info]: Downloading https://files.pythonhosted.org/packages/35/51/ac4be49f8bebcabd71d70fde4becd2b1bd910172c81889793ad1e6d778c7/odoo_addon_mrp_sale_info-16.0.1.1.0.4-py3-none-any.whl
+[2024-05-22 07:21:02] INFO root fetch - processPackages [odoo14-addon-mrp-auto-assign]: Downloading https://files.pythonhosted.org/packages/c2/82/fdc0a77e415ef41480863e9ab64b3185d005433d9ed378d6e41737d300cb/odoo14_addon_mrp_auto_assign-14.0.1.0.1.dev2-py3-none-any.whl
+[2024-05-22 07:21:02] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/eb/e0/ae920645f88958b76e12ab51a2642775d9b8a97a16d1b5f150ae117d971a/nanoCEM-0.0.6.0.tar.gz
+[2024-05-22 07:21:02] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/6c/d2/9668b4ce1c6e1ef8299bb8d628eda7361955547b3766fb599cf426d6b38b/odoo14_addons_oca_manufacture-14.0.20240304.0-py3-none-any.whl
+[2024-05-22 07:21:02] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-05-22 07:21:02] INFO root fetch - processPackages [system_reliability]: Downloading https://files.pythonhosted.org/packages/ea/67/6bb795a018cecba898e4bd13e61c0a9229fa939154ba7e5ca44e52f4412b/system_reliability-0.2.0.tar.gz
+[2024-05-22 07:21:02] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-05-22 07:21:02] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240522/a/autopipeline/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-22 07:21:02] INFO root fetch - processPackages [system_reliability]: executing diffoscope
+[2024-05-22 07:21:02] INFO root fetch - processPackages [system_reliability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/system_reliability-0.1.1.tar.gz tmp/system_reliability-0.2.0.tar.gz --markdown 20240522/s/system_reliability/0.1.1-0.2.0/README.md --exclude *.pyd
+[2024-05-22 07:21:02] INFO root fetch - processPackages [odoo-addon-mrp-sale-info]: Downloading https://files.pythonhosted.org/packages/6d/5f/86021b2126a8efe9fc03f05ea8ee7c45ce6284e70d208ab1b15798091a5b/odoo_addon_mrp_sale_info-17.0.1.1.0.2-py3-none-any.whl
+[2024-05-22 07:21:02] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/fb/0d/ef66e7305fa37d02265205edf61da36fdae399270008d7154fad4f162cac/nanoCEM-0.0.6.1.tar.gz
+[2024-05-22 07:21:02] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: Downloading https://files.pythonhosted.org/packages/2e/8d/0d52910ca986b5da7032d3230f1f314611c783ecce1bb4dde8cb236ea5bf/odoo14_addons_oca_manufacture-14.0.20240521.0-py3-none-any.whl
+[2024-05-22 07:21:02] INFO root fetch - processPackages [odoo14-addon-mrp-auto-assign]: Downloading https://files.pythonhosted.org/packages/a6/41/e811c327a085b557849d969c951093605299205f7fbd3e117d1acf2dde1e/odoo14_addon_mrp_auto_assign-14.0.1.0.1.dev3-py3-none-any.whl
+[2024-05-22 07:21:02] INFO root fetch - processPackages [nanoCEM]: executing diffoscope
+[2024-05-22 07:21:02] INFO root fetch - processPackages [nanoCEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoCEM-0.0.6.0.tar.gz tmp/nanoCEM-0.0.6.1.tar.gz --markdown 20240522/n/nanoCEM/0.0.6.0-0.0.6.1/README.md --exclude *.pyd
+[2024-05-22 07:21:02] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: executing diffoscope
+[2024-05-22 07:21:02] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_manufacture-14.0.20240304.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_manufacture-14.0.20240521.0-py3-none-any.whl.zip --markdown 20240522/o/odoo14-addons-oca-manufacture/14.0.20240304.0-14.0.20240521.0/README.md --exclude *.pyd
+[2024-05-22 07:21:02] INFO root fetch - processPackages [odoo-addon-mrp-sale-info]: executing diffoscope
+[2024-05-22 07:21:02] INFO root fetch - processPackages [odoo-addon-mrp-sale-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_sale_info-16.0.1.1.0.4-py3-none-any.whl.zip tmp/odoo_addon_mrp_sale_info-17.0.1.1.0.2-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-mrp-sale-info/16.0.1.1.0.4-17.0.1.1.0.2/README.md --exclude *.pyd
+[2024-05-22 07:21:02] INFO root fetch - processPackages [odoo14-addon-mrp-auto-assign]: executing diffoscope
+[2024-05-22 07:21:02] INFO root fetch - processPackages [odoo14-addon-mrp-auto-assign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_auto_assign-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_mrp_auto_assign-14.0.1.0.1.dev3-py3-none-any.whl.zip --markdown 20240522/o/odoo14-addon-mrp-auto-assign/14.0.1.0.1.dev2-14.0.1.0.1.dev3/README.md --exclude *.pyd
+[2024-05-22 07:21:02] INFO root fetch - processPackages [system_reliability]: Remove: archive file [/home/abi/fetcher/tmp/system_reliability-0.1.1.tar.gz]
+[2024-05-22 07:21:02] INFO root fetch - processPackages [system_reliability]: Remove: archive file [/home/abi/fetcher/tmp/system_reliability-0.2.0.tar.gz]
+[2024-05-22 07:21:02] INFO root fetch - main [MainThread]: End processing [system_reliability]: success
+[2024-05-22 07:21:02] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-05-22 07:21:02] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-05-22 07:21:02] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-05-22 07:21:03] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_manufacture-14.0.20240304.0-py3-none-any.whl.zip]
+[2024-05-22 07:21:03] INFO root fetch - processPackages [odoo14-addons-oca-manufacture]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_manufacture-14.0.20240521.0-py3-none-any.whl.zip]
+[2024-05-22 07:21:03] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-manufacture]: success
+[2024-05-22 07:21:03] INFO root fetch - processPackages [odoo14-addon-mrp-auto-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_auto_assign-14.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2024-05-22 07:21:03] INFO root fetch - processPackages [odoo14-addon-mrp-auto-assign]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_auto_assign-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2024-05-22 07:21:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-auto-assign]: success
+[2024-05-22 07:21:03] INFO root fetch - processPackages [odoo-addon-mrp-sale-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_sale_info-16.0.1.1.0.4-py3-none-any.whl.zip]
+[2024-05-22 07:21:03] INFO root fetch - processPackages [odoo-addon-mrp-sale-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mrp_sale_info-17.0.1.1.0.2-py3-none-any.whl.zip]
+[2024-05-22 07:21:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-sale-info]: success
+[2024-05-22 07:21:03] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.6.0.tar.gz]
+[2024-05-22 07:21:03] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.6.1.tar.gz]
+[2024-05-22 07:21:03] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
+[2024-05-22 07:21:03] INFO root fetch - main [MainThread]: Store serial: [23319054]

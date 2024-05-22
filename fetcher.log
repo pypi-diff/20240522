@@ -21443,3 +21443,117 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 13:34:55] INFO root fetch - processPackages [torchsnapshot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchsnapshot_nightly-2024.5.22.tar.gz]
 [2024-05-22 13:34:55] INFO root fetch - main [MainThread]: End processing [torchsnapshot-nightly]: success
 [2024-05-22 13:34:55] INFO root fetch - main [MainThread]: Store serial: [23323219]
+[2024-05-22 13:37:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323219]
+[2024-05-22 13:37:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-22 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-dragonfly
+[2024-05-22 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: database-mysql-local
+[2024-05-22 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytbai
+[2024-05-22 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torch-model-manager
+[2024-05-22 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cacholote
+[2024-05-22 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: onyxpm
+[2024-05-22 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: typegraph
+[2024-05-22 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: syncmodels
+[2024-05-22 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: roche-datachapter-lib
+[2024-05-22 13:37:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: olx-api-wrapper
+[2024-05-22 13:37:05] INFO root fetch - processPackages [roche-datachapter-lib]: New version: [0.0.427] Old Version: [0.0.426]
+[2024-05-22 13:37:05] INFO root fetch - processPackages [database-mysql-local]: New version: [0.0.311] Old Version: [0.0.310]
+[2024-05-22 13:37:05] INFO root fetch - processPackages [onyxpm]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 13:37:05] INFO root fetch - processPackages [pytbai]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-05-22 13:37:05] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 13:37:05] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev3] Old Version: [0.4.0.dev2]
+[2024-05-22 13:37:05] INFO root fetch - processPackages [cacholote]: New version: [1.0.0] Old Version: [0.9.1]
+[2024-05-22 13:37:05] INFO root fetch - processPackages [olx-api-wrapper]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-05-22 13:37:05] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/d1/c6/42dcde3fc116a36adaefab40d39b09326520ccfc42165d31524705120f97/pytbai-1.5.0.tar.gz
+[2024-05-22 13:37:05] INFO root fetch - processPackages [typegraph]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-22 13:37:05] INFO root fetch - processPackages [roche-datachapter-lib]: Downloading https://files.pythonhosted.org/packages/7d/a4/f7b5b26c8e9f7574871f13db7b58009057d2178fe52c89d06064b209a636/roche_datachapter_lib-0.0.426.tar.gz
+[2024-05-22 13:37:05] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/7b/74/7c14c634f791cd4fd68a375561b4f500302195c619dbe652a04134de544e/torch_model_manager-0.4.0.dev2.tar.gz
+[2024-05-22 13:37:05] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/fd/a3/d68c1ea71bf22b21d20316f946a779b92df8fe5384104a1895942625dd64/database_mysql_local-0.0.310.tar.gz
+[2024-05-22 13:37:05] INFO root fetch - processPackages [onyxpm]: Downloading https://files.pythonhosted.org/packages/f1/0c/81d0e6ed92f60de210422eb5e5e5b2171aa940f4aefd5035a1b1fa6499d7/onyxpm-0.0.8.tar.gz
+[2024-05-22 13:37:05] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-05-22 13:37:05] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-05-22 13:37:05] INFO root fetch - processPackages [olx-api-wrapper]: Downloading https://files.pythonhosted.org/packages/44/a8/78ba3809016f130c4328eb2e155a59c314fb394c955444f5a06f3045101b/olx-api-wrapper-0.3.4.tar.gz
+[2024-05-22 13:37:05] INFO root fetch - processPackages [cacholote]: Downloading https://files.pythonhosted.org/packages/60/79/bf68379ac71885d30641d610857af299ad94997bf56c29ffc025e6eeb1c3/cacholote-0.9.1.tar.gz
+[2024-05-22 13:37:05] INFO root fetch - processPackages [typegraph]: Downloading https://files.pythonhosted.org/packages/31/b3/f77b78483f89b947246c4ce194ffcf69d50f91e0cf1c21054cb3c7ccdda4/typegraph-0.4.1.tar.gz
+[2024-05-22 13:37:05] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/6c/f4/b6a41de8e5140db8189e4f843e61f6dc2b7c154c4337b2d8f903b05fbef4/torch_model_manager-0.4.0.dev3.tar.gz
+[2024-05-22 13:37:05] INFO root fetch - processPackages [roche-datachapter-lib]: Downloading https://files.pythonhosted.org/packages/98/a9/a9fbe773dc03ee5312d9872629ad5e1de2fb8067c1ba031d0ffe1f1ee398/roche_datachapter_lib-0.0.427.tar.gz
+[2024-05-22 13:37:05] INFO root fetch - processPackages [onyxpm]: Downloading https://files.pythonhosted.org/packages/d9/25/f0ad33727a1da3f0a10cd50eeaa9ce63400e65a82b0808297792425482f3/onyxpm-0.0.9.tar.gz
+[2024-05-22 13:37:06] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-05-22 13:37:06] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-05-22 13:37:06] INFO root fetch - processPackages [database-mysql-local]: Downloading https://files.pythonhosted.org/packages/6b/de/e8c23f64b96f502d8f39100f01d7db4c966a062ddb29fe955dc6cb5b8a9b/database_mysql_local-0.0.311.tar.gz
+[2024-05-22 13:37:06] INFO root fetch - processPackages [pytbai]: Downloading https://files.pythonhosted.org/packages/68/cc/bda266e88d0c07c3de25cbfa74a23186ca8293be309b65b546238930bc9b/pytbai-1.5.1.tar.gz
+[2024-05-22 13:37:06] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-22 13:37:06] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.0.dev2.tar.gz tmp/torch_model_manager-0.4.0.dev3.tar.gz --markdown 20240522/t/torch-model-manager/0.4.0.dev2-0.4.0.dev3/README.md --exclude *.pyd
+[2024-05-22 13:37:06] INFO root fetch - processPackages [roche-datachapter-lib]: executing diffoscope
+[2024-05-22 13:37:06] INFO root fetch - processPackages [roche-datachapter-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roche_datachapter_lib-0.0.426.tar.gz tmp/roche_datachapter_lib-0.0.427.tar.gz --markdown 20240522/r/roche-datachapter-lib/0.0.426-0.0.427/README.md --exclude *.pyd
+[2024-05-22 13:37:06] INFO root fetch - processPackages [olx-api-wrapper]: Downloading https://files.pythonhosted.org/packages/b4/b7/f8a0b13328f5c0eeb3e9bba6a1236b8e3ac4cc119d81ac9d08c3ddcdb6aa/olx-api-wrapper-0.3.5.tar.gz
+[2024-05-22 13:37:06] INFO root fetch - processPackages [onyxpm]: executing diffoscope
+[2024-05-22 13:37:06] INFO root fetch - processPackages [onyxpm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onyxpm-0.0.8.tar.gz tmp/onyxpm-0.0.9.tar.gz --markdown 20240522/o/onyxpm/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 13:37:06] INFO root fetch - processPackages [cacholote]: Downloading https://files.pythonhosted.org/packages/1a/93/31cea0525dc9e841d1d208de802d31a1cd19a1795148ba8fc9efe0b137f4/cacholote-1.0.0.tar.gz
+[2024-05-22 13:37:06] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-05-22 13:37:06] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240522/s/syncmodels/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 13:37:06] INFO root fetch - processPackages [database-mysql-local]: executing diffoscope
+[2024-05-22 13:37:06] INFO root fetch - processPackages [database-mysql-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_mysql_local-0.0.310.tar.gz tmp/database_mysql_local-0.0.311.tar.gz --markdown 20240522/d/database-mysql-local/0.0.310-0.0.311/README.md --exclude *.pyd
+[2024-05-22 13:37:06] INFO root fetch - processPackages [pytbai]: executing diffoscope
+[2024-05-22 13:37:06] INFO root fetch - processPackages [pytbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytbai-1.5.0.tar.gz tmp/pytbai-1.5.1.tar.gz --markdown 20240522/p/pytbai/1.5.0-1.5.1/README.md --exclude *.pyd
+[2024-05-22 13:37:06] INFO root fetch - processPackages [cacholote]: executing diffoscope
+[2024-05-22 13:37:06] INFO root fetch - processPackages [cacholote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cacholote-0.9.1.tar.gz tmp/cacholote-1.0.0.tar.gz --markdown 20240522/c/cacholote/0.9.1-1.0.0/README.md --exclude *.pyd
+[2024-05-22 13:37:06] INFO root fetch - processPackages [olx-api-wrapper]: executing diffoscope
+[2024-05-22 13:37:06] INFO root fetch - processPackages [olx-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olx-api-wrapper-0.3.4.tar.gz tmp/olx-api-wrapper-0.3.5.tar.gz --markdown 20240522/o/olx-api-wrapper/0.3.4-0.3.5/README.md --exclude *.pyd
+[2024-05-22 13:37:06] INFO root fetch - processPackages [typegraph]: Downloading https://files.pythonhosted.org/packages/08/22/7ef69c694659f704d401d2567854fbae426b686abae1c6dbe2e5783532f7/typegraph-0.4.2.tar.gz
+[2024-05-22 13:37:06] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-05-22 13:37:06] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-05-22 13:37:06] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240522/l/lbt-dragonfly/0.9.98-0.9.99/README.md --exclude *.pyd
+[2024-05-22 13:37:06] INFO root fetch - processPackages [typegraph]: executing diffoscope
+[2024-05-22 13:37:06] INFO root fetch - processPackages [typegraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typegraph-0.4.1.tar.gz tmp/typegraph-0.4.2.tar.gz --markdown 20240522/t/typegraph/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-22 13:37:07] INFO root fetch - processPackages [roche-datachapter-lib]: Remove: archive file [/home/abi/fetcher/tmp/roche_datachapter_lib-0.0.426.tar.gz]
+[2024-05-22 13:37:07] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev2.tar.gz]
+[2024-05-22 13:37:07] INFO root fetch - processPackages [roche-datachapter-lib]: Remove: archive file [/home/abi/fetcher/tmp/roche_datachapter_lib-0.0.427.tar.gz]
+[2024-05-22 13:37:07] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev3.tar.gz]
+[2024-05-22 13:37:07] INFO root fetch - processPackages [roche-datachapter-lib]: Start processing: agptools
+[2024-05-22 13:37:07] INFO root fetch - processPackages [torch-model-manager]: Start processing: parrottools
+[2024-05-22 13:37:07] INFO root fetch - main [MainThread]: End processing [roche-datachapter-lib]: success
+[2024-05-22 13:37:07] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-22 13:37:07] INFO root fetch - processPackages [agptools]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 13:37:07] INFO root fetch - processPackages [parrottools]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-22 13:37:07] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.310.tar.gz]
+[2024-05-22 13:37:07] INFO root fetch - processPackages [database-mysql-local]: Remove: archive file [/home/abi/fetcher/tmp/database_mysql_local-0.0.311.tar.gz]
+[2024-05-22 13:37:07] INFO root fetch - processPackages [database-mysql-local]: Start processing: StochasticGhost
+[2024-05-22 13:37:07] INFO root fetch - main [MainThread]: End processing [database-mysql-local]: success
+[2024-05-22 13:37:07] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.5.0.tar.gz]
+[2024-05-22 13:37:07] INFO root fetch - processPackages [pytbai]: Remove: archive file [/home/abi/fetcher/tmp/pytbai-1.5.1.tar.gz]
+[2024-05-22 13:37:07] INFO root fetch - main [MainThread]: End processing [pytbai]: success
+[2024-05-22 13:37:07] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/ef/90/08317ea7b8434657a0c64c671a0ce91127781d19896203a19175d974fc12/agptools-0.1.8-py2.py3-none-any.whl
+[2024-05-22 13:37:07] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-22 13:37:07] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-22 13:37:07] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-05-22 13:37:07] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-05-22 13:37:07] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-05-22 13:37:07] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-05-22 13:37:07] WARNING root fetch - processPackages [StochasticGhost]: Skipping, unable to determine old version
+[2024-05-22 13:37:07] INFO root fetch - main [MainThread]: End processing [StochasticGhost] error
+[2024-05-22 13:37:07] INFO root fetch - processPackages [olx-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/olx-api-wrapper-0.3.4.tar.gz]
+[2024-05-22 13:37:07] INFO root fetch - processPackages [olx-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/olx-api-wrapper-0.3.5.tar.gz]
+[2024-05-22 13:37:07] INFO root fetch - main [MainThread]: End processing [olx-api-wrapper]: success
+[2024-05-22 13:37:07] INFO root fetch - processPackages [onyxpm]: Remove: archive file [/home/abi/fetcher/tmp/onyxpm-0.0.8.tar.gz]
+[2024-05-22 13:37:07] INFO root fetch - processPackages [onyxpm]: Remove: archive file [/home/abi/fetcher/tmp/onyxpm-0.0.9.tar.gz]
+[2024-05-22 13:37:07] INFO root fetch - main [MainThread]: End processing [onyxpm]: success
+[2024-05-22 13:37:07] INFO root fetch - processPackages [parrottools]: Downloading https://files.pythonhosted.org/packages/5a/99/2eb4152a922cd2459becfa3cbe4acff4dc6f94b37c3f0671401d4535746f/parrottools-0.2.8.tar.gz
+[2024-05-22 13:37:07] INFO root fetch - processPackages [cacholote]: Remove: archive file [/home/abi/fetcher/tmp/cacholote-0.9.1.tar.gz]
+[2024-05-22 13:37:07] INFO root fetch - processPackages [cacholote]: Remove: archive file [/home/abi/fetcher/tmp/cacholote-1.0.0.tar.gz]
+[2024-05-22 13:37:07] INFO root fetch - main [MainThread]: End processing [cacholote]: success
+[2024-05-22 13:37:07] INFO root fetch - processPackages [agptools]: Downloading https://files.pythonhosted.org/packages/b4/96/a1fa0a1e147cbeb8acd6a36e118eb3b3ecfbf93d5b5de31b99b5d8bef5f4/agptools-0.1.9-py2.py3-none-any.whl
+[2024-05-22 13:37:07] INFO root fetch - processPackages [agptools]: executing diffoscope
+[2024-05-22 13:37:07] INFO root fetch - processPackages [agptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agptools-0.1.8-py2.py3-none-any.whl.zip tmp/agptools-0.1.9-py2.py3-none-any.whl.zip --markdown 20240522/a/agptools/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 13:37:08] INFO root fetch - processPackages [parrottools]: Downloading https://files.pythonhosted.org/packages/1e/3e/24ea3a2e497b5e265c10c771dc77f225cef3ebd7a44d776e16e3fc564aec/parrottools-0.2.9.tar.gz
+[2024-05-22 13:37:08] INFO root fetch - processPackages [parrottools]: executing diffoscope
+[2024-05-22 13:37:08] INFO root fetch - processPackages [parrottools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parrottools-0.2.8.tar.gz tmp/parrottools-0.2.9.tar.gz --markdown 20240522/p/parrottools/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-22 13:37:08] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.8-py2.py3-none-any.whl.zip]
+[2024-05-22 13:37:08] INFO root fetch - processPackages [agptools]: Remove: archive file [/home/abi/fetcher/tmp/agptools-0.1.9-py2.py3-none-any.whl.zip]
+[2024-05-22 13:37:08] INFO root fetch - main [MainThread]: End processing [agptools]: success
+[2024-05-22 13:37:08] INFO root fetch - processPackages [parrottools]: Remove: archive file [/home/abi/fetcher/tmp/parrottools-0.2.8.tar.gz]
+[2024-05-22 13:37:08] INFO root fetch - processPackages [parrottools]: Remove: archive file [/home/abi/fetcher/tmp/parrottools-0.2.9.tar.gz]
+[2024-05-22 13:37:08] INFO root fetch - main [MainThread]: End processing [parrottools]: success
+[2024-05-22 13:37:33] INFO root fetch - processPackages [typegraph]: Remove: archive file [/home/abi/fetcher/tmp/typegraph-0.4.1.tar.gz]
+[2024-05-22 13:37:33] INFO root fetch - processPackages [typegraph]: Remove: archive file [/home/abi/fetcher/tmp/typegraph-0.4.2.tar.gz]
+[2024-05-22 13:37:33] INFO root fetch - main [MainThread]: End processing [typegraph]: success
+[2024-05-22 13:37:33] INFO root fetch - main [MainThread]: Store serial: [23323263]

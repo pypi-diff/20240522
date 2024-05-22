@@ -13065,3 +13065,63 @@
 [2024-05-22 08:18:48] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240521.tar.gz]
 [2024-05-22 08:18:48] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2024-05-22 08:18:48] INFO root fetch - main [MainThread]: Store serial: [23319586]
+[2024-05-22 08:20:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319586]
+[2024-05-22 08:21:03] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fake-bpy-module
+[2024-05-22 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seven-cloudapp-frame
+[2024-05-22 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: networkx-match
+[2024-05-22 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rest-solace
+[2024-05-22 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: setup-django-apex
+[2024-05-22 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qontract-reconcile
+[2024-05-22 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plone.app.mosaic
+[2024-05-22 08:21:04] WARNING root fetch - processPackages [networkx-match]: Skipping, unable to determine old version
+[2024-05-22 08:21:04] INFO root fetch - main [MainThread]: End processing [networkx-match] error
+[2024-05-22 08:21:04] INFO root fetch - processPackages [setup-django-apex]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-22 08:21:04] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240521] Old Version: [20240520]
+[2024-05-22 08:21:04] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-22 08:21:04] INFO root fetch - processPackages [setup-django-apex]: Downloading https://files.pythonhosted.org/packages/5e/32/cade4d7c4e17001b365d4bc6a4f17eff15c364184c2aabdcd7bd3af6e346/setup_django_apex-0.1.3-py3-none-any.whl
+[2024-05-22 08:21:04] INFO root fetch - processPackages [rest-solace]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-22 08:21:04] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/89/f1/7cafb0796a5cd6afaae4b533afcf360c2f28cddb86c137de55bf0b5558b9/fake_bpy_module-20240520.tar.gz
+[2024-05-22 08:21:04] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-22 08:21:04] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-22 08:21:04] INFO root fetch - processPackages [plone.app.mosaic]: New version: [3.2.0a6] Old Version: [3.2.0a5]
+[2024-05-22 08:21:04] INFO root fetch - processPackages [rest-solace]: Downloading https://files.pythonhosted.org/packages/70/ab/afafdd2c9714bf6d25bd357c04fba29785848d54d3d7a01d9b47fda59d70/rest_solace-0.2.0.tar.gz
+[2024-05-22 08:21:04] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-05-22 08:21:04] INFO root fetch - processPackages [setup-django-apex]: Downloading https://files.pythonhosted.org/packages/26/5d/26414b9f8cf4a594bee9b0ccc14b1a5bcae3db1133f84f8eb5a4001b7d29/setup_django_apex-0.1.4-py3-none-any.whl
+[2024-05-22 08:21:04] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-22 08:21:04] INFO root fetch - processPackages [plone.app.mosaic]: Downloading https://files.pythonhosted.org/packages/6b/51/859f54aa10d55d5d5af307b4ec28ba0faac03e21b012d146c18959391974/plone_app_mosaic-3.2.0a5.tar.gz
+[2024-05-22 08:21:04] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/c7/14/07307e2207ca8b367f93333cb1e0be6d44dc28a7b47f2f0a6fb6b7d1935f/fake_bpy_module-20240521.tar.gz
+[2024-05-22 08:21:04] INFO root fetch - processPackages [setup-django-apex]: executing diffoscope
+[2024-05-22 08:21:04] INFO root fetch - processPackages [setup-django-apex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setup_django_apex-0.1.3-py3-none-any.whl.zip tmp/setup_django_apex-0.1.4-py3-none-any.whl.zip --markdown 20240522/s/setup-django-apex/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-22 08:21:04] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-22 08:21:04] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240522/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-22 08:21:04] INFO root fetch - processPackages [rest-solace]: Downloading https://files.pythonhosted.org/packages/85/f8/d43073c14fefbd2c95378b221e2bd022e69da612da3ce9702342b31f148c/rest_solace-0.2.1.tar.gz
+[2024-05-22 08:21:04] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-05-22 08:21:04] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module-20240520.tar.gz tmp/fake_bpy_module-20240521.tar.gz --markdown 20240522/f/fake-bpy-module/20240520-20240521/README.md --exclude *.pyd
+[2024-05-22 08:21:04] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-05-22 08:21:05] INFO root fetch - processPackages [rest-solace]: executing diffoscope
+[2024-05-22 08:21:05] INFO root fetch - processPackages [rest-solace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest_solace-0.2.0.tar.gz tmp/rest_solace-0.2.1.tar.gz --markdown 20240522/r/rest-solace/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-22 08:21:05] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-05-22 08:21:05] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240522/s/seven-cloudapp-frame/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-22 08:21:05] INFO root fetch - processPackages [plone.app.mosaic]: Downloading https://files.pythonhosted.org/packages/63/35/e07e595149344ea669ccfb6d1826bc5bcbc1158cc90b51d41151bfd67516/plone_app_mosaic-3.2.0a6.tar.gz
+[2024-05-22 08:21:05] INFO root fetch - processPackages [setup-django-apex]: Remove: archive file [/home/abi/fetcher/tmp/setup_django_apex-0.1.3-py3-none-any.whl.zip]
+[2024-05-22 08:21:05] INFO root fetch - processPackages [setup-django-apex]: Remove: archive file [/home/abi/fetcher/tmp/setup_django_apex-0.1.4-py3-none-any.whl.zip]
+[2024-05-22 08:21:05] INFO root fetch - main [MainThread]: End processing [setup-django-apex]: success
+[2024-05-22 08:21:05] INFO root fetch - processPackages [plone.app.mosaic]: executing diffoscope
+[2024-05-22 08:21:05] INFO root fetch - processPackages [plone.app.mosaic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone_app_mosaic-3.2.0a5.tar.gz tmp/plone_app_mosaic-3.2.0a6.tar.gz --markdown 20240522/p/plone.app.mosaic/3.2.0a5-3.2.0a6/README.md --exclude *.pyd
+[2024-05-22 08:21:05] INFO root fetch - processPackages [rest-solace]: Remove: archive file [/home/abi/fetcher/tmp/rest_solace-0.2.0.tar.gz]
+[2024-05-22 08:21:05] INFO root fetch - processPackages [rest-solace]: Remove: archive file [/home/abi/fetcher/tmp/rest_solace-0.2.1.tar.gz]
+[2024-05-22 08:21:05] INFO root fetch - main [MainThread]: End processing [rest-solace]: success
+[2024-05-22 08:21:06] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-05-22 08:21:06] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-05-22 08:21:06] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-05-22 08:21:07] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-22 08:21:07] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-22 08:21:07] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-22 08:21:12] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240520.tar.gz]
+[2024-05-22 08:21:12] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module-20240521.tar.gz]
+[2024-05-22 08:21:12] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-05-22 08:21:15] INFO root fetch - processPackages [plone.app.mosaic]: Remove: archive file [/home/abi/fetcher/tmp/plone_app_mosaic-3.2.0a5.tar.gz]
+[2024-05-22 08:21:15] INFO root fetch - processPackages [plone.app.mosaic]: Remove: archive file [/home/abi/fetcher/tmp/plone_app_mosaic-3.2.0a6.tar.gz]
+[2024-05-22 08:21:15] INFO root fetch - main [MainThread]: End processing [plone.app.mosaic]: success
+[2024-05-22 08:21:15] INFO root fetch - main [MainThread]: Store serial: [23319609]

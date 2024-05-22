@@ -20113,3 +20113,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:42:01] INFO root fetch - processPackages [composio-lyzr]: Remove: archive file [/home/abi/fetcher/tmp/composio_lyzr-0.2.9.tar.gz]
 [2024-05-22 12:42:01] INFO root fetch - main [MainThread]: End processing [composio-lyzr]: success
 [2024-05-22 12:42:01] INFO root fetch - main [MainThread]: Store serial: [23322612]
+[2024-05-22 12:44:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322612]
+[2024-05-22 12:44:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 12:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vnpy-datarecorder
+[2024-05-22 12:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apes-py
+[2024-05-22 12:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: k8s
+[2024-05-22 12:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyCHZZK
+[2024-05-22 12:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: highlighting-atoms
+[2024-05-22 12:44:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AAVT
+[2024-05-22 12:44:10] WARNING root fetch - processPackages [PyCHZZK]: Skipping, unable to determine old version
+[2024-05-22 12:44:10] INFO root fetch - main [MainThread]: End processing [PyCHZZK] error
+[2024-05-22 12:44:10] WARNING root fetch - processPackages [apes-py]: Skipping, unable to determine old version
+[2024-05-22 12:44:10] INFO root fetch - main [MainThread]: End processing [apes-py] error
+[2024-05-22 12:44:10] INFO root fetch - processPackages [vnpy-datarecorder]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-05-22 12:44:10] INFO root fetch - processPackages [k8s]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-22 12:44:10] WARNING root fetch - processPackages [AAVT]: Skipping, unable to determine old version
+[2024-05-22 12:44:10] WARNING root fetch - processPackages [highlighting-atoms]: Skipping, unable to determine old version
+[2024-05-22 12:44:10] INFO root fetch - main [MainThread]: End processing [AAVT] error
+[2024-05-22 12:44:10] INFO root fetch - main [MainThread]: End processing [highlighting-atoms] error
+[2024-05-22 12:44:10] INFO root fetch - processPackages [vnpy-datarecorder]: Downloading https://files.pythonhosted.org/packages/d1/56/4a2f93d6abb3e78ded0dec6f68f95bbab453722c58f9dd36c6634d8bf981/vnpy_datarecorder-1.0.6.tar.gz
+[2024-05-22 12:44:10] INFO root fetch - processPackages [k8s]: Downloading https://files.pythonhosted.org/packages/f6/bd/7a14603192a3cb677b31da548f01036794698cfdd3d2209f719e0d23e138/k8s-0.8.0.tar.gz
+[2024-05-22 12:44:11] INFO root fetch - processPackages [vnpy-datarecorder]: Downloading https://files.pythonhosted.org/packages/0d/db/f9a35b41db1c3a5f077bece836194b88af216e6708a4f04a2ff02782ba03/vnpy_datarecorder-1.0.7.tar.gz
+[2024-05-22 12:44:11] INFO root fetch - processPackages [k8s]: Downloading https://files.pythonhosted.org/packages/22/6b/1fabdacf5dd8c7691b914a6e818c7f61af231545fe88942ba0ea5d42b2cc/k8s-0.9.0.tar.gz
+[2024-05-22 12:44:11] INFO root fetch - processPackages [vnpy-datarecorder]: executing diffoscope
+[2024-05-22 12:44:11] INFO root fetch - processPackages [vnpy-datarecorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_datarecorder-1.0.6.tar.gz tmp/vnpy_datarecorder-1.0.7.tar.gz --markdown 20240522/v/vnpy-datarecorder/1.0.6-1.0.7/README.md --exclude *.pyd
+[2024-05-22 12:44:11] INFO root fetch - processPackages [k8s]: executing diffoscope
+[2024-05-22 12:44:11] INFO root fetch - processPackages [k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k8s-0.8.0.tar.gz tmp/k8s-0.9.0.tar.gz --markdown 20240522/k/k8s/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-22 12:44:12] INFO root fetch - processPackages [vnpy-datarecorder]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_datarecorder-1.0.6.tar.gz]
+[2024-05-22 12:44:12] INFO root fetch - processPackages [vnpy-datarecorder]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_datarecorder-1.0.7.tar.gz]
+[2024-05-22 12:44:12] INFO root fetch - main [MainThread]: End processing [vnpy-datarecorder]: success
+[2024-05-22 12:44:12] INFO root fetch - processPackages [k8s]: Remove: archive file [/home/abi/fetcher/tmp/k8s-0.8.0.tar.gz]
+[2024-05-22 12:44:12] INFO root fetch - processPackages [k8s]: Remove: archive file [/home/abi/fetcher/tmp/k8s-0.9.0.tar.gz]
+[2024-05-22 12:44:12] INFO root fetch - main [MainThread]: End processing [k8s]: success
+[2024-05-22 12:44:12] INFO root fetch - main [MainThread]: Store serial: [23322634]

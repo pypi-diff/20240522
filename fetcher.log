@@ -10816,3 +10816,24 @@
 [2024-05-22 06:10:23] INFO root fetch - processPackages [pi-awning-webthing]: Remove: archive file [/home/abi/fetcher/tmp/pi_awning_webthing-0.3.0.tar.gz]
 [2024-05-22 06:10:23] INFO root fetch - main [MainThread]: End processing [pi-awning-webthing]: success
 [2024-05-22 06:10:23] INFO root fetch - main [MainThread]: Store serial: [23318603]
+[2024-05-22 06:12:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318603]
+[2024-05-22 06:12:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 06:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zuspec-parser
+[2024-05-22 06:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-fieldservice-account
+[2024-05-22 06:12:32] INFO root fetch - processPackages [odoo-addon-fieldservice-account]: New version: [17.0.1.0.0.5] Old Version: [17.0.1.0.0.4]
+[2024-05-22 06:12:32] INFO root fetch - processPackages [zuspec-parser]: New version: [0.0.1.9185186023] Old Version: [0.0.1.8963196983]
+[2024-05-22 06:12:32] INFO root fetch - processPackages [odoo-addon-fieldservice-account]: Downloading https://files.pythonhosted.org/packages/ba/b6/ee06fcc7ef34a447a335ac79f7df949fb09d8b53ba5f4b104a09ca2aa5a6/odoo_addon_fieldservice_account-17.0.1.0.0.4-py3-none-any.whl
+[2024-05-22 06:12:32] INFO root fetch - processPackages [zuspec-parser]: Downloading https://files.pythonhosted.org/packages/a0/e0/b7539db16ba028c1f1dcd62aa9006ac020e2341d3d5a868571b626754ef9/zuspec_parser-0.0.1.8963196983-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-22 06:12:32] INFO root fetch - processPackages [odoo-addon-fieldservice-account]: Downloading https://files.pythonhosted.org/packages/cb/67/84299bab56f112df381bfc895b3b97fe847d41ec8a7583e9bfa3e1409ad4/odoo_addon_fieldservice_account-17.0.1.0.0.5-py3-none-any.whl
+[2024-05-22 06:12:32] INFO root fetch - processPackages [odoo-addon-fieldservice-account]: executing diffoscope
+[2024-05-22 06:12:32] INFO root fetch - processPackages [odoo-addon-fieldservice-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_account-17.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_account-17.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-fieldservice-account/17.0.1.0.0.4-17.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-22 06:12:33] INFO root fetch - processPackages [odoo-addon-fieldservice-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_account-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-22 06:12:33] INFO root fetch - processPackages [odoo-addon-fieldservice-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_account-17.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-22 06:12:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-account]: success
+[2024-05-22 06:12:33] INFO root fetch - processPackages [zuspec-parser]: Downloading https://files.pythonhosted.org/packages/d8/70/b7e844dcfa3f8fdabdff1718bb13a44d226004fd857cb969baca70ab57eb/zuspec_parser-0.0.1.9185186023-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-22 06:12:35] INFO root fetch - processPackages [zuspec-parser]: executing diffoscope
+[2024-05-22 06:12:35] INFO root fetch - processPackages [zuspec-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuspec_parser-0.0.1.8963196983-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/zuspec_parser-0.0.1.9185186023-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240522/z/zuspec-parser/0.0.1.8963196983-0.0.1.9185186023/README.md --exclude *.pyd
+[2024-05-22 06:14:45] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.8963196983-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-22 06:14:45] INFO root fetch - processPackages [zuspec-parser]: Remove: archive file [/home/abi/fetcher/tmp/zuspec_parser-0.0.1.9185186023-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-05-22 06:14:45] INFO root fetch - main [MainThread]: End processing [zuspec-parser]: success
+[2024-05-22 06:14:45] INFO root fetch - main [MainThread]: Store serial: [23318611]

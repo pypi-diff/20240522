@@ -8019,3 +8019,33 @@
 [2024-05-22 04:01:17] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.6.dev4.tar.gz]
 [2024-05-22 04:01:17] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
 [2024-05-22 04:01:17] INFO root fetch - main [MainThread]: Store serial: [23317393]
+[2024-05-22 04:03:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317393]
+[2024-05-22 04:03:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 04:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: colorcompass
+[2024-05-22 04:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yoto-api
+[2024-05-22 04:03:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chaiverse
+[2024-05-22 04:03:26] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-22 04:03:26] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-22 04:03:26] INFO root fetch - processPackages [colorcompass]: New version: [1.2.3] Old Version: [1.2.1]
+[2024-05-22 04:03:26] INFO root fetch - processPackages [chaiverse]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-22 04:03:26] INFO root fetch - processPackages [colorcompass]: Downloading https://files.pythonhosted.org/packages/98/19/32e062bab3880cccdd001a8cb97ccf6e5bd8ceaa47e29fdf79410b2011a7/colorcompass-1.2.1.tar.gz
+[2024-05-22 04:03:26] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-22 04:03:26] INFO root fetch - processPackages [chaiverse]: Downloading https://files.pythonhosted.org/packages/40/8f/0c28b09c5b933f63a5e9e2b50a3e8a06a87151afc8e162b2c09deedc4bf0/chaiverse-1.9.8.tar.gz
+[2024-05-22 04:03:27] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-22 04:03:27] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240522/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-22 04:03:27] INFO root fetch - processPackages [colorcompass]: Downloading https://files.pythonhosted.org/packages/7e/a5/f26ceb34e51a81c9738f4ff4ec37cf639244467753bf6831404d365615b8/colorcompass-1.2.3.tar.gz
+[2024-05-22 04:03:27] INFO root fetch - processPackages [chaiverse]: Downloading https://files.pythonhosted.org/packages/4c/ed/6d3e89ab870b31d2281b7595f6030d767109316508a89f1d6178491348cd/chaiverse-1.9.9.tar.gz
+[2024-05-22 04:03:27] INFO root fetch - processPackages [chaiverse]: executing diffoscope
+[2024-05-22 04:03:27] INFO root fetch - processPackages [chaiverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaiverse-1.9.8.tar.gz tmp/chaiverse-1.9.9.tar.gz --markdown 20240522/c/chaiverse/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-22 04:03:27] INFO root fetch - processPackages [colorcompass]: executing diffoscope
+[2024-05-22 04:03:27] INFO root fetch - processPackages [colorcompass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colorcompass-1.2.1.tar.gz tmp/colorcompass-1.2.3.tar.gz --markdown 20240522/c/colorcompass/1.2.1-1.2.3/README.md --exclude *.pyd
+[2024-05-22 04:03:27] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-22 04:03:27] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-22 04:03:27] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-22 04:03:27] INFO root fetch - processPackages [chaiverse]: Remove: archive file [/home/abi/fetcher/tmp/chaiverse-1.9.8.tar.gz]
+[2024-05-22 04:03:27] INFO root fetch - processPackages [chaiverse]: Remove: archive file [/home/abi/fetcher/tmp/chaiverse-1.9.9.tar.gz]
+[2024-05-22 04:03:27] INFO root fetch - main [MainThread]: End processing [chaiverse]: success
+[2024-05-22 04:03:28] INFO root fetch - processPackages [colorcompass]: Remove: archive file [/home/abi/fetcher/tmp/colorcompass-1.2.1.tar.gz]
+[2024-05-22 04:03:28] INFO root fetch - processPackages [colorcompass]: Remove: archive file [/home/abi/fetcher/tmp/colorcompass-1.2.3.tar.gz]
+[2024-05-22 04:03:28] INFO root fetch - main [MainThread]: End processing [colorcompass]: success
+[2024-05-22 04:03:28] INFO root fetch - main [MainThread]: Store serial: [23317401]

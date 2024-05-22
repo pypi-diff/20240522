@@ -9888,3 +9888,63 @@
 [2024-05-22 05:22:07] INFO root fetch - processPackages [PFlowC]: Remove: archive file [/home/abi/fetcher/tmp/PFlowC-2.4.0.tar.gz]
 [2024-05-22 05:22:07] INFO root fetch - main [MainThread]: End processing [PFlowC]: success
 [2024-05-22 05:22:07] INFO root fetch - main [MainThread]: Store serial: [23318213]
+[2024-05-22 05:24:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318213]
+[2024-05-22 05:24:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 05:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nightly
+[2024-05-22 05:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pychassiscli
+[2024-05-22 05:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alamos
+[2024-05-22 05:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: internal-rdbms
+[2024-05-22 05:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: synnax-freighter
+[2024-05-22 05:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: diveharderapi
+[2024-05-22 05:24:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: synnax
+[2024-05-22 05:24:17] INFO root fetch - processPackages [internal-rdbms]: New version: [0.1.1] Old Version: [0.1.0a0]
+[2024-05-22 05:24:17] INFO root fetch - processPackages [synnax-freighter]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-22 05:24:17] INFO root fetch - processPackages [alamos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-22 05:24:17] INFO root fetch - processPackages [synnax]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-22 05:24:17] INFO root fetch - processPackages [keras-nightly]: New version: [3.3.3.dev2024052103] Old Version: [3.3.3.dev2024052003]
+[2024-05-22 05:24:17] INFO root fetch - processPackages [pychassiscli]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-05-22 05:24:17] WARNING root fetch - processPackages [diveharderapi]: Skipping, unable to determine old version
+[2024-05-22 05:24:17] INFO root fetch - main [MainThread]: End processing [diveharderapi] error
+[2024-05-22 05:24:17] INFO root fetch - processPackages [internal-rdbms]: Downloading https://files.pythonhosted.org/packages/09/fd/64e594e1ed4631e0657a00a507f2e6cf70c864cf664a9f23d38e1534ab80/internal_rdbms-0.1.0a0.tar.gz
+[2024-05-22 05:24:17] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/73/49/ce9ba5821f001d820fe348eef14ea631c0d54f20289c0aa2458ec4b14c23/synnax_freighter-0.7.8.tar.gz
+[2024-05-22 05:24:17] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c5/2b/b12c4308c7fb396e018ffbe6ec0f046170906ae98b188985b537619e0f55/alamos-0.3.8.tar.gz
+[2024-05-22 05:24:17] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/89/a1/f0d76d0706e47ba3dcdbf0fe8c7b2e90c98bd073d40a3c4c7c1c1025aab8/synnax-0.8.0.tar.gz
+[2024-05-22 05:24:17] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/c0/fd/4b40cc8a1a83eaaceae1e4f7d1c480de9fdcf31d66a498d39f0237d2ded9/keras_nightly-3.3.3.dev2024052003.tar.gz
+[2024-05-22 05:24:17] INFO root fetch - processPackages [pychassiscli]: Downloading https://files.pythonhosted.org/packages/66/50/4651e55c1fb91e44cf9f259bb598e434c11cc0da55c99da6d85c69543f0e/pychassiscli-0.4.1.tar.gz
+[2024-05-22 05:24:17] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/fa/ba/9098a994969c4ac9fa5a1d947ac5ede1ea8e8cf5d2b40c82db732fd56bad/synnax_freighter-0.7.9.tar.gz
+[2024-05-22 05:24:17] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c1/08/cf40db715e810dc50be82dd822b41aefe7a4903f73ac57533c85bc63cf9d/alamos-0.3.9.tar.gz
+[2024-05-22 05:24:17] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/b3/bc/76e9b03b96c7ab72f4b39e5e03c396b86efd6fb650bedcff8a7118679e9b/synnax-0.9.0.tar.gz
+[2024-05-22 05:24:17] INFO root fetch - processPackages [internal-rdbms]: Downloading https://files.pythonhosted.org/packages/43/77/db319c788963480c3e7711784ac5e817fb9dbf6a75711c4f9f8f97d08c1b/internal_rdbms-0.1.1.tar.gz
+[2024-05-22 05:24:17] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-05-22 05:24:17] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.7.8.tar.gz tmp/synnax_freighter-0.7.9.tar.gz --markdown 20240522/s/synnax-freighter/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-22 05:24:17] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-05-22 05:24:17] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.8.tar.gz tmp/alamos-0.3.9.tar.gz --markdown 20240522/a/alamos/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-22 05:24:17] INFO root fetch - processPackages [synnax]: executing diffoscope
+[2024-05-22 05:24:17] INFO root fetch - processPackages [synnax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax-0.8.0.tar.gz tmp/synnax-0.9.0.tar.gz --markdown 20240522/s/synnax/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-22 05:24:17] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/5a/60/1fd15f37e11253c7ad1128722b5330fd3daf8f23353b391612c279d08c45/keras_nightly-3.3.3.dev2024052103.tar.gz
+[2024-05-22 05:24:17] INFO root fetch - processPackages [internal-rdbms]: executing diffoscope
+[2024-05-22 05:24:17] INFO root fetch - processPackages [internal-rdbms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/internal_rdbms-0.1.0a0.tar.gz tmp/internal_rdbms-0.1.1.tar.gz --markdown 20240522/i/internal-rdbms/0.1.0a0-0.1.1/README.md --exclude *.pyd
+[2024-05-22 05:24:17] INFO root fetch - processPackages [pychassiscli]: Downloading https://files.pythonhosted.org/packages/7b/f7/4374508a9693b8aba7da8b963229e69145832df6ee727321c16703735835/pychassiscli-0.4.2.tar.gz
+[2024-05-22 05:24:17] INFO root fetch - processPackages [pychassiscli]: executing diffoscope
+[2024-05-22 05:24:17] INFO root fetch - processPackages [pychassiscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pychassiscli-0.4.1.tar.gz tmp/pychassiscli-0.4.2.tar.gz --markdown 20240522/p/pychassiscli/0.4.1-0.4.2/README.md --exclude *.pyd
+[2024-05-22 05:24:17] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-05-22 05:24:17] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras_nightly-3.3.3.dev2024052003.tar.gz tmp/keras_nightly-3.3.3.dev2024052103.tar.gz --markdown 20240522/k/keras-nightly/3.3.3.dev2024052003-3.3.3.dev2024052103/README.md --exclude *.pyd
+[2024-05-22 05:24:18] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.8.tar.gz]
+[2024-05-22 05:24:18] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
+[2024-05-22 05:24:18] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-05-22 05:24:18] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.8.tar.gz]
+[2024-05-22 05:24:18] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.9.tar.gz]
+[2024-05-22 05:24:18] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-05-22 05:24:18] INFO root fetch - processPackages [internal-rdbms]: Remove: archive file [/home/abi/fetcher/tmp/internal_rdbms-0.1.0a0.tar.gz]
+[2024-05-22 05:24:18] INFO root fetch - processPackages [internal-rdbms]: Remove: archive file [/home/abi/fetcher/tmp/internal_rdbms-0.1.1.tar.gz]
+[2024-05-22 05:24:18] INFO root fetch - main [MainThread]: End processing [internal-rdbms]: success
+[2024-05-22 05:24:18] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.8.0.tar.gz]
+[2024-05-22 05:24:18] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
+[2024-05-22 05:24:18] INFO root fetch - main [MainThread]: End processing [synnax]: success
+[2024-05-22 05:24:18] INFO root fetch - processPackages [pychassiscli]: Remove: archive file [/home/abi/fetcher/tmp/pychassiscli-0.4.1.tar.gz]
+[2024-05-22 05:24:18] INFO root fetch - processPackages [pychassiscli]: Remove: archive file [/home/abi/fetcher/tmp/pychassiscli-0.4.2.tar.gz]
+[2024-05-22 05:24:18] INFO root fetch - main [MainThread]: End processing [pychassiscli]: success
+[2024-05-22 05:24:20] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024052003.tar.gz]
+[2024-05-22 05:24:20] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-3.3.3.dev2024052103.tar.gz]
+[2024-05-22 05:24:20] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-05-22 05:24:20] INFO root fetch - main [MainThread]: Store serial: [23318236]

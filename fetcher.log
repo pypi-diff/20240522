@@ -17695,3 +17695,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:15:55] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240522051705.tar.gz]
 [2024-05-22 11:15:55] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-22 11:15:55] INFO root fetch - main [MainThread]: Store serial: [23321505]
+[2024-05-22 11:17:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321505]
+[2024-05-22 11:18:04] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-22 11:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nomad-tools
+[2024-05-22 11:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funcs-aux
+[2024-05-22 11:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fairbalance
+[2024-05-22 11:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: packInst
+[2024-05-22 11:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vbpy
+[2024-05-22 11:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AlekSIS-Core
+[2024-05-22 11:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finch-tensor
+[2024-05-22 11:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ansys-api-meshing-prime
+[2024-05-22 11:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zcbot-shop-parser
+[2024-05-22 11:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: danila-lib
+[2024-05-22 11:18:04] INFO root fetch - processPackages [fairbalance]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-22 11:18:04] INFO root fetch - processPackages [vbpy]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-05-22 11:18:04] INFO root fetch - processPackages [zcbot-shop-parser]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-22 11:18:04] INFO root fetch - processPackages [ansys-api-meshing-prime]: New version: [0.1.2.dev1] Old Version: [0.1.2.dev0]
+[2024-05-22 11:18:04] INFO root fetch - processPackages [danila-lib]: New version: [1.7.1] Old Version: [1.7.0]
+[2024-05-22 11:18:04] WARNING root fetch - processPackages [packInst]: Skipping, unable to determine old version
+[2024-05-22 11:18:04] INFO root fetch - processPackages [packInst]: Start processing: cfl-common
+[2024-05-22 11:18:04] INFO root fetch - main [MainThread]: End processing [packInst] error
+[2024-05-22 11:18:04] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/eb/13/910d7c095435215b60f4c8fe52db1359cb49bd7d224569d9c8e5cbb927a5/vbpy-2.1.2.tar.gz
+[2024-05-22 11:18:04] INFO root fetch - processPackages [finch-tensor]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 11:18:04] INFO root fetch - processPackages [funcs-aux]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-22 11:18:04] INFO root fetch - processPackages [nomad-tools]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-22 11:18:04] INFO root fetch - processPackages [AlekSIS-Core]: New version: [4.0.0.dev9] Old Version: [4.0.0.dev8]
+[2024-05-22 11:18:04] INFO root fetch - processPackages [fairbalance]: Downloading https://files.pythonhosted.org/packages/1a/66/08a0f156581559e98564173f4fc91ce97918d1111f40d4c99689d170bac4/fairbalance-0.1.3.tar.gz
+[2024-05-22 11:18:04] INFO root fetch - processPackages [zcbot-shop-parser]: Downloading https://files.pythonhosted.org/packages/13/20/dd8ddf9a92c525b8df4d5515c59d468a2122ff3874ff161312bb5d018ea6/zcbot-shop-parser-1.0.7.tar.gz
+[2024-05-22 11:18:04] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/4c/48/e58f6ef77fd820bb4e6f4aa0494b791d10722f3edad2a261d88dc6bd6c1c/danila-lib-1.7.0.tar.gz
+[2024-05-22 11:18:04] INFO root fetch - processPackages [ansys-api-meshing-prime]: Downloading https://files.pythonhosted.org/packages/bd/1f/94b17ab3428c6127139ef908b7a131d0e6ba87fd4a66d06a37c9a1078199/ansys-api-meshing-prime-0.1.2.dev0.tar.gz
+[2024-05-22 11:18:04] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2024-05-22 11:18:05] INFO root fetch - processPackages [finch-tensor]: Downloading https://files.pythonhosted.org/packages/a5/82/efef881b97762b0b5e32321a21e64063e76ef0ef1ee2a2b5d8741aa88ac3/finch_tensor-0.1.8.tar.gz
+[2024-05-22 11:18:05] INFO root fetch - processPackages [nomad-tools]: Downloading https://files.pythonhosted.org/packages/9a/37/88212fd9e271eb1a11b36d42bfb21cd0839de24f2dd3a1c2daca65f7a7b5/nomad_tools-0.3.1.tar.gz
+[2024-05-22 11:18:05] INFO root fetch - processPackages [funcs-aux]: Downloading https://files.pythonhosted.org/packages/19/d7/4a1b7afc26662aa08c7801a10d1177d226fbe3450fe12b3abd27180def0c/funcs_aux-0.2.0.tar.gz
+[2024-05-22 11:18:05] INFO root fetch - processPackages [AlekSIS-Core]: Downloading https://files.pythonhosted.org/packages/c4/ca/26b5f3f81cd7c872d1a578d1d62ed66a82d66b9c2c1c8e568a5bb5b72756/aleksis_core-4.0.0.dev8.tar.gz
+[2024-05-22 11:18:05] INFO root fetch - processPackages [zcbot-shop-parser]: Downloading https://files.pythonhosted.org/packages/0f/56/4b089df81ec3a5d307a6542661ff4196ea94cd8c5a4572a1da95a6484d83/zcbot-shop-parser-1.0.8.tar.gz
+[2024-05-22 11:18:05] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/66/fc/c4a0615ef7e35de108150d27cad2657f4fb9864e9321907b7d73608c515c/vbpy-2.1.3.tar.gz
+[2024-05-22 11:18:05] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/39/0c/ab055a3d77f3c24c39b7455ba3358c91d1217de2dde396545a2eebda525e/cfl-common-6.8.9.tar.gz
+[2024-05-22 11:18:05] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/3e/02/00e2e9296d6098abac8bbdbf5216fb8790a7fd59439f9a67f2e5fe3e6a12/danila-lib-1.7.1.tar.gz
+[2024-05-22 11:18:05] INFO root fetch - processPackages [fairbalance]: Downloading https://files.pythonhosted.org/packages/6c/8a/084f164cee5ab9db44bbcbc4b3d4682bee003125f9e20fd91741bbd7432c/fairbalance-0.1.4.tar.gz
+[2024-05-22 11:18:05] INFO root fetch - processPackages [zcbot-shop-parser]: executing diffoscope
+[2024-05-22 11:18:05] INFO root fetch - processPackages [zcbot-shop-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zcbot-shop-parser-1.0.7.tar.gz tmp/zcbot-shop-parser-1.0.8.tar.gz --markdown 20240522/z/zcbot-shop-parser/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-22 11:18:05] INFO root fetch - processPackages [ansys-api-meshing-prime]: Downloading https://files.pythonhosted.org/packages/4c/14/c390962b46f99539d2a721a58ec4a70c9dd78fcbdf64280b63890cfefd49/ansys-api-meshing-prime-0.1.2.dev1.tar.gz
+[2024-05-22 11:18:05] INFO root fetch - processPackages [vbpy]: executing diffoscope
+[2024-05-22 11:18:05] INFO root fetch - processPackages [vbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpy-2.1.2.tar.gz tmp/vbpy-2.1.3.tar.gz --markdown 20240522/v/vbpy/2.1.2-2.1.3/README.md --exclude *.pyd
+[2024-05-22 11:18:05] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-22 11:18:05] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.7.0.tar.gz tmp/danila-lib-1.7.1.tar.gz --markdown 20240522/d/danila-lib/1.7.0-1.7.1/README.md --exclude *.pyd
+[2024-05-22 11:18:05] INFO root fetch - processPackages [fairbalance]: executing diffoscope
+[2024-05-22 11:18:05] INFO root fetch - processPackages [fairbalance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fairbalance-0.1.3.tar.gz tmp/fairbalance-0.1.4.tar.gz --markdown 20240522/f/fairbalance/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-22 11:18:05] INFO root fetch - processPackages [funcs-aux]: Downloading https://files.pythonhosted.org/packages/e9/cf/449bb9aff733efd0583ae683e5c883a7788c65384bee1c65a597fb41e2f1/funcs_aux-0.2.1.tar.gz
+[2024-05-22 11:18:05] INFO root fetch - processPackages [ansys-api-meshing-prime]: executing diffoscope
+[2024-05-22 11:18:05] INFO root fetch - processPackages [ansys-api-meshing-prime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-api-meshing-prime-0.1.2.dev0.tar.gz tmp/ansys-api-meshing-prime-0.1.2.dev1.tar.gz --markdown 20240522/a/ansys-api-meshing-prime/0.1.2.dev0-0.1.2.dev1/README.md --exclude *.pyd
+[2024-05-22 11:18:05] INFO root fetch - processPackages [nomad-tools]: Downloading https://files.pythonhosted.org/packages/22/ae/819b6983b60677d2e2c01a9565876599999ee472fc714a3205b16992cd8e/nomad_tools-0.3.2.tar.gz
+[2024-05-22 11:18:05] INFO root fetch - processPackages [finch-tensor]: Downloading https://files.pythonhosted.org/packages/a5/31/266166b70a1683a8f5cfb91db4b1c2df4edda648ff5e60e26f6a79710cb5/finch_tensor-0.1.9.tar.gz
+[2024-05-22 11:18:05] INFO root fetch - processPackages [funcs-aux]: executing diffoscope
+[2024-05-22 11:18:05] INFO root fetch - processPackages [funcs-aux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcs_aux-0.2.0.tar.gz tmp/funcs_aux-0.2.1.tar.gz --markdown 20240522/f/funcs-aux/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-22 11:18:05] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/05/c2/911736fd9caff48e395c4b7643549153b78727af673a7f2ac84e0b673c45/cfl-common-6.9.0.tar.gz
+[2024-05-22 11:18:05] INFO root fetch - processPackages [AlekSIS-Core]: Downloading https://files.pythonhosted.org/packages/5c/f1/a530374efde8eca1c1d30f36ceb0232792063acdb8a4c8a2ccb72b7dea7c/aleksis_core-4.0.0.dev9.tar.gz
+[2024-05-22 11:18:05] INFO root fetch - processPackages [finch-tensor]: executing diffoscope
+[2024-05-22 11:18:05] INFO root fetch - processPackages [finch-tensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finch_tensor-0.1.8.tar.gz tmp/finch_tensor-0.1.9.tar.gz --markdown 20240522/f/finch-tensor/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 11:18:05] INFO root fetch - processPackages [nomad-tools]: executing diffoscope
+[2024-05-22 11:18:05] INFO root fetch - processPackages [nomad-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomad_tools-0.3.1.tar.gz tmp/nomad_tools-0.3.2.tar.gz --markdown 20240522/n/nomad-tools/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-22 11:18:05] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2024-05-22 11:18:05] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20240522/c/cfl-common/6.8.9-6.9.0/README.md --exclude *.pyd
+[2024-05-22 11:18:06] INFO root fetch - processPackages [AlekSIS-Core]: executing diffoscope
+[2024-05-22 11:18:06] INFO root fetch - processPackages [AlekSIS-Core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis_core-4.0.0.dev8.tar.gz tmp/aleksis_core-4.0.0.dev9.tar.gz --markdown 20240522/A/AlekSIS-Core/4.0.0.dev8-4.0.0.dev9/README.md --exclude *.pyd
+[2024-05-22 11:18:06] INFO root fetch - processPackages [zcbot-shop-parser]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-shop-parser-1.0.7.tar.gz]
+[2024-05-22 11:18:06] INFO root fetch - processPackages [zcbot-shop-parser]: Remove: archive file [/home/abi/fetcher/tmp/zcbot-shop-parser-1.0.8.tar.gz]
+[2024-05-22 11:18:06] INFO root fetch - processPackages [zcbot-shop-parser]: Start processing: gando
+[2024-05-22 11:18:06] INFO root fetch - main [MainThread]: End processing [zcbot-shop-parser]: success
+[2024-05-22 11:18:06] INFO root fetch - processPackages [gando]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-05-22 11:18:06] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.1.2.tar.gz]
+[2024-05-22 11:18:06] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.1.3.tar.gz]
+[2024-05-22 11:18:06] INFO root fetch - main [MainThread]: End processing [vbpy]: success
+[2024-05-22 11:18:06] INFO root fetch - processPackages [gando]: Downloading https://files.pythonhosted.org/packages/5f/ad/9ce3a6ba3c5faf8984d231b1d4e350dc99ef5decdc96e34bfe1ccc8ba490/gando-0.9.7.tar.gz
+[2024-05-22 11:18:06] INFO root fetch - processPackages [fairbalance]: Remove: archive file [/home/abi/fetcher/tmp/fairbalance-0.1.3.tar.gz]
+[2024-05-22 11:18:06] INFO root fetch - processPackages [fairbalance]: Remove: archive file [/home/abi/fetcher/tmp/fairbalance-0.1.4.tar.gz]
+[2024-05-22 11:18:06] INFO root fetch - main [MainThread]: End processing [fairbalance]: success
+[2024-05-22 11:18:06] INFO root fetch - processPackages [funcs-aux]: Remove: archive file [/home/abi/fetcher/tmp/funcs_aux-0.2.0.tar.gz]
+[2024-05-22 11:18:06] INFO root fetch - processPackages [funcs-aux]: Remove: archive file [/home/abi/fetcher/tmp/funcs_aux-0.2.1.tar.gz]
+[2024-05-22 11:18:06] INFO root fetch - main [MainThread]: End processing [funcs-aux]: success
+[2024-05-22 11:18:06] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.7.0.tar.gz]
+[2024-05-22 11:18:06] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.7.1.tar.gz]
+[2024-05-22 11:18:06] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-22 11:18:06] INFO root fetch - processPackages [ansys-api-meshing-prime]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-meshing-prime-0.1.2.dev0.tar.gz]
+[2024-05-22 11:18:06] INFO root fetch - processPackages [ansys-api-meshing-prime]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-meshing-prime-0.1.2.dev1.tar.gz]
+[2024-05-22 11:18:06] INFO root fetch - main [MainThread]: End processing [ansys-api-meshing-prime]: success
+[2024-05-22 11:18:06] INFO root fetch - processPackages [gando]: Downloading https://files.pythonhosted.org/packages/55/b4/3eacdbfcda93734a9bbee501af687c86bfb442a8f0f000f752e95377527e/gando-0.9.8.tar.gz
+[2024-05-22 11:18:06] INFO root fetch - processPackages [gando]: executing diffoscope
+[2024-05-22 11:18:06] INFO root fetch - processPackages [gando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gando-0.9.7.tar.gz tmp/gando-0.9.8.tar.gz --markdown 20240522/g/gando/0.9.7-0.9.8/README.md --exclude *.pyd
+[2024-05-22 11:18:06] INFO root fetch - processPackages [finch-tensor]: Remove: archive file [/home/abi/fetcher/tmp/finch_tensor-0.1.8.tar.gz]
+[2024-05-22 11:18:06] INFO root fetch - processPackages [finch-tensor]: Remove: archive file [/home/abi/fetcher/tmp/finch_tensor-0.1.9.tar.gz]
+[2024-05-22 11:18:06] INFO root fetch - main [MainThread]: End processing [finch-tensor]: success
+[2024-05-22 11:18:07] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.8.9.tar.gz]
+[2024-05-22 11:18:07] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.9.0.tar.gz]
+[2024-05-22 11:18:07] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2024-05-22 11:18:07] INFO root fetch - processPackages [nomad-tools]: Remove: archive file [/home/abi/fetcher/tmp/nomad_tools-0.3.1.tar.gz]
+[2024-05-22 11:18:07] INFO root fetch - processPackages [nomad-tools]: Remove: archive file [/home/abi/fetcher/tmp/nomad_tools-0.3.2.tar.gz]
+[2024-05-22 11:18:07] INFO root fetch - main [MainThread]: End processing [nomad-tools]: success
+[2024-05-22 11:18:07] INFO root fetch - processPackages [gando]: Remove: archive file [/home/abi/fetcher/tmp/gando-0.9.7.tar.gz]
+[2024-05-22 11:18:07] INFO root fetch - processPackages [gando]: Remove: archive file [/home/abi/fetcher/tmp/gando-0.9.8.tar.gz]
+[2024-05-22 11:18:07] INFO root fetch - main [MainThread]: End processing [gando]: success
+[2024-05-22 11:18:09] INFO root fetch - processPackages [AlekSIS-Core]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_core-4.0.0.dev8.tar.gz]
+[2024-05-22 11:18:09] INFO root fetch - processPackages [AlekSIS-Core]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_core-4.0.0.dev9.tar.gz]
+[2024-05-22 11:18:09] INFO root fetch - main [MainThread]: End processing [AlekSIS-Core]: success
+[2024-05-22 11:18:09] INFO root fetch - main [MainThread]: Store serial: [23321544]

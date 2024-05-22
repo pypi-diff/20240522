@@ -22868,3 +22868,136 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 14:29:18] INFO root fetch - processPackages [yoctools]: Remove: archive file [/home/abi/fetcher/tmp/yoctools-2.0.9.tar.gz]
 [2024-05-22 14:29:18] INFO root fetch - main [MainThread]: End processing [yoctools]: success
 [2024-05-22 14:29:18] INFO root fetch - main [MainThread]: Store serial: [23323902]
+[2024-05-22 14:31:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323902]
+[2024-05-22 14:31:43] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-05-22 14:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fengwo
+[2024-05-22 14:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cloudnetpy
+[2024-05-22 14:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langwatch
+[2024-05-22 14:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: highlighting-atoms
+[2024-05-22 14:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xray-disease-detector
+[2024-05-22 14:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: DendroPy
+[2024-05-22 14:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipyanimlab
+[2024-05-22 14:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pybangla
+[2024-05-22 14:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cvat_sdk_i_digit
+[2024-05-22 14:31:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-magicauth
+[2024-05-22 14:31:43] WARNING root fetch - processPackages [highlighting-atoms]: Skipping, unable to determine old version
+[2024-05-22 14:31:43] INFO root fetch - processPackages [highlighting-atoms]: Start processing: therix
+[2024-05-22 14:31:43] INFO root fetch - main [MainThread]: End processing [highlighting-atoms] error
+[2024-05-22 14:31:43] WARNING root fetch - processPackages [xray-disease-detector]: Skipping, unable to determine old version
+[2024-05-22 14:31:43] INFO root fetch - processPackages [xray-disease-detector]: Start processing: udi-interface
+[2024-05-22 14:31:43] INFO root fetch - main [MainThread]: End processing [xray-disease-detector] error
+[2024-05-22 14:31:43] INFO root fetch - processPackages [pybangla]: New version: [1.3.3] Old Version: [1.3.2.dev0]
+[2024-05-22 14:31:43] INFO root fetch - processPackages [django-magicauth]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-05-22 14:31:43] INFO root fetch - processPackages [fengwo]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-22 14:31:43] INFO root fetch - processPackages [DendroPy]: New version: [4.6.3] Old Version: [4.6.1]
+[2024-05-22 14:31:43] WARNING root fetch - processPackages [ipyanimlab]: Skipping, unable to determine old version
+[2024-05-22 14:31:43] WARNING root fetch - processPackages [cvat_sdk_i_digit]: Skipping, unable to determine old version
+[2024-05-22 14:31:43] INFO root fetch - processPackages [ipyanimlab]: Start processing: edx-django-utils
+[2024-05-22 14:31:43] INFO root fetch - main [MainThread]: End processing [ipyanimlab] error
+[2024-05-22 14:31:43] INFO root fetch - processPackages [cvat_sdk_i_digit]: Start processing: prophecy-build-tool
+[2024-05-22 14:31:43] INFO root fetch - processPackages [langwatch]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 14:31:43] INFO root fetch - main [MainThread]: End processing [cvat_sdk_i_digit] error
+[2024-05-22 14:31:43] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2024-05-22 14:31:43] INFO root fetch - processPackages [therix]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 14:31:43] INFO root fetch - processPackages [prophecy-build-tool]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-22 14:31:43] INFO root fetch - processPackages [edx-django-utils]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-05-22 14:31:43] INFO root fetch - processPackages [udi-interface]: New version: [3.3.6] Old Version: [3.3.5]
+[2024-05-22 14:31:43] INFO root fetch - processPackages [django-magicauth]: Downloading https://files.pythonhosted.org/packages/d8/f9/10ca535da8115b5b6c9a038b05f436f751e73cbddccc31cf540862b1d4a5/django-magicauth-1.0.1.tar.gz
+[2024-05-22 14:31:43] INFO root fetch - processPackages [pybangla]: Downloading https://files.pythonhosted.org/packages/c8/00/06ac084614e31d0ada1cb790880d1ef6eaa4598614a19c88d781282da801/pybangla-1.3.2.dev0.tar.gz
+[2024-05-22 14:31:43] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/31/f0/ed4aa0a70a6fd06211faed01254c9ddbfa86f70a2dd8665718c9fde9a3f6/prophecy-build-tool-1.2.8.tar.gz
+[2024-05-22 14:31:43] INFO root fetch - processPackages [fengwo]: Downloading https://files.pythonhosted.org/packages/2b/18/f6e1785713aea78be181713ca52b2b6c1e2e291f18ca332e5e0780018ea8/fengwo-0.0.1-cp39-none-win_amd64.whl
+[2024-05-22 14:31:43] INFO root fetch - processPackages [langwatch]: Downloading https://files.pythonhosted.org/packages/5a/e9/3864799ca400b5ae11962a267077e41212e295457c88da2b48a58594d35b/langwatch-0.0.8.tar.gz
+[2024-05-22 14:31:43] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/f1/a8/4a3271dbe063ea17246d65ba9739ec10c81f4c3477759aa094dcb71d3ffd/therix-0.1.8.tar.gz
+[2024-05-22 14:31:43] INFO root fetch - processPackages [DendroPy]: Downloading https://files.pythonhosted.org/packages/35/fc/0ff301d0f2484b61f2cc46cfd7649c530cad6313c7f7a695f8cabff8a061/DendroPy-4.6.1.tar.gz
+[2024-05-22 14:31:43] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2024-05-22 14:31:43] INFO root fetch - processPackages [udi-interface]: Downloading https://files.pythonhosted.org/packages/1c/c1/8c373f9e542715b0da2a66fc7cd82a6142f1d87b69f026948bf94ad51e94/udi_interface-3.3.5.tar.gz
+[2024-05-22 14:31:43] WARNING root fetch - processPackages [DendroPy]: Skipping package: exceeds size limit 15200462>=10485760
+[2024-05-22 14:31:43] INFO root fetch - processPackages [DendroPy]: Start processing: django-apis
+[2024-05-22 14:31:43] INFO root fetch - main [MainThread]: End processing [DendroPy] error
+[2024-05-22 14:31:43] INFO root fetch - processPackages [edx-django-utils]: Downloading https://files.pythonhosted.org/packages/a2/05/7daf2b6d7549c4a2eae51102f31f8f33e74ce076655eb76e8624ea981284/edx-django-utils-5.8.0.tar.gz
+[2024-05-22 14:31:44] INFO root fetch - processPackages [prophecy-build-tool]: Downloading https://files.pythonhosted.org/packages/6e/8b/758d03240b291c40dbffda699fd64edadca124a085daf5f71250b010298b/prophecy-build-tool-1.2.9.tar.gz
+[2024-05-22 14:31:44] INFO root fetch - processPackages [django-magicauth]: Downloading https://files.pythonhosted.org/packages/dc/f1/a2a89ba5fa536bf93b30017e36be32d642124e946ae6310da4ad89388852/django-magicauth-1.0.2.tar.gz
+[2024-05-22 14:31:44] INFO root fetch - processPackages [django-apis]: New version: [0.1.4] Old Version: [0.1.1]
+[2024-05-22 14:31:44] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2024-05-22 14:31:44] INFO root fetch - processPackages [cloudnetpy]: Start processing: rul_datasets
+[2024-05-22 14:31:44] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2024-05-22 14:31:44] INFO root fetch - processPackages [pybangla]: Downloading https://files.pythonhosted.org/packages/5d/86/fec9065e0978a5fcbee566fa956eff79c53897c7a69d0fcae5d43682d8a2/pybangla-1.3.3.tar.gz
+[2024-05-22 14:31:44] INFO root fetch - processPackages [langwatch]: Downloading https://files.pythonhosted.org/packages/ca/d2/7dba8299d65257fe500a9d804ac2a4a507381a01516d584c45950754b775/langwatch-0.0.9.tar.gz
+[2024-05-22 14:31:44] INFO root fetch - processPackages [django-apis]: Downloading https://files.pythonhosted.org/packages/b6/52/ca82c196be1bc3b60b646b7d67623409a34251b58cf43ef91dc9e7b3b1bd/django-apis-0.1.1.tar.gz
+[2024-05-22 14:31:44] INFO root fetch - processPackages [therix]: Downloading https://files.pythonhosted.org/packages/05/fd/28e7c0ce7af9ca0f499fda87e401d8c0bbe6ec293fae4635dd0db3f76d70/therix-0.1.9.tar.gz
+[2024-05-22 14:31:44] INFO root fetch - processPackages [prophecy-build-tool]: executing diffoscope
+[2024-05-22 14:31:44] INFO root fetch - processPackages [prophecy-build-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prophecy-build-tool-1.2.8.tar.gz tmp/prophecy-build-tool-1.2.9.tar.gz --markdown 20240522/p/prophecy-build-tool/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-22 14:31:44] INFO root fetch - processPackages [django-magicauth]: executing diffoscope
+[2024-05-22 14:31:44] INFO root fetch - processPackages [django-magicauth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-magicauth-1.0.1.tar.gz tmp/django-magicauth-1.0.2.tar.gz --markdown 20240522/d/django-magicauth/1.0.1-1.0.2/README.md --exclude *.pyd
+[2024-05-22 14:31:44] INFO root fetch - processPackages [udi-interface]: Downloading https://files.pythonhosted.org/packages/e6/e6/a7353179a620a3e1ba548e3e98b4bc57d9dec2921e08cd53d8f9d2eed175/udi_interface-3.3.6.tar.gz
+[2024-05-22 14:31:44] INFO root fetch - processPackages [rul_datasets]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-22 14:31:44] INFO root fetch - processPackages [pybangla]: executing diffoscope
+[2024-05-22 14:31:44] INFO root fetch - processPackages [pybangla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybangla-1.3.2.dev0.tar.gz tmp/pybangla-1.3.3.tar.gz --markdown 20240522/p/pybangla/1.3.2.dev0-1.3.3/README.md --exclude *.pyd
+[2024-05-22 14:31:44] INFO root fetch - processPackages [langwatch]: executing diffoscope
+[2024-05-22 14:31:44] INFO root fetch - processPackages [langwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langwatch-0.0.8.tar.gz tmp/langwatch-0.0.9.tar.gz --markdown 20240522/l/langwatch/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 14:31:44] INFO root fetch - processPackages [edx-django-utils]: Downloading https://files.pythonhosted.org/packages/54/c8/d13b1ff765bbcebeda45fe6ca44911af1fd0f4e3ee3fa95e90f3e37ec6a9/edx-django-utils-5.9.0.tar.gz
+[2024-05-22 14:31:44] INFO root fetch - processPackages [udi-interface]: executing diffoscope
+[2024-05-22 14:31:44] INFO root fetch - processPackages [udi-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udi_interface-3.3.5.tar.gz tmp/udi_interface-3.3.6.tar.gz --markdown 20240522/u/udi-interface/3.3.5-3.3.6/README.md --exclude *.pyd
+[2024-05-22 14:31:44] INFO root fetch - processPackages [therix]: executing diffoscope
+[2024-05-22 14:31:44] INFO root fetch - processPackages [therix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/therix-0.1.8.tar.gz tmp/therix-0.1.9.tar.gz --markdown 20240522/t/therix/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 14:31:44] INFO root fetch - processPackages [fengwo]: Downloading https://files.pythonhosted.org/packages/4f/6d/8be430dbaad0ecfbdcf2d4dc805a61128d4b64cf41822da82cb4494c653f/fengwo-0.0.2-cp39-none-win_amd64.whl
+[2024-05-22 14:31:44] INFO root fetch - processPackages [edx-django-utils]: executing diffoscope
+[2024-05-22 14:31:44] INFO root fetch - processPackages [edx-django-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-django-utils-5.8.0.tar.gz tmp/edx-django-utils-5.9.0.tar.gz --markdown 20240522/e/edx-django-utils/5.8.0-5.9.0/README.md --exclude *.pyd
+[2024-05-22 14:31:44] INFO root fetch - processPackages [rul_datasets]: Downloading https://files.pythonhosted.org/packages/7d/8d/52560cb1b6855adf1f2fc79d2ed7923927d1ac2627f8ac40879c536ba18d/rul_datasets-0.9.0.tar.gz
+[2024-05-22 14:31:44] INFO root fetch - processPackages [django-apis]: Downloading https://files.pythonhosted.org/packages/c5/8b/b4cd35e7ec9ec854772b0a7c3026cc3a2a45ae514e617c9bbb3e8230b855/django-apis-0.1.4.tar.gz
+[2024-05-22 14:31:44] INFO root fetch - processPackages [django-apis]: executing diffoscope
+[2024-05-22 14:31:44] INFO root fetch - processPackages [django-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-apis-0.1.1.tar.gz tmp/django-apis-0.1.4.tar.gz --markdown 20240522/d/django-apis/0.1.1-0.1.4/README.md --exclude *.pyd
+[2024-05-22 14:31:45] INFO root fetch - processPackages [rul_datasets]: Downloading https://files.pythonhosted.org/packages/4d/95/bd0012072765f23f47bb5c7e357289f663b36cc25df57e74ea78041f846f/rul_datasets-0.9.1.tar.gz
+[2024-05-22 14:31:45] INFO root fetch - processPackages [rul_datasets]: executing diffoscope
+[2024-05-22 14:31:45] INFO root fetch - processPackages [rul_datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rul_datasets-0.9.0.tar.gz tmp/rul_datasets-0.9.1.tar.gz --markdown 20240522/r/rul_datasets/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-22 14:31:45] INFO root fetch - processPackages [fengwo]: executing diffoscope
+[2024-05-22 14:31:45] INFO root fetch - processPackages [fengwo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fengwo-0.0.1-cp39-none-win_amd64.whl.zip tmp/fengwo-0.0.2-cp39-none-win_amd64.whl.zip --markdown 20240522/f/fengwo/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-22 14:31:45] INFO root fetch - processPackages [langwatch]: Remove: archive file [/home/abi/fetcher/tmp/langwatch-0.0.8.tar.gz]
+[2024-05-22 14:31:45] INFO root fetch - processPackages [langwatch]: Remove: archive file [/home/abi/fetcher/tmp/langwatch-0.0.9.tar.gz]
+[2024-05-22 14:31:45] INFO root fetch - processPackages [langwatch]: Start processing: torch-model-manager
+[2024-05-22 14:31:45] INFO root fetch - main [MainThread]: End processing [langwatch]: success
+[2024-05-22 14:31:45] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev4] Old Version: [0.4.0.dev3]
+[2024-05-22 14:31:45] INFO root fetch - processPackages [pybangla]: Remove: archive file [/home/abi/fetcher/tmp/pybangla-1.3.2.dev0.tar.gz]
+[2024-05-22 14:31:45] INFO root fetch - processPackages [pybangla]: Remove: archive file [/home/abi/fetcher/tmp/pybangla-1.3.3.tar.gz]
+[2024-05-22 14:31:45] INFO root fetch - processPackages [pybangla]: Start processing: vavacars-data-utils
+[2024-05-22 14:31:45] INFO root fetch - main [MainThread]: End processing [pybangla]: success
+[2024-05-22 14:31:45] INFO root fetch - processPackages [udi-interface]: Remove: archive file [/home/abi/fetcher/tmp/udi_interface-3.3.5.tar.gz]
+[2024-05-22 14:31:45] INFO root fetch - processPackages [udi-interface]: Remove: archive file [/home/abi/fetcher/tmp/udi_interface-3.3.6.tar.gz]
+[2024-05-22 14:31:45] INFO root fetch - main [MainThread]: End processing [udi-interface]: success
+[2024-05-22 14:31:45] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/6c/f4/b6a41de8e5140db8189e4f843e61f6dc2b7c154c4337b2d8f903b05fbef4/torch_model_manager-0.4.0.dev3.tar.gz
+[2024-05-22 14:31:45] INFO root fetch - processPackages [django-magicauth]: Remove: archive file [/home/abi/fetcher/tmp/django-magicauth-1.0.1.tar.gz]
+[2024-05-22 14:31:45] INFO root fetch - processPackages [django-magicauth]: Remove: archive file [/home/abi/fetcher/tmp/django-magicauth-1.0.2.tar.gz]
+[2024-05-22 14:31:45] INFO root fetch - main [MainThread]: End processing [django-magicauth]: success
+[2024-05-22 14:31:45] INFO root fetch - processPackages [vavacars-data-utils]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-05-22 14:31:45] INFO root fetch - processPackages [prophecy-build-tool]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-build-tool-1.2.8.tar.gz]
+[2024-05-22 14:31:45] INFO root fetch - processPackages [prophecy-build-tool]: Remove: archive file [/home/abi/fetcher/tmp/prophecy-build-tool-1.2.9.tar.gz]
+[2024-05-22 14:31:45] INFO root fetch - main [MainThread]: End processing [prophecy-build-tool]: success
+[2024-05-22 14:31:45] INFO root fetch - processPackages [edx-django-utils]: Remove: archive file [/home/abi/fetcher/tmp/edx-django-utils-5.8.0.tar.gz]
+[2024-05-22 14:31:45] INFO root fetch - processPackages [edx-django-utils]: Remove: archive file [/home/abi/fetcher/tmp/edx-django-utils-5.9.0.tar.gz]
+[2024-05-22 14:31:45] INFO root fetch - main [MainThread]: End processing [edx-django-utils]: success
+[2024-05-22 14:31:45] INFO root fetch - processPackages [vavacars-data-utils]: Downloading https://files.pythonhosted.org/packages/ff/fd/e6f8f847ea0bd8c5dd3fd2da8d54d4b8853f46faefe9137c8be431724c25/vavacars_data_utils-1.3.4.tar.gz
+[2024-05-22 14:31:45] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.8.tar.gz]
+[2024-05-22 14:31:45] INFO root fetch - processPackages [therix]: Remove: archive file [/home/abi/fetcher/tmp/therix-0.1.9.tar.gz]
+[2024-05-22 14:31:45] INFO root fetch - main [MainThread]: End processing [therix]: success
+[2024-05-22 14:31:45] INFO root fetch - processPackages [django-apis]: Remove: archive file [/home/abi/fetcher/tmp/django-apis-0.1.1.tar.gz]
+[2024-05-22 14:31:45] INFO root fetch - processPackages [django-apis]: Remove: archive file [/home/abi/fetcher/tmp/django-apis-0.1.4.tar.gz]
+[2024-05-22 14:31:45] INFO root fetch - main [MainThread]: End processing [django-apis]: success
+[2024-05-22 14:31:45] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/46/06/8e60ac64e93bf760e551ba6c2c6f310c0d5260c02b8d2fef36a4836736a6/torch_model_manager-0.4.0.dev4.tar.gz
+[2024-05-22 14:31:46] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-22 14:31:46] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.0.dev3.tar.gz tmp/torch_model_manager-0.4.0.dev4.tar.gz --markdown 20240522/t/torch-model-manager/0.4.0.dev3-0.4.0.dev4/README.md --exclude *.pyd
+[2024-05-22 14:31:46] INFO root fetch - processPackages [fengwo]: Remove: archive file [/home/abi/fetcher/tmp/fengwo-0.0.1-cp39-none-win_amd64.whl.zip]
+[2024-05-22 14:31:46] INFO root fetch - processPackages [fengwo]: Remove: archive file [/home/abi/fetcher/tmp/fengwo-0.0.2-cp39-none-win_amd64.whl.zip]
+[2024-05-22 14:31:46] INFO root fetch - main [MainThread]: End processing [fengwo]: success
+[2024-05-22 14:31:46] INFO root fetch - processPackages [rul_datasets]: Remove: archive file [/home/abi/fetcher/tmp/rul_datasets-0.9.0.tar.gz]
+[2024-05-22 14:31:46] INFO root fetch - processPackages [rul_datasets]: Remove: archive file [/home/abi/fetcher/tmp/rul_datasets-0.9.1.tar.gz]
+[2024-05-22 14:31:46] INFO root fetch - main [MainThread]: End processing [rul_datasets]: success
+[2024-05-22 14:31:46] INFO root fetch - processPackages [vavacars-data-utils]: Downloading https://files.pythonhosted.org/packages/7c/7b/ce2276530dd467ea6060101ca045d008c610672b50c3ce26bd0f4d665794/vavacars_data_utils-1.3.5.tar.gz
+[2024-05-22 14:31:46] INFO root fetch - processPackages [vavacars-data-utils]: executing diffoscope
+[2024-05-22 14:31:46] INFO root fetch - processPackages [vavacars-data-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vavacars_data_utils-1.3.4.tar.gz tmp/vavacars_data_utils-1.3.5.tar.gz --markdown 20240522/v/vavacars-data-utils/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-05-22 14:31:46] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev3.tar.gz]
+[2024-05-22 14:31:46] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev4.tar.gz]
+[2024-05-22 14:31:46] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-22 14:31:46] INFO root fetch - processPackages [vavacars-data-utils]: Remove: archive file [/home/abi/fetcher/tmp/vavacars_data_utils-1.3.4.tar.gz]
+[2024-05-22 14:31:46] INFO root fetch - processPackages [vavacars-data-utils]: Remove: archive file [/home/abi/fetcher/tmp/vavacars_data_utils-1.3.5.tar.gz]
+[2024-05-22 14:31:46] INFO root fetch - main [MainThread]: End processing [vavacars-data-utils]: success
+[2024-05-22 14:31:46] INFO root fetch - main [MainThread]: Store serial: [23323974]

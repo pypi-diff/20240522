@@ -7903,3 +7903,27 @@
 [2024-05-22 03:54:46] INFO root fetch - processPackages [YouTube-Driver]: Remove: archive file [/home/abi/fetcher/tmp/youtube_driver-1.0.8.tar.gz]
 [2024-05-22 03:54:46] INFO root fetch - main [MainThread]: End processing [YouTube-Driver]: success
 [2024-05-22 03:54:46] INFO root fetch - main [MainThread]: Store serial: [23317346]
+[2024-05-22 03:56:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317346]
+[2024-05-22 03:56:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 03:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: baseball
+[2024-05-22 03:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mktdata
+[2024-05-22 03:56:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simple-CLI-builder
+[2024-05-22 03:56:55] WARNING root fetch - processPackages [simple-CLI-builder]: Skipping, unable to determine old version
+[2024-05-22 03:56:55] INFO root fetch - main [MainThread]: End processing [simple-CLI-builder] error
+[2024-05-22 03:56:55] INFO root fetch - processPackages [baseball]: New version: [9.9] Old Version: [9.8]
+[2024-05-22 03:56:55] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/04/2a/8b198995c2f8d35c19f4b1e0e6c5c067e955f1258d57c1b1341eab88715e/baseball-9.8.tar.gz
+[2024-05-22 03:56:55] INFO root fetch - processPackages [mktdata]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-22 03:56:55] INFO root fetch - processPackages [mktdata]: Downloading https://files.pythonhosted.org/packages/88/cd/646ac5d953012da91db8cb4e543b05894e624593bebfcd07d0d29ceb3c86/mktdata-0.0.1.tar.gz
+[2024-05-22 03:56:55] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/1a/e0/fb3c48a01fd33034695694663cfddfb7a099e47f8aa30dc6c901a5fcee37/baseball-9.9.tar.gz
+[2024-05-22 03:56:55] INFO root fetch - processPackages [baseball]: executing diffoscope
+[2024-05-22 03:56:55] INFO root fetch - processPackages [baseball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseball-9.8.tar.gz tmp/baseball-9.9.tar.gz --markdown 20240522/b/baseball/9.8-9.9/README.md --exclude *.pyd
+[2024-05-22 03:56:55] INFO root fetch - processPackages [mktdata]: Downloading https://files.pythonhosted.org/packages/1f/86/c9053126de7c04226ca3c85e4a5453fc6e765981be4a0b8b3786c7d6e300/mktdata-0.0.2.tar.gz
+[2024-05-22 03:56:55] INFO root fetch - processPackages [mktdata]: executing diffoscope
+[2024-05-22 03:56:55] INFO root fetch - processPackages [mktdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mktdata-0.0.1.tar.gz tmp/mktdata-0.0.2.tar.gz --markdown 20240522/m/mktdata/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-22 03:56:56] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.8.tar.gz]
+[2024-05-22 03:56:56] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.9.tar.gz]
+[2024-05-22 03:56:56] INFO root fetch - main [MainThread]: End processing [baseball]: success
+[2024-05-22 03:56:56] INFO root fetch - processPackages [mktdata]: Remove: archive file [/home/abi/fetcher/tmp/mktdata-0.0.1.tar.gz]
+[2024-05-22 03:56:56] INFO root fetch - processPackages [mktdata]: Remove: archive file [/home/abi/fetcher/tmp/mktdata-0.0.2.tar.gz]
+[2024-05-22 03:56:56] INFO root fetch - main [MainThread]: End processing [mktdata]: success
+[2024-05-22 03:56:56] INFO root fetch - main [MainThread]: Store serial: [23317357]

@@ -2543,3 +2543,38 @@
 [2024-05-22 02:08:41] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-05-22 02:08:41] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-05-22 02:08:41] INFO root fetch - main [MainThread]: Store serial: [23315440]
+[2024-05-22 02:10:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315440]
+[2024-05-22 02:10:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 02:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte-source-coin-api
+[2024-05-22 02:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte-source-google-pagespeed-insights
+[2024-05-22 02:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnxscript
+[2024-05-22 02:10:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geo-roughness-tool
+[2024-05-22 02:10:49] INFO root fetch - processPackages [geo-roughness-tool]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-22 02:10:50] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/59/10/7bd5eac8c4ca13ad6e7abcaf8ae1bb9c487b5ed4c96a3f26e66f80a2cf06/geo_roughness_tool-0.2.1.tar.gz
+[2024-05-22 02:10:50] INFO root fetch - processPackages [airbyte-source-coin-api]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-22 02:10:50] INFO root fetch - processPackages [airbyte-source-google-pagespeed-insights]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-22 02:10:50] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240522] Old Version: [0.1.0.dev20240521]
+[2024-05-22 02:10:50] INFO root fetch - processPackages [airbyte-source-coin-api]: Downloading https://files.pythonhosted.org/packages/a6/e1/d27196c0f2625edb4c2a5c5c1494f447ed6201fab13a30ee4bf929448f72/airbyte_source_coin_api-0.2.4.tar.gz
+[2024-05-22 02:10:50] INFO root fetch - processPackages [airbyte-source-google-pagespeed-insights]: Downloading https://files.pythonhosted.org/packages/d7/68/1ca803f90ae2d8aec19d602de7e0eaca9243b6530b6324c47660f0952b35/airbyte_source_google_pagespeed_insights-0.1.5.tar.gz
+[2024-05-22 02:10:50] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/80/2f/8d679721a18a6411439e14db81a142e1594b933bf3048ff4aae5f302e446/onnxscript-0.1.0.dev20240521.tar.gz
+[2024-05-22 02:10:50] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/f0/38/19e4e70e2e795d89d085e80427179c6b2ca691e3779ea0fa2aacb6c1d744/geo_roughness_tool-0.2.2.tar.gz
+[2024-05-22 02:10:50] ERROR root fetch - processPackages [airbyte-source-google-pagespeed-insights]: Unable to fetch info: No such project/version 'airbyte-source-google-pagespeed-insights' 0.1.6
+[2024-05-22 02:10:50] INFO root fetch - main [MainThread]: End processing [airbyte-source-google-pagespeed-insights] error
+[2024-05-22 02:10:50] INFO root fetch - processPackages [geo-roughness-tool]: executing diffoscope
+[2024-05-22 02:10:50] INFO root fetch - processPackages [geo-roughness-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_roughness_tool-0.2.1.tar.gz tmp/geo_roughness_tool-0.2.2.tar.gz --markdown 20240522/g/geo-roughness-tool/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-22 02:10:50] INFO root fetch - processPackages [airbyte-source-coin-api]: Downloading https://files.pythonhosted.org/packages/83/e5/14dff195c576b6a957314a4ff8955d18647d1f65fd361062474d5bcf0ac3/airbyte_source_coin_api-0.2.5.tar.gz
+[2024-05-22 02:10:50] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/b2/ad/a6719e1b9dd43d37b130b1027d1c390b2889622419ef1ed693d38e4afbe7/onnxscript-0.1.0.dev20240522.tar.gz
+[2024-05-22 02:10:50] INFO root fetch - processPackages [airbyte-source-coin-api]: executing diffoscope
+[2024-05-22 02:10:50] INFO root fetch - processPackages [airbyte-source-coin-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte_source_coin_api-0.2.4.tar.gz tmp/airbyte_source_coin_api-0.2.5.tar.gz --markdown 20240522/a/airbyte-source-coin-api/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-22 02:10:50] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-05-22 02:10:50] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240521.tar.gz tmp/onnxscript-0.1.0.dev20240522.tar.gz --markdown 20240522/o/onnxscript/0.1.0.dev20240521-0.1.0.dev20240522/README.md --exclude *.pyd
+[2024-05-22 02:10:51] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.2.1.tar.gz]
+[2024-05-22 02:10:51] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.2.2.tar.gz]
+[2024-05-22 02:10:51] INFO root fetch - main [MainThread]: End processing [geo-roughness-tool]: success
+[2024-05-22 02:10:51] INFO root fetch - processPackages [airbyte-source-coin-api]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_coin_api-0.2.4.tar.gz]
+[2024-05-22 02:10:51] INFO root fetch - processPackages [airbyte-source-coin-api]: Remove: archive file [/home/abi/fetcher/tmp/airbyte_source_coin_api-0.2.5.tar.gz]
+[2024-05-22 02:10:51] INFO root fetch - main [MainThread]: End processing [airbyte-source-coin-api]: success
+[2024-05-22 02:10:51] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240521.tar.gz]
+[2024-05-22 02:10:51] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240522.tar.gz]
+[2024-05-22 02:10:51] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-05-22 02:10:51] INFO root fetch - main [MainThread]: Store serial: [23315454]

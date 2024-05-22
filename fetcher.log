@@ -20679,3 +20679,43 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 13:06:27] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.8.dev9.tar.gz]
 [2024-05-22 13:06:27] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-05-22 13:06:27] INFO root fetch - main [MainThread]: Store serial: [23322838]
+[2024-05-22 13:08:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322838]
+[2024-05-22 13:08:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 13:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quarchpy
+[2024-05-22 13:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bblib
+[2024-05-22 13:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: celestical
+[2024-05-22 13:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: simo
+[2024-05-22 13:08:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bowtie-json-schema
+[2024-05-22 13:08:36] INFO root fetch - processPackages [bowtie-json-schema]: New version: [2024.5.9] Old Version: [2024.5.7]
+[2024-05-22 13:08:36] INFO root fetch - processPackages [celestical]: New version: [0.9.2] Old Version: [0.17.0]
+[2024-05-22 13:08:36] INFO root fetch - processPackages [bblib]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-22 13:08:36] INFO root fetch - processPackages [simo]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-22 13:08:36] INFO root fetch - processPackages [quarchpy]: New version: [2.1.9.dev3] Old Version: [2.1.9.dev2]
+[2024-05-22 13:08:37] INFO root fetch - processPackages [celestical]: Downloading https://files.pythonhosted.org/packages/0d/aa/eadc357ea7142d97b53e77299d68646b2c6fafadbf00a043adc9eac8d679/celestical-0.17.0-py3-none-any.whl
+[2024-05-22 13:08:37] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/58/ba/f44a7fc6211fb929c6a40fad8291d1ff6db5187c14a86964e20180fb2063/bowtie_json_schema-2024.5.7.tar.gz
+[2024-05-22 13:08:37] INFO root fetch - processPackages [bblib]: Downloading https://files.pythonhosted.org/packages/80/7e/82107284b563aad1163f9ad64152e499eb69da8be31101a8e9304caa00dc/bblib-2.0.2.tar.gz
+[2024-05-22 13:08:37] INFO root fetch - processPackages [quarchpy]: Downloading https://files.pythonhosted.org/packages/4c/58/57c71932b71449bc466e74bd8478a30bedf723227a6aa33c2934896c2345/quarchpy-2.1.9.dev2-py2.py3-none-any.whl
+[2024-05-22 13:08:37] INFO root fetch - processPackages [simo]: Downloading https://files.pythonhosted.org/packages/9c/3e/85c97e5462a3125c0189f179fa275e8a0cf69dce695c9a637286581a09a0/simo-2.0.8.tar.gz
+[2024-05-22 13:08:37] WARNING root fetch - processPackages [simo]: Skipping package: exceeds size limit 20582813>=10485760
+[2024-05-22 13:08:37] INFO root fetch - main [MainThread]: End processing [simo] error
+[2024-05-22 13:08:37] INFO root fetch - processPackages [celestical]: Downloading https://files.pythonhosted.org/packages/6a/53/1f6d4d225fde6a9acc4875ce60fa934dc2af21d85e3dcbe4d276484785e6/celestical-0.9.2-py3-none-any.whl
+[2024-05-22 13:08:37] INFO root fetch - processPackages [bblib]: Downloading https://files.pythonhosted.org/packages/3d/8b/d3ad3e04f9eea198bbbd6457dd40229f89925d587a870e8a0c70074a47ee/bblib-2.0.3.tar.gz
+[2024-05-22 13:08:37] INFO root fetch - processPackages [celestical]: executing diffoscope
+[2024-05-22 13:08:37] INFO root fetch - processPackages [celestical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celestical-0.17.0-py3-none-any.whl.zip tmp/celestical-0.9.2-py3-none-any.whl.zip --markdown 20240522/c/celestical/0.17.0-0.9.2/README.md --exclude *.pyd
+[2024-05-22 13:08:37] INFO root fetch - processPackages [bowtie-json-schema]: Downloading https://files.pythonhosted.org/packages/19/be/db415e0b8e6d9540002be64795c98eafec0ae54d673702b93bbcccff35b8/bowtie_json_schema-2024.5.9.tar.gz
+[2024-05-22 13:08:37] INFO root fetch - processPackages [bblib]: executing diffoscope
+[2024-05-22 13:08:37] INFO root fetch - processPackages [bblib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bblib-2.0.2.tar.gz tmp/bblib-2.0.3.tar.gz --markdown 20240522/b/bblib/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-22 13:08:37] INFO root fetch - processPackages [bowtie-json-schema]: executing diffoscope
+[2024-05-22 13:08:37] INFO root fetch - processPackages [bowtie-json-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bowtie_json_schema-2024.5.7.tar.gz tmp/bowtie_json_schema-2024.5.9.tar.gz --markdown 20240522/b/bowtie-json-schema/2024.5.7-2024.5.9/README.md --exclude *.pyd
+[2024-05-22 13:08:38] WARNING root fetch - processPackages [quarchpy]: Skipping package: exceeds size limit 34469980>=10485760
+[2024-05-22 13:08:38] INFO root fetch - main [MainThread]: End processing [quarchpy] error
+[2024-05-22 13:08:38] INFO root fetch - processPackages [bblib]: Remove: archive file [/home/abi/fetcher/tmp/bblib-2.0.2.tar.gz]
+[2024-05-22 13:08:38] INFO root fetch - processPackages [bblib]: Remove: archive file [/home/abi/fetcher/tmp/bblib-2.0.3.tar.gz]
+[2024-05-22 13:08:38] INFO root fetch - main [MainThread]: End processing [bblib]: success
+[2024-05-22 13:08:38] INFO root fetch - processPackages [celestical]: Remove: archive file [/home/abi/fetcher/tmp/celestical-0.17.0-py3-none-any.whl.zip]
+[2024-05-22 13:08:38] INFO root fetch - processPackages [celestical]: Remove: archive file [/home/abi/fetcher/tmp/celestical-0.9.2-py3-none-any.whl.zip]
+[2024-05-22 13:08:38] INFO root fetch - main [MainThread]: End processing [celestical]: success
+[2024-05-22 13:08:38] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2024.5.7.tar.gz]
+[2024-05-22 13:08:38] INFO root fetch - processPackages [bowtie-json-schema]: Remove: archive file [/home/abi/fetcher/tmp/bowtie_json_schema-2024.5.9.tar.gz]
+[2024-05-22 13:08:38] INFO root fetch - main [MainThread]: End processing [bowtie-json-schema]: success
+[2024-05-22 13:08:38] INFO root fetch - main [MainThread]: Store serial: [23322860]

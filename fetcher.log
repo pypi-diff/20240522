@@ -19014,3 +19014,93 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:54:49] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.1.tar.gz]
 [2024-05-22 11:54:49] INFO root fetch - main [MainThread]: End processing [basedpyright]: success
 [2024-05-22 11:54:49] INFO root fetch - main [MainThread]: Store serial: [23322055]
+[2024-05-22 11:56:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322055]
+[2024-05-22 11:56:59] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-22 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: janus-swi
+[2024-05-22 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: markdownfeedgenerator
+[2024-05-22 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pbixray
+[2024-05-22 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Aruna-Python-API
+[2024-05-22 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dojoupload
+[2024-05-22 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xautomata-hive
+[2024-05-22 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wechatpayv3
+[2024-05-22 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: timelineomat
+[2024-05-22 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zfx
+[2024-05-22 11:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openclimatedata
+[2024-05-22 11:56:59] INFO root fetch - processPackages [markdownfeedgenerator]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-05-22 11:56:59] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-22 11:56:59] WARNING root fetch - processPackages [timelineomat]: Skipping, unable to determine old version
+[2024-05-22 11:56:59] INFO root fetch - processPackages [timelineomat]: Start processing: scrapegraphai
+[2024-05-22 11:56:59] INFO root fetch - main [MainThread]: End processing [timelineomat] error
+[2024-05-22 11:56:59] INFO root fetch - processPackages [markdownfeedgenerator]: Downloading https://files.pythonhosted.org/packages/9c/c0/fa8afe71acf112f3bdc62c2040eab9da6815d99a7c1061882b7fcb5677d4/markdownfeedgenerator-2.3.0-py3-none-any.whl
+[2024-05-22 11:56:59] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-22 11:56:59] INFO root fetch - processPackages [janus-swi]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-05-22 11:56:59] INFO root fetch - processPackages [wechatpayv3]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-22 11:56:59] INFO root fetch - processPackages [openclimatedata]: New version: [0.9] Old Version: [0.8]
+[2024-05-22 11:56:59] WARNING root fetch - processPackages [dojoupload]: Skipping, unable to determine old version
+[2024-05-22 11:56:59] INFO root fetch - main [MainThread]: End processing [dojoupload] error
+[2024-05-22 11:56:59] INFO root fetch - processPackages [Aruna-Python-API]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2024-05-22 11:56:59] INFO root fetch - processPackages [pbixray]: New version: [0.1.14] Old Version: [0.1.13]
+[2024-05-22 11:56:59] INFO root fetch - processPackages [xautomata-hive]: New version: [3.9.0] Old Version: [3.8.1]
+[2024-05-22 11:57:00] INFO root fetch - processPackages [scrapegraphai]: New version: [1.4.0b2] Old Version: [1.4.0b1]
+[2024-05-22 11:57:00] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-22 11:57:00] INFO root fetch - processPackages [wechatpayv3]: Downloading https://files.pythonhosted.org/packages/71/83/3a10f7692ca833df60c2c13fc32dd494a1cd913a359f0ce0dbdba33164ea/wechatpayv3-1.2.8.tar.gz
+[2024-05-22 11:57:00] INFO root fetch - processPackages [janus-swi]: Downloading https://files.pythonhosted.org/packages/40/e8/b0e706e66242f400e430217cab279233393cd6eb9bf8a2abbc3c1d6ecd94/janus_swi-1.2.1.tar.gz
+[2024-05-22 11:57:00] INFO root fetch - processPackages [Aruna-Python-API]: Downloading https://files.pythonhosted.org/packages/f0/06/cc4c0492ce8a371e2e7a16d1ff8f01332b78b5621b7a187403ededd72f4b/Aruna-Python-API-2.0.0b8.tar.gz
+[2024-05-22 11:57:00] INFO root fetch - processPackages [xautomata-hive]: Downloading https://files.pythonhosted.org/packages/b8/e8/a094459c6ad880c000fbaaaca9a461fb83b04ce17101173ac5b15cdaccde/xautomata-hive-3.8.1.tar.gz
+[2024-05-22 11:57:00] INFO root fetch - processPackages [pbixray]: Downloading https://files.pythonhosted.org/packages/de/e4/cd4aade6f5a767b251aeb00127a027095775ee403f4f8a6452d3e510ddea/pbixray-0.1.13.tar.gz
+[2024-05-22 11:57:00] INFO root fetch - processPackages [openclimatedata]: Downloading https://files.pythonhosted.org/packages/a8/32/ed04455a721bb9faf7a86120fbaaa7223bbaa9a228126bdba076f49d16b1/openclimatedata-0.8.tar.gz
+[2024-05-22 11:57:00] INFO root fetch - processPackages [markdownfeedgenerator]: Downloading https://files.pythonhosted.org/packages/56/b3/6a547bb40e8e20190c0a1b820b5e5f9cd07f2c36672c3994f619f46ad2aa/markdownfeedgenerator-2.3.1-py3-none-any.whl
+[2024-05-22 11:57:00] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-22 11:57:00] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240522/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-22 11:57:00] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/45/c5/45eccecfe20c73d3964fa65a29072694841a55974fa85b3466c80cce144a/scrapegraphai-1.4.0b1.tar.gz
+[2024-05-22 11:57:00] INFO root fetch - processPackages [markdownfeedgenerator]: executing diffoscope
+[2024-05-22 11:57:00] INFO root fetch - processPackages [markdownfeedgenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdownfeedgenerator-2.3.0-py3-none-any.whl.zip tmp/markdownfeedgenerator-2.3.1-py3-none-any.whl.zip --markdown 20240522/m/markdownfeedgenerator/2.3.0-2.3.1/README.md --exclude *.pyd
+[2024-05-22 11:57:00] INFO root fetch - processPackages [wechatpayv3]: Downloading https://files.pythonhosted.org/packages/da/ad/c24743b5be0d84cb9e06e1782533916efab40435177b65150d0773448361/wechatpayv3-1.2.9.tar.gz
+[2024-05-22 11:57:00] INFO root fetch - processPackages [janus-swi]: Downloading https://files.pythonhosted.org/packages/ae/99/afbbde0d553e53ad5f01421b8186795b8401bfd3a88230ece87fb431ba84/janus_swi-1.3.0.tar.gz
+[2024-05-22 11:57:00] INFO root fetch - processPackages [xautomata-hive]: Downloading https://files.pythonhosted.org/packages/e6/61/05d7f0be55d75992541819cd638522d2414fdc1ae68498d5282c10432829/xautomata-hive-3.9.0.tar.gz
+[2024-05-22 11:57:00] INFO root fetch - processPackages [pbixray]: Downloading https://files.pythonhosted.org/packages/af/87/cfc70e1eb2cb75f37f9145a99574518734324f8c9dc6d7b72debe141e016/pbixray-0.1.14.tar.gz
+[2024-05-22 11:57:00] INFO root fetch - processPackages [Aruna-Python-API]: Downloading https://files.pythonhosted.org/packages/f1/c1/f2f3a4c5a9b1b0748c6b0b0b2538777a60c0b6d12c2dc2a24d9230c8a1d1/Aruna-Python-API-2.0.0b9.tar.gz
+[2024-05-22 11:57:00] INFO root fetch - processPackages [wechatpayv3]: executing diffoscope
+[2024-05-22 11:57:00] INFO root fetch - processPackages [wechatpayv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wechatpayv3-1.2.8.tar.gz tmp/wechatpayv3-1.2.9.tar.gz --markdown 20240522/w/wechatpayv3/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-22 11:57:00] INFO root fetch - processPackages [xautomata-hive]: executing diffoscope
+[2024-05-22 11:57:00] INFO root fetch - processPackages [xautomata-hive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xautomata-hive-3.8.1.tar.gz tmp/xautomata-hive-3.9.0.tar.gz --markdown 20240522/x/xautomata-hive/3.8.1-3.9.0/README.md --exclude *.pyd
+[2024-05-22 11:57:00] INFO root fetch - processPackages [janus-swi]: executing diffoscope
+[2024-05-22 11:57:00] INFO root fetch - processPackages [janus-swi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/janus_swi-1.2.1.tar.gz tmp/janus_swi-1.3.0.tar.gz --markdown 20240522/j/janus-swi/1.2.1-1.3.0/README.md --exclude *.pyd
+[2024-05-22 11:57:00] INFO root fetch - processPackages [openclimatedata]: Downloading https://files.pythonhosted.org/packages/6e/2e/754d2351fe6051693cf51d38540aeac95e485a40509057b06dd00d361dc8/openclimatedata-0.9.tar.gz
+[2024-05-22 11:57:00] INFO root fetch - processPackages [pbixray]: executing diffoscope
+[2024-05-22 11:57:00] INFO root fetch - processPackages [pbixray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbixray-0.1.13.tar.gz tmp/pbixray-0.1.14.tar.gz --markdown 20240522/p/pbixray/0.1.13-0.1.14/README.md --exclude *.pyd
+[2024-05-22 11:57:00] INFO root fetch - processPackages [openclimatedata]: executing diffoscope
+[2024-05-22 11:57:00] INFO root fetch - processPackages [openclimatedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openclimatedata-0.8.tar.gz tmp/openclimatedata-0.9.tar.gz --markdown 20240522/o/openclimatedata/0.8-0.9/README.md --exclude *.pyd
+[2024-05-22 11:57:00] INFO root fetch - processPackages [Aruna-Python-API]: executing diffoscope
+[2024-05-22 11:57:00] INFO root fetch - processPackages [Aruna-Python-API]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Aruna-Python-API-2.0.0b8.tar.gz tmp/Aruna-Python-API-2.0.0b9.tar.gz --markdown 20240522/A/Aruna-Python-API/2.0.0b8-2.0.0b9/README.md --exclude *.pyd
+[2024-05-22 11:57:00] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/8a/95/aed20f8b4afff9f9f2c2252fde6fda9d2082e19e47a17ed5feae469fcb31/scrapegraphai-1.4.0b2.tar.gz
+[2024-05-22 11:57:01] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-22 11:57:01] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-22 11:57:01] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-22 11:57:01] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-05-22 11:57:01] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-1.4.0b1.tar.gz tmp/scrapegraphai-1.4.0b2.tar.gz --markdown 20240522/s/scrapegraphai/1.4.0b1-1.4.0b2/README.md --exclude *.pyd
+[2024-05-22 11:57:01] INFO root fetch - processPackages [markdownfeedgenerator]: Remove: archive file [/home/abi/fetcher/tmp/markdownfeedgenerator-2.3.0-py3-none-any.whl.zip]
+[2024-05-22 11:57:01] INFO root fetch - processPackages [markdownfeedgenerator]: Remove: archive file [/home/abi/fetcher/tmp/markdownfeedgenerator-2.3.1-py3-none-any.whl.zip]
+[2024-05-22 11:57:01] INFO root fetch - main [MainThread]: End processing [markdownfeedgenerator]: success
+[2024-05-22 11:57:01] INFO root fetch - processPackages [wechatpayv3]: Remove: archive file [/home/abi/fetcher/tmp/wechatpayv3-1.2.8.tar.gz]
+[2024-05-22 11:57:01] INFO root fetch - processPackages [wechatpayv3]: Remove: archive file [/home/abi/fetcher/tmp/wechatpayv3-1.2.9.tar.gz]
+[2024-05-22 11:57:01] INFO root fetch - main [MainThread]: End processing [wechatpayv3]: success
+[2024-05-22 11:57:01] INFO root fetch - processPackages [openclimatedata]: Remove: archive file [/home/abi/fetcher/tmp/openclimatedata-0.8.tar.gz]
+[2024-05-22 11:57:01] INFO root fetch - processPackages [openclimatedata]: Remove: archive file [/home/abi/fetcher/tmp/openclimatedata-0.9.tar.gz]
+[2024-05-22 11:57:01] INFO root fetch - main [MainThread]: End processing [openclimatedata]: success
+[2024-05-22 11:57:01] INFO root fetch - processPackages [janus-swi]: Remove: archive file [/home/abi/fetcher/tmp/janus_swi-1.2.1.tar.gz]
+[2024-05-22 11:57:01] INFO root fetch - processPackages [janus-swi]: Remove: archive file [/home/abi/fetcher/tmp/janus_swi-1.3.0.tar.gz]
+[2024-05-22 11:57:01] INFO root fetch - main [MainThread]: End processing [janus-swi]: success
+[2024-05-22 11:57:02] INFO root fetch - processPackages [xautomata-hive]: Remove: archive file [/home/abi/fetcher/tmp/xautomata-hive-3.8.1.tar.gz]
+[2024-05-22 11:57:02] INFO root fetch - processPackages [xautomata-hive]: Remove: archive file [/home/abi/fetcher/tmp/xautomata-hive-3.9.0.tar.gz]
+[2024-05-22 11:57:02] INFO root fetch - main [MainThread]: End processing [xautomata-hive]: success
+[2024-05-22 11:57:02] INFO root fetch - processPackages [pbixray]: Remove: archive file [/home/abi/fetcher/tmp/pbixray-0.1.13.tar.gz]
+[2024-05-22 11:57:02] INFO root fetch - processPackages [pbixray]: Remove: archive file [/home/abi/fetcher/tmp/pbixray-0.1.14.tar.gz]
+[2024-05-22 11:57:02] INFO root fetch - main [MainThread]: End processing [pbixray]: success
+[2024-05-22 11:57:02] INFO root fetch - processPackages [Aruna-Python-API]: Remove: archive file [/home/abi/fetcher/tmp/Aruna-Python-API-2.0.0b8.tar.gz]
+[2024-05-22 11:57:02] INFO root fetch - processPackages [Aruna-Python-API]: Remove: archive file [/home/abi/fetcher/tmp/Aruna-Python-API-2.0.0b9.tar.gz]
+[2024-05-22 11:57:02] INFO root fetch - main [MainThread]: End processing [Aruna-Python-API]: success
+[2024-05-22 11:57:03] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-1.4.0b1.tar.gz]
+[2024-05-22 11:57:03] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-1.4.0b2.tar.gz]
+[2024-05-22 11:57:03] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-05-22 11:57:03] INFO root fetch - main [MainThread]: Store serial: [23322090]

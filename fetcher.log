@@ -14751,3 +14751,105 @@
 [2024-05-22 09:40:01] INFO root fetch - processPackages [magpylib]: Remove: archive file [/home/abi/fetcher/tmp/magpylib-5.0.2.tar.gz]
 [2024-05-22 09:40:01] INFO root fetch - main [MainThread]: End processing [magpylib]: success
 [2024-05-22 09:40:01] INFO root fetch - main [MainThread]: Store serial: [23320382]
+[2024-05-22 09:42:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320382]
+[2024-05-22 09:42:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-22 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: babelwidget
+[2024-05-22 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stack-graphs-python-bindings
+[2024-05-22 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sign-oca
+[2024-05-22 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb
+[2024-05-22 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-dataset
+[2024-05-22 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-models
+[2024-05-22 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-protos
+[2024-05-22 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nnz
+[2024-05-22 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: invenio-records-resources
+[2024-05-22 09:42:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-sdk
+[2024-05-22 09:42:10] INFO root fetch - processPackages [odoo-addon-sign-oca]: New version: [16.0.2.0.1] Old Version: [16.0.2.0.0.1]
+[2024-05-22 09:42:10] INFO root fetch - processPackages [stack-graphs-python-bindings]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 09:42:10] INFO root fetch - processPackages [nucliadb-models]: New version: [4.0.0.post530] Old Version: [4.0.0.post529]
+[2024-05-22 09:42:10] INFO root fetch - processPackages [invenio-records-resources]: New version: [5.8.0] Old Version: [5.7.0]
+[2024-05-22 09:42:10] INFO root fetch - processPackages [nucliadb]: New version: [4.0.0.post530] Old Version: [4.0.0.post529]
+[2024-05-22 09:42:10] INFO root fetch - processPackages [nucliadb-dataset]: New version: [4.0.0.post530] Old Version: [4.0.0.post529]
+[2024-05-22 09:42:10] INFO root fetch - processPackages [nucliadb-protos]: New version: [4.0.0.post530] Old Version: [4.0.0.post529]
+[2024-05-22 09:42:10] INFO root fetch - processPackages [babelwidget]: New version: [2024.3] Old Version: [2024.2]
+[2024-05-22 09:42:10] INFO root fetch - processPackages [nnz]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-22 09:42:10] INFO root fetch - processPackages [odoo-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/c1/9c/226a355ebd01a8fc89a1ee94839ba9a4a5a835c9353141ad5b955cd8b7b8/odoo_addon_sign_oca-16.0.2.0.0.1-py3-none-any.whl
+[2024-05-22 09:42:10] INFO root fetch - processPackages [stack-graphs-python-bindings]: Downloading https://files.pythonhosted.org/packages/06/b8/a178941027195a77a7d5eb3f29012f26faf71cb27cfcf2cfcab729a7ae73/stack_graphs_python_bindings-0.0.8.tar.gz
+[2024-05-22 09:42:10] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/37/6f/56c441b78304c39ff9a83a2305d937cb3a9bab7d75ddddc4cbfd08f26ddd/nucliadb_dataset-4.0.0.post529-py3-none-any.whl
+[2024-05-22 09:42:10] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/6e/55/f0c66af56adde634203affc7731df86244bbccec126c7837d3b852b5ad37/nucliadb_models-4.0.0.post529-py3-none-any.whl
+[2024-05-22 09:42:10] INFO root fetch - processPackages [invenio-records-resources]: Downloading https://files.pythonhosted.org/packages/cb/83/215babf022cd4d03b01dc83d899039e89754c7ecc35a3c21c441c5b136f5/invenio-records-resources-5.7.0.tar.gz
+[2024-05-22 09:42:10] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/2f/2d/11c9b03ad444f811ac8071a23c473096b170dfaf1b608fb1bf805d888a5f/nucliadb-4.0.0.post529-py3-none-any.whl
+[2024-05-22 09:42:10] INFO root fetch - processPackages [nucliadb-sdk]: New version: [4.0.0.post531] Old Version: [4.0.0.post530]
+[2024-05-22 09:42:10] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/08/4a/1a9d3b9a86a17dd79a3dae4f531708e18dac71592bfa5e1016225b892598/nucliadb_protos-4.0.0.post529-py3-none-any.whl
+[2024-05-22 09:42:10] INFO root fetch - processPackages [nnz]: Downloading https://files.pythonhosted.org/packages/3d/2d/5ebf38310b70da5847f371f7244ea92909ca59da1a442e5481ce5d259f38/nnz-0.0.1.tar.gz
+[2024-05-22 09:42:10] INFO root fetch - processPackages [babelwidget]: Downloading https://files.pythonhosted.org/packages/b3/86/8db1b51a3d230209922a3c9a31e5070cdd5e8211c641bb5a33d598aaa0de/babelwidget-2024.2.tar.gz
+[2024-05-22 09:42:10] INFO root fetch - processPackages [stack-graphs-python-bindings]: Downloading https://files.pythonhosted.org/packages/d9/8d/87ff4505177b44a4c8f1aac75b05fe9e1d5b46c4715ab3ac99780ccd9d30/stack_graphs_python_bindings-0.0.9.tar.gz
+[2024-05-22 09:42:11] INFO root fetch - processPackages [invenio-records-resources]: Downloading https://files.pythonhosted.org/packages/e2/70/8714e278c3e10473c0d5acbdeee1879fe4cbb20c7cfbe48d78f8bb3a412a/invenio-records-resources-5.8.0.tar.gz
+[2024-05-22 09:42:11] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a8/1a/10acd5675935b06768914437ae4240f8cca21aadfa2bb09723e0e754888e/nucliadb_sdk-4.0.0.post530-py3-none-any.whl
+[2024-05-22 09:42:11] INFO root fetch - processPackages [odoo-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/bd/ec/121eaaa8a329767de9ef3aeb94a3dfa5bd173f6a45ce0c3609abf11e2fe3/odoo_addon_sign_oca-16.0.2.0.1-py3-none-any.whl
+[2024-05-22 09:42:11] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/cc/01/096f790fdab57dd875aacd294e945dae9ee11c404388792ba20e6f53eb5d/nucliadb_dataset-4.0.0.post530-py3-none-any.whl
+[2024-05-22 09:42:11] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/c0/23/0970ee41f0d218c20d93f3264d9c97d3c40d4216a65ac895552c13d52d72/nucliadb_models-4.0.0.post530-py3-none-any.whl
+[2024-05-22 09:42:11] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/8a/b5/08e16e1ef0e6f97bb2de6634fe498a3123e3adc45dc71813d1e98f3d4d43/nucliadb-4.0.0.post530-py3-none-any.whl
+[2024-05-22 09:42:11] INFO root fetch - processPackages [stack-graphs-python-bindings]: executing diffoscope
+[2024-05-22 09:42:11] INFO root fetch - processPackages [stack-graphs-python-bindings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stack_graphs_python_bindings-0.0.8.tar.gz tmp/stack_graphs_python_bindings-0.0.9.tar.gz --markdown 20240522/s/stack-graphs-python-bindings/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 09:42:11] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/40/26/6b66ce800904be6643faa6cdd305e744b3aaadc8d66a04f68ec9c7fc26a1/nucliadb_protos-4.0.0.post530-py3-none-any.whl
+[2024-05-22 09:42:11] INFO root fetch - processPackages [babelwidget]: Downloading https://files.pythonhosted.org/packages/58/02/354579907693c009f87a925fcb9c97991de909de2464e2262413ccadddc3/babelwidget-2024.3.tar.gz
+[2024-05-22 09:42:11] INFO root fetch - processPackages [odoo-addon-sign-oca]: executing diffoscope
+[2024-05-22 09:42:11] INFO root fetch - processPackages [odoo-addon-sign-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sign_oca-16.0.2.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_sign_oca-16.0.2.0.1-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-sign-oca/16.0.2.0.0.1-16.0.2.0.1/README.md --exclude *.pyd
+[2024-05-22 09:42:11] INFO root fetch - processPackages [invenio-records-resources]: executing diffoscope
+[2024-05-22 09:42:11] INFO root fetch - processPackages [invenio-records-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-resources-5.7.0.tar.gz tmp/invenio-records-resources-5.8.0.tar.gz --markdown 20240522/i/invenio-records-resources/5.7.0-5.8.0/README.md --exclude *.pyd
+[2024-05-22 09:42:11] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-05-22 09:42:11] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-4.0.0.post529-py3-none-any.whl.zip tmp/nucliadb_models-4.0.0.post530-py3-none-any.whl.zip --markdown 20240522/n/nucliadb-models/4.0.0.post529-4.0.0.post530/README.md --exclude *.pyd
+[2024-05-22 09:42:11] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-05-22 09:42:11] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-4.0.0.post529-py3-none-any.whl.zip tmp/nucliadb_dataset-4.0.0.post530-py3-none-any.whl.zip --markdown 20240522/n/nucliadb-dataset/4.0.0.post529-4.0.0.post530/README.md --exclude *.pyd
+[2024-05-22 09:42:11] INFO root fetch - processPackages [nnz]: Downloading https://files.pythonhosted.org/packages/5c/a8/f47da5c8f1f8f435d6ac7f4c0d1de0556db49cad082e0e8f836c4d390e58/nnz-0.0.2.tar.gz
+[2024-05-22 09:42:11] INFO root fetch - processPackages [babelwidget]: executing diffoscope
+[2024-05-22 09:42:11] INFO root fetch - processPackages [babelwidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babelwidget-2024.2.tar.gz tmp/babelwidget-2024.3.tar.gz --markdown 20240522/b/babelwidget/2024.2-2024.3/README.md --exclude *.pyd
+[2024-05-22 09:42:11] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-05-22 09:42:11] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-4.0.0.post529-py3-none-any.whl.zip tmp/nucliadb_protos-4.0.0.post530-py3-none-any.whl.zip --markdown 20240522/n/nucliadb-protos/4.0.0.post529-4.0.0.post530/README.md --exclude *.pyd
+[2024-05-22 09:42:11] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/10/58/d9bad3f97317e0d95724d54fed3047a5c4cfc865fe0b6e1673027a9f074d/nucliadb_sdk-4.0.0.post531-py3-none-any.whl
+[2024-05-22 09:42:11] INFO root fetch - processPackages [nnz]: executing diffoscope
+[2024-05-22 09:42:11] INFO root fetch - processPackages [nnz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnz-0.0.1.tar.gz tmp/nnz-0.0.2.tar.gz --markdown 20240522/n/nnz/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-22 09:42:11] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-05-22 09:42:11] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-4.0.0.post529-py3-none-any.whl.zip tmp/nucliadb-4.0.0.post530-py3-none-any.whl.zip --markdown 20240522/n/nucliadb/4.0.0.post529-4.0.0.post530/README.md --exclude *.pyd
+[2024-05-22 09:42:11] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-05-22 09:42:11] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-4.0.0.post530-py3-none-any.whl.zip tmp/nucliadb_sdk-4.0.0.post531-py3-none-any.whl.zip --markdown 20240522/n/nucliadb-sdk/4.0.0.post530-4.0.0.post531/README.md --exclude *.pyd
+[2024-05-22 09:42:12] INFO root fetch - processPackages [stack-graphs-python-bindings]: Remove: archive file [/home/abi/fetcher/tmp/stack_graphs_python_bindings-0.0.8.tar.gz]
+[2024-05-22 09:42:12] INFO root fetch - processPackages [stack-graphs-python-bindings]: Remove: archive file [/home/abi/fetcher/tmp/stack_graphs_python_bindings-0.0.9.tar.gz]
+[2024-05-22 09:42:12] INFO root fetch - processPackages [stack-graphs-python-bindings]: Start processing: typed-monads
+[2024-05-22 09:42:12] INFO root fetch - main [MainThread]: End processing [stack-graphs-python-bindings]: success
+[2024-05-22 09:42:12] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post529-py3-none-any.whl.zip]
+[2024-05-22 09:42:12] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-4.0.0.post530-py3-none-any.whl.zip]
+[2024-05-22 09:42:12] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-05-22 09:42:12] INFO root fetch - processPackages [typed-monads]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-05-22 09:42:12] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post529-py3-none-any.whl.zip]
+[2024-05-22 09:42:12] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-4.0.0.post530-py3-none-any.whl.zip]
+[2024-05-22 09:42:12] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-05-22 09:42:12] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.0.post529-py3-none-any.whl.zip]
+[2024-05-22 09:42:12] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-4.0.0.post530-py3-none-any.whl.zip]
+[2024-05-22 09:42:12] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-05-22 09:42:12] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.0.post530-py3-none-any.whl.zip]
+[2024-05-22 09:42:12] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-4.0.0.post531-py3-none-any.whl.zip]
+[2024-05-22 09:42:12] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-05-22 09:42:12] INFO root fetch - processPackages [nnz]: Remove: archive file [/home/abi/fetcher/tmp/nnz-0.0.1.tar.gz]
+[2024-05-22 09:42:12] INFO root fetch - processPackages [nnz]: Remove: archive file [/home/abi/fetcher/tmp/nnz-0.0.2.tar.gz]
+[2024-05-22 09:42:12] INFO root fetch - main [MainThread]: End processing [nnz]: success
+[2024-05-22 09:42:12] INFO root fetch - processPackages [odoo-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sign_oca-16.0.2.0.0.1-py3-none-any.whl.zip]
+[2024-05-22 09:42:12] INFO root fetch - processPackages [odoo-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sign_oca-16.0.2.0.1-py3-none-any.whl.zip]
+[2024-05-22 09:42:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-sign-oca]: success
+[2024-05-22 09:42:12] INFO root fetch - processPackages [typed-monads]: Downloading https://files.pythonhosted.org/packages/93/b1/d0a4267ae42760337e05cf6f21866976dafb89424ec9aa639b0a1ac381bb/typed-monads-0.4.6.tar.gz
+[2024-05-22 09:42:13] INFO root fetch - processPackages [babelwidget]: Remove: archive file [/home/abi/fetcher/tmp/babelwidget-2024.2.tar.gz]
+[2024-05-22 09:42:13] INFO root fetch - processPackages [babelwidget]: Remove: archive file [/home/abi/fetcher/tmp/babelwidget-2024.3.tar.gz]
+[2024-05-22 09:42:13] INFO root fetch - main [MainThread]: End processing [babelwidget]: success
+[2024-05-22 09:42:13] INFO root fetch - processPackages [invenio-records-resources]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-resources-5.7.0.tar.gz]
+[2024-05-22 09:42:13] INFO root fetch - processPackages [invenio-records-resources]: Remove: archive file [/home/abi/fetcher/tmp/invenio-records-resources-5.8.0.tar.gz]
+[2024-05-22 09:42:13] INFO root fetch - main [MainThread]: End processing [invenio-records-resources]: success
+[2024-05-22 09:42:13] INFO root fetch - processPackages [typed-monads]: Downloading https://files.pythonhosted.org/packages/e6/87/7076d8d6057c69e6f840bf061fd8c397042b2dbc560c736c647b7189dfa8/typed_monads-0.4.7.tar.gz
+[2024-05-22 09:42:13] INFO root fetch - processPackages [typed-monads]: executing diffoscope
+[2024-05-22 09:42:13] INFO root fetch - processPackages [typed-monads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typed-monads-0.4.6.tar.gz tmp/typed_monads-0.4.7.tar.gz --markdown 20240522/t/typed-monads/0.4.6-0.4.7/README.md --exclude *.pyd
+[2024-05-22 09:42:13] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post529-py3-none-any.whl.zip]
+[2024-05-22 09:42:13] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-4.0.0.post530-py3-none-any.whl.zip]
+[2024-05-22 09:42:13] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-05-22 09:42:14] INFO root fetch - processPackages [typed-monads]: Remove: archive file [/home/abi/fetcher/tmp/typed-monads-0.4.6.tar.gz]
+[2024-05-22 09:42:14] INFO root fetch - processPackages [typed-monads]: Remove: archive file [/home/abi/fetcher/tmp/typed_monads-0.4.7.tar.gz]
+[2024-05-22 09:42:14] INFO root fetch - main [MainThread]: End processing [typed-monads]: success
+[2024-05-22 09:42:14] INFO root fetch - main [MainThread]: Store serial: [23320421]

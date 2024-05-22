@@ -12058,3 +12058,27 @@
 [2024-05-22 07:29:45] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.5.6.tar.gz]
 [2024-05-22 07:29:45] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
 [2024-05-22 07:29:45] INFO root fetch - main [MainThread]: Store serial: [23319088]
+[2024-05-22 07:31:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319088]
+[2024-05-22 07:31:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 07:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: system_reliability
+[2024-05-22 07:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hc-log-tools
+[2024-05-22 07:31:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: setup-django-apex
+[2024-05-22 07:31:57] INFO root fetch - processPackages [system_reliability]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-22 07:31:57] WARNING root fetch - processPackages [setup-django-apex]: Skipping, unable to determine old version
+[2024-05-22 07:31:57] INFO root fetch - main [MainThread]: End processing [setup-django-apex] error
+[2024-05-22 07:31:57] INFO root fetch - processPackages [system_reliability]: Downloading https://files.pythonhosted.org/packages/ea/67/6bb795a018cecba898e4bd13e61c0a9229fa939154ba7e5ca44e52f4412b/system_reliability-0.2.0.tar.gz
+[2024-05-22 07:31:57] INFO root fetch - processPackages [hc-log-tools]: New version: [1.2.7] Old Version: [1.2.5]
+[2024-05-22 07:31:57] INFO root fetch - processPackages [hc-log-tools]: Downloading https://files.pythonhosted.org/packages/a5/4f/a3dda41db708cab150b14b6a2d1bf9e54459467d4ab5145aa1c147f77baa/hc_log_tools-1.2.5.tar.gz
+[2024-05-22 07:31:57] INFO root fetch - processPackages [system_reliability]: Downloading https://files.pythonhosted.org/packages/dd/25/a22e8814c5298b072d8decf18c1f5db6d7d6726318c49db267ba7c259593/system_reliability-0.2.1.tar.gz
+[2024-05-22 07:31:57] INFO root fetch - processPackages [system_reliability]: executing diffoscope
+[2024-05-22 07:31:57] INFO root fetch - processPackages [system_reliability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/system_reliability-0.2.0.tar.gz tmp/system_reliability-0.2.1.tar.gz --markdown 20240522/s/system_reliability/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-22 07:31:58] INFO root fetch - processPackages [hc-log-tools]: Downloading https://files.pythonhosted.org/packages/8f/70/b40257cf45342389c03ef43df523823e370caac4ed4dc3bd3af5f321f5ee/hc_log_tools-1.2.7.tar.gz
+[2024-05-22 07:31:58] INFO root fetch - processPackages [hc-log-tools]: executing diffoscope
+[2024-05-22 07:31:58] INFO root fetch - processPackages [hc-log-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hc_log_tools-1.2.5.tar.gz tmp/hc_log_tools-1.2.7.tar.gz --markdown 20240522/h/hc-log-tools/1.2.5-1.2.7/README.md --exclude *.pyd
+[2024-05-22 07:31:58] INFO root fetch - processPackages [system_reliability]: Remove: archive file [/home/abi/fetcher/tmp/system_reliability-0.2.0.tar.gz]
+[2024-05-22 07:31:58] INFO root fetch - processPackages [system_reliability]: Remove: archive file [/home/abi/fetcher/tmp/system_reliability-0.2.1.tar.gz]
+[2024-05-22 07:31:58] INFO root fetch - main [MainThread]: End processing [system_reliability]: success
+[2024-05-22 07:31:58] INFO root fetch - processPackages [hc-log-tools]: Remove: archive file [/home/abi/fetcher/tmp/hc_log_tools-1.2.5.tar.gz]
+[2024-05-22 07:31:58] INFO root fetch - processPackages [hc-log-tools]: Remove: archive file [/home/abi/fetcher/tmp/hc_log_tools-1.2.7.tar.gz]
+[2024-05-22 07:31:58] INFO root fetch - main [MainThread]: End processing [hc-log-tools]: success
+[2024-05-22 07:31:58] INFO root fetch - main [MainThread]: Store serial: [23319096]

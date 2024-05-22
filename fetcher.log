@@ -10975,3 +10975,56 @@
 [2024-05-22 06:19:29] INFO root fetch - processPackages [quool]: Remove: archive file [/home/abi/fetcher/tmp/quool-5.2.0.tar.gz]
 [2024-05-22 06:19:29] INFO root fetch - main [MainThread]: End processing [quool]: success
 [2024-05-22 06:19:29] INFO root fetch - main [MainThread]: Store serial: [23318661]
+[2024-05-22 06:21:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318661]
+[2024-05-22 06:21:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 06:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: packaging-demo-avr
+[2024-05-22 06:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: YHTest
+[2024-05-22 06:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pi-awning-webthing
+[2024-05-22 06:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-urlopen
+[2024-05-22 06:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rra-tools
+[2024-05-22 06:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: open-webui
+[2024-05-22 06:21:39] INFO root fetch - processPackages [pi-awning-webthing]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-22 06:21:39] INFO root fetch - processPackages [pi-awning-webthing]: Downloading https://files.pythonhosted.org/packages/e7/81/8acc5bd09afc1ad9014e0883eec5379cb694597f910fc32044bf19422142/pi_awning_webthing-0.2.9.tar.gz
+[2024-05-22 06:21:39] INFO root fetch - processPackages [YHTest]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-22 06:21:39] INFO root fetch - processPackages [python-urlopen]: New version: [0.0.1.3] Old Version: [0.0.1.2]
+[2024-05-22 06:21:39] INFO root fetch - processPackages [open-webui]: New version: [0.2.0.dev1] Old Version: [0.1.125]
+[2024-05-22 06:21:39] INFO root fetch - processPackages [rra-tools]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-05-22 06:21:39] INFO root fetch - processPackages [packaging-demo-avr]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 06:21:39] INFO root fetch - processPackages [pi-awning-webthing]: Downloading https://files.pythonhosted.org/packages/76/57/4d8817c514bddecb545da8cec55b97fdbb0f6dba09736faa7df43a8c9571/pi_awning_webthing-0.3.0.tar.gz
+[2024-05-22 06:21:39] INFO root fetch - processPackages [YHTest]: Downloading https://files.pythonhosted.org/packages/5a/e7/1a4975e9ea7b1dc5bbfc87d8cf35ebc76728674cb831d9cea6f0d3373c5f/yhtest-0.0.2.tar.gz
+[2024-05-22 06:21:39] INFO root fetch - processPackages [python-urlopen]: Downloading https://files.pythonhosted.org/packages/7d/82/cc6c159d0252be298075e14902a7c6e3864e19d3457fa4992f5d3e8354b6/python_urlopen-0.0.1.2.tar.gz
+[2024-05-22 06:21:39] INFO root fetch - processPackages [packaging-demo-avr]: Downloading https://files.pythonhosted.org/packages/19/c1/b6cad6fba70ab51f7b9943433abab22866f3a34942411d0bc0f3e530eff3/packaging_demo_avr-0.0.8.tar.gz
+[2024-05-22 06:21:40] INFO root fetch - processPackages [open-webui]: Downloading https://files.pythonhosted.org/packages/dc/33/15a162594d051965a4adbcd4913191cc701559870c6b4a02b893746c03bf/open_webui-0.1.125.tar.gz
+[2024-05-22 06:21:40] INFO root fetch - processPackages [rra-tools]: Downloading https://files.pythonhosted.org/packages/f9/c8/7cf589dcf6f87bd2abb66a800ac4e51c510773837e2a64645bd01396de9a/rra_tools-1.0.7.tar.gz
+[2024-05-22 06:21:40] INFO root fetch - processPackages [pi-awning-webthing]: executing diffoscope
+[2024-05-22 06:21:40] INFO root fetch - processPackages [pi-awning-webthing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pi_awning_webthing-0.2.9.tar.gz tmp/pi_awning_webthing-0.3.0.tar.gz --markdown 20240522/p/pi-awning-webthing/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-22 06:21:40] WARNING root fetch - processPackages [open-webui]: Skipping package: exceeds size limit 13594459>=10485760
+[2024-05-22 06:21:40] INFO root fetch - main [MainThread]: End processing [open-webui] error
+[2024-05-22 06:21:40] INFO root fetch - processPackages [YHTest]: Downloading https://files.pythonhosted.org/packages/04/5e/866e42db9cea9f075eea974ae9188247b87609942f4a0f59dc252d8c3901/yhtest-0.0.3.tar.gz
+[2024-05-22 06:21:40] INFO root fetch - processPackages [python-urlopen]: Downloading https://files.pythonhosted.org/packages/4c/b9/01e7a15566a43199a952f25d4c1d3527e631b40a584e785a05324ded863d/python_urlopen-0.0.1.3.tar.gz
+[2024-05-22 06:21:40] INFO root fetch - processPackages [packaging-demo-avr]: Downloading https://files.pythonhosted.org/packages/d9/b3/9fc4edb81e5bbb77b7a6a09bac3ffe90010c6c3c869503a83a4e0da474c1/packaging_demo_avr-0.0.9.tar.gz
+[2024-05-22 06:21:40] INFO root fetch - processPackages [rra-tools]: Downloading https://files.pythonhosted.org/packages/bd/aa/b9b814ba12fceda2d5fd10d987eec815a1de40dd09489e06b3a1f046db5d/rra_tools-1.0.8.tar.gz
+[2024-05-22 06:21:40] INFO root fetch - processPackages [YHTest]: executing diffoscope
+[2024-05-22 06:21:40] INFO root fetch - processPackages [YHTest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yhtest-0.0.2.tar.gz tmp/yhtest-0.0.3.tar.gz --markdown 20240522/Y/YHTest/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-22 06:21:40] INFO root fetch - processPackages [python-urlopen]: executing diffoscope
+[2024-05-22 06:21:40] INFO root fetch - processPackages [python-urlopen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_urlopen-0.0.1.2.tar.gz tmp/python_urlopen-0.0.1.3.tar.gz --markdown 20240522/p/python-urlopen/0.0.1.2-0.0.1.3/README.md --exclude *.pyd
+[2024-05-22 06:21:40] INFO root fetch - processPackages [packaging-demo-avr]: executing diffoscope
+[2024-05-22 06:21:40] INFO root fetch - processPackages [packaging-demo-avr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packaging_demo_avr-0.0.8.tar.gz tmp/packaging_demo_avr-0.0.9.tar.gz --markdown 20240522/p/packaging-demo-avr/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 06:21:40] INFO root fetch - processPackages [rra-tools]: executing diffoscope
+[2024-05-22 06:21:40] INFO root fetch - processPackages [rra-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rra_tools-1.0.7.tar.gz tmp/rra_tools-1.0.8.tar.gz --markdown 20240522/r/rra-tools/1.0.7-1.0.8/README.md --exclude *.pyd
+[2024-05-22 06:21:40] INFO root fetch - processPackages [pi-awning-webthing]: Remove: archive file [/home/abi/fetcher/tmp/pi_awning_webthing-0.2.9.tar.gz]
+[2024-05-22 06:21:40] INFO root fetch - processPackages [pi-awning-webthing]: Remove: archive file [/home/abi/fetcher/tmp/pi_awning_webthing-0.3.0.tar.gz]
+[2024-05-22 06:21:40] INFO root fetch - main [MainThread]: End processing [pi-awning-webthing]: success
+[2024-05-22 06:21:40] INFO root fetch - processPackages [YHTest]: Remove: archive file [/home/abi/fetcher/tmp/yhtest-0.0.2.tar.gz]
+[2024-05-22 06:21:40] INFO root fetch - processPackages [YHTest]: Remove: archive file [/home/abi/fetcher/tmp/yhtest-0.0.3.tar.gz]
+[2024-05-22 06:21:40] INFO root fetch - main [MainThread]: End processing [YHTest]: success
+[2024-05-22 06:21:41] INFO root fetch - processPackages [packaging-demo-avr]: Remove: archive file [/home/abi/fetcher/tmp/packaging_demo_avr-0.0.8.tar.gz]
+[2024-05-22 06:21:41] INFO root fetch - processPackages [packaging-demo-avr]: Remove: archive file [/home/abi/fetcher/tmp/packaging_demo_avr-0.0.9.tar.gz]
+[2024-05-22 06:21:41] INFO root fetch - main [MainThread]: End processing [packaging-demo-avr]: success
+[2024-05-22 06:21:41] INFO root fetch - processPackages [rra-tools]: Remove: archive file [/home/abi/fetcher/tmp/rra_tools-1.0.7.tar.gz]
+[2024-05-22 06:21:41] INFO root fetch - processPackages [rra-tools]: Remove: archive file [/home/abi/fetcher/tmp/rra_tools-1.0.8.tar.gz]
+[2024-05-22 06:21:41] INFO root fetch - main [MainThread]: End processing [rra-tools]: success
+[2024-05-22 06:21:41] INFO root fetch - processPackages [python-urlopen]: Remove: archive file [/home/abi/fetcher/tmp/python_urlopen-0.0.1.2.tar.gz]
+[2024-05-22 06:21:41] INFO root fetch - processPackages [python-urlopen]: Remove: archive file [/home/abi/fetcher/tmp/python_urlopen-0.0.1.3.tar.gz]
+[2024-05-22 06:21:41] INFO root fetch - main [MainThread]: End processing [python-urlopen]: success
+[2024-05-22 06:21:41] INFO root fetch - main [MainThread]: Store serial: [23318678]

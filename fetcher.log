@@ -8395,3 +8395,45 @@
 [2024-05-22 04:16:33] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
 [2024-05-22 04:16:33] INFO root fetch - main [MainThread]: End processing [specklia]: success
 [2024-05-22 04:16:33] INFO root fetch - main [MainThread]: Store serial: [23317519]
+[2024-05-22 04:18:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317519]
+[2024-05-22 04:18:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 04:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pozalabs-compose
+[2024-05-22 04:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reverse-life
+[2024-05-22 04:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: surfkit
+[2024-05-22 04:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: backend1
+[2024-05-22 04:18:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaanca-chronometer
+[2024-05-22 04:18:42] WARNING root fetch - processPackages [backend1]: Skipping, unable to determine old version
+[2024-05-22 04:18:42] INFO root fetch - main [MainThread]: End processing [backend1] error
+[2024-05-22 04:18:42] INFO root fetch - processPackages [jaanca-chronometer]: New version: [0.1.1rc1] Old Version: [0.1.0]
+[2024-05-22 04:18:42] INFO root fetch - processPackages [surfkit]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-22 04:18:42] INFO root fetch - processPackages [reverse-life]: New version: [1.2.1] Old Version: [1.0.1]
+[2024-05-22 04:18:42] INFO root fetch - processPackages [jaanca-chronometer]: Downloading https://files.pythonhosted.org/packages/91/94/d1c3b990a693b3598cf48a063cb80d7f7c5663e978bc0f11e5a499fda163/jaanca_chronometer-0.1.0.tar.gz
+[2024-05-22 04:18:42] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/c2/e4/d9d6efb4013a22047e07b2174dc8716a86fe2b3fe0652e6e1edddbde177b/surfkit-0.1.98.tar.gz
+[2024-05-22 04:18:42] INFO root fetch - processPackages [pozalabs-compose]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-22 04:18:42] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/06/b4/e38f9c7412983e6cae601fa8a4496d9dd3c15fe0e6bb19019457de2bf908/pozalabs-compose-0.9.0.tar.gz
+[2024-05-22 04:18:42] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/65/a8/bfc822b58240522d18c4cf24a25a6f2476da037058406af11377393fa476/surfkit-0.1.99.tar.gz
+[2024-05-22 04:18:42] INFO root fetch - processPackages [reverse-life]: Downloading https://files.pythonhosted.org/packages/f2/ea/41dee766c9fddbfd049f4869c6e5b78b513b17af78947404718add4393cf/reverse_life-1.0.1.tar.gz
+[2024-05-22 04:18:42] INFO root fetch - processPackages [jaanca-chronometer]: Downloading https://files.pythonhosted.org/packages/10/48/16c5d0d0ec148da714b05fe603ca01a3ea65b29d2ce38e09467d23869036/jaanca_chronometer-0.1.1rc1.tar.gz
+[2024-05-22 04:18:42] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-05-22 04:18:42] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.98.tar.gz tmp/surfkit-0.1.99.tar.gz --markdown 20240522/s/surfkit/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-22 04:18:42] INFO root fetch - processPackages [jaanca-chronometer]: executing diffoscope
+[2024-05-22 04:18:42] INFO root fetch - processPackages [jaanca-chronometer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaanca_chronometer-0.1.0.tar.gz tmp/jaanca_chronometer-0.1.1rc1.tar.gz --markdown 20240522/j/jaanca-chronometer/0.1.0-0.1.1rc1/README.md --exclude *.pyd
+[2024-05-22 04:18:42] INFO root fetch - processPackages [reverse-life]: Downloading https://files.pythonhosted.org/packages/d7/f1/3d32bffe7749d7b58b5644b395ba27fbd718dd4bc6369352699862218e2f/reverse_life-1.2.1.tar.gz
+[2024-05-22 04:18:42] INFO root fetch - processPackages [pozalabs-compose]: Downloading https://files.pythonhosted.org/packages/c4/33/dc52b783559ddc423af41ab2502f9d7749e2c4231db5f0f022fea65653c7/pozalabs-compose-0.9.1.tar.gz
+[2024-05-22 04:18:43] INFO root fetch - processPackages [reverse-life]: executing diffoscope
+[2024-05-22 04:18:43] INFO root fetch - processPackages [reverse-life]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reverse_life-1.0.1.tar.gz tmp/reverse_life-1.2.1.tar.gz --markdown 20240522/r/reverse-life/1.0.1-1.2.1/README.md --exclude *.pyd
+[2024-05-22 04:18:43] INFO root fetch - processPackages [pozalabs-compose]: executing diffoscope
+[2024-05-22 04:18:43] INFO root fetch - processPackages [pozalabs-compose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pozalabs-compose-0.9.0.tar.gz tmp/pozalabs-compose-0.9.1.tar.gz --markdown 20240522/p/pozalabs-compose/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-22 04:18:43] INFO root fetch - processPackages [jaanca-chronometer]: Remove: archive file [/home/abi/fetcher/tmp/jaanca_chronometer-0.1.0.tar.gz]
+[2024-05-22 04:18:43] INFO root fetch - processPackages [jaanca-chronometer]: Remove: archive file [/home/abi/fetcher/tmp/jaanca_chronometer-0.1.1rc1.tar.gz]
+[2024-05-22 04:18:43] INFO root fetch - main [MainThread]: End processing [jaanca-chronometer]: success
+[2024-05-22 04:18:43] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.98.tar.gz]
+[2024-05-22 04:18:43] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.99.tar.gz]
+[2024-05-22 04:18:43] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-05-22 04:18:43] INFO root fetch - processPackages [reverse-life]: Remove: archive file [/home/abi/fetcher/tmp/reverse_life-1.0.1.tar.gz]
+[2024-05-22 04:18:43] INFO root fetch - processPackages [reverse-life]: Remove: archive file [/home/abi/fetcher/tmp/reverse_life-1.2.1.tar.gz]
+[2024-05-22 04:18:43] INFO root fetch - main [MainThread]: End processing [reverse-life]: success
+[2024-05-22 04:18:43] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.0.tar.gz]
+[2024-05-22 04:18:43] INFO root fetch - processPackages [pozalabs-compose]: Remove: archive file [/home/abi/fetcher/tmp/pozalabs-compose-0.9.1.tar.gz]
+[2024-05-22 04:18:43] INFO root fetch - main [MainThread]: End processing [pozalabs-compose]: success
+[2024-05-22 04:18:43] INFO root fetch - main [MainThread]: Store serial: [23317534]

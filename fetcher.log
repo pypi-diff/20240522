@@ -16573,3 +16573,63 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:43:58] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-2.5.3.tar.gz]
 [2024-05-22 10:43:58] INFO root fetch - main [MainThread]: End processing [erlab]: success
 [2024-05-22 10:43:58] INFO root fetch - main [MainThread]: Store serial: [23321073]
+[2024-05-22 10:46:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321073]
+[2024-05-22 10:46:07] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 10:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: danila-lib
+[2024-05-22 10:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ip-check
+[2024-05-22 10:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: htrfnwe
+[2024-05-22 10:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfp-nightly
+[2024-05-22 10:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly-cpu
+[2024-05-22 10:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zyb-image
+[2024-05-22 10:46:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bagbag
+[2024-05-22 10:46:07] INFO root fetch - processPackages [danila-lib]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-05-22 10:46:07] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-05-22 10:46:07] INFO root fetch - processPackages [ip-check]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-05-22 10:46:07] INFO root fetch - processPackages [zyb-image]: New version: [0.2] Old Version: [0.1]
+[2024-05-22 10:46:07] WARNING root fetch - processPackages [htrfnwe]: Skipping, unable to determine old version
+[2024-05-22 10:46:07] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240522] Old Version: [2.17.0.dev20240521]
+[2024-05-22 10:46:07] INFO root fetch - main [MainThread]: End processing [htrfnwe] error
+[2024-05-22 10:46:07] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/10/76/d59d4a22610503884938ac2baa1cf0699741bd1f589b3347546ad3e280e0/danila-lib-1.6.0.tar.gz
+[2024-05-22 10:46:07] INFO root fetch - processPackages [bagbag]: New version: [0.68.9] Old Version: [0.68.8]
+[2024-05-22 10:46:08] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-05-22 10:46:08] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/20/bf/c3ce81f0cfac70146346af619d9afd325815ab6700b9e6c6782eef0ad16f/ip_check-1.6.2-py3-none-any.whl
+[2024-05-22 10:46:08] INFO root fetch - processPackages [zyb-image]: Downloading https://files.pythonhosted.org/packages/2f/55/92f3bae63ae779b80babf56c5fc7e74564cbf148039183c84207d0443d18/zyb_image-0.1.tar.gz
+[2024-05-22 10:46:08] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/71/7c/e22acb4a360b5c817c48d9ddb5396e6b9b2161e1336ea1e710a8c01726c7/tf_nightly_cpu-2.17.0.dev20240521-cp39-cp39-win_amd64.whl
+[2024-05-22 10:46:08] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/78/96/cec1b60756a800353138acafbcdaf59362f72a46b4a91cae324ae5b6118b/bagbag-0.68.8.tar.gz
+[2024-05-22 10:46:08] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/57/11/e1768ee2b3b48a2a9c6f0f1b3599f55d7e04a5b98d390c33c48d96488edb/danila-lib-1.6.1.tar.gz
+[2024-05-22 10:46:08] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-22 10:46:08] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.6.0.tar.gz tmp/danila-lib-1.6.1.tar.gz --markdown 20240522/d/danila-lib/1.6.0-1.6.1/README.md --exclude *.pyd
+[2024-05-22 10:46:08] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/28/da/e3309d4cb5f46b8e444e0889eef4333dce73015b1d2926324d3f0c490713/ip_check-1.6.3-py3-none-any.whl
+[2024-05-22 10:46:08] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/75/b0/36648c93aede306abba6bf24d2977307dd7fc9cfc27a9cbef17c5a0aaa86/tf_nightly_cpu-2.17.0.dev20240522-cp39-cp39-win_amd64.whl
+[2024-05-22 10:46:08] INFO root fetch - processPackages [ip-check]: executing diffoscope
+[2024-05-22 10:46:08] INFO root fetch - processPackages [ip-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ip_check-1.6.2-py3-none-any.whl.zip tmp/ip_check-1.6.3-py3-none-any.whl.zip --markdown 20240522/i/ip-check/1.6.2-1.6.3/README.md --exclude *.pyd
+[2024-05-22 10:46:08] INFO root fetch - processPackages [zyb-image]: Downloading https://files.pythonhosted.org/packages/9f/dc/8467589af24dbc53b34b202c70c9e6fb5b0cf3328db743431b69952a8ceb/zyb_image-0.2-py3-none-any.whl
+[2024-05-22 10:46:08] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/a7/ce/36d9c874c6e340bb1da40a8b9b41a914e0760f19171ede585a00fb45323d/bagbag-0.68.9.tar.gz
+[2024-05-22 10:46:08] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-05-22 10:46:08] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-05-22 10:46:08] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240521-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240522-cp39-cp39-win_amd64.whl.zip --markdown 20240522/t/tf-nightly-cpu/2.17.0.dev20240521-2.17.0.dev20240522/README.md --exclude *.pyd
+[2024-05-22 10:46:08] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2024-05-22 10:46:08] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.68.8.tar.gz tmp/bagbag-0.68.9.tar.gz --markdown 20240522/b/bagbag/0.68.8-0.68.9/README.md --exclude *.pyd
+[2024-05-22 10:46:09] INFO root fetch - processPackages [zyb-image]: executing diffoscope
+[2024-05-22 10:46:09] INFO root fetch - processPackages [zyb-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zyb_image-0.1.tar.gz tmp/zyb_image-0.2-py3-none-any.whl.zip --markdown 20240522/z/zyb-image/0.1-0.2/README.md --exclude *.pyd
+[2024-05-22 10:46:09] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-05-22 10:46:09] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240522/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/README.md --exclude *.pyd
+[2024-05-22 10:46:09] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.6.0.tar.gz]
+[2024-05-22 10:46:09] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.6.1.tar.gz]
+[2024-05-22 10:46:09] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-22 10:46:09] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240521-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 10:46:09] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240522-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 10:46:09] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-05-22 10:46:09] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.6.2-py3-none-any.whl.zip]
+[2024-05-22 10:46:09] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.6.3-py3-none-any.whl.zip]
+[2024-05-22 10:46:09] INFO root fetch - main [MainThread]: End processing [ip-check]: success
+[2024-05-22 10:46:09] INFO root fetch - processPackages [zyb-image]: Remove: archive file [/home/abi/fetcher/tmp/zyb_image-0.1.tar.gz]
+[2024-05-22 10:46:09] INFO root fetch - processPackages [zyb-image]: Remove: archive file [/home/abi/fetcher/tmp/zyb_image-0.2-py3-none-any.whl.zip]
+[2024-05-22 10:46:09] INFO root fetch - main [MainThread]: End processing [zyb-image]: success
+[2024-05-22 10:46:10] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.8.tar.gz]
+[2024-05-22 10:46:10] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.68.9.tar.gz]
+[2024-05-22 10:46:10] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2024-05-22 10:46:12] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-05-22 10:46:12] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-05-22 10:46:12] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-05-22 10:46:12] INFO root fetch - main [MainThread]: Store serial: [23321092]

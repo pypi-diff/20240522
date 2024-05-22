@@ -12613,3 +12613,56 @@
 [2024-05-22 08:05:12] INFO root fetch - processPackages [odoo-addon-purchase-landed-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_landed_cost-16.0.1.0.0.7-py3-none-any.whl.zip]
 [2024-05-22 08:05:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-landed-cost]: success
 [2024-05-22 08:05:12] INFO root fetch - main [MainThread]: Store serial: [23319441]
+[2024-05-22 08:07:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319441]
+[2024-05-22 08:07:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 08:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: afl-ai-utils
+[2024-05-22 08:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-purchase-merge
+[2024-05-22 08:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pymobiledevice3
+[2024-05-22 08:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-purchase-advance-payment
+[2024-05-22 08:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-purchase-default-terms-conditions
+[2024-05-22 08:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-queue-job-subscribe
+[2024-05-22 08:07:25] INFO root fetch - processPackages [pymobiledevice3]: New version: [4.8.1] Old Version: [4.8.0]
+[2024-05-22 08:07:25] INFO root fetch - processPackages [odoo-addon-purchase-merge]: New version: [16.0.1.0.1.9] Old Version: [16.0.1.0.1.7]
+[2024-05-22 08:07:25] INFO root fetch - processPackages [odoo-addon-queue-job-subscribe]: New version: [17.0.1.0.0.2] Old Version: [17.0.1.0.0.1]
+[2024-05-22 08:07:25] INFO root fetch - processPackages [odoo-addon-purchase-advance-payment]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1.1]
+[2024-05-22 08:07:25] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: New version: [16.0.1.0.3.2] Old Version: [16.0.1.0.3.1]
+[2024-05-22 08:07:25] INFO root fetch - processPackages [afl-ai-utils]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-22 08:07:25] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/1f/c5/6b403aa0014675455b6d76fcc59d914b6318f35d1590eee1880e248db585/pymobiledevice3-4.8.0.tar.gz
+[2024-05-22 08:07:25] WARNING root fetch - processPackages [pymobiledevice3]: Skipping package: exceeds size limit 31547953>=10485760
+[2024-05-22 08:07:25] INFO root fetch - main [MainThread]: End processing [pymobiledevice3] error
+[2024-05-22 08:07:25] INFO root fetch - processPackages [odoo-addon-purchase-merge]: Downloading https://files.pythonhosted.org/packages/1b/b1/94cf14740a7e3369db401a1f457dcfdc749b28d9c942d57ced2755b9a710/odoo_addon_purchase_merge-16.0.1.0.1.7-py3-none-any.whl
+[2024-05-22 08:07:25] INFO root fetch - processPackages [odoo-addon-purchase-advance-payment]: Downloading https://files.pythonhosted.org/packages/79/df/43eeded2a636094390314c27d7a33dda922bd1621c0d033f9541810a8c53/odoo_addon_purchase_advance_payment-16.0.1.0.1.1-py3-none-any.whl
+[2024-05-22 08:07:25] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: Downloading https://files.pythonhosted.org/packages/f2/25/b3a84f7470838fc7ffa7574a636f8c626d55331cfadb4b6c8606470db98f/odoo_addon_purchase_default_terms_conditions-16.0.1.0.3.1-py3-none-any.whl
+[2024-05-22 08:07:25] INFO root fetch - processPackages [odoo-addon-queue-job-subscribe]: Downloading https://files.pythonhosted.org/packages/53/1d/e6db5b5e4c36cc5b3e64515c0ff0361332c4ce9233ade2274d696f62a283/odoo_addon_queue_job_subscribe-17.0.1.0.0.1-py3-none-any.whl
+[2024-05-22 08:07:25] INFO root fetch - processPackages [afl-ai-utils]: Downloading https://files.pythonhosted.org/packages/15/a6/b4ce5298069660b3bc96fb54f10a4d2c74455ef35274ce02a8bf58c7b159/afl-ai-utils-0.4.8.tar.gz
+[2024-05-22 08:07:26] INFO root fetch - processPackages [odoo-addon-purchase-advance-payment]: Downloading https://files.pythonhosted.org/packages/7d/97/f144b0f97c447eef71c31240a415bea1a383f5ca33793230931574cab349/odoo_addon_purchase_advance_payment-16.0.1.0.1.2-py3-none-any.whl
+[2024-05-22 08:07:26] INFO root fetch - processPackages [afl-ai-utils]: Downloading https://files.pythonhosted.org/packages/22/df/5b23e0e1b42247a44d1864c30fb6cb5d412872009eab26bb0fd784a7d812/afl-ai-utils-0.4.9.tar.gz
+[2024-05-22 08:07:26] INFO root fetch - processPackages [odoo-addon-purchase-merge]: Downloading https://files.pythonhosted.org/packages/be/a8/3bb3e45b9453a0a20dcd06554e965c8fd71b1fe86ec36b0e6fd399ccdfb9/odoo_addon_purchase_merge-16.0.1.0.1.9-py3-none-any.whl
+[2024-05-22 08:07:26] INFO root fetch - processPackages [odoo-addon-queue-job-subscribe]: Downloading https://files.pythonhosted.org/packages/d9/d0/2ed7f5e27430f50abd3139380dea18bcbd319a667363d27d1ef6a619839c/odoo_addon_queue_job_subscribe-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-22 08:07:26] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: Downloading https://files.pythonhosted.org/packages/9e/24/f9fe25042008c3a2031d5d0d15257252482aae343aa26b718cc1710d05b2/odoo_addon_purchase_default_terms_conditions-16.0.1.0.3.2-py3-none-any.whl
+[2024-05-22 08:07:26] INFO root fetch - processPackages [afl-ai-utils]: executing diffoscope
+[2024-05-22 08:07:26] INFO root fetch - processPackages [afl-ai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afl-ai-utils-0.4.8.tar.gz tmp/afl-ai-utils-0.4.9.tar.gz --markdown 20240522/a/afl-ai-utils/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-22 08:07:26] INFO root fetch - processPackages [odoo-addon-purchase-advance-payment]: executing diffoscope
+[2024-05-22 08:07:26] INFO root fetch - processPackages [odoo-addon-purchase-advance-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_advance_payment-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_purchase_advance_payment-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-purchase-advance-payment/16.0.1.0.1.1-16.0.1.0.1.2/README.md --exclude *.pyd
+[2024-05-22 08:07:26] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: executing diffoscope
+[2024-05-22 08:07:26] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_default_terms_conditions-16.0.1.0.3.1-py3-none-any.whl.zip tmp/odoo_addon_purchase_default_terms_conditions-16.0.1.0.3.2-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-purchase-default-terms-conditions/16.0.1.0.3.1-16.0.1.0.3.2/README.md --exclude *.pyd
+[2024-05-22 08:07:26] INFO root fetch - processPackages [odoo-addon-purchase-merge]: executing diffoscope
+[2024-05-22 08:07:26] INFO root fetch - processPackages [odoo-addon-purchase-merge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_merge-16.0.1.0.1.7-py3-none-any.whl.zip tmp/odoo_addon_purchase_merge-16.0.1.0.1.9-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-purchase-merge/16.0.1.0.1.7-16.0.1.0.1.9/README.md --exclude *.pyd
+[2024-05-22 08:07:26] INFO root fetch - processPackages [odoo-addon-queue-job-subscribe]: executing diffoscope
+[2024-05-22 08:07:26] INFO root fetch - processPackages [odoo-addon-queue-job-subscribe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_queue_job_subscribe-17.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_queue_job_subscribe-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-queue-job-subscribe/17.0.1.0.0.1-17.0.1.0.0.2/README.md --exclude *.pyd
+[2024-05-22 08:07:27] INFO root fetch - processPackages [afl-ai-utils]: Remove: archive file [/home/abi/fetcher/tmp/afl-ai-utils-0.4.8.tar.gz]
+[2024-05-22 08:07:27] INFO root fetch - processPackages [afl-ai-utils]: Remove: archive file [/home/abi/fetcher/tmp/afl-ai-utils-0.4.9.tar.gz]
+[2024-05-22 08:07:27] INFO root fetch - main [MainThread]: End processing [afl-ai-utils]: success
+[2024-05-22 08:07:27] INFO root fetch - processPackages [odoo-addon-purchase-merge]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_merge-16.0.1.0.1.7-py3-none-any.whl.zip]
+[2024-05-22 08:07:27] INFO root fetch - processPackages [odoo-addon-purchase-merge]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_merge-16.0.1.0.1.9-py3-none-any.whl.zip]
+[2024-05-22 08:07:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-merge]: success
+[2024-05-22 08:07:27] INFO root fetch - processPackages [odoo-addon-queue-job-subscribe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job_subscribe-17.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-05-22 08:07:27] INFO root fetch - processPackages [odoo-addon-queue-job-subscribe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job_subscribe-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-22 08:07:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-queue-job-subscribe]: success
+[2024-05-22 08:07:27] INFO root fetch - processPackages [odoo-addon-purchase-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_advance_payment-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-05-22 08:07:27] INFO root fetch - processPackages [odoo-addon-purchase-advance-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_advance_payment-16.0.1.0.1.2-py3-none-any.whl.zip]
+[2024-05-22 08:07:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-advance-payment]: success
+[2024-05-22 08:07:27] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_default_terms_conditions-16.0.1.0.3.1-py3-none-any.whl.zip]
+[2024-05-22 08:07:27] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_default_terms_conditions-16.0.1.0.3.2-py3-none-any.whl.zip]
+[2024-05-22 08:07:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-default-terms-conditions]: success
+[2024-05-22 08:07:27] INFO root fetch - main [MainThread]: Store serial: [23319456]

@@ -9030,3 +9030,18 @@
 [2024-05-22 04:42:52] INFO root fetch - processPackages [connected-components-3d]: Remove: archive file [/home/abi/fetcher/tmp/connected-components-3d-3.9.1.tar.gz]
 [2024-05-22 04:42:52] INFO root fetch - main [MainThread]: End processing [connected-components-3d]: success
 [2024-05-22 04:42:52] INFO root fetch - main [MainThread]: Store serial: [23317779]
+[2024-05-22 04:44:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317779]
+[2024-05-22 04:45:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 04:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lambkid
+[2024-05-22 04:45:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crewai-logging-patch
+[2024-05-22 04:45:01] INFO root fetch - processPackages [lambkid]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-05-22 04:45:01] WARNING root fetch - processPackages [crewai-logging-patch]: Skipping, unable to determine old version
+[2024-05-22 04:45:01] INFO root fetch - main [MainThread]: End processing [crewai-logging-patch] error
+[2024-05-22 04:45:01] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/80/59/21a6ed059753867416cef429e536e04d0c26ac3d0a5d3782b42f7dc6e522/lambkid-0.2.4.tar.gz
+[2024-05-22 04:45:02] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/ef/f3/5455cddb6d817beed9e90f42b3cb22aac2efaefe69f56c67e1135d5b9f34/lambkid-0.2.5.tar.gz
+[2024-05-22 04:45:02] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-05-22 04:45:02] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.2.4.tar.gz tmp/lambkid-0.2.5.tar.gz --markdown 20240522/l/lambkid/0.2.4-0.2.5/README.md --exclude *.pyd
+[2024-05-22 04:45:02] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.2.4.tar.gz]
+[2024-05-22 04:45:02] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.2.5.tar.gz]
+[2024-05-22 04:45:02] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-05-22 04:45:02] INFO root fetch - main [MainThread]: Store serial: [23317797]

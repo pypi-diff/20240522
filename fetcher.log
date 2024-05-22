@@ -13930,3 +13930,54 @@
 [2024-05-22 09:08:07] INFO root fetch - processPackages [django_medilab_ds]: Remove: archive file [/home/abi/fetcher/tmp/django_medilab_ds-3.0.0.tar.gz]
 [2024-05-22 09:08:07] INFO root fetch - main [MainThread]: End processing [django_medilab_ds]: success
 [2024-05-22 09:08:07] INFO root fetch - main [MainThread]: Store serial: [23320028]
+[2024-05-22 09:10:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320028]
+[2024-05-22 09:10:22] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 09:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-orm
+[2024-05-22 09:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-timesheet-task-exclude
+[2024-05-22 09:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-project-task-analytic-propagation
+[2024-05-22 09:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyterlab-amphi
+[2024-05-22 09:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: signaturesnet
+[2024-05-22 09:10:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CalculateMean-Class
+[2024-05-22 09:10:22] INFO root fetch - processPackages [odoo-addon-project-task-analytic-propagation]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-22 09:10:22] INFO root fetch - processPackages [signaturesnet]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-22 09:10:22] INFO root fetch - processPackages [odoo-addon-sale-timesheet-task-exclude]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-05-22 09:10:22] WARNING root fetch - processPackages [CalculateMean-Class]: Skipping, unable to determine old version
+[2024-05-22 09:10:22] INFO root fetch - main [MainThread]: End processing [CalculateMean-Class] error
+[2024-05-22 09:10:22] INFO root fetch - processPackages [nonebot-plugin-orm]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-05-22 09:10:22] INFO root fetch - processPackages [jupyterlab-amphi]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-22 09:10:22] INFO root fetch - processPackages [odoo-addon-sale-timesheet-task-exclude]: Downloading https://files.pythonhosted.org/packages/54/fe/c6c8753445d00c8ba7cc573d3aa1a8ff625a47ce1b0dfd1da807ed16af04/odoo_addon_sale_timesheet_task_exclude-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-22 09:10:22] INFO root fetch - processPackages [odoo-addon-project-task-analytic-propagation]: Downloading https://files.pythonhosted.org/packages/86/eb/0968857dc92d6b15e6429e6120fd6d3b78ee99c1292fd0dd268090cb2565/odoo_addon_project_task_analytic_propagation-16.0.1.0.0.3-py3-none-any.whl
+[2024-05-22 09:10:22] INFO root fetch - processPackages [signaturesnet]: Downloading https://files.pythonhosted.org/packages/a3/6a/aaa621d74d600dc0a43ee66de44753dbb1405fc3b8fccc56f2a1872715cf/signaturesnet-0.0.4.tar.gz
+[2024-05-22 09:10:22] INFO root fetch - processPackages [nonebot-plugin-orm]: Downloading https://files.pythonhosted.org/packages/24/ac/4cd4d6a79a7651cff8b393da773fcc40f0f65618b5eaf8dd0479e962dad7/nonebot_plugin_orm-0.7.2.tar.gz
+[2024-05-22 09:10:22] INFO root fetch - processPackages [jupyterlab-amphi]: Downloading https://files.pythonhosted.org/packages/f3/29/8c11168848afca7c56ca66e0821f5eb2cfdc2602fb36d3e4b740d3a61741/jupyterlab_amphi-0.3.3.tar.gz
+[2024-05-22 09:10:23] INFO root fetch - processPackages [odoo-addon-project-task-analytic-propagation]: Downloading https://files.pythonhosted.org/packages/6d/56/88fd1e711be8b10c83a8986dedf4d492e050ae3465371d09199b6d1788e5/odoo_addon_project_task_analytic_propagation-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-22 09:10:23] INFO root fetch - processPackages [odoo-addon-sale-timesheet-task-exclude]: Downloading https://files.pythonhosted.org/packages/e6/e7/c8fbbed2374b9e3e542c8e3e73d30eaa2c3955a156fe047981503f84c899/odoo_addon_sale_timesheet_task_exclude-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-22 09:10:23] INFO root fetch - processPackages [signaturesnet]: Downloading https://files.pythonhosted.org/packages/9a/cf/8879cb054b0bdbfb1dee9a73110c86d785223afa92a1f3c606d968f98d62/signaturesnet-0.0.5.tar.gz
+[2024-05-22 09:10:23] INFO root fetch - processPackages [odoo-addon-project-task-analytic-propagation]: executing diffoscope
+[2024-05-22 09:10:23] INFO root fetch - processPackages [odoo-addon-project-task-analytic-propagation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_task_analytic_propagation-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_project_task_analytic_propagation-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-project-task-analytic-propagation/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-22 09:10:23] INFO root fetch - processPackages [odoo-addon-sale-timesheet-task-exclude]: executing diffoscope
+[2024-05-22 09:10:23] INFO root fetch - processPackages [odoo-addon-sale-timesheet-task-exclude]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_timesheet_task_exclude-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_sale_timesheet_task_exclude-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-sale-timesheet-task-exclude/16.0.1.0.0.3-16.0.1.0.0.4/README.md --exclude *.pyd
+[2024-05-22 09:10:23] INFO root fetch - processPackages [signaturesnet]: executing diffoscope
+[2024-05-22 09:10:23] INFO root fetch - processPackages [signaturesnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signaturesnet-0.0.4.tar.gz tmp/signaturesnet-0.0.5.tar.gz --markdown 20240522/s/signaturesnet/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-22 09:10:23] INFO root fetch - processPackages [nonebot-plugin-orm]: Downloading https://files.pythonhosted.org/packages/3b/04/6a1bbe2b565356cb6cc896b60fcc0164260b0ca611402d27d93dd1d2e918/nonebot_plugin_orm-0.7.3.tar.gz
+[2024-05-22 09:10:23] INFO root fetch - processPackages [nonebot-plugin-orm]: executing diffoscope
+[2024-05-22 09:10:23] INFO root fetch - processPackages [nonebot-plugin-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_orm-0.7.2.tar.gz tmp/nonebot_plugin_orm-0.7.3.tar.gz --markdown 20240522/n/nonebot-plugin-orm/0.7.2-0.7.3/README.md --exclude *.pyd
+[2024-05-22 09:10:23] INFO root fetch - processPackages [jupyterlab-amphi]: Downloading https://files.pythonhosted.org/packages/6c/13/1e8638bdca271fee6208d1f734d2d5e876231762fc1f8661606f371f8182/jupyterlab_amphi-0.3.4.tar.gz
+[2024-05-22 09:10:23] INFO root fetch - processPackages [jupyterlab-amphi]: executing diffoscope
+[2024-05-22 09:10:23] INFO root fetch - processPackages [jupyterlab-amphi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_amphi-0.3.3.tar.gz tmp/jupyterlab_amphi-0.3.4.tar.gz --markdown 20240522/j/jupyterlab-amphi/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-22 09:10:23] INFO root fetch - processPackages [odoo-addon-sale-timesheet-task-exclude]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_timesheet_task_exclude-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-22 09:10:23] INFO root fetch - processPackages [odoo-addon-sale-timesheet-task-exclude]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_timesheet_task_exclude-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-22 09:10:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-timesheet-task-exclude]: success
+[2024-05-22 09:10:23] INFO root fetch - processPackages [odoo-addon-project-task-analytic-propagation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_task_analytic_propagation-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-22 09:10:23] INFO root fetch - processPackages [odoo-addon-project-task-analytic-propagation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_project_task_analytic_propagation-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-22 09:10:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-task-analytic-propagation]: success
+[2024-05-22 09:10:24] INFO root fetch - processPackages [signaturesnet]: Remove: archive file [/home/abi/fetcher/tmp/signaturesnet-0.0.4.tar.gz]
+[2024-05-22 09:10:24] INFO root fetch - processPackages [signaturesnet]: Remove: archive file [/home/abi/fetcher/tmp/signaturesnet-0.0.5.tar.gz]
+[2024-05-22 09:10:24] INFO root fetch - main [MainThread]: End processing [signaturesnet]: success
+[2024-05-22 09:10:24] INFO root fetch - processPackages [nonebot-plugin-orm]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_orm-0.7.2.tar.gz]
+[2024-05-22 09:10:24] INFO root fetch - processPackages [nonebot-plugin-orm]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_orm-0.7.3.tar.gz]
+[2024-05-22 09:10:24] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-orm]: success
+[2024-05-22 09:11:13] INFO root fetch - processPackages [jupyterlab-amphi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_amphi-0.3.3.tar.gz]
+[2024-05-22 09:11:13] INFO root fetch - processPackages [jupyterlab-amphi]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_amphi-0.3.4.tar.gz]
+[2024-05-22 09:11:13] INFO root fetch - main [MainThread]: End processing [jupyterlab-amphi]: success
+[2024-05-22 09:11:13] INFO root fetch - main [MainThread]: Store serial: [23320047]

@@ -3602,3 +3602,36 @@
 [2024-05-22 03:00:54] INFO root fetch - processPackages [dyff-schema]: Remove: archive file [/home/abi/fetcher/tmp/dyff_schema-0.7.0.tar.gz]
 [2024-05-22 03:00:54] INFO root fetch - main [MainThread]: End processing [dyff-schema]: success
 [2024-05-22 03:00:54] INFO root fetch - main [MainThread]: Store serial: [23315827]
+[2024-05-22 03:02:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315827]
+[2024-05-22 03:03:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 03:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wwbot
+[2024-05-22 03:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yoto-api
+[2024-05-22 03:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llama-index-llms-lmstudio
+[2024-05-22 03:03:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index-readers-mongodb
+[2024-05-22 03:03:03] INFO root fetch - processPackages [wwbot]: New version: [0.0.9] Old Version: [0.0.8rc0]
+[2024-05-22 03:03:03] WARNING root fetch - processPackages [llama-index-llms-lmstudio]: Skipping, unable to determine old version
+[2024-05-22 03:03:03] INFO root fetch - main [MainThread]: End processing [llama-index-llms-lmstudio] error
+[2024-05-22 03:03:03] INFO root fetch - processPackages [llama-index-readers-mongodb]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-22 03:03:03] INFO root fetch - processPackages [yoto-api]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-22 03:03:04] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/f0/d6/539254b35a392b94716fc626b6b39fc2c1eeecf81b065028e8a8fa69ff5c/wwbot-0.0.8rc0.tar.gz
+[2024-05-22 03:03:04] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/0c/ce/e8631b9319eccf4ffbaef962e56044d41f29cb3f8c07be1556f741f2569a/yoto_api-1.8.0.tar.gz
+[2024-05-22 03:03:04] INFO root fetch - processPackages [llama-index-readers-mongodb]: Downloading https://files.pythonhosted.org/packages/b6/33/dae6b2f5155c90f3f1629d70b9c5e5ad7ab89f6ad58a7b12d732806ec8a2/llama_index_readers_mongodb-0.1.4.tar.gz
+[2024-05-22 03:03:04] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/60/06/f0d1dcf91cb575c47d6f9af17bfe431bf2e41fe342cd78c7d65bd6c8a27b/wwbot-0.0.9.tar.gz
+[2024-05-22 03:03:04] INFO root fetch - processPackages [yoto-api]: Downloading https://files.pythonhosted.org/packages/28/bc/e9d37198654bf82ae9be692dd9ee95b753eb8ca5b6edf44ab69ecca38f17/yoto_api-1.9.0.tar.gz
+[2024-05-22 03:03:04] INFO root fetch - processPackages [llama-index-readers-mongodb]: Downloading https://files.pythonhosted.org/packages/af/3d/287faaa098f792d64b2dbb6dda7ce8314982b80e8f1ed8e41d916f2a84b4/llama_index_readers_mongodb-0.1.5.tar.gz
+[2024-05-22 03:03:04] INFO root fetch - processPackages [wwbot]: executing diffoscope
+[2024-05-22 03:03:04] INFO root fetch - processPackages [wwbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwbot-0.0.8rc0.tar.gz tmp/wwbot-0.0.9.tar.gz --markdown 20240522/w/wwbot/0.0.8rc0-0.0.9/README.md --exclude *.pyd
+[2024-05-22 03:03:04] INFO root fetch - processPackages [yoto-api]: executing diffoscope
+[2024-05-22 03:03:04] INFO root fetch - processPackages [yoto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yoto_api-1.8.0.tar.gz tmp/yoto_api-1.9.0.tar.gz --markdown 20240522/y/yoto-api/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-22 03:03:04] INFO root fetch - processPackages [llama-index-readers-mongodb]: executing diffoscope
+[2024-05-22 03:03:04] INFO root fetch - processPackages [llama-index-readers-mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_readers_mongodb-0.1.4.tar.gz tmp/llama_index_readers_mongodb-0.1.5.tar.gz --markdown 20240522/l/llama-index-readers-mongodb/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-22 03:03:05] INFO root fetch - processPackages [llama-index-readers-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_mongodb-0.1.4.tar.gz]
+[2024-05-22 03:03:05] INFO root fetch - processPackages [llama-index-readers-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_readers_mongodb-0.1.5.tar.gz]
+[2024-05-22 03:03:05] INFO root fetch - main [MainThread]: End processing [llama-index-readers-mongodb]: success
+[2024-05-22 03:03:05] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.8.0.tar.gz]
+[2024-05-22 03:03:05] INFO root fetch - processPackages [yoto-api]: Remove: archive file [/home/abi/fetcher/tmp/yoto_api-1.9.0.tar.gz]
+[2024-05-22 03:03:05] INFO root fetch - main [MainThread]: End processing [yoto-api]: success
+[2024-05-22 03:03:05] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.8rc0.tar.gz]
+[2024-05-22 03:03:05] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.9.tar.gz]
+[2024-05-22 03:03:05] INFO root fetch - main [MainThread]: End processing [wwbot]: success
+[2024-05-22 03:03:05] INFO root fetch - main [MainThread]: Store serial: [23315841]

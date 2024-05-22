@@ -14680,3 +14680,74 @@
 [2024-05-22 09:37:47] INFO root fetch - processPackages [longport]: Remove: archive file [/home/abi/fetcher/tmp/longport-1.0.9.tar.gz]
 [2024-05-22 09:37:47] INFO root fetch - main [MainThread]: End processing [longport]: success
 [2024-05-22 09:37:47] INFO root fetch - main [MainThread]: Store serial: [23320324]
+[2024-05-22 09:39:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320324]
+[2024-05-22 09:39:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 09:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intensity-logger
+[2024-05-22 09:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lalsuite
+[2024-05-22 09:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BioLizardStylePython
+[2024-05-22 09:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-sign-oca
+[2024-05-22 09:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: akshare
+[2024-05-22 09:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odp-sdk
+[2024-05-22 09:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: magpylib
+[2024-05-22 09:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mc-netease-sdk
+[2024-05-22 09:39:56] INFO root fetch - processPackages [odoo-addon-sign-oca]: New version: [16.0.2.0.0.1] Old Version: [16.0.2.0.0]
+[2024-05-22 09:39:56] INFO root fetch - processPackages [intensity-logger]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-05-22 09:39:56] INFO root fetch - processPackages [odoo-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/77/75/27442480829f697a78028a8a53db359944e4bb54bc8227a7a18a141473fb/odoo_addon_sign_oca-16.0.2.0.0-py3-none-any.whl
+[2024-05-22 09:39:56] INFO root fetch - processPackages [intensity-logger]: Downloading https://files.pythonhosted.org/packages/53/a2/99f080f36610ecdb7d03525ca5a1f86490c6b326b1b49fec4405eab810b5/intensity_logger-0.1.1.tar.gz
+[2024-05-22 09:39:56] INFO root fetch - processPackages [BioLizardStylePython]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-05-22 09:39:56] INFO root fetch - processPackages [odp-sdk]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-05-22 09:39:56] INFO root fetch - processPackages [magpylib]: New version: [5.0.2] Old Version: [5.0.1]
+[2024-05-22 09:39:56] INFO root fetch - processPackages [mc-netease-sdk]: New version: [2.9.0.44290] Old Version: [2.9.0.44274]
+[2024-05-22 09:39:56] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-05-22 09:39:56] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-05-22 09:39:56] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-05-22 09:39:57] INFO root fetch - processPackages [BioLizardStylePython]: Downloading https://files.pythonhosted.org/packages/93/08/63745940e29a62c914a8ea4dec0702cd229bada25df6811c74aebe0be074/biolizardstylepython-0.1.0.tar.gz
+[2024-05-22 09:39:57] INFO root fetch - processPackages [mc-netease-sdk]: Downloading https://files.pythonhosted.org/packages/ce/bd/ce66c963701930ef65984ffe07a603cf9a40839ee616187f8a9af3b96d24/mc_netease_sdk-2.9.0.44274-py2-none-any.whl
+[2024-05-22 09:39:57] INFO root fetch - processPackages [odp-sdk]: Downloading https://files.pythonhosted.org/packages/0c/d7/6786eab810e93a55929b9db3e01f60e5730ec2afe2830751c9bc30a33eb7/odp_sdk-0.4.8.tar.gz
+[2024-05-22 09:39:57] INFO root fetch - processPackages [odoo-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/c1/9c/226a355ebd01a8fc89a1ee94839ba9a4a5a835c9353141ad5b955cd8b7b8/odoo_addon_sign_oca-16.0.2.0.0.1-py3-none-any.whl
+[2024-05-22 09:39:57] INFO root fetch - processPackages [magpylib]: Downloading https://files.pythonhosted.org/packages/19/d3/8603a7392382bcc8927443281adcd8292318598c8889084f85acbc4a2ddb/magpylib-5.0.1.tar.gz
+[2024-05-22 09:39:57] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-05-22 09:39:57] INFO root fetch - processPackages [intensity-logger]: Downloading https://files.pythonhosted.org/packages/9d/b1/f507c20c2670b81683543ea90bb7aefe1f9b4b90e3bc762da7bf59cc72eb/intensity_logger-0.1.2.tar.gz
+[2024-05-22 09:39:57] INFO root fetch - processPackages [odoo-addon-sign-oca]: executing diffoscope
+[2024-05-22 09:39:57] INFO root fetch - processPackages [odoo-addon-sign-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sign_oca-16.0.2.0.0-py3-none-any.whl.zip tmp/odoo_addon_sign_oca-16.0.2.0.0.1-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-sign-oca/16.0.2.0.0-16.0.2.0.0.1/README.md --exclude *.pyd
+[2024-05-22 09:39:57] INFO root fetch - processPackages [intensity-logger]: executing diffoscope
+[2024-05-22 09:39:57] INFO root fetch - processPackages [intensity-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intensity_logger-0.1.1.tar.gz tmp/intensity_logger-0.1.2.tar.gz --markdown 20240522/i/intensity-logger/0.1.1-0.1.2/README.md --exclude *.pyd
+[2024-05-22 09:39:57] INFO root fetch - processPackages [BioLizardStylePython]: Downloading https://files.pythonhosted.org/packages/7b/b1/302d115063343be3947ef102bf1a46cda60590d4d34dffbb2bbf3c505fd8/biolizardstylepython-0.2.0.tar.gz
+[2024-05-22 09:39:57] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-05-22 09:39:57] INFO root fetch - processPackages [odp-sdk]: Downloading https://files.pythonhosted.org/packages/2d/a3/afccdb1099b3b43252f67f4255e00d2fe91582b91933dc6065455fd43ec8/odp_sdk-0.4.9.tar.gz
+[2024-05-22 09:39:57] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-05-22 09:39:57] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-05-22 09:39:57] INFO root fetch - processPackages [mc-netease-sdk]: Downloading https://files.pythonhosted.org/packages/63/0d/f58f720ee05ea75b4a3c959d9fa6e49e17b844e50741adff621cdf8590a5/mc_netease_sdk-2.9.0.44290-py2-none-any.whl
+[2024-05-22 09:39:57] INFO root fetch - processPackages [odp-sdk]: executing diffoscope
+[2024-05-22 09:39:57] INFO root fetch - processPackages [odp-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odp_sdk-0.4.8.tar.gz tmp/odp_sdk-0.4.9.tar.gz --markdown 20240522/o/odp-sdk/0.4.8-0.4.9/README.md --exclude *.pyd
+[2024-05-22 09:39:57] INFO root fetch - processPackages [BioLizardStylePython]: executing diffoscope
+[2024-05-22 09:39:57] INFO root fetch - processPackages [BioLizardStylePython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biolizardstylepython-0.1.0.tar.gz tmp/biolizardstylepython-0.2.0.tar.gz --markdown 20240522/B/BioLizardStylePython/0.1.0-0.2.0/README.md --exclude *.pyd
+[2024-05-22 09:39:57] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-05-22 09:39:57] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240522/a/akshare/1.9.98-1.9.99/README.md --exclude *.pyd
+[2024-05-22 09:39:57] INFO root fetch - processPackages [mc-netease-sdk]: executing diffoscope
+[2024-05-22 09:39:57] INFO root fetch - processPackages [mc-netease-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mc_netease_sdk-2.9.0.44274-py2-none-any.whl.zip tmp/mc_netease_sdk-2.9.0.44290-py2-none-any.whl.zip --markdown 20240522/m/mc-netease-sdk/2.9.0.44274-2.9.0.44290/README.md --exclude *.pyd
+[2024-05-22 09:39:58] INFO root fetch - processPackages [magpylib]: Downloading https://files.pythonhosted.org/packages/31/cc/60764d409ad96e5bfd3e2b0d54944a476d74a9294941cb42416e2e84733f/magpylib-5.0.2.tar.gz
+[2024-05-22 09:39:58] INFO root fetch - processPackages [intensity-logger]: Remove: archive file [/home/abi/fetcher/tmp/intensity_logger-0.1.1.tar.gz]
+[2024-05-22 09:39:58] INFO root fetch - processPackages [intensity-logger]: Remove: archive file [/home/abi/fetcher/tmp/intensity_logger-0.1.2.tar.gz]
+[2024-05-22 09:39:58] INFO root fetch - main [MainThread]: End processing [intensity-logger]: success
+[2024-05-22 09:39:58] INFO root fetch - processPackages [odoo-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sign_oca-16.0.2.0.0-py3-none-any.whl.zip]
+[2024-05-22 09:39:58] INFO root fetch - processPackages [odoo-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sign_oca-16.0.2.0.0.1-py3-none-any.whl.zip]
+[2024-05-22 09:39:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-sign-oca]: success
+[2024-05-22 09:39:58] INFO root fetch - processPackages [odp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk-0.4.8.tar.gz]
+[2024-05-22 09:39:58] INFO root fetch - processPackages [odp-sdk]: Remove: archive file [/home/abi/fetcher/tmp/odp_sdk-0.4.9.tar.gz]
+[2024-05-22 09:39:58] INFO root fetch - main [MainThread]: End processing [odp-sdk]: success
+[2024-05-22 09:39:58] INFO root fetch - processPackages [BioLizardStylePython]: Remove: archive file [/home/abi/fetcher/tmp/biolizardstylepython-0.1.0.tar.gz]
+[2024-05-22 09:39:58] INFO root fetch - processPackages [BioLizardStylePython]: Remove: archive file [/home/abi/fetcher/tmp/biolizardstylepython-0.2.0.tar.gz]
+[2024-05-22 09:39:58] INFO root fetch - main [MainThread]: End processing [BioLizardStylePython]: success
+[2024-05-22 09:39:59] INFO root fetch - processPackages [magpylib]: executing diffoscope
+[2024-05-22 09:39:59] INFO root fetch - processPackages [magpylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magpylib-5.0.1.tar.gz tmp/magpylib-5.0.2.tar.gz --markdown 20240522/m/magpylib/5.0.1-5.0.2/README.md --exclude *.pyd
+[2024-05-22 09:39:59] INFO root fetch - processPackages [mc-netease-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mc_netease_sdk-2.9.0.44274-py2-none-any.whl.zip]
+[2024-05-22 09:39:59] INFO root fetch - processPackages [mc-netease-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mc_netease_sdk-2.9.0.44290-py2-none-any.whl.zip]
+[2024-05-22 09:39:59] INFO root fetch - main [MainThread]: End processing [mc-netease-sdk]: success
+[2024-05-22 09:40:00] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-05-22 09:40:00] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-05-22 09:40:00] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-05-22 09:40:01] INFO root fetch - processPackages [magpylib]: Remove: archive file [/home/abi/fetcher/tmp/magpylib-5.0.1.tar.gz]
+[2024-05-22 09:40:01] INFO root fetch - processPackages [magpylib]: Remove: archive file [/home/abi/fetcher/tmp/magpylib-5.0.2.tar.gz]
+[2024-05-22 09:40:01] INFO root fetch - main [MainThread]: End processing [magpylib]: success
+[2024-05-22 09:40:01] INFO root fetch - main [MainThread]: Store serial: [23320382]

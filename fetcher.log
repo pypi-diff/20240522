@@ -14059,3 +14059,15 @@
 [2024-05-22 09:13:27] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-05-22 09:13:27] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-05-22 09:13:27] INFO root fetch - main [MainThread]: Store serial: [23320069]
+[2024-05-22 09:15:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320069]
+[2024-05-22 09:15:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 09:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cortexquest
+[2024-05-22 09:15:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: signaturesnet
+[2024-05-22 09:15:36] INFO root fetch - processPackages [signaturesnet]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-22 09:15:36] WARNING root fetch - processPackages [cortexquest]: Skipping, unable to determine old version
+[2024-05-22 09:15:36] INFO root fetch - main [MainThread]: End processing [cortexquest] error
+[2024-05-22 09:15:36] INFO root fetch - processPackages [signaturesnet]: Downloading https://files.pythonhosted.org/packages/9a/cf/8879cb054b0bdbfb1dee9a73110c86d785223afa92a1f3c606d968f98d62/signaturesnet-0.0.5.tar.gz
+[2024-05-22 09:15:36] INFO root fetch - processPackages [signaturesnet]: Downloading https://files.pythonhosted.org/packages/38/90/ae9ec30bda7bd0c60c9153192884c129f5848f68abf3c39489f0f95893d4/signaturesnet-0.0.6.tar.gz
+[2024-05-22 09:15:36] WARNING root fetch - processPackages [signaturesnet]: Skipping package: exceeds size limit 70688490>=10485760
+[2024-05-22 09:15:36] INFO root fetch - main [MainThread]: End processing [signaturesnet] error
+[2024-05-22 09:15:36] INFO root fetch - main [MainThread]: Store serial: [23320077]

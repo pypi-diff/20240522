@@ -9530,3 +9530,60 @@
 [2024-05-22 05:06:48] INFO root fetch - processPackages [threadmem]: Remove: archive file [/home/abi/fetcher/tmp/threadmem-0.2.9.tar.gz]
 [2024-05-22 05:06:48] INFO root fetch - main [MainThread]: End processing [threadmem]: success
 [2024-05-22 05:06:48] INFO root fetch - main [MainThread]: Store serial: [23318078]
+[2024-05-22 05:08:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318078]
+[2024-05-22 05:08:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: commitizen
+[2024-05-22 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: firspackage
+[2024-05-22 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mavisim
+[2024-05-22 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiZero
+[2024-05-22 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: baseball
+[2024-05-22 05:08:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hugchat
+[2024-05-22 05:08:57] INFO root fetch - processPackages [commitizen]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-05-22 05:08:57] INFO root fetch - processPackages [firspackage]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-05-22 05:08:57] INFO root fetch - processPackages [baseball]: New version: [9.9] Old Version: [9.8]
+[2024-05-22 05:08:57] INFO root fetch - processPackages [aiZero]: New version: [0.0.2a2] Old Version: [0.0.2a1]
+[2024-05-22 05:08:57] INFO root fetch - processPackages [mavisim]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-05-22 05:08:57] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/44/a7/117033ebdea50528ddcf8657f5e166b266c2509b4db9629819aa259707ef/commitizen-3.9.0.tar.gz
+[2024-05-22 05:08:57] INFO root fetch - processPackages [hugchat]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-05-22 05:08:57] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/04/2a/8b198995c2f8d35c19f4b1e0e6c5c067e955f1258d57c1b1341eab88715e/baseball-9.8.tar.gz
+[2024-05-22 05:08:57] INFO root fetch - processPackages [firspackage]: Downloading https://files.pythonhosted.org/packages/20/1c/7a9a0ecbb8a894c5947c9d80a33bf90cb7ba161350f73221afd24e617492/firspackage-0.0.1.tar.gz
+[2024-05-22 05:08:57] INFO root fetch - processPackages [aiZero]: Downloading https://files.pythonhosted.org/packages/d8/ba/0aac1216483f57e83079900d65b31c300be3f150e190a12c7f1e72ed8fab/aiZero-0.0.2a1.tar.gz
+[2024-05-22 05:08:57] INFO root fetch - processPackages [mavisim]: Downloading https://files.pythonhosted.org/packages/9d/5a/e0dbe7e6ff03853bc0e2145643cb31136d19ef2e12c315b298ce9e743185/mavisim-1.1.8.tar.gz
+[2024-05-22 05:08:57] INFO root fetch - processPackages [commitizen]: Downloading https://files.pythonhosted.org/packages/1e/db/0711734fc2cd7bb61b915fe0e6734a910f900fa860dc99d4509ee5bbf292/commitizen-3.9.1.tar.gz
+[2024-05-22 05:08:57] INFO root fetch - processPackages [hugchat]: Downloading https://files.pythonhosted.org/packages/d0/01/82de0f26a3f924366888f1c68844ea2ff7d5b21712bd03294bcbd46de3d1/hugchat-0.4.5.tar.gz
+[2024-05-22 05:08:58] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/1a/e0/fb3c48a01fd33034695694663cfddfb7a099e47f8aa30dc6c901a5fcee37/baseball-9.9.tar.gz
+[2024-05-22 05:08:58] INFO root fetch - processPackages [commitizen]: executing diffoscope
+[2024-05-22 05:08:58] INFO root fetch - processPackages [commitizen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commitizen-3.9.0.tar.gz tmp/commitizen-3.9.1.tar.gz --markdown 20240522/c/commitizen/3.9.0-3.9.1/README.md --exclude *.pyd
+[2024-05-22 05:08:58] INFO root fetch - processPackages [baseball]: executing diffoscope
+[2024-05-22 05:08:58] INFO root fetch - processPackages [baseball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseball-9.8.tar.gz tmp/baseball-9.9.tar.gz --markdown 20240522/b/baseball/9.8-9.9/README.md --exclude *.pyd
+[2024-05-22 05:08:58] INFO root fetch - processPackages [firspackage]: Downloading https://files.pythonhosted.org/packages/10/ff/1f1dd96d24dd48cc13e44a2b70f7eb75831bea06e399d1020d04181f3330/firspackage-0.0.2.tar.gz
+[2024-05-22 05:08:58] INFO root fetch - processPackages [firspackage]: executing diffoscope
+[2024-05-22 05:08:58] INFO root fetch - processPackages [firspackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firspackage-0.0.1.tar.gz tmp/firspackage-0.0.2.tar.gz --markdown 20240522/f/firspackage/0.0.1-0.0.2/README.md --exclude *.pyd
+[2024-05-22 05:08:58] INFO root fetch - processPackages [mavisim]: Downloading https://files.pythonhosted.org/packages/fa/1a/6083d193a61e74fb23f8c5eda765dd8b1f9acc6333e87b23faa729ff53b3/mavisim-1.1.9.tar.gz
+[2024-05-22 05:08:58] INFO root fetch - processPackages [aiZero]: Downloading https://files.pythonhosted.org/packages/5c/31/36c00ac8300ab879daba0fd808d1e62e9c278c9caaab7374628d36f354b1/aiZero-0.0.2a2.tar.gz
+[2024-05-22 05:08:58] INFO root fetch - processPackages [hugchat]: Downloading https://files.pythonhosted.org/packages/ca/07/0ef7ea1acc944b92aa440125d84668d459161382ce1617eddf45c1f72e9c/hugchat-0.4.6.tar.gz
+[2024-05-22 05:08:58] INFO root fetch - processPackages [mavisim]: executing diffoscope
+[2024-05-22 05:08:58] INFO root fetch - processPackages [mavisim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mavisim-1.1.8.tar.gz tmp/mavisim-1.1.9.tar.gz --markdown 20240522/m/mavisim/1.1.8-1.1.9/README.md --exclude *.pyd
+[2024-05-22 05:08:58] INFO root fetch - processPackages [aiZero]: executing diffoscope
+[2024-05-22 05:08:58] INFO root fetch - processPackages [aiZero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiZero-0.0.2a1.tar.gz tmp/aiZero-0.0.2a2.tar.gz --markdown 20240522/a/aiZero/0.0.2a1-0.0.2a2/README.md --exclude *.pyd
+[2024-05-22 05:08:58] INFO root fetch - processPackages [hugchat]: executing diffoscope
+[2024-05-22 05:08:58] INFO root fetch - processPackages [hugchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugchat-0.4.5.tar.gz tmp/hugchat-0.4.6.tar.gz --markdown 20240522/h/hugchat/0.4.5-0.4.6/README.md --exclude *.pyd
+[2024-05-22 05:08:58] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.8.tar.gz]
+[2024-05-22 05:08:58] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.9.tar.gz]
+[2024-05-22 05:08:58] INFO root fetch - main [MainThread]: End processing [baseball]: success
+[2024-05-22 05:08:58] INFO root fetch - processPackages [firspackage]: Remove: archive file [/home/abi/fetcher/tmp/firspackage-0.0.1.tar.gz]
+[2024-05-22 05:08:58] INFO root fetch - processPackages [firspackage]: Remove: archive file [/home/abi/fetcher/tmp/firspackage-0.0.2.tar.gz]
+[2024-05-22 05:08:58] INFO root fetch - main [MainThread]: End processing [firspackage]: success
+[2024-05-22 05:08:59] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.9.0.tar.gz]
+[2024-05-22 05:08:59] INFO root fetch - processPackages [commitizen]: Remove: archive file [/home/abi/fetcher/tmp/commitizen-3.9.1.tar.gz]
+[2024-05-22 05:08:59] INFO root fetch - main [MainThread]: End processing [commitizen]: success
+[2024-05-22 05:08:59] INFO root fetch - processPackages [mavisim]: Remove: archive file [/home/abi/fetcher/tmp/mavisim-1.1.8.tar.gz]
+[2024-05-22 05:08:59] INFO root fetch - processPackages [mavisim]: Remove: archive file [/home/abi/fetcher/tmp/mavisim-1.1.9.tar.gz]
+[2024-05-22 05:08:59] INFO root fetch - main [MainThread]: End processing [mavisim]: success
+[2024-05-22 05:08:59] INFO root fetch - processPackages [aiZero]: Remove: archive file [/home/abi/fetcher/tmp/aiZero-0.0.2a1.tar.gz]
+[2024-05-22 05:08:59] INFO root fetch - processPackages [aiZero]: Remove: archive file [/home/abi/fetcher/tmp/aiZero-0.0.2a2.tar.gz]
+[2024-05-22 05:08:59] INFO root fetch - main [MainThread]: End processing [aiZero]: success
+[2024-05-22 05:08:59] INFO root fetch - processPackages [hugchat]: Remove: archive file [/home/abi/fetcher/tmp/hugchat-0.4.5.tar.gz]
+[2024-05-22 05:08:59] INFO root fetch - processPackages [hugchat]: Remove: archive file [/home/abi/fetcher/tmp/hugchat-0.4.6.tar.gz]
+[2024-05-22 05:08:59] INFO root fetch - main [MainThread]: End processing [hugchat]: success
+[2024-05-22 05:08:59] INFO root fetch - main [MainThread]: Store serial: [23318099]

@@ -8467,3 +8467,96 @@
 [2024-05-22 04:20:53] INFO root fetch - processPackages [cdindex]: Remove: archive file [/home/abi/fetcher/tmp/cdindex-1.0.9.tar.gz]
 [2024-05-22 04:20:53] INFO root fetch - main [MainThread]: End processing [cdindex]: success
 [2024-05-22 04:20:53] INFO root fetch - main [MainThread]: Store serial: [23317542]
+[2024-05-22 04:22:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317542]
+[2024-05-22 04:23:02] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-22 04:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reverse-life
+[2024-05-22 04:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: backend1
+[2024-05-22 04:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-setuptools
+[2024-05-22 04:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-pep8-naming
+[2024-05-22 04:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alamos
+[2024-05-22 04:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: types-hvac
+[2024-05-22 04:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: landusemix
+[2024-05-22 04:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: synnax-freighter
+[2024-05-22 04:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: baseball
+[2024-05-22 04:23:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: blueness
+[2024-05-22 04:23:02] INFO root fetch - processPackages [reverse-life]: New version: [1.2.1] Old Version: [1.0.1]
+[2024-05-22 04:23:02] INFO root fetch - processPackages [alamos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-22 04:23:02] INFO root fetch - processPackages [backend1]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-05-22 04:23:02] INFO root fetch - processPackages [landusemix]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-22 04:23:02] INFO root fetch - processPackages [blueness]: New version: [3.9.1] Old Version: [3.7.1]
+[2024-05-22 04:23:02] INFO root fetch - processPackages [baseball]: New version: [9.9] Old Version: [9.8]
+[2024-05-22 04:23:02] INFO root fetch - processPackages [synnax-freighter]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-22 04:23:02] INFO root fetch - processPackages [types-hvac]: New version: [2.2.0.20240522] Old Version: [2.1.0.20240514]
+[2024-05-22 04:23:02] INFO root fetch - processPackages [types-pep8-naming]: New version: [0.14.0.20240522] Old Version: [0.13.0.5]
+[2024-05-22 04:23:02] INFO root fetch - processPackages [types-setuptools]: New version: [69.5.0.20240522] Old Version: [69.5.0.20240519]
+[2024-05-22 04:23:02] INFO root fetch - processPackages [reverse-life]: Downloading https://files.pythonhosted.org/packages/f2/ea/41dee766c9fddbfd049f4869c6e5b78b513b17af78947404718add4393cf/reverse_life-1.0.1.tar.gz
+[2024-05-22 04:23:02] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c5/2b/b12c4308c7fb396e018ffbe6ec0f046170906ae98b188985b537619e0f55/alamos-0.3.8.tar.gz
+[2024-05-22 04:23:02] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/86/d4/e8b769417baf31b335408a29a80b371b6421e59db03087a6e1c943bb5d84/blueness-3.7.1.tar.gz
+[2024-05-22 04:23:02] INFO root fetch - processPackages [landusemix]: Downloading https://files.pythonhosted.org/packages/84/de/352fbebba1849d15a15854d7d377e050add24eeb82649a678219bc1e83d3/landusemix-0.0.5.tar.gz
+[2024-05-22 04:23:02] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/04/2a/8b198995c2f8d35c19f4b1e0e6c5c067e955f1258d57c1b1341eab88715e/baseball-9.8.tar.gz
+[2024-05-22 04:23:02] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/73/49/ce9ba5821f001d820fe348eef14ea631c0d54f20289c0aa2458ec4b14c23/synnax_freighter-0.7.8.tar.gz
+[2024-05-22 04:23:02] INFO root fetch - processPackages [backend1]: Downloading https://files.pythonhosted.org/packages/85/3a/1fc1c5ffc1cadd2bcb51ffb69aff0329903b8527cd2f87fa0f113bf30c95/backend1-1.0.2.tar.gz
+[2024-05-22 04:23:02] INFO root fetch - processPackages [types-hvac]: Downloading https://files.pythonhosted.org/packages/7d/3e/ffb7d333d6cc85ec1d37c4d845681706bdcb1b536d4f6348d1ecb8b27b03/types-hvac-2.1.0.20240514.tar.gz
+[2024-05-22 04:23:02] INFO root fetch - processPackages [types-pep8-naming]: Downloading https://files.pythonhosted.org/packages/81/c7/5e6b4dcade744cc98fd5d7aeca1e0710a4c736cfb81cad35fdcda460510d/types-pep8-naming-0.13.0.5.tar.gz
+[2024-05-22 04:23:02] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/bd/8f/0397ab7741a48504896deaf394720ccb574b91e47fe2ef2e696585686058/types-setuptools-69.5.0.20240519.tar.gz
+[2024-05-22 04:23:02] INFO root fetch - processPackages [reverse-life]: Downloading https://files.pythonhosted.org/packages/d7/f1/3d32bffe7749d7b58b5644b395ba27fbd718dd4bc6369352699862218e2f/reverse_life-1.2.1.tar.gz
+[2024-05-22 04:23:02] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c1/08/cf40db715e810dc50be82dd822b41aefe7a4903f73ac57533c85bc63cf9d/alamos-0.3.9.tar.gz
+[2024-05-22 04:23:02] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/bb/6c/4f8063f6de43bbfcce0c161a49b6afe38d15dfecb071f23bc7663a1b1714/blueness-3.9.1.tar.gz
+[2024-05-22 04:23:03] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/fa/ba/9098a994969c4ac9fa5a1d947ac5ede1ea8e8cf5d2b40c82db732fd56bad/synnax_freighter-0.7.9.tar.gz
+[2024-05-22 04:23:03] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/1a/e0/fb3c48a01fd33034695694663cfddfb7a099e47f8aa30dc6c901a5fcee37/baseball-9.9.tar.gz
+[2024-05-22 04:23:03] INFO root fetch - processPackages [landusemix]: Downloading https://files.pythonhosted.org/packages/42/f9/5be91755e04682af83020a3d7e96db46622145d6a281c19d7dbbaf728668/landusemix-0.0.6.tar.gz
+[2024-05-22 04:23:03] INFO root fetch - processPackages [reverse-life]: executing diffoscope
+[2024-05-22 04:23:03] INFO root fetch - processPackages [reverse-life]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reverse_life-1.0.1.tar.gz tmp/reverse_life-1.2.1.tar.gz --markdown 20240522/r/reverse-life/1.0.1-1.2.1/README.md --exclude *.pyd
+[2024-05-22 04:23:03] INFO root fetch - processPackages [backend1]: Downloading https://files.pythonhosted.org/packages/fe/fb/14567f308b97aa96f9faf7e7a0f6c3979168edc8c28e4125aca56e6c5386/backend1-1.0.3.tar.gz
+[2024-05-22 04:23:03] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-05-22 04:23:03] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.8.tar.gz tmp/alamos-0.3.9.tar.gz --markdown 20240522/a/alamos/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-22 04:23:03] INFO root fetch - processPackages [blueness]: executing diffoscope
+[2024-05-22 04:23:03] INFO root fetch - processPackages [blueness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueness-3.7.1.tar.gz tmp/blueness-3.9.1.tar.gz --markdown 20240522/b/blueness/3.7.1-3.9.1/README.md --exclude *.pyd
+[2024-05-22 04:23:03] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-05-22 04:23:03] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.7.8.tar.gz tmp/synnax_freighter-0.7.9.tar.gz --markdown 20240522/s/synnax-freighter/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-22 04:23:03] INFO root fetch - processPackages [baseball]: executing diffoscope
+[2024-05-22 04:23:03] INFO root fetch - processPackages [baseball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseball-9.8.tar.gz tmp/baseball-9.9.tar.gz --markdown 20240522/b/baseball/9.8-9.9/README.md --exclude *.pyd
+[2024-05-22 04:23:03] INFO root fetch - processPackages [landusemix]: executing diffoscope
+[2024-05-22 04:23:03] INFO root fetch - processPackages [landusemix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landusemix-0.0.5.tar.gz tmp/landusemix-0.0.6.tar.gz --markdown 20240522/l/landusemix/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-22 04:23:03] INFO root fetch - processPackages [backend1]: executing diffoscope
+[2024-05-22 04:23:03] INFO root fetch - processPackages [backend1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend1-1.0.2.tar.gz tmp/backend1-1.0.3.tar.gz --markdown 20240522/b/backend1/1.0.2-1.0.3/README.md --exclude *.pyd
+[2024-05-22 04:23:03] INFO root fetch - processPackages [types-hvac]: Downloading https://files.pythonhosted.org/packages/3d/c2/402ea8231a098a11b9841f21437668f7b02967f0795ecd686803fd70ea78/types-hvac-2.2.0.20240522.tar.gz
+[2024-05-22 04:23:03] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/45/dd/dc7fdc8086cb19f081fdc76476a8707c515d0f81abef94b7845b604ceedd/types-setuptools-69.5.0.20240522.tar.gz
+[2024-05-22 04:23:03] INFO root fetch - processPackages [types-pep8-naming]: Downloading https://files.pythonhosted.org/packages/62/2d/2a1bec0b31d89dbd3f30f17115b92ec9ecdd798a8950bd0e3c49d45267f8/types-pep8-naming-0.14.0.20240522.tar.gz
+[2024-05-22 04:23:03] INFO root fetch - processPackages [types-hvac]: executing diffoscope
+[2024-05-22 04:23:03] INFO root fetch - processPackages [types-hvac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-hvac-2.1.0.20240514.tar.gz tmp/types-hvac-2.2.0.20240522.tar.gz --markdown 20240522/t/types-hvac/2.1.0.20240514-2.2.0.20240522/README.md --exclude *.pyd
+[2024-05-22 04:23:03] INFO root fetch - processPackages [types-setuptools]: executing diffoscope
+[2024-05-22 04:23:03] INFO root fetch - processPackages [types-setuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-setuptools-69.5.0.20240519.tar.gz tmp/types-setuptools-69.5.0.20240522.tar.gz --markdown 20240522/t/types-setuptools/69.5.0.20240519-69.5.0.20240522/README.md --exclude *.pyd
+[2024-05-22 04:23:03] INFO root fetch - processPackages [types-pep8-naming]: executing diffoscope
+[2024-05-22 04:23:03] INFO root fetch - processPackages [types-pep8-naming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pep8-naming-0.13.0.5.tar.gz tmp/types-pep8-naming-0.14.0.20240522.tar.gz --markdown 20240522/t/types-pep8-naming/0.13.0.5-0.14.0.20240522/README.md --exclude *.pyd
+[2024-05-22 04:23:04] INFO root fetch - processPackages [reverse-life]: Remove: archive file [/home/abi/fetcher/tmp/reverse_life-1.0.1.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - processPackages [reverse-life]: Remove: archive file [/home/abi/fetcher/tmp/reverse_life-1.2.1.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - main [MainThread]: End processing [reverse-life]: success
+[2024-05-22 04:23:04] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.8.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.9.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-05-22 04:23:04] INFO root fetch - processPackages [landusemix]: Remove: archive file [/home/abi/fetcher/tmp/landusemix-0.0.5.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - processPackages [landusemix]: Remove: archive file [/home/abi/fetcher/tmp/landusemix-0.0.6.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - main [MainThread]: End processing [landusemix]: success
+[2024-05-22 04:23:04] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.8.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - processPackages [types-pep8-naming]: Remove: archive file [/home/abi/fetcher/tmp/types-pep8-naming-0.13.0.5.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - processPackages [types-pep8-naming]: Remove: archive file [/home/abi/fetcher/tmp/types-pep8-naming-0.14.0.20240522.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-05-22 04:23:04] INFO root fetch - main [MainThread]: End processing [types-pep8-naming]: success
+[2024-05-22 04:23:04] INFO root fetch - processPackages [backend1]: Remove: archive file [/home/abi/fetcher/tmp/backend1-1.0.2.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - processPackages [backend1]: Remove: archive file [/home/abi/fetcher/tmp/backend1-1.0.3.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - main [MainThread]: End processing [backend1]: success
+[2024-05-22 04:23:04] INFO root fetch - processPackages [types-hvac]: Remove: archive file [/home/abi/fetcher/tmp/types-hvac-2.1.0.20240514.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - processPackages [types-hvac]: Remove: archive file [/home/abi/fetcher/tmp/types-hvac-2.2.0.20240522.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - main [MainThread]: End processing [types-hvac]: success
+[2024-05-22 04:23:04] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.7.1.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.9.1.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - main [MainThread]: End processing [blueness]: success
+[2024-05-22 04:23:04] INFO root fetch - processPackages [types-setuptools]: Remove: archive file [/home/abi/fetcher/tmp/types-setuptools-69.5.0.20240519.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - processPackages [types-setuptools]: Remove: archive file [/home/abi/fetcher/tmp/types-setuptools-69.5.0.20240522.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - main [MainThread]: End processing [types-setuptools]: success
+[2024-05-22 04:23:04] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.8.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.9.tar.gz]
+[2024-05-22 04:23:04] INFO root fetch - main [MainThread]: End processing [baseball]: success
+[2024-05-22 04:23:04] INFO root fetch - main [MainThread]: Store serial: [23317572]

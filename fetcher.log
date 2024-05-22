@@ -17878,3 +17878,29 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:22:32] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc9-py3-none-any.whl.zip]
 [2024-05-22 11:22:32] INFO root fetch - main [MainThread]: End processing [mlrun]: success
 [2024-05-22 11:22:32] INFO root fetch - main [MainThread]: Store serial: [23321578]
+[2024-05-22 11:24:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321578]
+[2024-05-22 11:24:42] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 11:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dja-sepp
+[2024-05-22 11:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tonpy-dev
+[2024-05-22 11:24:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: udirect
+[2024-05-22 11:24:42] INFO root fetch - processPackages [udirect]: New version: [0.1.4.dev5] Old Version: [0.1.4.dev4]
+[2024-05-22 11:24:42] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/96/8c/e324f351106ad45f5de754e478c01698f555c94b93d896e83b4c32b0cbbe/udirect-0.1.4.dev4.tar.gz
+[2024-05-22 11:24:42] INFO root fetch - processPackages [dja-sepp]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 11:24:42] INFO root fetch - processPackages [tonpy-dev]: New version: [0.0.0.4.3b1] Old Version: [0.0.0.4.3a1]
+[2024-05-22 11:24:42] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/15/89/041ca7cedcb342eb0de9169874162352cc47198936ea7f38a2c2841c023d/dja_sepp-0.1.8.tar.gz
+[2024-05-22 11:24:42] INFO root fetch - processPackages [tonpy-dev]: Downloading https://files.pythonhosted.org/packages/75/ce/c3895c251c72bef39dd4bbab22079e8d1c4042300494f1bf446b3fa05859/tonpy_dev-0.0.0.4.3a1-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-22 11:24:43] WARNING root fetch - processPackages [tonpy-dev]: Skipping package: exceeds size limit 10973551>=10485760
+[2024-05-22 11:24:43] INFO root fetch - main [MainThread]: End processing [tonpy-dev] error
+[2024-05-22 11:24:43] INFO root fetch - processPackages [dja-sepp]: Downloading https://files.pythonhosted.org/packages/dc/99/79f7c555ed0b9b042fd75f870161596235966a3cd97d490b8314749bc090/dja_sepp-0.1.9.tar.gz
+[2024-05-22 11:24:43] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/bd/54/93300492da13dafad3a2fb04a7b79c9875fbff55f2d0c0d06a8762bf07a5/udirect-0.1.4.dev5.tar.gz
+[2024-05-22 11:24:43] INFO root fetch - processPackages [dja-sepp]: executing diffoscope
+[2024-05-22 11:24:43] INFO root fetch - processPackages [dja-sepp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dja_sepp-0.1.8.tar.gz tmp/dja_sepp-0.1.9.tar.gz --markdown 20240522/d/dja-sepp/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 11:24:43] INFO root fetch - processPackages [udirect]: executing diffoscope
+[2024-05-22 11:24:43] INFO root fetch - processPackages [udirect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udirect-0.1.4.dev4.tar.gz tmp/udirect-0.1.4.dev5.tar.gz --markdown 20240522/u/udirect/0.1.4.dev4-0.1.4.dev5/README.md --exclude *.pyd
+[2024-05-22 11:24:44] INFO root fetch - processPackages [dja-sepp]: Remove: archive file [/home/abi/fetcher/tmp/dja_sepp-0.1.8.tar.gz]
+[2024-05-22 11:24:44] INFO root fetch - processPackages [dja-sepp]: Remove: archive file [/home/abi/fetcher/tmp/dja_sepp-0.1.9.tar.gz]
+[2024-05-22 11:24:44] INFO root fetch - main [MainThread]: End processing [dja-sepp]: success
+[2024-05-22 11:24:44] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev4.tar.gz]
+[2024-05-22 11:24:44] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev5.tar.gz]
+[2024-05-22 11:24:44] INFO root fetch - main [MainThread]: End processing [udirect]: success
+[2024-05-22 11:24:44] INFO root fetch - main [MainThread]: Store serial: [23321588]

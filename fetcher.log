@@ -11958,3 +11958,24 @@
 [2024-05-22 07:21:03] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.6.1.tar.gz]
 [2024-05-22 07:21:03] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
 [2024-05-22 07:21:03] INFO root fetch - main [MainThread]: Store serial: [23319054]
+[2024-05-22 07:23:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319054]
+[2024-05-22 07:23:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 07:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-product-standard-margin
+[2024-05-22 07:23:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-product-replenishment-cost
+[2024-05-22 07:23:14] INFO root fetch - processPackages [odoo-addon-product-standard-margin]: New version: [16.0.1.0.2.1] Old Version: [16.0.1.0.2]
+[2024-05-22 07:23:14] INFO root fetch - processPackages [odoo-addon-product-replenishment-cost]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2024-05-22 07:23:14] INFO root fetch - processPackages [odoo-addon-product-standard-margin]: Downloading https://files.pythonhosted.org/packages/ef/03/57a1ffa3700b68be8597d6f649942173e7127ce55ca6a2660e176e0c2f69/odoo_addon_product_standard_margin-16.0.1.0.2-py3-none-any.whl
+[2024-05-22 07:23:14] INFO root fetch - processPackages [odoo-addon-product-replenishment-cost]: Downloading https://files.pythonhosted.org/packages/3f/a6/3c4702c84b86a53abeda99b05dbc4fe0921650e870fd37094473d36c8943/odoo_addon_product_replenishment_cost-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-22 07:23:14] INFO root fetch - processPackages [odoo-addon-product-replenishment-cost]: Downloading https://files.pythonhosted.org/packages/be/fb/f13ef4314feeaa4f6463db529583d0a0821c0bdf91c59a43a058099cbee2/odoo_addon_product_replenishment_cost-16.0.1.0.0.9-py3-none-any.whl
+[2024-05-22 07:23:14] INFO root fetch - processPackages [odoo-addon-product-standard-margin]: Downloading https://files.pythonhosted.org/packages/f5/44/c18182263f8578a97f14c269962ea88b3ad00e1544e66ddd80d6157dda83/odoo_addon_product_standard_margin-16.0.1.0.2.1-py3-none-any.whl
+[2024-05-22 07:23:15] INFO root fetch - processPackages [odoo-addon-product-standard-margin]: executing diffoscope
+[2024-05-22 07:23:15] INFO root fetch - processPackages [odoo-addon-product-standard-margin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_standard_margin-16.0.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_product_standard_margin-16.0.1.0.2.1-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-product-standard-margin/16.0.1.0.2-16.0.1.0.2.1/README.md --exclude *.pyd
+[2024-05-22 07:23:15] INFO root fetch - processPackages [odoo-addon-product-replenishment-cost]: executing diffoscope
+[2024-05-22 07:23:15] INFO root fetch - processPackages [odoo-addon-product-replenishment-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_replenishment_cost-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_product_replenishment_cost-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-product-replenishment-cost/16.0.1.0.0.8-16.0.1.0.0.9/README.md --exclude *.pyd
+[2024-05-22 07:23:15] INFO root fetch - processPackages [odoo-addon-product-standard-margin]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_standard_margin-16.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-22 07:23:15] INFO root fetch - processPackages [odoo-addon-product-standard-margin]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_standard_margin-16.0.1.0.2.1-py3-none-any.whl.zip]
+[2024-05-22 07:23:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-standard-margin]: success
+[2024-05-22 07:23:15] INFO root fetch - processPackages [odoo-addon-product-replenishment-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_replenishment_cost-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-22 07:23:15] INFO root fetch - processPackages [odoo-addon-product-replenishment-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_replenishment_cost-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-05-22 07:23:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-replenishment-cost]: success
+[2024-05-22 07:23:15] INFO root fetch - main [MainThread]: Store serial: [23319059]

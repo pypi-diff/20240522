@@ -19221,3 +19221,80 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:01:30] INFO root fetch - processPackages [posebusters]: Remove: archive file [/home/abi/fetcher/tmp/posebusters-0.2.9.tar.gz]
 [2024-05-22 12:01:30] INFO root fetch - main [MainThread]: End processing [posebusters]: success
 [2024-05-22 12:01:30] INFO root fetch - main [MainThread]: Store serial: [23322161]
+[2024-05-22 12:03:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322161]
+[2024-05-22 12:03:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-22 12:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vbpy
+[2024-05-22 12:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PheTK
+[2024-05-22 12:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: noko
+[2024-05-22 12:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-keras-nightly
+[2024-05-22 12:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geo-roughness-tool
+[2024-05-22 12:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openshift-python-wrapper
+[2024-05-22 12:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pilotpy
+[2024-05-22 12:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dataramp
+[2024-05-22 12:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-texttools
+[2024-05-22 12:03:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wetb
+[2024-05-22 12:03:39] INFO root fetch - processPackages [vbpy]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-05-22 12:03:39] INFO root fetch - processPackages [dataramp]: New version: [1.0.1.dev190] Old Version: [1.0.1.dev189]
+[2024-05-22 12:03:39] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2024-05-22 12:03:39] INFO root fetch - processPackages [geo-roughness-tool]: New version: [0.3.1] Old Version: [0.2.5]
+[2024-05-22 12:03:39] INFO root fetch - processPackages [wetb]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 12:03:39] WARNING root fetch - processPackages [noko]: Skipping, unable to determine old version
+[2024-05-22 12:03:39] INFO root fetch - processPackages [pilotpy]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-05-22 12:03:39] INFO root fetch - main [MainThread]: End processing [noko] error
+[2024-05-22 12:03:39] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024052209] Old Version: [2.17.0.dev2024052109]
+[2024-05-22 12:03:39] WARNING root fetch - processPackages [python-texttools]: Skipping, unable to determine old version
+[2024-05-22 12:03:39] INFO root fetch - main [MainThread]: End processing [python-texttools] error
+[2024-05-22 12:03:39] INFO root fetch - processPackages [PheTK]: New version: [0.1.41] Old Version: [0.1.40]
+[2024-05-22 12:03:39] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/b6/42/7814afbdbffd4127c7cf720098e45e57023002e378979ca641b9fbe6f939/vbpy-2.2.3.tar.gz
+[2024-05-22 12:03:39] INFO root fetch - processPackages [dataramp]: Downloading https://files.pythonhosted.org/packages/8e/1e/bce512ede9d68b5a11b9449511753836caa64f235ad89f5d8dcd662663be/dataramp-1.0.1.dev189.tar.gz
+[2024-05-22 12:03:39] INFO root fetch - processPackages [wetb]: Downloading https://files.pythonhosted.org/packages/25/d7/77fd21e7e66e518a0e634b94bb741637c63deb72f463150dcf06da99b02a/wetb-0.1.8.tar.gz
+[2024-05-22 12:03:39] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/e7/e8/1e731804b2e41494f822f9e1503b16e40dafef7567bfb08b60fc1c960fd8/geo_roughness_tool-0.2.5.tar.gz
+[2024-05-22 12:03:39] INFO root fetch - processPackages [pilotpy]: Downloading https://files.pythonhosted.org/packages/ca/96/efdf0821fcfce1ff45ffb0784e830ab0d599bebeaa564f34cd79c1eecffe/pilotpy-2.0.4.tar.gz
+[2024-05-22 12:03:39] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2024-05-22 12:03:39] WARNING root fetch - processPackages [wetb]: Skipping package: exceeds size limit 21756067>=10485760
+[2024-05-22 12:03:39] INFO root fetch - main [MainThread]: End processing [wetb] error
+[2024-05-22 12:03:39] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/56/eb/a46107ae4c81f8f3f0ff7587748314c3920ce0e73c8a051fba35ef4fd67b/tf_keras_nightly-2.17.0.dev2024052109.tar.gz
+[2024-05-22 12:03:39] INFO root fetch - processPackages [PheTK]: Downloading https://files.pythonhosted.org/packages/5b/05/44030cfd8850558e6e306a9d882086fb517b67ac82e5211f5ed685808537/PheTK-0.1.40.tar.gz
+[2024-05-22 12:03:39] INFO root fetch - processPackages [dataramp]: Downloading https://files.pythonhosted.org/packages/2b/87/292eb04d013e82542dd7fb5ebc7342795695925b73833fe80962998b0990/dataramp-1.0.1.dev190.tar.gz
+[2024-05-22 12:03:40] INFO root fetch - processPackages [pilotpy]: Downloading https://files.pythonhosted.org/packages/d5/86/47aa32e1d756df3ee5cf237f9066e21c8eb6dcaa755f810196bd81bb131d/pilotpy-2.0.5.tar.gz
+[2024-05-22 12:03:40] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2024-05-22 12:03:40] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/63/95/93345b8d0fb64fcca900909e5003bbad4bc45443d6e62f383d5fb88ded1f/vbpy-2.2.4.tar.gz
+[2024-05-22 12:03:40] INFO root fetch - processPackages [geo-roughness-tool]: Downloading https://files.pythonhosted.org/packages/04/ef/eee6cf039f75a6434d16f25af0e5e035c1b829e731ac908b70040bb77fea/geo_roughness_tool-0.3.1.tar.gz
+[2024-05-22 12:03:40] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2024-05-22 12:03:40] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20240522/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/README.md --exclude *.pyd
+[2024-05-22 12:03:40] INFO root fetch - processPackages [vbpy]: executing diffoscope
+[2024-05-22 12:03:40] INFO root fetch - processPackages [vbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpy-2.2.3.tar.gz tmp/vbpy-2.2.4.tar.gz --markdown 20240522/v/vbpy/2.2.3-2.2.4/README.md --exclude *.pyd
+[2024-05-22 12:03:40] INFO root fetch - processPackages [pilotpy]: executing diffoscope
+[2024-05-22 12:03:40] INFO root fetch - processPackages [pilotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pilotpy-2.0.4.tar.gz tmp/pilotpy-2.0.5.tar.gz --markdown 20240522/p/pilotpy/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-05-22 12:03:40] INFO root fetch - processPackages [dataramp]: executing diffoscope
+[2024-05-22 12:03:40] INFO root fetch - processPackages [dataramp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataramp-1.0.1.dev189.tar.gz tmp/dataramp-1.0.1.dev190.tar.gz --markdown 20240522/d/dataramp/1.0.1.dev189-1.0.1.dev190/README.md --exclude *.pyd
+[2024-05-22 12:03:40] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/09/10/b6d09ed0c8509994565e08ab20226d7170bd356b1399c39519a93deab838/tf_keras_nightly-2.17.0.dev2024052209.tar.gz
+[2024-05-22 12:03:40] INFO root fetch - processPackages [geo-roughness-tool]: executing diffoscope
+[2024-05-22 12:03:40] INFO root fetch - processPackages [geo-roughness-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geo_roughness_tool-0.2.5.tar.gz tmp/geo_roughness_tool-0.3.1.tar.gz --markdown 20240522/g/geo-roughness-tool/0.2.5-0.3.1/README.md --exclude *.pyd
+[2024-05-22 12:03:40] INFO root fetch - processPackages [PheTK]: Downloading https://files.pythonhosted.org/packages/dc/b7/fa48321b2a9de0bc7325b743006a2b0b093ae02353e5d659d702f3e46ab5/PheTK-0.1.41.tar.gz
+[2024-05-22 12:03:40] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-05-22 12:03:40] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras_nightly-2.17.0.dev2024052109.tar.gz tmp/tf_keras_nightly-2.17.0.dev2024052209.tar.gz --markdown 20240522/t/tf-keras-nightly/2.17.0.dev2024052109-2.17.0.dev2024052209/README.md --exclude *.pyd
+[2024-05-22 12:03:40] INFO root fetch - processPackages [PheTK]: executing diffoscope
+[2024-05-22 12:03:40] INFO root fetch - processPackages [PheTK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PheTK-0.1.40.tar.gz tmp/PheTK-0.1.41.tar.gz --markdown 20240522/P/PheTK/0.1.40-0.1.41/README.md --exclude *.pyd
+[2024-05-22 12:03:41] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.2.3.tar.gz]
+[2024-05-22 12:03:41] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.2.4.tar.gz]
+[2024-05-22 12:03:41] INFO root fetch - main [MainThread]: End processing [vbpy]: success
+[2024-05-22 12:03:41] INFO root fetch - processPackages [dataramp]: Remove: archive file [/home/abi/fetcher/tmp/dataramp-1.0.1.dev189.tar.gz]
+[2024-05-22 12:03:41] INFO root fetch - processPackages [dataramp]: Remove: archive file [/home/abi/fetcher/tmp/dataramp-1.0.1.dev190.tar.gz]
+[2024-05-22 12:03:41] INFO root fetch - main [MainThread]: End processing [dataramp]: success
+[2024-05-22 12:03:41] INFO root fetch - processPackages [pilotpy]: Remove: archive file [/home/abi/fetcher/tmp/pilotpy-2.0.4.tar.gz]
+[2024-05-22 12:03:41] INFO root fetch - processPackages [pilotpy]: Remove: archive file [/home/abi/fetcher/tmp/pilotpy-2.0.5.tar.gz]
+[2024-05-22 12:03:41] INFO root fetch - main [MainThread]: End processing [pilotpy]: success
+[2024-05-22 12:03:41] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.7.12.tar.gz]
+[2024-05-22 12:03:41] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.9.12.tar.gz]
+[2024-05-22 12:03:41] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2024-05-22 12:03:41] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.2.5.tar.gz]
+[2024-05-22 12:03:41] INFO root fetch - processPackages [geo-roughness-tool]: Remove: archive file [/home/abi/fetcher/tmp/geo_roughness_tool-0.3.1.tar.gz]
+[2024-05-22 12:03:41] INFO root fetch - main [MainThread]: End processing [geo-roughness-tool]: success
+[2024-05-22 12:03:43] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024052109.tar.gz]
+[2024-05-22 12:03:43] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras_nightly-2.17.0.dev2024052209.tar.gz]
+[2024-05-22 12:03:43] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-05-22 12:03:43] INFO root fetch - processPackages [PheTK]: Remove: archive file [/home/abi/fetcher/tmp/PheTK-0.1.40.tar.gz]
+[2024-05-22 12:03:43] INFO root fetch - processPackages [PheTK]: Remove: archive file [/home/abi/fetcher/tmp/PheTK-0.1.41.tar.gz]
+[2024-05-22 12:03:43] INFO root fetch - main [MainThread]: End processing [PheTK]: success
+[2024-05-22 12:03:43] INFO root fetch - main [MainThread]: Store serial: [23322190]

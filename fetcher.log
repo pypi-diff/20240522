@@ -13516,3 +13516,42 @@
 [2024-05-22 08:51:19] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.0.tar.gz]
 [2024-05-22 08:51:19] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-22 08:51:19] INFO root fetch - main [MainThread]: Store serial: [23319863]
+[2024-05-22 08:53:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319863]
+[2024-05-22 08:53:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 08:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: adaXT
+[2024-05-22 08:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: checkov
+[2024-05-22 08:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: conkeyscan
+[2024-05-22 08:53:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: doku-python-library
+[2024-05-22 08:53:56] INFO root fetch - processPackages [checkov]: New version: [3.2.99] Old Version: [3.2.98]
+[2024-05-22 08:53:56] INFO root fetch - processPackages [conkeyscan]: New version: [1.0.0] Old Version: [0.2.0]
+[2024-05-22 08:53:56] INFO root fetch - processPackages [doku-python-library]: New version: [0.0.4] Old Version: [0.0.1]
+[2024-05-22 08:53:56] INFO root fetch - processPackages [adaXT]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-05-22 08:53:56] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/a9/34/826b2df19c26007adefb008f273e87b94019bf5e27747efea796070c2da5/checkov-3.2.98.tar.gz
+[2024-05-22 08:53:56] INFO root fetch - processPackages [conkeyscan]: Downloading https://files.pythonhosted.org/packages/e9/47/d002812607608a6b6571fbface4e5c4679821af10dd2ce58036439df9fb4/conkeyscan-0.2.0.tar.gz
+[2024-05-22 08:53:56] INFO root fetch - processPackages [doku-python-library]: Downloading https://files.pythonhosted.org/packages/61/44/ffa22994ec43b867102a58cf207b77edc35c675f551fb24993be84d08edd/doku_python_library-0.0.1-py3-none-any.whl
+[2024-05-22 08:53:56] INFO root fetch - processPackages [adaXT]: Downloading https://files.pythonhosted.org/packages/27/e2/0e19453ba94e00ea92e3551e6a66e36dc4ae77a5c336f426de5fe68579e4/adaXT-1.0.1.tar.gz
+[2024-05-22 08:53:56] INFO root fetch - processPackages [conkeyscan]: Downloading https://files.pythonhosted.org/packages/c7/58/4da22bc9d562183c8d83db80f9cba5a690d32cdd6fe93af79fca5eb357ee/conkeyscan-1.0.0.tar.gz
+[2024-05-22 08:53:56] INFO root fetch - processPackages [doku-python-library]: Downloading https://files.pythonhosted.org/packages/d2/51/57c63289ac108522f4fcc4aa78cb954082aa3081f78694c9a87f759acd72/doku_python_library-0.0.4.tar.gz
+[2024-05-22 08:53:56] INFO root fetch - processPackages [adaXT]: Downloading https://files.pythonhosted.org/packages/cb/2a/4fbc5c3a02971972a7c07ce86caede1e03bb1c4e4e5d1020773d18d33ef3/adaxt-1.1.0.tar.gz
+[2024-05-22 08:53:56] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/ff/ff/5ccc1f214d2e0bf1a97393d8f14eb1cda0f7675d0fedc54a6e5b09841a02/checkov-3.2.99.tar.gz
+[2024-05-22 08:53:56] INFO root fetch - processPackages [conkeyscan]: executing diffoscope
+[2024-05-22 08:53:56] INFO root fetch - processPackages [conkeyscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conkeyscan-0.2.0.tar.gz tmp/conkeyscan-1.0.0.tar.gz --markdown 20240522/c/conkeyscan/0.2.0-1.0.0/README.md --exclude *.pyd
+[2024-05-22 08:53:56] INFO root fetch - processPackages [doku-python-library]: executing diffoscope
+[2024-05-22 08:53:56] INFO root fetch - processPackages [doku-python-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doku_python_library-0.0.1-py3-none-any.whl.zip tmp/doku_python_library-0.0.4.tar.gz --markdown 20240522/d/doku-python-library/0.0.1-0.0.4/README.md --exclude *.pyd
+[2024-05-22 08:53:56] INFO root fetch - processPackages [adaXT]: executing diffoscope
+[2024-05-22 08:53:56] INFO root fetch - processPackages [adaXT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adaXT-1.0.1.tar.gz tmp/adaxt-1.1.0.tar.gz --markdown 20240522/a/adaXT/1.0.1-1.1.0/README.md --exclude *.pyd
+[2024-05-22 08:53:56] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-05-22 08:53:56] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.98.tar.gz tmp/checkov-3.2.99.tar.gz --markdown 20240522/c/checkov/3.2.98-3.2.99/README.md --exclude *.pyd
+[2024-05-22 08:53:57] INFO root fetch - processPackages [doku-python-library]: Remove: archive file [/home/abi/fetcher/tmp/doku_python_library-0.0.1-py3-none-any.whl.zip]
+[2024-05-22 08:53:57] INFO root fetch - processPackages [doku-python-library]: Remove: archive file [/home/abi/fetcher/tmp/doku_python_library-0.0.4.tar.gz]
+[2024-05-22 08:53:57] INFO root fetch - main [MainThread]: End processing [doku-python-library]: success
+[2024-05-22 08:53:57] INFO root fetch - processPackages [conkeyscan]: Remove: archive file [/home/abi/fetcher/tmp/conkeyscan-0.2.0.tar.gz]
+[2024-05-22 08:53:57] INFO root fetch - processPackages [conkeyscan]: Remove: archive file [/home/abi/fetcher/tmp/conkeyscan-1.0.0.tar.gz]
+[2024-05-22 08:53:57] INFO root fetch - main [MainThread]: End processing [conkeyscan]: success
+[2024-05-22 08:53:59] INFO root fetch - processPackages [adaXT]: Remove: archive file [/home/abi/fetcher/tmp/adaXT-1.0.1.tar.gz]
+[2024-05-22 08:53:59] INFO root fetch - processPackages [adaXT]: Remove: archive file [/home/abi/fetcher/tmp/adaxt-1.1.0.tar.gz]
+[2024-05-22 08:53:59] INFO root fetch - main [MainThread]: End processing [adaXT]: success
+[2024-05-22 08:54:06] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.98.tar.gz]
+[2024-05-22 08:54:06] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.99.tar.gz]
+[2024-05-22 08:54:06] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-05-22 08:54:06] INFO root fetch - main [MainThread]: Store serial: [23319894]

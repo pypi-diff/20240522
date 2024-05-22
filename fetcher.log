@@ -10632,3 +10632,38 @@
 [2024-05-22 05:57:05] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.6.tar.gz]
 [2024-05-22 05:57:05] INFO root fetch - main [MainThread]: End processing [ivande-combiner]: success
 [2024-05-22 05:57:05] INFO root fetch - main [MainThread]: Store serial: [23318533]
+[2024-05-22 05:59:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318533]
+[2024-05-22 05:59:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 05:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ivande-combiner
+[2024-05-22 05:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyschwab
+[2024-05-22 05:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2024-05-22 05:59:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-webui
+[2024-05-22 05:59:14] INFO root fetch - processPackages [ivande-combiner]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-22 05:59:14] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240521224759] Old Version: [3.4.1.dev20240521150040]
+[2024-05-22 05:59:14] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/ba/46/f0ee6bfd565cc326320fc9ecaf59557ca2bea1d803ce408cde89a8e43082/ivande_combiner-0.0.5.tar.gz
+[2024-05-22 05:59:14] INFO root fetch - processPackages [pyschwab]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2024-05-22 05:59:14] INFO root fetch - processPackages [open-webui]: New version: [0.1.125] Old Version: [0.1.124]
+[2024-05-22 05:59:14] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c1/e6/5e9a3902eb42a81b288dd532d179555f1a82e873649fa21c47ef03c2bd2a/localstack_core-3.4.1.dev20240521150040.tar.gz
+[2024-05-22 05:59:14] INFO root fetch - processPackages [pyschwab]: Downloading https://files.pythonhosted.org/packages/c3/6c/82e1b28b90b3538a9eabb3f632b4715e03c1d12166162a84f52f9ee46594/pyschwab-0.0.1a1.tar.gz
+[2024-05-22 05:59:14] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/4f/68/1e80572a330b614390ec028d5b7d6ec41ae7188f49980af1f33d011fa9b9/ivande_combiner-0.0.6.tar.gz
+[2024-05-22 05:59:14] INFO root fetch - processPackages [open-webui]: Downloading https://files.pythonhosted.org/packages/09/99/7925ec414307f8c59a9270b649db0cc3e31fbc3cacd2c29a9a4f2a33cc0f/open_webui-0.1.124.tar.gz
+[2024-05-22 05:59:14] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/46/93/c9df17ae798ccf70e7464da16018f9c627a3a2a111b505030e20787855b5/localstack_core-3.4.1.dev20240521224759.tar.gz
+[2024-05-22 05:59:14] INFO root fetch - processPackages [ivande-combiner]: executing diffoscope
+[2024-05-22 05:59:14] INFO root fetch - processPackages [ivande-combiner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivande_combiner-0.0.5.tar.gz tmp/ivande_combiner-0.0.6.tar.gz --markdown 20240522/i/ivande-combiner/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-22 05:59:14] WARNING root fetch - processPackages [open-webui]: Skipping package: exceeds size limit 13491253>=10485760
+[2024-05-22 05:59:14] INFO root fetch - main [MainThread]: End processing [open-webui] error
+[2024-05-22 05:59:14] INFO root fetch - processPackages [pyschwab]: Downloading https://files.pythonhosted.org/packages/cd/e4/95305f460c3a7966ce6a7edc5dbe496c2ae402c833be526a46547fc20071/pyschwab-0.0.1a2.tar.gz
+[2024-05-22 05:59:14] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-22 05:59:14] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240521150040.tar.gz tmp/localstack_core-3.4.1.dev20240521224759.tar.gz --markdown 20240522/l/localstack-core/3.4.1.dev20240521150040-3.4.1.dev20240521224759/README.md --exclude *.pyd
+[2024-05-22 05:59:15] INFO root fetch - processPackages [pyschwab]: executing diffoscope
+[2024-05-22 05:59:15] INFO root fetch - processPackages [pyschwab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyschwab-0.0.1a1.tar.gz tmp/pyschwab-0.0.1a2.tar.gz --markdown 20240522/p/pyschwab/0.0.1a1-0.0.1a2/README.md --exclude *.pyd
+[2024-05-22 05:59:15] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.5.tar.gz]
+[2024-05-22 05:59:15] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.6.tar.gz]
+[2024-05-22 05:59:15] INFO root fetch - main [MainThread]: End processing [ivande-combiner]: success
+[2024-05-22 05:59:15] INFO root fetch - processPackages [pyschwab]: Remove: archive file [/home/abi/fetcher/tmp/pyschwab-0.0.1a1.tar.gz]
+[2024-05-22 05:59:15] INFO root fetch - processPackages [pyschwab]: Remove: archive file [/home/abi/fetcher/tmp/pyschwab-0.0.1a2.tar.gz]
+[2024-05-22 05:59:15] INFO root fetch - main [MainThread]: End processing [pyschwab]: success
+[2024-05-22 05:59:18] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240521150040.tar.gz]
+[2024-05-22 05:59:18] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240521224759.tar.gz]
+[2024-05-22 05:59:18] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-22 05:59:18] INFO root fetch - main [MainThread]: Store serial: [23318545]

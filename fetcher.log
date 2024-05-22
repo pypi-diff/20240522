@@ -8123,3 +8123,92 @@
 [2024-05-22 04:07:50] INFO root fetch - processPackages [qctrl-workflow-client]: Remove: archive file [/home/abi/fetcher/tmp/qctrl_workflow_client-3.1.0.tar.gz]
 [2024-05-22 04:07:50] INFO root fetch - main [MainThread]: End processing [qctrl-workflow-client]: success
 [2024-05-22 04:07:50] INFO root fetch - main [MainThread]: Store serial: [23317430]
+[2024-05-22 04:09:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317430]
+[2024-05-22 04:09:59] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-22 04:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spotlight-sdk
+[2024-05-22 04:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ok-script
+[2024-05-22 04:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wwbot
+[2024-05-22 04:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langchain-utils
+[2024-05-22 04:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sklearntools
+[2024-05-22 04:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streaming-assistants
+[2024-05-22 04:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-osubot
+[2024-05-22 04:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: swarmauri
+[2024-05-22 04:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cowboy-client
+[2024-05-22 04:09:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ab-test-advanced-toolkit
+[2024-05-22 04:09:59] INFO root fetch - processPackages [wwbot]: New version: [0.0.9] Old Version: [0.0.8rc0]
+[2024-05-22 04:09:59] INFO root fetch - processPackages [ab-test-advanced-toolkit]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-22 04:09:59] INFO root fetch - processPackages [ok-script]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 04:09:59] INFO root fetch - processPackages [sklearntools]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-05-22 04:09:59] INFO root fetch - processPackages [swarmauri]: New version: [0.2.7] Old Version: [0.2.6.dev4]
+[2024-05-22 04:09:59] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [6.2.3] Old Version: [6.2.2]
+[2024-05-22 04:09:59] INFO root fetch - processPackages [ab-test-advanced-toolkit]: Downloading https://files.pythonhosted.org/packages/c5/e0/a42d3f8def1110d0e9efdbc4f47ab6a1d9ee0b29fa955b02b0dc4c74dc6d/ab_test_advanced_toolkit-0.0.6.tar.gz
+[2024-05-22 04:09:59] INFO root fetch - processPackages [cowboy-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 04:09:59] INFO root fetch - processPackages [streaming-assistants]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-22 04:09:59] INFO root fetch - processPackages [spotlight-sdk]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-22 04:09:59] INFO root fetch - processPackages [langchain-utils]: New version: [0.7.1] Old Version: [0.6.0]
+[2024-05-22 04:09:59] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/f0/d6/539254b35a392b94716fc626b6b39fc2c1eeecf81b065028e8a8fa69ff5c/wwbot-0.0.8rc0.tar.gz
+[2024-05-22 04:09:59] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/5f/e3/968a4bfd4b0c82df5c5171f3d7d42fc8d8354283f3bae8becf975bc2cfb9/ok-script-0.0.8.tar.gz
+[2024-05-22 04:09:59] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/9d/89/d901521ce7754661968fbe245622974fc41c0bf39bd5cf27db9bfc55a867/swarmauri-0.2.6.dev4.tar.gz
+[2024-05-22 04:09:59] INFO root fetch - processPackages [sklearntools]: Downloading https://files.pythonhosted.org/packages/5c/41/55c54bb682165f4433a878e00678cf78166d8d28ba5f32e84624fbb9a3f1/sklearntools-0.3.0.tar.gz
+[2024-05-22 04:09:59] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/5f/ca/cc5dcec75027786d8843d71d42e4c4afd1e95cdcaac2ccc9a15d776f2a98/nonebot-plugin-osubot-6.2.2.tar.gz
+[2024-05-22 04:09:59] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29719443>=10485760
+[2024-05-22 04:09:59] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2024-05-22 04:09:59] INFO root fetch - processPackages [cowboy-client]: Downloading https://files.pythonhosted.org/packages/c2/5f/9816d3fa31f30a821a6fb33dce132be8e19344b171e2bc6974137e84315b/cowboy_client-0.0.8.tar.gz
+[2024-05-22 04:09:59] INFO root fetch - processPackages [spotlight-sdk]: Downloading https://files.pythonhosted.org/packages/e7/77/097156d6cb8a69f69aff3c7e65046379c3fd67d52e2a86936ef50e85eb68/spotlight-sdk-0.0.9.tar.gz
+[2024-05-22 04:09:59] INFO root fetch - processPackages [langchain-utils]: Downloading https://files.pythonhosted.org/packages/87/d1/4318bbe12779e70dec042345ce32e29e68ca2e483e0256813fd1c4352bf0/langchain_utils-0.6.0.tar.gz
+[2024-05-22 04:09:59] INFO root fetch - processPackages [streaming-assistants]: Downloading https://files.pythonhosted.org/packages/af/3d/dc293cdb4c429406a79b61362e9e426095eccd198212a0cdd2f44174114f/streaming_assistants-0.8.0.tar.gz
+[2024-05-22 04:10:00] INFO root fetch - processPackages [wwbot]: Downloading https://files.pythonhosted.org/packages/60/06/f0d1dcf91cb575c47d6f9af17bfe431bf2e41fe342cd78c7d65bd6c8a27b/wwbot-0.0.9.tar.gz
+[2024-05-22 04:10:00] INFO root fetch - processPackages [ok-script]: Downloading https://files.pythonhosted.org/packages/7e/57/3cb2ecf6f3abc49a58957eb87297ca0e7574e568b46c512c2a5fc710a462/ok-script-0.0.9.tar.gz
+[2024-05-22 04:10:00] INFO root fetch - processPackages [ab-test-advanced-toolkit]: Downloading https://files.pythonhosted.org/packages/ae/74/857ee61e5072c1f19754819410621466b5417803da822a8dd432fdec0737/ab_test_advanced_toolkit-0.0.7.tar.gz
+[2024-05-22 04:10:00] INFO root fetch - processPackages [wwbot]: executing diffoscope
+[2024-05-22 04:10:00] INFO root fetch - processPackages [wwbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wwbot-0.0.8rc0.tar.gz tmp/wwbot-0.0.9.tar.gz --markdown 20240522/w/wwbot/0.0.8rc0-0.0.9/README.md --exclude *.pyd
+[2024-05-22 04:10:00] INFO root fetch - processPackages [ok-script]: executing diffoscope
+[2024-05-22 04:10:00] INFO root fetch - processPackages [ok-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ok-script-0.0.8.tar.gz tmp/ok-script-0.0.9.tar.gz --markdown 20240522/o/ok-script/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 04:10:00] INFO root fetch - processPackages [sklearntools]: Downloading https://files.pythonhosted.org/packages/ac/43/a548ce01d826c63a1f79b8839be12cf472f38592ab0441d9e39d258fe62c/sklearntools-0.4.0.tar.gz
+[2024-05-22 04:10:00] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6e/d8/62ecd9d61aa00d299959259a892289de0e7cba185ce2868cec38f50a637f/swarmauri-0.2.7.tar.gz
+[2024-05-22 04:10:00] INFO root fetch - processPackages [ab-test-advanced-toolkit]: executing diffoscope
+[2024-05-22 04:10:00] INFO root fetch - processPackages [ab-test-advanced-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ab_test_advanced_toolkit-0.0.6.tar.gz tmp/ab_test_advanced_toolkit-0.0.7.tar.gz --markdown 20240522/a/ab-test-advanced-toolkit/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-22 04:10:00] INFO root fetch - processPackages [sklearntools]: executing diffoscope
+[2024-05-22 04:10:00] INFO root fetch - processPackages [sklearntools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearntools-0.3.0.tar.gz tmp/sklearntools-0.4.0.tar.gz --markdown 20240522/s/sklearntools/0.3.0-0.4.0/README.md --exclude *.pyd
+[2024-05-22 04:10:00] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-22 04:10:00] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.2.6.dev4.tar.gz tmp/swarmauri-0.2.7.tar.gz --markdown 20240522/s/swarmauri/0.2.6.dev4-0.2.7/README.md --exclude *.pyd
+[2024-05-22 04:10:00] INFO root fetch - processPackages [langchain-utils]: Downloading https://files.pythonhosted.org/packages/95/91/89ef3853dbabb8f760b8d8a69e87ec5c3b89ae5e34059a3624a4abb8d5d0/langchain_utils-0.7.1.tar.gz
+[2024-05-22 04:10:00] INFO root fetch - processPackages [cowboy-client]: Downloading https://files.pythonhosted.org/packages/f8/1c/a6c123d6265ad8f3ce3accddd485ac97be52129124066f56f44e5133e07f/cowboy_client-0.0.9.tar.gz
+[2024-05-22 04:10:00] INFO root fetch - processPackages [spotlight-sdk]: Downloading https://files.pythonhosted.org/packages/73/2c/1866a30df4c24732dd27d5d728c478295b8695bd48a033e123e8d93b1b78/spotlight-sdk-0.1.0.tar.gz
+[2024-05-22 04:10:00] INFO root fetch - processPackages [streaming-assistants]: Downloading https://files.pythonhosted.org/packages/2f/a1/d98bc2e51aa7ddc249766325c12aca7c66d084cae0413a47250126f98e95/streaming_assistants-0.9.0.tar.gz
+[2024-05-22 04:10:00] INFO root fetch - processPackages [langchain-utils]: executing diffoscope
+[2024-05-22 04:10:00] INFO root fetch - processPackages [langchain-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_utils-0.6.0.tar.gz tmp/langchain_utils-0.7.1.tar.gz --markdown 20240522/l/langchain-utils/0.6.0-0.7.1/README.md --exclude *.pyd
+[2024-05-22 04:10:00] INFO root fetch - processPackages [spotlight-sdk]: executing diffoscope
+[2024-05-22 04:10:00] INFO root fetch - processPackages [spotlight-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotlight-sdk-0.0.9.tar.gz tmp/spotlight-sdk-0.1.0.tar.gz --markdown 20240522/s/spotlight-sdk/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-22 04:10:00] INFO root fetch - processPackages [streaming-assistants]: executing diffoscope
+[2024-05-22 04:10:00] INFO root fetch - processPackages [streaming-assistants]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streaming_assistants-0.8.0.tar.gz tmp/streaming_assistants-0.9.0.tar.gz --markdown 20240522/s/streaming-assistants/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-22 04:10:00] INFO root fetch - processPackages [cowboy-client]: executing diffoscope
+[2024-05-22 04:10:00] INFO root fetch - processPackages [cowboy-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cowboy_client-0.0.8.tar.gz tmp/cowboy_client-0.0.9.tar.gz --markdown 20240522/c/cowboy-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 04:10:01] INFO root fetch - processPackages [sklearntools]: Remove: archive file [/home/abi/fetcher/tmp/sklearntools-0.3.0.tar.gz]
+[2024-05-22 04:10:01] INFO root fetch - processPackages [sklearntools]: Remove: archive file [/home/abi/fetcher/tmp/sklearntools-0.4.0.tar.gz]
+[2024-05-22 04:10:01] INFO root fetch - main [MainThread]: End processing [sklearntools]: success
+[2024-05-22 04:10:01] INFO root fetch - processPackages [ab-test-advanced-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ab_test_advanced_toolkit-0.0.6.tar.gz]
+[2024-05-22 04:10:01] INFO root fetch - processPackages [ab-test-advanced-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/ab_test_advanced_toolkit-0.0.7.tar.gz]
+[2024-05-22 04:10:01] INFO root fetch - main [MainThread]: End processing [ab-test-advanced-toolkit]: success
+[2024-05-22 04:10:01] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.8rc0.tar.gz]
+[2024-05-22 04:10:01] INFO root fetch - processPackages [wwbot]: Remove: archive file [/home/abi/fetcher/tmp/wwbot-0.0.9.tar.gz]
+[2024-05-22 04:10:01] INFO root fetch - main [MainThread]: End processing [wwbot]: success
+[2024-05-22 04:10:01] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.8.tar.gz]
+[2024-05-22 04:10:01] INFO root fetch - processPackages [ok-script]: Remove: archive file [/home/abi/fetcher/tmp/ok-script-0.0.9.tar.gz]
+[2024-05-22 04:10:01] INFO root fetch - main [MainThread]: End processing [ok-script]: success
+[2024-05-22 04:10:01] INFO root fetch - processPackages [streaming-assistants]: Remove: archive file [/home/abi/fetcher/tmp/streaming_assistants-0.8.0.tar.gz]
+[2024-05-22 04:10:01] INFO root fetch - processPackages [streaming-assistants]: Remove: archive file [/home/abi/fetcher/tmp/streaming_assistants-0.9.0.tar.gz]
+[2024-05-22 04:10:01] INFO root fetch - main [MainThread]: End processing [streaming-assistants]: success
+[2024-05-22 04:10:01] INFO root fetch - processPackages [langchain-utils]: Remove: archive file [/home/abi/fetcher/tmp/langchain_utils-0.6.0.tar.gz]
+[2024-05-22 04:10:01] INFO root fetch - processPackages [langchain-utils]: Remove: archive file [/home/abi/fetcher/tmp/langchain_utils-0.7.1.tar.gz]
+[2024-05-22 04:10:01] INFO root fetch - main [MainThread]: End processing [langchain-utils]: success
+[2024-05-22 04:10:01] INFO root fetch - processPackages [spotlight-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spotlight-sdk-0.0.9.tar.gz]
+[2024-05-22 04:10:01] INFO root fetch - processPackages [spotlight-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spotlight-sdk-0.1.0.tar.gz]
+[2024-05-22 04:10:01] INFO root fetch - main [MainThread]: End processing [spotlight-sdk]: success
+[2024-05-22 04:10:01] INFO root fetch - processPackages [cowboy-client]: Remove: archive file [/home/abi/fetcher/tmp/cowboy_client-0.0.8.tar.gz]
+[2024-05-22 04:10:01] INFO root fetch - processPackages [cowboy-client]: Remove: archive file [/home/abi/fetcher/tmp/cowboy_client-0.0.9.tar.gz]
+[2024-05-22 04:10:01] INFO root fetch - main [MainThread]: End processing [cowboy-client]: success
+[2024-05-22 04:10:01] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.6.dev4.tar.gz]
+[2024-05-22 04:10:01] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.7.tar.gz]
+[2024-05-22 04:10:01] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-22 04:10:01] INFO root fetch - main [MainThread]: Store serial: [23317460]

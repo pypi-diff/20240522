@@ -21814,3 +21814,41 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 13:46:31] INFO root fetch - processPackages [dadmatools]: Remove: archive file [/home/abi/fetcher/tmp/dadmatools-2.0.3.tar.gz]
 [2024-05-22 13:46:31] INFO root fetch - main [MainThread]: End processing [dadmatools]: success
 [2024-05-22 13:46:31] INFO root fetch - main [MainThread]: Store serial: [23323380]
+[2024-05-22 13:48:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323380]
+[2024-05-22 13:48:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 13:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: karp-lex-types
+[2024-05-22 13:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docusign-esign
+[2024-05-22 13:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hybrid-cipher
+[2024-05-22 13:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wetb
+[2024-05-22 13:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysql-repo
+[2024-05-22 13:48:43] INFO root fetch - processPackages [karp-lex-types]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-22 13:48:43] INFO root fetch - processPackages [pysql-repo]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-05-22 13:48:43] INFO root fetch - processPackages [karp-lex-types]: Downloading https://files.pythonhosted.org/packages/46/34/78cf77798d28d863afed6d27fddb70773e70e66b0731a9735a5ae9fb9f55/karp_lex_types-0.7.1.tar.gz
+[2024-05-22 13:48:43] INFO root fetch - processPackages [wetb]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 13:48:43] INFO root fetch - processPackages [pysql-repo]: Downloading https://files.pythonhosted.org/packages/38/66/4dc043ac5966f0e8efc9222f199c2089571150058619b8b7e65efe45a9cf/pysql-repo-0.7.1.tar.gz
+[2024-05-22 13:48:43] INFO root fetch - processPackages [docusign-esign]: New version: [4.0.0rc1] Old Version: [4.0.0]
+[2024-05-22 13:48:43] WARNING root fetch - processPackages [hybrid-cipher]: Skipping, unable to determine old version
+[2024-05-22 13:48:43] INFO root fetch - main [MainThread]: End processing [hybrid-cipher] error
+[2024-05-22 13:48:43] INFO root fetch - processPackages [docusign-esign]: Downloading https://files.pythonhosted.org/packages/e1/d7/c634a41105646aff818245ee508e88154f387a13e75d4a0f79f112c681ab/docusign-esign-4.0.0.tar.gz
+[2024-05-22 13:48:43] INFO root fetch - processPackages [wetb]: Downloading https://files.pythonhosted.org/packages/25/d7/77fd21e7e66e518a0e634b94bb741637c63deb72f463150dcf06da99b02a/wetb-0.1.8.tar.gz
+[2024-05-22 13:48:43] WARNING root fetch - processPackages [wetb]: Skipping package: exceeds size limit 21756067>=10485760
+[2024-05-22 13:48:43] INFO root fetch - main [MainThread]: End processing [wetb] error
+[2024-05-22 13:48:43] INFO root fetch - processPackages [karp-lex-types]: Downloading https://files.pythonhosted.org/packages/1c/12/83e8d0a5dcafeeeb51a39722656c2ed5b4474f438b4373186b8298e4beb5/karp_lex_types-0.7.2.tar.gz
+[2024-05-22 13:48:43] INFO root fetch - processPackages [pysql-repo]: Downloading https://files.pythonhosted.org/packages/0b/1d/47b1e5b2c96adba478ac3b54686dba54e7e3886ef0b524e299841d92d7f0/pysql-repo-0.7.2.tar.gz
+[2024-05-22 13:48:43] INFO root fetch - processPackages [karp-lex-types]: executing diffoscope
+[2024-05-22 13:48:43] INFO root fetch - processPackages [karp-lex-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karp_lex_types-0.7.1.tar.gz tmp/karp_lex_types-0.7.2.tar.gz --markdown 20240522/k/karp-lex-types/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-22 13:48:43] INFO root fetch - processPackages [pysql-repo]: executing diffoscope
+[2024-05-22 13:48:43] INFO root fetch - processPackages [pysql-repo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysql-repo-0.7.1.tar.gz tmp/pysql-repo-0.7.2.tar.gz --markdown 20240522/p/pysql-repo/0.7.1-0.7.2/README.md --exclude *.pyd
+[2024-05-22 13:48:43] INFO root fetch - processPackages [docusign-esign]: Downloading https://files.pythonhosted.org/packages/65/7d/c686b22ddcc6a47a998b3c83be0f60759bfb205bc653f3aa03d0dcda6283/docusign-esign-4.0.0rc1.tar.gz
+[2024-05-22 13:48:44] INFO root fetch - processPackages [docusign-esign]: executing diffoscope
+[2024-05-22 13:48:44] INFO root fetch - processPackages [docusign-esign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docusign-esign-4.0.0.tar.gz tmp/docusign-esign-4.0.0rc1.tar.gz --markdown 20240522/d/docusign-esign/4.0.0-4.0.0rc1/README.md --exclude *.pyd
+[2024-05-22 13:48:44] INFO root fetch - processPackages [karp-lex-types]: Remove: archive file [/home/abi/fetcher/tmp/karp_lex_types-0.7.1.tar.gz]
+[2024-05-22 13:48:44] INFO root fetch - processPackages [karp-lex-types]: Remove: archive file [/home/abi/fetcher/tmp/karp_lex_types-0.7.2.tar.gz]
+[2024-05-22 13:48:44] INFO root fetch - main [MainThread]: End processing [karp-lex-types]: success
+[2024-05-22 13:48:44] INFO root fetch - processPackages [pysql-repo]: Remove: archive file [/home/abi/fetcher/tmp/pysql-repo-0.7.1.tar.gz]
+[2024-05-22 13:48:44] INFO root fetch - processPackages [pysql-repo]: Remove: archive file [/home/abi/fetcher/tmp/pysql-repo-0.7.2.tar.gz]
+[2024-05-22 13:48:44] INFO root fetch - main [MainThread]: End processing [pysql-repo]: success
+[2024-05-22 13:48:47] INFO root fetch - processPackages [docusign-esign]: Remove: archive file [/home/abi/fetcher/tmp/docusign-esign-4.0.0.tar.gz]
+[2024-05-22 13:48:47] INFO root fetch - processPackages [docusign-esign]: Remove: archive file [/home/abi/fetcher/tmp/docusign-esign-4.0.0rc1.tar.gz]
+[2024-05-22 13:48:47] INFO root fetch - main [MainThread]: End processing [docusign-esign]: success
+[2024-05-22 13:48:47] INFO root fetch - main [MainThread]: Store serial: [23323396]

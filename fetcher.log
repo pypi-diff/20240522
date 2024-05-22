@@ -16435,3 +16435,67 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:39:34] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.4.3.dev7.tar.gz]
 [2024-05-22 10:39:34] INFO root fetch - main [MainThread]: End processing [kuzu]: success
 [2024-05-22 10:39:34] INFO root fetch - main [MainThread]: Store serial: [23321022]
+[2024-05-22 10:41:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321022]
+[2024-05-22 10:41:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 10:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ansys-sphinx-theme
+[2024-05-22 10:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MLRegressions
+[2024-05-22 10:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MLRegressions
+[2024-05-22 10:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: go-console
+[2024-05-22 10:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinkoff-acquiring
+[2024-05-22 10:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dycw-utilities
+[2024-05-22 10:41:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zfx
+[2024-05-22 10:41:44] INFO root fetch - processPackages [go-console]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-22 10:41:44] INFO root fetch - processPackages [tinkoff-acquiring]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-05-22 10:41:44] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-22 10:41:44] INFO root fetch - processPackages [ansys-sphinx-theme]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-22 10:41:44] INFO root fetch - processPackages [go-console]: Downloading https://files.pythonhosted.org/packages/0a/e4/58bcbdd8dc02d56c93c8ff45df37633c47030f36283447aacf1510e0860a/go_console-0.0.4.tar.gz
+[2024-05-22 10:41:44] INFO root fetch - processPackages [MLRegressions]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-22 10:41:44] INFO root fetch - processPackages [MLRegressions]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-22 10:41:44] INFO root fetch - processPackages [dycw-utilities]: New version: [0.9.0] Old Version: [0.8.8]
+[2024-05-22 10:41:44] INFO root fetch - processPackages [ansys-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/ff/ed/eaba1d94eb6e4d850323103f8bcfc9d37f4b4ca7bc8061fe45c76ddf50a3/ansys-sphinx-theme-0.9.8.tar.gz
+[2024-05-22 10:41:44] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-22 10:41:44] INFO root fetch - processPackages [tinkoff-acquiring]: Downloading https://files.pythonhosted.org/packages/cf/08/ec017313756b52b5904a95ea86dffad16e4079584efc0bb1a792ab993192/tinkoff_acquiring-0.1.0.tar.gz
+[2024-05-22 10:41:44] INFO root fetch - processPackages [MLRegressions]: Downloading https://files.pythonhosted.org/packages/23/64/0370358fd513ba5befce9b2b0f1bc5fa8de44fa4a6fd1bc9e1284af04fc3/MLRegressions-1.0.0.tar.gz
+[2024-05-22 10:41:44] INFO root fetch - processPackages [MLRegressions]: Downloading https://files.pythonhosted.org/packages/23/64/0370358fd513ba5befce9b2b0f1bc5fa8de44fa4a6fd1bc9e1284af04fc3/MLRegressions-1.0.0.tar.gz
+[2024-05-22 10:41:44] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/a5/a4/993374a162ca6d880ff284c54df5acfb25a9f3347426746bb1aeeae915b9/dycw_utilities-0.8.8.tar.gz
+[2024-05-22 10:41:44] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-22 10:41:44] INFO root fetch - processPackages [go-console]: Downloading https://files.pythonhosted.org/packages/b1/89/e0e870f1e6d6f7df6c10a76c2361aff894f4f228a2e9f0c5de024dbc78e2/go_console-0.0.5.tar.gz
+[2024-05-22 10:41:44] INFO root fetch - processPackages [tinkoff-acquiring]: Downloading https://files.pythonhosted.org/packages/9f/c2/c389e80019af705b3322a1dc53ba908cc54ea444722dda44b14a408437b4/tinkoff_acquiring-0.1.2.tar.gz
+[2024-05-22 10:41:44] INFO root fetch - processPackages [ansys-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/70/5b/157d8b6bf61c537f299e3cf927537b5c17116cd0a7b718eae284558b48e3/ansys-sphinx-theme-0.9.9.tar.gz
+[2024-05-22 10:41:44] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-22 10:41:44] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240522/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-22 10:41:44] INFO root fetch - processPackages [go-console]: executing diffoscope
+[2024-05-22 10:41:44] INFO root fetch - processPackages [go-console]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/go_console-0.0.4.tar.gz tmp/go_console-0.0.5.tar.gz --markdown 20240522/g/go-console/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-22 10:41:44] INFO root fetch - processPackages [tinkoff-acquiring]: executing diffoscope
+[2024-05-22 10:41:44] INFO root fetch - processPackages [tinkoff-acquiring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinkoff_acquiring-0.1.0.tar.gz tmp/tinkoff_acquiring-0.1.2.tar.gz --markdown 20240522/t/tinkoff-acquiring/0.1.0-0.1.2/README.md --exclude *.pyd
+[2024-05-22 10:41:44] INFO root fetch - processPackages [MLRegressions]: Downloading https://files.pythonhosted.org/packages/59/5a/a80056c6b71700b6c8e47181713ab043053aeae80aa40721dbf0f092cde9/mlregressions-1.0.1.tar.gz
+[2024-05-22 10:41:44] INFO root fetch - processPackages [MLRegressions]: Downloading https://files.pythonhosted.org/packages/59/5a/a80056c6b71700b6c8e47181713ab043053aeae80aa40721dbf0f092cde9/mlregressions-1.0.1.tar.gz
+[2024-05-22 10:41:45] INFO root fetch - processPackages [ansys-sphinx-theme]: executing diffoscope
+[2024-05-22 10:41:45] INFO root fetch - processPackages [ansys-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-sphinx-theme-0.9.8.tar.gz tmp/ansys-sphinx-theme-0.9.9.tar.gz --markdown 20240522/a/ansys-sphinx-theme/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-22 10:41:45] INFO root fetch - processPackages [dycw-utilities]: Downloading https://files.pythonhosted.org/packages/18/5f/14fd12b36288c6f50f412854105898b537e348c0c10e7cedb0b54a05a56e/dycw_utilities-0.9.0.tar.gz
+[2024-05-22 10:41:45] INFO root fetch - processPackages [MLRegressions]: executing diffoscope
+[2024-05-22 10:41:45] INFO root fetch - processPackages [MLRegressions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLRegressions-1.0.0.tar.gz tmp/mlregressions-1.0.1.tar.gz --markdown 20240522/M/MLRegressions/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-22 10:41:45] INFO root fetch - processPackages [MLRegressions]: executing diffoscope
+[2024-05-22 10:41:45] INFO root fetch - processPackages [MLRegressions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLRegressions-1.0.0.tar.gz tmp/mlregressions-1.0.1.tar.gz --markdown 20240522/M/MLRegressions/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-22 10:41:45] INFO root fetch - processPackages [dycw-utilities]: executing diffoscope
+[2024-05-22 10:41:45] INFO root fetch - processPackages [dycw-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dycw_utilities-0.8.8.tar.gz tmp/dycw_utilities-0.9.0.tar.gz --markdown 20240522/d/dycw-utilities/0.8.8-0.9.0/README.md --exclude *.pyd
+[2024-05-22 10:41:45] INFO root fetch - processPackages [go-console]: Remove: archive file [/home/abi/fetcher/tmp/go_console-0.0.4.tar.gz]
+[2024-05-22 10:41:45] INFO root fetch - processPackages [go-console]: Remove: archive file [/home/abi/fetcher/tmp/go_console-0.0.5.tar.gz]
+[2024-05-22 10:41:45] INFO root fetch - main [MainThread]: End processing [go-console]: success
+[2024-05-22 10:41:45] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-22 10:41:45] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-22 10:41:45] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-22 10:41:45] INFO root fetch - processPackages [tinkoff-acquiring]: Remove: archive file [/home/abi/fetcher/tmp/tinkoff_acquiring-0.1.0.tar.gz]
+[2024-05-22 10:41:45] INFO root fetch - processPackages [tinkoff-acquiring]: Remove: archive file [/home/abi/fetcher/tmp/tinkoff_acquiring-0.1.2.tar.gz]
+[2024-05-22 10:41:45] INFO root fetch - main [MainThread]: End processing [tinkoff-acquiring]: success
+[2024-05-22 10:41:45] INFO root fetch - processPackages [MLRegressions]: Remove: archive file [/home/abi/fetcher/tmp/MLRegressions-1.0.0.tar.gz]
+[2024-05-22 10:41:45] INFO root fetch - processPackages [MLRegressions]: Remove: archive file [/home/abi/fetcher/tmp/mlregressions-1.0.1.tar.gz]
+[2024-05-22 10:41:45] INFO root fetch - main [MainThread]: End processing [MLRegressions]: success
+[2024-05-22 10:41:45] INFO root fetch - processPackages [ansys-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/ansys-sphinx-theme-0.9.8.tar.gz]
+[2024-05-22 10:41:45] INFO root fetch - processPackages [ansys-sphinx-theme]: Remove: archive file [/home/abi/fetcher/tmp/ansys-sphinx-theme-0.9.9.tar.gz]
+[2024-05-22 10:41:45] INFO root fetch - main [MainThread]: End processing [ansys-sphinx-theme]: success
+[2024-05-22 10:41:46] INFO root fetch - main [MainThread]: End processing [MLRegressions]: success
+[2024-05-22 10:41:46] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.8.8.tar.gz]
+[2024-05-22 10:41:46] INFO root fetch - processPackages [dycw-utilities]: Remove: archive file [/home/abi/fetcher/tmp/dycw_utilities-0.9.0.tar.gz]
+[2024-05-22 10:41:46] INFO root fetch - main [MainThread]: End processing [dycw-utilities]: success
+[2024-05-22 10:41:46] INFO root fetch - main [MainThread]: Store serial: [23321044]

@@ -7849,3 +7849,27 @@
 [2024-05-22 03:50:25] WARNING root fetch - processPackages [cardscan-client]: Skipping, unable to determine old version
 [2024-05-22 03:50:25] INFO root fetch - main [MainThread]: End processing [cardscan-client] error
 [2024-05-22 03:50:25] INFO root fetch - main [MainThread]: Store serial: [23317326]
+[2024-05-22 03:52:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317326]
+[2024-05-22 03:52:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 03:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lean4-jupyter
+[2024-05-22 03:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: simple-CLI-builder
+[2024-05-22 03:52:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: VisionFive.gpio
+[2024-05-22 03:52:33] INFO root fetch - processPackages [VisionFive.gpio]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-22 03:52:33] INFO root fetch - processPackages [lean4-jupyter]: New version: [0.0.1rc8] Old Version: [0.0.1rc7]
+[2024-05-22 03:52:33] WARNING root fetch - processPackages [simple-CLI-builder]: Skipping, unable to determine old version
+[2024-05-22 03:52:33] INFO root fetch - main [MainThread]: End processing [simple-CLI-builder] error
+[2024-05-22 03:52:33] INFO root fetch - processPackages [lean4-jupyter]: Downloading https://files.pythonhosted.org/packages/d3/88/5f8c412dcc70718c4903d4304fa6a45535517f0b4170c376ca7d243af409/lean4_jupyter-0.0.1rc7.tar.gz
+[2024-05-22 03:52:33] INFO root fetch - processPackages [VisionFive.gpio]: Downloading https://files.pythonhosted.org/packages/94/41/c433dfa61fe14a110dffa3d43cf7b96c49c41a8e4529525a785b4b4d71f9/VisionFive.gpio-1.3.1-cp310-cp310-any.whl
+[2024-05-22 03:52:34] INFO root fetch - processPackages [lean4-jupyter]: Downloading https://files.pythonhosted.org/packages/70/d2/04562ff792ff27d504c2f30101512ce2335058df11e58a61b63fbf624d9e/lean4_jupyter-0.0.1rc8.tar.gz
+[2024-05-22 03:52:34] INFO root fetch - processPackages [VisionFive.gpio]: Downloading https://files.pythonhosted.org/packages/6b/7c/06f414cd6d97bd63eabf22314e7480ff765dd8005ee2ea89743b35dc1280/VisionFive.gpio-1.3.2-cp310-cp310-any.whl
+[2024-05-22 03:52:34] INFO root fetch - processPackages [lean4-jupyter]: executing diffoscope
+[2024-05-22 03:52:34] INFO root fetch - processPackages [lean4-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lean4_jupyter-0.0.1rc7.tar.gz tmp/lean4_jupyter-0.0.1rc8.tar.gz --markdown 20240522/l/lean4-jupyter/0.0.1rc7-0.0.1rc8/README.md --exclude *.pyd
+[2024-05-22 03:52:34] INFO root fetch - processPackages [VisionFive.gpio]: executing diffoscope
+[2024-05-22 03:52:34] INFO root fetch - processPackages [VisionFive.gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VisionFive.gpio-1.3.1-cp310-cp310-any.whl.zip tmp/VisionFive.gpio-1.3.2-cp310-cp310-any.whl.zip --markdown 20240522/V/VisionFive.gpio/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-22 03:52:34] INFO root fetch - processPackages [lean4-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/lean4_jupyter-0.0.1rc7.tar.gz]
+[2024-05-22 03:52:34] INFO root fetch - processPackages [lean4-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/lean4_jupyter-0.0.1rc8.tar.gz]
+[2024-05-22 03:52:35] INFO root fetch - main [MainThread]: End processing [lean4-jupyter]: success
+[2024-05-22 03:52:36] INFO root fetch - processPackages [VisionFive.gpio]: Remove: archive file [/home/abi/fetcher/tmp/VisionFive.gpio-1.3.1-cp310-cp310-any.whl.zip]
+[2024-05-22 03:52:36] INFO root fetch - processPackages [VisionFive.gpio]: Remove: archive file [/home/abi/fetcher/tmp/VisionFive.gpio-1.3.2-cp310-cp310-any.whl.zip]
+[2024-05-22 03:52:36] INFO root fetch - main [MainThread]: End processing [VisionFive.gpio]: success
+[2024-05-22 03:52:36] INFO root fetch - main [MainThread]: Store serial: [23317337]

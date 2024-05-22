@@ -14286,3 +14286,69 @@
 [2024-05-22 09:22:04] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.0.tar.gz]
 [2024-05-22 09:22:04] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-22 09:22:04] INFO root fetch - main [MainThread]: Store serial: [23320148]
+[2024-05-22 09:24:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320148]
+[2024-05-22 09:24:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 09:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: annot-attrs
+[2024-05-22 09:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: danila-lib
+[2024-05-22 09:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: omnata-plugin-runtime
+[2024-05-22 09:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django_medicio_dental
+[2024-05-22 09:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zfx
+[2024-05-22 09:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spaceone-cost-analysis
+[2024-05-22 09:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-shopfloor-mobile-base-auth-api-key
+[2024-05-22 09:24:23] INFO root fetch - processPackages [spaceone-cost-analysis]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-22 09:24:23] INFO root fetch - processPackages [danila-lib]: New version: [1.5.8] Old Version: [1.5.7]
+[2024-05-22 09:24:23] INFO root fetch - processPackages [zfx]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-22 09:24:23] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/9d/ed/0868da6c86e4dc02447a82f2ea7dd601cbcd9f9457f1ffd86ffcd52166c9/spaceone-cost-analysis-2.0.dev98.tar.gz
+[2024-05-22 09:24:23] INFO root fetch - processPackages [annot-attrs]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-22 09:24:23] INFO root fetch - processPackages [odoo-addon-shopfloor-mobile-base-auth-api-key]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-05-22 09:24:23] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.3.9a44] Old Version: [0.3.9a43]
+[2024-05-22 09:24:23] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/6c/80/f877e4fcd806c902dbe2489b2e8e0723178cfe0722f1c1fc20c2ab1e1893/danila-lib-1.5.7.tar.gz
+[2024-05-22 09:24:23] INFO root fetch - processPackages [django_medicio_dental]: New version: [3.0.0] Old Version: [2.0.3]
+[2024-05-22 09:24:23] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/59/eb/f257e3407edfa0e36bd6d262b25e02023066e104ba26d20cee83a63198f0/zfx-1.0.8.tar.gz
+[2024-05-22 09:24:23] INFO root fetch - processPackages [annot-attrs]: Downloading https://files.pythonhosted.org/packages/7d/d1/7bd9a06a0f700e9c36902b8948a11295dedf5782bb4b1e869435675cd3bf/annot_attrs-0.0.5.tar.gz
+[2024-05-22 09:24:23] INFO root fetch - processPackages [django_medicio_dental]: Downloading https://files.pythonhosted.org/packages/a0/bb/883c0eafcad54c19a89d9d63815f9ab94d525a4065304ef41c91704722fe/django_medicio_dental-2.0.3.tar.gz
+[2024-05-22 09:24:23] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/8e/11/abde4b4d82373bc42a84a5591bf31c6cca540ba9f13337491df615af0b6c/omnata_plugin_runtime-0.3.9a43.tar.gz
+[2024-05-22 09:24:23] INFO root fetch - processPackages [odoo-addon-shopfloor-mobile-base-auth-api-key]: Downloading https://files.pythonhosted.org/packages/fd/b5/9b8d27f85244443fc777cdd03b49e7b4fec242f38c6594cc3663b7e6321e/odoo_addon_shopfloor_mobile_base_auth_api_key-16.0.1.0.0.4-py3-none-any.whl
+[2024-05-22 09:24:23] INFO root fetch - processPackages [spaceone-cost-analysis]: Downloading https://files.pythonhosted.org/packages/69/3b/abd588017217f1cd8fff7ef2a5fece8d81258b7c7585bb8fa88833d77684/spaceone-cost-analysis-2.0.dev99.tar.gz
+[2024-05-22 09:24:23] INFO root fetch - processPackages [zfx]: Downloading https://files.pythonhosted.org/packages/79/72/81e8c9f95e9effa80a25b20d494a3c3b21ed5cbbd53440c562d52fe8fe8a/zfx-1.0.9.tar.gz
+[2024-05-22 09:24:23] INFO root fetch - processPackages [danila-lib]: Downloading https://files.pythonhosted.org/packages/72/5e/d6a1e82dd68e9b2b10985f661c775eee2813d3d5435ea9ecd1156e33b340/danila-lib-1.5.8.tar.gz
+[2024-05-22 09:24:23] INFO root fetch - processPackages [zfx]: executing diffoscope
+[2024-05-22 09:24:23] INFO root fetch - processPackages [zfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfx-1.0.8.tar.gz tmp/zfx-1.0.9.tar.gz --markdown 20240522/z/zfx/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-22 09:24:23] INFO root fetch - processPackages [spaceone-cost-analysis]: executing diffoscope
+[2024-05-22 09:24:23] INFO root fetch - processPackages [spaceone-cost-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-cost-analysis-2.0.dev98.tar.gz tmp/spaceone-cost-analysis-2.0.dev99.tar.gz --markdown 20240522/s/spaceone-cost-analysis/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-22 09:24:23] INFO root fetch - processPackages [danila-lib]: executing diffoscope
+[2024-05-22 09:24:23] INFO root fetch - processPackages [danila-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danila-lib-1.5.7.tar.gz tmp/danila-lib-1.5.8.tar.gz --markdown 20240522/d/danila-lib/1.5.7-1.5.8/README.md --exclude *.pyd
+[2024-05-22 09:24:23] INFO root fetch - processPackages [annot-attrs]: Downloading https://files.pythonhosted.org/packages/a8/18/4f01f35833602a32d6479e2888c3ecc3050f47ffaec1ce79ac16e2456aa3/annot_attrs-0.0.6.tar.gz
+[2024-05-22 09:24:23] INFO root fetch - processPackages [odoo-addon-shopfloor-mobile-base-auth-api-key]: Downloading https://files.pythonhosted.org/packages/7c/64/a8f15976c8193eedea54e2c0cc858be0cf1b5931fa26e3fb52b86370f24a/odoo_addon_shopfloor_mobile_base_auth_api_key-16.0.1.0.0.5-py3-none-any.whl
+[2024-05-22 09:24:24] INFO root fetch - processPackages [annot-attrs]: executing diffoscope
+[2024-05-22 09:24:24] INFO root fetch - processPackages [annot-attrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/annot_attrs-0.0.5.tar.gz tmp/annot_attrs-0.0.6.tar.gz --markdown 20240522/a/annot-attrs/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-22 09:24:24] INFO root fetch - processPackages [odoo-addon-shopfloor-mobile-base-auth-api-key]: executing diffoscope
+[2024-05-22 09:24:24] INFO root fetch - processPackages [odoo-addon-shopfloor-mobile-base-auth-api-key]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_shopfloor_mobile_base_auth_api_key-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_shopfloor_mobile_base_auth_api_key-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-shopfloor-mobile-base-auth-api-key/16.0.1.0.0.4-16.0.1.0.0.5/README.md --exclude *.pyd
+[2024-05-22 09:24:24] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/de/f5/326ad467bb560d9dc8d7cebfe2aed77d524aeaf8a8ee7c6107f202eb6d0d/omnata_plugin_runtime-0.3.9a44.tar.gz
+[2024-05-22 09:24:24] INFO root fetch - processPackages [django_medicio_dental]: Downloading https://files.pythonhosted.org/packages/a1/ee/6925dea4fe50e1a8f8a831131b161b698f4f8d4917a1b7446cb3d530d367/django_medicio_dental-3.0.0.tar.gz
+[2024-05-22 09:24:24] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2024-05-22 09:24:24] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.3.9a43.tar.gz tmp/omnata_plugin_runtime-0.3.9a44.tar.gz --markdown 20240522/o/omnata-plugin-runtime/0.3.9a43-0.3.9a44/README.md --exclude *.pyd
+[2024-05-22 09:24:24] INFO root fetch - processPackages [django_medicio_dental]: executing diffoscope
+[2024-05-22 09:24:24] INFO root fetch - processPackages [django_medicio_dental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_medicio_dental-2.0.3.tar.gz tmp/django_medicio_dental-3.0.0.tar.gz --markdown 20240522/d/django_medicio_dental/2.0.3-3.0.0/README.md --exclude *.pyd
+[2024-05-22 09:24:24] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.8.tar.gz]
+[2024-05-22 09:24:24] INFO root fetch - processPackages [zfx]: Remove: archive file [/home/abi/fetcher/tmp/zfx-1.0.9.tar.gz]
+[2024-05-22 09:24:24] INFO root fetch - main [MainThread]: End processing [zfx]: success
+[2024-05-22 09:24:24] INFO root fetch - processPackages [annot-attrs]: Remove: archive file [/home/abi/fetcher/tmp/annot_attrs-0.0.5.tar.gz]
+[2024-05-22 09:24:24] INFO root fetch - processPackages [annot-attrs]: Remove: archive file [/home/abi/fetcher/tmp/annot_attrs-0.0.6.tar.gz]
+[2024-05-22 09:24:24] INFO root fetch - main [MainThread]: End processing [annot-attrs]: success
+[2024-05-22 09:24:24] INFO root fetch - processPackages [odoo-addon-shopfloor-mobile-base-auth-api-key]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shopfloor_mobile_base_auth_api_key-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-05-22 09:24:24] INFO root fetch - processPackages [odoo-addon-shopfloor-mobile-base-auth-api-key]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shopfloor_mobile_base_auth_api_key-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-05-22 09:24:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopfloor-mobile-base-auth-api-key]: success
+[2024-05-22 09:24:24] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.5.7.tar.gz]
+[2024-05-22 09:24:24] INFO root fetch - processPackages [danila-lib]: Remove: archive file [/home/abi/fetcher/tmp/danila-lib-1.5.8.tar.gz]
+[2024-05-22 09:24:24] INFO root fetch - main [MainThread]: End processing [danila-lib]: success
+[2024-05-22 09:24:25] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev98.tar.gz]
+[2024-05-22 09:24:25] INFO root fetch - processPackages [spaceone-cost-analysis]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-cost-analysis-2.0.dev99.tar.gz]
+[2024-05-22 09:24:25] INFO root fetch - main [MainThread]: End processing [spaceone-cost-analysis]: success
+[2024-05-22 09:24:25] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a43.tar.gz]
+[2024-05-22 09:24:25] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a44.tar.gz]
+[2024-05-22 09:24:25] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2024-05-22 09:24:26] INFO root fetch - processPackages [django_medicio_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_medicio_dental-2.0.3.tar.gz]
+[2024-05-22 09:24:26] INFO root fetch - processPackages [django_medicio_dental]: Remove: archive file [/home/abi/fetcher/tmp/django_medicio_dental-3.0.0.tar.gz]
+[2024-05-22 09:24:26] INFO root fetch - main [MainThread]: End processing [django_medicio_dental]: success
+[2024-05-22 09:24:26] INFO root fetch - main [MainThread]: Store serial: [23320172]

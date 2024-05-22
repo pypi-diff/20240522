@@ -20497,3 +20497,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:59:36] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.18.post2.tar.gz]
 [2024-05-22 12:59:36] INFO root fetch - main [MainThread]: End processing [hotsos]: success
 [2024-05-22 12:59:36] INFO root fetch - main [MainThread]: Store serial: [23322767]
+[2024-05-22 13:01:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322767]
+[2024-05-22 13:01:45] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 13:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-model-manager
+[2024-05-22 13:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: teklia-line-image-extractor
+[2024-05-22 13:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-problem
+[2024-05-22 13:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cli-SQL
+[2024-05-22 13:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypugjs
+[2024-05-22 13:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: generalindex
+[2024-05-22 13:01:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: better-hydroponics
+[2024-05-22 13:01:45] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev1] Old Version: [0.3.0.dev9]
+[2024-05-22 13:01:45] WARNING root fetch - processPackages [better-hydroponics]: Skipping, unable to determine old version
+[2024-05-22 13:01:45] INFO root fetch - main [MainThread]: End processing [better-hydroponics] error
+[2024-05-22 13:01:45] INFO root fetch - processPackages [pypugjs]: New version: [5.9.9] Old Version: [5.9.8]
+[2024-05-22 13:01:45] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/13/29/39ec8ce1bb609980c6daa4377ab05384d741a834e356c7e5f6369104f9bc/torch_model_manager-0.3.0.dev9.tar.gz
+[2024-05-22 13:01:45] INFO root fetch - processPackages [fastapi-problem]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-22 13:01:45] INFO root fetch - processPackages [pypugjs]: Downloading https://files.pythonhosted.org/packages/bc/9e/282e15a4c2e383ea8f7910575eba99c7c61fed857f633605fa48569bcf82/pypugjs-5.9.8.tar.gz
+[2024-05-22 13:01:45] WARNING root fetch - processPackages [cli-SQL]: Skipping, unable to determine old version
+[2024-05-22 13:01:45] INFO root fetch - main [MainThread]: End processing [cli-SQL] error
+[2024-05-22 13:01:45] INFO root fetch - processPackages [teklia-line-image-extractor]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-22 13:01:45] INFO root fetch - processPackages [generalindex]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-05-22 13:01:45] INFO root fetch - processPackages [fastapi-problem]: Downloading https://files.pythonhosted.org/packages/9a/46/066946726dee17bd984c54e6cb1b6a607c8858330058f05f55deb1a00091/fastapi_problem-0.7.8.tar.gz
+[2024-05-22 13:01:45] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/f2/54/293f84247bbc0f6f8495a40e16d701ecfe4f49ea5a393ddcc30ce2ec3325/torch_model_manager-0.4.0.dev1.tar.gz
+[2024-05-22 13:01:45] INFO root fetch - processPackages [generalindex]: Downloading https://files.pythonhosted.org/packages/09/d8/23991ddef66a3ca1e1559cbddf0f1208f04e5c0c27e65b0c28f622d5bd92/generalindex-0.2.1.tar.gz
+[2024-05-22 13:01:45] INFO root fetch - processPackages [teklia-line-image-extractor]: Downloading https://files.pythonhosted.org/packages/72/4d/3451dc5e78f8f7b7f9c255bfa9369f542f88760369f9d557e561a3802d5b/teklia-line-image-extractor-0.2.9.tar.gz
+[2024-05-22 13:01:45] INFO root fetch - processPackages [pypugjs]: Downloading https://files.pythonhosted.org/packages/ba/f1/f73d7982ebf18cb164dceb1ee34eb29a449e27b0f029354a16762d5a4ba2/pypugjs-5.9.9.tar.gz
+[2024-05-22 13:01:45] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-22 13:01:45] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.3.0.dev9.tar.gz tmp/torch_model_manager-0.4.0.dev1.tar.gz --markdown 20240522/t/torch-model-manager/0.3.0.dev9-0.4.0.dev1/README.md --exclude *.pyd
+[2024-05-22 13:01:45] INFO root fetch - processPackages [pypugjs]: executing diffoscope
+[2024-05-22 13:01:45] INFO root fetch - processPackages [pypugjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypugjs-5.9.8.tar.gz tmp/pypugjs-5.9.9.tar.gz --markdown 20240522/p/pypugjs/5.9.8-5.9.9/README.md --exclude *.pyd
+[2024-05-22 13:01:46] INFO root fetch - processPackages [fastapi-problem]: Downloading https://files.pythonhosted.org/packages/d4/d0/a7ce60b4bd8f40086672b563c82b36bc980345555634a7ff83ff08ee1ba0/fastapi_problem-0.7.9.tar.gz
+[2024-05-22 13:01:46] INFO root fetch - processPackages [fastapi-problem]: executing diffoscope
+[2024-05-22 13:01:46] INFO root fetch - processPackages [fastapi-problem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_problem-0.7.8.tar.gz tmp/fastapi_problem-0.7.9.tar.gz --markdown 20240522/f/fastapi-problem/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-22 13:01:46] INFO root fetch - processPackages [generalindex]: Downloading https://files.pythonhosted.org/packages/9a/1f/266da3854322636c8f9a82e98c372c1b778854d7068d81f0a6b2f2f59a39/generalindex-0.2.2.tar.gz
+[2024-05-22 13:01:46] INFO root fetch - processPackages [teklia-line-image-extractor]: Downloading https://files.pythonhosted.org/packages/93/cc/03066293519140d4e7500ed92c48a4b2e25d0ff5ff08069377f40e6eb91a/teklia_line_image_extractor-0.3.0.tar.gz
+[2024-05-22 13:01:46] INFO root fetch - processPackages [teklia-line-image-extractor]: executing diffoscope
+[2024-05-22 13:01:46] INFO root fetch - processPackages [teklia-line-image-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/teklia-line-image-extractor-0.2.9.tar.gz tmp/teklia_line_image_extractor-0.3.0.tar.gz --markdown 20240522/t/teklia-line-image-extractor/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-22 13:01:46] INFO root fetch - processPackages [generalindex]: executing diffoscope
+[2024-05-22 13:01:46] INFO root fetch - processPackages [generalindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/generalindex-0.2.1.tar.gz tmp/generalindex-0.2.2.tar.gz --markdown 20240522/g/generalindex/0.2.1-0.2.2/README.md --exclude *.pyd
+[2024-05-22 13:01:46] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.3.0.dev9.tar.gz]
+[2024-05-22 13:01:46] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev1.tar.gz]
+[2024-05-22 13:01:46] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-22 13:01:46] INFO root fetch - processPackages [pypugjs]: Remove: archive file [/home/abi/fetcher/tmp/pypugjs-5.9.8.tar.gz]
+[2024-05-22 13:01:46] INFO root fetch - processPackages [pypugjs]: Remove: archive file [/home/abi/fetcher/tmp/pypugjs-5.9.9.tar.gz]
+[2024-05-22 13:01:46] INFO root fetch - main [MainThread]: End processing [pypugjs]: success
+[2024-05-22 13:01:46] INFO root fetch - processPackages [fastapi-problem]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_problem-0.7.8.tar.gz]
+[2024-05-22 13:01:46] INFO root fetch - processPackages [fastapi-problem]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_problem-0.7.9.tar.gz]
+[2024-05-22 13:01:46] INFO root fetch - main [MainThread]: End processing [fastapi-problem]: success
+[2024-05-22 13:01:47] INFO root fetch - processPackages [teklia-line-image-extractor]: Remove: archive file [/home/abi/fetcher/tmp/teklia-line-image-extractor-0.2.9.tar.gz]
+[2024-05-22 13:01:47] INFO root fetch - processPackages [teklia-line-image-extractor]: Remove: archive file [/home/abi/fetcher/tmp/teklia_line_image_extractor-0.3.0.tar.gz]
+[2024-05-22 13:01:47] INFO root fetch - main [MainThread]: End processing [teklia-line-image-extractor]: success
+[2024-05-22 13:01:47] INFO root fetch - processPackages [generalindex]: Remove: archive file [/home/abi/fetcher/tmp/generalindex-0.2.1.tar.gz]
+[2024-05-22 13:01:47] INFO root fetch - processPackages [generalindex]: Remove: archive file [/home/abi/fetcher/tmp/generalindex-0.2.2.tar.gz]
+[2024-05-22 13:01:47] INFO root fetch - main [MainThread]: End processing [generalindex]: success
+[2024-05-22 13:01:47] INFO root fetch - main [MainThread]: Store serial: [23322790]

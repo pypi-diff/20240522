@@ -10753,3 +10753,24 @@
 [2024-05-22 06:03:51] INFO root fetch - processPackages [utilmy]: Remove: archive file [/home/abi/fetcher/tmp/utilmy-0.1.17163504.tar.gz]
 [2024-05-22 06:03:51] INFO root fetch - main [MainThread]: End processing [utilmy]: success
 [2024-05-22 06:03:51] INFO root fetch - main [MainThread]: Store serial: [23318582]
+[2024-05-22 06:05:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318582]
+[2024-05-22 06:06:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 06:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: algokit
+[2024-05-22 06:06:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: devicebay
+[2024-05-22 06:06:01] INFO root fetch - processPackages [algokit]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-05-22 06:06:01] INFO root fetch - processPackages [algokit]: Downloading https://files.pythonhosted.org/packages/5d/e4/c177beaae14ac07021bb94360777c487f6e76adeebfc0d20cf559bb48d5e/algokit-2.0.4-py3-none-any.whl
+[2024-05-22 06:06:01] INFO root fetch - processPackages [devicebay]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 06:06:01] INFO root fetch - processPackages [devicebay]: Downloading https://files.pythonhosted.org/packages/5d/35/9e41c1d2bd15e88729fdcd5b62b4a7de5dbc1c8a97674c8e26f2bbb51cc2/devicebay-0.1.8.tar.gz
+[2024-05-22 06:06:02] INFO root fetch - processPackages [algokit]: Downloading https://files.pythonhosted.org/packages/a1/e2/bdf8141d6493073156e1de72f5e932cb3a79812c0562fa3a6d8be4ffa8db/algokit-2.0.5-py3-none-any.whl
+[2024-05-22 06:06:02] INFO root fetch - processPackages [algokit]: executing diffoscope
+[2024-05-22 06:06:02] INFO root fetch - processPackages [algokit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit-2.0.4-py3-none-any.whl.zip tmp/algokit-2.0.5-py3-none-any.whl.zip --markdown 20240522/a/algokit/2.0.4-2.0.5/README.md --exclude *.pyd
+[2024-05-22 06:06:02] INFO root fetch - processPackages [devicebay]: Downloading https://files.pythonhosted.org/packages/e5/96/b13c67b11af0747066e9d93a63ece2bb5f80d597ff1909a2e3178ec12a2c/devicebay-0.1.9.tar.gz
+[2024-05-22 06:06:02] INFO root fetch - processPackages [devicebay]: executing diffoscope
+[2024-05-22 06:06:02] INFO root fetch - processPackages [devicebay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devicebay-0.1.8.tar.gz tmp/devicebay-0.1.9.tar.gz --markdown 20240522/d/devicebay/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 06:06:02] INFO root fetch - processPackages [devicebay]: Remove: archive file [/home/abi/fetcher/tmp/devicebay-0.1.8.tar.gz]
+[2024-05-22 06:06:02] INFO root fetch - processPackages [devicebay]: Remove: archive file [/home/abi/fetcher/tmp/devicebay-0.1.9.tar.gz]
+[2024-05-22 06:06:02] INFO root fetch - main [MainThread]: End processing [devicebay]: success
+[2024-05-22 06:06:02] INFO root fetch - processPackages [algokit]: Remove: archive file [/home/abi/fetcher/tmp/algokit-2.0.4-py3-none-any.whl.zip]
+[2024-05-22 06:06:02] INFO root fetch - processPackages [algokit]: Remove: archive file [/home/abi/fetcher/tmp/algokit-2.0.5-py3-none-any.whl.zip]
+[2024-05-22 06:06:02] INFO root fetch - main [MainThread]: End processing [algokit]: success
+[2024-05-22 06:06:02] INFO root fetch - main [MainThread]: Store serial: [23318588]

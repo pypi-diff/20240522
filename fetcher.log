@@ -10161,3 +10161,50 @@
 [2024-05-22 05:35:17] INFO root fetch - processPackages [antchain-riskplus]: Remove: archive file [/home/abi/fetcher/tmp/antchain_riskplus-1.9.5.tar.gz]
 [2024-05-22 05:35:17] INFO root fetch - main [MainThread]: End processing [antchain-riskplus]: success
 [2024-05-22 05:35:17] INFO root fetch - main [MainThread]: Store serial: [23318335]
+[2024-05-22 05:37:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318335]
+[2024-05-22 05:37:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 05:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esp-docs
+[2024-05-22 05:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sxolar
+[2024-05-22 05:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-05-22 05:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botasaurus-driver
+[2024-05-22 05:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: specklia
+[2024-05-22 05:37:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: baseball
+[2024-05-22 05:37:26] INFO root fetch - processPackages [botasaurus-driver]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-05-22 05:37:26] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.26a1716347598] Old Version: [0.0.26a1716346744]
+[2024-05-22 05:37:26] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.86]
+[2024-05-22 05:37:26] INFO root fetch - processPackages [baseball]: New version: [9.9] Old Version: [9.8]
+[2024-05-22 05:37:26] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/fa/7e/4cded5fa90ea0a7190b71e9cff4e212107c073d4621880dcdb18dab7bf09/botasaurus_driver-4.0.8.tar.gz
+[2024-05-22 05:37:26] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/02/11/9ff280721705ac02a2bb6a99f515ee48d34abb275c88aa003764b4aefaed/pulumi_kubernetes_the_hard_way-0.0.26a1716346744.tar.gz
+[2024-05-22 05:37:26] WARNING root fetch - processPackages [sxolar]: Skipping, unable to determine old version
+[2024-05-22 05:37:26] INFO root fetch - main [MainThread]: End processing [sxolar] error
+[2024-05-22 05:37:26] INFO root fetch - processPackages [esp-docs]: New version: [1.9.1] Old Version: [1.8.0]
+[2024-05-22 05:37:26] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/04/2a/8b198995c2f8d35c19f4b1e0e6c5c067e955f1258d57c1b1341eab88715e/baseball-9.8.tar.gz
+[2024-05-22 05:37:26] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/1a/26/110d8560f3b0242c9edc2983f39e4a886dfb8c50e8b9f647bb0ad05cf987/specklia-1.8.86.tar.gz
+[2024-05-22 05:37:26] INFO root fetch - processPackages [botasaurus-driver]: Downloading https://files.pythonhosted.org/packages/ad/57/c5587eb0a46a39cf90a36835b2e3372614749a4cde08db6baad1ff2eac4e/botasaurus_driver-4.0.9.tar.gz
+[2024-05-22 05:37:26] INFO root fetch - processPackages [esp-docs]: Downloading https://files.pythonhosted.org/packages/dd/43/823b13b892bd5fcff943131dcb58ddfc4b2ee0382d136fbcdcab6f962aa5/esp-docs-1.8.0.tar.gz
+[2024-05-22 05:37:26] INFO root fetch - processPackages [baseball]: Downloading https://files.pythonhosted.org/packages/1a/e0/fb3c48a01fd33034695694663cfddfb7a099e47f8aa30dc6c901a5fcee37/baseball-9.9.tar.gz
+[2024-05-22 05:37:26] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/ba/f8/68568ce3c5319c44e1d8c3226cd580f9cce4e29a86cb919ce14b6aa1913a/pulumi_kubernetes_the_hard_way-0.0.26a1716347598.tar.gz
+[2024-05-22 05:37:26] INFO root fetch - processPackages [baseball]: executing diffoscope
+[2024-05-22 05:37:26] INFO root fetch - processPackages [baseball]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baseball-9.8.tar.gz tmp/baseball-9.9.tar.gz --markdown 20240522/b/baseball/9.8-9.9/README.md --exclude *.pyd
+[2024-05-22 05:37:26] INFO root fetch - processPackages [botasaurus-driver]: executing diffoscope
+[2024-05-22 05:37:26] INFO root fetch - processPackages [botasaurus-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_driver-4.0.8.tar.gz tmp/botasaurus_driver-4.0.9.tar.gz --markdown 20240522/b/botasaurus-driver/4.0.8-4.0.9/README.md --exclude *.pyd
+[2024-05-22 05:37:26] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-05-22 05:37:27] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-05-22 05:37:27] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.26a1716346744.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.26a1716347598.tar.gz --markdown 20240522/p/pulumi-kubernetes-the-hard-way/0.0.26a1716346744-0.0.26a1716347598/README.md --exclude *.pyd
+[2024-05-22 05:37:27] WARNING root fetch - processPackages [esp-docs]: Skipping package: exceeds size limit 15982799>=10485760
+[2024-05-22 05:37:27] INFO root fetch - main [MainThread]: End processing [esp-docs] error
+[2024-05-22 05:37:27] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-05-22 05:37:27] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.86.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240522/s/specklia/1.8.86-1.8.9/README.md --exclude *.pyd
+[2024-05-22 05:37:27] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.8.tar.gz]
+[2024-05-22 05:37:27] INFO root fetch - processPackages [baseball]: Remove: archive file [/home/abi/fetcher/tmp/baseball-9.9.tar.gz]
+[2024-05-22 05:37:27] INFO root fetch - main [MainThread]: End processing [baseball]: success
+[2024-05-22 05:37:27] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.86.tar.gz]
+[2024-05-22 05:37:27] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-05-22 05:37:27] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-05-22 05:37:27] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.26a1716346744.tar.gz]
+[2024-05-22 05:37:27] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.26a1716347598.tar.gz]
+[2024-05-22 05:37:27] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-05-22 05:37:27] INFO root fetch - processPackages [botasaurus-driver]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_driver-4.0.8.tar.gz]
+[2024-05-22 05:37:27] INFO root fetch - processPackages [botasaurus-driver]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_driver-4.0.9.tar.gz]
+[2024-05-22 05:37:27] INFO root fetch - main [MainThread]: End processing [botasaurus-driver]: success
+[2024-05-22 05:37:27] INFO root fetch - main [MainThread]: Store serial: [23318359]

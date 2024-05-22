@@ -23001,3 +23001,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 14:31:46] INFO root fetch - processPackages [vavacars-data-utils]: Remove: archive file [/home/abi/fetcher/tmp/vavacars_data_utils-1.3.5.tar.gz]
 [2024-05-22 14:31:46] INFO root fetch - main [MainThread]: End processing [vavacars-data-utils]: success
 [2024-05-22 14:31:46] INFO root fetch - main [MainThread]: Store serial: [23323974]
+[2024-05-22 14:33:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323974]
+[2024-05-22 14:33:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 14:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytensor
+[2024-05-22 14:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mdtidy
+[2024-05-22 14:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TlseHypDataSet
+[2024-05-22 14:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: requirements-checker
+[2024-05-22 14:33:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdo-sdk-python
+[2024-05-22 14:33:56] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-22 14:33:56] INFO root fetch - processPackages [pytensor]: New version: [2.9.1] Old Version: [2.8.11]
+[2024-05-22 14:33:56] INFO root fetch - processPackages [requirements-checker]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 14:33:56] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/aa/54/d9c631d5702693a0921bbc1c50cad785f8fa75671cabdd662546a416a6b9/cdo-sdk-python-1.0.98.tar.gz
+[2024-05-22 14:33:56] INFO root fetch - processPackages [TlseHypDataSet]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-22 14:33:56] WARNING root fetch - processPackages [mdtidy]: Skipping, unable to determine old version
+[2024-05-22 14:33:56] INFO root fetch - main [MainThread]: End processing [mdtidy] error
+[2024-05-22 14:33:56] INFO root fetch - processPackages [pytensor]: Downloading https://files.pythonhosted.org/packages/93/d6/4163252aeb081f46572450118d4384e037a1f82291ae1e051a483fe6ca2b/pytensor-2.8.11.tar.gz
+[2024-05-22 14:33:56] INFO root fetch - processPackages [TlseHypDataSet]: Downloading https://files.pythonhosted.org/packages/68/62/f38dd78add5e3421bc2b8ec08fbeece2770ac1aa136339cd7c82eb2cffe5/TlseHypDataSet-0.0.3.tar.gz
+[2024-05-22 14:33:56] INFO root fetch - processPackages [requirements-checker]: Downloading https://files.pythonhosted.org/packages/89/1c/b5d2a0ff6e8b37530f2972ebeebaf7cb3a2228d1c30646a8c7a93516c536/requirements_checker-0.1.8.tar.gz
+[2024-05-22 14:33:56] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/9b/76/7267c3f3ac308bacc9e809ed54663a42556e896ff4e2d73a469a15d3556a/cdo-sdk-python-1.0.99.tar.gz
+[2024-05-22 14:33:56] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-05-22 14:33:56] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.98.tar.gz tmp/cdo-sdk-python-1.0.99.tar.gz --markdown 20240522/c/cdo-sdk-python/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-22 14:33:56] INFO root fetch - processPackages [requirements-checker]: Downloading https://files.pythonhosted.org/packages/81/53/bd2e1b82ed32c2f7cfe852f4630f7b89232eb02baf877a4ac355d41801c5/requirements_checker-0.1.9.tar.gz
+[2024-05-22 14:33:56] INFO root fetch - processPackages [requirements-checker]: executing diffoscope
+[2024-05-22 14:33:56] INFO root fetch - processPackages [requirements-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requirements_checker-0.1.8.tar.gz tmp/requirements_checker-0.1.9.tar.gz --markdown 20240522/r/requirements-checker/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 14:33:57] INFO root fetch - processPackages [pytensor]: Downloading https://files.pythonhosted.org/packages/a7/0d/621c9aaf5406a39b2defa66cedc2d54a377b0524b360de0c282668b3f57d/pytensor-2.9.1.tar.gz
+[2024-05-22 14:33:57] INFO root fetch - processPackages [requirements-checker]: Remove: archive file [/home/abi/fetcher/tmp/requirements_checker-0.1.8.tar.gz]
+[2024-05-22 14:33:57] INFO root fetch - processPackages [requirements-checker]: Remove: archive file [/home/abi/fetcher/tmp/requirements_checker-0.1.9.tar.gz]
+[2024-05-22 14:33:57] INFO root fetch - main [MainThread]: End processing [requirements-checker]: success
+[2024-05-22 14:33:57] INFO root fetch - processPackages [TlseHypDataSet]: Downloading https://files.pythonhosted.org/packages/08/fb/8b687978fa7713915caa17be4bf4e307fa1eb713a498ed201b40aa527eed/TlseHypDataSet-0.0.4-py3-none-any.whl
+[2024-05-22 14:33:57] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.98.tar.gz]
+[2024-05-22 14:33:57] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.99.tar.gz]
+[2024-05-22 14:33:57] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-05-22 14:33:57] INFO root fetch - processPackages [pytensor]: executing diffoscope
+[2024-05-22 14:33:57] INFO root fetch - processPackages [pytensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytensor-2.8.11.tar.gz tmp/pytensor-2.9.1.tar.gz --markdown 20240522/p/pytensor/2.8.11-2.9.1/README.md --exclude *.pyd
+[2024-05-22 14:33:58] INFO root fetch - processPackages [TlseHypDataSet]: executing diffoscope
+[2024-05-22 14:33:58] INFO root fetch - processPackages [TlseHypDataSet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TlseHypDataSet-0.0.3.tar.gz tmp/TlseHypDataSet-0.0.4-py3-none-any.whl.zip --markdown 20240522/T/TlseHypDataSet/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-22 14:33:59] INFO root fetch - processPackages [TlseHypDataSet]: Remove: archive file [/home/abi/fetcher/tmp/TlseHypDataSet-0.0.3.tar.gz]
+[2024-05-22 14:33:59] INFO root fetch - processPackages [TlseHypDataSet]: Remove: archive file [/home/abi/fetcher/tmp/TlseHypDataSet-0.0.4-py3-none-any.whl.zip]
+[2024-05-22 14:33:59] INFO root fetch - main [MainThread]: End processing [TlseHypDataSet]: success
+[2024-05-22 14:34:01] INFO root fetch - processPackages [pytensor]: Remove: archive file [/home/abi/fetcher/tmp/pytensor-2.8.11.tar.gz]
+[2024-05-22 14:34:01] INFO root fetch - processPackages [pytensor]: Remove: archive file [/home/abi/fetcher/tmp/pytensor-2.9.1.tar.gz]
+[2024-05-22 14:34:01] INFO root fetch - main [MainThread]: End processing [pytensor]: success
+[2024-05-22 14:34:01] INFO root fetch - main [MainThread]: Store serial: [23324002]

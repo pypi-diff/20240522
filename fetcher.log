@@ -11979,3 +11979,54 @@
 [2024-05-22 07:23:15] INFO root fetch - processPackages [odoo-addon-product-replenishment-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_replenishment_cost-16.0.1.0.0.9-py3-none-any.whl.zip]
 [2024-05-22 07:23:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-replenishment-cost]: success
 [2024-05-22 07:23:15] INFO root fetch - main [MainThread]: Store serial: [23319059]
+[2024-05-22 07:25:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319059]
+[2024-05-22 07:25:25] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 07:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sklearntools
+[2024-05-22 07:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qontract-reconcile
+[2024-05-22 07:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adaux
+[2024-05-22 07:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: setup-django-apex
+[2024-05-22 07:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartpredict
+[2024-05-22 07:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: extended-mypy-django-plugin
+[2024-05-22 07:25:25] INFO root fetch - processPackages [sklearntools]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-05-22 07:25:25] INFO root fetch - processPackages [sklearntools]: Downloading https://files.pythonhosted.org/packages/d7/16/ba0c07228f6ad01de37e81e3598e81ecc29ff83c314021d0fbf1d01e59ab/sklearntools-0.5.0.tar.gz
+[2024-05-22 07:25:25] WARNING root fetch - processPackages [setup-django-apex]: Skipping, unable to determine old version
+[2024-05-22 07:25:25] INFO root fetch - main [MainThread]: End processing [setup-django-apex] error
+[2024-05-22 07:25:25] INFO root fetch - processPackages [smartpredict]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-05-22 07:25:25] INFO root fetch - processPackages [adaux]: New version: [3.6.1] Old Version: [3.6.0]
+[2024-05-22 07:25:26] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-05-22 07:25:26] INFO root fetch - processPackages [extended-mypy-django-plugin]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-05-22 07:25:26] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-05-22 07:25:26] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/e7/77/298c7138364c08f796c813b8f046f495035d543091221e70eefe926368d6/smartpredict-0.6.4.tar.gz
+[2024-05-22 07:25:26] INFO root fetch - processPackages [sklearntools]: Downloading https://files.pythonhosted.org/packages/64/e2/1dd7dd5a6b901d51a85e4742716dafd61f83897c96a22a1a4cb42d106bf6/sklearntools-0.6.0.tar.gz
+[2024-05-22 07:25:26] INFO root fetch - processPackages [adaux]: Downloading https://files.pythonhosted.org/packages/d9/1f/d99549aac5fbcf7e7609d351a8470a26ff5372dc7ef67a5839064b462b80/adaux-3.6.0.tar.gz
+[2024-05-22 07:25:26] INFO root fetch - processPackages [extended-mypy-django-plugin]: Downloading https://files.pythonhosted.org/packages/99/0e/78292089083bf15fd7af736914b6376bd2784038b471b04f507200f4d95c/extended_mypy_django_plugin-0.5.1.tar.gz
+[2024-05-22 07:25:26] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-05-22 07:25:26] INFO root fetch - processPackages [sklearntools]: executing diffoscope
+[2024-05-22 07:25:26] INFO root fetch - processPackages [sklearntools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearntools-0.5.0.tar.gz tmp/sklearntools-0.6.0.tar.gz --markdown 20240522/s/sklearntools/0.5.0-0.6.0/README.md --exclude *.pyd
+[2024-05-22 07:25:26] INFO root fetch - processPackages [smartpredict]: Downloading https://files.pythonhosted.org/packages/a9/96/6582d098eb52a53d6b9eddb1a5d2d0ff7d46eddddc6f23ab03f4f2f38054/smartpredict-0.6.5.tar.gz
+[2024-05-22 07:25:26] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-05-22 07:25:26] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240522/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/README.md --exclude *.pyd
+[2024-05-22 07:25:26] INFO root fetch - processPackages [adaux]: Downloading https://files.pythonhosted.org/packages/55/b4/9537c8443e916a5dfadceb152fb73fae173d0903a354b8f223c4370d62c8/adaux-3.6.1.tar.gz
+[2024-05-22 07:25:26] INFO root fetch - processPackages [extended-mypy-django-plugin]: Downloading https://files.pythonhosted.org/packages/75/2e/51f25d40e2be9334e57949ebd550e699f535c9f7eb241bd393ca195d9952/extended_mypy_django_plugin-0.5.2.tar.gz
+[2024-05-22 07:25:26] INFO root fetch - processPackages [smartpredict]: executing diffoscope
+[2024-05-22 07:25:26] INFO root fetch - processPackages [smartpredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpredict-0.6.4.tar.gz tmp/smartpredict-0.6.5.tar.gz --markdown 20240522/s/smartpredict/0.6.4-0.6.5/README.md --exclude *.pyd
+[2024-05-22 07:25:26] INFO root fetch - processPackages [adaux]: executing diffoscope
+[2024-05-22 07:25:26] INFO root fetch - processPackages [adaux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adaux-3.6.0.tar.gz tmp/adaux-3.6.1.tar.gz --markdown 20240522/a/adaux/3.6.0-3.6.1/README.md --exclude *.pyd
+[2024-05-22 07:25:26] INFO root fetch - processPackages [extended-mypy-django-plugin]: executing diffoscope
+[2024-05-22 07:25:26] INFO root fetch - processPackages [extended-mypy-django-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extended_mypy_django_plugin-0.5.1.tar.gz tmp/extended_mypy_django_plugin-0.5.2.tar.gz --markdown 20240522/e/extended-mypy-django-plugin/0.5.1-0.5.2/README.md --exclude *.pyd
+[2024-05-22 07:25:26] INFO root fetch - processPackages [sklearntools]: Remove: archive file [/home/abi/fetcher/tmp/sklearntools-0.5.0.tar.gz]
+[2024-05-22 07:25:26] INFO root fetch - processPackages [sklearntools]: Remove: archive file [/home/abi/fetcher/tmp/sklearntools-0.6.0.tar.gz]
+[2024-05-22 07:25:26] INFO root fetch - main [MainThread]: End processing [sklearntools]: success
+[2024-05-22 07:25:27] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.6.4.tar.gz]
+[2024-05-22 07:25:27] INFO root fetch - processPackages [smartpredict]: Remove: archive file [/home/abi/fetcher/tmp/smartpredict-0.6.5.tar.gz]
+[2024-05-22 07:25:27] INFO root fetch - main [MainThread]: End processing [smartpredict]: success
+[2024-05-22 07:25:27] INFO root fetch - processPackages [adaux]: Remove: archive file [/home/abi/fetcher/tmp/adaux-3.6.0.tar.gz]
+[2024-05-22 07:25:27] INFO root fetch - processPackages [adaux]: Remove: archive file [/home/abi/fetcher/tmp/adaux-3.6.1.tar.gz]
+[2024-05-22 07:25:27] INFO root fetch - main [MainThread]: End processing [adaux]: success
+[2024-05-22 07:25:27] INFO root fetch - processPackages [extended-mypy-django-plugin]: Remove: archive file [/home/abi/fetcher/tmp/extended_mypy_django_plugin-0.5.1.tar.gz]
+[2024-05-22 07:25:27] INFO root fetch - processPackages [extended-mypy-django-plugin]: Remove: archive file [/home/abi/fetcher/tmp/extended_mypy_django_plugin-0.5.2.tar.gz]
+[2024-05-22 07:25:27] INFO root fetch - main [MainThread]: End processing [extended-mypy-django-plugin]: success
+[2024-05-22 07:25:28] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-05-22 07:25:28] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-05-22 07:25:28] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-05-22 07:25:28] INFO root fetch - main [MainThread]: Store serial: [23319075]

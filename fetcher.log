@@ -3174,3 +3174,29 @@
 [2024-05-22 02:40:29] INFO root fetch - processPackages [ddx-python]: Remove: archive file [/home/abi/fetcher/tmp/ddx_python-0.2.1.tar.gz]
 [2024-05-22 02:40:29] INFO root fetch - main [MainThread]: End processing [ddx-python]: success
 [2024-05-22 02:40:29] INFO root fetch - main [MainThread]: Store serial: [23315685]
+[2024-05-22 02:42:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315685]
+[2024-05-22 02:42:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 02:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: typeshed-stats
+[2024-05-22 02:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metget
+[2024-05-22 02:42:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nm-magic-wand-nightly
+[2024-05-22 02:42:53] INFO root fetch - processPackages [typeshed-stats]: New version: [24.5.21] Old Version: [23.2.1]
+[2024-05-22 02:42:53] INFO root fetch - processPackages [typeshed-stats]: Downloading https://files.pythonhosted.org/packages/f1/cb/bb5c55dff621006eaad12b3514d5f5697a8b6b6202905953b6fa99cc73f0/typeshed_stats-23.2.1.tar.gz
+[2024-05-22 02:42:53] INFO root fetch - processPackages [metget]: New version: [0.8.0] Old Version: [0.6.0]
+[2024-05-22 02:42:53] INFO root fetch - processPackages [nm-magic-wand-nightly]: New version: [0.2.2.20240522] Old Version: [0.2.2.20240521]
+[2024-05-22 02:42:53] INFO root fetch - processPackages [metget]: Downloading https://files.pythonhosted.org/packages/79/93/aeb52f86133591da232a3846d21bdb7a971e76e545e8648b6425f787827f/metget-0.6.0.tar.gz
+[2024-05-22 02:42:53] INFO root fetch - processPackages [nm-magic-wand-nightly]: Downloading https://files.pythonhosted.org/packages/62/36/925df9ae12f0fd8fdd70617ab29a60c150ccf4826ceb0680901bbe9a7a52/nm_magic_wand_nightly-0.2.2.20240521-cp39-cp39-manylinux_2_17_x86_64.whl
+[2024-05-22 02:42:53] WARNING root fetch - processPackages [nm-magic-wand-nightly]: Skipping package: exceeds size limit 66873330>=10485760
+[2024-05-22 02:42:53] INFO root fetch - main [MainThread]: End processing [nm-magic-wand-nightly] error
+[2024-05-22 02:42:53] INFO root fetch - processPackages [typeshed-stats]: Downloading https://files.pythonhosted.org/packages/03/fc/ade9783682078595d8b2fb47af1aed8c8fb2c4e166f3059b82852c3d16e7/typeshed_stats-24.5.21.tar.gz
+[2024-05-22 02:42:53] INFO root fetch - processPackages [typeshed-stats]: executing diffoscope
+[2024-05-22 02:42:53] INFO root fetch - processPackages [typeshed-stats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typeshed_stats-23.2.1.tar.gz tmp/typeshed_stats-24.5.21.tar.gz --markdown 20240522/t/typeshed-stats/23.2.1-24.5.21/README.md --exclude *.pyd
+[2024-05-22 02:42:53] INFO root fetch - processPackages [metget]: Downloading https://files.pythonhosted.org/packages/d3/7b/8f3ec685dc1486df551c271fec51688b34d76f310ee65ca1b5d0ffb6de83/metget-0.8.0.tar.gz
+[2024-05-22 02:42:54] INFO root fetch - processPackages [metget]: executing diffoscope
+[2024-05-22 02:42:54] INFO root fetch - processPackages [metget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metget-0.6.0.tar.gz tmp/metget-0.8.0.tar.gz --markdown 20240522/m/metget/0.6.0-0.8.0/README.md --exclude *.pyd
+[2024-05-22 02:42:54] INFO root fetch - processPackages [metget]: Remove: archive file [/home/abi/fetcher/tmp/metget-0.6.0.tar.gz]
+[2024-05-22 02:42:54] INFO root fetch - processPackages [metget]: Remove: archive file [/home/abi/fetcher/tmp/metget-0.8.0.tar.gz]
+[2024-05-22 02:42:54] INFO root fetch - main [MainThread]: End processing [metget]: success
+[2024-05-22 02:42:54] INFO root fetch - processPackages [typeshed-stats]: Remove: archive file [/home/abi/fetcher/tmp/typeshed_stats-23.2.1.tar.gz]
+[2024-05-22 02:42:54] INFO root fetch - processPackages [typeshed-stats]: Remove: archive file [/home/abi/fetcher/tmp/typeshed_stats-24.5.21.tar.gz]
+[2024-05-22 02:42:54] INFO root fetch - main [MainThread]: End processing [typeshed-stats]: success
+[2024-05-22 02:42:54] INFO root fetch - main [MainThread]: Store serial: [23315694]

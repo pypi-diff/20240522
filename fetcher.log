@@ -23408,3 +23408,75 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 14:43:52] INFO root fetch - processPackages [invenio-rdm-records]: Remove: archive file [/home/abi/fetcher/tmp/invenio-rdm-records-9.1.0.tar.gz]
 [2024-05-22 14:43:52] INFO root fetch - main [MainThread]: End processing [invenio-rdm-records]: success
 [2024-05-22 14:43:52] INFO root fetch - main [MainThread]: Store serial: [23324174]
+[2024-05-22 14:45:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23324174]
+[2024-05-22 14:46:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-22 14:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torch-model-manager
+[2024-05-22 14:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: causalkit
+[2024-05-22 14:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xray-disease-detector
+[2024-05-22 14:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domtag
+[2024-05-22 14:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-app-requires
+[2024-05-22 14:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-codenerix-email
+[2024-05-22 14:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finbourne-access-sdk
+[2024-05-22 14:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nostr-protocol
+[2024-05-22 14:46:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gable
+[2024-05-22 14:46:01] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev5] Old Version: [0.4.0.dev4]
+[2024-05-22 14:46:01] INFO root fetch - processPackages [xray-disease-detector]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-22 14:46:01] WARNING root fetch - processPackages [domtag]: Skipping, unable to determine old version
+[2024-05-22 14:46:01] INFO root fetch - processPackages [xray-disease-detector]: Downloading https://files.pythonhosted.org/packages/a6/d5/0d7763b20178837974e4532266557ea815e9a54a394eb6109e7457a60cb9/xray_disease_detector-0.0.2.tar.gz
+[2024-05-22 14:46:01] INFO root fetch - main [MainThread]: End processing [domtag] error
+[2024-05-22 14:46:01] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/46/06/8e60ac64e93bf760e551ba6c2c6f310c0d5260c02b8d2fef36a4836736a6/torch_model_manager-0.4.0.dev4.tar.gz
+[2024-05-22 14:46:01] INFO root fetch - processPackages [django-codenerix-email]: New version: [4.0.5] Old Version: [4.0.4]
+[2024-05-22 14:46:01] INFO root fetch - processPackages [django-app-requires]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-05-22 14:46:01] INFO root fetch - processPackages [nostr-protocol]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-22 14:46:01] WARNING root fetch - processPackages [causalkit]: Skipping, unable to determine old version
+[2024-05-22 14:46:01] INFO root fetch - main [MainThread]: End processing [causalkit] error
+[2024-05-22 14:46:01] INFO root fetch - processPackages [gable]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2024-05-22 14:46:01] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-22 14:46:01] INFO root fetch - processPackages [nostr-protocol]: Downloading https://files.pythonhosted.org/packages/9d/25/3560aea87b40848862903f76aadf13161cb10053f83af650bc27f870000a/nostr_protocol-0.8.0-cp39-cp39-win_amd64.whl
+[2024-05-22 14:46:01] INFO root fetch - processPackages [django-app-requires]: Downloading https://files.pythonhosted.org/packages/47/b3/a9188df643367cfaf4758c089420785a4221804eed5d48e301adb2add580/django-app-requires-0.3.3.tar.gz
+[2024-05-22 14:46:01] INFO root fetch - processPackages [django-codenerix-email]: Downloading https://files.pythonhosted.org/packages/c1/20/ef896779cba1024033283b4106ac8acaa8cbf4d9846ee194ec5413fe6de8/django-codenerix-email-4.0.4.tar.gz
+[2024-05-22 14:46:02] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/67/5a/2e8d70b51969063ac34619b9a07be19893b64107b4dab37e771b94bd1b03/finbourne_access_sdk-2.1.8.tar.gz
+[2024-05-22 14:46:02] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/3c/25/205ee4d565d0bf0f974e4b429be2eb6f978c964647c940357bfa9601db85/gable-0.9.0a2.tar.gz
+[2024-05-22 14:46:02] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/5b/07/8ab8182781cd16c0c962b42f468fc817e16674c10b552733d4d1b1bf7a90/torch_model_manager-0.4.0.dev5.tar.gz
+[2024-05-22 14:46:02] INFO root fetch - processPackages [xray-disease-detector]: Downloading https://files.pythonhosted.org/packages/7b/bb/d18a2df0a6fef513fb9aa808b517ad85dfd8c5856941dd4164fd4db0069e/xray_disease_detector-0.0.3.tar.gz
+[2024-05-22 14:46:02] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-22 14:46:02] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.0.dev4.tar.gz tmp/torch_model_manager-0.4.0.dev5.tar.gz --markdown 20240522/t/torch-model-manager/0.4.0.dev4-0.4.0.dev5/README.md --exclude *.pyd
+[2024-05-22 14:46:02] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/2d/9e/be08614b45729ae547c5c8acd046e8c90ae89d6b812ee70666b6e24bcbe8/finbourne_access_sdk-2.1.9.tar.gz
+[2024-05-22 14:46:02] INFO root fetch - processPackages [django-app-requires]: Downloading https://files.pythonhosted.org/packages/0c/f1/4602cd6ffa075c051c18f8e2688a574d1306f4e13b0d6bad58fc00d5b229/django-app-requires-0.3.4.tar.gz
+[2024-05-22 14:46:02] INFO root fetch - processPackages [django-codenerix-email]: Downloading https://files.pythonhosted.org/packages/57/54/39f29572680751fcce6e3d6f26a9fbeea97631a6541027ebfb4f695a311f/django-codenerix-email-4.0.5.tar.gz
+[2024-05-22 14:46:02] INFO root fetch - processPackages [xray-disease-detector]: executing diffoscope
+[2024-05-22 14:46:02] INFO root fetch - processPackages [xray-disease-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xray_disease_detector-0.0.2.tar.gz tmp/xray_disease_detector-0.0.3.tar.gz --markdown 20240522/x/xray-disease-detector/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-22 14:46:02] INFO root fetch - processPackages [gable]: Downloading https://files.pythonhosted.org/packages/df/19/7ed3e403c062cfa539ddfa26caecd22d3365e387d62ab3f2a6db2e30ac8a/gable-0.9.0a3.tar.gz
+[2024-05-22 14:46:02] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-05-22 14:46:02] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.1.8.tar.gz tmp/finbourne_access_sdk-2.1.9.tar.gz --markdown 20240522/f/finbourne-access-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-22 14:46:02] INFO root fetch - processPackages [django-app-requires]: executing diffoscope
+[2024-05-22 14:46:02] INFO root fetch - processPackages [django-app-requires]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-app-requires-0.3.3.tar.gz tmp/django-app-requires-0.3.4.tar.gz --markdown 20240522/d/django-app-requires/0.3.3-0.3.4/README.md --exclude *.pyd
+[2024-05-22 14:46:02] INFO root fetch - processPackages [django-codenerix-email]: executing diffoscope
+[2024-05-22 14:46:02] INFO root fetch - processPackages [django-codenerix-email]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-codenerix-email-4.0.4.tar.gz tmp/django-codenerix-email-4.0.5.tar.gz --markdown 20240522/d/django-codenerix-email/4.0.4-4.0.5/README.md --exclude *.pyd
+[2024-05-22 14:46:02] INFO root fetch - processPackages [gable]: executing diffoscope
+[2024-05-22 14:46:02] INFO root fetch - processPackages [gable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gable-0.9.0a2.tar.gz tmp/gable-0.9.0a3.tar.gz --markdown 20240522/g/gable/0.9.0a2-0.9.0a3/README.md --exclude *.pyd
+[2024-05-22 14:46:02] INFO root fetch - processPackages [nostr-protocol]: Downloading https://files.pythonhosted.org/packages/56/79/cf744dbc515b5e9774ed7fee10593a0c459aad81f59e5008f44cbc1993b9/nostr_protocol-0.9.0-cp39-cp39-win_amd64.whl
+[2024-05-22 14:46:03] INFO root fetch - processPackages [nostr-protocol]: executing diffoscope
+[2024-05-22 14:46:03] INFO root fetch - processPackages [nostr-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nostr_protocol-0.8.0-cp39-cp39-win_amd64.whl.zip tmp/nostr_protocol-0.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20240522/n/nostr-protocol/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-22 14:46:03] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev4.tar.gz]
+[2024-05-22 14:46:03] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev5.tar.gz]
+[2024-05-22 14:46:03] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-22 14:46:03] INFO root fetch - processPackages [xray-disease-detector]: Remove: archive file [/home/abi/fetcher/tmp/xray_disease_detector-0.0.2.tar.gz]
+[2024-05-22 14:46:03] INFO root fetch - processPackages [xray-disease-detector]: Remove: archive file [/home/abi/fetcher/tmp/xray_disease_detector-0.0.3.tar.gz]
+[2024-05-22 14:46:03] INFO root fetch - main [MainThread]: End processing [xray-disease-detector]: success
+[2024-05-22 14:46:03] INFO root fetch - processPackages [django-app-requires]: Remove: archive file [/home/abi/fetcher/tmp/django-app-requires-0.3.3.tar.gz]
+[2024-05-22 14:46:03] INFO root fetch - processPackages [django-app-requires]: Remove: archive file [/home/abi/fetcher/tmp/django-app-requires-0.3.4.tar.gz]
+[2024-05-22 14:46:03] INFO root fetch - main [MainThread]: End processing [django-app-requires]: success
+[2024-05-22 14:46:03] INFO root fetch - processPackages [django-codenerix-email]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-email-4.0.4.tar.gz]
+[2024-05-22 14:46:03] INFO root fetch - processPackages [django-codenerix-email]: Remove: archive file [/home/abi/fetcher/tmp/django-codenerix-email-4.0.5.tar.gz]
+[2024-05-22 14:46:03] INFO root fetch - main [MainThread]: End processing [django-codenerix-email]: success
+[2024-05-22 14:46:03] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.9.0a2.tar.gz]
+[2024-05-22 14:46:03] INFO root fetch - processPackages [gable]: Remove: archive file [/home/abi/fetcher/tmp/gable-0.9.0a3.tar.gz]
+[2024-05-22 14:46:03] INFO root fetch - main [MainThread]: End processing [gable]: success
+[2024-05-22 14:46:03] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.8.tar.gz]
+[2024-05-22 14:46:03] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.1.9.tar.gz]
+[2024-05-22 14:46:03] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-05-22 14:46:24] INFO root fetch - processPackages [nostr-protocol]: Remove: archive file [/home/abi/fetcher/tmp/nostr_protocol-0.8.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 14:46:24] INFO root fetch - processPackages [nostr-protocol]: Remove: archive file [/home/abi/fetcher/tmp/nostr_protocol-0.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 14:46:24] INFO root fetch - main [MainThread]: End processing [nostr-protocol]: success
+[2024-05-22 14:46:24] INFO root fetch - main [MainThread]: Store serial: [23324223]

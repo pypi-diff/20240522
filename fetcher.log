@@ -21203,3 +21203,90 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 13:26:08] INFO root fetch - processPackages [ipydatagrid]: Remove: archive file [/home/abi/fetcher/tmp/ipydatagrid-1.3.2.tar.gz]
 [2024-05-22 13:26:08] INFO root fetch - main [MainThread]: End processing [ipydatagrid]: success
 [2024-05-22 13:26:08] INFO root fetch - main [MainThread]: Store serial: [23323123]
+[2024-05-22 13:28:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323123]
+[2024-05-22 13:28:17] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-22 13:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: braintumor-model-package
+[2024-05-22 13:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smaht-submitr
+[2024-05-22 13:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stigg-api-client
+[2024-05-22 13:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stigg-api-client-v2
+[2024-05-22 13:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gucken
+[2024-05-22 13:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mapclassif-Iron
+[2024-05-22 13:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchrl-nightly
+[2024-05-22 13:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torchtnt-nightly
+[2024-05-22 13:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grasp_planning
+[2024-05-22 13:28:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gitman
+[2024-05-22 13:28:18] INFO root fetch - processPackages [smaht-submitr]: New version: [0.8.2.1b9] Old Version: [0.8.2.1b8]
+[2024-05-22 13:28:18] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-22 13:28:18] WARNING root fetch - processPackages [braintumor-model-package]: Skipping, unable to determine old version
+[2024-05-22 13:28:18] INFO root fetch - main [MainThread]: End processing [braintumor-model-package] error
+[2024-05-22 13:28:18] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-22 13:28:18] INFO root fetch - processPackages [gucken]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-05-22 13:28:18] INFO root fetch - processPackages [mapclassif-Iron]: New version: [2.6.3] Old Version: [2.6.2]
+[2024-05-22 13:28:18] INFO root fetch - processPackages [grasp_planning]: New version: [0.5.8] Old Version: [0.5.7.2]
+[2024-05-22 13:28:18] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2024.5.22] Old Version: [2024.3.9]
+[2024-05-22 13:28:18] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-22 13:28:18] INFO root fetch - processPackages [mapclassif-Iron]: Downloading https://files.pythonhosted.org/packages/0b/4c/ea6347db7e633fad510f05b37141570dae879962dfa7f64b09c1c47c3eb9/mapclassif_Iron-2.6.2.tar.gz
+[2024-05-22 13:28:18] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/94/70/b34d2d34c394fc3e3b347e32bec8900b8b8643db5842d59991c4e84ea528/smaht_submitr-0.8.2.1b8.tar.gz
+[2024-05-22 13:28:18] INFO root fetch - processPackages [gitman]: New version: [3.5.2a1] Old Version: [3.5.2]
+[2024-05-22 13:28:18] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-05-22 13:28:18] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-05-22 13:28:18] INFO root fetch - processPackages [gucken]: Downloading https://files.pythonhosted.org/packages/ac/a6/88116d1462541e8861e261f2ed4b91fac02af00ac8b8451f985b7d0c3f73/gucken-0.1.4.tar.gz
+[2024-05-22 13:28:18] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/a5/6d/9461214af24f1d24305421c7f45896fa740108e193fceb8f3145648e07e2/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl
+[2024-05-22 13:28:18] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/46/32/1241cc3a4b2e3263b46bc45df314adb9bb9b69d2b9433da55934185bae0f/torchtnt-nightly-2024.3.9.tar.gz
+[2024-05-22 13:28:18] INFO root fetch - processPackages [grasp_planning]: Downloading https://files.pythonhosted.org/packages/42/ee/e498058521fa6befa0e4c6d75291172ea1ead1eb218660d660a415cd00c4/grasp_planning-0.5.7.2.tar.gz
+[2024-05-22 13:28:18] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-05-22 13:28:18] INFO root fetch - processPackages [gitman]: Downloading https://files.pythonhosted.org/packages/f0/ce/08da6bfaac90793a8429b21880ba07bc499d0c90e514dae09fd78b43c45d/gitman-3.5.2.tar.gz
+[2024-05-22 13:28:18] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/49/5f/4a0cbcc953b126fd89e8d3c5beafcab7cf195845995d05395f40952ad23c/smaht_submitr-0.8.2.1b9.tar.gz
+[2024-05-22 13:28:18] INFO root fetch - processPackages [mapclassif-Iron]: Downloading https://files.pythonhosted.org/packages/9f/a6/8e455f876eb5f93e4f9f56d93cddf341a1271a3b6621aa8c4570d7cf4900/mapclassif_Iron-2.6.3.tar.gz
+[2024-05-22 13:28:18] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-05-22 13:28:18] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-05-22 13:28:18] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240522/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-22 13:28:18] INFO root fetch - processPackages [mapclassif-Iron]: executing diffoscope
+[2024-05-22 13:28:18] INFO root fetch - processPackages [mapclassif-Iron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapclassif_Iron-2.6.2.tar.gz tmp/mapclassif_Iron-2.6.3.tar.gz --markdown 20240522/m/mapclassif-Iron/2.6.2-2.6.3/README.md --exclude *.pyd
+[2024-05-22 13:28:18] INFO root fetch - processPackages [gucken]: Downloading https://files.pythonhosted.org/packages/1b/39/b7166b632ef7841b448e3cb0a2ba84457bedd0960cb91972bdea9c8be1d2/gucken-0.1.5.tar.gz
+[2024-05-22 13:28:19] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-05-22 13:28:19] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.8.2.1b8.tar.gz tmp/smaht_submitr-0.8.2.1b9.tar.gz --markdown 20240522/s/smaht-submitr/0.8.2.1b8-0.8.2.1b9/README.md --exclude *.pyd
+[2024-05-22 13:28:19] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-05-22 13:28:19] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240522/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-22 13:28:19] INFO root fetch - processPackages [grasp_planning]: Downloading https://files.pythonhosted.org/packages/81/1a/3e5fab7b364c69248e5318e279b646fe17dfefd53a797bfe3291d9e0062f/grasp_planning-0.5.8.tar.gz
+[2024-05-22 13:28:19] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/6f/52/503cf98874e62b8d5fc6aacc079fa526f55a3ef1342d6dcd3ef1a671cbe2/torchtnt_nightly-2024.5.22.tar.gz
+[2024-05-22 13:28:19] INFO root fetch - processPackages [gucken]: executing diffoscope
+[2024-05-22 13:28:19] INFO root fetch - processPackages [gucken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gucken-0.1.4.tar.gz tmp/gucken-0.1.5.tar.gz --markdown 20240522/g/gucken/0.1.4-0.1.5/README.md --exclude *.pyd
+[2024-05-22 13:28:19] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/e9/e4/1d21a71adb0d6367cd81a5f47617cabf90f99ac96a421dda991f6aeefff2/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl
+[2024-05-22 13:28:19] INFO root fetch - processPackages [gitman]: Downloading https://files.pythonhosted.org/packages/cb/6f/f7c1708b7a92b39836d9ba67c764f4d8e94b7bd956094808e809d1379ab3/gitman-3.5.2a1.tar.gz
+[2024-05-22 13:28:19] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2024-05-22 13:28:19] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2024.3.9.tar.gz tmp/torchtnt_nightly-2024.5.22.tar.gz --markdown 20240522/t/torchtnt-nightly/2024.3.9-2024.5.22/README.md --exclude *.pyd
+[2024-05-22 13:28:19] INFO root fetch - processPackages [grasp_planning]: executing diffoscope
+[2024-05-22 13:28:19] INFO root fetch - processPackages [grasp_planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grasp_planning-0.5.7.2.tar.gz tmp/grasp_planning-0.5.8.tar.gz --markdown 20240522/g/grasp_planning/0.5.7.2-0.5.8/README.md --exclude *.pyd
+[2024-05-22 13:28:19] INFO root fetch - processPackages [gitman]: executing diffoscope
+[2024-05-22 13:28:19] INFO root fetch - processPackages [gitman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitman-3.5.2.tar.gz tmp/gitman-3.5.2a1.tar.gz --markdown 20240522/g/gitman/3.5.2-3.5.2a1/README.md --exclude *.pyd
+[2024-05-22 13:28:19] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-05-22 13:28:19] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip --markdown 20240522/t/torchrl-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-22 13:28:19] INFO root fetch - processPackages [mapclassif-Iron]: Remove: archive file [/home/abi/fetcher/tmp/mapclassif_Iron-2.6.2.tar.gz]
+[2024-05-22 13:28:19] INFO root fetch - processPackages [mapclassif-Iron]: Remove: archive file [/home/abi/fetcher/tmp/mapclassif_Iron-2.6.3.tar.gz]
+[2024-05-22 13:28:19] INFO root fetch - main [MainThread]: End processing [mapclassif-Iron]: success
+[2024-05-22 13:28:20] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-05-22 13:28:20] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-05-22 13:28:20] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-05-22 13:28:20] INFO root fetch - processPackages [gucken]: Remove: archive file [/home/abi/fetcher/tmp/gucken-0.1.4.tar.gz]
+[2024-05-22 13:28:20] INFO root fetch - processPackages [gucken]: Remove: archive file [/home/abi/fetcher/tmp/gucken-0.1.5.tar.gz]
+[2024-05-22 13:28:20] INFO root fetch - main [MainThread]: End processing [gucken]: success
+[2024-05-22 13:28:20] INFO root fetch - processPackages [grasp_planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.5.7.2.tar.gz]
+[2024-05-22 13:28:20] INFO root fetch - processPackages [grasp_planning]: Remove: archive file [/home/abi/fetcher/tmp/grasp_planning-0.5.8.tar.gz]
+[2024-05-22 13:28:20] INFO root fetch - main [MainThread]: End processing [grasp_planning]: success
+[2024-05-22 13:28:20] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.2.1b8.tar.gz]
+[2024-05-22 13:28:20] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.8.2.1b9.tar.gz]
+[2024-05-22 13:28:20] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-05-22 13:28:20] INFO root fetch - processPackages [gitman]: Remove: archive file [/home/abi/fetcher/tmp/gitman-3.5.2.tar.gz]
+[2024-05-22 13:28:20] INFO root fetch - processPackages [gitman]: Remove: archive file [/home/abi/fetcher/tmp/gitman-3.5.2a1.tar.gz]
+[2024-05-22 13:28:20] INFO root fetch - main [MainThread]: End processing [gitman]: success
+[2024-05-22 13:28:20] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-05-22 13:28:20] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-05-22 13:28:20] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-05-22 13:28:20] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2024.3.9.tar.gz]
+[2024-05-22 13:28:20] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt_nightly-2024.5.22.tar.gz]
+[2024-05-22 13:28:20] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2024-05-22 13:28:21] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.8-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 13:28:21] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.5.9-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 13:28:21] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-05-22 13:28:21] INFO root fetch - main [MainThread]: Store serial: [23323157]

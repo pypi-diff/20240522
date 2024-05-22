@@ -14980,3 +14980,47 @@
 [2024-05-22 09:46:39] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-60.8.2.tar.gz]
 [2024-05-22 09:46:39] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2024-05-22 09:46:39] INFO root fetch - main [MainThread]: Store serial: [23320460]
+[2024-05-22 09:48:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320460]
+[2024-05-22 09:48:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 09:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vbpy
+[2024-05-22 09:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sklearnPro
+[2024-05-22 09:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nncase
+[2024-05-22 09:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kit4dl
+[2024-05-22 09:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: retry-reloaded
+[2024-05-22 09:48:48] INFO root fetch - processPackages [vbpy]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-22 09:48:48] INFO root fetch - processPackages [sklearnPro]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-22 09:48:48] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/d2/37/edcea3d66a407bf13c71970ddca012f680efb95dd081351e1ac9cfce3fc8/vbpy-2.0.8.tar.gz
+[2024-05-22 09:48:48] INFO root fetch - processPackages [kit4dl]: New version: [2024.5b0] Old Version: [2023.9b2]
+[2024-05-22 09:48:48] INFO root fetch - processPackages [retry-reloaded]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-22 09:48:48] INFO root fetch - processPackages [nncase]: New version: [2.8.3] Old Version: [2.8.2]
+[2024-05-22 09:48:48] INFO root fetch - processPackages [sklearnPro]: Downloading https://files.pythonhosted.org/packages/bf/1b/26aa7ea9e5e29e74769f8d3572731d43e36da80374f82f213b4013ef6a83/sklearnpro-0.1.0.tar.gz
+[2024-05-22 09:48:48] INFO root fetch - processPackages [kit4dl]: Downloading https://files.pythonhosted.org/packages/2e/23/2b393abbbc0eb72f8a8aa563b98d1a1d96c3ed90c93c58f1f7a176bd03ea/kit4dl-2023.9b2.tar.gz
+[2024-05-22 09:48:48] INFO root fetch - processPackages [retry-reloaded]: Downloading https://files.pythonhosted.org/packages/ae/c0/c2a8f26e458e78e200dd41579f6974c5dc9e2698f8ee006852041dbd920f/retry_reloaded-0.0.4.tar.gz
+[2024-05-22 09:48:48] INFO root fetch - processPackages [nncase]: Downloading https://files.pythonhosted.org/packages/0f/c6/5621c9c6af6c46193bc7a469c7213eb87866f013cdb6175defd15361d310/nncase-2.8.2-cp39-cp39-win_amd64.whl
+[2024-05-22 09:48:48] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/2e/10/68500370eec8421643bcf87ccb4af9d6a5fa015614dfcb80c071f6c47ecf/vbpy-2.0.9.tar.gz
+[2024-05-22 09:48:48] INFO root fetch - processPackages [sklearnPro]: Downloading https://files.pythonhosted.org/packages/90/a1/eba006725add854ce3ea904b9a77b036edb232f175ead393226bd1cd9d12/sklearnpro-0.1.1.tar.gz
+[2024-05-22 09:48:48] WARNING root fetch - processPackages [nncase]: Skipping package: exceeds size limit 19729483>=10485760
+[2024-05-22 09:48:48] INFO root fetch - main [MainThread]: End processing [nncase] error
+[2024-05-22 09:48:48] INFO root fetch - processPackages [vbpy]: executing diffoscope
+[2024-05-22 09:48:48] INFO root fetch - processPackages [vbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpy-2.0.8.tar.gz tmp/vbpy-2.0.9.tar.gz --markdown 20240522/v/vbpy/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-22 09:48:48] INFO root fetch - processPackages [retry-reloaded]: Downloading https://files.pythonhosted.org/packages/12/80/57ba37a2856c0bc0efc2a89d3eb0a90dabcb6f9d6c10dad44a988c030881/retry_reloaded-0.0.5.tar.gz
+[2024-05-22 09:48:48] INFO root fetch - processPackages [kit4dl]: Downloading https://files.pythonhosted.org/packages/0a/23/708dbd73eb39c1afeb6279dca1222b863f6d46f05542b62397ec69ae64b6/kit4dl-2024.5b0.tar.gz
+[2024-05-22 09:48:48] INFO root fetch - processPackages [sklearnPro]: executing diffoscope
+[2024-05-22 09:48:48] INFO root fetch - processPackages [sklearnPro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearnpro-0.1.0.tar.gz tmp/sklearnpro-0.1.1.tar.gz --markdown 20240522/s/sklearnPro/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-22 09:48:48] INFO root fetch - processPackages [retry-reloaded]: executing diffoscope
+[2024-05-22 09:48:48] INFO root fetch - processPackages [retry-reloaded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retry_reloaded-0.0.4.tar.gz tmp/retry_reloaded-0.0.5.tar.gz --markdown 20240522/r/retry-reloaded/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-22 09:48:48] INFO root fetch - processPackages [kit4dl]: executing diffoscope
+[2024-05-22 09:48:48] INFO root fetch - processPackages [kit4dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kit4dl-2023.9b2.tar.gz tmp/kit4dl-2024.5b0.tar.gz --markdown 20240522/k/kit4dl/2023.9b2-2024.5b0/README.md --exclude *.pyd
+[2024-05-22 09:48:49] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.0.8.tar.gz]
+[2024-05-22 09:48:49] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.0.9.tar.gz]
+[2024-05-22 09:48:49] INFO root fetch - main [MainThread]: End processing [vbpy]: success
+[2024-05-22 09:48:49] INFO root fetch - processPackages [sklearnPro]: Remove: archive file [/home/abi/fetcher/tmp/sklearnpro-0.1.0.tar.gz]
+[2024-05-22 09:48:49] INFO root fetch - processPackages [sklearnPro]: Remove: archive file [/home/abi/fetcher/tmp/sklearnpro-0.1.1.tar.gz]
+[2024-05-22 09:48:49] INFO root fetch - main [MainThread]: End processing [sklearnPro]: success
+[2024-05-22 09:48:49] INFO root fetch - processPackages [retry-reloaded]: Remove: archive file [/home/abi/fetcher/tmp/retry_reloaded-0.0.4.tar.gz]
+[2024-05-22 09:48:49] INFO root fetch - processPackages [retry-reloaded]: Remove: archive file [/home/abi/fetcher/tmp/retry_reloaded-0.0.5.tar.gz]
+[2024-05-22 09:48:49] INFO root fetch - main [MainThread]: End processing [retry-reloaded]: success
+[2024-05-22 09:48:49] INFO root fetch - processPackages [kit4dl]: Remove: archive file [/home/abi/fetcher/tmp/kit4dl-2023.9b2.tar.gz]
+[2024-05-22 09:48:49] INFO root fetch - processPackages [kit4dl]: Remove: archive file [/home/abi/fetcher/tmp/kit4dl-2024.5b0.tar.gz]
+[2024-05-22 09:48:49] INFO root fetch - main [MainThread]: End processing [kit4dl]: success
+[2024-05-22 09:48:49] INFO root fetch - main [MainThread]: Store serial: [23320482]

@@ -3102,3 +3102,33 @@
 [2024-05-22 02:35:58] INFO root fetch - processPackages [zaber-motion]: Remove: archive file [/home/abi/fetcher/tmp/zaber_motion-6.0.0.tar.gz]
 [2024-05-22 02:35:58] INFO root fetch - main [MainThread]: End processing [zaber-motion]: success
 [2024-05-22 02:35:58] INFO root fetch - main [MainThread]: Store serial: [23315652]
+[2024-05-22 02:38:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315652]
+[2024-05-22 02:38:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 02:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anyscale
+[2024-05-22 02:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Geode-Hybrid
+[2024-05-22 02:38:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: altair-nx
+[2024-05-22 02:38:07] INFO root fetch - processPackages [altair-nx]: New version: [1.1] Old Version: [1.0]
+[2024-05-22 02:38:07] INFO root fetch - processPackages [Geode-Hybrid]: New version: [2.4.3rc1] Old Version: [2.4.3]
+[2024-05-22 02:38:07] INFO root fetch - processPackages [anyscale]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-05-22 02:38:07] INFO root fetch - processPackages [Geode-Hybrid]: Downloading https://files.pythonhosted.org/packages/eb/29/cbf83f938bf17e380f06f8d603db80391b94b6cc0d58101f9cc712a1fe58/Geode_Hybrid-2.4.3-cp39-cp39-manylinux2014_x86_64.whl
+[2024-05-22 02:38:07] INFO root fetch - processPackages [altair-nx]: Downloading https://files.pythonhosted.org/packages/c1/0e/2208d6d85ddff11f33504f7acf1ae4b57270c2bf67b7d7de55c3cfe5295e/altair_nx-1.0.tar.gz
+[2024-05-22 02:38:07] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/0d/64/8bf86d6d00617c61b31e91a8455e6fb08278056ee4d72abf6317509d592e/anyscale-0.5.98.tar.gz
+[2024-05-22 02:38:07] INFO root fetch - processPackages [altair-nx]: Downloading https://files.pythonhosted.org/packages/20/84/e41d466124f37adb604d82693a778d9218a2ae3b987dfb71bd3fdd36f932/altair_nx-1.1.tar.gz
+[2024-05-22 02:38:08] INFO root fetch - processPackages [Geode-Hybrid]: Downloading https://files.pythonhosted.org/packages/03/73/debe3caa553e0d272c4dacbd496e12948c8d074baec699bbfb094c6ed8ca/Geode_Hybrid-2.4.3rc1-cp39-cp39-win_amd64.whl
+[2024-05-22 02:38:08] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/61/f0/917cf3e18c478eaae2e53db68c9d20607edab461774054c8f509cc4885b6/anyscale-0.5.99.tar.gz
+[2024-05-22 02:38:08] INFO root fetch - processPackages [anyscale]: executing diffoscope
+[2024-05-22 02:38:08] INFO root fetch - processPackages [anyscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyscale-0.5.98.tar.gz tmp/anyscale-0.5.99.tar.gz --markdown 20240522/a/anyscale/0.5.98-0.5.99/README.md --exclude *.pyd
+[2024-05-22 02:38:08] INFO root fetch - processPackages [Geode-Hybrid]: executing diffoscope
+[2024-05-22 02:38:08] INFO root fetch - processPackages [Geode-Hybrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Hybrid-2.4.3-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Hybrid-2.4.3rc1-cp39-cp39-win_amd64.whl.zip --markdown 20240522/G/Geode-Hybrid/2.4.3-2.4.3rc1/README.md --exclude *.pyd
+[2024-05-22 02:38:08] INFO root fetch - processPackages [altair-nx]: executing diffoscope
+[2024-05-22 02:38:08] INFO root fetch - processPackages [altair-nx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altair_nx-1.0.tar.gz tmp/altair_nx-1.1.tar.gz --markdown 20240522/a/altair-nx/1.0-1.1/README.md --exclude *.pyd
+[2024-05-22 02:38:08] INFO root fetch - processPackages [Geode-Hybrid]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Hybrid-2.4.3-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2024-05-22 02:38:08] INFO root fetch - processPackages [Geode-Hybrid]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Hybrid-2.4.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 02:38:08] INFO root fetch - main [MainThread]: End processing [Geode-Hybrid]: success
+[2024-05-22 02:38:09] INFO root fetch - processPackages [altair-nx]: Remove: archive file [/home/abi/fetcher/tmp/altair_nx-1.0.tar.gz]
+[2024-05-22 02:38:09] INFO root fetch - processPackages [altair-nx]: Remove: archive file [/home/abi/fetcher/tmp/altair_nx-1.1.tar.gz]
+[2024-05-22 02:38:09] INFO root fetch - main [MainThread]: End processing [altair-nx]: success
+[2024-05-22 02:38:11] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.98.tar.gz]
+[2024-05-22 02:38:11] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
+[2024-05-22 02:38:11] INFO root fetch - main [MainThread]: End processing [anyscale]: success
+[2024-05-22 02:38:11] INFO root fetch - main [MainThread]: Store serial: [23315666]

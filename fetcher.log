@@ -14071,3 +14071,86 @@
 [2024-05-22 09:15:36] WARNING root fetch - processPackages [signaturesnet]: Skipping package: exceeds size limit 70688490>=10485760
 [2024-05-22 09:15:36] INFO root fetch - main [MainThread]: End processing [signaturesnet] error
 [2024-05-22 09:15:36] INFO root fetch - main [MainThread]: Store serial: [23320077]
+[2024-05-22 09:17:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320077]
+[2024-05-22 09:17:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-22 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jionlp
+[2024-05-22 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-3parclient
+[2024-05-22 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: richie
+[2024-05-22 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cortexquest
+[2024-05-22 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gio-importer-v42
+[2024-05-22 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: switch-api
+[2024-05-22 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tfy-mlflow-client
+[2024-05-22 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rest-solace
+[2024-05-22 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-web-copy-confirm
+[2024-05-22 09:17:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: superannotate
+[2024-05-22 09:17:45] WARNING root fetch - processPackages [cortexquest]: Skipping, unable to determine old version
+[2024-05-22 09:17:45] INFO root fetch - main [MainThread]: End processing [cortexquest] error
+[2024-05-22 09:17:45] INFO root fetch - processPackages [rest-solace]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-22 09:17:45] INFO root fetch - processPackages [tfy-mlflow-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 09:17:45] INFO root fetch - processPackages [jionlp]: New version: [1.5.9] Old Version: [1.5.7]
+[2024-05-22 09:17:45] INFO root fetch - processPackages [gio-importer-v42]: New version: [1.4.1.dev0] Old Version: [1.0.1]
+[2024-05-22 09:17:45] INFO root fetch - processPackages [rest-solace]: Downloading https://files.pythonhosted.org/packages/70/ab/afafdd2c9714bf6d25bd357c04fba29785848d54d3d7a01d9b47fda59d70/rest_solace-0.2.0.tar.gz
+[2024-05-22 09:17:45] INFO root fetch - processPackages [python-3parclient]: New version: [4.2.9] Old Version: [4.2.8]
+[2024-05-22 09:17:45] INFO root fetch - processPackages [odoo14-addon-web-copy-confirm]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev6]
+[2024-05-22 09:17:45] INFO root fetch - processPackages [tfy-mlflow-client]: Downloading https://files.pythonhosted.org/packages/43/f0/45be21abdff732bb8de13f178413b52bd098bb8395e239c8721423f39e0e/tfy-mlflow-client-0.0.8.tar.gz
+[2024-05-22 09:17:45] INFO root fetch - processPackages [richie]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-22 09:17:45] INFO root fetch - processPackages [switch-api]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-05-22 09:17:45] INFO root fetch - processPackages [superannotate]: New version: [4.4.9b1] Old Version: [4.4.9.dev5]
+[2024-05-22 09:17:45] INFO root fetch - processPackages [jionlp]: Downloading https://files.pythonhosted.org/packages/fb/ac/efbe7563b8275df6723770b47c7feb162dabbb9b4b5e15da8cb73b4b5f85/jionlp-1.5.7-py2.py3-none-any.whl
+[2024-05-22 09:17:45] INFO root fetch - processPackages [gio-importer-v42]: Downloading https://files.pythonhosted.org/packages/a9/62/9d5476989f9ee6ff7a7a6a9be32a362a90051bde14520013baf542e9b7b6/gio_importer_v42-1.0.1.tar.gz
+[2024-05-22 09:17:45] INFO root fetch - processPackages [python-3parclient]: Downloading https://files.pythonhosted.org/packages/5b/17/a4df415f1cf4b355eead0387335f97540b4218b7bd5b55d8c7f12210a3ce/python-3parclient-4.2.8.tar.gz
+[2024-05-22 09:17:46] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/f6/8c/5aee5780f8e52c197a108b9211b105822048442bb4ea73584ae3a97acc97/richie-2.9.0.tar.gz
+[2024-05-22 09:17:46] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/be/c8/73babd0a4e6db631de566dceaa706ff4ad6b98a47e9a937bcf72cdabb775/switch_api-0.5.8.tar.gz
+[2024-05-22 09:17:46] INFO root fetch - processPackages [rest-solace]: Downloading https://files.pythonhosted.org/packages/85/f8/d43073c14fefbd2c95378b221e2bd022e69da612da3ce9702342b31f148c/rest_solace-0.2.1.tar.gz
+[2024-05-22 09:17:46] INFO root fetch - processPackages [odoo14-addon-web-copy-confirm]: Downloading https://files.pythonhosted.org/packages/3a/bd/3d305138e1ee20453f04432e39b023f98fa349ad6cc779f390aec2e04dfa/odoo14_addon_web_copy_confirm-14.0.1.0.1.dev6-py3-none-any.whl
+[2024-05-22 09:17:46] INFO root fetch - processPackages [superannotate]: Downloading https://files.pythonhosted.org/packages/91/97/d6fe3e744af4694539cbd9044fb74358f6c8aad95d66825e2bbf83490b35/superannotate-4.4.9.dev5.tar.gz
+[2024-05-22 09:17:46] WARNING root fetch - processPackages [jionlp]: Skipping package: exceeds size limit 19099900>=10485760
+[2024-05-22 09:17:46] INFO root fetch - main [MainThread]: End processing [jionlp] error
+[2024-05-22 09:17:46] INFO root fetch - processPackages [tfy-mlflow-client]: Downloading https://files.pythonhosted.org/packages/99/46/ec87ff507a911f7eb4550bd758513440cf543ba1d9701b042b5caf64682a/tfy-mlflow-client-0.0.9.tar.gz
+[2024-05-22 09:17:46] INFO root fetch - processPackages [rest-solace]: executing diffoscope
+[2024-05-22 09:17:46] INFO root fetch - processPackages [rest-solace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rest_solace-0.2.0.tar.gz tmp/rest_solace-0.2.1.tar.gz --markdown 20240522/r/rest-solace/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-22 09:17:46] INFO root fetch - processPackages [gio-importer-v42]: Downloading https://files.pythonhosted.org/packages/b5/dc/4666053e036fec834adc1a8a9e8b3b9cce8ddabc36b733c51834a187b245/gio_importer_v42-1.4.1.dev0.tar.gz
+[2024-05-22 09:17:46] INFO root fetch - processPackages [switch-api]: Downloading https://files.pythonhosted.org/packages/a3/34/11a0472ec0859e75b2c91942249585cd7dd9de1200e03555d2aeff8dad1e/switch_api-0.5.9.tar.gz
+[2024-05-22 09:17:46] INFO root fetch - processPackages [python-3parclient]: Downloading https://files.pythonhosted.org/packages/2e/53/7de45eb87bdb6599f32d78cac5b50cb3493d35fef6d5082749ac412bc9f5/python-3parclient-4.2.9.tar.gz
+[2024-05-22 09:17:46] INFO root fetch - processPackages [gio-importer-v42]: executing diffoscope
+[2024-05-22 09:17:46] INFO root fetch - processPackages [gio-importer-v42]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gio_importer_v42-1.0.1.tar.gz tmp/gio_importer_v42-1.4.1.dev0.tar.gz --markdown 20240522/g/gio-importer-v42/1.0.1-1.4.1.dev0/README.md --exclude *.pyd
+[2024-05-22 09:17:46] INFO root fetch - processPackages [odoo14-addon-web-copy-confirm]: Downloading https://files.pythonhosted.org/packages/28/b5/2385e4175cb4f713d2fb4a8b5a12f92fedaec287cbd745976f17887bd714/odoo14_addon_web_copy_confirm-14.0.1.0.1.dev8-py3-none-any.whl
+[2024-05-22 09:17:46] INFO root fetch - processPackages [tfy-mlflow-client]: executing diffoscope
+[2024-05-22 09:17:46] INFO root fetch - processPackages [tfy-mlflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfy-mlflow-client-0.0.8.tar.gz tmp/tfy-mlflow-client-0.0.9.tar.gz --markdown 20240522/t/tfy-mlflow-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 09:17:46] INFO root fetch - processPackages [richie]: Downloading https://files.pythonhosted.org/packages/77/04/f4f517ffe9653a4e423ae24440aaa143bc4ae9722db7a010f2f06a575891/richie-2.9.1.tar.gz
+[2024-05-22 09:17:46] INFO root fetch - processPackages [superannotate]: Downloading https://files.pythonhosted.org/packages/eb/25/4836840831402b0bfc03d72cb2055a0f87d406e0fc3ded759cd47db072d8/superannotate-4.4.9b1.tar.gz
+[2024-05-22 09:17:46] INFO root fetch - processPackages [switch-api]: executing diffoscope
+[2024-05-22 09:17:46] INFO root fetch - processPackages [switch-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/switch_api-0.5.8.tar.gz tmp/switch_api-0.5.9.tar.gz --markdown 20240522/s/switch-api/0.5.8-0.5.9/README.md --exclude *.pyd
+[2024-05-22 09:17:46] INFO root fetch - processPackages [odoo14-addon-web-copy-confirm]: executing diffoscope
+[2024-05-22 09:17:46] INFO root fetch - processPackages [odoo14-addon-web-copy-confirm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_web_copy_confirm-14.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_web_copy_confirm-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20240522/o/odoo14-addon-web-copy-confirm/14.0.1.0.1.dev6-14.0.1.0.1.dev8/README.md --exclude *.pyd
+[2024-05-22 09:17:46] INFO root fetch - processPackages [python-3parclient]: executing diffoscope
+[2024-05-22 09:17:46] INFO root fetch - processPackages [python-3parclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-3parclient-4.2.8.tar.gz tmp/python-3parclient-4.2.9.tar.gz --markdown 20240522/p/python-3parclient/4.2.8-4.2.9/README.md --exclude *.pyd
+[2024-05-22 09:17:46] INFO root fetch - processPackages [superannotate]: executing diffoscope
+[2024-05-22 09:17:46] INFO root fetch - processPackages [superannotate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superannotate-4.4.9.dev5.tar.gz tmp/superannotate-4.4.9b1.tar.gz --markdown 20240522/s/superannotate/4.4.9.dev5-4.4.9b1/README.md --exclude *.pyd
+[2024-05-22 09:17:46] INFO root fetch - processPackages [richie]: executing diffoscope
+[2024-05-22 09:17:46] INFO root fetch - processPackages [richie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/richie-2.9.0.tar.gz tmp/richie-2.9.1.tar.gz --markdown 20240522/r/richie/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-22 09:17:47] INFO root fetch - processPackages [rest-solace]: Remove: archive file [/home/abi/fetcher/tmp/rest_solace-0.2.0.tar.gz]
+[2024-05-22 09:17:47] INFO root fetch - processPackages [rest-solace]: Remove: archive file [/home/abi/fetcher/tmp/rest_solace-0.2.1.tar.gz]
+[2024-05-22 09:17:47] INFO root fetch - main [MainThread]: End processing [rest-solace]: success
+[2024-05-22 09:17:47] INFO root fetch - processPackages [odoo14-addon-web-copy-confirm]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_copy_confirm-14.0.1.0.1.dev6-py3-none-any.whl.zip]
+[2024-05-22 09:17:47] INFO root fetch - processPackages [odoo14-addon-web-copy-confirm]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_web_copy_confirm-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2024-05-22 09:17:47] INFO root fetch - main [MainThread]: End processing [odoo14-addon-web-copy-confirm]: success
+[2024-05-22 09:17:47] INFO root fetch - processPackages [gio-importer-v42]: Remove: archive file [/home/abi/fetcher/tmp/gio_importer_v42-1.0.1.tar.gz]
+[2024-05-22 09:17:47] INFO root fetch - processPackages [gio-importer-v42]: Remove: archive file [/home/abi/fetcher/tmp/gio_importer_v42-1.4.1.dev0.tar.gz]
+[2024-05-22 09:17:47] INFO root fetch - main [MainThread]: End processing [gio-importer-v42]: success
+[2024-05-22 09:17:47] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.5.8.tar.gz]
+[2024-05-22 09:17:47] INFO root fetch - processPackages [switch-api]: Remove: archive file [/home/abi/fetcher/tmp/switch_api-0.5.9.tar.gz]
+[2024-05-22 09:17:47] INFO root fetch - main [MainThread]: End processing [switch-api]: success
+[2024-05-22 09:17:47] INFO root fetch - processPackages [python-3parclient]: Remove: archive file [/home/abi/fetcher/tmp/python-3parclient-4.2.8.tar.gz]
+[2024-05-22 09:17:47] INFO root fetch - processPackages [python-3parclient]: Remove: archive file [/home/abi/fetcher/tmp/python-3parclient-4.2.9.tar.gz]
+[2024-05-22 09:17:47] INFO root fetch - main [MainThread]: End processing [python-3parclient]: success
+[2024-05-22 09:17:48] INFO root fetch - processPackages [superannotate]: Remove: archive file [/home/abi/fetcher/tmp/superannotate-4.4.9.dev5.tar.gz]
+[2024-05-22 09:17:48] INFO root fetch - processPackages [superannotate]: Remove: archive file [/home/abi/fetcher/tmp/superannotate-4.4.9b1.tar.gz]
+[2024-05-22 09:17:48] INFO root fetch - main [MainThread]: End processing [superannotate]: success
+[2024-05-22 09:17:48] INFO root fetch - processPackages [tfy-mlflow-client]: Remove: archive file [/home/abi/fetcher/tmp/tfy-mlflow-client-0.0.8.tar.gz]
+[2024-05-22 09:17:48] INFO root fetch - processPackages [tfy-mlflow-client]: Remove: archive file [/home/abi/fetcher/tmp/tfy-mlflow-client-0.0.9.tar.gz]
+[2024-05-22 09:17:48] INFO root fetch - main [MainThread]: End processing [tfy-mlflow-client]: success
+[2024-05-22 09:19:49] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.0.tar.gz]
+[2024-05-22 09:19:49] INFO root fetch - processPackages [richie]: Remove: archive file [/home/abi/fetcher/tmp/richie-2.9.1.tar.gz]
+[2024-05-22 09:19:49] INFO root fetch - main [MainThread]: End processing [richie]: success
+[2024-05-22 09:19:49] INFO root fetch - main [MainThread]: Store serial: [23320106]

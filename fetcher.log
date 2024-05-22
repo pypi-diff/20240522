@@ -17800,3 +17800,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:18:09] INFO root fetch - processPackages [AlekSIS-Core]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_core-4.0.0.dev9.tar.gz]
 [2024-05-22 11:18:09] INFO root fetch - main [MainThread]: End processing [AlekSIS-Core]: success
 [2024-05-22 11:18:09] INFO root fetch - main [MainThread]: Store serial: [23321544]
+[2024-05-22 11:20:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321544]
+[2024-05-22 11:20:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 11:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dirct
+[2024-05-22 11:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pogo-migrate
+[2024-05-22 11:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepeval
+[2024-05-22 11:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-categories
+[2024-05-22 11:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wolfsoftware.drawlines
+[2024-05-22 11:20:18] INFO root fetch - processPackages [pogo-migrate]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 11:20:18] WARNING root fetch - processPackages [wolfsoftware.drawlines]: Skipping, unable to determine old version
+[2024-05-22 11:20:18] INFO root fetch - main [MainThread]: End processing [wolfsoftware.drawlines] error
+[2024-05-22 11:20:18] INFO root fetch - processPackages [django-categories]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2024-05-22 11:20:18] INFO root fetch - processPackages [dirct]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-05-22 11:20:18] INFO root fetch - processPackages [deepeval]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-05-22 11:20:18] INFO root fetch - processPackages [pogo-migrate]: Downloading https://files.pythonhosted.org/packages/ff/28/461ed536403eebb4134787b235c735858065030ccccb3cc105dd12df902f/pogo_migrate-0.0.8.tar.gz
+[2024-05-22 11:20:18] INFO root fetch - processPackages [django-categories]: Downloading https://files.pythonhosted.org/packages/b3/d8/0adf961f9c25ce143e277b41f356a8660124d7e031ecf489ee7084905712/django-categories-2.0.0a1.tar.gz
+[2024-05-22 11:20:18] INFO root fetch - processPackages [dirct]: Downloading https://files.pythonhosted.org/packages/e3/8f/e79ea8222ee0610d84a2b7caa896a69ce4847d850509fb17c231c71e70bd/dirct-2.0.0.tar.gz
+[2024-05-22 11:20:18] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/8b/4e/74892f0e4e740898d3d9bbcb8e3e22adc9d2ca430699cb8a78a8b5e2697b/deepeval-0.9.8.tar.gz
+[2024-05-22 11:20:18] INFO root fetch - processPackages [pogo-migrate]: Downloading https://files.pythonhosted.org/packages/02/aa/e3bf46e082861ed7f89041ee9e1efd453ec18b5267d59c75d03e23b11a09/pogo_migrate-0.0.9.tar.gz
+[2024-05-22 11:20:18] INFO root fetch - processPackages [dirct]: Downloading https://files.pythonhosted.org/packages/f6/9e/e5759d073b1dc9b9b005d28a5a15e15ebe8b3d2a28afb2e266d3ad8ebaa3/dirct-2.0.1.tar.gz
+[2024-05-22 11:20:18] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/79/cd/f07ea4ba3fa8fae91bc1bdecc3a7fc8882146f65614215058425221ac2e8/deepeval-0.9.9.tar.gz
+[2024-05-22 11:20:18] INFO root fetch - processPackages [pogo-migrate]: executing diffoscope
+[2024-05-22 11:20:18] INFO root fetch - processPackages [pogo-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pogo_migrate-0.0.8.tar.gz tmp/pogo_migrate-0.0.9.tar.gz --markdown 20240522/p/pogo-migrate/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 11:20:18] INFO root fetch - processPackages [django-categories]: Downloading https://files.pythonhosted.org/packages/07/ae/d3522bf6f102dd3dcfb34648e5e9aa0f1c67671048a3b9b30ee52485470c/django-categories-2.0.0a2.tar.gz
+[2024-05-22 11:20:19] INFO root fetch - processPackages [dirct]: executing diffoscope
+[2024-05-22 11:20:19] INFO root fetch - processPackages [dirct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dirct-2.0.0.tar.gz tmp/dirct-2.0.1.tar.gz --markdown 20240522/d/dirct/2.0.0-2.0.1/README.md --exclude *.pyd
+[2024-05-22 11:20:19] INFO root fetch - processPackages [deepeval]: executing diffoscope
+[2024-05-22 11:20:19] INFO root fetch - processPackages [deepeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepeval-0.9.8.tar.gz tmp/deepeval-0.9.9.tar.gz --markdown 20240522/d/deepeval/0.9.8-0.9.9/README.md --exclude *.pyd
+[2024-05-22 11:20:19] INFO root fetch - processPackages [django-categories]: executing diffoscope
+[2024-05-22 11:20:19] INFO root fetch - processPackages [django-categories]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-categories-2.0.0a1.tar.gz tmp/django-categories-2.0.0a2.tar.gz --markdown 20240522/d/django-categories/2.0.0a1-2.0.0a2/README.md --exclude *.pyd
+[2024-05-22 11:20:19] INFO root fetch - processPackages [pogo-migrate]: Remove: archive file [/home/abi/fetcher/tmp/pogo_migrate-0.0.8.tar.gz]
+[2024-05-22 11:20:19] INFO root fetch - processPackages [pogo-migrate]: Remove: archive file [/home/abi/fetcher/tmp/pogo_migrate-0.0.9.tar.gz]
+[2024-05-22 11:20:19] INFO root fetch - main [MainThread]: End processing [pogo-migrate]: success
+[2024-05-22 11:20:19] INFO root fetch - processPackages [dirct]: Remove: archive file [/home/abi/fetcher/tmp/dirct-2.0.0.tar.gz]
+[2024-05-22 11:20:19] INFO root fetch - processPackages [dirct]: Remove: archive file [/home/abi/fetcher/tmp/dirct-2.0.1.tar.gz]
+[2024-05-22 11:20:19] INFO root fetch - main [MainThread]: End processing [dirct]: success
+[2024-05-22 11:20:19] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.8.tar.gz]
+[2024-05-22 11:20:19] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.9.tar.gz]
+[2024-05-22 11:20:19] INFO root fetch - main [MainThread]: End processing [deepeval]: success
+[2024-05-22 11:20:20] INFO root fetch - processPackages [django-categories]: Remove: archive file [/home/abi/fetcher/tmp/django-categories-2.0.0a1.tar.gz]
+[2024-05-22 11:20:20] INFO root fetch - processPackages [django-categories]: Remove: archive file [/home/abi/fetcher/tmp/django-categories-2.0.0a2.tar.gz]
+[2024-05-22 11:20:20] INFO root fetch - main [MainThread]: End processing [django-categories]: success
+[2024-05-22 11:20:20] INFO root fetch - main [MainThread]: Store serial: [23321561]

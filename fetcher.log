@@ -11391,3 +11391,32 @@
 [2024-05-22 06:45:38] INFO root fetch - processPackages [zelos-demeter]: Remove: archive file [/home/abi/fetcher/tmp/zelos-demeter-0.5.1.tar.gz]
 [2024-05-22 06:45:38] INFO root fetch - main [MainThread]: End processing [zelos-demeter]: success
 [2024-05-22 06:45:38] INFO root fetch - main [MainThread]: Store serial: [23318842]
+[2024-05-22 06:47:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318842]
+[2024-05-22 06:47:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 06:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pingdat
+[2024-05-22 06:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ivande-combiner
+[2024-05-22 06:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monailabel
+[2024-05-22 06:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: servecmd
+[2024-05-22 06:47:47] INFO root fetch - processPackages [ivande-combiner]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-05-22 06:47:47] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/4f/68/1e80572a330b614390ec028d5b7d6ec41ae7188f49980af1f33d011fa9b9/ivande_combiner-0.0.6.tar.gz
+[2024-05-22 06:47:47] WARNING root fetch - processPackages [servecmd]: Skipping, unable to determine old version
+[2024-05-22 06:47:47] INFO root fetch - main [MainThread]: End processing [servecmd] error
+[2024-05-22 06:47:47] INFO root fetch - processPackages [pingdat]: New version: [1.5.0] Old Version: [1.4.1]
+[2024-05-22 06:47:47] INFO root fetch - processPackages [monailabel]: New version: [0.8.2rc7] Old Version: [0.8.2rc6]
+[2024-05-22 06:47:47] INFO root fetch - processPackages [pingdat]: Downloading https://files.pythonhosted.org/packages/70/38/677b3190dfb8c17c3b0c58761eee738b994ae2ab728903fde05db3999a51/pingdat-1.4.1.tar.gz
+[2024-05-22 06:47:47] INFO root fetch - processPackages [monailabel]: Downloading https://files.pythonhosted.org/packages/6b/35/0b9d781804998f41a0755d7d2d6c00e03446381551a45d4476ed03a21e15/monailabel-0.8.2rc6-202405171509-py3-none-any.whl
+[2024-05-22 06:47:47] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/e2/68/4605bffb5a3ac9e99ed7fdb5b2cf4fbd8ce7e3d592151e9678ad20828d98/ivande_combiner-0.0.7.tar.gz
+[2024-05-22 06:47:47] WARNING root fetch - processPackages [monailabel]: Skipping package: exceeds size limit 11946266>=10485760
+[2024-05-22 06:47:47] INFO root fetch - main [MainThread]: End processing [monailabel] error
+[2024-05-22 06:47:47] INFO root fetch - processPackages [ivande-combiner]: executing diffoscope
+[2024-05-22 06:47:47] INFO root fetch - processPackages [ivande-combiner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivande_combiner-0.0.6.tar.gz tmp/ivande_combiner-0.0.7.tar.gz --markdown 20240522/i/ivande-combiner/0.0.6-0.0.7/README.md --exclude *.pyd
+[2024-05-22 06:47:47] INFO root fetch - processPackages [pingdat]: Downloading https://files.pythonhosted.org/packages/78/74/26aadc742269b505741757d9208db5bed0a484ec02b1a2ba5ffb457ab44a/pingdat-1.5.0.tar.gz
+[2024-05-22 06:47:48] INFO root fetch - processPackages [pingdat]: executing diffoscope
+[2024-05-22 06:47:48] INFO root fetch - processPackages [pingdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pingdat-1.4.1.tar.gz tmp/pingdat-1.5.0.tar.gz --markdown 20240522/p/pingdat/1.4.1-1.5.0/README.md --exclude *.pyd
+[2024-05-22 06:47:48] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.6.tar.gz]
+[2024-05-22 06:47:48] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.7.tar.gz]
+[2024-05-22 06:47:48] INFO root fetch - main [MainThread]: End processing [ivande-combiner]: success
+[2024-05-22 06:47:48] INFO root fetch - processPackages [pingdat]: Remove: archive file [/home/abi/fetcher/tmp/pingdat-1.4.1.tar.gz]
+[2024-05-22 06:47:48] INFO root fetch - processPackages [pingdat]: Remove: archive file [/home/abi/fetcher/tmp/pingdat-1.5.0.tar.gz]
+[2024-05-22 06:47:48] INFO root fetch - main [MainThread]: End processing [pingdat]: success
+[2024-05-22 06:47:48] INFO root fetch - main [MainThread]: Store serial: [23318855]

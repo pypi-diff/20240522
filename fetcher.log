@@ -18540,3 +18540,121 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:42:34] INFO root fetch - processPackages [bluepyemodel]: Remove: archive file [/home/abi/fetcher/tmp/bluepyemodel-0.0.99.tar.gz]
 [2024-05-22 11:42:34] INFO root fetch - main [MainThread]: End processing [bluepyemodel]: success
 [2024-05-22 11:42:34] INFO root fetch - main [MainThread]: Store serial: [23321865]
+[2024-05-22 11:44:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321865]
+[2024-05-22 11:44:43] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-22 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openshift-cluster-management-python-wrapper
+[2024-05-22 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openshift-python-wrapper
+[2024-05-22 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: copr-cli
+[2024-05-22 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openshift-python-wrapper
+[2024-05-22 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: udirect
+[2024-05-22 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datapools
+[2024-05-22 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: micropolarray
+[2024-05-22 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openshift-python-wrapper-data-collector
+[2024-05-22 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: copr
+[2024-05-22 11:44:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyhelper-utils
+[2024-05-22 11:44:44] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-05-22 11:44:44] INFO root fetch - processPackages [udirect]: New version: [0.1.4.dev9] Old Version: [0.1.4.dev8]
+[2024-05-22 11:44:44] INFO root fetch - processPackages [datapools]: New version: [1.0.59] Old Version: [1.0.58]
+[2024-05-22 11:44:44] INFO root fetch - processPackages [copr-cli]: New version: [1.99] Old Version: [1.98]
+[2024-05-22 11:44:44] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Downloading https://files.pythonhosted.org/packages/c0/59/4a411cf32353a4aa27ed7df897022dba7186efabe6440e073e02e93578c7/openshift_cluster_management_python_wrapper-1.0.98.tar.gz
+[2024-05-22 11:44:44] INFO root fetch - processPackages [pyhelper-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 11:44:44] INFO root fetch - processPackages [openshift-python-wrapper-data-collector]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-22 11:44:44] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/63/2b/b8dd9f284cadd77c65d69c16d3402ff1280b48027dffc1036b26b3a83531/udirect-0.1.4.dev8.tar.gz
+[2024-05-22 11:44:44] INFO root fetch - processPackages [copr]: New version: [1.99] Old Version: [1.98]
+[2024-05-22 11:44:44] INFO root fetch - processPackages [micropolarray]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-05-22 11:44:44] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2024-05-22 11:44:44] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2024-05-22 11:44:44] INFO root fetch - processPackages [datapools]: Downloading https://files.pythonhosted.org/packages/b6/ff/e9ed087d746d9cf4d41c787d97b07ee8ac4e4e210a4f2c47bf0317914567/datapools-1.0.58.tar.gz
+[2024-05-22 11:44:44] INFO root fetch - processPackages [copr-cli]: Downloading https://files.pythonhosted.org/packages/37/e5/c9f08e5c07575fa03f67ec48ceb0341823abed4592598afc8e3d0cd6e844/copr-cli-1.98.tar.gz
+[2024-05-22 11:44:44] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Downloading https://files.pythonhosted.org/packages/11/56/6990be30b6f5fcf73a2731cd41504a76f9454ec027047d669aeb3f238561/openshift_cluster_management_python_wrapper-1.0.99.tar.gz
+[2024-05-22 11:44:44] INFO root fetch - processPackages [pyhelper-utils]: Downloading https://files.pythonhosted.org/packages/b0/79/7f514832f284b942b0701ed9c59de4c8e6ea368ae1637fe0e5bbf4346cec/pyhelper_utils-0.0.8.tar.gz
+[2024-05-22 11:44:44] INFO root fetch - processPackages [openshift-python-wrapper-data-collector]: Downloading https://files.pythonhosted.org/packages/c3/2a/7eea72d6b97d312f7bcc2598b1ac8cada6fa8500f29946a107c079ee984a/openshift_python_wrapper_data_collector-1.0.8.tar.gz
+[2024-05-22 11:44:44] INFO root fetch - processPackages [copr]: Downloading https://files.pythonhosted.org/packages/0c/09/21589ffe79957c4700c210d5f904473d1419c55ec320e53baa3312b4b866/copr-1.98.tar.gz
+[2024-05-22 11:44:44] INFO root fetch - processPackages [micropolarray]: Downloading https://files.pythonhosted.org/packages/0f/b5/e822373a92813fa1686f9330033ef9796aba353dc09a5cb58e7659fdc760/micropolarray-1.2.8.tar.gz
+[2024-05-22 11:44:44] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2024-05-22 11:44:44] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2024-05-22 11:44:44] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: executing diffoscope
+[2024-05-22 11:44:44] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_cluster_management_python_wrapper-1.0.98.tar.gz tmp/openshift_cluster_management_python_wrapper-1.0.99.tar.gz --markdown 20240522/o/openshift-cluster-management-python-wrapper/1.0.98-1.0.99/README.md --exclude *.pyd
+[2024-05-22 11:44:44] INFO root fetch - processPackages [datapools]: Downloading https://files.pythonhosted.org/packages/c0/75/3d76aa5ab34f4f2f9e1245b03b3b313a6cf31c9f5943ca29aff50444266f/datapools-1.0.59.tar.gz
+[2024-05-22 11:44:44] INFO root fetch - processPackages [udirect]: Downloading https://files.pythonhosted.org/packages/8a/a3/ad99a9715fce5afd74908cc4510120837854d439e7d1cca91ccead70df48/udirect-0.1.4.dev9.tar.gz
+[2024-05-22 11:44:44] INFO root fetch - processPackages [datapools]: executing diffoscope
+[2024-05-22 11:44:44] INFO root fetch - processPackages [datapools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapools-1.0.58.tar.gz tmp/datapools-1.0.59.tar.gz --markdown 20240522/d/datapools/1.0.58-1.0.59/README.md --exclude *.pyd
+[2024-05-22 11:44:44] INFO root fetch - processPackages [pyhelper-utils]: Downloading https://files.pythonhosted.org/packages/36/fc/49838721a63519de9a0bf1ceec71298239af5e448eaef761acf5b828a024/pyhelper_utils-0.0.9.tar.gz
+[2024-05-22 11:44:44] INFO root fetch - processPackages [openshift-python-wrapper-data-collector]: Downloading https://files.pythonhosted.org/packages/d6/5f/e1855763846f0adf261c946de2283bc9380eca80a9b042019b934a1d6602/openshift_python_wrapper_data_collector-1.0.9.tar.gz
+[2024-05-22 11:44:45] INFO root fetch - processPackages [copr]: Downloading https://files.pythonhosted.org/packages/95/cc/fba53ecdf452527d21052dd09cfc518e72454c364f7ae2fc5d083d70d8f0/copr-1.99.tar.gz
+[2024-05-22 11:44:45] INFO root fetch - processPackages [pyhelper-utils]: executing diffoscope
+[2024-05-22 11:44:45] INFO root fetch - processPackages [pyhelper-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhelper_utils-0.0.8.tar.gz tmp/pyhelper_utils-0.0.9.tar.gz --markdown 20240522/p/pyhelper-utils/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 11:44:45] INFO root fetch - processPackages [openshift-python-wrapper-data-collector]: executing diffoscope
+[2024-05-22 11:44:45] INFO root fetch - processPackages [openshift-python-wrapper-data-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift_python_wrapper_data_collector-1.0.8.tar.gz tmp/openshift_python_wrapper_data_collector-1.0.9.tar.gz --markdown 20240522/o/openshift-python-wrapper-data-collector/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-22 11:44:45] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2024-05-22 11:44:45] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2024-05-22 11:44:45] INFO root fetch - processPackages [micropolarray]: Downloading https://files.pythonhosted.org/packages/af/4a/c49cc1f874abe1aea6bea5e3e22a73db335d1641cce5323ebfa47405af90/micropolarray-1.2.9.tar.gz
+[2024-05-22 11:44:45] INFO root fetch - processPackages [copr]: executing diffoscope
+[2024-05-22 11:44:45] INFO root fetch - processPackages [copr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copr-1.98.tar.gz tmp/copr-1.99.tar.gz --markdown 20240522/c/copr/1.98-1.99/README.md --exclude *.pyd
+[2024-05-22 11:44:45] INFO root fetch - processPackages [udirect]: executing diffoscope
+[2024-05-22 11:44:45] INFO root fetch - processPackages [udirect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udirect-0.1.4.dev8.tar.gz tmp/udirect-0.1.4.dev9.tar.gz --markdown 20240522/u/udirect/0.1.4.dev8-0.1.4.dev9/README.md --exclude *.pyd
+[2024-05-22 11:44:45] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2024-05-22 11:44:45] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2024-05-22 11:44:45] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20240522/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/README.md --exclude *.pyd
+[2024-05-22 11:44:45] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20240522/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/README.md --exclude *.pyd
+[2024-05-22 11:44:45] INFO root fetch - processPackages [micropolarray]: executing diffoscope
+[2024-05-22 11:44:45] INFO root fetch - processPackages [micropolarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropolarray-1.2.8.tar.gz tmp/micropolarray-1.2.9.tar.gz --markdown 20240522/m/micropolarray/1.2.8-1.2.9/README.md --exclude *.pyd
+[2024-05-22 11:44:45] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cluster_management_python_wrapper-1.0.98.tar.gz]
+[2024-05-22 11:44:45] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift_cluster_management_python_wrapper-1.0.99.tar.gz]
+[2024-05-22 11:44:45] INFO root fetch - processPackages [openshift-cluster-management-python-wrapper]: Start processing: agi-med-utils
+[2024-05-22 11:44:45] INFO root fetch - main [MainThread]: End processing [openshift-cluster-management-python-wrapper]: success
+[2024-05-22 11:44:45] INFO root fetch - processPackages [agi-med-utils]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-05-22 11:44:45] INFO root fetch - processPackages [agi-med-utils]: Downloading https://files.pythonhosted.org/packages/a7/b5/c7970198922c4cd2ce80ce83f2fb22f282467178c767dc423cab91387dbf/agi_med_utils-0.0.5.tar.gz
+[2024-05-22 11:44:46] INFO root fetch - processPackages [datapools]: Remove: archive file [/home/abi/fetcher/tmp/datapools-1.0.58.tar.gz]
+[2024-05-22 11:44:46] INFO root fetch - processPackages [datapools]: Remove: archive file [/home/abi/fetcher/tmp/datapools-1.0.59.tar.gz]
+[2024-05-22 11:44:46] INFO root fetch - processPackages [datapools]: Start processing: python-simple-logger
+[2024-05-22 11:44:46] INFO root fetch - main [MainThread]: End processing [datapools]: success
+[2024-05-22 11:44:46] INFO root fetch - processPackages [copr-cli]: Downloading https://files.pythonhosted.org/packages/ab/08/cd3108970fe55dde77ef5b64f05a3fe0207cf84dd023cf9cdaf3da7815d4/copr-cli-1.99.tar.gz
+[2024-05-22 11:44:46] INFO root fetch - processPackages [agi-med-utils]: Downloading https://files.pythonhosted.org/packages/98/22/b643057eea20ddd1f2d7559fcc44c3a10c4c35f41e26e6e89569f01c7666/agi_med_utils-0.0.6.tar.gz
+[2024-05-22 11:44:46] INFO root fetch - processPackages [pyhelper-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyhelper_utils-0.0.8.tar.gz]
+[2024-05-22 11:44:46] INFO root fetch - processPackages [pyhelper-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyhelper_utils-0.0.9.tar.gz]
+[2024-05-22 11:44:46] INFO root fetch - processPackages [pyhelper-utils]: Start processing: python-utility-scripts
+[2024-05-22 11:44:46] INFO root fetch - main [MainThread]: End processing [pyhelper-utils]: success
+[2024-05-22 11:44:46] INFO root fetch - processPackages [openshift-python-wrapper-data-collector]: Remove: archive file [/home/abi/fetcher/tmp/openshift_python_wrapper_data_collector-1.0.8.tar.gz]
+[2024-05-22 11:44:46] INFO root fetch - processPackages [openshift-python-wrapper-data-collector]: Remove: archive file [/home/abi/fetcher/tmp/openshift_python_wrapper_data_collector-1.0.9.tar.gz]
+[2024-05-22 11:44:46] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper-data-collector]: success
+[2024-05-22 11:44:46] INFO root fetch - processPackages [python-simple-logger]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-05-22 11:44:46] INFO root fetch - processPackages [agi-med-utils]: executing diffoscope
+[2024-05-22 11:44:46] INFO root fetch - processPackages [agi-med-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agi_med_utils-0.0.5.tar.gz tmp/agi_med_utils-0.0.6.tar.gz --markdown 20240522/a/agi-med-utils/0.0.5-0.0.6/README.md --exclude *.pyd
+[2024-05-22 11:44:46] INFO root fetch - processPackages [copr-cli]: executing diffoscope
+[2024-05-22 11:44:46] INFO root fetch - processPackages [copr-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copr-cli-1.98.tar.gz tmp/copr-cli-1.99.tar.gz --markdown 20240522/c/copr-cli/1.98-1.99/README.md --exclude *.pyd
+[2024-05-22 11:44:46] INFO root fetch - processPackages [python-utility-scripts]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 11:44:46] INFO root fetch - processPackages [python-simple-logger]: Downloading https://files.pythonhosted.org/packages/b7/00/25c1190dfcd02c105f61888148c4cc7e53a4419f1529fc1cbd0e6b4a56fb/python_simple_logger-1.0.8.tar.gz
+[2024-05-22 11:44:46] INFO root fetch - processPackages [micropolarray]: Remove: archive file [/home/abi/fetcher/tmp/micropolarray-1.2.8.tar.gz]
+[2024-05-22 11:44:46] INFO root fetch - processPackages [micropolarray]: Remove: archive file [/home/abi/fetcher/tmp/micropolarray-1.2.9.tar.gz]
+[2024-05-22 11:44:46] INFO root fetch - main [MainThread]: End processing [micropolarray]: success
+[2024-05-22 11:44:46] INFO root fetch - processPackages [python-utility-scripts]: Downloading https://files.pythonhosted.org/packages/6c/01/51bfeb2fcf48de8e85393b7dc865596d4ef5a95d7c36d178832b3a4f77bb/python_utility_scripts-0.0.8.tar.gz
+[2024-05-22 11:44:46] INFO root fetch - processPackages [copr]: Remove: archive file [/home/abi/fetcher/tmp/copr-1.98.tar.gz]
+[2024-05-22 11:44:46] INFO root fetch - processPackages [copr]: Remove: archive file [/home/abi/fetcher/tmp/copr-1.99.tar.gz]
+[2024-05-22 11:44:46] INFO root fetch - main [MainThread]: End processing [copr]: success
+[2024-05-22 11:44:46] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.7.12.tar.gz]
+[2024-05-22 11:44:46] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.9.12.tar.gz]
+[2024-05-22 11:44:46] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2024-05-22 11:44:46] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2024-05-22 11:44:46] INFO root fetch - processPackages [python-simple-logger]: Downloading https://files.pythonhosted.org/packages/b7/8f/c4f6060e263a75c74df886a1e40ad1894d223a6fc03098ee6b363fd315ac/python_simple_logger-1.0.9.tar.gz
+[2024-05-22 11:44:46] INFO root fetch - processPackages [python-utility-scripts]: Downloading https://files.pythonhosted.org/packages/b5/1f/a795660b71037e5c289d162daebc6fa80614879af1af487e37846d02355e/python_utility_scripts-0.0.9.tar.gz
+[2024-05-22 11:44:46] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev8.tar.gz]
+[2024-05-22 11:44:46] INFO root fetch - processPackages [udirect]: Remove: archive file [/home/abi/fetcher/tmp/udirect-0.1.4.dev9.tar.gz]
+[2024-05-22 11:44:46] INFO root fetch - main [MainThread]: End processing [udirect]: success
+[2024-05-22 11:44:46] INFO root fetch - processPackages [agi-med-utils]: Remove: archive file [/home/abi/fetcher/tmp/agi_med_utils-0.0.5.tar.gz]
+[2024-05-22 11:44:46] INFO root fetch - processPackages [agi-med-utils]: Remove: archive file [/home/abi/fetcher/tmp/agi_med_utils-0.0.6.tar.gz]
+[2024-05-22 11:44:46] INFO root fetch - processPackages [python-utility-scripts]: executing diffoscope
+[2024-05-22 11:44:46] INFO root fetch - processPackages [python-utility-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_utility_scripts-0.0.8.tar.gz tmp/python_utility_scripts-0.0.9.tar.gz --markdown 20240522/p/python-utility-scripts/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 11:44:46] INFO root fetch - main [MainThread]: End processing [agi-med-utils]: success
+[2024-05-22 11:44:47] INFO root fetch - processPackages [python-simple-logger]: executing diffoscope
+[2024-05-22 11:44:47] INFO root fetch - processPackages [python-simple-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_simple_logger-1.0.8.tar.gz tmp/python_simple_logger-1.0.9.tar.gz --markdown 20240522/p/python-simple-logger/1.0.8-1.0.9/README.md --exclude *.pyd
+[2024-05-22 11:44:47] INFO root fetch - processPackages [copr-cli]: Remove: archive file [/home/abi/fetcher/tmp/copr-cli-1.98.tar.gz]
+[2024-05-22 11:44:47] INFO root fetch - processPackages [copr-cli]: Remove: archive file [/home/abi/fetcher/tmp/copr-cli-1.99.tar.gz]
+[2024-05-22 11:44:47] INFO root fetch - main [MainThread]: End processing [copr-cli]: success
+[2024-05-22 11:44:47] INFO root fetch - processPackages [python-simple-logger]: Remove: archive file [/home/abi/fetcher/tmp/python_simple_logger-1.0.8.tar.gz]
+[2024-05-22 11:44:47] INFO root fetch - processPackages [python-simple-logger]: Remove: archive file [/home/abi/fetcher/tmp/python_simple_logger-1.0.9.tar.gz]
+[2024-05-22 11:44:47] INFO root fetch - main [MainThread]: End processing [python-simple-logger]: success
+[2024-05-22 11:44:47] INFO root fetch - processPackages [python-utility-scripts]: Remove: archive file [/home/abi/fetcher/tmp/python_utility_scripts-0.0.8.tar.gz]
+[2024-05-22 11:44:47] INFO root fetch - processPackages [python-utility-scripts]: Remove: archive file [/home/abi/fetcher/tmp/python_utility_scripts-0.0.9.tar.gz]
+[2024-05-22 11:44:47] INFO root fetch - main [MainThread]: End processing [python-utility-scripts]: success
+[2024-05-22 11:44:47] INFO root fetch - main [MainThread]: Store serial: [23321894]

@@ -8654,3 +8654,91 @@
 [2024-05-22 04:27:29] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240521.tar.gz]
 [2024-05-22 04:27:29] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-05-22 04:27:29] INFO root fetch - main [MainThread]: Store serial: [23317619]
+[2024-05-22 04:29:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23317619]
+[2024-05-22 04:29:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-22 04:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ventures
+[2024-05-22 04:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sandbox-func
+[2024-05-22 04:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: protein-turnover
+[2024-05-22 04:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alamos
+[2024-05-22 04:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blueness
+[2024-05-22 04:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: synnax-freighter
+[2024-05-22 04:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: smartpredict
+[2024-05-22 04:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: synnax
+[2024-05-22 04:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: swarmauri
+[2024-05-22 04:29:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kamangir
+[2024-05-22 04:29:46] INFO root fetch - processPackages [alamos]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-05-22 04:29:46] INFO root fetch - processPackages [blueness]: New version: [3.9.1] Old Version: [3.7.1]
+[2024-05-22 04:29:46] INFO root fetch - processPackages [smartpredict]: New version: [0.4] Old Version: [0.3]
+[2024-05-22 04:29:46] INFO root fetch - processPackages [kamangir]: New version: [3.41.1] Old Version: [3.40.1]
+[2024-05-22 04:29:46] INFO root fetch - processPackages [ventures]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-05-22 04:29:46] INFO root fetch - processPackages [synnax-freighter]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-05-22 04:29:46] INFO root fetch - processPackages [synnax]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-22 04:29:46] INFO root fetch - processPackages [swarmauri]: New version: [0.2.8.dev1] Old Version: [0.2.7]
+[2024-05-22 04:29:46] INFO root fetch - processPackages [sandbox-func]: New version: [0.4.13] Old Version: [0.1.6]
+[2024-05-22 04:29:46] INFO root fetch - processPackages [protein-turnover]: New version: [0.4.2] Old Version: [0.4.0]
+[2024-05-22 04:29:46] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c5/2b/b12c4308c7fb396e018ffbe6ec0f046170906ae98b188985b537619e0f55/alamos-0.3.8.tar.gz
+[2024-05-22 04:29:46] INFO root fetch - processPackages [kamangir]: Downloading https://files.pythonhosted.org/packages/4a/53/7f15b9ff6232c42cf1774b618e4daa830a00f95638ec20c7474643d1e47f/kamangir-3.40.1.tar.gz
+[2024-05-22 04:29:46] INFO root fetch - processPackages [ventures]: Downloading https://files.pythonhosted.org/packages/14/b9/a818c010fbcce30fa60b3b6ebe1957f865d65c4e442f1f551e2f565f72a3/ventures-1.3.2.tar.gz
+[2024-05-22 04:29:46] ERROR root fetch - processPackages [smartpredict]: Unable to fetch info: No such project/version 'smartpredict' 0.3
+[2024-05-22 04:29:46] INFO root fetch - main [MainThread]: End processing [smartpredict] error
+[2024-05-22 04:29:46] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/89/a1/f0d76d0706e47ba3dcdbf0fe8c7b2e90c98bd073d40a3c4c7c1c1025aab8/synnax-0.8.0.tar.gz
+[2024-05-22 04:29:46] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/73/49/ce9ba5821f001d820fe348eef14ea631c0d54f20289c0aa2458ec4b14c23/synnax_freighter-0.7.8.tar.gz
+[2024-05-22 04:29:46] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/6e/d8/62ecd9d61aa00d299959259a892289de0e7cba185ce2868cec38f50a637f/swarmauri-0.2.7.tar.gz
+[2024-05-22 04:29:46] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/86/d4/e8b769417baf31b335408a29a80b371b6421e59db03087a6e1c943bb5d84/blueness-3.7.1.tar.gz
+[2024-05-22 04:29:46] INFO root fetch - processPackages [sandbox-func]: Downloading https://files.pythonhosted.org/packages/f8/0c/d75924e6461a2fc8bd827a7f468b55d09dbbe400714f5dcdb521cfe0e070/sandbox_func-0.1.6.tar.gz
+[2024-05-22 04:29:46] INFO root fetch - processPackages [protein-turnover]: Downloading https://files.pythonhosted.org/packages/95/b1/26558e795c11d45122d95d0d71d1baa9d89a7977a15daa321f0454f536c6/protein_turnover-0.4.0.tar.gz
+[2024-05-22 04:29:47] INFO root fetch - processPackages [alamos]: Downloading https://files.pythonhosted.org/packages/c1/08/cf40db715e810dc50be82dd822b41aefe7a4903f73ac57533c85bc63cf9d/alamos-0.3.9.tar.gz
+[2024-05-22 04:29:47] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/b3/bc/76e9b03b96c7ab72f4b39e5e03c396b86efd6fb650bedcff8a7118679e9b/synnax-0.9.0.tar.gz
+[2024-05-22 04:29:47] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/fa/ba/9098a994969c4ac9fa5a1d947ac5ede1ea8e8cf5d2b40c82db732fd56bad/synnax_freighter-0.7.9.tar.gz
+[2024-05-22 04:29:47] INFO root fetch - processPackages [blueness]: Downloading https://files.pythonhosted.org/packages/bb/6c/4f8063f6de43bbfcce0c161a49b6afe38d15dfecb071f23bc7663a1b1714/blueness-3.9.1.tar.gz
+[2024-05-22 04:29:47] INFO root fetch - processPackages [ventures]: Downloading https://files.pythonhosted.org/packages/fd/1d/29e1cfcc0a9c35ba50013fa15c1229552c5371a21391e9c49c6c74054b2e/ventures-1.3.3.tar.gz
+[2024-05-22 04:29:47] INFO root fetch - processPackages [kamangir]: Downloading https://files.pythonhosted.org/packages/f0/1c/ea0533bbe4e7cd8edb765e1fc929860d556bff7d5e063124f2cd6c43bf31/kamangir-3.41.1.tar.gz
+[2024-05-22 04:29:47] INFO root fetch - processPackages [alamos]: executing diffoscope
+[2024-05-22 04:29:47] INFO root fetch - processPackages [alamos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alamos-0.3.8.tar.gz tmp/alamos-0.3.9.tar.gz --markdown 20240522/a/alamos/0.3.8-0.3.9/README.md --exclude *.pyd
+[2024-05-22 04:29:47] INFO root fetch - processPackages [swarmauri]: Downloading https://files.pythonhosted.org/packages/c7/fc/a49784897a628232762df96c5fe8a3e9a4126674702e8b19bcf4f5b19778/swarmauri-0.2.8.dev1.tar.gz
+[2024-05-22 04:29:47] INFO root fetch - processPackages [synnax]: executing diffoscope
+[2024-05-22 04:29:47] INFO root fetch - processPackages [synnax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax-0.8.0.tar.gz tmp/synnax-0.9.0.tar.gz --markdown 20240522/s/synnax/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-22 04:29:47] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-05-22 04:29:47] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.7.8.tar.gz tmp/synnax_freighter-0.7.9.tar.gz --markdown 20240522/s/synnax-freighter/0.7.8-0.7.9/README.md --exclude *.pyd
+[2024-05-22 04:29:47] INFO root fetch - processPackages [blueness]: executing diffoscope
+[2024-05-22 04:29:47] INFO root fetch - processPackages [blueness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueness-3.7.1.tar.gz tmp/blueness-3.9.1.tar.gz --markdown 20240522/b/blueness/3.7.1-3.9.1/README.md --exclude *.pyd
+[2024-05-22 04:29:47] INFO root fetch - processPackages [ventures]: executing diffoscope
+[2024-05-22 04:29:47] INFO root fetch - processPackages [kamangir]: executing diffoscope
+[2024-05-22 04:29:47] INFO root fetch - processPackages [ventures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ventures-1.3.2.tar.gz tmp/ventures-1.3.3.tar.gz --markdown 20240522/v/ventures/1.3.2-1.3.3/README.md --exclude *.pyd
+[2024-05-22 04:29:47] INFO root fetch - processPackages [kamangir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kamangir-3.40.1.tar.gz tmp/kamangir-3.41.1.tar.gz --markdown 20240522/k/kamangir/3.40.1-3.41.1/README.md --exclude *.pyd
+[2024-05-22 04:29:47] INFO root fetch - processPackages [sandbox-func]: Downloading https://files.pythonhosted.org/packages/d6/b8/cf98ec8c8df6d7ec620c30760165e1d3ec91e94f0a238dfa2dc99b7b3cb7/sandbox_func-0.4.13.tar.gz
+[2024-05-22 04:29:47] INFO root fetch - processPackages [protein-turnover]: Downloading https://files.pythonhosted.org/packages/fe/aa/aa67b5a73111e252bee45e7608d099647e3e001720bdbd2b0974d33ffe02/protein_turnover-0.4.2.tar.gz
+[2024-05-22 04:29:47] INFO root fetch - processPackages [swarmauri]: executing diffoscope
+[2024-05-22 04:29:47] INFO root fetch - processPackages [swarmauri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarmauri-0.2.7.tar.gz tmp/swarmauri-0.2.8.dev1.tar.gz --markdown 20240522/s/swarmauri/0.2.7-0.2.8.dev1/README.md --exclude *.pyd
+[2024-05-22 04:29:47] INFO root fetch - processPackages [sandbox-func]: executing diffoscope
+[2024-05-22 04:29:47] INFO root fetch - processPackages [sandbox-func]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sandbox_func-0.1.6.tar.gz tmp/sandbox_func-0.4.13.tar.gz --markdown 20240522/s/sandbox-func/0.1.6-0.4.13/README.md --exclude *.pyd
+[2024-05-22 04:29:47] INFO root fetch - processPackages [protein-turnover]: executing diffoscope
+[2024-05-22 04:29:47] INFO root fetch - processPackages [protein-turnover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_turnover-0.4.0.tar.gz tmp/protein_turnover-0.4.2.tar.gz --markdown 20240522/p/protein-turnover/0.4.0-0.4.2/README.md --exclude *.pyd
+[2024-05-22 04:29:48] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.8.tar.gz]
+[2024-05-22 04:29:48] INFO root fetch - processPackages [alamos]: Remove: archive file [/home/abi/fetcher/tmp/alamos-0.3.9.tar.gz]
+[2024-05-22 04:29:48] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.7.1.tar.gz]
+[2024-05-22 04:29:48] INFO root fetch - main [MainThread]: End processing [alamos]: success
+[2024-05-22 04:29:48] INFO root fetch - processPackages [blueness]: Remove: archive file [/home/abi/fetcher/tmp/blueness-3.9.1.tar.gz]
+[2024-05-22 04:29:48] INFO root fetch - main [MainThread]: End processing [blueness]: success
+[2024-05-22 04:29:48] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.8.tar.gz]
+[2024-05-22 04:29:48] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.7.9.tar.gz]
+[2024-05-22 04:29:48] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-05-22 04:29:48] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.8.0.tar.gz]
+[2024-05-22 04:29:48] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
+[2024-05-22 04:29:48] INFO root fetch - main [MainThread]: End processing [synnax]: success
+[2024-05-22 04:29:48] INFO root fetch - processPackages [kamangir]: Remove: archive file [/home/abi/fetcher/tmp/kamangir-3.40.1.tar.gz]
+[2024-05-22 04:29:48] INFO root fetch - processPackages [kamangir]: Remove: archive file [/home/abi/fetcher/tmp/kamangir-3.41.1.tar.gz]
+[2024-05-22 04:29:48] INFO root fetch - main [MainThread]: End processing [kamangir]: success
+[2024-05-22 04:29:48] INFO root fetch - processPackages [sandbox-func]: Remove: archive file [/home/abi/fetcher/tmp/sandbox_func-0.1.6.tar.gz]
+[2024-05-22 04:29:48] INFO root fetch - processPackages [sandbox-func]: Remove: archive file [/home/abi/fetcher/tmp/sandbox_func-0.4.13.tar.gz]
+[2024-05-22 04:29:48] INFO root fetch - main [MainThread]: End processing [sandbox-func]: success
+[2024-05-22 04:29:48] INFO root fetch - processPackages [protein-turnover]: Remove: archive file [/home/abi/fetcher/tmp/protein_turnover-0.4.0.tar.gz]
+[2024-05-22 04:29:48] INFO root fetch - processPackages [protein-turnover]: Remove: archive file [/home/abi/fetcher/tmp/protein_turnover-0.4.2.tar.gz]
+[2024-05-22 04:29:48] INFO root fetch - main [MainThread]: End processing [protein-turnover]: success
+[2024-05-22 04:29:48] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.7.tar.gz]
+[2024-05-22 04:29:48] INFO root fetch - processPackages [swarmauri]: Remove: archive file [/home/abi/fetcher/tmp/swarmauri-0.2.8.dev1.tar.gz]
+[2024-05-22 04:29:48] INFO root fetch - main [MainThread]: End processing [swarmauri]: success
+[2024-05-22 04:29:49] INFO root fetch - processPackages [ventures]: Remove: archive file [/home/abi/fetcher/tmp/ventures-1.3.2.tar.gz]
+[2024-05-22 04:29:49] INFO root fetch - processPackages [ventures]: Remove: archive file [/home/abi/fetcher/tmp/ventures-1.3.3.tar.gz]
+[2024-05-22 04:29:49] INFO root fetch - main [MainThread]: End processing [ventures]: success
+[2024-05-22 04:29:49] INFO root fetch - main [MainThread]: Store serial: [23317649]

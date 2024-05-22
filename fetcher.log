@@ -12951,3 +12951,117 @@
 [2024-05-22 08:16:26] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-202401.2.0.tar.gz]
 [2024-05-22 08:16:26] INFO root fetch - main [MainThread]: End processing [bo4e]: success
 [2024-05-22 08:16:26] INFO root fetch - main [MainThread]: Store serial: [23319548]
+[2024-05-22 08:18:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319548]
+[2024-05-22 08:18:38] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-05-22 08:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-product-warranty
+[2024-05-22 08:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qsharp
+[2024-05-22 08:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qsharp-jupyterlab
+[2024-05-22 08:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyg-nightly
+[2024-05-22 08:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qsharp-widgets
+[2024-05-22 08:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Fr1997v011
+[2024-05-22 08:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: imerit-ango
+[2024-05-22 08:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yangson
+[2024-05-22 08:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-crontab
+[2024-05-22 08:18:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aiogram3-form
+[2024-05-22 08:18:39] INFO root fetch - processPackages [qsharp]: New version: [1.5.1.dev0] Old Version: [1.5.0]
+[2024-05-22 08:18:39] INFO root fetch - processPackages [Fr1997v011]: New version: [1.6.0] Old Version: [1.5.8]
+[2024-05-22 08:18:39] INFO root fetch - processPackages [qsharp-widgets]: New version: [1.5.1.dev0] Old Version: [1.5.0]
+[2024-05-22 08:18:39] INFO root fetch - processPackages [qsharp-jupyterlab]: New version: [1.5.1.dev0] Old Version: [1.5.0]
+[2024-05-22 08:18:39] INFO root fetch - processPackages [aiogram3-form]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-05-22 08:18:39] INFO root fetch - processPackages [odoo-addon-product-warranty]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-05-22 08:18:39] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240522] Old Version: [2.6.0.dev20240521]
+[2024-05-22 08:18:39] INFO root fetch - processPackages [imerit-ango]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-22 08:18:39] INFO root fetch - processPackages [qsharp-widgets]: Downloading https://files.pythonhosted.org/packages/8f/81/fc3b334cd43fdba3c24781357e5c97fa31de027d9aac01359940f76aa684/qsharp_widgets-1.5.0-py2.py3-none-any.whl
+[2024-05-22 08:18:39] INFO root fetch - processPackages [python-crontab]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-05-22 08:18:39] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/39/4d/b89bae3d2c15166d38e533ab4f6698f61e9d06490e8b734b825899358b78/Fr1997v011-1.5.8.tar.gz
+[2024-05-22 08:18:39] INFO root fetch - processPackages [yangson]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-05-22 08:18:39] INFO root fetch - processPackages [qsharp-jupyterlab]: Downloading https://files.pythonhosted.org/packages/58/cd/b0d9974738dc8f272bd658fbc21e4165a00c75a953b8e3fd31b79e84bfa0/qsharp_jupyterlab-1.5.0-py3-none-any.whl
+[2024-05-22 08:18:39] INFO root fetch - processPackages [aiogram3-form]: Downloading https://files.pythonhosted.org/packages/3a/52/f7f8882a0ca6c40304d8edd612973667e473c2ef8c1e7054a2ab2baf7f06/aiogram3_form-2.0.2.tar.gz
+[2024-05-22 08:18:39] INFO root fetch - processPackages [qsharp]: Downloading https://files.pythonhosted.org/packages/06/66/05dd3c7d2e77efea99b26bc08f72abbab2fb5a465704ec3cfa01b2bffc00/qsharp-1.5.0-cp37-abi3-win_arm64.whl
+[2024-05-22 08:18:39] INFO root fetch - processPackages [odoo-addon-product-warranty]: Downloading https://files.pythonhosted.org/packages/d7/8a/88b0972db963963aaaea210822838c9121443adfc7bae0c6d519957df593/odoo_addon_product_warranty-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-22 08:18:39] INFO root fetch - processPackages [python-crontab]: Downloading https://files.pythonhosted.org/packages/fb/6f/14adf2570e83c90f3f5af1af5225a70f914ba9e7ab9d08e675c5f6887102/python-crontab-3.0.0.tar.gz
+[2024-05-22 08:18:39] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/80/49/de02bd2d13d1a20cc0ef7197513603f8b9e18c0a30fa7684ba2b37e64f24/pyg_nightly-2.6.0.dev20240521.tar.gz
+[2024-05-22 08:18:39] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/c2/4b/76fb7268eae934f8b6babe542caa987f665f9d2bc919b065061d5e43b9d4/imerit_ango-1.3.8-py3-none-any.whl
+[2024-05-22 08:18:39] INFO root fetch - processPackages [yangson]: Downloading https://files.pythonhosted.org/packages/34/73/702c81a13633b0b80236a297266eaad609952e9c324f207994fc0e56ba54/yangson-1.5.4.tar.gz
+[2024-05-22 08:18:39] INFO root fetch - processPackages [aiogram3-form]: Downloading https://files.pythonhosted.org/packages/dd/d2/6cf07e4ffabb43fac187bb948182e9bb076f4ea5923247d202b8d67bfabe/aiogram3_form-2.0.3.tar.gz
+[2024-05-22 08:18:39] INFO root fetch - processPackages [qsharp-jupyterlab]: Downloading https://files.pythonhosted.org/packages/7f/01/b69b449434dabf78342d4af729d55762f3014f5e6145c000c29c2d3e62e7/qsharp_jupyterlab-1.5.1.dev0-py3-none-any.whl
+[2024-05-22 08:18:39] INFO root fetch - processPackages [qsharp-widgets]: Downloading https://files.pythonhosted.org/packages/fd/b9/3d83656836d39e23e84abbef99b36555efb630de44afe6ba14fec0d4f6f3/qsharp_widgets-1.5.1.dev0-py2.py3-none-any.whl
+[2024-05-22 08:18:39] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/8b/df/b64f6b91a46d2c103787662aca6098edbbf8083713911237d9630b556fd2/Fr1997v011-1.6.0.tar.gz
+[2024-05-22 08:18:39] INFO root fetch - processPackages [aiogram3-form]: executing diffoscope
+[2024-05-22 08:18:39] INFO root fetch - processPackages [aiogram3-form]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiogram3_form-2.0.2.tar.gz tmp/aiogram3_form-2.0.3.tar.gz --markdown 20240522/a/aiogram3-form/2.0.2-2.0.3/README.md --exclude *.pyd
+[2024-05-22 08:18:39] INFO root fetch - processPackages [qsharp]: Downloading https://files.pythonhosted.org/packages/da/4f/c829dd6a83988b2ea1ff0dde31ac812f4ab11cfe522b746f92778cadb0d5/qsharp-1.5.1.dev0-cp37-abi3-win_arm64.whl
+[2024-05-22 08:18:39] INFO root fetch - processPackages [python-crontab]: Downloading https://files.pythonhosted.org/packages/2d/55/55c92a1b84aed86b9c9e9db130eefe473775b9d6bb9fbd031036e581fb9d/python-crontab-3.1.0.tar.gz
+[2024-05-22 08:18:39] INFO root fetch - processPackages [qsharp-jupyterlab]: executing diffoscope
+[2024-05-22 08:18:39] INFO root fetch - processPackages [qsharp-jupyterlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp_jupyterlab-1.5.0-py3-none-any.whl.zip tmp/qsharp_jupyterlab-1.5.1.dev0-py3-none-any.whl.zip --markdown 20240522/q/qsharp-jupyterlab/1.5.0-1.5.1.dev0/README.md --exclude *.pyd
+[2024-05-22 08:18:39] INFO root fetch - processPackages [qsharp-widgets]: executing diffoscope
+[2024-05-22 08:18:39] INFO root fetch - processPackages [qsharp-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp_widgets-1.5.0-py2.py3-none-any.whl.zip tmp/qsharp_widgets-1.5.1.dev0-py2.py3-none-any.whl.zip --markdown 20240522/q/qsharp-widgets/1.5.0-1.5.1.dev0/README.md --exclude *.pyd
+[2024-05-22 08:18:39] INFO root fetch - processPackages [odoo-addon-product-warranty]: Downloading https://files.pythonhosted.org/packages/86/5e/0b7fe9a5166314fa631c430e3d9524f450d3412403cdfcfd3d56f492a8c0/odoo_addon_product_warranty-16.0.1.0.0.8-py3-none-any.whl
+[2024-05-22 08:18:39] INFO root fetch - processPackages [Fr1997v011]: executing diffoscope
+[2024-05-22 08:18:39] INFO root fetch - processPackages [Fr1997v011]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fr1997v011-1.5.8.tar.gz tmp/Fr1997v011-1.6.0.tar.gz --markdown 20240522/F/Fr1997v011/1.5.8-1.6.0/README.md --exclude *.pyd
+[2024-05-22 08:18:39] INFO root fetch - processPackages [imerit-ango]: Downloading https://files.pythonhosted.org/packages/ad/6c/c566cbfb2eb78b60ab906a7089cb27f4363856113a63e1b4a254383269bb/imerit_ango-1.3.9-py3-none-any.whl
+[2024-05-22 08:18:39] INFO root fetch - processPackages [yangson]: Downloading https://files.pythonhosted.org/packages/16/b4/f3dc3ca03f349ea9ddac029b7a3375c9ae478ff497061af09b245c044da0/yangson-1.5.5.tar.gz
+[2024-05-22 08:18:40] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/d9/74/73305db17f1b77721616e219c5cf67d44e053c02655cdf4de9407787a1a2/pyg_nightly-2.6.0.dev20240522.tar.gz
+[2024-05-22 08:18:40] INFO root fetch - processPackages [qsharp]: executing diffoscope
+[2024-05-22 08:18:40] INFO root fetch - processPackages [qsharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp-1.5.0-cp37-abi3-win_arm64.whl.zip tmp/qsharp-1.5.1.dev0-cp37-abi3-win_arm64.whl.zip --markdown 20240522/q/qsharp/1.5.0-1.5.1.dev0/README.md --exclude *.pyd
+[2024-05-22 08:18:40] INFO root fetch - processPackages [python-crontab]: executing diffoscope
+[2024-05-22 08:18:40] INFO root fetch - processPackages [python-crontab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-crontab-3.0.0.tar.gz tmp/python-crontab-3.1.0.tar.gz --markdown 20240522/p/python-crontab/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-05-22 08:18:40] INFO root fetch - processPackages [odoo-addon-product-warranty]: executing diffoscope
+[2024-05-22 08:18:40] INFO root fetch - processPackages [odoo-addon-product-warranty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_warranty-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_product_warranty-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-product-warranty/16.0.1.0.0.7-16.0.1.0.0.8/README.md --exclude *.pyd
+[2024-05-22 08:18:40] INFO root fetch - processPackages [imerit-ango]: executing diffoscope
+[2024-05-22 08:18:40] INFO root fetch - processPackages [imerit-ango]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imerit_ango-1.3.8-py3-none-any.whl.zip tmp/imerit_ango-1.3.9-py3-none-any.whl.zip --markdown 20240522/i/imerit-ango/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-22 08:18:40] INFO root fetch - processPackages [yangson]: executing diffoscope
+[2024-05-22 08:18:40] INFO root fetch - processPackages [yangson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yangson-1.5.4.tar.gz tmp/yangson-1.5.5.tar.gz --markdown 20240522/y/yangson/1.5.4-1.5.5/README.md --exclude *.pyd
+[2024-05-22 08:18:40] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-05-22 08:18:40] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240521.tar.gz tmp/pyg_nightly-2.6.0.dev20240522.tar.gz --markdown 20240522/p/pyg-nightly/2.6.0.dev20240521-2.6.0.dev20240522/README.md --exclude *.pyd
+[2024-05-22 08:18:40] INFO root fetch - processPackages [qsharp-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_jupyterlab-1.5.0-py3-none-any.whl.zip]
+[2024-05-22 08:18:40] INFO root fetch - processPackages [qsharp-jupyterlab]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_jupyterlab-1.5.1.dev0-py3-none-any.whl.zip]
+[2024-05-22 08:18:40] INFO root fetch - processPackages [qsharp-jupyterlab]: Start processing: sp-lib
+[2024-05-22 08:18:40] INFO root fetch - main [MainThread]: End processing [qsharp-jupyterlab]: success
+[2024-05-22 08:18:40] INFO root fetch - processPackages [aiogram3-form]: Remove: archive file [/home/abi/fetcher/tmp/aiogram3_form-2.0.2.tar.gz]
+[2024-05-22 08:18:40] INFO root fetch - processPackages [aiogram3-form]: Remove: archive file [/home/abi/fetcher/tmp/aiogram3_form-2.0.3.tar.gz]
+[2024-05-22 08:18:40] INFO root fetch - processPackages [aiogram3-form]: Start processing: fake-bpy-module-latest
+[2024-05-22 08:18:40] INFO root fetch - main [MainThread]: End processing [aiogram3-form]: success
+[2024-05-22 08:18:40] INFO root fetch - processPackages [sp-lib]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-05-22 08:18:40] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.5.8.tar.gz]
+[2024-05-22 08:18:40] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.6.0.tar.gz]
+[2024-05-22 08:18:40] INFO root fetch - processPackages [Fr1997v011]: Start processing: zfxtext
+[2024-05-22 08:18:40] INFO root fetch - main [MainThread]: End processing [Fr1997v011]: success
+[2024-05-22 08:18:40] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240521] Old Version: [20240520]
+[2024-05-22 08:18:40] INFO root fetch - processPackages [qsharp-widgets]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_widgets-1.5.0-py2.py3-none-any.whl.zip]
+[2024-05-22 08:18:40] INFO root fetch - processPackages [qsharp-widgets]: Remove: archive file [/home/abi/fetcher/tmp/qsharp_widgets-1.5.1.dev0-py2.py3-none-any.whl.zip]
+[2024-05-22 08:18:40] INFO root fetch - main [MainThread]: End processing [qsharp-widgets]: success
+[2024-05-22 08:18:41] INFO root fetch - processPackages [sp-lib]: Downloading https://files.pythonhosted.org/packages/27/80/8ae11e338ac8fe0dbfad685172ddfaf6247511c28c3c2a723abee4c5250b/sp_lib-1.0.0.tar.gz
+[2024-05-22 08:18:41] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit_ango-1.3.8-py3-none-any.whl.zip]
+[2024-05-22 08:18:41] INFO root fetch - processPackages [imerit-ango]: Remove: archive file [/home/abi/fetcher/tmp/imerit_ango-1.3.9-py3-none-any.whl.zip]
+[2024-05-22 08:18:41] INFO root fetch - main [MainThread]: End processing [imerit-ango]: success
+[2024-05-22 08:18:41] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/28/7a/2590c872cc3cd9bb034bf05715cc866fdd31e8239507eef996d1fd3e3b80/fake_bpy_module_latest-20240520.tar.gz
+[2024-05-22 08:18:41] WARNING root fetch - processPackages [zfxtext]: Skipping, unable to determine old version
+[2024-05-22 08:18:41] INFO root fetch - main [MainThread]: End processing [zfxtext] error
+[2024-05-22 08:18:41] INFO root fetch - processPackages [qsharp]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-1.5.0-cp37-abi3-win_arm64.whl.zip]
+[2024-05-22 08:18:41] INFO root fetch - processPackages [qsharp]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-1.5.1.dev0-cp37-abi3-win_arm64.whl.zip]
+[2024-05-22 08:18:41] INFO root fetch - main [MainThread]: End processing [qsharp]: success
+[2024-05-22 08:18:41] INFO root fetch - processPackages [yangson]: Remove: archive file [/home/abi/fetcher/tmp/yangson-1.5.4.tar.gz]
+[2024-05-22 08:18:41] INFO root fetch - processPackages [yangson]: Remove: archive file [/home/abi/fetcher/tmp/yangson-1.5.5.tar.gz]
+[2024-05-22 08:18:41] INFO root fetch - main [MainThread]: End processing [yangson]: success
+[2024-05-22 08:18:41] INFO root fetch - processPackages [sp-lib]: Downloading https://files.pythonhosted.org/packages/b3/ed/3f76a103b7679d1c734c6901fbe6879d6be033619c588a345eeb9ae6523c/sp_lib-1.1.0-py3-none-any.whl
+[2024-05-22 08:18:41] INFO root fetch - processPackages [odoo-addon-product-warranty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_warranty-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-22 08:18:41] INFO root fetch - processPackages [odoo-addon-product-warranty]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_warranty-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-05-22 08:18:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-warranty]: success
+[2024-05-22 08:18:41] INFO root fetch - processPackages [python-crontab]: Remove: archive file [/home/abi/fetcher/tmp/python-crontab-3.0.0.tar.gz]
+[2024-05-22 08:18:41] INFO root fetch - processPackages [python-crontab]: Remove: archive file [/home/abi/fetcher/tmp/python-crontab-3.1.0.tar.gz]
+[2024-05-22 08:18:41] INFO root fetch - main [MainThread]: End processing [python-crontab]: success
+[2024-05-22 08:18:41] INFO root fetch - processPackages [sp-lib]: executing diffoscope
+[2024-05-22 08:18:41] INFO root fetch - processPackages [sp-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sp_lib-1.0.0.tar.gz tmp/sp_lib-1.1.0-py3-none-any.whl.zip --markdown 20240522/s/sp-lib/1.0.0-1.1.0/README.md --exclude *.pyd
+[2024-05-22 08:18:41] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/7b/3a/13c31f7e6de86396de9d6b701319ec2f9ef4e7c54d7f3610a284619b0992/fake_bpy_module_latest-20240521.tar.gz
+[2024-05-22 08:18:41] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-05-22 08:18:41] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_bpy_module_latest-20240520.tar.gz tmp/fake_bpy_module_latest-20240521.tar.gz --markdown 20240522/f/fake-bpy-module-latest/20240520-20240521/README.md --exclude *.pyd
+[2024-05-22 08:18:41] INFO root fetch - processPackages [sp-lib]: Remove: archive file [/home/abi/fetcher/tmp/sp_lib-1.0.0.tar.gz]
+[2024-05-22 08:18:41] INFO root fetch - processPackages [sp-lib]: Remove: archive file [/home/abi/fetcher/tmp/sp_lib-1.1.0-py3-none-any.whl.zip]
+[2024-05-22 08:18:41] INFO root fetch - main [MainThread]: End processing [sp-lib]: success
+[2024-05-22 08:18:43] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240521.tar.gz]
+[2024-05-22 08:18:43] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240522.tar.gz]
+[2024-05-22 08:18:43] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-05-22 08:18:48] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240520.tar.gz]
+[2024-05-22 08:18:48] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake_bpy_module_latest-20240521.tar.gz]
+[2024-05-22 08:18:48] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-05-22 08:18:48] INFO root fetch - main [MainThread]: Store serial: [23319586]

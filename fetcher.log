@@ -10667,3 +10667,45 @@
 [2024-05-22 05:59:18] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240521224759.tar.gz]
 [2024-05-22 05:59:18] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-05-22 05:59:18] INFO root fetch - main [MainThread]: Store serial: [23318545]
+[2024-05-22 06:01:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318545]
+[2024-05-22 06:01:26] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 06:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bootlace
+[2024-05-22 06:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandas-gsheet
+[2024-05-22 06:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentinel-sdk
+[2024-05-22 06:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mosaicmpi
+[2024-05-22 06:01:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: protein-turnover
+[2024-05-22 06:01:27] INFO root fetch - processPackages [protein-turnover]: New version: [0.4.5] Old Version: [0.4.4]
+[2024-05-22 06:01:27] INFO root fetch - processPackages [protein-turnover]: Downloading https://files.pythonhosted.org/packages/34/91/27354c1f05990b2f388e1789a2c76872a6541aa7de8e0b0d1193d6b147df/protein_turnover-0.4.4.tar.gz
+[2024-05-22 06:01:27] INFO root fetch - processPackages [sentinel-sdk]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-22 06:01:27] INFO root fetch - processPackages [mosaicmpi]: New version: [2.5.2] Old Version: [2.5.1]
+[2024-05-22 06:01:27] WARNING root fetch - processPackages [pandas-gsheet]: Skipping, unable to determine old version
+[2024-05-22 06:01:27] INFO root fetch - processPackages [bootlace]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-05-22 06:01:27] INFO root fetch - main [MainThread]: End processing [pandas-gsheet] error
+[2024-05-22 06:01:27] INFO root fetch - processPackages [sentinel-sdk]: Downloading https://files.pythonhosted.org/packages/ee/14/0a15971585f016a9128072d12e511d163754524829e6099d5103eb9a0499/sentinel_sdk-0.0.3.tar.gz
+[2024-05-22 06:01:27] INFO root fetch - processPackages [mosaicmpi]: Downloading https://files.pythonhosted.org/packages/73/e5/3c0f4a254b89d4a1694b4a3ccfbc2349734cdcf85fcce10b19d9e39815ea/mosaicmpi-2.5.1.tar.gz
+[2024-05-22 06:01:27] INFO root fetch - processPackages [bootlace]: Downloading https://files.pythonhosted.org/packages/0b/99/af90394518aa82a331107c8e6955020c4139d77e8c61537203f1d5570663/bootlace-0.2.2.tar.gz
+[2024-05-22 06:01:27] INFO root fetch - processPackages [protein-turnover]: Downloading https://files.pythonhosted.org/packages/9f/8e/508b7e35cfee6ea3a939dc152ddd53d52153b40af3679559f6e02583ca94/protein_turnover-0.4.5.tar.gz
+[2024-05-22 06:01:27] INFO root fetch - processPackages [protein-turnover]: executing diffoscope
+[2024-05-22 06:01:27] INFO root fetch - processPackages [protein-turnover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protein_turnover-0.4.4.tar.gz tmp/protein_turnover-0.4.5.tar.gz --markdown 20240522/p/protein-turnover/0.4.4-0.4.5/README.md --exclude *.pyd
+[2024-05-22 06:01:27] INFO root fetch - processPackages [sentinel-sdk]: Downloading https://files.pythonhosted.org/packages/b0/2e/42a13b4b0a514dd7d14a158cb496f20091e87dbbc50b36f2ce805fb286a6/sentinel_sdk-0.0.4.tar.gz
+[2024-05-22 06:01:27] INFO root fetch - processPackages [mosaicmpi]: Downloading https://files.pythonhosted.org/packages/23/a8/550ffbd14ffc8a09349ed5f0ec7badc813795237ac395de87730ebecd98f/mosaicmpi-2.5.2.tar.gz
+[2024-05-22 06:01:27] INFO root fetch - processPackages [bootlace]: Downloading https://files.pythonhosted.org/packages/27/a1/86b99114027f94d47246037f991a9719e295e2da692cd65c23ddb056539b/bootlace-0.2.3.tar.gz
+[2024-05-22 06:01:27] INFO root fetch - processPackages [sentinel-sdk]: executing diffoscope
+[2024-05-22 06:01:27] INFO root fetch - processPackages [sentinel-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentinel_sdk-0.0.3.tar.gz tmp/sentinel_sdk-0.0.4.tar.gz --markdown 20240522/s/sentinel-sdk/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-22 06:01:27] INFO root fetch - processPackages [mosaicmpi]: executing diffoscope
+[2024-05-22 06:01:27] INFO root fetch - processPackages [mosaicmpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicmpi-2.5.1.tar.gz tmp/mosaicmpi-2.5.2.tar.gz --markdown 20240522/m/mosaicmpi/2.5.1-2.5.2/README.md --exclude *.pyd
+[2024-05-22 06:01:28] INFO root fetch - processPackages [bootlace]: executing diffoscope
+[2024-05-22 06:01:28] INFO root fetch - processPackages [bootlace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bootlace-0.2.2.tar.gz tmp/bootlace-0.2.3.tar.gz --markdown 20240522/b/bootlace/0.2.2-0.2.3/README.md --exclude *.pyd
+[2024-05-22 06:01:28] INFO root fetch - processPackages [protein-turnover]: Remove: archive file [/home/abi/fetcher/tmp/protein_turnover-0.4.4.tar.gz]
+[2024-05-22 06:01:28] INFO root fetch - processPackages [protein-turnover]: Remove: archive file [/home/abi/fetcher/tmp/protein_turnover-0.4.5.tar.gz]
+[2024-05-22 06:01:28] INFO root fetch - main [MainThread]: End processing [protein-turnover]: success
+[2024-05-22 06:01:28] INFO root fetch - processPackages [sentinel-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_sdk-0.0.3.tar.gz]
+[2024-05-22 06:01:28] INFO root fetch - processPackages [sentinel-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_sdk-0.0.4.tar.gz]
+[2024-05-22 06:01:28] INFO root fetch - main [MainThread]: End processing [sentinel-sdk]: success
+[2024-05-22 06:01:28] INFO root fetch - processPackages [mosaicmpi]: Remove: archive file [/home/abi/fetcher/tmp/mosaicmpi-2.5.1.tar.gz]
+[2024-05-22 06:01:28] INFO root fetch - processPackages [mosaicmpi]: Remove: archive file [/home/abi/fetcher/tmp/mosaicmpi-2.5.2.tar.gz]
+[2024-05-22 06:01:28] INFO root fetch - main [MainThread]: End processing [mosaicmpi]: success
+[2024-05-22 06:01:29] INFO root fetch - processPackages [bootlace]: Remove: archive file [/home/abi/fetcher/tmp/bootlace-0.2.2.tar.gz]
+[2024-05-22 06:01:29] INFO root fetch - processPackages [bootlace]: Remove: archive file [/home/abi/fetcher/tmp/bootlace-0.2.3.tar.gz]
+[2024-05-22 06:01:29] INFO root fetch - main [MainThread]: End processing [bootlace]: success
+[2024-05-22 06:01:29] INFO root fetch - main [MainThread]: Store serial: [23318562]

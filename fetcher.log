@@ -15608,3 +15608,96 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:10:05] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip]
 [2024-05-22 10:10:05] INFO root fetch - main [MainThread]: End processing [Mosek]: success
 [2024-05-22 10:10:05] INFO root fetch - main [MainThread]: Store serial: [23320729]
+[2024-05-22 10:12:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320729]
+[2024-05-22 10:12:17] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-22 10:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stigg-api-client
+[2024-05-22 10:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stigg-api-client-v2
+[2024-05-22 10:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vbpy
+[2024-05-22 10:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kssdtree
+[2024-05-22 10:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: curvesimilarities
+[2024-05-22 10:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-queue-job
+[2024-05-22 10:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: layernext-beta
+[2024-05-22 10:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hydromt-fiat
+[2024-05-22 10:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kilmlogger
+[2024-05-22 10:12:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: omnikeeper-client
+[2024-05-22 10:12:18] INFO root fetch - processPackages [kilmlogger]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-05-22 10:12:18] INFO root fetch - processPackages [hydromt-fiat]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-05-22 10:12:18] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-22 10:12:18] INFO root fetch - processPackages [kssdtree]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-22 10:12:18] INFO root fetch - processPackages [vbpy]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-05-22 10:12:18] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-05-22 10:12:18] INFO root fetch - processPackages [kilmlogger]: Downloading https://files.pythonhosted.org/packages/81/61/c6e2ccb23089fad8ec80bbd9e825578f4726f3dd9244183ce10dc6e224a1/kilmlogger-0.0.9.tar.gz
+[2024-05-22 10:12:18] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/d2/37/edcea3d66a407bf13c71970ddca012f680efb95dd081351e1ac9cfce3fc8/vbpy-2.0.8.tar.gz
+[2024-05-22 10:12:18] INFO root fetch - processPackages [curvesimilarities]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-22 10:12:18] INFO root fetch - processPackages [layernext-beta]: New version: [3.3.0b1] Old Version: [3.3.0b0]
+[2024-05-22 10:12:18] INFO root fetch - processPackages [odoo-addon-queue-job]: New version: [17.0.1.0.2] Old Version: [17.0.1.0.1]
+[2024-05-22 10:12:18] INFO root fetch - processPackages [kssdtree]: Downloading https://files.pythonhosted.org/packages/d5/1e/9e5c5945a44bb40002d1c259f734a531999fa6e87db89fe7c7ddcfc583cc/kssdtree-1.1.1.tar.gz
+[2024-05-22 10:12:18] INFO root fetch - processPackages [omnikeeper-client]: New version: [6.0.0] Old Version: [5.4.0]
+[2024-05-22 10:12:18] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-05-22 10:12:18] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-05-22 10:12:18] INFO root fetch - processPackages [hydromt-fiat]: Downloading https://files.pythonhosted.org/packages/99/5f/bb4e64577e9b67f46a17c898aa89338ccfbc1b4ecfe485d04a5879a68029/hydromt_fiat-0.3.0.tar.gz
+[2024-05-22 10:12:18] INFO root fetch - processPackages [omnikeeper-client]: Downloading https://files.pythonhosted.org/packages/19/26/73e6c3f7f68e27e84c7475f13ab231de66b057d751397f160eb2b3860223/omnikeeper_client-5.4.0-py3-none-any.whl
+[2024-05-22 10:12:18] INFO root fetch - processPackages [curvesimilarities]: Downloading https://files.pythonhosted.org/packages/ff/9a/e8eda1d0d491aa2db9f756dd79bd05299f9e55a248c79766bcaa989fe714/curvesimilarities-0.1.0.tar.gz
+[2024-05-22 10:12:18] INFO root fetch - processPackages [layernext-beta]: Downloading https://files.pythonhosted.org/packages/6a/8a/6a2b053be003cf842de8a3151ab915017e141914f80a9dc0da4ec0042dd9/layernext-beta-3.3.0b0.tar.gz
+[2024-05-22 10:12:18] INFO root fetch - processPackages [odoo-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/d4/fe/d4d32b00106d864e2c65ab6a5ce66b50beda3394e7bd28287fdabe2cfb33/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl
+[2024-05-22 10:12:18] INFO root fetch - processPackages [kilmlogger]: Downloading https://files.pythonhosted.org/packages/40/94/8ae213418ea5ab2092b8b807bc325584fc6843130ecdb30b9c1ad36d7d4f/kilmlogger-0.1.0.tar.gz
+[2024-05-22 10:12:18] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/2e/10/68500370eec8421643bcf87ccb4af9d6a5fa015614dfcb80c071f6c47ecf/vbpy-2.0.9.tar.gz
+[2024-05-22 10:12:18] INFO root fetch - processPackages [kssdtree]: Downloading https://files.pythonhosted.org/packages/9a/4c/6516f734f5860e4b30f9091aaac5811663bfae72c4de4ae6566c89192767/kssdtree-1.1.2.tar.gz
+[2024-05-22 10:12:18] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-05-22 10:12:18] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-05-22 10:12:18] INFO root fetch - processPackages [kilmlogger]: executing diffoscope
+[2024-05-22 10:12:18] INFO root fetch - processPackages [kilmlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kilmlogger-0.0.9.tar.gz tmp/kilmlogger-0.1.0.tar.gz --markdown 20240522/k/kilmlogger/0.0.9-0.1.0/README.md --exclude *.pyd
+[2024-05-22 10:12:18] INFO root fetch - processPackages [vbpy]: executing diffoscope
+[2024-05-22 10:12:18] INFO root fetch - processPackages [vbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpy-2.0.8.tar.gz tmp/vbpy-2.0.9.tar.gz --markdown 20240522/v/vbpy/2.0.8-2.0.9/README.md --exclude *.pyd
+[2024-05-22 10:12:18] INFO root fetch - processPackages [kssdtree]: executing diffoscope
+[2024-05-22 10:12:18] INFO root fetch - processPackages [kssdtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kssdtree-1.1.1.tar.gz tmp/kssdtree-1.1.2.tar.gz --markdown 20240522/k/kssdtree/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-22 10:12:18] INFO root fetch - processPackages [omnikeeper-client]: Downloading https://files.pythonhosted.org/packages/e8/ae/dc431443f1501ba4fa460e5898dd9610baca40f13a91006bf77d61862774/omnikeeper_client-6.0.0-py3-none-any.whl
+[2024-05-22 10:12:18] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-05-22 10:12:18] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240522/s/stigg-api-client-v2/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-22 10:12:18] INFO root fetch - processPackages [curvesimilarities]: Downloading https://files.pythonhosted.org/packages/51/fc/7c1a8b965da83344b333db2be743043ec7e26fac79b79d25cea1e8076b2f/curvesimilarities-0.1.1.tar.gz
+[2024-05-22 10:12:18] INFO root fetch - processPackages [hydromt-fiat]: Downloading https://files.pythonhosted.org/packages/0d/7e/eab359b13025837fac8a107b7286be5b37ef63a4efb062d7e8fbf8e18278/hydromt_fiat-0.3.1.tar.gz
+[2024-05-22 10:12:19] INFO root fetch - processPackages [odoo-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/aa/e6/ca274399249f8d63050ba046151d467a3d71fef263b98984deb05a4eec8a/odoo_addon_queue_job-17.0.1.0.2-py3-none-any.whl
+[2024-05-22 10:12:19] INFO root fetch - processPackages [layernext-beta]: Downloading https://files.pythonhosted.org/packages/5c/ce/a5694f98f1091d676603a469e1daa48b318e35710cb335b5b34098a7c991/layernext-beta-3.3.0b1.tar.gz
+[2024-05-22 10:12:19] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-05-22 10:12:19] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240522/s/stigg-api-client/1.98.0-1.98.1/README.md --exclude *.pyd
+[2024-05-22 10:12:19] INFO root fetch - processPackages [curvesimilarities]: executing diffoscope
+[2024-05-22 10:12:19] INFO root fetch - processPackages [curvesimilarities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curvesimilarities-0.1.0.tar.gz tmp/curvesimilarities-0.1.1.tar.gz --markdown 20240522/c/curvesimilarities/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-22 10:12:19] INFO root fetch - processPackages [hydromt-fiat]: executing diffoscope
+[2024-05-22 10:12:19] INFO root fetch - processPackages [hydromt-fiat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydromt_fiat-0.3.0.tar.gz tmp/hydromt_fiat-0.3.1.tar.gz --markdown 20240522/h/hydromt-fiat/0.3.0-0.3.1/README.md --exclude *.pyd
+[2024-05-22 10:12:19] INFO root fetch - processPackages [omnikeeper-client]: executing diffoscope
+[2024-05-22 10:12:19] INFO root fetch - processPackages [omnikeeper-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnikeeper_client-5.4.0-py3-none-any.whl.zip tmp/omnikeeper_client-6.0.0-py3-none-any.whl.zip --markdown 20240522/o/omnikeeper-client/5.4.0-6.0.0/README.md --exclude *.pyd
+[2024-05-22 10:12:19] INFO root fetch - processPackages [layernext-beta]: executing diffoscope
+[2024-05-22 10:12:19] INFO root fetch - processPackages [layernext-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layernext-beta-3.3.0b0.tar.gz tmp/layernext-beta-3.3.0b1.tar.gz --markdown 20240522/l/layernext-beta/3.3.0b0-3.3.0b1/README.md --exclude *.pyd
+[2024-05-22 10:12:19] INFO root fetch - processPackages [odoo-addon-queue-job]: executing diffoscope
+[2024-05-22 10:12:19] INFO root fetch - processPackages [odoo-addon-queue-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_queue_job-17.0.1.0.2-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-queue-job/17.0.1.0.1-17.0.1.0.2/README.md --exclude *.pyd
+[2024-05-22 10:12:20] INFO root fetch - processPackages [kilmlogger]: Remove: archive file [/home/abi/fetcher/tmp/kilmlogger-0.0.9.tar.gz]
+[2024-05-22 10:12:20] INFO root fetch - processPackages [kilmlogger]: Remove: archive file [/home/abi/fetcher/tmp/kilmlogger-0.1.0.tar.gz]
+[2024-05-22 10:12:20] INFO root fetch - main [MainThread]: End processing [kilmlogger]: success
+[2024-05-22 10:12:20] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.0.8.tar.gz]
+[2024-05-22 10:12:20] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.0.9.tar.gz]
+[2024-05-22 10:12:20] INFO root fetch - main [MainThread]: End processing [vbpy]: success
+[2024-05-22 10:12:20] INFO root fetch - processPackages [curvesimilarities]: Remove: archive file [/home/abi/fetcher/tmp/curvesimilarities-0.1.0.tar.gz]
+[2024-05-22 10:12:20] INFO root fetch - processPackages [curvesimilarities]: Remove: archive file [/home/abi/fetcher/tmp/curvesimilarities-0.1.1.tar.gz]
+[2024-05-22 10:12:20] INFO root fetch - main [MainThread]: End processing [curvesimilarities]: success
+[2024-05-22 10:12:20] INFO root fetch - processPackages [kssdtree]: Remove: archive file [/home/abi/fetcher/tmp/kssdtree-1.1.1.tar.gz]
+[2024-05-22 10:12:20] INFO root fetch - processPackages [kssdtree]: Remove: archive file [/home/abi/fetcher/tmp/kssdtree-1.1.2.tar.gz]
+[2024-05-22 10:12:20] INFO root fetch - main [MainThread]: End processing [kssdtree]: success
+[2024-05-22 10:12:20] INFO root fetch - processPackages [hydromt-fiat]: Remove: archive file [/home/abi/fetcher/tmp/hydromt_fiat-0.3.0.tar.gz]
+[2024-05-22 10:12:20] INFO root fetch - processPackages [hydromt-fiat]: Remove: archive file [/home/abi/fetcher/tmp/hydromt_fiat-0.3.1.tar.gz]
+[2024-05-22 10:12:20] INFO root fetch - main [MainThread]: End processing [hydromt-fiat]: success
+[2024-05-22 10:12:20] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-05-22 10:12:20] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-05-22 10:12:20] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-05-22 10:12:20] INFO root fetch - processPackages [layernext-beta]: Remove: archive file [/home/abi/fetcher/tmp/layernext-beta-3.3.0b0.tar.gz]
+[2024-05-22 10:12:20] INFO root fetch - processPackages [layernext-beta]: Remove: archive file [/home/abi/fetcher/tmp/layernext-beta-3.3.0b1.tar.gz]
+[2024-05-22 10:12:20] INFO root fetch - main [MainThread]: End processing [layernext-beta]: success
+[2024-05-22 10:12:20] INFO root fetch - processPackages [omnikeeper-client]: Remove: archive file [/home/abi/fetcher/tmp/omnikeeper_client-5.4.0-py3-none-any.whl.zip]
+[2024-05-22 10:12:20] INFO root fetch - processPackages [omnikeeper-client]: Remove: archive file [/home/abi/fetcher/tmp/omnikeeper_client-6.0.0-py3-none-any.whl.zip]
+[2024-05-22 10:12:20] INFO root fetch - main [MainThread]: End processing [omnikeeper-client]: success
+[2024-05-22 10:12:20] INFO root fetch - processPackages [odoo-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-05-22 10:12:20] INFO root fetch - processPackages [odoo-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job-17.0.1.0.2-py3-none-any.whl.zip]
+[2024-05-22 10:12:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-queue-job]: success
+[2024-05-22 10:12:20] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-05-22 10:12:20] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-05-22 10:12:20] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-05-22 10:12:20] INFO root fetch - main [MainThread]: Store serial: [23320755]

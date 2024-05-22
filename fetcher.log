@@ -10786,3 +10786,33 @@
 [2024-05-22 06:08:12] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
 [2024-05-22 06:08:12] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
 [2024-05-22 06:08:12] INFO root fetch - main [MainThread]: Store serial: [23318595]
+[2024-05-22 06:10:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318595]
+[2024-05-22 06:10:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 06:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrathon-payments
+[2024-05-22 06:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chromedriver-binary
+[2024-05-22 06:10:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pi-awning-webthing
+[2024-05-22 06:10:21] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-05-22 06:10:21] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-05-22 06:10:21] INFO root fetch - processPackages [scrathon-payments]: New version: [0.1.7] Old Version: [0.1.5]
+[2024-05-22 06:10:21] INFO root fetch - processPackages [pi-awning-webthing]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-22 06:10:22] INFO root fetch - processPackages [scrathon-payments]: Downloading https://files.pythonhosted.org/packages/4d/8f/d122699c0c09cc331f517bf3de816e92e288162c883ae5130b22f5a8805f/scrathon_payments-0.1.5.tar.gz
+[2024-05-22 06:10:22] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-05-22 06:10:22] INFO root fetch - processPackages [pi-awning-webthing]: Downloading https://files.pythonhosted.org/packages/e7/81/8acc5bd09afc1ad9014e0883eec5379cb694597f910fc32044bf19422142/pi_awning_webthing-0.2.9.tar.gz
+[2024-05-22 06:10:22] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-05-22 06:10:22] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240522/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/README.md --exclude *.pyd
+[2024-05-22 06:10:22] INFO root fetch - processPackages [scrathon-payments]: Downloading https://files.pythonhosted.org/packages/3b/e8/755fd850f994a981c87f5c211b1686965579ed6f0f1d1d86571342bdc89c/scrathon_payments-0.1.7.tar.gz
+[2024-05-22 06:10:22] INFO root fetch - processPackages [pi-awning-webthing]: Downloading https://files.pythonhosted.org/packages/76/57/4d8817c514bddecb545da8cec55b97fdbb0f6dba09736faa7df43a8c9571/pi_awning_webthing-0.3.0.tar.gz
+[2024-05-22 06:10:22] INFO root fetch - processPackages [scrathon-payments]: executing diffoscope
+[2024-05-22 06:10:22] INFO root fetch - processPackages [scrathon-payments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrathon_payments-0.1.5.tar.gz tmp/scrathon_payments-0.1.7.tar.gz --markdown 20240522/s/scrathon-payments/0.1.5-0.1.7/README.md --exclude *.pyd
+[2024-05-22 06:10:22] INFO root fetch - processPackages [pi-awning-webthing]: executing diffoscope
+[2024-05-22 06:10:22] INFO root fetch - processPackages [pi-awning-webthing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pi_awning_webthing-0.2.9.tar.gz tmp/pi_awning_webthing-0.3.0.tar.gz --markdown 20240522/p/pi-awning-webthing/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-22 06:10:22] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-05-22 06:10:22] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-05-22 06:10:22] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-05-22 06:10:22] INFO root fetch - processPackages [scrathon-payments]: Remove: archive file [/home/abi/fetcher/tmp/scrathon_payments-0.1.5.tar.gz]
+[2024-05-22 06:10:22] INFO root fetch - processPackages [scrathon-payments]: Remove: archive file [/home/abi/fetcher/tmp/scrathon_payments-0.1.7.tar.gz]
+[2024-05-22 06:10:22] INFO root fetch - main [MainThread]: End processing [scrathon-payments]: success
+[2024-05-22 06:10:23] INFO root fetch - processPackages [pi-awning-webthing]: Remove: archive file [/home/abi/fetcher/tmp/pi_awning_webthing-0.2.9.tar.gz]
+[2024-05-22 06:10:23] INFO root fetch - processPackages [pi-awning-webthing]: Remove: archive file [/home/abi/fetcher/tmp/pi_awning_webthing-0.3.0.tar.gz]
+[2024-05-22 06:10:23] INFO root fetch - main [MainThread]: End processing [pi-awning-webthing]: success
+[2024-05-22 06:10:23] INFO root fetch - main [MainThread]: Store serial: [23318603]

@@ -18165,3 +18165,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 11:33:41] INFO root fetch - processPackages [NMODL-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nmodl_nightly-0.6.157-cp39-cp39-macosx_10_15_x86_64.whl.zip]
 [2024-05-22 11:33:41] INFO root fetch - main [MainThread]: End processing [NMODL-nightly]: success
 [2024-05-22 11:33:41] INFO root fetch - main [MainThread]: Store serial: [23321669]
+[2024-05-22 11:35:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321669]
+[2024-05-22 11:35:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-05-22 11:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparkdantic
+[2024-05-22 11:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-logikal
+[2024-05-22 11:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: argilla-llama-index
+[2024-05-22 11:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: micomputing
+[2024-05-22 11:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: batorch
+[2024-05-22 11:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyoverload
+[2024-05-22 11:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycamia
+[2024-05-22 11:35:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyNeuroML
+[2024-05-22 11:35:50] INFO root fetch - processPackages [pyNeuroML]: New version: [1.2.9] Old Version: [1.2.7]
+[2024-05-22 11:35:50] INFO root fetch - processPackages [batorch]: New version: [1.0.54] Old Version: [1.0.53]
+[2024-05-22 11:35:50] INFO root fetch - processPackages [sparkdantic]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-05-22 11:35:51] INFO root fetch - processPackages [pytest-logikal]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-05-22 11:35:51] INFO root fetch - processPackages [argilla-llama-index]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-05-22 11:35:51] INFO root fetch - processPackages [micomputing]: New version: [1.1.48] Old Version: [1.1.47]
+[2024-05-22 11:35:51] INFO root fetch - processPackages [pyNeuroML]: Downloading https://files.pythonhosted.org/packages/4b/2e/e3fd94a021568dc55edc98305187f0eacb93e80265dfe332fe75067ff0b1/pyNeuroML-1.2.7.tar.gz
+[2024-05-22 11:35:51] INFO root fetch - processPackages [pycamia]: New version: [1.0.40] Old Version: [1.0.39]
+[2024-05-22 11:35:51] INFO root fetch - processPackages [pyoverload]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-22 11:35:51] INFO root fetch - processPackages [sparkdantic]: Downloading https://files.pythonhosted.org/packages/95/86/2fa957f6cc385703d9d1e79c66cdd79cb28b5527780f27b2d2fd7fac418e/sparkdantic-0.9.2.tar.gz
+[2024-05-22 11:35:51] WARNING root fetch - processPackages [pyNeuroML]: Skipping package: exceeds size limit 28311082>=10485760
+[2024-05-22 11:35:51] INFO root fetch - main [MainThread]: End processing [pyNeuroML] error
+[2024-05-22 11:35:51] INFO root fetch - processPackages [batorch]: Downloading https://files.pythonhosted.org/packages/8b/ed/8abf6ef775cb23114edd4a5a1a82ea454df15d26949fe5912edafacc90d6/batorch-1.0.53.tar.gz
+[2024-05-22 11:35:51] INFO root fetch - processPackages [argilla-llama-index]: Downloading https://files.pythonhosted.org/packages/5c/72/f2b44a11345ec069c241ee7a2fc7b17ce81a54df5603a55aeac20554cb6d/argilla_llama_index-1.0.0.tar.gz
+[2024-05-22 11:35:51] INFO root fetch - processPackages [micomputing]: Downloading https://files.pythonhosted.org/packages/d6/fd/ecaab0970464ac4f4944ca809cfbea034d2e8192043acf7ef75d97090ca6/micomputing-1.1.47.tar.gz
+[2024-05-22 11:35:51] INFO root fetch - processPackages [pytest-logikal]: Downloading https://files.pythonhosted.org/packages/e9/b3/e9e20398039da0de06a1f8cae53f90cfd62c5fb93ec51caec08bdff6aef5/pytest_logikal-3.0.0.tar.gz
+[2024-05-22 11:35:51] INFO root fetch - processPackages [pycamia]: Downloading https://files.pythonhosted.org/packages/bd/fe/bafa225b6e81dad265bd434ff79ad6c1a128f13e3673a89e91d2420d46a1/pycamia-1.0.39.tar.gz
+[2024-05-22 11:35:51] INFO root fetch - processPackages [pyoverload]: Downloading https://files.pythonhosted.org/packages/28/13/5451dd7b2e51f869b3d2111bb4cfe24b257d94462138e67721d1f5167ff7/pyoverload-2.0.1.tar.gz
+[2024-05-22 11:35:51] INFO root fetch - processPackages [sparkdantic]: Downloading https://files.pythonhosted.org/packages/e2/2d/31a0581ff6d0736f484d2826f2ba07487c21c99e263e1910729a8bfc4ae2/sparkdantic-0.9.3.tar.gz
+[2024-05-22 11:35:51] INFO root fetch - processPackages [pytest-logikal]: Downloading https://files.pythonhosted.org/packages/41/dd/cca767fb535a4e3654ba667268d23a19e149ecc5b56ccc879a6390a30cbd/pytest_logikal-3.1.0.tar.gz
+[2024-05-22 11:35:51] INFO root fetch - processPackages [sparkdantic]: executing diffoscope
+[2024-05-22 11:35:51] INFO root fetch - processPackages [sparkdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkdantic-0.9.2.tar.gz tmp/sparkdantic-0.9.3.tar.gz --markdown 20240522/s/sparkdantic/0.9.2-0.9.3/README.md --exclude *.pyd
+[2024-05-22 11:35:51] INFO root fetch - processPackages [batorch]: Downloading https://files.pythonhosted.org/packages/37/52/0a7151db349fd3607d70a0d30ffeb356121fd2fe70134f5069bd038a8c01/batorch-1.0.54.tar.gz
+[2024-05-22 11:35:51] INFO root fetch - processPackages [argilla-llama-index]: Downloading https://files.pythonhosted.org/packages/54/2d/aeef91192de9fb6d77655749e2bf6817c71b7841a74f6e47d94112edf559/argilla_llama_index-1.0.1.tar.gz
+[2024-05-22 11:35:51] INFO root fetch - processPackages [micomputing]: Downloading https://files.pythonhosted.org/packages/7a/92/d16d9876d4c9688b4eee593eb0fccf8f64f37c53fad00aa933476a942330/micomputing-1.1.48.tar.gz
+[2024-05-22 11:35:51] INFO root fetch - processPackages [pytest-logikal]: executing diffoscope
+[2024-05-22 11:35:51] INFO root fetch - processPackages [pytest-logikal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_logikal-3.0.0.tar.gz tmp/pytest_logikal-3.1.0.tar.gz --markdown 20240522/p/pytest-logikal/3.0.0-3.1.0/README.md --exclude *.pyd
+[2024-05-22 11:35:51] INFO root fetch - processPackages [pyoverload]: Downloading https://files.pythonhosted.org/packages/1d/a8/4e6af3dae3e9f4ff220077674b1ec6ff2f60db136a0ecebc4514442405fd/pyoverload-2.0.2.tar.gz
+[2024-05-22 11:35:51] INFO root fetch - processPackages [pycamia]: Downloading https://files.pythonhosted.org/packages/cc/2c/ba4a8d70cfc026f8ce945328e218c969e1c7ef24e2f67f60712a11dcdcb7/pycamia-1.0.40.tar.gz
+[2024-05-22 11:35:51] INFO root fetch - processPackages [argilla-llama-index]: executing diffoscope
+[2024-05-22 11:35:51] INFO root fetch - processPackages [argilla-llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argilla_llama_index-1.0.0.tar.gz tmp/argilla_llama_index-1.0.1.tar.gz --markdown 20240522/a/argilla-llama-index/1.0.0-1.0.1/README.md --exclude *.pyd
+[2024-05-22 11:35:51] INFO root fetch - processPackages [batorch]: executing diffoscope
+[2024-05-22 11:35:51] INFO root fetch - processPackages [batorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batorch-1.0.53.tar.gz tmp/batorch-1.0.54.tar.gz --markdown 20240522/b/batorch/1.0.53-1.0.54/README.md --exclude *.pyd
+[2024-05-22 11:35:51] INFO root fetch - processPackages [micomputing]: executing diffoscope
+[2024-05-22 11:35:51] INFO root fetch - processPackages [micomputing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micomputing-1.1.47.tar.gz tmp/micomputing-1.1.48.tar.gz --markdown 20240522/m/micomputing/1.1.47-1.1.48/README.md --exclude *.pyd
+[2024-05-22 11:35:52] INFO root fetch - processPackages [pyoverload]: executing diffoscope
+[2024-05-22 11:35:52] INFO root fetch - processPackages [pyoverload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyoverload-2.0.1.tar.gz tmp/pyoverload-2.0.2.tar.gz --markdown 20240522/p/pyoverload/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-22 11:35:52] INFO root fetch - processPackages [pycamia]: executing diffoscope
+[2024-05-22 11:35:52] INFO root fetch - processPackages [pycamia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycamia-1.0.39.tar.gz tmp/pycamia-1.0.40.tar.gz --markdown 20240522/p/pycamia/1.0.39-1.0.40/README.md --exclude *.pyd
+[2024-05-22 11:35:52] INFO root fetch - processPackages [sparkdantic]: Remove: archive file [/home/abi/fetcher/tmp/sparkdantic-0.9.2.tar.gz]
+[2024-05-22 11:35:52] INFO root fetch - processPackages [sparkdantic]: Remove: archive file [/home/abi/fetcher/tmp/sparkdantic-0.9.3.tar.gz]
+[2024-05-22 11:35:52] INFO root fetch - main [MainThread]: End processing [sparkdantic]: success
+[2024-05-22 11:35:52] INFO root fetch - processPackages [argilla-llama-index]: Remove: archive file [/home/abi/fetcher/tmp/argilla_llama_index-1.0.0.tar.gz]
+[2024-05-22 11:35:52] INFO root fetch - processPackages [argilla-llama-index]: Remove: archive file [/home/abi/fetcher/tmp/argilla_llama_index-1.0.1.tar.gz]
+[2024-05-22 11:35:52] INFO root fetch - main [MainThread]: End processing [argilla-llama-index]: success
+[2024-05-22 11:35:52] INFO root fetch - processPackages [pytest-logikal]: Remove: archive file [/home/abi/fetcher/tmp/pytest_logikal-3.0.0.tar.gz]
+[2024-05-22 11:35:52] INFO root fetch - processPackages [pytest-logikal]: Remove: archive file [/home/abi/fetcher/tmp/pytest_logikal-3.1.0.tar.gz]
+[2024-05-22 11:35:52] INFO root fetch - main [MainThread]: End processing [pytest-logikal]: success
+[2024-05-22 11:35:53] INFO root fetch - processPackages [micomputing]: Remove: archive file [/home/abi/fetcher/tmp/micomputing-1.1.47.tar.gz]
+[2024-05-22 11:35:53] INFO root fetch - processPackages [micomputing]: Remove: archive file [/home/abi/fetcher/tmp/micomputing-1.1.48.tar.gz]
+[2024-05-22 11:35:53] INFO root fetch - main [MainThread]: End processing [micomputing]: success
+[2024-05-22 11:35:53] INFO root fetch - processPackages [batorch]: Remove: archive file [/home/abi/fetcher/tmp/batorch-1.0.53.tar.gz]
+[2024-05-22 11:35:53] INFO root fetch - processPackages [batorch]: Remove: archive file [/home/abi/fetcher/tmp/batorch-1.0.54.tar.gz]
+[2024-05-22 11:35:53] INFO root fetch - main [MainThread]: End processing [batorch]: success
+[2024-05-22 11:35:53] INFO root fetch - processPackages [pyoverload]: Remove: archive file [/home/abi/fetcher/tmp/pyoverload-2.0.1.tar.gz]
+[2024-05-22 11:35:53] INFO root fetch - processPackages [pyoverload]: Remove: archive file [/home/abi/fetcher/tmp/pyoverload-2.0.2.tar.gz]
+[2024-05-22 11:35:53] INFO root fetch - main [MainThread]: End processing [pyoverload]: success
+[2024-05-22 11:35:53] INFO root fetch - processPackages [pycamia]: Remove: archive file [/home/abi/fetcher/tmp/pycamia-1.0.39.tar.gz]
+[2024-05-22 11:35:53] INFO root fetch - processPackages [pycamia]: Remove: archive file [/home/abi/fetcher/tmp/pycamia-1.0.40.tar.gz]
+[2024-05-22 11:35:53] INFO root fetch - main [MainThread]: End processing [pycamia]: success
+[2024-05-22 11:35:53] INFO root fetch - main [MainThread]: Store serial: [23321697]

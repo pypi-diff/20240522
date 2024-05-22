@@ -16264,3 +16264,99 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:35:03] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
 [2024-05-22 10:35:03] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2024-05-22 10:35:03] INFO root fetch - main [MainThread]: Store serial: [23320938]
+[2024-05-22 10:37:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320938]
+[2024-05-22 10:37:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-22 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hc-log-tools
+[2024-05-22 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pgos-cli-python-sdk-v1
+[2024-05-22 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: de-digitale-verwaltung
+[2024-05-22 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spaceone-config
+[2024-05-22 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chatllm
+[2024-05-22 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: json-arrays
+[2024-05-22 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloudforet-console-api-v2
+[2024-05-22 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: toollib
+[2024-05-22 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sn-trackeval
+[2024-05-22 10:37:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: BiLLM
+[2024-05-22 10:37:12] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: New version: [0.2.9.111] Old Version: [0.2.9.110]
+[2024-05-22 10:37:12] INFO root fetch - processPackages [cloudforet-console-api-v2]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-05-22 10:37:12] INFO root fetch - processPackages [spaceone-config]: New version: [2.0.dev9] Old Version: [2.0.dev8]
+[2024-05-22 10:37:12] INFO root fetch - processPackages [BiLLM]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-05-22 10:37:12] INFO root fetch - processPackages [hc-log-tools]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-05-22 10:37:12] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: Downloading https://files.pythonhosted.org/packages/29/56/619425392fbdafcd94d5a1a9e199e12a5a08bda31a1af002cc3c457405d9/pgos-cli-python-sdk-v1-0.2.9.110.tar.gz
+[2024-05-22 10:37:12] INFO root fetch - processPackages [json-arrays]: New version: [0.15.0] Old Version: [0.14.1]
+[2024-05-22 10:37:12] INFO root fetch - processPackages [sn-trackeval]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-05-22 10:37:12] WARNING root fetch - processPackages [de-digitale-verwaltung]: Skipping, unable to determine old version
+[2024-05-22 10:37:12] INFO root fetch - processPackages [de-digitale-verwaltung]: Start processing: ALLMDEV
+[2024-05-22 10:37:12] INFO root fetch - main [MainThread]: End processing [de-digitale-verwaltung] error
+[2024-05-22 10:37:12] INFO root fetch - processPackages [toollib]: New version: [1.5.4] Old Version: [1.5.3]
+[2024-05-22 10:37:12] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/b1/83/382d576c7baaf1076b4ba63610379bfef3bb2bd2d564ad1843394c61f1a8/cloudforet-console-api-v2-2.0.dev98.tar.gz
+[2024-05-22 10:37:12] INFO root fetch - processPackages [chatllm]: New version: [2024.5.8.9.23.48] Old Version: [2024.5.8.8.58.38]
+[2024-05-22 10:37:12] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/3c/fe/125ff8548c29e17b9402f677527a323e74d0642c6e0fb7127a7bd7744812/chatllm-2024.5.8.8.58.38.tar.gz
+[2024-05-22 10:37:12] INFO root fetch - processPackages [ALLMDEV]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-05-22 10:37:13] INFO root fetch - processPackages [BiLLM]: Downloading https://files.pythonhosted.org/packages/e4/ba/fd2b947372c7d0c9cd8f9e818812d6d8613ded304f40bbf49639a23fcb16/billm-0.1.3.tar.gz
+[2024-05-22 10:37:13] INFO root fetch - processPackages [spaceone-config]: Downloading https://files.pythonhosted.org/packages/ef/da/65f69b501a9f653e69ad7760b46f390a0022917c063a80a2845a820949ab/spaceone-config-2.0.dev8.tar.gz
+[2024-05-22 10:37:13] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: Downloading https://files.pythonhosted.org/packages/4b/1a/4d086d47b3031b22d8b2466201136c16b9c300cc35817a222ace9b6031f4/pgos-cli-python-sdk-v1-0.2.9.111.tar.gz
+[2024-05-22 10:37:13] INFO root fetch - processPackages [toollib]: Downloading https://files.pythonhosted.org/packages/85/4b/30418d22596fe14ad5814e978f2bda38db62b09f49a993ff7aa77e8f739e/toollib-1.5.3-py3-none-any.whl
+[2024-05-22 10:37:13] INFO root fetch - processPackages [hc-log-tools]: Downloading https://files.pythonhosted.org/packages/a5/4f/a3dda41db708cab150b14b6a2d1bf9e54459467d4ab5145aa1c147f77baa/hc_log_tools-1.2.5.tar.gz
+[2024-05-22 10:37:13] INFO root fetch - processPackages [json-arrays]: Downloading https://files.pythonhosted.org/packages/ec/c5/50aee16f65c1cb1adee84d1fc4e122c27796cca6d737f02e55271db325cb/json_arrays-0.14.1.tar.gz
+[2024-05-22 10:37:13] INFO root fetch - processPackages [sn-trackeval]: Downloading https://files.pythonhosted.org/packages/7c/c5/0a999a00c04aba8b1abd0e22dd8616ee6a00a7c77dc0be4da7aff077e2c6/sn_trackeval-0.2.0.tar.gz
+[2024-05-22 10:37:13] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/cc/3a/2cab122ef371d628e0e339e8a0b5233e79840b362512069527bd9fce8f78/cloudforet-console-api-v2-2.0.dev99.tar.gz
+[2024-05-22 10:37:13] INFO root fetch - processPackages [ALLMDEV]: Downloading https://files.pythonhosted.org/packages/8d/a0/db49b019d0dadda10ae716aa28a352624a087802ff8eca2b547caf07748b/ALLMDEV-1.3.4-py3-none-any.whl
+[2024-05-22 10:37:13] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: executing diffoscope
+[2024-05-22 10:37:13] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgos-cli-python-sdk-v1-0.2.9.110.tar.gz tmp/pgos-cli-python-sdk-v1-0.2.9.111.tar.gz --markdown 20240522/p/pgos-cli-python-sdk-v1/0.2.9.110-0.2.9.111/README.md --exclude *.pyd
+[2024-05-22 10:37:13] INFO root fetch - processPackages [cloudforet-console-api-v2]: executing diffoscope
+[2024-05-22 10:37:13] INFO root fetch - processPackages [cloudforet-console-api-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz --markdown 20240522/c/cloudforet-console-api-v2/2.0.dev98-2.0.dev99/README.md --exclude *.pyd
+[2024-05-22 10:37:13] INFO root fetch - processPackages [chatllm]: Downloading https://files.pythonhosted.org/packages/f8/95/b598cc48f3058bf13b7e5a60f81afe2d13e606dd2b9bb98b0a6442529c3a/chatllm-2024.5.8.9.23.48.tar.gz
+[2024-05-22 10:37:13] INFO root fetch - processPackages [BiLLM]: Downloading https://files.pythonhosted.org/packages/55/59/0afa87b15ecc11275099d48a286e0e62099f0d501b4296fb924034fad7c7/billm-0.1.4.tar.gz
+[2024-05-22 10:37:13] INFO root fetch - processPackages [hc-log-tools]: Downloading https://files.pythonhosted.org/packages/23/6e/465560f0784daef5a2c28c86df82cd2edfb0a8468152e98e3fd764718cc0/hc_log_tools-1.2.6.tar.gz
+[2024-05-22 10:37:13] INFO root fetch - processPackages [spaceone-config]: Downloading https://files.pythonhosted.org/packages/df/72/f331cdd37b52c2783b712d27953e863b838503990c32e7ec23d3b94ea442/spaceone-config-2.0.dev9.tar.gz
+[2024-05-22 10:37:13] INFO root fetch - processPackages [sn-trackeval]: Downloading https://files.pythonhosted.org/packages/1b/10/678365d0c1d808b2e559942b25ce4631d9f64897721b2f4a2e5b6f0caac5/sn_trackeval-0.2.1.tar.gz
+[2024-05-22 10:37:13] INFO root fetch - processPackages [chatllm]: executing diffoscope
+[2024-05-22 10:37:13] INFO root fetch - processPackages [chatllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatllm-2024.5.8.8.58.38.tar.gz tmp/chatllm-2024.5.8.9.23.48.tar.gz --markdown 20240522/c/chatllm/2024.5.8.8.58.38-2024.5.8.9.23.48/README.md --exclude *.pyd
+[2024-05-22 10:37:13] INFO root fetch - processPackages [ALLMDEV]: Downloading https://files.pythonhosted.org/packages/9c/e5/0d47fa88d31aba7504aa7bfef034b949b8aa9473ce51d2963370f0027e71/ALLMDEV-1.3.5-py3-none-any.whl
+[2024-05-22 10:37:13] INFO root fetch - processPackages [BiLLM]: executing diffoscope
+[2024-05-22 10:37:13] INFO root fetch - processPackages [BiLLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/billm-0.1.3.tar.gz tmp/billm-0.1.4.tar.gz --markdown 20240522/B/BiLLM/0.1.3-0.1.4/README.md --exclude *.pyd
+[2024-05-22 10:37:13] INFO root fetch - processPackages [hc-log-tools]: executing diffoscope
+[2024-05-22 10:37:13] INFO root fetch - processPackages [hc-log-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hc_log_tools-1.2.5.tar.gz tmp/hc_log_tools-1.2.6.tar.gz --markdown 20240522/h/hc-log-tools/1.2.5-1.2.6/README.md --exclude *.pyd
+[2024-05-22 10:37:13] INFO root fetch - processPackages [toollib]: Downloading https://files.pythonhosted.org/packages/17/e5/419c7709757b81af67fca6b322d2dd3dff935693a200c84d7d73aee0e8eb/toollib-1.5.4-py3-none-any.whl
+[2024-05-22 10:37:13] INFO root fetch - processPackages [spaceone-config]: executing diffoscope
+[2024-05-22 10:37:13] INFO root fetch - processPackages [spaceone-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-config-2.0.dev8.tar.gz tmp/spaceone-config-2.0.dev9.tar.gz --markdown 20240522/s/spaceone-config/2.0.dev8-2.0.dev9/README.md --exclude *.pyd
+[2024-05-22 10:37:13] INFO root fetch - processPackages [sn-trackeval]: executing diffoscope
+[2024-05-22 10:37:13] INFO root fetch - processPackages [sn-trackeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sn_trackeval-0.2.0.tar.gz tmp/sn_trackeval-0.2.1.tar.gz --markdown 20240522/s/sn-trackeval/0.2.0-0.2.1/README.md --exclude *.pyd
+[2024-05-22 10:37:13] INFO root fetch - processPackages [ALLMDEV]: executing diffoscope
+[2024-05-22 10:37:13] INFO root fetch - processPackages [ALLMDEV]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ALLMDEV-1.3.4-py3-none-any.whl.zip tmp/ALLMDEV-1.3.5-py3-none-any.whl.zip --markdown 20240522/A/ALLMDEV/1.3.4-1.3.5/README.md --exclude *.pyd
+[2024-05-22 10:37:13] INFO root fetch - processPackages [toollib]: executing diffoscope
+[2024-05-22 10:37:13] INFO root fetch - processPackages [toollib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toollib-1.5.3-py3-none-any.whl.zip tmp/toollib-1.5.4-py3-none-any.whl.zip --markdown 20240522/t/toollib/1.5.3-1.5.4/README.md --exclude *.pyd
+[2024-05-22 10:37:14] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: Remove: archive file [/home/abi/fetcher/tmp/pgos-cli-python-sdk-v1-0.2.9.110.tar.gz]
+[2024-05-22 10:37:14] INFO root fetch - processPackages [pgos-cli-python-sdk-v1]: Remove: archive file [/home/abi/fetcher/tmp/pgos-cli-python-sdk-v1-0.2.9.111.tar.gz]
+[2024-05-22 10:37:14] INFO root fetch - main [MainThread]: End processing [pgos-cli-python-sdk-v1]: success
+[2024-05-22 10:37:14] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz]
+[2024-05-22 10:37:14] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev99.tar.gz]
+[2024-05-22 10:37:14] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
+[2024-05-22 10:37:14] INFO root fetch - processPackages [json-arrays]: Downloading https://files.pythonhosted.org/packages/cc/9d/f1614c54a07bcc090fbf002a0afeb4ca7305ec6011321396fb485eec83c6/json_arrays-0.15.0.tar.gz
+[2024-05-22 10:37:14] INFO root fetch - processPackages [spaceone-config]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-config-2.0.dev8.tar.gz]
+[2024-05-22 10:37:14] INFO root fetch - processPackages [spaceone-config]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-config-2.0.dev9.tar.gz]
+[2024-05-22 10:37:14] INFO root fetch - main [MainThread]: End processing [spaceone-config]: success
+[2024-05-22 10:37:14] INFO root fetch - processPackages [BiLLM]: Remove: archive file [/home/abi/fetcher/tmp/billm-0.1.3.tar.gz]
+[2024-05-22 10:37:14] INFO root fetch - processPackages [BiLLM]: Remove: archive file [/home/abi/fetcher/tmp/billm-0.1.4.tar.gz]
+[2024-05-22 10:37:14] INFO root fetch - main [MainThread]: End processing [BiLLM]: success
+[2024-05-22 10:37:14] INFO root fetch - processPackages [json-arrays]: executing diffoscope
+[2024-05-22 10:37:14] INFO root fetch - processPackages [json-arrays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_arrays-0.14.1.tar.gz tmp/json_arrays-0.15.0.tar.gz --markdown 20240522/j/json-arrays/0.14.1-0.15.0/README.md --exclude *.pyd
+[2024-05-22 10:37:14] INFO root fetch - processPackages [hc-log-tools]: Remove: archive file [/home/abi/fetcher/tmp/hc_log_tools-1.2.5.tar.gz]
+[2024-05-22 10:37:14] INFO root fetch - processPackages [hc-log-tools]: Remove: archive file [/home/abi/fetcher/tmp/hc_log_tools-1.2.6.tar.gz]
+[2024-05-22 10:37:14] INFO root fetch - main [MainThread]: End processing [hc-log-tools]: success
+[2024-05-22 10:37:15] INFO root fetch - processPackages [sn-trackeval]: Remove: archive file [/home/abi/fetcher/tmp/sn_trackeval-0.2.0.tar.gz]
+[2024-05-22 10:37:15] INFO root fetch - processPackages [sn-trackeval]: Remove: archive file [/home/abi/fetcher/tmp/sn_trackeval-0.2.1.tar.gz]
+[2024-05-22 10:37:15] INFO root fetch - main [MainThread]: End processing [sn-trackeval]: success
+[2024-05-22 10:37:15] INFO root fetch - processPackages [ALLMDEV]: Remove: archive file [/home/abi/fetcher/tmp/ALLMDEV-1.3.4-py3-none-any.whl.zip]
+[2024-05-22 10:37:15] INFO root fetch - processPackages [ALLMDEV]: Remove: archive file [/home/abi/fetcher/tmp/ALLMDEV-1.3.5-py3-none-any.whl.zip]
+[2024-05-22 10:37:15] INFO root fetch - main [MainThread]: End processing [ALLMDEV]: success
+[2024-05-22 10:37:15] INFO root fetch - processPackages [toollib]: Remove: archive file [/home/abi/fetcher/tmp/toollib-1.5.3-py3-none-any.whl.zip]
+[2024-05-22 10:37:15] INFO root fetch - processPackages [toollib]: Remove: archive file [/home/abi/fetcher/tmp/toollib-1.5.4-py3-none-any.whl.zip]
+[2024-05-22 10:37:15] INFO root fetch - main [MainThread]: End processing [toollib]: success
+[2024-05-22 10:37:15] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.8.58.38.tar.gz]
+[2024-05-22 10:37:15] INFO root fetch - processPackages [chatllm]: Remove: archive file [/home/abi/fetcher/tmp/chatllm-2024.5.8.9.23.48.tar.gz]
+[2024-05-22 10:37:15] INFO root fetch - main [MainThread]: End processing [chatllm]: success
+[2024-05-22 10:37:17] INFO root fetch - processPackages [json-arrays]: Remove: archive file [/home/abi/fetcher/tmp/json_arrays-0.14.1.tar.gz]
+[2024-05-22 10:37:17] INFO root fetch - processPackages [json-arrays]: Remove: archive file [/home/abi/fetcher/tmp/json_arrays-0.15.0.tar.gz]
+[2024-05-22 10:37:17] INFO root fetch - main [MainThread]: End processing [json-arrays]: success
+[2024-05-22 10:37:17] INFO root fetch - main [MainThread]: Store serial: [23320972]

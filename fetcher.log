@@ -10488,3 +10488,51 @@
 [2024-05-22 05:50:32] INFO root fetch - processPackages [rasal]: Remove: archive file [/home/abi/fetcher/tmp/rasal-0.1.0.tar.gz]
 [2024-05-22 05:50:32] INFO root fetch - main [MainThread]: End processing [rasal]: success
 [2024-05-22 05:50:32] INFO root fetch - main [MainThread]: Store serial: [23318498]
+[2024-05-22 05:52:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318498]
+[2024-05-22 05:52:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 05:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpg-workflows
+[2024-05-22 05:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-dms-field
+[2024-05-22 05:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: agent0
+[2024-05-22 05:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wuji
+[2024-05-22 05:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: poseidon-rna
+[2024-05-22 05:52:41] INFO root fetch - processPackages [odoo-addon-dms-field]: New version: [15.0.1.3.1] Old Version: [15.0.1.3.0.1]
+[2024-05-22 05:52:41] INFO root fetch - processPackages [wuji]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 05:52:41] INFO root fetch - processPackages [poseidon-rna]: New version: [0.5] Old Version: [0.4]
+[2024-05-22 05:52:41] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/7f/a5/067714c60d82e31644f08965bc491148a770edf8b5a2ed909a3d3627a247/wuji-0.1.8.tar.gz
+[2024-05-22 05:52:41] INFO root fetch - processPackages [odoo-addon-dms-field]: Downloading https://files.pythonhosted.org/packages/7e/95/210faa4df4ef273bd49fcafcfcada038d0ca9214bfc259d6e629e009ca13/odoo_addon_dms_field-15.0.1.3.0.1-py3-none-any.whl
+[2024-05-22 05:52:41] INFO root fetch - processPackages [cpg-workflows]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-05-22 05:52:41] INFO root fetch - processPackages [poseidon-rna]: Downloading https://files.pythonhosted.org/packages/bd/8c/a1944b0e59604f51815136978e792de5a274e7f0a1f30f2f180abfd092d8/poseidon_rna-0.4.tar.gz
+[2024-05-22 05:52:41] INFO root fetch - processPackages [agent0]: New version: [0.20.0] Old Version: [0.18.1]
+[2024-05-22 05:52:41] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/97/85/ebcf50223506f96abcfa077315ab244e192faa632ed400789582dcf565e0/cpg-workflows-1.9.0.tar.gz
+[2024-05-22 05:52:41] INFO root fetch - processPackages [wuji]: Downloading https://files.pythonhosted.org/packages/37/42/5e0fc5d99c438cf34f2143a438ca55e1270222dcc0d26563943396cd948d/wuji-0.1.9.tar.gz
+[2024-05-22 05:52:41] INFO root fetch - processPackages [agent0]: Downloading https://files.pythonhosted.org/packages/37/68/9eea6aeb26bd2c378ec95adf5dbf889910f1128f54e4a2783baa6843d00e/agent0-0.18.1.tar.gz
+[2024-05-22 05:52:41] INFO root fetch - processPackages [odoo-addon-dms-field]: Downloading https://files.pythonhosted.org/packages/b1/c4/82afc2161acdb4058e7a01431f2f777325f8b45e43bdd974f84171d751ea/odoo_addon_dms_field-15.0.1.3.1-py3-none-any.whl
+[2024-05-22 05:52:41] INFO root fetch - processPackages [wuji]: executing diffoscope
+[2024-05-22 05:52:41] INFO root fetch - processPackages [wuji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wuji-0.1.8.tar.gz tmp/wuji-0.1.9.tar.gz --markdown 20240522/w/wuji/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 05:52:41] INFO root fetch - processPackages [poseidon-rna]: Downloading https://files.pythonhosted.org/packages/0c/8e/42f70cb49274258e52f31c476499546328f4818de59ff13111385541afec/poseidon_rna-0.5.tar.gz
+[2024-05-22 05:52:41] INFO root fetch - processPackages [odoo-addon-dms-field]: executing diffoscope
+[2024-05-22 05:52:41] INFO root fetch - processPackages [odoo-addon-dms-field]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_dms_field-15.0.1.3.0.1-py3-none-any.whl.zip tmp/odoo_addon_dms_field-15.0.1.3.1-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-dms-field/15.0.1.3.0.1-15.0.1.3.1/README.md --exclude *.pyd
+[2024-05-22 05:52:41] INFO root fetch - processPackages [cpg-workflows]: Downloading https://files.pythonhosted.org/packages/0d/82/bd0cb905c3b340f5cd9b1eb95911c5444e8ba0f6369afc3c60336fed7e14/cpg-workflows-1.9.1.tar.gz
+[2024-05-22 05:52:41] INFO root fetch - processPackages [poseidon-rna]: executing diffoscope
+[2024-05-22 05:52:41] INFO root fetch - processPackages [poseidon-rna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poseidon_rna-0.4.tar.gz tmp/poseidon_rna-0.5.tar.gz --markdown 20240522/p/poseidon-rna/0.4-0.5/README.md --exclude *.pyd
+[2024-05-22 05:52:41] INFO root fetch - processPackages [agent0]: Downloading https://files.pythonhosted.org/packages/1b/ad/2d56b5de91476d9fa5a0ce4f792b0404931623ab3fc38f4cc898b295a94e/agent0-0.20.0.tar.gz
+[2024-05-22 05:52:42] INFO root fetch - processPackages [agent0]: executing diffoscope
+[2024-05-22 05:52:42] INFO root fetch - processPackages [agent0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agent0-0.18.1.tar.gz tmp/agent0-0.20.0.tar.gz --markdown 20240522/a/agent0/0.18.1-0.20.0/README.md --exclude *.pyd
+[2024-05-22 05:52:42] INFO root fetch - processPackages [cpg-workflows]: executing diffoscope
+[2024-05-22 05:52:42] INFO root fetch - processPackages [cpg-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpg-workflows-1.9.0.tar.gz tmp/cpg-workflows-1.9.1.tar.gz --markdown 20240522/c/cpg-workflows/1.9.0-1.9.1/README.md --exclude *.pyd
+[2024-05-22 05:52:42] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.8.tar.gz]
+[2024-05-22 05:52:42] INFO root fetch - processPackages [wuji]: Remove: archive file [/home/abi/fetcher/tmp/wuji-0.1.9.tar.gz]
+[2024-05-22 05:52:42] INFO root fetch - main [MainThread]: End processing [wuji]: success
+[2024-05-22 05:52:42] INFO root fetch - processPackages [poseidon-rna]: Remove: archive file [/home/abi/fetcher/tmp/poseidon_rna-0.4.tar.gz]
+[2024-05-22 05:52:42] INFO root fetch - processPackages [poseidon-rna]: Remove: archive file [/home/abi/fetcher/tmp/poseidon_rna-0.5.tar.gz]
+[2024-05-22 05:52:42] INFO root fetch - main [MainThread]: End processing [poseidon-rna]: success
+[2024-05-22 05:52:42] INFO root fetch - processPackages [odoo-addon-dms-field]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_field-15.0.1.3.0.1-py3-none-any.whl.zip]
+[2024-05-22 05:52:42] INFO root fetch - processPackages [odoo-addon-dms-field]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_field-15.0.1.3.1-py3-none-any.whl.zip]
+[2024-05-22 05:52:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms-field]: success
+[2024-05-22 05:52:42] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.0.tar.gz]
+[2024-05-22 05:52:42] INFO root fetch - processPackages [cpg-workflows]: Remove: archive file [/home/abi/fetcher/tmp/cpg-workflows-1.9.1.tar.gz]
+[2024-05-22 05:52:42] INFO root fetch - main [MainThread]: End processing [cpg-workflows]: success
+[2024-05-22 05:52:44] INFO root fetch - processPackages [agent0]: Remove: archive file [/home/abi/fetcher/tmp/agent0-0.18.1.tar.gz]
+[2024-05-22 05:52:44] INFO root fetch - processPackages [agent0]: Remove: archive file [/home/abi/fetcher/tmp/agent0-0.20.0.tar.gz]
+[2024-05-22 05:52:44] INFO root fetch - main [MainThread]: End processing [agent0]: success
+[2024-05-22 05:52:44] INFO root fetch - main [MainThread]: Store serial: [23318511]

@@ -12592,3 +12592,24 @@
 [2024-05-22 08:02:58] INFO root fetch - processPackages [elements]: Remove: archive file [/home/abi/fetcher/tmp/elements-3.6.3.tar.gz]
 [2024-05-22 08:02:58] INFO root fetch - main [MainThread]: End processing [elements]: success
 [2024-05-22 08:02:58] INFO root fetch - main [MainThread]: Store serial: [23319437]
+[2024-05-22 08:05:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319437]
+[2024-05-22 08:05:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 08:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kssdtree
+[2024-05-22 08:05:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-purchase-landed-cost
+[2024-05-22 08:05:11] INFO root fetch - processPackages [kssdtree]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-05-22 08:05:11] INFO root fetch - processPackages [odoo-addon-purchase-landed-cost]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2024-05-22 08:05:11] INFO root fetch - processPackages [kssdtree]: Downloading https://files.pythonhosted.org/packages/d5/1e/9e5c5945a44bb40002d1c259f734a531999fa6e87db89fe7c7ddcfc583cc/kssdtree-1.1.1.tar.gz
+[2024-05-22 08:05:11] INFO root fetch - processPackages [odoo-addon-purchase-landed-cost]: Downloading https://files.pythonhosted.org/packages/e7/20/66946f70c7d7c9ceefa1e4b89872dcce2700c0f3a735e27dacc4ffd36c1d/odoo_addon_purchase_landed_cost-16.0.1.0.0.6-py3-none-any.whl
+[2024-05-22 08:05:11] INFO root fetch - processPackages [kssdtree]: Downloading https://files.pythonhosted.org/packages/9a/4c/6516f734f5860e4b30f9091aaac5811663bfae72c4de4ae6566c89192767/kssdtree-1.1.2.tar.gz
+[2024-05-22 08:05:11] INFO root fetch - processPackages [odoo-addon-purchase-landed-cost]: Downloading https://files.pythonhosted.org/packages/15/a2/543470a20cb8f54886d7130073eb0669fb9eef7ba60a2c58bebff55ea65c/odoo_addon_purchase_landed_cost-16.0.1.0.0.7-py3-none-any.whl
+[2024-05-22 08:05:11] INFO root fetch - processPackages [kssdtree]: executing diffoscope
+[2024-05-22 08:05:11] INFO root fetch - processPackages [kssdtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kssdtree-1.1.1.tar.gz tmp/kssdtree-1.1.2.tar.gz --markdown 20240522/k/kssdtree/1.1.1-1.1.2/README.md --exclude *.pyd
+[2024-05-22 08:05:11] INFO root fetch - processPackages [odoo-addon-purchase-landed-cost]: executing diffoscope
+[2024-05-22 08:05:11] INFO root fetch - processPackages [odoo-addon-purchase-landed-cost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_landed_cost-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_purchase_landed_cost-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-purchase-landed-cost/16.0.1.0.0.6-16.0.1.0.0.7/README.md --exclude *.pyd
+[2024-05-22 08:05:12] INFO root fetch - processPackages [kssdtree]: Remove: archive file [/home/abi/fetcher/tmp/kssdtree-1.1.1.tar.gz]
+[2024-05-22 08:05:12] INFO root fetch - processPackages [kssdtree]: Remove: archive file [/home/abi/fetcher/tmp/kssdtree-1.1.2.tar.gz]
+[2024-05-22 08:05:12] INFO root fetch - main [MainThread]: End processing [kssdtree]: success
+[2024-05-22 08:05:12] INFO root fetch - processPackages [odoo-addon-purchase-landed-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_landed_cost-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-05-22 08:05:12] INFO root fetch - processPackages [odoo-addon-purchase-landed-cost]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_landed_cost-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-05-22 08:05:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-landed-cost]: success
+[2024-05-22 08:05:12] INFO root fetch - main [MainThread]: Store serial: [23319441]

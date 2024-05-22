@@ -14558,3 +14558,77 @@
 [2024-05-22 09:33:16] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-6.1.0.dev99.tar.gz]
 [2024-05-22 09:33:16] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
 [2024-05-22 09:33:16] INFO root fetch - main [MainThread]: Store serial: [23320254]
+[2024-05-22 09:35:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320254]
+[2024-05-22 09:35:24] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-22 09:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataramp
+[2024-05-22 09:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pramen-py
+[2024-05-22 09:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: azureml-assets
+[2024-05-22 09:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lightrun
+[2024-05-22 09:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zur-ecu-client
+[2024-05-22 09:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenFisca-Core
+[2024-05-22 09:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: signaturesnet
+[2024-05-22 09:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ridge-detector
+[2024-05-22 09:35:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ClappScrapers
+[2024-05-22 09:35:25] WARNING root fetch - processPackages [ridge-detector]: Skipping, unable to determine old version
+[2024-05-22 09:35:25] INFO root fetch - main [MainThread]: End processing [ridge-detector] error
+[2024-05-22 09:35:25] INFO root fetch - processPackages [signaturesnet]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-22 09:35:25] INFO root fetch - processPackages [zur-ecu-client]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-22 09:35:25] INFO root fetch - processPackages [azureml-assets]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-22 09:35:25] INFO root fetch - processPackages [dataramp]: New version: [1.0.1.dev190] Old Version: [1.0.1.dev189]
+[2024-05-22 09:35:25] INFO root fetch - processPackages [ClappScrapers]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-22 09:35:25] INFO root fetch - processPackages [pramen-py]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-05-22 09:35:25] INFO root fetch - processPackages [OpenFisca-Core]: New version: [9.1.0] Old Version: [9.0.2]
+[2024-05-22 09:35:25] INFO root fetch - processPackages [lightrun]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-22 09:35:25] INFO root fetch - processPackages [zur-ecu-client]: Downloading https://files.pythonhosted.org/packages/8f/d4/fe43f25323ac47e521598eaa070a78980233dd5852f8758de986d440dfce/zur_ecu_client-0.0.7.tar.gz
+[2024-05-22 09:35:25] INFO root fetch - processPackages [OpenFisca-Core]: Downloading https://files.pythonhosted.org/packages/e6/0b/a63085e3a4ecf0c1e5bd24630551ce0e0843787457ffac478fa371957b59/OpenFisca_Core-9.0.2-py2-none-any.whl
+[2024-05-22 09:35:25] INFO root fetch - processPackages [signaturesnet]: Downloading https://files.pythonhosted.org/packages/f4/f9/d7351ae2a701ec535ec7bd2a782c5f4936e48f163ecc59259e62113137a4/signaturesnet-0.0.7.tar.gz
+[2024-05-22 09:35:25] INFO root fetch - processPackages [dataramp]: Downloading https://files.pythonhosted.org/packages/8e/1e/bce512ede9d68b5a11b9449511753836caa64f235ad89f5d8dcd662663be/dataramp-1.0.1.dev189.tar.gz
+[2024-05-22 09:35:25] WARNING root fetch - processPackages [signaturesnet]: Skipping package: exceeds size limit 70848529>=10485760
+[2024-05-22 09:35:25] INFO root fetch - main [MainThread]: End processing [signaturesnet] error
+[2024-05-22 09:35:25] INFO root fetch - processPackages [azureml-assets]: Downloading https://files.pythonhosted.org/packages/e3/7b/f0601bc14c994e516c85b3d6fcf1a8a6285ea014011366a6b9666517c741/azureml-assets-1.8.0.tar.gz
+[2024-05-22 09:35:25] INFO root fetch - processPackages [ClappScrapers]: Downloading https://files.pythonhosted.org/packages/7c/ef/c0707db23afa5bb9a600a22b8803943dfa4bafcaf317fc207b677db36b3a/ClappScrapers-0.2.8.tar.gz
+[2024-05-22 09:35:25] INFO root fetch - processPackages [pramen-py]: Downloading https://files.pythonhosted.org/packages/2a/7f/b557299a3b8b1ec60e49decb159c7981eb7122a8076630605110d2f7dd27/pramen_py-1.8.8.tar.gz
+[2024-05-22 09:35:25] INFO root fetch - processPackages [lightrun]: Downloading https://files.pythonhosted.org/packages/1c/fa/1f2db5b7b74d95d09b9552bfc814cd973a3977912207c6286d62da01940a/lightrun-1.8.0-cp39-cp39-win_amd64.whl
+[2024-05-22 09:35:25] INFO root fetch - processPackages [zur-ecu-client]: Downloading https://files.pythonhosted.org/packages/80/d3/06befd20ee4d7695147d06793d8260afe3e50b60d6a5717ddac0c34fa041/zur_ecu_client-0.0.8.tar.gz
+[2024-05-22 09:35:25] INFO root fetch - processPackages [OpenFisca-Core]: Downloading https://files.pythonhosted.org/packages/9a/1e/ea587e6227625ec43769d66eba77da071548d6687b8309ab71a77e62974a/OpenFisca_Core-9.1.0-py2-none-any.whl
+[2024-05-22 09:35:25] INFO root fetch - processPackages [zur-ecu-client]: executing diffoscope
+[2024-05-22 09:35:25] INFO root fetch - processPackages [zur-ecu-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zur_ecu_client-0.0.7.tar.gz tmp/zur_ecu_client-0.0.8.tar.gz --markdown 20240522/z/zur-ecu-client/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-22 09:35:25] INFO root fetch - processPackages [OpenFisca-Core]: executing diffoscope
+[2024-05-22 09:35:25] INFO root fetch - processPackages [OpenFisca-Core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca_Core-9.0.2-py2-none-any.whl.zip tmp/OpenFisca_Core-9.1.0-py2-none-any.whl.zip --markdown 20240522/O/OpenFisca-Core/9.0.2-9.1.0/README.md --exclude *.pyd
+[2024-05-22 09:35:25] INFO root fetch - processPackages [dataramp]: Downloading https://files.pythonhosted.org/packages/2b/87/292eb04d013e82542dd7fb5ebc7342795695925b73833fe80962998b0990/dataramp-1.0.1.dev190.tar.gz
+[2024-05-22 09:35:25] INFO root fetch - processPackages [azureml-assets]: Downloading https://files.pythonhosted.org/packages/d6/c2/c18e453bbc100b119ea6fb2da2c757d5388d1648884765cb053f2729b3fd/azureml-assets-1.9.0.tar.gz
+[2024-05-22 09:35:25] INFO root fetch - processPackages [ClappScrapers]: Downloading https://files.pythonhosted.org/packages/69/28/5241dd64642ae008952f886de24606f39edafaad7764ee85a03b3ef3aeb6/ClappScrapers-0.2.9.tar.gz
+[2024-05-22 09:35:25] INFO root fetch - processPackages [pramen-py]: Downloading https://files.pythonhosted.org/packages/6e/15/1e674febc6ed0261832ee29f5f93dc89b9c6f85c228f5b8862ea8c961821/pramen_py-1.8.9.tar.gz
+[2024-05-22 09:35:25] INFO root fetch - processPackages [lightrun]: Downloading https://files.pythonhosted.org/packages/f3/f9/5b9aa0522b79061906e42d2d13697949e70a85f928f9ace8975f96b3785c/lightrun-1.9.0-cp39-cp39-win_amd64.whl
+[2024-05-22 09:35:25] INFO root fetch - processPackages [dataramp]: executing diffoscope
+[2024-05-22 09:35:25] INFO root fetch - processPackages [dataramp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataramp-1.0.1.dev189.tar.gz tmp/dataramp-1.0.1.dev190.tar.gz --markdown 20240522/d/dataramp/1.0.1.dev189-1.0.1.dev190/README.md --exclude *.pyd
+[2024-05-22 09:35:25] INFO root fetch - processPackages [azureml-assets]: executing diffoscope
+[2024-05-22 09:35:25] INFO root fetch - processPackages [azureml-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azureml-assets-1.8.0.tar.gz tmp/azureml-assets-1.9.0.tar.gz --markdown 20240522/a/azureml-assets/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-22 09:35:25] INFO root fetch - processPackages [ClappScrapers]: executing diffoscope
+[2024-05-22 09:35:25] INFO root fetch - processPackages [ClappScrapers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ClappScrapers-0.2.8.tar.gz tmp/ClappScrapers-0.2.9.tar.gz --markdown 20240522/C/ClappScrapers/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-22 09:35:25] INFO root fetch - processPackages [pramen-py]: executing diffoscope
+[2024-05-22 09:35:25] INFO root fetch - processPackages [pramen-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pramen_py-1.8.8.tar.gz tmp/pramen_py-1.8.9.tar.gz --markdown 20240522/p/pramen-py/1.8.8-1.8.9/README.md --exclude *.pyd
+[2024-05-22 09:35:26] INFO root fetch - processPackages [lightrun]: executing diffoscope
+[2024-05-22 09:35:26] INFO root fetch - processPackages [lightrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightrun-1.8.0-cp39-cp39-win_amd64.whl.zip tmp/lightrun-1.9.0-cp39-cp39-win_amd64.whl.zip --markdown 20240522/l/lightrun/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-22 09:35:26] INFO root fetch - processPackages [zur-ecu-client]: Remove: archive file [/home/abi/fetcher/tmp/zur_ecu_client-0.0.7.tar.gz]
+[2024-05-22 09:35:26] INFO root fetch - processPackages [zur-ecu-client]: Remove: archive file [/home/abi/fetcher/tmp/zur_ecu_client-0.0.8.tar.gz]
+[2024-05-22 09:35:26] INFO root fetch - main [MainThread]: End processing [zur-ecu-client]: success
+[2024-05-22 09:35:26] INFO root fetch - processPackages [dataramp]: Remove: archive file [/home/abi/fetcher/tmp/dataramp-1.0.1.dev189.tar.gz]
+[2024-05-22 09:35:26] INFO root fetch - processPackages [dataramp]: Remove: archive file [/home/abi/fetcher/tmp/dataramp-1.0.1.dev190.tar.gz]
+[2024-05-22 09:35:26] INFO root fetch - main [MainThread]: End processing [dataramp]: success
+[2024-05-22 09:35:26] INFO root fetch - processPackages [OpenFisca-Core]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_Core-9.0.2-py2-none-any.whl.zip]
+[2024-05-22 09:35:26] INFO root fetch - processPackages [OpenFisca-Core]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca_Core-9.1.0-py2-none-any.whl.zip]
+[2024-05-22 09:35:26] INFO root fetch - main [MainThread]: End processing [OpenFisca-Core]: success
+[2024-05-22 09:35:26] INFO root fetch - processPackages [ClappScrapers]: Remove: archive file [/home/abi/fetcher/tmp/ClappScrapers-0.2.8.tar.gz]
+[2024-05-22 09:35:26] INFO root fetch - processPackages [ClappScrapers]: Remove: archive file [/home/abi/fetcher/tmp/ClappScrapers-0.2.9.tar.gz]
+[2024-05-22 09:35:26] INFO root fetch - main [MainThread]: End processing [ClappScrapers]: success
+[2024-05-22 09:35:26] INFO root fetch - processPackages [pramen-py]: Remove: archive file [/home/abi/fetcher/tmp/pramen_py-1.8.8.tar.gz]
+[2024-05-22 09:35:26] INFO root fetch - processPackages [pramen-py]: Remove: archive file [/home/abi/fetcher/tmp/pramen_py-1.8.9.tar.gz]
+[2024-05-22 09:35:26] INFO root fetch - main [MainThread]: End processing [pramen-py]: success
+[2024-05-22 09:35:26] INFO root fetch - processPackages [azureml-assets]: Remove: archive file [/home/abi/fetcher/tmp/azureml-assets-1.8.0.tar.gz]
+[2024-05-22 09:35:26] INFO root fetch - processPackages [azureml-assets]: Remove: archive file [/home/abi/fetcher/tmp/azureml-assets-1.9.0.tar.gz]
+[2024-05-22 09:35:26] INFO root fetch - main [MainThread]: End processing [azureml-assets]: success
+[2024-05-22 09:35:31] INFO root fetch - processPackages [lightrun]: Remove: archive file [/home/abi/fetcher/tmp/lightrun-1.8.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 09:35:31] INFO root fetch - processPackages [lightrun]: Remove: archive file [/home/abi/fetcher/tmp/lightrun-1.9.0-cp39-cp39-win_amd64.whl.zip]
+[2024-05-22 09:35:31] INFO root fetch - main [MainThread]: End processing [lightrun]: success
+[2024-05-22 09:35:31] INFO root fetch - main [MainThread]: Store serial: [23320294]

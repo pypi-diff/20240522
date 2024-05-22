@@ -13337,3 +13337,38 @@
 [2024-05-22 08:41:03] INFO root fetch - processPackages [hotspell]: Remove: archive file [/home/abi/fetcher/tmp/hotspell-0.1.5.8.tar.gz]
 [2024-05-22 08:41:03] INFO root fetch - main [MainThread]: End processing [hotspell]: success
 [2024-05-22 08:41:03] INFO root fetch - main [MainThread]: Store serial: [23319771]
+[2024-05-22 08:43:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319771]
+[2024-05-22 08:43:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 08:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-assistant
+[2024-05-22 08:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: checkov
+[2024-05-22 08:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sf-hamilton
+[2024-05-22 08:43:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: safeheron-api-sdk-python
+[2024-05-22 08:43:25] INFO root fetch - processPackages [safeheron-api-sdk-python]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-05-22 08:43:25] INFO root fetch - processPackages [checkov]: New version: [3.2.99] Old Version: [3.2.98]
+[2024-05-22 08:43:25] INFO root fetch - processPackages [music-assistant]: New version: [2.1.0b1] Old Version: [2.1.0b0]
+[2024-05-22 08:43:25] INFO root fetch - processPackages [safeheron-api-sdk-python]: Downloading https://files.pythonhosted.org/packages/90/3b/ab88f51b24425dde3b162015e7d215641cc6aa51f64ddef3032d336f8dea/safeheron_api_sdk_python-1.1.3.tar.gz
+[2024-05-22 08:43:25] INFO root fetch - processPackages [sf-hamilton]: New version: [1.9.0rc0] Old Version: [1.9.0]
+[2024-05-22 08:43:25] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/a9/34/826b2df19c26007adefb008f273e87b94019bf5e27747efea796070c2da5/checkov-3.2.98.tar.gz
+[2024-05-22 08:43:25] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/72/06/3a032e58bbe9610ca4a3ff59911849d516bb8991db944e989039760cc61d/music_assistant-2.1.0b0.tar.gz
+[2024-05-22 08:43:25] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/d4/83/0202dcc740cf2448539aeb1ff959afb2dcb25e6b450e1ef9cca750253bda/sf-hamilton-1.9.0.tar.gz
+[2024-05-22 08:43:25] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 13982829>=10485760
+[2024-05-22 08:43:25] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2024-05-22 08:43:25] INFO root fetch - processPackages [checkov]: Downloading https://files.pythonhosted.org/packages/ff/ff/5ccc1f214d2e0bf1a97393d8f14eb1cda0f7675d0fedc54a6e5b09841a02/checkov-3.2.99.tar.gz
+[2024-05-22 08:43:25] INFO root fetch - processPackages [safeheron-api-sdk-python]: Downloading https://files.pythonhosted.org/packages/e0/73/70283d82be48722c14580ab2d7ea4bf8b34069fb4368076f61bd5f601ebd/safeheron_api_sdk_python-1.1.4.tar.gz
+[2024-05-22 08:43:25] INFO root fetch - processPackages [safeheron-api-sdk-python]: executing diffoscope
+[2024-05-22 08:43:25] INFO root fetch - processPackages [safeheron-api-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safeheron_api_sdk_python-1.1.3.tar.gz tmp/safeheron_api_sdk_python-1.1.4.tar.gz --markdown 20240522/s/safeheron-api-sdk-python/1.1.3-1.1.4/README.md --exclude *.pyd
+[2024-05-22 08:43:26] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2024-05-22 08:43:26] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-3.2.98.tar.gz tmp/checkov-3.2.99.tar.gz --markdown 20240522/c/checkov/3.2.98-3.2.99/README.md --exclude *.pyd
+[2024-05-22 08:43:26] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/0e/64/cbed9bd614006aa69c7944b12cf92ee3daa8c7cf116669988c00b6e00ce7/sf-hamilton-1.9.0rc0.tar.gz
+[2024-05-22 08:43:26] INFO root fetch - processPackages [sf-hamilton]: executing diffoscope
+[2024-05-22 08:43:26] INFO root fetch - processPackages [sf-hamilton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf-hamilton-1.9.0.tar.gz tmp/sf-hamilton-1.9.0rc0.tar.gz --markdown 20240522/s/sf-hamilton/1.9.0-1.9.0rc0/README.md --exclude *.pyd
+[2024-05-22 08:43:26] INFO root fetch - processPackages [safeheron-api-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/safeheron_api_sdk_python-1.1.3.tar.gz]
+[2024-05-22 08:43:26] INFO root fetch - processPackages [safeheron-api-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/safeheron_api_sdk_python-1.1.4.tar.gz]
+[2024-05-22 08:43:26] INFO root fetch - main [MainThread]: End processing [safeheron-api-sdk-python]: success
+[2024-05-22 08:43:27] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0.tar.gz]
+[2024-05-22 08:43:27] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0rc0.tar.gz]
+[2024-05-22 08:43:27] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
+[2024-05-22 08:43:34] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.98.tar.gz]
+[2024-05-22 08:43:34] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.99.tar.gz]
+[2024-05-22 08:43:34] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2024-05-22 08:43:34] INFO root fetch - main [MainThread]: Store serial: [23319782]

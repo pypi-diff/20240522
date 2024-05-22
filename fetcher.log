@@ -11862,3 +11862,42 @@
 [2024-05-22 07:16:37] INFO root fetch - main [MainThread]: End processing [burr]: success
 [2024-05-22 07:16:37] INFO root fetch - main [MainThread]: End processing [burr]: success
 [2024-05-22 07:16:37] INFO root fetch - main [MainThread]: Store serial: [23319030]
+[2024-05-22 07:18:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319030]
+[2024-05-22 07:18:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 07:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ivande-combiner
+[2024-05-22 07:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidpe-rift-pipe
+[2024-05-22 07:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2024-05-22 07:18:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: system_reliability
+[2024-05-22 07:18:47] INFO root fetch - processPackages [system_reliability]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-05-22 07:18:47] INFO root fetch - processPackages [ivande-combiner]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-05-22 07:18:47] INFO root fetch - processPackages [localstack-core]: New version: [3.4.1.dev20240522035746] Old Version: [3.4.1.dev20240521224759]
+[2024-05-22 07:18:47] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.6.9.dev20240319] Old Version: [0.6.9.dev20240318]
+[2024-05-22 07:18:47] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/e2/68/4605bffb5a3ac9e99ed7fdb5b2cf4fbd8ce7e3d592151e9678ad20828d98/ivande_combiner-0.0.7.tar.gz
+[2024-05-22 07:18:47] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/46/93/c9df17ae798ccf70e7464da16018f9c627a3a2a111b505030e20787855b5/localstack_core-3.4.1.dev20240521224759.tar.gz
+[2024-05-22 07:18:47] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/e0/d8/d7b88a4aebe9c66f5be7749976ca4a5d90c4c1f76b8309b2528f7d696fc2/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz
+[2024-05-22 07:18:47] INFO root fetch - processPackages [system_reliability]: Downloading https://files.pythonhosted.org/packages/4b/ac/b4dba9dd6455ff2b44815f5428a7900a1e6f2bb581cf86b10e40ab108ee7/system_reliability-0.1.0.tar.gz
+[2024-05-22 07:18:47] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/57/73/f8f8961db2f4ad6df9b52d6fc88b6fc134a86d378de28ab14ee4105baea4/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz
+[2024-05-22 07:18:47] INFO root fetch - processPackages [ivande-combiner]: Downloading https://files.pythonhosted.org/packages/3f/a9/80386ed0c5d112f1438ac694dabdb34f4e73326a821141c1c17b4096135a/ivande_combiner-0.0.8.tar.gz
+[2024-05-22 07:18:47] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2024-05-22 07:18:47] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz --markdown 20240522/r/rapidpe-rift-pipe/0.6.9.dev20240318-0.6.9.dev20240319/README.md --exclude *.pyd
+[2024-05-22 07:18:47] INFO root fetch - processPackages [ivande-combiner]: executing diffoscope
+[2024-05-22 07:18:47] INFO root fetch - processPackages [ivande-combiner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ivande_combiner-0.0.7.tar.gz tmp/ivande_combiner-0.0.8.tar.gz --markdown 20240522/i/ivande-combiner/0.0.7-0.0.8/README.md --exclude *.pyd
+[2024-05-22 07:18:47] INFO root fetch - processPackages [system_reliability]: Downloading https://files.pythonhosted.org/packages/a2/3a/272ee1144f731249fed3bc52ec582c48398a3421a8e6179c5e161814ce97/system_reliability-0.1.1.tar.gz
+[2024-05-22 07:18:47] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/1b/a5/8c77b9ec8c7312ac4c9444f4d81fcad2dd7e7adc25d145d1a803470e38da/localstack_core-3.4.1.dev20240522035746.tar.gz
+[2024-05-22 07:18:48] INFO root fetch - processPackages [system_reliability]: executing diffoscope
+[2024-05-22 07:18:48] INFO root fetch - processPackages [system_reliability]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/system_reliability-0.1.0.tar.gz tmp/system_reliability-0.1.1.tar.gz --markdown 20240522/s/system_reliability/0.1.0-0.1.1/README.md --exclude *.pyd
+[2024-05-22 07:18:48] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-05-22 07:18:48] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack_core-3.4.1.dev20240521224759.tar.gz tmp/localstack_core-3.4.1.dev20240522035746.tar.gz --markdown 20240522/l/localstack-core/3.4.1.dev20240521224759-3.4.1.dev20240522035746/README.md --exclude *.pyd
+[2024-05-22 07:18:48] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.7.tar.gz]
+[2024-05-22 07:18:48] INFO root fetch - processPackages [ivande-combiner]: Remove: archive file [/home/abi/fetcher/tmp/ivande_combiner-0.0.8.tar.gz]
+[2024-05-22 07:18:48] INFO root fetch - main [MainThread]: End processing [ivande-combiner]: success
+[2024-05-22 07:18:48] INFO root fetch - processPackages [system_reliability]: Remove: archive file [/home/abi/fetcher/tmp/system_reliability-0.1.0.tar.gz]
+[2024-05-22 07:18:48] INFO root fetch - processPackages [system_reliability]: Remove: archive file [/home/abi/fetcher/tmp/system_reliability-0.1.1.tar.gz]
+[2024-05-22 07:18:48] INFO root fetch - main [MainThread]: End processing [system_reliability]: success
+[2024-05-22 07:18:48] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240318.tar.gz]
+[2024-05-22 07:18:48] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.6.9.dev20240319.tar.gz]
+[2024-05-22 07:18:48] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2024-05-22 07:18:51] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240521224759.tar.gz]
+[2024-05-22 07:18:51] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack_core-3.4.1.dev20240522035746.tar.gz]
+[2024-05-22 07:18:51] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-05-22 07:18:51] INFO root fetch - main [MainThread]: Store serial: [23319040]

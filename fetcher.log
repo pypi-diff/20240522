@@ -3033,3 +3033,42 @@
 [2024-05-22 02:29:25] INFO root fetch - processPackages [Geode-Explicit]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Explicit-4.8.0rc1-cp39-cp39-win_amd64.whl.zip]
 [2024-05-22 02:29:25] INFO root fetch - main [MainThread]: End processing [Geode-Explicit]: success
 [2024-05-22 02:29:25] INFO root fetch - main [MainThread]: Store serial: [23315617]
+[2024-05-22 02:31:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315617]
+[2024-05-22 02:31:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 02:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyterlab-athena-analytics
+[2024-05-22 02:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aeppl-nightly
+[2024-05-22 02:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metaflow-stubs
+[2024-05-22 02:31:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: metaflow
+[2024-05-22 02:31:34] INFO root fetch - processPackages [jupyterlab-athena-analytics]: New version: [0.5.9] Old Version: [0.5.7]
+[2024-05-22 02:31:34] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240521] Old Version: [0.1.5.dev20240520]
+[2024-05-22 02:31:34] INFO root fetch - processPackages [jupyterlab-athena-analytics]: Downloading https://files.pythonhosted.org/packages/d7/48/43a934af56b4f1d6cb851ade783b0bdf327608810b98c7f6e5cd5b503de5/jupyterlab_athena_analytics-0.5.7.tar.gz
+[2024-05-22 02:31:34] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/06/c8/7f2928fd0abd769f977f05f77c2093060cdc371e575d1e4ff8f7685fa36c/aeppl_nightly-0.1.5.dev20240520.tar.gz
+[2024-05-22 02:31:34] INFO root fetch - processPackages [metaflow-stubs]: New version: [2.11.9] Old Version: [2.11.8]
+[2024-05-22 02:31:34] INFO root fetch - processPackages [metaflow]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-05-22 02:31:34] INFO root fetch - processPackages [metaflow-stubs]: Downloading https://files.pythonhosted.org/packages/de/13/ffe01e2cae343dd8025eab13d69b5d62bd71681ab061e8c36af9666a698b/metaflow-stubs-2.11.8.tar.gz
+[2024-05-22 02:31:34] INFO root fetch - processPackages [jupyterlab-athena-analytics]: Downloading https://files.pythonhosted.org/packages/f2/63/89fe836a049d8aa5642538cd88ae33d8083e6e397e6e479fab4754961703/jupyterlab_athena_analytics-0.5.9-py3-none-any.whl
+[2024-05-22 02:31:34] INFO root fetch - processPackages [metaflow]: Downloading https://files.pythonhosted.org/packages/44/4c/81a863eb61cc3eb10a21d19229d37d1cc3b50218fa45146c79e2b9122f45/metaflow-2.9.8.tar.gz
+[2024-05-22 02:31:34] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/26/06/fc645546a45a37d6e3f61595a10a9a61efe91e77316c3e5c9db19715c616/aeppl_nightly-0.1.5.dev20240521.tar.gz
+[2024-05-22 02:31:34] INFO root fetch - processPackages [jupyterlab-athena-analytics]: executing diffoscope
+[2024-05-22 02:31:34] INFO root fetch - processPackages [jupyterlab-athena-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_athena_analytics-0.5.7.tar.gz tmp/jupyterlab_athena_analytics-0.5.9-py3-none-any.whl.zip --markdown 20240522/j/jupyterlab-athena-analytics/0.5.7-0.5.9/README.md --exclude *.pyd
+[2024-05-22 02:31:34] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-05-22 02:31:34] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl_nightly-0.1.5.dev20240520.tar.gz tmp/aeppl_nightly-0.1.5.dev20240521.tar.gz --markdown 20240522/a/aeppl-nightly/0.1.5.dev20240520-0.1.5.dev20240521/README.md --exclude *.pyd
+[2024-05-22 02:31:35] INFO root fetch - processPackages [metaflow-stubs]: Downloading https://files.pythonhosted.org/packages/93/d9/ff4fdd76c5436176503c5c86034e607815e89abf05a9bced2dc60dca48a5/metaflow-stubs-2.11.9.tar.gz
+[2024-05-22 02:31:35] INFO root fetch - processPackages [metaflow]: Downloading https://files.pythonhosted.org/packages/63/60/3262d89f8512f63109d640bc0d30b7f6e64a1efeab58463d69f43d2275ad/metaflow-2.9.9.tar.gz
+[2024-05-22 02:31:35] INFO root fetch - processPackages [metaflow-stubs]: executing diffoscope
+[2024-05-22 02:31:35] INFO root fetch - processPackages [metaflow-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaflow-stubs-2.11.8.tar.gz tmp/metaflow-stubs-2.11.9.tar.gz --markdown 20240522/m/metaflow-stubs/2.11.8-2.11.9/README.md --exclude *.pyd
+[2024-05-22 02:31:35] INFO root fetch - processPackages [jupyterlab-athena-analytics]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_athena_analytics-0.5.7.tar.gz]
+[2024-05-22 02:31:35] INFO root fetch - processPackages [jupyterlab-athena-analytics]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_athena_analytics-0.5.9-py3-none-any.whl.zip]
+[2024-05-22 02:31:35] INFO root fetch - main [MainThread]: End processing [jupyterlab-athena-analytics]: success
+[2024-05-22 02:31:35] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240520.tar.gz]
+[2024-05-22 02:31:35] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl_nightly-0.1.5.dev20240521.tar.gz]
+[2024-05-22 02:31:35] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-05-22 02:31:35] INFO root fetch - processPackages [metaflow]: executing diffoscope
+[2024-05-22 02:31:35] INFO root fetch - processPackages [metaflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaflow-2.9.8.tar.gz tmp/metaflow-2.9.9.tar.gz --markdown 20240522/m/metaflow/2.9.8-2.9.9/README.md --exclude *.pyd
+[2024-05-22 02:31:36] INFO root fetch - processPackages [metaflow-stubs]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-stubs-2.11.8.tar.gz]
+[2024-05-22 02:31:36] INFO root fetch - processPackages [metaflow-stubs]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-stubs-2.11.9.tar.gz]
+[2024-05-22 02:31:36] INFO root fetch - main [MainThread]: End processing [metaflow-stubs]: success
+[2024-05-22 02:31:36] INFO root fetch - processPackages [metaflow]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-2.9.8.tar.gz]
+[2024-05-22 02:31:36] INFO root fetch - processPackages [metaflow]: Remove: archive file [/home/abi/fetcher/tmp/metaflow-2.9.9.tar.gz]
+[2024-05-22 02:31:36] INFO root fetch - main [MainThread]: End processing [metaflow]: success
+[2024-05-22 02:31:36] INFO root fetch - main [MainThread]: Store serial: [23315631]

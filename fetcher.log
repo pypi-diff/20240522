@@ -9978,3 +9978,24 @@
 [2024-05-22 05:26:34] INFO root fetch - processPackages [pyedifice]: Remove: archive file [/home/abi/fetcher/tmp/pyedifice-0.6.1.tar.gz]
 [2024-05-22 05:26:34] INFO root fetch - main [MainThread]: End processing [pyedifice]: success
 [2024-05-22 05:26:34] INFO root fetch - main [MainThread]: Store serial: [23318245]
+[2024-05-22 05:28:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318245]
+[2024-05-22 05:28:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 05:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bugbug
+[2024-05-22 05:28:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: detkit
+[2024-05-22 05:28:42] INFO root fetch - processPackages [detkit]: New version: [0.5.2] Old Version: [0.4.0]
+[2024-05-22 05:28:42] INFO root fetch - processPackages [detkit]: Downloading https://files.pythonhosted.org/packages/30/8d/909a50b38ea0083b26345511f051809a0a84d187a9962867076c1838e955/detkit-0.4.0.tar.gz
+[2024-05-22 05:28:42] INFO root fetch - processPackages [bugbug]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-05-22 05:28:43] INFO root fetch - processPackages [detkit]: Downloading https://files.pythonhosted.org/packages/33/dc/65d0b69e1234ebb44241b8165e71897eb02c48d1427d85f8456673af4116/detkit-0.5.2-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-05-22 05:28:43] INFO root fetch - processPackages [bugbug]: Downloading https://files.pythonhosted.org/packages/5b/6a/fc99f3a6e09827c698ee6eab2d88fea1cf94e1c6d0f0d04236a834ba423b/bugbug-0.0.98.tar.gz
+[2024-05-22 05:28:43] INFO root fetch - processPackages [detkit]: executing diffoscope
+[2024-05-22 05:28:43] INFO root fetch - processPackages [detkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/detkit-0.4.0.tar.gz tmp/detkit-0.5.2-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240522/d/detkit/0.4.0-0.5.2/README.md --exclude *.pyd
+[2024-05-22 05:28:43] INFO root fetch - processPackages [bugbug]: Downloading https://files.pythonhosted.org/packages/1b/68/2d9f5d88a3b137b0acc5c563e30de6711280c6bea1292fb42f4652b41c4b/bugbug-0.0.99.tar.gz
+[2024-05-22 05:28:43] INFO root fetch - processPackages [bugbug]: executing diffoscope
+[2024-05-22 05:28:43] INFO root fetch - processPackages [bugbug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugbug-0.0.98.tar.gz tmp/bugbug-0.0.99.tar.gz --markdown 20240522/b/bugbug/0.0.98-0.0.99/README.md --exclude *.pyd
+[2024-05-22 05:28:44] INFO root fetch - processPackages [detkit]: Remove: archive file [/home/abi/fetcher/tmp/detkit-0.4.0.tar.gz]
+[2024-05-22 05:28:44] INFO root fetch - processPackages [detkit]: Remove: archive file [/home/abi/fetcher/tmp/detkit-0.5.2-pp39-pypy39_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-05-22 05:28:44] INFO root fetch - main [MainThread]: End processing [detkit]: success
+[2024-05-22 05:28:44] INFO root fetch - processPackages [bugbug]: Remove: archive file [/home/abi/fetcher/tmp/bugbug-0.0.98.tar.gz]
+[2024-05-22 05:28:44] INFO root fetch - processPackages [bugbug]: Remove: archive file [/home/abi/fetcher/tmp/bugbug-0.0.99.tar.gz]
+[2024-05-22 05:28:44] INFO root fetch - main [MainThread]: End processing [bugbug]: success
+[2024-05-22 05:28:44] INFO root fetch - main [MainThread]: Store serial: [23318257]

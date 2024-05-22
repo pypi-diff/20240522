@@ -11338,3 +11338,23 @@
 [2024-05-22 06:41:18] INFO root fetch - processPackages [python-urlopen]: Remove: archive file [/home/abi/fetcher/tmp/python_urlopen-0.0.2.tar.gz]
 [2024-05-22 06:41:18] INFO root fetch - main [MainThread]: End processing [python-urlopen]: success
 [2024-05-22 06:41:18] INFO root fetch - main [MainThread]: Store serial: [23318818]
+[2024-05-22 06:43:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318818]
+[2024-05-22 06:43:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 06:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tools21cm
+[2024-05-22 06:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llama-index-llms-vertex
+[2024-05-22 06:43:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smartpredict
+[2024-05-22 06:43:26] WARNING root fetch - processPackages [smartpredict]: Skipping, unable to determine old version
+[2024-05-22 06:43:26] INFO root fetch - main [MainThread]: End processing [smartpredict] error
+[2024-05-22 06:43:26] INFO root fetch - processPackages [llama-index-llms-vertex]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-05-22 06:43:26] INFO root fetch - processPackages [tools21cm]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-05-22 06:43:27] INFO root fetch - processPackages [llama-index-llms-vertex]: Downloading https://files.pythonhosted.org/packages/52/bb/78607668c867fb9d9e96125c9e09c1b147798a4db8255d0aad94e4106019/llama_index_llms_vertex-0.1.5.tar.gz
+[2024-05-22 06:43:27] INFO root fetch - processPackages [tools21cm]: Downloading https://files.pythonhosted.org/packages/b1/4e/61f0e1eba0a7b7edb6296fe5a5cdf3ca0aad456d8c9ff1ee1251e03320ee/tools21cm-2.1.7-cp312-cp312-macosx_11_0_arm64.whl
+[2024-05-22 06:43:27] WARNING root fetch - processPackages [tools21cm]: Skipping package: exceeds size limit 53865474>=10485760
+[2024-05-22 06:43:27] INFO root fetch - main [MainThread]: End processing [tools21cm] error
+[2024-05-22 06:43:27] INFO root fetch - processPackages [llama-index-llms-vertex]: Downloading https://files.pythonhosted.org/packages/74/ae/072e8511d2c67ea57683fac6f9f96afabbaac77bf5874f901949e9d72257/llama_index_llms_vertex-0.1.6.tar.gz
+[2024-05-22 06:43:27] INFO root fetch - processPackages [llama-index-llms-vertex]: executing diffoscope
+[2024-05-22 06:43:27] INFO root fetch - processPackages [llama-index-llms-vertex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_llms_vertex-0.1.5.tar.gz tmp/llama_index_llms_vertex-0.1.6.tar.gz --markdown 20240522/l/llama-index-llms-vertex/0.1.5-0.1.6/README.md --exclude *.pyd
+[2024-05-22 06:43:28] INFO root fetch - processPackages [llama-index-llms-vertex]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_vertex-0.1.5.tar.gz]
+[2024-05-22 06:43:28] INFO root fetch - processPackages [llama-index-llms-vertex]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_vertex-0.1.6.tar.gz]
+[2024-05-22 06:43:28] INFO root fetch - main [MainThread]: End processing [llama-index-llms-vertex]: success
+[2024-05-22 06:43:28] INFO root fetch - main [MainThread]: Store serial: [23318828]

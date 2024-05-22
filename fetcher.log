@@ -13372,3 +13372,75 @@
 [2024-05-22 08:43:34] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.99.tar.gz]
 [2024-05-22 08:43:34] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-05-22 08:43:34] INFO root fetch - main [MainThread]: Store serial: [23319782]
+[2024-05-22 08:45:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319782]
+[2024-05-22 08:45:57] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-05-22 08:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zope.interface
+[2024-05-22 08:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: UnityPredict
+[2024-05-22 08:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: satsure-core-test
+[2024-05-22 08:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfy-mlflow-client
+[2024-05-22 08:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: embedchain
+[2024-05-22 08:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: frogr
+[2024-05-22 08:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cPredictor
+[2024-05-22 08:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: signaturesnet
+[2024-05-22 08:45:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: todoist-api-python
+[2024-05-22 08:45:57] WARNING root fetch - processPackages [UnityPredict]: Skipping, unable to determine old version
+[2024-05-22 08:45:57] INFO root fetch - main [MainThread]: End processing [UnityPredict] error
+[2024-05-22 08:45:57] INFO root fetch - processPackages [zope.interface]: New version: [6.4] Old Version: [6.3]
+[2024-05-22 08:45:57] INFO root fetch - processPackages [todoist-api-python]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-05-22 08:45:57] INFO root fetch - processPackages [tfy-mlflow-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 08:45:57] INFO root fetch - processPackages [signaturesnet]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-05-22 08:45:57] WARNING root fetch - processPackages [frogr]: Skipping, unable to determine old version
+[2024-05-22 08:45:57] INFO root fetch - main [MainThread]: End processing [frogr] error
+[2024-05-22 08:45:57] INFO root fetch - processPackages [cPredictor]: New version: [0.4.0] Old Version: [0.3.5]
+[2024-05-22 08:45:57] INFO root fetch - processPackages [satsure-core-test]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-05-22 08:45:57] INFO root fetch - processPackages [embedchain]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-05-22 08:45:57] INFO root fetch - processPackages [zope.interface]: Downloading https://files.pythonhosted.org/packages/2a/bd/a30bf6df24480017171da4f52ee527a72c7a6450c86355011e0156e71723/zope.interface-6.3.tar.gz
+[2024-05-22 08:45:57] INFO root fetch - processPackages [todoist-api-python]: Downloading https://files.pythonhosted.org/packages/28/88/96a87d0923503ed36fe64cf69b3bb78f856a9286bef7b380dbed9da50f56/todoist_api_python-2.1.4.tar.gz
+[2024-05-22 08:45:57] INFO root fetch - processPackages [signaturesnet]: Downloading https://files.pythonhosted.org/packages/f4/d0/2dc815866b35eb0981e2c4dbffcce406c1c4564059d9813b4805dd55258f/signaturesnet-0.0.3.tar.gz
+[2024-05-22 08:45:57] INFO root fetch - processPackages [cPredictor]: Downloading https://files.pythonhosted.org/packages/5d/02/ccea3cebf1f86e42ab546d7b9f3d0fbe4f143f2373cad7707dfa3c81726a/cPredictor-0.3.5-py3-none-any.whl
+[2024-05-22 08:45:57] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/f2/0a/0533e02b852a707aa8322566681194dc15d055019eefb6c0f35cedc99a94/embedchain-0.1.98.tar.gz
+[2024-05-22 08:45:57] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/e2/3f/801bad78dca634e37715994b6d7d9f9ddb912f7fb448aba707030c8646e0/satsure-core-test-0.2.9.tar.gz
+[2024-05-22 08:45:57] INFO root fetch - processPackages [zope.interface]: Downloading https://files.pythonhosted.org/packages/1f/41/d0bdb50947f77341e979241de26f348e538a5d0f3ddb2482bc3907a3d728/zope_interface-6.4.tar.gz
+[2024-05-22 08:45:57] INFO root fetch - processPackages [tfy-mlflow-client]: Downloading https://files.pythonhosted.org/packages/43/f0/45be21abdff732bb8de13f178413b52bd098bb8395e239c8721423f39e0e/tfy-mlflow-client-0.0.8.tar.gz
+[2024-05-22 08:45:58] INFO root fetch - processPackages [zope.interface]: executing diffoscope
+[2024-05-22 08:45:58] INFO root fetch - processPackages [zope.interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zope.interface-6.3.tar.gz tmp/zope_interface-6.4.tar.gz --markdown 20240522/z/zope.interface/6.3-6.4/README.md --exclude *.pyd
+[2024-05-22 08:45:58] INFO root fetch - processPackages [signaturesnet]: Downloading https://files.pythonhosted.org/packages/a3/6a/aaa621d74d600dc0a43ee66de44753dbb1405fc3b8fccc56f2a1872715cf/signaturesnet-0.0.4.tar.gz
+[2024-05-22 08:45:58] INFO root fetch - processPackages [satsure-core-test]: Downloading https://files.pythonhosted.org/packages/f9/bf/7ddfcfdcac8a91259b8b308d82e03da9cd4d42f34164a5b051381d7d04eb/satsure-core-test-0.3.0.tar.gz
+[2024-05-22 08:45:58] INFO root fetch - processPackages [cPredictor]: Downloading https://files.pythonhosted.org/packages/9e/7c/b6987e69ba7d4109f0232d12a9177161f7182a0a3d8668c34d10db44a35d/cPredictor-0.4.0-py3-none-any.whl
+[2024-05-22 08:45:58] INFO root fetch - processPackages [todoist-api-python]: Downloading https://files.pythonhosted.org/packages/b8/00/6ec16cf54428fc9f3f343e358c38290cd7cc1857e68ca4f89770ff106851/todoist_api_python-2.1.5.tar.gz
+[2024-05-22 08:45:58] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/0d/2d/2739eceecbbc32ad3687e1c8993737657b4cafa08f9b6712546852a21c74/embedchain-0.1.99.tar.gz
+[2024-05-22 08:45:58] INFO root fetch - processPackages [signaturesnet]: executing diffoscope
+[2024-05-22 08:45:58] INFO root fetch - processPackages [signaturesnet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signaturesnet-0.0.3.tar.gz tmp/signaturesnet-0.0.4.tar.gz --markdown 20240522/s/signaturesnet/0.0.3-0.0.4/README.md --exclude *.pyd
+[2024-05-22 08:45:58] INFO root fetch - processPackages [satsure-core-test]: executing diffoscope
+[2024-05-22 08:45:58] INFO root fetch - processPackages [satsure-core-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satsure-core-test-0.2.9.tar.gz tmp/satsure-core-test-0.3.0.tar.gz --markdown 20240522/s/satsure-core-test/0.2.9-0.3.0/README.md --exclude *.pyd
+[2024-05-22 08:45:58] INFO root fetch - processPackages [cPredictor]: executing diffoscope
+[2024-05-22 08:45:58] INFO root fetch - processPackages [cPredictor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cPredictor-0.3.5-py3-none-any.whl.zip tmp/cPredictor-0.4.0-py3-none-any.whl.zip --markdown 20240522/c/cPredictor/0.3.5-0.4.0/README.md --exclude *.pyd
+[2024-05-22 08:45:58] INFO root fetch - processPackages [embedchain]: executing diffoscope
+[2024-05-22 08:45:58] INFO root fetch - processPackages [embedchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedchain-0.1.98.tar.gz tmp/embedchain-0.1.99.tar.gz --markdown 20240522/e/embedchain/0.1.98-0.1.99/README.md --exclude *.pyd
+[2024-05-22 08:45:58] INFO root fetch - processPackages [todoist-api-python]: executing diffoscope
+[2024-05-22 08:45:58] INFO root fetch - processPackages [todoist-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/todoist_api_python-2.1.4.tar.gz tmp/todoist_api_python-2.1.5.tar.gz --markdown 20240522/t/todoist-api-python/2.1.4-2.1.5/README.md --exclude *.pyd
+[2024-05-22 08:45:59] INFO root fetch - processPackages [cPredictor]: Remove: archive file [/home/abi/fetcher/tmp/cPredictor-0.3.5-py3-none-any.whl.zip]
+[2024-05-22 08:45:59] INFO root fetch - processPackages [cPredictor]: Remove: archive file [/home/abi/fetcher/tmp/cPredictor-0.4.0-py3-none-any.whl.zip]
+[2024-05-22 08:45:59] INFO root fetch - main [MainThread]: End processing [cPredictor]: success
+[2024-05-22 08:45:59] INFO root fetch - processPackages [signaturesnet]: Remove: archive file [/home/abi/fetcher/tmp/signaturesnet-0.0.3.tar.gz]
+[2024-05-22 08:45:59] INFO root fetch - processPackages [signaturesnet]: Remove: archive file [/home/abi/fetcher/tmp/signaturesnet-0.0.4.tar.gz]
+[2024-05-22 08:45:59] INFO root fetch - main [MainThread]: End processing [signaturesnet]: success
+[2024-05-22 08:45:59] INFO root fetch - processPackages [todoist-api-python]: Remove: archive file [/home/abi/fetcher/tmp/todoist_api_python-2.1.4.tar.gz]
+[2024-05-22 08:45:59] INFO root fetch - processPackages [todoist-api-python]: Remove: archive file [/home/abi/fetcher/tmp/todoist_api_python-2.1.5.tar.gz]
+[2024-05-22 08:45:59] INFO root fetch - main [MainThread]: End processing [todoist-api-python]: success
+[2024-05-22 08:45:59] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure-core-test-0.2.9.tar.gz]
+[2024-05-22 08:45:59] INFO root fetch - processPackages [satsure-core-test]: Remove: archive file [/home/abi/fetcher/tmp/satsure-core-test-0.3.0.tar.gz]
+[2024-05-22 08:45:59] INFO root fetch - main [MainThread]: End processing [satsure-core-test]: success
+[2024-05-22 08:45:59] INFO root fetch - processPackages [zope.interface]: Remove: archive file [/home/abi/fetcher/tmp/zope.interface-6.3.tar.gz]
+[2024-05-22 08:45:59] INFO root fetch - processPackages [zope.interface]: Remove: archive file [/home/abi/fetcher/tmp/zope_interface-6.4.tar.gz]
+[2024-05-22 08:45:59] INFO root fetch - main [MainThread]: End processing [zope.interface]: success
+[2024-05-22 08:45:59] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.1.98.tar.gz]
+[2024-05-22 08:45:59] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.1.99.tar.gz]
+[2024-05-22 08:45:59] INFO root fetch - main [MainThread]: End processing [embedchain]: success
+[2024-05-22 08:46:00] INFO root fetch - processPackages [tfy-mlflow-client]: Downloading https://files.pythonhosted.org/packages/99/46/ec87ff507a911f7eb4550bd758513440cf543ba1d9701b042b5caf64682a/tfy-mlflow-client-0.0.9.tar.gz
+[2024-05-22 08:46:01] INFO root fetch - processPackages [tfy-mlflow-client]: executing diffoscope
+[2024-05-22 08:46:01] INFO root fetch - processPackages [tfy-mlflow-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfy-mlflow-client-0.0.8.tar.gz tmp/tfy-mlflow-client-0.0.9.tar.gz --markdown 20240522/t/tfy-mlflow-client/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 08:46:02] INFO root fetch - processPackages [tfy-mlflow-client]: Remove: archive file [/home/abi/fetcher/tmp/tfy-mlflow-client-0.0.8.tar.gz]
+[2024-05-22 08:46:02] INFO root fetch - processPackages [tfy-mlflow-client]: Remove: archive file [/home/abi/fetcher/tmp/tfy-mlflow-client-0.0.9.tar.gz]
+[2024-05-22 08:46:02] INFO root fetch - main [MainThread]: End processing [tfy-mlflow-client]: success
+[2024-05-22 08:46:02] INFO root fetch - main [MainThread]: Store serial: [23319817]

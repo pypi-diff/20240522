@@ -16810,3 +16810,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:52:46] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
 [2024-05-22 10:52:46] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2024-05-22 10:52:46] INFO root fetch - main [MainThread]: Store serial: [23321154]
+[2024-05-22 10:54:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23321154]
+[2024-05-22 10:54:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-22 10:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CARE-SM-Toolkit
+[2024-05-22 10:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyright
+[2024-05-22 10:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sunholo
+[2024-05-22 10:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FPC
+[2024-05-22 10:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mdtidy
+[2024-05-22 10:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyMeasure
+[2024-05-22 10:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kcli
+[2024-05-22 10:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mindoptpy
+[2024-05-22 10:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imap-box-up
+[2024-05-22 10:54:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vuer
+[2024-05-22 10:54:55] INFO root fetch - processPackages [CARE-SM-Toolkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 10:54:55] INFO root fetch - processPackages [vuer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 10:54:55] INFO root fetch - processPackages [PyMeasure]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-05-22 10:54:55] INFO root fetch - processPackages [pyright]: New version: [1.1.363] Old Version: [1.1.362]
+[2024-05-22 10:54:55] INFO root fetch - processPackages [kcli]: New version: [99.0.202405211143] Old Version: [99.0.202405201944]
+[2024-05-22 10:54:55] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-05-22 10:54:55] WARNING root fetch - processPackages [mdtidy]: Skipping, unable to determine old version
+[2024-05-22 10:54:55] INFO root fetch - main [MainThread]: End processing [mdtidy] error
+[2024-05-22 10:54:55] INFO root fetch - processPackages [FPC]: New version: [0.9] Old Version: [0.8]
+[2024-05-22 10:54:55] INFO root fetch - processPackages [imap-box-up]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-22 10:54:55] INFO root fetch - processPackages [mindoptpy]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-05-22 10:54:55] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-05-22 10:54:55] INFO root fetch - processPackages [CARE-SM-Toolkit]: Downloading https://files.pythonhosted.org/packages/e3/4e/7979886757b816b7e5c86f1f9e04916ce4c43c9bc11c137f6e6726ad4551/CARE-SM-Toolkit-0.0.8.tar.gz
+[2024-05-22 10:54:55] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/14/ea/4ed23f119eafd70cda97b4911e041767f825880f34f1770da786691d361c/vuer-0.0.8-py3-none-any.whl
+[2024-05-22 10:54:55] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a4/e8/6fa35ed20e4f38bca2061953c9ce4fdb960276efc83e51b1078f9d159c3a/kcli-99.0.202405201944.tar.gz
+[2024-05-22 10:54:55] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/d5/36/327472a9984e2b82cb4e80492f95965aa46da9c9696f968aa754e35a2a61/pyright-1.1.362.tar.gz
+[2024-05-22 10:54:55] INFO root fetch - processPackages [PyMeasure]: Downloading https://files.pythonhosted.org/packages/84/36/776a068820e55c3a2bc113c0ee3d7f88bb5d9f324df8ee1131de9ea91ad2/PyMeasure-0.8.0.tar.gz
+[2024-05-22 10:54:55] INFO root fetch - processPackages [imap-box-up]: Downloading https://files.pythonhosted.org/packages/63/d2/85ac98e793fdf328730ce797f1dd1205fd15da7971df5830169aa44e109b/imap_box_up-0.0.4.tar.gz
+[2024-05-22 10:54:55] INFO root fetch - processPackages [mindoptpy]: Downloading https://files.pythonhosted.org/packages/c0/5c/c87c4877854420969b2c96efa51cf3d957076f33799de769960fdff920ab/mindoptpy-1.2.0-cp39-cp39-win_amd64.whl
+[2024-05-22 10:54:55] INFO root fetch - processPackages [CARE-SM-Toolkit]: Downloading https://files.pythonhosted.org/packages/53/e8/18464be5badbacf069e122164e85463e73c84d2905e9097cf961faf0b527/CARE-SM-Toolkit-0.0.9.tar.gz
+[2024-05-22 10:54:55] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-05-22 10:54:55] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/25/f1/9174198521ef27b8c45231bf0d7003073ba3ae6fb4be3b18c0a18c4ce749/vuer-0.0.9-py3-none-any.whl
+[2024-05-22 10:54:55] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/21/8e/cb3fde359346e40cec7994e595614ef647675f843dea133076850fd2db07/FPC-0.8.tar.gz
+[2024-05-22 10:54:56] WARNING root fetch - processPackages [mindoptpy]: Skipping package: exceeds size limit 29826678>=10485760
+[2024-05-22 10:54:56] INFO root fetch - main [MainThread]: End processing [mindoptpy] error
+[2024-05-22 10:54:56] INFO root fetch - processPackages [CARE-SM-Toolkit]: executing diffoscope
+[2024-05-22 10:54:56] INFO root fetch - processPackages [CARE-SM-Toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CARE-SM-Toolkit-0.0.8.tar.gz tmp/CARE-SM-Toolkit-0.0.9.tar.gz --markdown 20240522/C/CARE-SM-Toolkit/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 10:54:56] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/ca/fb/9986e759f902d027678f426d4e27199b31e330af382019695f4f4ad22590/pyright-1.1.363.tar.gz
+[2024-05-22 10:54:56] INFO root fetch - processPackages [vuer]: executing diffoscope
+[2024-05-22 10:54:56] INFO root fetch - processPackages [vuer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vuer-0.0.8-py3-none-any.whl.zip tmp/vuer-0.0.9-py3-none-any.whl.zip --markdown 20240522/v/vuer/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 10:54:56] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-05-22 10:54:56] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240522/s/sunholo/0.8.8-0.8.9/README.md --exclude *.pyd
+[2024-05-22 10:54:56] INFO root fetch - processPackages [imap-box-up]: Downloading https://files.pythonhosted.org/packages/c4/1b/5d302c741cd8a069b5719bef17754702257e6f4b02e89151735437e93253/imap_box_up-0.0.5.tar.gz
+[2024-05-22 10:54:56] INFO root fetch - processPackages [pyright]: executing diffoscope
+[2024-05-22 10:54:56] INFO root fetch - processPackages [pyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyright-1.1.362.tar.gz tmp/pyright-1.1.363.tar.gz --markdown 20240522/p/pyright/1.1.362-1.1.363/README.md --exclude *.pyd
+[2024-05-22 10:54:56] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/b9/c0/4918ea9790871be7bb433f19f49bca84372b9d0ade57c4df28d5f33218b6/kcli-99.0.202405211143.tar.gz
+[2024-05-22 10:54:56] INFO root fetch - processPackages [PyMeasure]: Downloading https://files.pythonhosted.org/packages/f8/d1/54597cf778e16f98d725e8b2bb560598498c281a8d22e4752099e93c786f/PyMeasure-0.9.0.tar.gz
+[2024-05-22 10:54:56] INFO root fetch - processPackages [imap-box-up]: executing diffoscope
+[2024-05-22 10:54:56] INFO root fetch - processPackages [imap-box-up]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imap_box_up-0.0.4.tar.gz tmp/imap_box_up-0.0.5.tar.gz --markdown 20240522/i/imap-box-up/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-22 10:54:56] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/2e/52/6ad17c7fd21298054bcd96fc5e86fe54f07e006467ce5452d57c016d92bc/FPC-0.9.tar.gz
+[2024-05-22 10:54:56] INFO root fetch - processPackages [PyMeasure]: executing diffoscope
+[2024-05-22 10:54:56] INFO root fetch - processPackages [PyMeasure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMeasure-0.8.0.tar.gz tmp/PyMeasure-0.9.0.tar.gz --markdown 20240522/P/PyMeasure/0.8.0-0.9.0/README.md --exclude *.pyd
+[2024-05-22 10:54:56] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-05-22 10:54:56] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202405201944.tar.gz tmp/kcli-99.0.202405211143.tar.gz --markdown 20240522/k/kcli/99.0.202405201944-99.0.202405211143/README.md --exclude *.pyd
+[2024-05-22 10:54:56] INFO root fetch - processPackages [FPC]: executing diffoscope
+[2024-05-22 10:54:56] INFO root fetch - processPackages [FPC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FPC-0.8.tar.gz tmp/FPC-0.9.tar.gz --markdown 20240522/F/FPC/0.8-0.9/README.md --exclude *.pyd
+[2024-05-22 10:54:56] INFO root fetch - processPackages [CARE-SM-Toolkit]: Remove: archive file [/home/abi/fetcher/tmp/CARE-SM-Toolkit-0.0.8.tar.gz]
+[2024-05-22 10:54:56] INFO root fetch - processPackages [CARE-SM-Toolkit]: Remove: archive file [/home/abi/fetcher/tmp/CARE-SM-Toolkit-0.0.9.tar.gz]
+[2024-05-22 10:54:56] INFO root fetch - main [MainThread]: End processing [CARE-SM-Toolkit]: success
+[2024-05-22 10:54:56] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.8-py3-none-any.whl.zip]
+[2024-05-22 10:54:56] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.9-py3-none-any.whl.zip]
+[2024-05-22 10:54:56] INFO root fetch - main [MainThread]: End processing [vuer]: success
+[2024-05-22 10:54:57] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.362.tar.gz]
+[2024-05-22 10:54:57] INFO root fetch - processPackages [pyright]: Remove: archive file [/home/abi/fetcher/tmp/pyright-1.1.363.tar.gz]
+[2024-05-22 10:54:57] INFO root fetch - main [MainThread]: End processing [pyright]: success
+[2024-05-22 10:54:57] INFO root fetch - processPackages [imap-box-up]: Remove: archive file [/home/abi/fetcher/tmp/imap_box_up-0.0.4.tar.gz]
+[2024-05-22 10:54:57] INFO root fetch - processPackages [imap-box-up]: Remove: archive file [/home/abi/fetcher/tmp/imap_box_up-0.0.5.tar.gz]
+[2024-05-22 10:54:57] INFO root fetch - main [MainThread]: End processing [imap-box-up]: success
+[2024-05-22 10:54:57] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.8.tar.gz]
+[2024-05-22 10:54:57] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.9.tar.gz]
+[2024-05-22 10:54:57] INFO root fetch - main [MainThread]: End processing [FPC]: success
+[2024-05-22 10:54:57] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-05-22 10:54:57] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-05-22 10:54:57] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-05-22 10:54:58] INFO root fetch - processPackages [PyMeasure]: Remove: archive file [/home/abi/fetcher/tmp/PyMeasure-0.8.0.tar.gz]
+[2024-05-22 10:54:58] INFO root fetch - processPackages [PyMeasure]: Remove: archive file [/home/abi/fetcher/tmp/PyMeasure-0.9.0.tar.gz]
+[2024-05-22 10:54:58] INFO root fetch - main [MainThread]: End processing [PyMeasure]: success
+[2024-05-22 10:54:59] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405201944.tar.gz]
+[2024-05-22 10:54:59] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202405211143.tar.gz]
+[2024-05-22 10:54:59] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-05-22 10:54:59] INFO root fetch - main [MainThread]: Store serial: [23321184]

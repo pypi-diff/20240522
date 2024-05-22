@@ -20320,3 +20320,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:53:01] INFO root fetch - processPackages [grizli]: Remove: archive file [/home/abi/fetcher/tmp/grizli-1.9.9.tar.gz]
 [2024-05-22 12:53:01] INFO root fetch - main [MainThread]: End processing [grizli]: success
 [2024-05-22 12:53:01] INFO root fetch - main [MainThread]: Store serial: [23322699]
+[2024-05-22 12:55:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322699]
+[2024-05-22 12:55:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-05-22 12:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-pgviews
+[2024-05-22 12:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hd2-macros
+[2024-05-22 12:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Fiicen-py
+[2024-05-22 12:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cornflow
+[2024-05-22 12:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: suite-py
+[2024-05-22 12:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: moogli-erp
+[2024-05-22 12:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: decentriq-platform
+[2024-05-22 12:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plotshell
+[2024-05-22 12:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: schubmult
+[2024-05-22 12:55:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: imagedata
+[2024-05-22 12:55:10] INFO root fetch - processPackages [moogli-erp]: New version: [2024.2.2] Old Version: [2024.2.1]
+[2024-05-22 12:55:11] INFO root fetch - processPackages [hd2-macros]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-05-22 12:55:11] INFO root fetch - processPackages [cornflow]: New version: [1.1.0a2] Old Version: [1.1.0a1]
+[2024-05-22 12:55:11] INFO root fetch - processPackages [django-pgviews]: New version: [0.6.0] Old Version: [0.5.7]
+[2024-05-22 12:55:11] WARNING root fetch - processPackages [Fiicen-py]: Skipping, unable to determine old version
+[2024-05-22 12:55:11] INFO root fetch - processPackages [Fiicen-py]: Start processing: flake8-async
+[2024-05-22 12:55:11] INFO root fetch - main [MainThread]: End processing [Fiicen-py] error
+[2024-05-22 12:55:11] INFO root fetch - processPackages [schubmult]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-05-22 12:55:11] WARNING root fetch - processPackages [plotshell]: Skipping, unable to determine old version
+[2024-05-22 12:55:11] INFO root fetch - main [MainThread]: End processing [plotshell] error
+[2024-05-22 12:55:11] INFO root fetch - processPackages [decentriq-platform]: New version: [0.9.1] Old Version: [0.9.0rc2]
+[2024-05-22 12:55:11] INFO root fetch - processPackages [suite-py]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-05-22 12:55:11] INFO root fetch - processPackages [moogli-erp]: Downloading https://files.pythonhosted.org/packages/19/0a/72ca0ffff15155fe2bd9c75db2e83c7f2d12cf3ad055e3ab116ee4c88beb/moogli-erp-2024.2.1.tar.gz
+[2024-05-22 12:55:11] INFO root fetch - processPackages [imagedata]: New version: [3.5.5rc4] Old Version: [3.5.5rc3]
+[2024-05-22 12:55:11] INFO root fetch - processPackages [hd2-macros]: Downloading https://files.pythonhosted.org/packages/70/65/9afd95bc9c7cd4cc2ef8b260f7e3f2acc8ed20b068caa96e4efe0244405f/hd2_macros-1.2.3.tar.gz
+[2024-05-22 12:55:11] INFO root fetch - processPackages [cornflow]: Downloading https://files.pythonhosted.org/packages/2e/e0/8d38fc3fc526813d70503fdcf3a1cf885e8f972ba292020dca5def4df3ce/cornflow-1.1.0a1.tar.gz
+[2024-05-22 12:55:11] INFO root fetch - processPackages [flake8-async]: New version: [24.5.3] Old Version: [24.5.2]
+[2024-05-22 12:55:11] WARNING root fetch - processPackages [moogli-erp]: Skipping package: exceeds size limit 12476567>=10485760
+[2024-05-22 12:55:11] INFO root fetch - main [MainThread]: End processing [moogli-erp] error
+[2024-05-22 12:55:11] INFO root fetch - processPackages [django-pgviews]: Downloading https://files.pythonhosted.org/packages/d2/bb/0dd70987013c0a067f89ab9e304d175d0f05c72b523c36eed7003acba747/django-pgviews-0.5.7.tar.gz
+[2024-05-22 12:55:11] INFO root fetch - processPackages [suite-py]: Downloading https://files.pythonhosted.org/packages/ef/37/0c075d9d9338f06c9a311c241ff663a244c16f5e0477cf304edfecb07606/suite-py-1.9.8.tar.gz
+[2024-05-22 12:55:11] INFO root fetch - processPackages [schubmult]: Downloading https://files.pythonhosted.org/packages/a8/77/121e08b4457ce6f5171ec97b247b185d7ac6dab3733dcc49940688e973a3/schubmult-1.3.8.tar.gz
+[2024-05-22 12:55:11] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/8b/c1/695a0f73f216e20fbf9a98a63235989a07b60ced292eb67c210593fda34a/decentriq-platform-0.9.0rc2.tar.gz
+[2024-05-22 12:55:11] INFO root fetch - processPackages [flake8-async]: Downloading https://files.pythonhosted.org/packages/64/6e/2e9316d3dd0dda5332b8123372ff93c66f8dd7490fe22d487fc0738e850e/flake8_async-24.5.2.tar.gz
+[2024-05-22 12:55:11] INFO root fetch - processPackages [hd2-macros]: Downloading https://files.pythonhosted.org/packages/56/d5/540d4f64a8bed72f7b637c8dfa990578e0044c1c50b1a6736a2a09c5295a/hd2_macros-1.2.4.tar.gz
+[2024-05-22 12:55:11] INFO root fetch - processPackages [cornflow]: Downloading https://files.pythonhosted.org/packages/2f/2d/107f5e4d0d93a508459fd14dea3b8412702ae063ccddee2503d8a9a0441e/cornflow-1.1.0a2.tar.gz
+[2024-05-22 12:55:11] INFO root fetch - processPackages [django-pgviews]: Downloading https://files.pythonhosted.org/packages/c7/f9/151d156d89e7a255171363a8b9a5992dd6c3343f4bb9e5a5dc9e11634f2e/django_pgviews-0.6.0.tar.gz
+[2024-05-22 12:55:11] INFO root fetch - processPackages [schubmult]: Downloading https://files.pythonhosted.org/packages/b0/a9/0fd2e65c9afc2eb9347bf60f9b3566e89bc00d5c3e92d200fcbc83e66795/schubmult-1.3.9.tar.gz
+[2024-05-22 12:55:11] INFO root fetch - processPackages [imagedata]: Downloading https://files.pythonhosted.org/packages/31/45/17408989f54b5e2c906f6a4df9d930cee4014d1f1d95ff7b4593b7ec780e/imagedata-3.5.5rc3.tar.gz
+[2024-05-22 12:55:11] INFO root fetch - processPackages [hd2-macros]: executing diffoscope
+[2024-05-22 12:55:11] INFO root fetch - processPackages [hd2-macros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hd2_macros-1.2.3.tar.gz tmp/hd2_macros-1.2.4.tar.gz --markdown 20240522/h/hd2-macros/1.2.3-1.2.4/README.md --exclude *.pyd
+[2024-05-22 12:55:11] INFO root fetch - processPackages [decentriq-platform]: Downloading https://files.pythonhosted.org/packages/69/7c/b6c9a006e306cc15917be3102e43763687fbce0bf34b98d63390c4fadf94/decentriq-platform-0.9.1.tar.gz
+[2024-05-22 12:55:11] INFO root fetch - processPackages [suite-py]: Downloading https://files.pythonhosted.org/packages/75/8d/e56fa1005c2ea6072c7f7f32d256169642eb4f4ae134d1fb3a0e1294d0d2/suite-py-1.9.9.tar.gz
+[2024-05-22 12:55:11] INFO root fetch - processPackages [django-pgviews]: executing diffoscope
+[2024-05-22 12:55:11] INFO root fetch - processPackages [django-pgviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pgviews-0.5.7.tar.gz tmp/django_pgviews-0.6.0.tar.gz --markdown 20240522/d/django-pgviews/0.5.7-0.6.0/README.md --exclude *.pyd
+[2024-05-22 12:55:11] INFO root fetch - processPackages [cornflow]: executing diffoscope
+[2024-05-22 12:55:11] INFO root fetch - processPackages [cornflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornflow-1.1.0a1.tar.gz tmp/cornflow-1.1.0a2.tar.gz --markdown 20240522/c/cornflow/1.1.0a1-1.1.0a2/README.md --exclude *.pyd
+[2024-05-22 12:55:11] INFO root fetch - processPackages [flake8-async]: Downloading https://files.pythonhosted.org/packages/62/18/e2ac0591b634db53236344bac6987f1ce5204fc3d74ebaca0205f892f7b7/flake8_async-24.5.3.tar.gz
+[2024-05-22 12:55:11] WARNING root fetch - processPackages [imagedata]: Skipping package: exceeds size limit 27634745>=10485760
+[2024-05-22 12:55:11] INFO root fetch - main [MainThread]: End processing [imagedata] error
+[2024-05-22 12:55:11] INFO root fetch - processPackages [decentriq-platform]: executing diffoscope
+[2024-05-22 12:55:11] INFO root fetch - processPackages [decentriq-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decentriq-platform-0.9.0rc2.tar.gz tmp/decentriq-platform-0.9.1.tar.gz --markdown 20240522/d/decentriq-platform/0.9.0rc2-0.9.1/README.md --exclude *.pyd
+[2024-05-22 12:55:11] INFO root fetch - processPackages [schubmult]: executing diffoscope
+[2024-05-22 12:55:11] INFO root fetch - processPackages [schubmult]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schubmult-1.3.8.tar.gz tmp/schubmult-1.3.9.tar.gz --markdown 20240522/s/schubmult/1.3.8-1.3.9/README.md --exclude *.pyd
+[2024-05-22 12:55:11] INFO root fetch - processPackages [suite-py]: executing diffoscope
+[2024-05-22 12:55:11] INFO root fetch - processPackages [suite-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suite-py-1.9.8.tar.gz tmp/suite-py-1.9.9.tar.gz --markdown 20240522/s/suite-py/1.9.8-1.9.9/README.md --exclude *.pyd
+[2024-05-22 12:55:12] INFO root fetch - processPackages [flake8-async]: executing diffoscope
+[2024-05-22 12:55:12] INFO root fetch - processPackages [flake8-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8_async-24.5.2.tar.gz tmp/flake8_async-24.5.3.tar.gz --markdown 20240522/f/flake8-async/24.5.2-24.5.3/README.md --exclude *.pyd
+[2024-05-22 12:55:12] INFO root fetch - processPackages [django-pgviews]: Remove: archive file [/home/abi/fetcher/tmp/django-pgviews-0.5.7.tar.gz]
+[2024-05-22 12:55:12] INFO root fetch - processPackages [django-pgviews]: Remove: archive file [/home/abi/fetcher/tmp/django_pgviews-0.6.0.tar.gz]
+[2024-05-22 12:55:12] INFO root fetch - main [MainThread]: End processing [django-pgviews]: success
+[2024-05-22 12:55:12] INFO root fetch - processPackages [suite-py]: Remove: archive file [/home/abi/fetcher/tmp/suite-py-1.9.8.tar.gz]
+[2024-05-22 12:55:12] INFO root fetch - processPackages [suite-py]: Remove: archive file [/home/abi/fetcher/tmp/suite-py-1.9.9.tar.gz]
+[2024-05-22 12:55:12] INFO root fetch - main [MainThread]: End processing [suite-py]: success
+[2024-05-22 12:55:12] INFO root fetch - processPackages [schubmult]: Remove: archive file [/home/abi/fetcher/tmp/schubmult-1.3.8.tar.gz]
+[2024-05-22 12:55:12] INFO root fetch - processPackages [schubmult]: Remove: archive file [/home/abi/fetcher/tmp/schubmult-1.3.9.tar.gz]
+[2024-05-22 12:55:12] INFO root fetch - main [MainThread]: End processing [schubmult]: success
+[2024-05-22 12:55:12] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.0rc2.tar.gz]
+[2024-05-22 12:55:12] INFO root fetch - processPackages [decentriq-platform]: Remove: archive file [/home/abi/fetcher/tmp/decentriq-platform-0.9.1.tar.gz]
+[2024-05-22 12:55:12] INFO root fetch - main [MainThread]: End processing [decentriq-platform]: success
+[2024-05-22 12:55:12] INFO root fetch - processPackages [hd2-macros]: Remove: archive file [/home/abi/fetcher/tmp/hd2_macros-1.2.3.tar.gz]
+[2024-05-22 12:55:12] INFO root fetch - processPackages [hd2-macros]: Remove: archive file [/home/abi/fetcher/tmp/hd2_macros-1.2.4.tar.gz]
+[2024-05-22 12:55:12] INFO root fetch - main [MainThread]: End processing [hd2-macros]: success
+[2024-05-22 12:55:13] INFO root fetch - processPackages [cornflow]: Remove: archive file [/home/abi/fetcher/tmp/cornflow-1.1.0a1.tar.gz]
+[2024-05-22 12:55:13] INFO root fetch - processPackages [cornflow]: Remove: archive file [/home/abi/fetcher/tmp/cornflow-1.1.0a2.tar.gz]
+[2024-05-22 12:55:13] INFO root fetch - main [MainThread]: End processing [cornflow]: success
+[2024-05-22 12:55:13] INFO root fetch - processPackages [flake8-async]: Remove: archive file [/home/abi/fetcher/tmp/flake8_async-24.5.2.tar.gz]
+[2024-05-22 12:55:13] INFO root fetch - processPackages [flake8-async]: Remove: archive file [/home/abi/fetcher/tmp/flake8_async-24.5.3.tar.gz]
+[2024-05-22 12:55:13] INFO root fetch - main [MainThread]: End processing [flake8-async]: success
+[2024-05-22 12:55:13] INFO root fetch - main [MainThread]: Store serial: [23322733]

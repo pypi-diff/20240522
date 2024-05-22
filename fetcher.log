@@ -15908,3 +15908,69 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:23:56] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
 [2024-05-22 10:23:56] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2024-05-22 10:23:56] INFO root fetch - main [MainThread]: Store serial: [23320825]
+[2024-05-22 10:26:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320825]
+[2024-05-22 10:26:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 10:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mns-common
+[2024-05-22 10:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vbpy
+[2024-05-22 10:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: patchpy
+[2024-05-22 10:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: btc-embedded
+[2024-05-22 10:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omnikeeper-client
+[2024-05-22 10:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tgadmin
+[2024-05-22 10:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wah
+[2024-05-22 10:26:05] INFO root fetch - processPackages [vbpy]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-05-22 10:26:05] INFO root fetch - processPackages [omnikeeper-client]: New version: [6.0.0] Old Version: [5.4.0]
+[2024-05-22 10:26:05] INFO root fetch - processPackages [wah]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-05-22 10:26:05] INFO root fetch - processPackages [patchpy]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-05-22 10:26:05] INFO root fetch - processPackages [btc-embedded]: New version: [24.1.6] Old Version: [24.1.5]
+[2024-05-22 10:26:05] INFO root fetch - processPackages [tgadmin]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-05-22 10:26:05] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/41/1d/d1f9bef1bdc5ff9261c5c4dfc0243db8afda1bbb18dc89ce588be6b997e9/vbpy-2.1.1.tar.gz
+[2024-05-22 10:26:05] INFO root fetch - processPackages [omnikeeper-client]: Downloading https://files.pythonhosted.org/packages/19/26/73e6c3f7f68e27e84c7475f13ab231de66b057d751397f160eb2b3860223/omnikeeper_client-5.4.0-py3-none-any.whl
+[2024-05-22 10:26:05] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/1e/98/86b56f53d2270da5a315b2f0d5733e61fd0dabbbde1d17bcff2dd938939e/wah-0.1.8.tar.gz
+[2024-05-22 10:26:05] INFO root fetch - processPackages [mns-common]: New version: [1.1.2.2] Old Version: [1.1.2.0]
+[2024-05-22 10:26:05] INFO root fetch - processPackages [patchpy]: Downloading https://files.pythonhosted.org/packages/b4/64/2cd8259ecd9e7249510407e7a390c9df99405f4e9b90aa46fecfca28e60b/patchpy-2.0.1.tar.gz
+[2024-05-22 10:26:05] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/8b/e8/9e00e79b018e905f39d99897ba81460a4b885356f929a725f6e9351948bc/btc_embedded-24.1.5.tar.gz
+[2024-05-22 10:26:05] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/bd/5c/85492d8ee188e2795eaaa05a6935b7d524ddd48e0dcc68883282f2b18c40/mns_common-1.1.2.0.tar.gz
+[2024-05-22 10:26:05] INFO root fetch - processPackages [omnikeeper-client]: Downloading https://files.pythonhosted.org/packages/e8/ae/dc431443f1501ba4fa460e5898dd9610baca40f13a91006bf77d61862774/omnikeeper_client-6.0.0-py3-none-any.whl
+[2024-05-22 10:26:05] INFO root fetch - processPackages [tgadmin]: Downloading https://files.pythonhosted.org/packages/fe/4a/34c543e0a9ac7f255be467e887be04a2f008e6aee0781a855e47001805c3/tgadmin-0.9.0.tar.gz
+[2024-05-22 10:26:05] INFO root fetch - processPackages [wah]: Downloading https://files.pythonhosted.org/packages/6c/57/7be641139065b67640542a312a3988d0a93024cdc145ea667b7e8d432eb8/wah-0.1.9.tar.gz
+[2024-05-22 10:26:06] INFO root fetch - processPackages [vbpy]: Downloading https://files.pythonhosted.org/packages/eb/13/910d7c095435215b60f4c8fe52db1359cb49bd7d224569d9c8e5cbb927a5/vbpy-2.1.2.tar.gz
+[2024-05-22 10:26:06] INFO root fetch - processPackages [omnikeeper-client]: executing diffoscope
+[2024-05-22 10:26:06] INFO root fetch - processPackages [omnikeeper-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnikeeper_client-5.4.0-py3-none-any.whl.zip tmp/omnikeeper_client-6.0.0-py3-none-any.whl.zip --markdown 20240522/o/omnikeeper-client/5.4.0-6.0.0/README.md --exclude *.pyd
+[2024-05-22 10:26:06] INFO root fetch - processPackages [wah]: executing diffoscope
+[2024-05-22 10:26:06] INFO root fetch - processPackages [wah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wah-0.1.8.tar.gz tmp/wah-0.1.9.tar.gz --markdown 20240522/w/wah/0.1.8-0.1.9/README.md --exclude *.pyd
+[2024-05-22 10:26:06] INFO root fetch - processPackages [vbpy]: executing diffoscope
+[2024-05-22 10:26:06] INFO root fetch - processPackages [vbpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbpy-2.1.1.tar.gz tmp/vbpy-2.1.2.tar.gz --markdown 20240522/v/vbpy/2.1.1-2.1.2/README.md --exclude *.pyd
+[2024-05-22 10:26:06] INFO root fetch - processPackages [patchpy]: Downloading https://files.pythonhosted.org/packages/41/64/6d892d62a3d3258716a8aea4edc2eb3e20d881ce8aed9a9b03c000eda91e/patchpy-2.0.2.tar.gz
+[2024-05-22 10:26:06] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/69/69/8f429b038fe0ecc578c4676712bb928422bc1f7be605a7abce042254b3c8/mns_common-1.1.2.2.tar.gz
+[2024-05-22 10:26:06] INFO root fetch - processPackages [tgadmin]: Downloading https://files.pythonhosted.org/packages/f2/4a/2c03348d72ed0c84bee0e4ac8b91940c3c1a6d510aebff8f06ed707b07c8/tgadmin-0.9.1.tar.gz
+[2024-05-22 10:26:06] INFO root fetch - processPackages [patchpy]: executing diffoscope
+[2024-05-22 10:26:06] INFO root fetch - processPackages [patchpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patchpy-2.0.1.tar.gz tmp/patchpy-2.0.2.tar.gz --markdown 20240522/p/patchpy/2.0.1-2.0.2/README.md --exclude *.pyd
+[2024-05-22 10:26:06] INFO root fetch - processPackages [btc-embedded]: Downloading https://files.pythonhosted.org/packages/7d/f3/c09aeec981a27733f8eca6f0e54fe554a2f03f0611fc1a4bf8e0ddb889ac/btc_embedded-24.1.6.tar.gz
+[2024-05-22 10:26:06] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-05-22 10:26:06] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.1.2.0.tar.gz tmp/mns_common-1.1.2.2.tar.gz --markdown 20240522/m/mns-common/1.1.2.0-1.1.2.2/README.md --exclude *.pyd
+[2024-05-22 10:26:06] INFO root fetch - processPackages [tgadmin]: executing diffoscope
+[2024-05-22 10:26:06] INFO root fetch - processPackages [tgadmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgadmin-0.9.0.tar.gz tmp/tgadmin-0.9.1.tar.gz --markdown 20240522/t/tgadmin/0.9.0-0.9.1/README.md --exclude *.pyd
+[2024-05-22 10:26:06] INFO root fetch - processPackages [btc-embedded]: executing diffoscope
+[2024-05-22 10:26:06] INFO root fetch - processPackages [btc-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btc_embedded-24.1.5.tar.gz tmp/btc_embedded-24.1.6.tar.gz --markdown 20240522/b/btc-embedded/24.1.5-24.1.6/README.md --exclude *.pyd
+[2024-05-22 10:26:06] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.1.1.tar.gz]
+[2024-05-22 10:26:06] INFO root fetch - processPackages [vbpy]: Remove: archive file [/home/abi/fetcher/tmp/vbpy-2.1.2.tar.gz]
+[2024-05-22 10:26:06] INFO root fetch - main [MainThread]: End processing [vbpy]: success
+[2024-05-22 10:26:07] INFO root fetch - processPackages [omnikeeper-client]: Remove: archive file [/home/abi/fetcher/tmp/omnikeeper_client-5.4.0-py3-none-any.whl.zip]
+[2024-05-22 10:26:07] INFO root fetch - processPackages [omnikeeper-client]: Remove: archive file [/home/abi/fetcher/tmp/omnikeeper_client-6.0.0-py3-none-any.whl.zip]
+[2024-05-22 10:26:07] INFO root fetch - main [MainThread]: End processing [omnikeeper-client]: success
+[2024-05-22 10:26:07] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.8.tar.gz]
+[2024-05-22 10:26:07] INFO root fetch - processPackages [wah]: Remove: archive file [/home/abi/fetcher/tmp/wah-0.1.9.tar.gz]
+[2024-05-22 10:26:07] INFO root fetch - main [MainThread]: End processing [wah]: success
+[2024-05-22 10:26:07] INFO root fetch - processPackages [patchpy]: Remove: archive file [/home/abi/fetcher/tmp/patchpy-2.0.1.tar.gz]
+[2024-05-22 10:26:07] INFO root fetch - processPackages [patchpy]: Remove: archive file [/home/abi/fetcher/tmp/patchpy-2.0.2.tar.gz]
+[2024-05-22 10:26:07] INFO root fetch - main [MainThread]: End processing [patchpy]: success
+[2024-05-22 10:26:07] INFO root fetch - processPackages [tgadmin]: Remove: archive file [/home/abi/fetcher/tmp/tgadmin-0.9.0.tar.gz]
+[2024-05-22 10:26:07] INFO root fetch - processPackages [tgadmin]: Remove: archive file [/home/abi/fetcher/tmp/tgadmin-0.9.1.tar.gz]
+[2024-05-22 10:26:07] INFO root fetch - main [MainThread]: End processing [tgadmin]: success
+[2024-05-22 10:26:07] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.5.tar.gz]
+[2024-05-22 10:26:07] INFO root fetch - processPackages [btc-embedded]: Remove: archive file [/home/abi/fetcher/tmp/btc_embedded-24.1.6.tar.gz]
+[2024-05-22 10:26:07] INFO root fetch - main [MainThread]: End processing [btc-embedded]: success
+[2024-05-22 10:26:07] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.2.0.tar.gz]
+[2024-05-22 10:26:07] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.1.2.2.tar.gz]
+[2024-05-22 10:26:07] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-05-22 10:26:07] INFO root fetch - main [MainThread]: Store serial: [23320843]

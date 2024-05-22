@@ -11533,3 +11533,15 @@
 [2024-05-22 06:56:28] INFO root fetch - processPackages [phidata]: Remove: archive file [/home/abi/fetcher/tmp/phidata-2.4.9.tar.gz]
 [2024-05-22 06:56:28] INFO root fetch - main [MainThread]: End processing [phidata]: success
 [2024-05-22 06:56:28] INFO root fetch - main [MainThread]: Store serial: [23318901]
+[2024-05-22 06:58:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23318901]
+[2024-05-22 06:58:37] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-05-22 06:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: audio-separator
+[2024-05-22 06:58:37] INFO root fetch - processPackages [audio-separator]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-05-22 06:58:37] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/db/93/9c9e5a71855de5f6721cb632a8b7f39c2222b6d91fa786832444797fc220/audio_separator-0.9.5.tar.gz
+[2024-05-22 06:58:37] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/02/e0/802f0c370b87eb4898db0bdf70f01171a743a04bc86cd3bbdda9c242f6cd/audio_separator-0.9.6.tar.gz
+[2024-05-22 06:58:37] INFO root fetch - processPackages [audio-separator]: executing diffoscope
+[2024-05-22 06:58:37] INFO root fetch - processPackages [audio-separator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_separator-0.9.5.tar.gz tmp/audio_separator-0.9.6.tar.gz --markdown 20240522/a/audio-separator/0.9.5-0.9.6/README.md --exclude *.pyd
+[2024-05-22 06:58:37] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.9.5.tar.gz]
+[2024-05-22 06:58:37] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.9.6.tar.gz]
+[2024-05-22 06:58:37] INFO root fetch - main [MainThread]: End processing [audio-separator]: success
+[2024-05-22 06:58:37] INFO root fetch - main [MainThread]: Store serial: [23318904]

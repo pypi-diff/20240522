@@ -13555,3 +13555,33 @@
 [2024-05-22 08:54:06] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-3.2.99.tar.gz]
 [2024-05-22 08:54:06] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2024-05-22 08:54:06] INFO root fetch - main [MainThread]: Store serial: [23319894]
+[2024-05-22 08:56:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319894]
+[2024-05-22 08:56:16] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-05-22 08:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uploadthing.py
+[2024-05-22 08:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-nightly
+[2024-05-22 08:56:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: studioai
+[2024-05-22 08:56:16] INFO root fetch - processPackages [uploadthing.py]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-05-22 08:56:16] INFO root fetch - processPackages [studioai]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-22 08:56:16] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.34.1.dev20240520] Old Version: [1.34.1.dev20240516]
+[2024-05-22 08:56:16] INFO root fetch - processPackages [uploadthing.py]: Downloading https://files.pythonhosted.org/packages/38/9c/752f667010bef49254f422ca9da8f0c986fb2380d2aee1f5ddb368028bec/uploadthing_py-0.3.1.tar.gz
+[2024-05-22 08:56:16] INFO root fetch - processPackages [studioai]: Downloading https://files.pythonhosted.org/packages/6c/f1/4640d8e5ba5bd3a2a3a7cf3bc24961b3b0dff9898ad35d19dcb85da2ab9d/studioai-0.2.8.tar.gz
+[2024-05-22 08:56:16] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/16/e7/cb7255e42d4278ee7260cdf40debccfcb5e964f8c1a697b8ebe77fe15d08/streamlit_nightly-1.34.1.dev20240516.tar.gz
+[2024-05-22 08:56:16] INFO root fetch - processPackages [studioai]: Downloading https://files.pythonhosted.org/packages/58/a1/98ab29ab0eb42a717c18dafe8d91270ead3cc54738b1d64db327046f4e73/studioai-0.2.9.tar.gz
+[2024-05-22 08:56:16] INFO root fetch - processPackages [uploadthing.py]: Downloading https://files.pythonhosted.org/packages/eb/58/dc37fbee0ffcf820bd046a48ad49c6a884e712c00bce2db81fb92fc66a19/uploadthing_py-0.3.2.tar.gz
+[2024-05-22 08:56:16] INFO root fetch - processPackages [studioai]: executing diffoscope
+[2024-05-22 08:56:16] INFO root fetch - processPackages [studioai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/studioai-0.2.8.tar.gz tmp/studioai-0.2.9.tar.gz --markdown 20240522/s/studioai/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-22 08:56:16] INFO root fetch - processPackages [uploadthing.py]: executing diffoscope
+[2024-05-22 08:56:16] INFO root fetch - processPackages [uploadthing.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uploadthing_py-0.3.1.tar.gz tmp/uploadthing_py-0.3.2.tar.gz --markdown 20240522/u/uploadthing.py/0.3.1-0.3.2/README.md --exclude *.pyd
+[2024-05-22 08:56:17] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/f4/dd/2278bbc7ffacf2c6f46a28743a35bc90613b3698867edb2ea7f1995da6d4/streamlit_nightly-1.34.1.dev20240520.tar.gz
+[2024-05-22 08:56:17] INFO root fetch - processPackages [uploadthing.py]: Remove: archive file [/home/abi/fetcher/tmp/uploadthing_py-0.3.1.tar.gz]
+[2024-05-22 08:56:17] INFO root fetch - processPackages [uploadthing.py]: Remove: archive file [/home/abi/fetcher/tmp/uploadthing_py-0.3.2.tar.gz]
+[2024-05-22 08:56:17] INFO root fetch - main [MainThread]: End processing [uploadthing.py]: success
+[2024-05-22 08:56:17] INFO root fetch - processPackages [studioai]: Remove: archive file [/home/abi/fetcher/tmp/studioai-0.2.8.tar.gz]
+[2024-05-22 08:56:17] INFO root fetch - processPackages [studioai]: Remove: archive file [/home/abi/fetcher/tmp/studioai-0.2.9.tar.gz]
+[2024-05-22 08:56:17] INFO root fetch - main [MainThread]: End processing [studioai]: success
+[2024-05-22 08:56:17] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-05-22 08:56:17] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_nightly-1.34.1.dev20240516.tar.gz tmp/streamlit_nightly-1.34.1.dev20240520.tar.gz --markdown 20240522/s/streamlit-nightly/1.34.1.dev20240516-1.34.1.dev20240520/README.md --exclude *.pyd
+[2024-05-22 08:56:49] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.34.1.dev20240516.tar.gz]
+[2024-05-22 08:56:49] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_nightly-1.34.1.dev20240520.tar.gz]
+[2024-05-22 08:56:49] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-05-22 08:56:49] INFO root fetch - main [MainThread]: Store serial: [23319903]

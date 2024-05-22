@@ -20551,3 +20551,57 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 13:01:47] INFO root fetch - processPackages [generalindex]: Remove: archive file [/home/abi/fetcher/tmp/generalindex-0.2.2.tar.gz]
 [2024-05-22 13:01:47] INFO root fetch - main [MainThread]: End processing [generalindex]: success
 [2024-05-22 13:01:47] INFO root fetch - main [MainThread]: Store serial: [23322790]
+[2024-05-22 13:03:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322790]
+[2024-05-22 13:03:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-05-22 13:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gnosis-epl
+[2024-05-22 13:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ibllib
+[2024-05-22 13:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: funcnodes
+[2024-05-22 13:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CalculateMean-Class
+[2024-05-22 13:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mumaxxr
+[2024-05-22 13:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pysql-repo
+[2024-05-22 13:03:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-model-manager
+[2024-05-22 13:03:56] WARNING root fetch - processPackages [CalculateMean-Class]: Skipping, unable to determine old version
+[2024-05-22 13:03:56] INFO root fetch - main [MainThread]: End processing [CalculateMean-Class] error
+[2024-05-22 13:03:56] INFO root fetch - processPackages [pysql-repo]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-05-22 13:03:56] INFO root fetch - processPackages [torch-model-manager]: New version: [0.4.0.dev2] Old Version: [0.4.0.dev1]
+[2024-05-22 13:03:56] INFO root fetch - processPackages [mumaxxr]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 13:03:56] INFO root fetch - processPackages [funcnodes]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-22 13:03:56] INFO root fetch - processPackages [ibllib]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-05-22 13:03:56] WARNING root fetch - processPackages [gnosis-epl]: Skipping, unable to determine old version
+[2024-05-22 13:03:56] INFO root fetch - main [MainThread]: End processing [gnosis-epl] error
+[2024-05-22 13:03:56] INFO root fetch - processPackages [pysql-repo]: Downloading https://files.pythonhosted.org/packages/72/a5/b264d60e40a3cd338c8b8a5b4be8d954cab8fde6b465f64adb6cd012b246/pysql-repo-0.7.0.tar.gz
+[2024-05-22 13:03:56] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/f2/54/293f84247bbc0f6f8495a40e16d701ecfe4f49ea5a393ddcc30ce2ec3325/torch_model_manager-0.4.0.dev1.tar.gz
+[2024-05-22 13:03:56] INFO root fetch - processPackages [ibllib]: Downloading https://files.pythonhosted.org/packages/ab/89/44c95a037d76b6889d7b1fff4e582da5f6dd09e65a3587c657816840b22a/ibllib-2.9.0.tar.gz
+[2024-05-22 13:03:56] INFO root fetch - processPackages [pysql-repo]: Downloading https://files.pythonhosted.org/packages/38/66/4dc043ac5966f0e8efc9222f199c2089571150058619b8b7e65efe45a9cf/pysql-repo-0.7.1.tar.gz
+[2024-05-22 13:03:56] INFO root fetch - processPackages [mumaxxr]: Downloading https://files.pythonhosted.org/packages/c8/95/2afa230cd66daec38c992304569a6cdf5a7b579d45b207b22dfd794628d6/mumaxxr-0.0.8.tar.gz
+[2024-05-22 13:03:56] INFO root fetch - processPackages [funcnodes]: Downloading https://files.pythonhosted.org/packages/41/e9/f6d85ce69f932d3d49ed6ffd73370a498efcc151703809f4996b1b809ffa/funcnodes-0.2.8.tar.gz
+[2024-05-22 13:03:56] INFO root fetch - processPackages [torch-model-manager]: Downloading https://files.pythonhosted.org/packages/7b/74/7c14c634f791cd4fd68a375561b4f500302195c619dbe652a04134de544e/torch_model_manager-0.4.0.dev2.tar.gz
+[2024-05-22 13:03:56] INFO root fetch - processPackages [pysql-repo]: executing diffoscope
+[2024-05-22 13:03:56] INFO root fetch - processPackages [pysql-repo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysql-repo-0.7.0.tar.gz tmp/pysql-repo-0.7.1.tar.gz --markdown 20240522/p/pysql-repo/0.7.0-0.7.1/README.md --exclude *.pyd
+[2024-05-22 13:03:56] INFO root fetch - processPackages [torch-model-manager]: executing diffoscope
+[2024-05-22 13:03:56] INFO root fetch - processPackages [torch-model-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_manager-0.4.0.dev1.tar.gz tmp/torch_model_manager-0.4.0.dev2.tar.gz --markdown 20240522/t/torch-model-manager/0.4.0.dev1-0.4.0.dev2/README.md --exclude *.pyd
+[2024-05-22 13:03:56] INFO root fetch - processPackages [mumaxxr]: Downloading https://files.pythonhosted.org/packages/7f/dc/e49a1902e77b73dd24e867b7c7ab679671fe5c36f285844b887591944ffc/mumaxxr-0.0.9.tar.gz
+[2024-05-22 13:03:57] INFO root fetch - processPackages [mumaxxr]: executing diffoscope
+[2024-05-22 13:03:57] INFO root fetch - processPackages [mumaxxr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mumaxxr-0.0.8.tar.gz tmp/mumaxxr-0.0.9.tar.gz --markdown 20240522/m/mumaxxr/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 13:03:57] INFO root fetch - processPackages [funcnodes]: Downloading https://files.pythonhosted.org/packages/13/3c/de4ac3d4d4a5996bc99f2d808fbb482979d33115bae4a12e7f864cafbe8d/funcnodes-0.2.9.tar.gz
+[2024-05-22 13:03:57] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev1.tar.gz]
+[2024-05-22 13:03:57] INFO root fetch - processPackages [torch-model-manager]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_manager-0.4.0.dev2.tar.gz]
+[2024-05-22 13:03:57] INFO root fetch - main [MainThread]: End processing [torch-model-manager]: success
+[2024-05-22 13:03:57] INFO root fetch - processPackages [pysql-repo]: Remove: archive file [/home/abi/fetcher/tmp/pysql-repo-0.7.0.tar.gz]
+[2024-05-22 13:03:57] INFO root fetch - processPackages [pysql-repo]: Remove: archive file [/home/abi/fetcher/tmp/pysql-repo-0.7.1.tar.gz]
+[2024-05-22 13:03:57] INFO root fetch - main [MainThread]: End processing [pysql-repo]: success
+[2024-05-22 13:03:57] INFO root fetch - processPackages [mumaxxr]: Remove: archive file [/home/abi/fetcher/tmp/mumaxxr-0.0.8.tar.gz]
+[2024-05-22 13:03:57] INFO root fetch - processPackages [mumaxxr]: Remove: archive file [/home/abi/fetcher/tmp/mumaxxr-0.0.9.tar.gz]
+[2024-05-22 13:03:57] INFO root fetch - main [MainThread]: End processing [mumaxxr]: success
+[2024-05-22 13:03:57] INFO root fetch - processPackages [ibllib]: Downloading https://files.pythonhosted.org/packages/c5/45/5d61840e022b5979571f2e5f0e06601d558f19541bda74d82e3389bf7968/ibllib-2.9.1.tar.gz
+[2024-05-22 13:03:58] INFO root fetch - processPackages [funcnodes]: executing diffoscope
+[2024-05-22 13:03:58] INFO root fetch - processPackages [funcnodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcnodes-0.2.8.tar.gz tmp/funcnodes-0.2.9.tar.gz --markdown 20240522/f/funcnodes/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-22 13:03:59] INFO root fetch - processPackages [ibllib]: executing diffoscope
+[2024-05-22 13:03:59] INFO root fetch - processPackages [ibllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibllib-2.9.0.tar.gz tmp/ibllib-2.9.1.tar.gz --markdown 20240522/i/ibllib/2.9.0-2.9.1/README.md --exclude *.pyd
+[2024-05-22 13:03:59] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.8.tar.gz]
+[2024-05-22 13:03:59] INFO root fetch - processPackages [funcnodes]: Remove: archive file [/home/abi/fetcher/tmp/funcnodes-0.2.9.tar.gz]
+[2024-05-22 13:03:59] INFO root fetch - main [MainThread]: End processing [funcnodes]: success
+[2024-05-22 13:04:02] INFO root fetch - processPackages [ibllib]: Remove: archive file [/home/abi/fetcher/tmp/ibllib-2.9.0.tar.gz]
+[2024-05-22 13:04:02] INFO root fetch - processPackages [ibllib]: Remove: archive file [/home/abi/fetcher/tmp/ibllib-2.9.1.tar.gz]
+[2024-05-22 13:04:02] INFO root fetch - main [MainThread]: End processing [ibllib]: success
+[2024-05-22 13:04:02] INFO root fetch - main [MainThread]: Store serial: [23322810]

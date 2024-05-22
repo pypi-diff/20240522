@@ -13792,3 +13792,54 @@
 [2024-05-22 09:03:23] INFO root fetch - processPackages [odoo-addon-stock-move-line-auto-fill]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_move_line_auto_fill-16.0.1.1.0.1-py3-none-any.whl.zip]
 [2024-05-22 09:03:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-move-line-auto-fill]: success
 [2024-05-22 09:03:23] INFO root fetch - main [MainThread]: Store serial: [23319977]
+[2024-05-22 09:05:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319977]
+[2024-05-22 09:05:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-05-22 09:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: orbitkit
+[2024-05-22 09:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edx-api-client
+[2024-05-22 09:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: outpostcli
+[2024-05-22 09:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-auditor
+[2024-05-22 09:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: remotivelabs-cli
+[2024-05-22 09:05:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: UnityPredict
+[2024-05-22 09:05:32] INFO root fetch - processPackages [UnityPredict]: New version: [0.1.1] Old Version: [0.1]
+[2024-05-22 09:05:32] WARNING root fetch - processPackages [flask-auditor]: Skipping, unable to determine old version
+[2024-05-22 09:05:32] INFO root fetch - main [MainThread]: End processing [flask-auditor] error
+[2024-05-22 09:05:32] INFO root fetch - processPackages [outpostcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 09:05:32] INFO root fetch - processPackages [orbitkit]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-05-22 09:05:32] INFO root fetch - processPackages [edx-api-client]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-05-22 09:05:32] INFO root fetch - processPackages [remotivelabs-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-05-22 09:05:32] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/7e/e2/114a39eac567286d0418645c0ea24089c48fcbe4cccec6c79191a5cefccf/outpostcli-0.0.8.tar.gz
+[2024-05-22 09:05:32] INFO root fetch - processPackages [UnityPredict]: Downloading https://files.pythonhosted.org/packages/a5/08/cd39bfc6d2aaa3e76753328468415de21910e16834606136855e4a6f6cfd/UnityPredict-0.1.tar.gz
+[2024-05-22 09:05:32] INFO root fetch - processPackages [orbitkit]: Downloading https://files.pythonhosted.org/packages/18/89/2755abf3178b892ecd4f3c36da2219b286c1c9ed1f47f3459083e4ade82e/orbitkit-0.6.8.tar.gz
+[2024-05-22 09:05:32] INFO root fetch - processPackages [edx-api-client]: Downloading https://files.pythonhosted.org/packages/2a/b4/895f9dc52eacc0a2a8c3ee1e3a39c65e4cdcb34ab71d168ae3417e426faa/edx-api-client-1.8.0.tar.gz
+[2024-05-22 09:05:32] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/3b/fd/79e7ba716a05f515a6a688ad2370dff4d07c2222729e76ae6c60674682da/remotivelabs_cli-0.0.8.tar.gz
+[2024-05-22 09:05:32] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/df/ab/82b6853cec170d33c2aff19e3a298b0bf56f7ba1b885f6f7d42a10ae43dc/outpostcli-0.0.9.tar.gz
+[2024-05-22 09:05:32] INFO root fetch - processPackages [outpostcli]: executing diffoscope
+[2024-05-22 09:05:32] INFO root fetch - processPackages [outpostcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostcli-0.0.8.tar.gz tmp/outpostcli-0.0.9.tar.gz --markdown 20240522/o/outpostcli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 09:05:32] INFO root fetch - processPackages [UnityPredict]: Downloading https://files.pythonhosted.org/packages/c1/39/cf460b8c6ecf56d648bf26b02371bca5364e4d94281fa9e925f016789c1c/UnityPredict-0.1.1.tar.gz
+[2024-05-22 09:05:32] INFO root fetch - processPackages [UnityPredict]: executing diffoscope
+[2024-05-22 09:05:32] INFO root fetch - processPackages [UnityPredict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UnityPredict-0.1.tar.gz tmp/UnityPredict-0.1.1.tar.gz --markdown 20240522/U/UnityPredict/0.1-0.1.1/README.md --exclude *.pyd
+[2024-05-22 09:05:33] INFO root fetch - processPackages [orbitkit]: Downloading https://files.pythonhosted.org/packages/1b/a0/95188ed3be742b8b2922d74e649ae8fd06cfe1fb9b374be3a4454bfd0f57/orbitkit-0.6.9.tar.gz
+[2024-05-22 09:05:33] INFO root fetch - processPackages [edx-api-client]: Downloading https://files.pythonhosted.org/packages/d3/6a/c5ff8ddbea3d09c30d01ab0abff07dbd95511b0514b54ddff59384023578/edx-api-client-1.9.0.tar.gz
+[2024-05-22 09:05:33] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/0c/3e/84ff7ca9531958216971482f3794fba3c060ca8d5817d6d05e8b1fefdfa4/remotivelabs_cli-0.0.9.tar.gz
+[2024-05-22 09:05:33] INFO root fetch - processPackages [orbitkit]: executing diffoscope
+[2024-05-22 09:05:33] INFO root fetch - processPackages [orbitkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbitkit-0.6.8.tar.gz tmp/orbitkit-0.6.9.tar.gz --markdown 20240522/o/orbitkit/0.6.8-0.6.9/README.md --exclude *.pyd
+[2024-05-22 09:05:33] INFO root fetch - processPackages [edx-api-client]: executing diffoscope
+[2024-05-22 09:05:33] INFO root fetch - processPackages [edx-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-api-client-1.8.0.tar.gz tmp/edx-api-client-1.9.0.tar.gz --markdown 20240522/e/edx-api-client/1.8.0-1.9.0/README.md --exclude *.pyd
+[2024-05-22 09:05:33] INFO root fetch - processPackages [remotivelabs-cli]: executing diffoscope
+[2024-05-22 09:05:33] INFO root fetch - processPackages [remotivelabs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotivelabs_cli-0.0.8.tar.gz tmp/remotivelabs_cli-0.0.9.tar.gz --markdown 20240522/r/remotivelabs-cli/0.0.8-0.0.9/README.md --exclude *.pyd
+[2024-05-22 09:05:33] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.8.tar.gz]
+[2024-05-22 09:05:33] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.9.tar.gz]
+[2024-05-22 09:05:33] INFO root fetch - main [MainThread]: End processing [outpostcli]: success
+[2024-05-22 09:05:33] INFO root fetch - processPackages [UnityPredict]: Remove: archive file [/home/abi/fetcher/tmp/UnityPredict-0.1.tar.gz]
+[2024-05-22 09:05:33] INFO root fetch - processPackages [UnityPredict]: Remove: archive file [/home/abi/fetcher/tmp/UnityPredict-0.1.1.tar.gz]
+[2024-05-22 09:05:33] INFO root fetch - main [MainThread]: End processing [UnityPredict]: success
+[2024-05-22 09:05:33] INFO root fetch - processPackages [orbitkit]: Remove: archive file [/home/abi/fetcher/tmp/orbitkit-0.6.8.tar.gz]
+[2024-05-22 09:05:33] INFO root fetch - processPackages [orbitkit]: Remove: archive file [/home/abi/fetcher/tmp/orbitkit-0.6.9.tar.gz]
+[2024-05-22 09:05:33] INFO root fetch - main [MainThread]: End processing [orbitkit]: success
+[2024-05-22 09:05:34] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.8.tar.gz]
+[2024-05-22 09:05:34] INFO root fetch - processPackages [edx-api-client]: Remove: archive file [/home/abi/fetcher/tmp/edx-api-client-1.8.0.tar.gz]
+[2024-05-22 09:05:34] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.9.tar.gz]
+[2024-05-22 09:05:34] INFO root fetch - processPackages [edx-api-client]: Remove: archive file [/home/abi/fetcher/tmp/edx-api-client-1.9.0.tar.gz]
+[2024-05-22 09:05:34] INFO root fetch - main [MainThread]: End processing [remotivelabs-cli]: success
+[2024-05-22 09:05:34] INFO root fetch - main [MainThread]: End processing [edx-api-client]: success
+[2024-05-22 09:05:34] INFO root fetch - main [MainThread]: Store serial: [23319994]

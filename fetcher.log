@@ -3560,3 +3560,45 @@
 [2024-05-22 02:58:44] INFO root fetch - processPackages [kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/kubernetes-9.0.1.tar.gz]
 [2024-05-22 02:58:44] INFO root fetch - main [MainThread]: End processing [kubernetes]: success
 [2024-05-22 02:58:44] INFO root fetch - main [MainThread]: Store serial: [23315811]
+[2024-05-22 03:00:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23315811]
+[2024-05-22 03:00:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-05-22 03:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ragdaemon
+[2024-05-22 03:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyterlab-athena-analytics
+[2024-05-22 03:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ninjax
+[2024-05-22 03:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index-tools-cassandra
+[2024-05-22 03:00:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dyff-schema
+[2024-05-22 03:00:53] INFO root fetch - processPackages [ragdaemon]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-05-22 03:00:53] INFO root fetch - processPackages [jupyterlab-athena-analytics]: New version: [0.5.9] Old Version: [0.5.7]
+[2024-05-22 03:00:53] INFO root fetch - processPackages [dyff-schema]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-05-22 03:00:53] INFO root fetch - processPackages [ninjax]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-05-22 03:00:53] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/77/38/06722f2c8e0b8e7486f423951b4479da06063ad885af3ee1cacab9d16cd3/ragdaemon-0.5.4.tar.gz
+[2024-05-22 03:00:53] WARNING root fetch - processPackages [llama-index-tools-cassandra]: Skipping, unable to determine old version
+[2024-05-22 03:00:53] INFO root fetch - main [MainThread]: End processing [llama-index-tools-cassandra] error
+[2024-05-22 03:00:53] INFO root fetch - processPackages [jupyterlab-athena-analytics]: Downloading https://files.pythonhosted.org/packages/d7/48/43a934af56b4f1d6cb851ade783b0bdf327608810b98c7f6e5cd5b503de5/jupyterlab_athena_analytics-0.5.7.tar.gz
+[2024-05-22 03:00:53] INFO root fetch - processPackages [dyff-schema]: Downloading https://files.pythonhosted.org/packages/62/14/806b23e5f176d9995ffdf2d76c958d2f5433f8e2a74fd7eb8b31ef22db00/dyff_schema-0.6.0.tar.gz
+[2024-05-22 03:00:53] INFO root fetch - processPackages [ninjax]: Downloading https://files.pythonhosted.org/packages/bc/25/a39fd538a910a59850254bbc24595a2f66459af06e4f140de77afffa13e5/ninjax-2.4.0.tar.gz
+[2024-05-22 03:00:53] INFO root fetch - processPackages [dyff-schema]: Downloading https://files.pythonhosted.org/packages/22/aa/313b55146507f6ba0c2a0719cf07434aaba0f4993834e7587a1b683bf186/dyff_schema-0.7.0.tar.gz
+[2024-05-22 03:00:53] INFO root fetch - processPackages [ragdaemon]: Downloading https://files.pythonhosted.org/packages/82/ed/43ca0f0c27a0e1d6afb962ee5daec7c4d7d9825bd3283b87ff3815a2d77c/ragdaemon-0.5.5.tar.gz
+[2024-05-22 03:00:53] INFO root fetch - processPackages [jupyterlab-athena-analytics]: Downloading https://files.pythonhosted.org/packages/f2/63/89fe836a049d8aa5642538cd88ae33d8083e6e397e6e479fab4754961703/jupyterlab_athena_analytics-0.5.9-py3-none-any.whl
+[2024-05-22 03:00:53] INFO root fetch - processPackages [jupyterlab-athena-analytics]: executing diffoscope
+[2024-05-22 03:00:53] INFO root fetch - processPackages [jupyterlab-athena-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_athena_analytics-0.5.7.tar.gz tmp/jupyterlab_athena_analytics-0.5.9-py3-none-any.whl.zip --markdown 20240522/j/jupyterlab-athena-analytics/0.5.7-0.5.9/README.md --exclude *.pyd
+[2024-05-22 03:00:53] INFO root fetch - processPackages [dyff-schema]: executing diffoscope
+[2024-05-22 03:00:53] INFO root fetch - processPackages [dyff-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyff_schema-0.6.0.tar.gz tmp/dyff_schema-0.7.0.tar.gz --markdown 20240522/d/dyff-schema/0.6.0-0.7.0/README.md --exclude *.pyd
+[2024-05-22 03:00:53] INFO root fetch - processPackages [ragdaemon]: executing diffoscope
+[2024-05-22 03:00:53] INFO root fetch - processPackages [ragdaemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragdaemon-0.5.4.tar.gz tmp/ragdaemon-0.5.5.tar.gz --markdown 20240522/r/ragdaemon/0.5.4-0.5.5/README.md --exclude *.pyd
+[2024-05-22 03:00:54] INFO root fetch - processPackages [ninjax]: Downloading https://files.pythonhosted.org/packages/06/54/92b5165a0b0cc230fbcb0940f368e9d95b32afac213207dc5376cf7aad24/ninjax-2.4.1.tar.gz
+[2024-05-22 03:00:54] INFO root fetch - processPackages [ninjax]: executing diffoscope
+[2024-05-22 03:00:54] INFO root fetch - processPackages [ninjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjax-2.4.0.tar.gz tmp/ninjax-2.4.1.tar.gz --markdown 20240522/n/ninjax/2.4.0-2.4.1/README.md --exclude *.pyd
+[2024-05-22 03:00:54] INFO root fetch - processPackages [jupyterlab-athena-analytics]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_athena_analytics-0.5.7.tar.gz]
+[2024-05-22 03:00:54] INFO root fetch - processPackages [jupyterlab-athena-analytics]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_athena_analytics-0.5.9-py3-none-any.whl.zip]
+[2024-05-22 03:00:54] INFO root fetch - main [MainThread]: End processing [jupyterlab-athena-analytics]: success
+[2024-05-22 03:00:54] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.5.4.tar.gz]
+[2024-05-22 03:00:54] INFO root fetch - processPackages [ragdaemon]: Remove: archive file [/home/abi/fetcher/tmp/ragdaemon-0.5.5.tar.gz]
+[2024-05-22 03:00:54] INFO root fetch - main [MainThread]: End processing [ragdaemon]: success
+[2024-05-22 03:00:54] INFO root fetch - processPackages [ninjax]: Remove: archive file [/home/abi/fetcher/tmp/ninjax-2.4.0.tar.gz]
+[2024-05-22 03:00:54] INFO root fetch - processPackages [ninjax]: Remove: archive file [/home/abi/fetcher/tmp/ninjax-2.4.1.tar.gz]
+[2024-05-22 03:00:54] INFO root fetch - main [MainThread]: End processing [ninjax]: success
+[2024-05-22 03:00:54] INFO root fetch - processPackages [dyff-schema]: Remove: archive file [/home/abi/fetcher/tmp/dyff_schema-0.6.0.tar.gz]
+[2024-05-22 03:00:54] INFO root fetch - processPackages [dyff-schema]: Remove: archive file [/home/abi/fetcher/tmp/dyff_schema-0.7.0.tar.gz]
+[2024-05-22 03:00:54] INFO root fetch - main [MainThread]: End processing [dyff-schema]: success
+[2024-05-22 03:00:54] INFO root fetch - main [MainThread]: Store serial: [23315827]

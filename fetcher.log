@@ -15848,3 +15848,42 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 10:19:33] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.9-py3-none-any.whl.zip]
 [2024-05-22 10:19:33] INFO root fetch - main [MainThread]: End processing [vuer]: success
 [2024-05-22 10:19:33] INFO root fetch - main [MainThread]: Store serial: [23320808]
+[2024-05-22 10:21:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23320808]
+[2024-05-22 10:21:42] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 10:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CRUDFastAPI
+[2024-05-22 10:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipxu
+[2024-05-22 10:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fleekapi
+[2024-05-22 10:21:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: angle-emb
+[2024-05-22 10:21:42] INFO root fetch - processPackages [CRUDFastAPI]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-05-22 10:21:42] INFO root fetch - processPackages [angle-emb]: New version: [0.4.0] Old Version: [0.3.9]
+[2024-05-22 10:21:42] INFO root fetch - processPackages [pipxu]: New version: [1.9] Old Version: [1.8]
+[2024-05-22 10:21:42] INFO root fetch - processPackages [angle-emb]: Downloading https://files.pythonhosted.org/packages/1c/10/14cf78b566948a70dd62efa906e4879f4677bdb1d046db5cd4b3027eda5b/angle_emb-0.3.9.tar.gz
+[2024-05-22 10:21:42] INFO root fetch - processPackages [fleekapi]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-05-22 10:21:42] INFO root fetch - processPackages [CRUDFastAPI]: Downloading https://files.pythonhosted.org/packages/40/eb/e058509e69d2604f2d81b8291cf7b2c73c309c0478195a0978e1e2f6c5a2/crudfastapi-0.0.4.tar.gz
+[2024-05-22 10:21:43] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/cc/eb/3ab46d9459683b712238c934e0771e68d18f501630f0c699727047a9291f/pipxu-1.8.tar.gz
+[2024-05-22 10:21:43] INFO root fetch - processPackages [fleekapi]: Downloading https://files.pythonhosted.org/packages/e3/4b/9bd2f4235e523deb8949625044f4fcee9391f518ecf05ee72705ebe11160/fleekapi-0.2.5.tar.gz
+[2024-05-22 10:21:43] INFO root fetch - processPackages [angle-emb]: Downloading https://files.pythonhosted.org/packages/5d/47/17ca04e2ee63bf77357a60e6df811b686b0a865abca68dc3370df7d0bc07/angle_emb-0.4.0.tar.gz
+[2024-05-22 10:21:43] INFO root fetch - processPackages [angle-emb]: executing diffoscope
+[2024-05-22 10:21:43] INFO root fetch - processPackages [angle-emb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/angle_emb-0.3.9.tar.gz tmp/angle_emb-0.4.0.tar.gz --markdown 20240522/a/angle-emb/0.3.9-0.4.0/README.md --exclude *.pyd
+[2024-05-22 10:21:43] INFO root fetch - processPackages [CRUDFastAPI]: Downloading https://files.pythonhosted.org/packages/ea/f7/c4861a55ab1d26d63d7eb842012611fe60bf44245c93e605185e23d4837e/crudfastapi-0.0.5.tar.gz
+[2024-05-22 10:21:43] INFO root fetch - processPackages [CRUDFastAPI]: executing diffoscope
+[2024-05-22 10:21:43] INFO root fetch - processPackages [CRUDFastAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crudfastapi-0.0.4.tar.gz tmp/crudfastapi-0.0.5.tar.gz --markdown 20240522/C/CRUDFastAPI/0.0.4-0.0.5/README.md --exclude *.pyd
+[2024-05-22 10:21:43] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/8a/eb/90f5309214385256434dc7b634f8eee8a63edf311279c03abb59bc54c556/pipxu-1.9.tar.gz
+[2024-05-22 10:21:43] INFO root fetch - processPackages [fleekapi]: Downloading https://files.pythonhosted.org/packages/74/fa/15a20ef8cb5b1a2a27b15fea9a1a273981115ab635255be4e5b9927daf97/fleekapi-0.2.6.tar.gz
+[2024-05-22 10:21:43] INFO root fetch - processPackages [fleekapi]: executing diffoscope
+[2024-05-22 10:21:43] INFO root fetch - processPackages [fleekapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fleekapi-0.2.5.tar.gz tmp/fleekapi-0.2.6.tar.gz --markdown 20240522/f/fleekapi/0.2.5-0.2.6/README.md --exclude *.pyd
+[2024-05-22 10:21:43] INFO root fetch - processPackages [pipxu]: executing diffoscope
+[2024-05-22 10:21:43] INFO root fetch - processPackages [pipxu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipxu-1.8.tar.gz tmp/pipxu-1.9.tar.gz --markdown 20240522/p/pipxu/1.8-1.9/README.md --exclude *.pyd
+[2024-05-22 10:21:43] INFO root fetch - processPackages [angle-emb]: Remove: archive file [/home/abi/fetcher/tmp/angle_emb-0.3.9.tar.gz]
+[2024-05-22 10:21:43] INFO root fetch - processPackages [angle-emb]: Remove: archive file [/home/abi/fetcher/tmp/angle_emb-0.4.0.tar.gz]
+[2024-05-22 10:21:43] INFO root fetch - main [MainThread]: End processing [angle-emb]: success
+[2024-05-22 10:21:44] INFO root fetch - processPackages [CRUDFastAPI]: Remove: archive file [/home/abi/fetcher/tmp/crudfastapi-0.0.4.tar.gz]
+[2024-05-22 10:21:44] INFO root fetch - processPackages [CRUDFastAPI]: Remove: archive file [/home/abi/fetcher/tmp/crudfastapi-0.0.5.tar.gz]
+[2024-05-22 10:21:44] INFO root fetch - main [MainThread]: End processing [CRUDFastAPI]: success
+[2024-05-22 10:21:44] INFO root fetch - processPackages [fleekapi]: Remove: archive file [/home/abi/fetcher/tmp/fleekapi-0.2.5.tar.gz]
+[2024-05-22 10:21:44] INFO root fetch - processPackages [fleekapi]: Remove: archive file [/home/abi/fetcher/tmp/fleekapi-0.2.6.tar.gz]
+[2024-05-22 10:21:44] INFO root fetch - main [MainThread]: End processing [fleekapi]: success
+[2024-05-22 10:21:44] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.8.tar.gz]
+[2024-05-22 10:21:44] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.9.tar.gz]
+[2024-05-22 10:21:44] INFO root fetch - main [MainThread]: End processing [pipxu]: success
+[2024-05-22 10:21:44] INFO root fetch - main [MainThread]: Store serial: [23320820]

@@ -12882,3 +12882,24 @@
 [2024-05-22 08:11:58] INFO root fetch - processPackages [pulumi-openstack]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_openstack-4.0.0.tar.gz]
 [2024-05-22 08:11:58] INFO root fetch - main [MainThread]: End processing [pulumi-openstack]: success
 [2024-05-22 08:11:58] INFO root fetch - main [MainThread]: Store serial: [23319529]
+[2024-05-22 08:14:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23319529]
+[2024-05-22 08:14:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-05-22 08:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-report-wkhtmltopdf-param
+[2024-05-22 08:14:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: setup-django-apex
+[2024-05-22 08:14:10] INFO root fetch - processPackages [odoo-addon-report-wkhtmltopdf-param]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-05-22 08:14:10] INFO root fetch - processPackages [setup-django-apex]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-05-22 08:14:11] INFO root fetch - processPackages [odoo-addon-report-wkhtmltopdf-param]: Downloading https://files.pythonhosted.org/packages/71/5f/e7eb2a2b9258ff0920a98849451a6eeaef25ede42927adcffc97c88fe08b/odoo_addon_report_wkhtmltopdf_param-17.0.1.0.0.2-py3-none-any.whl
+[2024-05-22 08:14:11] INFO root fetch - processPackages [setup-django-apex]: Downloading https://files.pythonhosted.org/packages/40/04/ea61c9875f3fd9e33a445e5510ad3a7e1c05cb7588072884a32827eb011c/setup_django_apex-0.1.2.tar.gz
+[2024-05-22 08:14:11] INFO root fetch - processPackages [odoo-addon-report-wkhtmltopdf-param]: Downloading https://files.pythonhosted.org/packages/74/fd/e80dd5a04bcdbd79ca19fe5bbbf1c5de1f5373ad17bd12a60f916922b435/odoo_addon_report_wkhtmltopdf_param-17.0.1.0.0.3-py3-none-any.whl
+[2024-05-22 08:14:11] INFO root fetch - processPackages [setup-django-apex]: Downloading https://files.pythonhosted.org/packages/5e/32/cade4d7c4e17001b365d4bc6a4f17eff15c364184c2aabdcd7bd3af6e346/setup_django_apex-0.1.3-py3-none-any.whl
+[2024-05-22 08:14:11] INFO root fetch - processPackages [odoo-addon-report-wkhtmltopdf-param]: executing diffoscope
+[2024-05-22 08:14:11] INFO root fetch - processPackages [odoo-addon-report-wkhtmltopdf-param]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_report_wkhtmltopdf_param-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_report_wkhtmltopdf_param-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240522/o/odoo-addon-report-wkhtmltopdf-param/17.0.1.0.0.2-17.0.1.0.0.3/README.md --exclude *.pyd
+[2024-05-22 08:14:11] INFO root fetch - processPackages [setup-django-apex]: executing diffoscope
+[2024-05-22 08:14:11] INFO root fetch - processPackages [setup-django-apex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setup_django_apex-0.1.2.tar.gz tmp/setup_django_apex-0.1.3-py3-none-any.whl.zip --markdown 20240522/s/setup-django-apex/0.1.2-0.1.3/README.md --exclude *.pyd
+[2024-05-22 08:14:12] INFO root fetch - processPackages [setup-django-apex]: Remove: archive file [/home/abi/fetcher/tmp/setup_django_apex-0.1.2.tar.gz]
+[2024-05-22 08:14:12] INFO root fetch - processPackages [setup-django-apex]: Remove: archive file [/home/abi/fetcher/tmp/setup_django_apex-0.1.3-py3-none-any.whl.zip]
+[2024-05-22 08:14:12] INFO root fetch - main [MainThread]: End processing [setup-django-apex]: success
+[2024-05-22 08:14:12] INFO root fetch - processPackages [odoo-addon-report-wkhtmltopdf-param]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_wkhtmltopdf_param-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-05-22 08:14:12] INFO root fetch - processPackages [odoo-addon-report-wkhtmltopdf-param]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_report_wkhtmltopdf_param-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-05-22 08:14:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-report-wkhtmltopdf-param]: success
+[2024-05-22 08:14:12] INFO root fetch - main [MainThread]: Store serial: [23319533]

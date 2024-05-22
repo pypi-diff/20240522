@@ -21102,3 +21102,104 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 13:23:33] INFO root fetch - processPackages [MindsDB]: Remove: archive file [/home/abi/fetcher/tmp/MindsDB-24.5.4.0.tar.gz]
 [2024-05-22 13:23:33] INFO root fetch - main [MainThread]: End processing [MindsDB]: success
 [2024-05-22 13:23:33] INFO root fetch - main [MainThread]: Store serial: [23323087]
+[2024-05-22 13:25:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323087]
+[2024-05-22 13:25:42] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-05-22 13:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snakesays
+[2024-05-22 13:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: insuranceqa-data
+[2024-05-22 13:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honeybee-radiance
+[2024-05-22 13:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: solar-registry
+[2024-05-22 13:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-core-xe-21
+[2024-05-22 13:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipydatagrid
+[2024-05-22 13:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchx-nightly
+[2024-05-22 13:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ul-api-utils
+[2024-05-22 13:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: so-vits-svc-fork
+[2024-05-22 13:25:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lusid-workflow-sdk
+[2024-05-22 13:25:42] INFO root fetch - processPackages [snakesays]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-05-22 13:25:42] INFO root fetch - processPackages [solar-registry]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-05-22 13:25:42] INFO root fetch - processPackages [lusid-workflow-sdk]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-05-22 13:25:42] INFO root fetch - processPackages [torchx-nightly]: New version: [2024.5.9] Old Version: [2024.5.8]
+[2024-05-22 13:25:42] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240522] Old Version: [2.5.0b20240521]
+[2024-05-22 13:25:42] INFO root fetch - processPackages [snakesays]: Downloading https://files.pythonhosted.org/packages/a9/03/a187a86ef5504f25263c3238b5dd5fb924ab25e5b1759808ce3732c34f5e/snakesays-1.2.2.tar.gz
+[2024-05-22 13:25:42] INFO root fetch - processPackages [ipydatagrid]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-05-22 13:25:42] INFO root fetch - processPackages [ul-api-utils]: New version: [7.9.7] Old Version: [7.9.6]
+[2024-05-22 13:25:42] INFO root fetch - processPackages [insuranceqa-data]: New version: [2.5.3] Old Version: [2.5.2]
+[2024-05-22 13:25:42] INFO root fetch - processPackages [so-vits-svc-fork]: New version: [4.2.7] Old Version: [4.2.6]
+[2024-05-22 13:25:42] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-05-22 13:25:43] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/0e/f2/d054c6d47257d36b6862b3c6612ca69f03a2aa4b63af145d0ea8a522075a/solar_registry-0.2.8.tar.gz
+[2024-05-22 13:25:43] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/d5/b7/0c32c08fe0b3327878c0d7b7006b46298b3dca469a326a75a439bfd0f0f1/lusid_workflow_sdk-2.1.8.tar.gz
+[2024-05-22 13:25:43] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/4f/2c/1b1fd11c1eb29345cef72d90c551ee6ca39cb1ca91dcb13a62e39d09d3e9/torchx_nightly-2024.5.8-py3-none-any.whl
+[2024-05-22 13:25:43] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/68/f3/e711868d552e59466087bb345595fe2691983a806e53086e9847d728eda2/bigdl_core_xe_21-2.5.0b20240521-cp39-cp39-win_amd64.whl
+[2024-05-22 13:25:43] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/20/cb/18f5c35ecf95a42ac53501b019c346475569596b1f49218042569a8384f4/ul-api-utils-7.9.6.tar.gz
+[2024-05-22 13:25:43] INFO root fetch - processPackages [insuranceqa-data]: Downloading https://files.pythonhosted.org/packages/d0/f3/ff1760609a5dc2c7d92e1fe4f4c285c11ee938144a93efe79236b0b9f54c/insuranceqa_data-2.5.2.tar.gz
+[2024-05-22 13:25:43] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 33865153>=10485760
+[2024-05-22 13:25:43] INFO root fetch - processPackages [bigdl-core-xe-21]: Start processing: AAVT
+[2024-05-22 13:25:43] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-05-22 13:25:43] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/48/ae/cca3e8aac6a72593fde7860cbf91882050c1a465c316efc2e0472bfa36e1/honeybee-radiance-1.9.1.tar.gz
+[2024-05-22 13:25:43] INFO root fetch - processPackages [snakesays]: Downloading https://files.pythonhosted.org/packages/d7/d2/c23359732ef99ca33636978f0c84c390ee1383898d3521a6903fec096dd3/snakesays-1.2.3.tar.gz
+[2024-05-22 13:25:43] INFO root fetch - processPackages [so-vits-svc-fork]: Downloading https://files.pythonhosted.org/packages/41/b1/ce149234f1447dbfc0bda21df05e8271eaf79ce8cea5f5e58ce39592f777/so_vits_svc_fork-4.2.6.tar.gz
+[2024-05-22 13:25:43] INFO root fetch - processPackages [ipydatagrid]: Downloading https://files.pythonhosted.org/packages/31/fa/5100bd4d89d20f12cab2822476460dbbd51e045ab466c70b4d9048ad26b8/ipydatagrid-1.3.1.tar.gz
+[2024-05-22 13:25:43] INFO root fetch - processPackages [AAVT]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-05-22 13:25:43] INFO root fetch - processPackages [solar-registry]: Downloading https://files.pythonhosted.org/packages/cd/40/34eee216b08c5fa01cbb36635892aad7693c83fa5e87387b29ae05c737f0/solar_registry-0.2.9.tar.gz
+[2024-05-22 13:25:43] INFO root fetch - processPackages [snakesays]: executing diffoscope
+[2024-05-22 13:25:43] INFO root fetch - processPackages [snakesays]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakesays-1.2.2.tar.gz tmp/snakesays-1.2.3.tar.gz --markdown 20240522/s/snakesays/1.2.2-1.2.3/README.md --exclude *.pyd
+[2024-05-22 13:25:43] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/23/c0/5f5908f038983f29f46a445ed5ff331d6086d5c6cb128e4502bf223fd90b/lusid_workflow_sdk-2.1.9.tar.gz
+[2024-05-22 13:25:43] INFO root fetch - processPackages [AAVT]: Downloading https://files.pythonhosted.org/packages/f8/0f/abaa229f21e026fddf995f80ba931afb98e7a6bc39c1f812e650126f13af/AAVT-0.0.2.tar.gz
+[2024-05-22 13:25:43] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/77/19/3475ceeec15466054f155b399d006faaf128258c35d771397c04ac9cf1e4/torchx_nightly-2024.5.9-py3-none-any.whl
+[2024-05-22 13:25:43] INFO root fetch - processPackages [solar-registry]: executing diffoscope
+[2024-05-22 13:25:43] INFO root fetch - processPackages [solar-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solar_registry-0.2.8.tar.gz tmp/solar_registry-0.2.9.tar.gz --markdown 20240522/s/solar-registry/0.2.8-0.2.9/README.md --exclude *.pyd
+[2024-05-22 13:25:43] INFO root fetch - processPackages [insuranceqa-data]: Downloading https://files.pythonhosted.org/packages/f7/d2/208c56930ec4cebde5874bb9eeda2ea4dab26b2689f3761f124bf3e535e5/insuranceqa_data-2.5.3.tar.gz
+[2024-05-22 13:25:43] INFO root fetch - processPackages [lusid-workflow-sdk]: executing diffoscope
+[2024-05-22 13:25:43] INFO root fetch - processPackages [lusid-workflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_workflow_sdk-2.1.8.tar.gz tmp/lusid_workflow_sdk-2.1.9.tar.gz --markdown 20240522/l/lusid-workflow-sdk/2.1.8-2.1.9/README.md --exclude *.pyd
+[2024-05-22 13:25:43] INFO root fetch - processPackages [ul-api-utils]: Downloading https://files.pythonhosted.org/packages/c4/89/09d71c590f3070768b33dab7fafb43e7d1a0a57404f93d79a54515b6d7d4/ul-api-utils-7.9.7.tar.gz
+[2024-05-22 13:25:43] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2024-05-22 13:25:43] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip --markdown 20240522/t/torchx-nightly/2024.5.8-2024.5.9/README.md --exclude *.pyd
+[2024-05-22 13:25:43] INFO root fetch - processPackages [so-vits-svc-fork]: Downloading https://files.pythonhosted.org/packages/5c/70/0ffbc2020a2f9cc58475710058fc16dac15034a6681834c8b7e5471317e9/so_vits_svc_fork-4.2.7.tar.gz
+[2024-05-22 13:25:43] INFO root fetch - processPackages [insuranceqa-data]: executing diffoscope
+[2024-05-22 13:25:43] INFO root fetch - processPackages [insuranceqa-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/insuranceqa_data-2.5.2.tar.gz tmp/insuranceqa_data-2.5.3.tar.gz --markdown 20240522/i/insuranceqa-data/2.5.2-2.5.3/README.md --exclude *.pyd
+[2024-05-22 13:25:43] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/50/24/71a3a4863bb39caef68dcd79f1b380133b1f1968426af26bc9c4812376d1/honeybee-radiance-1.9.2.tar.gz
+[2024-05-22 13:25:43] INFO root fetch - processPackages [ul-api-utils]: executing diffoscope
+[2024-05-22 13:25:43] INFO root fetch - processPackages [ul-api-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-api-utils-7.9.6.tar.gz tmp/ul-api-utils-7.9.7.tar.gz --markdown 20240522/u/ul-api-utils/7.9.6-7.9.7/README.md --exclude *.pyd
+[2024-05-22 13:25:43] INFO root fetch - processPackages [AAVT]: Downloading https://files.pythonhosted.org/packages/ff/79/5dfe482f6e8ad1c0d68638a588bdc786ccc01249dca5e5d2c9c51567c123/AAVT-0.0.3.tar.gz
+[2024-05-22 13:25:43] INFO root fetch - processPackages [so-vits-svc-fork]: executing diffoscope
+[2024-05-22 13:25:43] INFO root fetch - processPackages [so-vits-svc-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so_vits_svc_fork-4.2.6.tar.gz tmp/so_vits_svc_fork-4.2.7.tar.gz --markdown 20240522/s/so-vits-svc-fork/4.2.6-4.2.7/README.md --exclude *.pyd
+[2024-05-22 13:25:43] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2024-05-22 13:25:43] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20240522/h/honeybee-radiance/1.9.1-1.9.2/README.md --exclude *.pyd
+[2024-05-22 13:25:44] INFO root fetch - processPackages [AAVT]: executing diffoscope
+[2024-05-22 13:25:44] INFO root fetch - processPackages [AAVT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AAVT-0.0.2.tar.gz tmp/AAVT-0.0.3.tar.gz --markdown 20240522/A/AAVT/0.0.2-0.0.3/README.md --exclude *.pyd
+[2024-05-22 13:25:44] INFO root fetch - processPackages [ipydatagrid]: Downloading https://files.pythonhosted.org/packages/6b/0d/3d5a8237948b996c54f213a8e7994daed6b2e5b8715610363cb85a3d0235/ipydatagrid-1.3.2.tar.gz
+[2024-05-22 13:25:44] INFO root fetch - processPackages [snakesays]: Remove: archive file [/home/abi/fetcher/tmp/snakesays-1.2.2.tar.gz]
+[2024-05-22 13:25:44] INFO root fetch - processPackages [snakesays]: Remove: archive file [/home/abi/fetcher/tmp/snakesays-1.2.3.tar.gz]
+[2024-05-22 13:25:44] INFO root fetch - processPackages [snakesays]: Start processing: JsFileWriter
+[2024-05-22 13:25:44] INFO root fetch - main [MainThread]: End processing [snakesays]: success
+[2024-05-22 13:25:44] WARNING root fetch - processPackages [JsFileWriter]: Skipping, unable to determine old version
+[2024-05-22 13:25:44] INFO root fetch - main [MainThread]: End processing [JsFileWriter] error
+[2024-05-22 13:25:44] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.8.tar.gz]
+[2024-05-22 13:25:44] INFO root fetch - processPackages [solar-registry]: Remove: archive file [/home/abi/fetcher/tmp/solar_registry-0.2.9.tar.gz]
+[2024-05-22 13:25:44] INFO root fetch - main [MainThread]: End processing [solar-registry]: success
+[2024-05-22 13:25:44] INFO root fetch - processPackages [insuranceqa-data]: Remove: archive file [/home/abi/fetcher/tmp/insuranceqa_data-2.5.2.tar.gz]
+[2024-05-22 13:25:44] INFO root fetch - processPackages [insuranceqa-data]: Remove: archive file [/home/abi/fetcher/tmp/insuranceqa_data-2.5.3.tar.gz]
+[2024-05-22 13:25:44] INFO root fetch - main [MainThread]: End processing [insuranceqa-data]: success
+[2024-05-22 13:25:45] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.8.tar.gz]
+[2024-05-22 13:25:45] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.1.9.tar.gz]
+[2024-05-22 13:25:45] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk]: success
+[2024-05-22 13:25:45] INFO root fetch - processPackages [so-vits-svc-fork]: Remove: archive file [/home/abi/fetcher/tmp/so_vits_svc_fork-4.2.6.tar.gz]
+[2024-05-22 13:25:45] INFO root fetch - processPackages [so-vits-svc-fork]: Remove: archive file [/home/abi/fetcher/tmp/so_vits_svc_fork-4.2.7.tar.gz]
+[2024-05-22 13:25:45] INFO root fetch - main [MainThread]: End processing [so-vits-svc-fork]: success
+[2024-05-22 13:25:45] INFO root fetch - processPackages [AAVT]: Remove: archive file [/home/abi/fetcher/tmp/AAVT-0.0.2.tar.gz]
+[2024-05-22 13:25:45] INFO root fetch - processPackages [AAVT]: Remove: archive file [/home/abi/fetcher/tmp/AAVT-0.0.3.tar.gz]
+[2024-05-22 13:25:45] INFO root fetch - main [MainThread]: End processing [AAVT]: success
+[2024-05-22 13:25:45] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.8-py3-none-any.whl.zip]
+[2024-05-22 13:25:45] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2024.5.9-py3-none-any.whl.zip]
+[2024-05-22 13:25:45] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2024-05-22 13:25:45] INFO root fetch - processPackages [ipydatagrid]: executing diffoscope
+[2024-05-22 13:25:45] INFO root fetch - processPackages [ipydatagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipydatagrid-1.3.1.tar.gz tmp/ipydatagrid-1.3.2.tar.gz --markdown 20240522/i/ipydatagrid/1.3.1-1.3.2/README.md --exclude *.pyd
+[2024-05-22 13:25:45] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.9.6.tar.gz]
+[2024-05-22 13:25:45] INFO root fetch - processPackages [ul-api-utils]: Remove: archive file [/home/abi/fetcher/tmp/ul-api-utils-7.9.7.tar.gz]
+[2024-05-22 13:25:45] INFO root fetch - main [MainThread]: End processing [ul-api-utils]: success
+[2024-05-22 13:25:45] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.1.tar.gz]
+[2024-05-22 13:25:45] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
+[2024-05-22 13:25:45] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2024-05-22 13:26:08] INFO root fetch - processPackages [ipydatagrid]: Remove: archive file [/home/abi/fetcher/tmp/ipydatagrid-1.3.1.tar.gz]
+[2024-05-22 13:26:08] INFO root fetch - processPackages [ipydatagrid]: Remove: archive file [/home/abi/fetcher/tmp/ipydatagrid-1.3.2.tar.gz]
+[2024-05-22 13:26:08] INFO root fetch - main [MainThread]: End processing [ipydatagrid]: success
+[2024-05-22 13:26:08] INFO root fetch - main [MainThread]: Store serial: [23323123]

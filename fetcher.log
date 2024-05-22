@@ -19658,3 +19658,38 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 12:17:02] INFO root fetch - processPackages [django-logikal]: Remove: archive file [/home/abi/fetcher/tmp/django_logikal-3.2.0.tar.gz]
 [2024-05-22 12:17:02] INFO root fetch - main [MainThread]: End processing [django-logikal]: success
 [2024-05-22 12:17:02] INFO root fetch - main [MainThread]: Store serial: [23322360]
+[2024-05-22 12:19:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23322360]
+[2024-05-22 12:19:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-05-22 12:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnata-plugin-runtime
+[2024-05-22 12:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PHStatsMethods
+[2024-05-22 12:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aa-ledger
+[2024-05-22 12:19:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-azure-native
+[2024-05-22 12:19:12] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.3.9a44] Old Version: [0.3.9a43]
+[2024-05-22 12:19:12] INFO root fetch - processPackages [aa-ledger]: New version: [0.3.8a1] Old Version: [0.3.8]
+[2024-05-22 12:19:12] INFO root fetch - processPackages [PHStatsMethods]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-22 12:19:12] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.9.1a1696416212] Old Version: [2.9.1a1696411987]
+[2024-05-22 12:19:12] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/8e/11/abde4b4d82373bc42a84a5591bf31c6cca540ba9f13337491df615af0b6c/omnata_plugin_runtime-0.3.9a43.tar.gz
+[2024-05-22 12:19:12] INFO root fetch - processPackages [PHStatsMethods]: Downloading https://files.pythonhosted.org/packages/7c/ec/99deb2f22beaab84abc2c7c1530e162406b707381b0df110ea23b5b6392b/phstatsmethods-0.1.7.tar.gz
+[2024-05-22 12:19:12] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/7c/39/23e88d5a9a544cb9a75a9c0b077f73c9c90cb756d8e32766dfffb90f8833/pulumi_azure_native-2.9.1a1696411987.tar.gz
+[2024-05-22 12:19:12] INFO root fetch - processPackages [aa-ledger]: Downloading https://files.pythonhosted.org/packages/77/cb/256c8876588b9a72ca7008a067cf6812cf38696084a072dc3014a4c8f801/aa_ledger-0.3.8.tar.gz
+[2024-05-22 12:19:12] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/de/f5/326ad467bb560d9dc8d7cebfe2aed77d524aeaf8a8ee7c6107f202eb6d0d/omnata_plugin_runtime-0.3.9a44.tar.gz
+[2024-05-22 12:19:12] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 27430128>=10485760
+[2024-05-22 12:19:12] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2024-05-22 12:19:12] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2024-05-22 12:19:12] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.3.9a43.tar.gz tmp/omnata_plugin_runtime-0.3.9a44.tar.gz --markdown 20240522/o/omnata-plugin-runtime/0.3.9a43-0.3.9a44/README.md --exclude *.pyd
+[2024-05-22 12:19:12] INFO root fetch - processPackages [PHStatsMethods]: Downloading https://files.pythonhosted.org/packages/fc/07/b008c456e24092ec1e23ce29e625a2f22e9fdcbcb18c5dea2f677fde90d4/phstatsmethods-0.1.8.tar.gz
+[2024-05-22 12:19:12] INFO root fetch - processPackages [aa-ledger]: Downloading https://files.pythonhosted.org/packages/c0/68/33f8aca635f2769aab9859ba5ddffb5ea67c0562728130d6e29d2681b5da/aa_ledger-0.3.8a1.tar.gz
+[2024-05-22 12:19:12] INFO root fetch - processPackages [PHStatsMethods]: executing diffoscope
+[2024-05-22 12:19:12] INFO root fetch - processPackages [PHStatsMethods]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phstatsmethods-0.1.7.tar.gz tmp/phstatsmethods-0.1.8.tar.gz --markdown 20240522/P/PHStatsMethods/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-22 12:19:12] INFO root fetch - processPackages [aa-ledger]: executing diffoscope
+[2024-05-22 12:19:12] INFO root fetch - processPackages [aa-ledger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa_ledger-0.3.8.tar.gz tmp/aa_ledger-0.3.8a1.tar.gz --markdown 20240522/a/aa-ledger/0.3.8-0.3.8a1/README.md --exclude *.pyd
+[2024-05-22 12:19:13] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a43.tar.gz]
+[2024-05-22 12:19:13] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.3.9a44.tar.gz]
+[2024-05-22 12:19:13] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2024-05-22 12:19:13] INFO root fetch - processPackages [PHStatsMethods]: Remove: archive file [/home/abi/fetcher/tmp/phstatsmethods-0.1.7.tar.gz]
+[2024-05-22 12:19:13] INFO root fetch - processPackages [PHStatsMethods]: Remove: archive file [/home/abi/fetcher/tmp/phstatsmethods-0.1.8.tar.gz]
+[2024-05-22 12:19:13] INFO root fetch - main [MainThread]: End processing [PHStatsMethods]: success
+[2024-05-22 12:19:13] INFO root fetch - processPackages [aa-ledger]: Remove: archive file [/home/abi/fetcher/tmp/aa_ledger-0.3.8.tar.gz]
+[2024-05-22 12:19:13] INFO root fetch - processPackages [aa-ledger]: Remove: archive file [/home/abi/fetcher/tmp/aa_ledger-0.3.8a1.tar.gz]
+[2024-05-22 12:19:13] INFO root fetch - main [MainThread]: End processing [aa-ledger]: success
+[2024-05-22 12:19:13] INFO root fetch - main [MainThread]: Store serial: [23322373]

@@ -21891,3 +21891,92 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2024-05-22 13:51:02] INFO root fetch - processPackages [beaker-kernel]: Remove: archive file [/home/abi/fetcher/tmp/beaker_kernel-1.5.3.tar.gz]
 [2024-05-22 13:51:02] INFO root fetch - main [MainThread]: End processing [beaker-kernel]: success
 [2024-05-22 13:51:02] INFO root fetch - main [MainThread]: Store serial: [23323408]
+[2024-05-22 13:53:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [23323408]
+[2024-05-22 13:53:14] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-05-22 13:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymobiledevice3
+[2024-05-22 13:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kpops
+[2024-05-22 13:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feincms3-data
+[2024-05-22 13:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-smartbase-admin
+[2024-05-22 13:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: genocide
+[2024-05-22 13:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mistralrs
+[2024-05-22 13:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mistralrs-accelerate
+[2024-05-22 13:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mistralrs-cuda
+[2024-05-22 13:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mistralrs-metal
+[2024-05-22 13:53:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mistralrs-mkl
+[2024-05-22 13:53:14] INFO root fetch - processPackages [pymobiledevice3]: New version: [4.8.2] Old Version: [4.8.1]
+[2024-05-22 13:53:14] INFO root fetch - processPackages [kpops]: New version: [5.1.0] Old Version: [5.0.1]
+[2024-05-22 13:53:14] INFO root fetch - processPackages [feincms3-data]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-05-22 13:53:14] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/97/ae/a2447d9a961db92f708a93c4e7d7636604639969fc495cf5ccddc6a9bd08/kpops-5.0.1.tar.gz
+[2024-05-22 13:53:14] INFO root fetch - processPackages [mistralrs-cuda]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-22 13:53:14] INFO root fetch - processPackages [mistralrs-accelerate]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-22 13:53:14] INFO root fetch - processPackages [mistralrs-metal]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-22 13:53:14] INFO root fetch - processPackages [mistralrs]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-22 13:53:14] INFO root fetch - processPackages [mistralrs-mkl]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-05-22 13:53:14] INFO root fetch - processPackages [django-smartbase-admin]: New version: [0.2.9] Old Version: [0.2.7]
+[2024-05-22 13:53:14] INFO root fetch - processPackages [genocide]: New version: [91] Old Version: [90]
+[2024-05-22 13:53:14] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/8d/38/606313efa24395ec60562d0ad72bfcbde2bbb0fb00ecfbf1c78792cc2009/pymobiledevice3-4.8.1.tar.gz
+[2024-05-22 13:53:14] INFO root fetch - processPackages [feincms3-data]: Downloading https://files.pythonhosted.org/packages/da/e8/687d51627ade443ba33d416a5d5cca8e45c046a143c8a7b4745b7804a35c/feincms3_data-0.6.0.tar.gz
+[2024-05-22 13:53:14] INFO root fetch - processPackages [mistralrs-metal]: Downloading https://files.pythonhosted.org/packages/d7/cb/1c1829f026d8730188a6dd7b8c0b74ba12488ec5f0014bf6f2ac26557a8e/mistralrs_metal-0.1.7.tar.gz
+[2024-05-22 13:53:14] WARNING root fetch - processPackages [pymobiledevice3]: Skipping package: exceeds size limit 31547988>=10485760
+[2024-05-22 13:53:14] INFO root fetch - main [MainThread]: End processing [pymobiledevice3] error
+[2024-05-22 13:53:15] INFO root fetch - processPackages [mistralrs-accelerate]: Downloading https://files.pythonhosted.org/packages/16/0a/51622b926f438156a7034b0565800cb9a09813be7eb86ac66e5ed84d3039/mistralrs_accelerate-0.1.7.tar.gz
+[2024-05-22 13:53:15] INFO root fetch - processPackages [mistralrs]: Downloading https://files.pythonhosted.org/packages/6c/f4/22716a35132cc0405584e4709018c303605e6e9dc84207345058f125a7f8/mistralrs-0.1.7.tar.gz
+[2024-05-22 13:53:15] INFO root fetch - processPackages [mistralrs-cuda]: Downloading https://files.pythonhosted.org/packages/57/03/d03238c7a179bc95c7954a216d0a931c2430f893a3ad750911f9e39a208a/mistralrs_cuda-0.1.7.tar.gz
+[2024-05-22 13:53:15] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/a9/c8/6d98b7b9cf2d1648858e751e3a56643e22cf22c1f89000b4a012f5d1837a/kpops-5.1.0.tar.gz
+[2024-05-22 13:53:15] INFO root fetch - processPackages [genocide]: Downloading https://files.pythonhosted.org/packages/2a/ca/2a8f5185e8595c21615f335b163fb52cc0092719a61f6f46bdf76aaba69c/genocide-90.tar.gz
+[2024-05-22 13:53:15] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/4c/b9/c32d7019547d76c2c6c1b8ea747b942212105b1c88767762bab1ac62f415/django_smartbase_admin-0.2.7.tar.gz
+[2024-05-22 13:53:15] INFO root fetch - processPackages [mistralrs-mkl]: Downloading https://files.pythonhosted.org/packages/64/ff/37ded4b97ec172af32fd0d6354cb44e3fe4d8872291a598a9e668d2a5b23/mistralrs_mkl-0.1.7.tar.gz
+[2024-05-22 13:53:15] INFO root fetch - processPackages [kpops]: executing diffoscope
+[2024-05-22 13:53:15] INFO root fetch - processPackages [kpops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kpops-5.0.1.tar.gz tmp/kpops-5.1.0.tar.gz --markdown 20240522/k/kpops/5.0.1-5.1.0/README.md --exclude *.pyd
+[2024-05-22 13:53:15] INFO root fetch - processPackages [feincms3-data]: Downloading https://files.pythonhosted.org/packages/4a/c6/aab04a58ef643b8f109f817717a148c133f6695bcd0ea33dbdd584eddecb/feincms3_data-0.6.1.tar.gz
+[2024-05-22 13:53:15] INFO root fetch - processPackages [mistralrs-metal]: Downloading https://files.pythonhosted.org/packages/cb/ed/bb9b40132ae30f73b31dd067ae3b1f6d9b1c949e77a87fc7f5befd83a505/mistralrs_metal-0.1.8.tar.gz
+[2024-05-22 13:53:15] INFO root fetch - processPackages [mistralrs-accelerate]: Downloading https://files.pythonhosted.org/packages/30/e1/8bfe3315cc16df6e5e3f15bd82fbd5bcb892d939aec89a1b85e8c7370af4/mistralrs_accelerate-0.1.8.tar.gz
+[2024-05-22 13:53:15] INFO root fetch - processPackages [mistralrs]: Downloading https://files.pythonhosted.org/packages/4b/aa/2362b3852bc98c119268e4306a1b28f9d70ec7c6286b0cb460098bd9f156/mistralrs-0.1.8.tar.gz
+[2024-05-22 13:53:15] INFO root fetch - processPackages [mistralrs-metal]: executing diffoscope
+[2024-05-22 13:53:15] INFO root fetch - processPackages [mistralrs-mkl]: Downloading https://files.pythonhosted.org/packages/3d/0b/2428fa4b067b2f15b0c2fd560c386f5605cd65b158119833b00e90559e9b/mistralrs_mkl-0.1.8.tar.gz
+[2024-05-22 13:53:15] INFO root fetch - processPackages [mistralrs-metal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_metal-0.1.7.tar.gz tmp/mistralrs_metal-0.1.8.tar.gz --markdown 20240522/m/mistralrs-metal/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-22 13:53:15] INFO root fetch - processPackages [feincms3-data]: executing diffoscope
+[2024-05-22 13:53:15] INFO root fetch - processPackages [feincms3-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feincms3_data-0.6.0.tar.gz tmp/feincms3_data-0.6.1.tar.gz --markdown 20240522/f/feincms3-data/0.6.0-0.6.1/README.md --exclude *.pyd
+[2024-05-22 13:53:15] INFO root fetch - processPackages [mistralrs-cuda]: Downloading https://files.pythonhosted.org/packages/41/48/65bdab6cc3047f20020459b05626167a7d46e4a15e485d9bf738006d84ca/mistralrs_cuda-0.1.8.tar.gz
+[2024-05-22 13:53:15] INFO root fetch - processPackages [mistralrs-accelerate]: executing diffoscope
+[2024-05-22 13:53:15] INFO root fetch - processPackages [mistralrs-accelerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_accelerate-0.1.7.tar.gz tmp/mistralrs_accelerate-0.1.8.tar.gz --markdown 20240522/m/mistralrs-accelerate/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-22 13:53:15] INFO root fetch - processPackages [mistralrs]: executing diffoscope
+[2024-05-22 13:53:15] INFO root fetch - processPackages [mistralrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs-0.1.7.tar.gz tmp/mistralrs-0.1.8.tar.gz --markdown 20240522/m/mistralrs/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-22 13:53:15] INFO root fetch - processPackages [mistralrs-mkl]: executing diffoscope
+[2024-05-22 13:53:15] INFO root fetch - processPackages [mistralrs-mkl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_mkl-0.1.7.tar.gz tmp/mistralrs_mkl-0.1.8.tar.gz --markdown 20240522/m/mistralrs-mkl/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-22 13:53:15] INFO root fetch - processPackages [mistralrs-cuda]: executing diffoscope
+[2024-05-22 13:53:15] INFO root fetch - processPackages [mistralrs-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mistralrs_cuda-0.1.7.tar.gz tmp/mistralrs_cuda-0.1.8.tar.gz --markdown 20240522/m/mistralrs-cuda/0.1.7-0.1.8/README.md --exclude *.pyd
+[2024-05-22 13:53:16] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/63/1e/301c376a330a21311919a45d9762d7c6c5d2090546a3b0d3b0e36db1c986/django_smartbase_admin-0.2.9.tar.gz
+[2024-05-22 13:53:16] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-5.0.1.tar.gz]
+[2024-05-22 13:53:16] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-5.1.0.tar.gz]
+[2024-05-22 13:53:16] INFO root fetch - main [MainThread]: End processing [kpops]: success
+[2024-05-22 13:53:16] INFO root fetch - processPackages [feincms3-data]: Remove: archive file [/home/abi/fetcher/tmp/feincms3_data-0.6.0.tar.gz]
+[2024-05-22 13:53:16] INFO root fetch - processPackages [feincms3-data]: Remove: archive file [/home/abi/fetcher/tmp/feincms3_data-0.6.1.tar.gz]
+[2024-05-22 13:53:16] INFO root fetch - main [MainThread]: End processing [feincms3-data]: success
+[2024-05-22 13:53:16] INFO root fetch - processPackages [django-smartbase-admin]: executing diffoscope
+[2024-05-22 13:53:16] INFO root fetch - processPackages [django-smartbase-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_smartbase_admin-0.2.7.tar.gz tmp/django_smartbase_admin-0.2.9.tar.gz --markdown 20240522/d/django-smartbase-admin/0.2.7-0.2.9/README.md --exclude *.pyd
+[2024-05-22 13:53:17] INFO root fetch - processPackages [mistralrs-metal]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_metal-0.1.7.tar.gz]
+[2024-05-22 13:53:17] INFO root fetch - processPackages [mistralrs-metal]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_metal-0.1.8.tar.gz]
+[2024-05-22 13:53:17] INFO root fetch - main [MainThread]: End processing [mistralrs-metal]: success
+[2024-05-22 13:53:17] INFO root fetch - processPackages [mistralrs-accelerate]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_accelerate-0.1.7.tar.gz]
+[2024-05-22 13:53:17] INFO root fetch - processPackages [mistralrs-accelerate]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_accelerate-0.1.8.tar.gz]
+[2024-05-22 13:53:17] INFO root fetch - main [MainThread]: End processing [mistralrs-accelerate]: success
+[2024-05-22 13:53:17] INFO root fetch - processPackages [mistralrs]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs-0.1.7.tar.gz]
+[2024-05-22 13:53:17] INFO root fetch - processPackages [mistralrs]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs-0.1.8.tar.gz]
+[2024-05-22 13:53:17] INFO root fetch - main [MainThread]: End processing [mistralrs]: success
+[2024-05-22 13:53:17] INFO root fetch - processPackages [mistralrs-cuda]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_cuda-0.1.7.tar.gz]
+[2024-05-22 13:53:17] INFO root fetch - processPackages [mistralrs-cuda]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_cuda-0.1.8.tar.gz]
+[2024-05-22 13:53:17] INFO root fetch - main [MainThread]: End processing [mistralrs-cuda]: success
+[2024-05-22 13:53:17] INFO root fetch - processPackages [mistralrs-mkl]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_mkl-0.1.7.tar.gz]
+[2024-05-22 13:53:17] INFO root fetch - processPackages [mistralrs-mkl]: Remove: archive file [/home/abi/fetcher/tmp/mistralrs_mkl-0.1.8.tar.gz]
+[2024-05-22 13:53:17] INFO root fetch - main [MainThread]: End processing [mistralrs-mkl]: success
+[2024-05-22 13:53:17] INFO root fetch - processPackages [genocide]: Downloading https://files.pythonhosted.org/packages/71/6d/f0e393ca7d1bfa65c6ccf1bbb0a3297ad94d25c42b130526ca74d11ddcc4/genocide-91.tar.gz
+[2024-05-22 13:53:18] INFO root fetch - processPackages [genocide]: executing diffoscope
+[2024-05-22 13:53:18] INFO root fetch - processPackages [genocide]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240522:/home/abi/fetcher/20240522:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genocide-90.tar.gz tmp/genocide-91.tar.gz --markdown 20240522/g/genocide/90-91/README.md --exclude *.pyd
+[2024-05-22 13:53:19] INFO root fetch - processPackages [genocide]: Remove: archive file [/home/abi/fetcher/tmp/genocide-90.tar.gz]
+[2024-05-22 13:53:19] INFO root fetch - processPackages [genocide]: Remove: archive file [/home/abi/fetcher/tmp/genocide-91.tar.gz]
+[2024-05-22 13:53:19] INFO root fetch - main [MainThread]: End processing [genocide]: success
+[2024-05-22 13:53:21] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.7.tar.gz]
+[2024-05-22 13:53:21] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.9.tar.gz]
+[2024-05-22 13:53:21] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
+[2024-05-22 13:53:21] INFO root fetch - main [MainThread]: Store serial: [23323432]
